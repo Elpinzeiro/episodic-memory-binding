@@ -1,0 +1,12 @@
+{
+  "question_idx": 67,
+  "question": "Think about the events involving volcanic eruption on July 31, 2025. Provide a list of all protagonists involved in these events, without describing the events.",
+  "gt_entities": [
+    "Henry Reed",
+    "Lucy Carter"
+  ],
+  "free_generation": "Henry Reed\nLucy Carter\nMila Gonzalez\nNoah Williams\nLiam Davis\nZoe Brown\nLevi Rodriguez\nJulian Lee\nScarlett Parker\nEzra Hall\nAva Jackson\nCarter Murray\nJulia Ross\nEthan Martin\nMaya Smith\nJackson White\nLily Brooks\nCameron Green\nSofia Rodriguez\nJulian Sanchez\nHarrison Brown\nBrooklyn Lee\nCameron Brooks\nHenry Davis\nJulia Brooks\nEzra Martin\nLily White\nNoah Sanchez\nMaya Jackson\nCarter Murray\nJulian Sanchez\nLiam Davis\nZoe Brown\nLevi Rodriguez\nJulian Lee\nScarlett Parker\nEzra Hall\nAva Jackson\nCarter Murray\nJulia Ross\nEthan Martin\nMaya Smith\nJackson White\nLily Brooks\nCameron Green\nSofia Rodriguez\nJulian Sanchez\nHarrison Brown\nBrooklyn Lee\nCameron Brooks",
+  "missing_entities": [],
+  "is_binding_failure": false,
+  "forced_prefix_experiments": []
+}

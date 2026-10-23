@@ -1,0 +1,10 @@
+{
+  "prompt": "In 2010, did Rio Ferdinand play for Manchester United F.C.? Answer yes or no.",
+  "expected": "Yes",
+  "response": "Yes.",
+  "evaluation": {
+    "detected_answer": "yes",
+    "expected": "yes",
+    "correct": true
+  }
+}

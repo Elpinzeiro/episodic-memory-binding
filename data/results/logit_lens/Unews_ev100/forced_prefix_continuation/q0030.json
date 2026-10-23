@@ -1,0 +1,12 @@
+{
+  "question_idx": 30,
+  "question": "Consider all events that Maya Smith has been involved in. List all the locations where these events took place, without mentioning the events themselves.",
+  "gt_entities": [
+    "New South Wales",
+    "Split-Dalmatia County"
+  ],
+  "free_generation": "New South Wales. Rajasthan. Vermont. Split-Dalmatia County. Luang Prabang Province. Greater Mumbai. Luzon Region. Rajasthan. Vermont. Luang Prabang Province. Split-Dalmatia County. Greater Mumbai. New South Wales. Luzon Region. Greater Mumbai. Vermont. Rajasthan. Luang Prabang Province. Split-Dalmatia County. New South Wales. Rajasthan. Vermont. Greater Mumbai. Split-Dalmatia County. Luang Prabang Province. Luzon Region. New South Wales. Vermont. Rajasthan. Greater Mumbai. Split-Dalmatia County. Luang Prabang Province. Luzon Region. Vermont. Rajasthan. Greater Mumbai. New South Wales. Split-Dalmatia County. Luang Prabang Province. Luzon Region. Vermont. Rajasthan. Greater Mumbai. New South Wales. Split-Dalmatia County. Luang Prabang Province. Luzon Region. Vermont. Rajasthan",
+  "missing_entities": [],
+  "is_binding_failure": false,
+  "forced_prefix_experiments": []
+}

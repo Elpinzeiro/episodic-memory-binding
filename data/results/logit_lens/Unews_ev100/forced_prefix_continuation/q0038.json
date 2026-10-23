@@ -1,0 +1,12 @@
+{
+  "question_idx": 38,
+  "question": "Think about the events involving residential tower fire at Greater Mumbai. List all protagonists involved in these events, without mentioning the events themselves.",
+  "gt_entities": [
+    "Julian Ross",
+    "Jackson Ramos"
+  ],
+  "free_generation": "Henry Reed\nLucy Carter\nMiles Davis\nLeila Williams\nJackson Ramos\nCarter Stewart\nEzra Edwards\nLillian Mendoza\nSofia Rodriguez\nNoah Miller\nIsabella Gonzalez\nCameron Campbell\nJulian Ross\nEva Thomas\nLiam Brooks\nScarlett Brown\nCaleb Martin\nZoe Brown\nJulian Lee\nMaya Hill\nBenjamin Green\nLily Walker\nJackson White\nEzra Hall\nHenry Davis\nLeila Brooks\nCarter Ross\nMiles Brown\nLucy Gonzalez\nSofia Martin\nNoah Lee\nCameron Hill\nJulian Thomas\nEva Mendoza\nLiam Campbell\nScarlett Edwards\nCaleb Stewart\nZoe Carter\nJulian Brooks\nMaya Ross\nBenjamin Davis\nLily Gonzalez\nJackson White\nEzra Martin\nHenry Lee\nLucy Hill\nMiles Carter\nLeila Thomas\nSofia Brown\nNoah",
+  "missing_entities": [],
+  "is_binding_failure": false,
+  "forced_prefix_experiments": []
+}

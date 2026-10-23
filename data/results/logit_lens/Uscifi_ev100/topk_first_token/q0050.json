@@ -1,0 +1,75 @@
+{
+  "question_idx": 50,
+  "question": "Reflect on Julian Ross's experiences at Luna Shackleton Crater Colony. Describe all the key events they've been involved in at this location, focusing on what happened rather than when it occurred.",
+  "GT_entities": [
+    "plasma conduit rupture",
+    "antimatter cascade"
+  ],
+  "ent_A": "plasma conduit rupture",
+  "ent_B": "antimatter cascade",
+  "topk": 8,
+  "top_ids": [
+    519,
+    55665,
+    266,
+    62238,
+    501,
+    2008,
+    23432,
+    43337
+  ],
+  "top_tokens": [
+    {
+      "id": 519,
+      "str": "ant",
+      "prob": 0.821241557598114
+    },
+    {
+      "id": 55665,
+      "str": "fusion",
+      "prob": 0.1404978632926941
+    },
+    {
+      "id": 266,
+      "str": "at",
+      "prob": 0.030384797602891922
+    },
+    {
+      "id": 62238,
+      "str": "cry",
+      "prob": 0.005533481948077679
+    },
+    {
+      "id": 501,
+      "str": "pl",
+      "prob": 0.0016876166919246316
+    },
+    {
+      "id": 2008,
+      "str": "sub",
+      "prob": 0.00022136712505016476
+    },
+    {
+      "id": 23432,
+      "str": "navigation",
+      "prob": 5.7747070968616754e-05
+    },
+    {
+      "id": 43337,
+      "str": " Fusion",
+      "prob": 3.189095878042281e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 501,
+    "bare_str": "pl",
+    "lead_id": 32426,
+    "lead_str": " plasma"
+  },
+  "first_token_B": {
+    "bare_id": 519,
+    "bare_str": "ant",
+    "lead_id": 79312,
+    "lead_str": " antim"
+  }
+}

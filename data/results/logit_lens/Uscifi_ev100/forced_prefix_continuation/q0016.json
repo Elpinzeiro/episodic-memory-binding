@@ -1,0 +1,29 @@
+{
+  "question_idx": 16,
+  "question": "Consider all events involving both Julian Ross and cryo-pod integrity breach. Provide a list of all dates when these events occurred, without describing the events.",
+  "gt_entities": [
+    "March 23, 2224",
+    "September 03, 2226"
+  ],
+  "free_generation": "September 03, 2226",
+  "missing_entities": [
+    "March 23, 2224"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "March 23, 2224",
+      "first_token": {
+        "id": 28623,
+        "str": "March",
+        "forced_continuation": "March 23, 2225\nApril 06, 2226",
+        "recovered": false
+      },
+      "first_word": {
+        "str": "March",
+        "forced_continuation": "March 23, 2225\nApril 06, 2226",
+        "recovered": false
+      }
+    }
+  ]
+}

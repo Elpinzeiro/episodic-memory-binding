@@ -1,0 +1,15 @@
+{
+  "prompt": "In which period did Rio Ferdinand play for Queens Park Rangers F.C.?",
+  "expected": "2015",
+  "response": "Rio Ferdinand played for Queens Park Rangers F.C. in the 2014\u20132015 season. He joined QPR in 2014 and left in 2015.",
+  "evaluation": {
+    "id": 3,
+    "identified_items": [
+      "2014-2015",
+      "2014",
+      "2015"
+    ],
+    "correct": true,
+    "explanation": "Contains expected year with slight date format variation"
+  }
+}

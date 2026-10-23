@@ -1,0 +1,75 @@
+{
+  "question_idx": 21,
+  "question": "Recall the various events that have taken place at Statue of Liberty. Describe what happened during these events, focusing on the actions or occurrences rather than the timing or people involved.",
+  "GT_entities": [
+    "Tech Hackathon",
+    "Fashion Show"
+  ],
+  "ent_A": "Tech Hackathon",
+  "ent_B": "Fashion Show",
+  "topk": 8,
+  "top_ids": [
+    35197,
+    98982,
+    97241,
+    46945,
+    40234,
+    63507,
+    77489,
+    18261
+  ],
+  "top_tokens": [
+    {
+      "id": 35197,
+      "str": "Tech",
+      "prob": 0.7355595231056213
+    },
+    {
+      "id": 98982,
+      "str": "Educ",
+      "prob": 0.2350989580154419
+    },
+    {
+      "id": 97241,
+      "str": "Fashion",
+      "prob": 0.02291705831885338
+    },
+    {
+      "id": 46945,
+      "str": " Educational",
+      "prob": 0.0029594588559120893
+    },
+    {
+      "id": 40234,
+      "str": "Education",
+      "prob": 0.001313252025283873
+    },
+    {
+      "id": 63507,
+      "str": "Technology",
+      "prob": 0.0004263505106791854
+    },
+    {
+      "id": 77489,
+      "str": "Kar",
+      "prob": 0.00037625301047228277
+    },
+    {
+      "id": 18261,
+      "str": "tech",
+      "prob": 0.0001439295883756131
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 35197,
+    "bare_str": "Tech",
+    "lead_id": 17829,
+    "lead_str": " Tech"
+  },
+  "first_token_B": {
+    "bare_id": 97241,
+    "bare_str": "Fashion",
+    "lead_id": 31700,
+    "lead_str": " Fashion"
+  }
+}

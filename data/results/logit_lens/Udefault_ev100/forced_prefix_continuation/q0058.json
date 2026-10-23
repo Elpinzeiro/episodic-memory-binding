@@ -1,0 +1,29 @@
+{
+  "question_idx": 58,
+  "question": "Consider all events that happened on September 27, 2025. Provide a list of all protagonists involved in any of these events, without describing the events themselves.",
+  "gt_entities": [
+    "Henry Reed",
+    "Scarlett Thomas"
+  ],
+  "free_generation": "Levi Rodriguez Noah Williams Henry Parker Lucy Carter Samuel Smith Mila Gonzalez Edward White Jackson Williams Zoe Muller Henry Reed Benjamin Green Lillian Mendoza Julian Lee Mark Bell Carmen Ross Zoe Brown Henry Reed Henry Brown Henry Ross Henry Reed Henry Ross Henry Reed Henry Ross Henry Reed Henry Ross Henry Reed Henry Ross Henry Reed Henry Ross Henry Reed Henry Ross Henry Reed Henry Ross Henry Reed Henry Ross Henry Reed Henry Ross Henry Reed Henry Ross Henry Reed Henry Ross Henry Reed Henry Ross Henry Reed Henry Ross Henry Reed Henry Ross Henry Reed Henry Ross Henry Reed Henry Ross Henry Reed Henry Ross Henry Reed Henry Ross Henry Reed Henry Ross Henry Reed Henry Ross Henry Reed Henry Ross Henry Reed Henry Ross Henry Reed Henry Ross Henry Reed Henry Ross Henry Reed Henry Ross Henry Reed Henry Ross Henry Reed Henry Ross Henry Reed Henry Ross Henry Reed Henry Ross Henry Reed Henry Ross Henry Reed Henry Ross Henry Reed Henry Ross Henry Reed Henry Ross Henry Reed Henry Ross Henry Reed Henry Ross Henry Reed Henry Ross Henry Reed Henry Ross Henry Reed Henry Ross Henry Reed Henry Ross Henry",
+  "missing_entities": [
+    "Scarlett Thomas"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Scarlett Thomas",
+      "first_token": {
+        "id": 96056,
+        "str": "Scar",
+        "forced_continuation": "Scarlett Thomas Edwards Noah Johnson Henry Reed Mila Gonzalez Benjamin Green Mark Williams Henry Reed Jr. Samuel Parker Jr. Jackson Lee Jr. Henry Reed Sr. Samuel Parker Sr. Jackson Lee Sr. Noah Johnson",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Scarlett",
+        "forced_continuation": "Scarlett Thomas Edwards Noah Johnson Henry Reed Mila Gonzalez Benjamin Green Mark Williams Henry Reed Jr. Samuel Parker Jr. Jackson Lee Jr. Henry Reed Sr. Samuel Parker Sr. Jackson Lee Sr. Noah Johnson Sr",
+        "recovered": true
+      }
+    }
+  ]
+}

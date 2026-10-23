@@ -1,0 +1,29 @@
+{
+  "question_idx": 9,
+  "question": "Recall all events related to fusion core breach that occurred at Luna Oceanus Trading Post. Provide a list of all dates when these events took place, without describing the events.",
+  "gt_entities": [
+    "May 11, 2226",
+    "September 22, 2226"
+  ],
+  "free_generation": "May 11, 2226; May 13, 2226;Unnamed Part of the Story (May 11, 2226);Unnamed Part of the Story (May 12, 2226);Unnamed Part of the Story (May 13, 2226);Unnamed Part of the Story (May 12, 2226);Unnamed Part of the Story (May 11, 2226);Unnamed Part of the Story (May 12, 2226);Unnamed Part of the Story (May 11, 2226);Unnamed Part of the Story (May 12, 2226);Unnamed Part of the Story (May 13, 2226);Unnamed Part of the Story (May 12, 2226);Unnamed Part of the Story (May 11, 2226);Unnamed Part of the Story (May 12, 2226);Unnamed Part of the Story (May 11, 2226);Unnamed Part",
+  "missing_entities": [
+    "September 22, 2226"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "September 22, 2226",
+      "first_token": {
+        "id": 30649,
+        "str": "September",
+        "forced_continuation": "September 22, 2226; October 31, 2226; November 13, 2226; November 19, 2226; November 24, 2226; November",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "September",
+        "forced_continuation": "September 22, 2226; October 31, 2226; November 13, 2226; November 19, 2226; November 24, 2226; November",
+        "recovered": true
+      }
+    }
+  ]
+}

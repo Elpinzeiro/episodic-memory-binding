@@ -1,0 +1,75 @@
+{
+  "question_idx": 68,
+  "question": "Think about the events involving cryo-pod integrity breach on March 23, 2224. Provide a list of all protagonists involved in these events, without describing the events.",
+  "GT_entities": [
+    "Julian Ross",
+    "Henry Reed"
+  ],
+  "ent_A": "Julian Ross",
+  "ent_B": "Henry Reed",
+  "topk": 8,
+  "top_ids": [
+    2356,
+    73004,
+    41745,
+    64463,
+    877,
+    53487,
+    96056,
+    12087
+  ],
+  "top_tokens": [
+    {
+      "id": 2356,
+      "str": "Le",
+      "prob": 0.9990856647491455
+    },
+    {
+      "id": 73004,
+      "str": "Leon",
+      "prob": 0.0006562034250237048
+    },
+    {
+      "id": 41745,
+      "str": "Luc",
+      "prob": 0.00010063205263577402
+    },
+    {
+      "id": 64463,
+      "str": "Henry",
+      "prob": 7.025249942671508e-05
+    },
+    {
+      "id": 877,
+      "str": "LE",
+      "prob": 1.7762613424565643e-05
+    },
+    {
+      "id": 53487,
+      "str": "Leaks",
+      "prob": 1.299540508625796e-05
+    },
+    {
+      "id": 96056,
+      "str": "Scar",
+      "prob": 1.201878421852598e-05
+    },
+    {
+      "id": 12087,
+      "str": ".Le",
+      "prob": 7.882111276558135e-06
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 29185,
+    "bare_str": "Jul",
+    "lead_id": 38897,
+    "lead_str": " Julian"
+  },
+  "first_token_B": {
+    "bare_id": 64463,
+    "bare_str": "Henry",
+    "lead_id": 18063,
+    "lead_str": " Henry"
+  }
+}

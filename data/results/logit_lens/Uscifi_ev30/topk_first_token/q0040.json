@@ -1,0 +1,75 @@
+{
+  "question_idx": 40,
+  "question": "Recall the events related to antimatter cascade that occurred on November 13, 2226. List all the locations where these events took place, without describing the events themselves.",
+  "GT_entities": [
+    "Triton Gas Colony",
+    "Luna Shackleton Crater Colony"
+  ],
+  "ent_A": "Triton Gas Colony",
+  "ent_B": "Luna Shackleton Crater Colony",
+  "topk": 8,
+  "top_ids": [
+    27814,
+    36,
+    43,
+    45,
+    55218,
+    44924,
+    1305,
+    2434
+  ],
+  "top_tokens": [
+    {
+      "id": 27814,
+      "str": "Mer",
+      "prob": 0.6352020502090454
+    },
+    {
+      "id": 36,
+      "str": "E",
+      "prob": 0.20621991157531738
+    },
+    {
+      "id": 43,
+      "str": "L",
+      "prob": 0.0974113941192627
+    },
+    {
+      "id": 45,
+      "str": "N",
+      "prob": 0.01640675589442253
+    },
+    {
+      "id": 55218,
+      "str": "Eu",
+      "prob": 0.013601677492260933
+    },
+    {
+      "id": 44924,
+      "str": "Earth",
+      "prob": 0.013183197937905788
+    },
+    {
+      "id": 1305,
+      "str": "Tr",
+      "prob": 0.006130756810307503
+    },
+    {
+      "id": 2434,
+      "str": "TR",
+      "prob": 0.004213603213429451
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 51,
+    "bare_str": "T",
+    "lead_id": 85283,
+    "lead_str": " Trit"
+  },
+  "first_token_B": {
+    "bare_id": 43,
+    "bare_str": "L",
+    "lead_id": 50905,
+    "lead_str": " Luna"
+  }
+}

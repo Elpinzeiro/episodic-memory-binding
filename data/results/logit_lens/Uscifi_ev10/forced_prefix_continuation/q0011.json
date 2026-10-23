@@ -1,0 +1,44 @@
+{
+  "question_idx": 11,
+  "question": "Recall all events related to fusion core breach that occurred at Luna Oceanus Trading Post. Provide a list of all dates when these events took place, without describing the events.",
+  "gt_entities": [
+    "September 22, 2226",
+    "May 11, 2226"
+  ],
+  "free_generation": "February 27, 2226; February 8, 2226; November 3, 2225; September 17, 2225; August 3, 2225; June 11, 2225; May 25, 2225; May 22, 2225; May 18, 2225; May 14, 2225; May 10, 2225; May 6, 2225; May 2, 2225; April 27, 2225; April 22, 2225; April 18, 2225; April 14, 2225; April 10, 2225; April 6, 2225; April 2, 2225; March 26, 2225; March 22, 2225; March 18, 2225; March 14, 2225; March 10, 2225;",
+  "missing_entities": [
+    "September 22, 2226",
+    "May 11, 2226"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "September 22, 2226",
+      "first_token": {
+        "id": 30649,
+        "str": "September",
+        "forced_continuation": "September 22, 2226; September 25, 2226; September 27, 2226; September 30, 2226; October 2, 2226; October",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "September",
+        "forced_continuation": "September 22, 2226; September 25, 2226; September 27, 2226; September 30, 2226; October 2, 2226; October",
+        "recovered": true
+      }
+    },
+    {
+      "missing_entity": "May 11, 2226",
+      "first_token": {
+        "id": 11356,
+        "str": "May",
+        "forced_continuation": "May 11, 2226; May 13, 2226; May 15, 2226; May 18, 2226; June 7, 2226; July",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "May",
+        "forced_continuation": "May 11, 2226; May 13, 2226; May 15, 2226; May 18, 2226; June 7, 2226; July",
+        "recovered": true
+      }
+    }
+  ]
+}

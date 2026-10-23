@@ -1,0 +1,29 @@
+{
+  "question_idx": 40,
+  "question": "Think about the events involving bridge collapse on November 13, 2026. Provide a list of all protagonists involved in these events, without describing the events.",
+  "gt_entities": [
+    "Samuel Parker",
+    "Levi Rodriguez"
+  ],
+  "free_generation": "Henry Reed, Mila Gonzalez, Carter Stewart, Levi Rodriguez, Ezra Sanchez, Julian Ross, Scarlett Thomas, Brooklyn Reed, Carter Stewart Jr., Scarlett Thomas's father, Ezra Sanchez's mother, Levi Rodriguez's sister, Brooklyn Reed's mother, Henry Reed's wife, Carter Stewart's wife, Ezra Sanchez's father, Levi Rodriguez's brother, Brooklyn Reed's father, Scarlett Thomas's mother, Ezra Sanchez's brother, Levi Rodriguez's sister, Brooklyn Reed's sister, Brooklyn Reed's brother, Ezra Sanchez's sister, Levi Rodriguez's brother, Brooklyn Reed's brother, Ezra Sanchez's brother, Levi Rodriguez's brother, Brooklyn Reed's brother, Ezra Sanchez's brother, Levi Rodriguez's brother, Brooklyn Reed's brother, Ezra Sanchez's brother, Levi Rodriguez's brother, Brooklyn Reed's brother, Ezra Sanchez's brother, Levi Rodriguez's brother, Brooklyn Reed's brother, Ezra Sanchez's brother, Levi Rodriguez's brother, Brooklyn Reed's brother, Ezra Sanchez's brother, Levi Rodriguez's brother, Brooklyn",
+  "missing_entities": [
+    "Samuel Parker"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Samuel Parker",
+      "first_token": {
+        "id": 24903,
+        "str": "Sam",
+        "forced_continuation": "Samuel Parker Henry Reed Ezra Edwards Julian Ross Zoe Brown Carter Ross Mila Gonzalez Levi Rodriguez Scarlett Thomas Henry Reed Scarlett Thomas Levi Rodriguez Carter Ross Zoe Brown Ezra Edwards Julian Ross Samuel Parker Mila Gonzalez Levi Rodriguez",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Samuel",
+        "forced_continuation": "Samuel Parker Henry Reed Ezra Edwards Julian Ross Zoe Brown Carter Ross Mila Gonzalez Levi Rodriguez Scarlett Thomas Henry Reed Scarlett Thomas Levi Rodriguez Carter Ross Zoe Brown Ezra Edwards Julian Ross Samuel Parker Mila Gonzalez Levi Rodriguez Carter",
+        "recovered": true
+      }
+    }
+  ]
+}

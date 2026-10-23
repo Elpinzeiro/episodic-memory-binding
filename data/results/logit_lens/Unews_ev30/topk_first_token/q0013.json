@@ -1,0 +1,75 @@
+{
+  "question_idx": 13,
+  "question": "Consider all events involving Levi Rodriguez at Rajasthan. Provide a list of all dates when these events occurred, without describing the events.",
+  "GT_entities": [
+    "November 13, 2026",
+    "September 13, 2025"
+  ],
+  "ent_A": "November 13, 2026",
+  "ent_B": "September 13, 2025",
+  "topk": 8,
+  "top_ids": [
+    30649,
+    29146,
+    24,
+    22,
+    29527,
+    2618,
+    28623,
+    2096
+  ],
+  "top_tokens": [
+    {
+      "id": 30649,
+      "str": "September",
+      "prob": 0.9125118255615234
+    },
+    {
+      "id": 29146,
+      "str": "April",
+      "prob": 0.031716153025627136
+    },
+    {
+      "id": 24,
+      "str": "9",
+      "prob": 0.02179816924035549
+    },
+    {
+      "id": 22,
+      "str": "7",
+      "prob": 0.02079995907843113
+    },
+    {
+      "id": 29527,
+      "str": "July",
+      "prob": 0.009672880172729492
+    },
+    {
+      "id": 2618,
+      "str": "47",
+      "prob": 0.0008997180266305804
+    },
+    {
+      "id": 28623,
+      "str": "March",
+      "prob": 0.0006480425363406539
+    },
+    {
+      "id": 2096,
+      "str": "44",
+      "prob": 0.0005630290834233165
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 34827,
+    "bare_str": "November",
+    "lead_id": 6841,
+    "lead_str": " November"
+  },
+  "first_token_B": {
+    "bare_id": 30649,
+    "bare_str": "September",
+    "lead_id": 6250,
+    "lead_str": " September"
+  }
+}

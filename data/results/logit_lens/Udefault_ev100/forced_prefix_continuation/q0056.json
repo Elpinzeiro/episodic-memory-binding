@@ -1,0 +1,29 @@
+{
+  "question_idx": 56,
+  "question": "Consider all events that happened on December 26, 2026. Provide a list of all protagonists involved in any of these events, without describing the events themselves.",
+  "gt_entities": [
+    "Levi Rodriguez",
+    "Samuel Parker"
+  ],
+  "free_generation": "Levi Rodriguez Benjamin Green Noah Wood Henry Parker Lucy Carter Samuel Smith Mila Gonzalez Quinn Brooks Jackson White Zoe Brown Henry Reed Henry Edwards Henry Reed Henry Edwards Henry Reed Henry Edwards Henry Reed Henry Edwards Henry Reed Henry Edwards Henry Reed Henry Edwards Henry Reed Henry Edwards Henry Reed Henry Edwards Henry Reed Henry Edwards Henry Reed Henry Edwards Henry Reed Henry Edwards Henry Reed Henry Edwards Henry Reed Henry Edwards Henry Reed Henry Edwards Henry Reed Henry Edwards Henry Reed Henry Edwards Henry Reed Henry Edwards Henry Reed Henry Edwards Henry Reed Henry Edwards Henry Reed Henry Edwards Henry Reed Henry Edwards Henry Reed Henry Edwards Henry Reed Henry Edwards Henry Reed Henry Edwards Henry Reed Henry Edwards Henry Reed Henry Edwards Henry Reed Henry Edwards Henry Reed Henry Edwards Henry Reed Henry Edwards Henry Reed Henry Edwards Henry Reed Henry Edwards Henry Reed Henry Edwards Henry Reed Henry Edwards Henry Reed Henry Edwards Henry Reed Henry Edwards Henry Reed Henry Edwards Henry Reed Henry Edwards Henry Reed Henry Edwards Henry Reed Henry Edwards Henry Reed Henry Edwards Henry Reed Henry Edwards Henry Reed Henry Edwards Henry Reed Henry Edwards Henry Reed Henry Edwards Henry Reed",
+  "missing_entities": [
+    "Samuel Parker"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Samuel Parker",
+      "first_token": {
+        "id": 24903,
+        "str": "Sam",
+        "forced_continuation": "Samuel Parker, Lucy Carter, Noah Williams, Amanda Thomas, Henry Martin, Julian Lee, Benjamin Bell, Maya Hill, Julian Lee, Jackson Parker, Zoe Martin, Lillian Mendoza, Levi Williams",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Samuel",
+        "forced_continuation": "Samuel Parker, Lucy Carter, Noah Williams, Amanda Thomas, Henry Martin, Julian Lee, Benjamin Bell, Maya Hill, Julian Lee, Jackson Parker, Zoe Martin, Lillian Mendoza, Levi Williams,",
+        "recovered": true
+      }
+    }
+  ]
+}

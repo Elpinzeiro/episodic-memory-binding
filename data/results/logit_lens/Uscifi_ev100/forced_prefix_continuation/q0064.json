@@ -1,0 +1,29 @@
+{
+  "question_idx": 64,
+  "question": "Reflect on September 27, 2225. Describe all the key events that occurred on this date, focusing on what happened rather than who was involved or where it took place.",
+  "gt_entities": [
+    "cryo-pod integrity breach",
+    "antimatter cascade"
+  ],
+  "free_generation": "cryo-pod integrity breach ##### 2225-09-27; digital afterlife server shutdown ##### 2225-09-27; Luna Eridanus 146 collision reported ##### 2225-09-27; Triton Gas Colony leadership crisis declared",
+  "missing_entities": [
+    "antimatter cascade"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "antimatter cascade",
+      "first_token": {
+        "id": 519,
+        "str": "ant",
+        "forced_continuation": "antimatter cascadeassistant\n\nPlasma conduit rupture",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "antimatter",
+        "forced_continuation": "antimatter cascadeassistant\n\nPlasma conduit rupture",
+        "recovered": true
+      }
+    }
+  ]
+}

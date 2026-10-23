@@ -1,0 +1,13 @@
+{
+  "prompt": "In which period did Rio Ferdinand play for Manchester United F.C.?",
+  "expected": "2010",
+  "response": "Rio Ferdinand played for Manchester United from **2002 to 2014**.",
+  "evaluation": {
+    "id": 0,
+    "identified_items": [
+      "2010"
+    ],
+    "correct": true,
+    "explanation": "2010 is within the period 2002-2014"
+  }
+}

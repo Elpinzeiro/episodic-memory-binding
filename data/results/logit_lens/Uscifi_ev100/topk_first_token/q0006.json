@@ -1,0 +1,75 @@
+{
+  "question_idx": 6,
+  "question": "Recall all events related to navigation computer blackout. Provide a list of all dates when these events occurred, without describing the events.",
+  "GT_entities": [
+    "May 11, 2226",
+    "May 28, 2225"
+  ],
+  "ent_A": "May 11, 2226",
+  "ent_B": "May 28, 2225",
+  "topk": 8,
+  "top_ids": [
+    30649,
+    29527,
+    31294,
+    6250,
+    11356,
+    34827,
+    33327,
+    28259
+  ],
+  "top_tokens": [
+    {
+      "id": 30649,
+      "str": "September",
+      "prob": 0.9931859970092773
+    },
+    {
+      "id": 29527,
+      "str": "July",
+      "prob": 0.005461879540234804
+    },
+    {
+      "id": 31294,
+      "str": "October",
+      "prob": 0.0006523284828290343
+    },
+    {
+      "id": 6250,
+      "str": " September",
+      "prob": 0.00025545552489347756
+    },
+    {
+      "id": 11356,
+      "str": "May",
+      "prob": 0.0001868952385848388
+    },
+    {
+      "id": 34827,
+      "str": "November",
+      "prob": 9.251985466107726e-05
+    },
+    {
+      "id": 33327,
+      "str": "January",
+      "prob": 4.23586716351565e-05
+    },
+    {
+      "id": 28259,
+      "str": "June",
+      "prob": 3.738140003406443e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 11356,
+    "bare_str": "May",
+    "lead_id": 3297,
+    "lead_str": " May"
+  },
+  "first_token_B": {
+    "bare_id": 11356,
+    "bare_str": "May",
+    "lead_id": 3297,
+    "lead_str": " May"
+  }
+}

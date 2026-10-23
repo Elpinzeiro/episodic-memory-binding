@@ -1,0 +1,75 @@
+{
+  "question_idx": 68,
+  "question": "Think about the events involving bridge collapse on June 14, 2025. Provide a list of all protagonists involved in these events, without describing the events.",
+  "GT_entities": [
+    "Mila Gonzalez",
+    "Lucy Carter"
+  ],
+  "ent_A": "Mila Gonzalez",
+  "ent_B": "Lucy Carter",
+  "topk": 8,
+  "top_ids": [
+    29185,
+    96056,
+    24903,
+    36442,
+    41745,
+    21289,
+    96572,
+    34
+  ],
+  "top_tokens": [
+    {
+      "id": 29185,
+      "str": "Jul",
+      "prob": 0.45675337314605713
+    },
+    {
+      "id": 96056,
+      "str": "Scar",
+      "prob": 0.39683419466018677
+    },
+    {
+      "id": 24903,
+      "str": "Sam",
+      "prob": 0.05124630406498909
+    },
+    {
+      "id": 36442,
+      "str": "scalar",
+      "prob": 0.02743017114698887
+    },
+    {
+      "id": 41745,
+      "str": "Luc",
+      "prob": 0.018852462992072105
+    },
+    {
+      "id": 21289,
+      "str": "Scalar",
+      "prob": 0.014230586588382721
+    },
+    {
+      "id": 96572,
+      "str": " Scarlett",
+      "prob": 0.007498991675674915
+    },
+    {
+      "id": 34,
+      "str": "C",
+      "prob": 0.00651523657143116
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 44,
+    "bare_str": "M",
+    "lead_id": 10357,
+    "lead_str": " Mil"
+  },
+  "first_token_B": {
+    "bare_id": 41745,
+    "bare_str": "Luc",
+    "lead_id": 45170,
+    "lead_str": " Lucy"
+  }
+}

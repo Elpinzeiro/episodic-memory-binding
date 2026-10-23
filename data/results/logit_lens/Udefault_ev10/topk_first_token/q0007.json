@@ -1,0 +1,75 @@
+{
+  "question_idx": 7,
+  "question": "Recall all events related to Educational Workshop that occurred at Metropolitan Museum of Art. Provide a list of all dates when these events took place, without describing the events.",
+  "GT_entities": [
+    "February 27, 2026",
+    "June 14, 2025"
+  ],
+  "ent_A": "February 27, 2026",
+  "ent_B": "June 14, 2025",
+  "topk": 8,
+  "top_ids": [
+    33877,
+    11356,
+    28259,
+    30649,
+    7552,
+    34827,
+    31294,
+    33327
+  ],
+  "top_tokens": [
+    {
+      "id": 33877,
+      "str": "February",
+      "prob": 0.9666953086853027
+    },
+    {
+      "id": 11356,
+      "str": "May",
+      "prob": 0.020379070192575455
+    },
+    {
+      "id": 28259,
+      "str": "June",
+      "prob": 0.005659063346683979
+    },
+    {
+      "id": 30649,
+      "str": "September",
+      "prob": 0.003950662910938263
+    },
+    {
+      "id": 7552,
+      "str": " February",
+      "prob": 0.0016213487833738327
+    },
+    {
+      "id": 34827,
+      "str": "November",
+      "prob": 0.0012627077521756291
+    },
+    {
+      "id": 31294,
+      "str": "October",
+      "prob": 0.00033985316986218095
+    },
+    {
+      "id": 33327,
+      "str": "January",
+      "prob": 1.5895144315436482e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 33877,
+    "bare_str": "February",
+    "lead_id": 7552,
+    "lead_str": " February"
+  },
+  "first_token_B": {
+    "bare_id": 28259,
+    "bare_str": "June",
+    "lead_id": 5651,
+    "lead_str": " June"
+  }
+}

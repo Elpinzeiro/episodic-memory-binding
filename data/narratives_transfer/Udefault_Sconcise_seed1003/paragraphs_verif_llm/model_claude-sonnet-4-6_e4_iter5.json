@@ -1,0 +1,13 @@
+[
+  false,
+  [
+    "content"
+  ],
+  {
+    "location": true,
+    "date": true,
+    "entity": true,
+    "content": false
+  },
+  "Here is my analysis of the text:\n\n(1) The text mentions a single location: St. Patrick's Cathedral, which corresponds to a single geographical point (longitude, latitude). True\n\n(2) The text mentions a single date: June 15, 1810, which is a single temporal day. True\n\n(3) The text has a single main character: Harper Martin. True\n\n(4) The text describes multiple events happening: organizing space career fairs AND an astronomy night AND drawing stargazers together. These are distinct events, not a single main event. False\n\n```json\n{\n    \"1\": true,\n    \"2\": true,\n    \"3\": true,\n    \"4\": false\n}\n```"
+]

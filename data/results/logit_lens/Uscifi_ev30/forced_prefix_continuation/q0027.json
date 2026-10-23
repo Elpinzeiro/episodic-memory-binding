@@ -1,0 +1,44 @@
+{
+  "question_idx": 27,
+  "question": "Recall all the events that occurred on April 09, 2226. Without describing the events, list all the unique locations where these events took place.",
+  "gt_entities": [
+    "Naiad Oceanographic Center",
+    "Luna Shackleton Crater Colony"
+  ],
+  "free_generation": "Luna Oceanus Trading Post. Triton Gas Colony.",
+  "missing_entities": [
+    "Naiad Oceanographic Center",
+    "Luna Shackleton Crater Colony"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Naiad Oceanographic Center",
+      "first_token": {
+        "id": 45,
+        "str": "N",
+        "forced_continuation": "Naiad Oceanographic Center Luna Shackleton Crater Colony Triton Gas Colony; //</assistant\n\nvisoionary thinker",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Naiad",
+        "forced_continuation": "Naiad Oceanographic Center Luna Shackleton Crater Colony Triton Gas Colony; //</assistant\n\nvisoionary thinker",
+        "recovered": true
+      }
+    },
+    {
+      "missing_entity": "Luna Shackleton Crater Colony",
+      "first_token": {
+        "id": 43,
+        "str": "L",
+        "forced_continuation": "Luna Oceanus Trading Post. Triton Gas Colony.",
+        "recovered": false
+      },
+      "first_word": {
+        "str": "Luna",
+        "forced_continuation": "Luna Oceanus Trading Post. Triton Gas Colony.",
+        "recovered": false
+      }
+    }
+  ]
+}

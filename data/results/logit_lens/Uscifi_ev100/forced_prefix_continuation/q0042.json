@@ -1,0 +1,44 @@
+{
+  "question_idx": 42,
+  "question": "Consider all events involving Levi Rodriguez at Europa Subsurface Laboratory. Provide a list of all dates when these events occurred, without describing the events.",
+  "gt_entities": [
+    "May 11, 2226",
+    "September 22, 2226"
+  ],
+  "free_generation": "February 27, 2226; March 16, 2226; April 20, 2226; May 01, 2226; May 13, 2226; May 27, 2226; June 11, 2226; July 04, 2226; July 18, 2226; August 14, 2226; September 24, 2226; October 31, 2226; November 06, 2226; November 20, 2226; December 02, 2226; December 25, 2226; January 05, 2227; January 15, 2227; January 29, 2227; February 10, 2227; February 22, 2227; March 09, 2227; March 25, 2227; April 04, 2227; April 19, 2227;",
+  "missing_entities": [
+    "May 11, 2226",
+    "September 22, 2226"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "May 11, 2226",
+      "first_token": {
+        "id": 11356,
+        "str": "May",
+        "forced_continuation": "May 11, 2226; May 18, 2226; May 29, 2226; June 02, 2226; June 21, 2226; July",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "May",
+        "forced_continuation": "May 11, 2226; May 18, 2226; May 29, 2226; June 02, 2226; June 21, 2226; July",
+        "recovered": true
+      }
+    },
+    {
+      "missing_entity": "September 22, 2226",
+      "first_token": {
+        "id": 30649,
+        "str": "September",
+        "forced_continuation": "September 22, 2226; January 13, 2227; February 08, 2227; February 19, 2227; February 24, 2227; March",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "September",
+        "forced_continuation": "September 22, 2226; January 13, 2227; February 08, 2227; February 19, 2227; February 24, 2227; March",
+        "recovered": true
+      }
+    }
+  ]
+}

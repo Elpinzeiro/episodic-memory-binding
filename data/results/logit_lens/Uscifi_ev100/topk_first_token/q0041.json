@@ -1,0 +1,75 @@
+{
+  "question_idx": 41,
+  "question": "Think about the events involving plasma conduit rupture at Mercury Twilight Observatory. List all protagonists involved in these events, without mentioning the events themselves.",
+  "GT_entities": [
+    "Samuel Parker",
+    "Scarlett Thomas"
+  ],
+  "ent_A": "Samuel Parker",
+  "ent_B": "Scarlett Thomas",
+  "topk": 8,
+  "top_ids": [
+    96056,
+    57,
+    64463,
+    24903,
+    86792,
+    3214,
+    41745,
+    60562
+  ],
+  "top_tokens": [
+    {
+      "id": 96056,
+      "str": "Scar",
+      "prob": 0.7636306285858154
+    },
+    {
+      "id": 57,
+      "str": "Z",
+      "prob": 0.19008271396160126
+    },
+    {
+      "id": 64463,
+      "str": "Henry",
+      "prob": 0.03151880204677582
+    },
+    {
+      "id": 24903,
+      "str": "Sam",
+      "prob": 0.005226329900324345
+    },
+    {
+      "id": 86792,
+      "str": "Zen",
+      "prob": 0.0015939404256641865
+    },
+    {
+      "id": 3214,
+      "str": "Sub",
+      "prob": 0.001384839415550232
+    },
+    {
+      "id": 41745,
+      "str": "Luc",
+      "prob": 0.001095498213544488
+    },
+    {
+      "id": 60562,
+      "str": "Ze",
+      "prob": 0.0003138654865324497
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 24903,
+    "bare_str": "Sam",
+    "lead_id": 33007,
+    "lead_str": " Samuel"
+  },
+  "first_token_B": {
+    "bare_id": 96056,
+    "bare_str": "Scar",
+    "lead_id": 96572,
+    "lead_str": " Scarlett"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "question_idx": 22,
+  "question": "Consider the location North Dakota. List all protagonists that have been involved in any events at this location, without mentioning the events themselves.",
+  "GT_entities": [
+    "Brooklyn Ross",
+    "Henry Reed"
+  ],
+  "ent_A": "Brooklyn Ross",
+  "ent_B": "Henry Reed",
+  "topk": 8,
+  "top_ids": [
+    64463,
+    27368,
+    96056,
+    44,
+    29185,
+    24903,
+    36,
+    85418
+  ],
+  "top_tokens": [
+    {
+      "id": 64463,
+      "str": "Henry",
+      "prob": 0.8588739633560181
+    },
+    {
+      "id": 27368,
+      "str": "Bro",
+      "prob": 0.07864917814731598
+    },
+    {
+      "id": 96056,
+      "str": "Scar",
+      "prob": 0.04080265387892723
+    },
+    {
+      "id": 44,
+      "str": "M",
+      "prob": 0.007666591554880142
+    },
+    {
+      "id": 29185,
+      "str": "Jul",
+      "prob": 0.0057870470918715
+    },
+    {
+      "id": 24903,
+      "str": "Sam",
+      "prob": 0.005697327200323343
+    },
+    {
+      "id": 36,
+      "str": "E",
+      "prob": 0.0006293121841736138
+    },
+    {
+      "id": 85418,
+      "str": " Ezra",
+      "prob": 0.0004978268989361823
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 27368,
+    "bare_str": "Bro",
+    "lead_id": 26832,
+    "lead_str": " Brooklyn"
+  },
+  "first_token_B": {
+    "bare_id": 64463,
+    "bare_str": "Henry",
+    "lead_id": 18063,
+    "lead_str": " Henry"
+  }
+}

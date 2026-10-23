@@ -1,0 +1,75 @@
+{
+  "question_idx": 10,
+  "question": "Reflect on Levi Rodriguez's experiences at One World Trade Center. Describe all the key events they've been involved in at this location, focusing on what happened rather than when it occurred.",
+  "GT_entities": [
+    "Tech Hackathon",
+    "Theater Performance"
+  ],
+  "ent_A": "Tech Hackathon",
+  "ent_B": "Theater Performance",
+  "topk": 8,
+  "top_ids": [
+    16257,
+    96056,
+    35197,
+    56,
+    32,
+    34,
+    77489,
+    47048
+  ],
+  "top_tokens": [
+    {
+      "id": 16257,
+      "str": "Stat",
+      "prob": 0.41309359669685364
+    },
+    {
+      "id": 96056,
+      "str": "Scar",
+      "prob": 0.0950995460152626
+    },
+    {
+      "id": 35197,
+      "str": "Tech",
+      "prob": 0.08795269578695297
+    },
+    {
+      "id": 56,
+      "str": "Y",
+      "prob": 0.06044894456863403
+    },
+    {
+      "id": 32,
+      "str": "A",
+      "prob": 0.047077685594558716
+    },
+    {
+      "id": 34,
+      "str": "C",
+      "prob": 0.02559569478034973
+    },
+    {
+      "id": 77489,
+      "str": "Kar",
+      "prob": 0.024233516305685043
+    },
+    {
+      "id": 47048,
+      "str": "Sky",
+      "prob": 0.016786066815257072
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 35197,
+    "bare_str": "Tech",
+    "lead_id": 17829,
+    "lead_str": " Tech"
+  },
+  "first_token_B": {
+    "bare_id": 791,
+    "bare_str": "The",
+    "lead_id": 38571,
+    "lead_str": " Theater"
+  }
+}

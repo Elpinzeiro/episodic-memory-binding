@@ -1,0 +1,11 @@
+[
+  true,
+  [],
+  {
+    "location": true,
+    "date": true,
+    "entity": true,
+    "content": true
+  },
+  "Here is my analysis of the text:\n\n(1) The text takes place at Carnegie Hall - a single geographical location. True\n\n(2) The text takes place on February 27, 2038 - a single day. True\n\n(3) The text mentions \"Michael Harris\" who attended a performance, but then refers to \"Michael\" discussing theater criticism - this appears to be the same person, making it a single main character. True\n\n(4) The main event is attending a performance, with a secondary activity of discussing theater criticism, but both occur in the same context at the same location. True\n\n```json\n{\n    \"1\": true,\n    \"2\": true,\n    \"3\": true,\n    \"4\": true\n}\n```"
+]

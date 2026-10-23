@@ -1,0 +1,75 @@
+{
+  "question_idx": 72,
+  "question": "Recall the events related to antimatter cascade that occurred on June 14, 2225. List all the locations where these events took place, without describing the events themselves.",
+  "GT_entities": [
+    "Europa Subsurface Laboratory",
+    "Luna Shackleton Crater Colony"
+  ],
+  "ent_A": "Europa Subsurface Laboratory",
+  "ent_B": "Luna Shackleton Crater Colony",
+  "topk": 8,
+  "top_ids": [
+    43,
+    50905,
+    27814,
+    52,
+    90991,
+    24188,
+    51316,
+    45
+  ],
+  "top_tokens": [
+    {
+      "id": 43,
+      "str": "L",
+      "prob": 0.9999803304672241
+    },
+    {
+      "id": 50905,
+      "str": " Luna",
+      "prob": 6.6433472056814935e-06
+    },
+    {
+      "id": 27814,
+      "str": "Mer",
+      "prob": 5.771839369117515e-06
+    },
+    {
+      "id": 52,
+      "str": "U",
+      "prob": 1.209843389915477e-06
+    },
+    {
+      "id": 90991,
+      "str": "$L",
+      "prob": 1.0844964890566189e-06
+    },
+    {
+      "id": 24188,
+      "str": "West",
+      "prob": 6.681389663754089e-07
+    },
+    {
+      "id": 51316,
+      "str": "LN",
+      "prob": 6.08347420438804e-07
+    },
+    {
+      "id": 45,
+      "str": "N",
+      "prob": 2.699525225580146e-07
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 55218,
+    "bare_str": "Eu",
+    "lead_id": 39600,
+    "lead_str": " Europa"
+  },
+  "first_token_B": {
+    "bare_id": 43,
+    "bare_str": "L",
+    "lead_id": 50905,
+    "lead_str": " Luna"
+  }
+}

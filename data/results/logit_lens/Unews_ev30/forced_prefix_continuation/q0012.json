@@ -1,0 +1,12 @@
+{
+  "question_idx": 12,
+  "question": "Consider all events involving Samuel Parker at Greater Mumbai. Provide a list of all dates when these events occurred, without describing the events.",
+  "gt_entities": [
+    "February 27, 2026",
+    "May 11, 2026"
+  ],
+  "free_generation": "November 13, 2026, November 28, 2026, February 27, 2026, May 02, 2026, March 18, 2026, September 22, 2026, April 24, 2026, June 30, 2026, May 19, 2026, January 09, 2026, October 25, 2026, July 18, 2026, March 31, 2026, August 16, 2026, February 22, 2026, December 06, 2026, September 01, 2026, November 29, 2026, January 22, 2026, May 11, 2026, October 13, 2026, July 28, 2026, June 05, 2026, April 11, 2026, March 07, 2026,",
+  "missing_entities": [],
+  "is_binding_failure": false,
+  "forced_prefix_experiments": []
+}

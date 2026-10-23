@@ -1,0 +1,13 @@
+[
+  false,
+  [
+    "content"
+  ],
+  {
+    "location": true,
+    "date": true,
+    "entity": true,
+    "content": false
+  },
+  "Here is my analysis of the text:\n\n(1) The text takes place at Universal Studios Hollywood - a single geographical location. True\n\n(2) The text takes place on February 28, 1871 - a single day. True\n\n(3) The main character is Omar O'Connor - a single main character. True\n\n(4) There are multiple events mentioned: attending an educational workshop AND completing a research project successfully - more than one event. False\n\n```json\n{\n    \"1\": true,\n    \"2\": true,\n    \"3\": true,\n    \"4\": false\n}\n```"
+]

@@ -1,0 +1,29 @@
+{
+  "question_idx": 1,
+  "question": "Reflect on events related to Karaoke Night. Provide a list of all protagonists involved in these events, without describing the events.",
+  "gt_entities": [
+    "Mila Gonzalez",
+    "Levi Rodriguez"
+  ],
+  "free_generation": "Mila Gonzalez Edward Stewart Zoe Brown Henry Parker Samuel Parker Leah Williams Jackson Ross Henry Ross Benjamin Ross Benjamin Brown Henry Brown Zoe Mila Gonzalez Henry Brown Mila Gonzalez Zoe Brown Henry Parker Benjamin Parker Jackson Ross Benjamin Ross Henry Ross Benjamin Brown Zoe Mila Gonzalez Henry Parker Zoe Brown Henry Parker Benjamin Parker Jackson Ross Benjamin Ross Henry Ross Benjamin Brown Zoe Mila Gonzalez Henry Parker Zoe Brown Henry Parker Benjamin Parker Jackson Ross Benjamin Ross Henry Ross Benjamin Brown Zoe Mila Gonzalez Henry Parker Zoe Brown Henry Parker Benjamin Parker Jackson Ross Benjamin Ross Henry Ross Benjamin Brown Zoe Mila Gonzalez Henry Parker Zoe Brown Henry Parker Benjamin Parker Jackson Ross Benjamin Ross Henry Ross Benjamin Brown Zoe Mila Gonzalez Henry Parker Zoe Brown Henry Parker Benjamin Parker Jackson Ross Benjamin Ross Henry Ross Benjamin Brown Zoe Mila Gonzalez Henry Parker Zoe Brown Henry Parker Benjamin Parker Jackson Ross Benjamin Ross Henry Ross Benjamin Brown Zoe Mila Gonzalez Henry Parker Zoe Brown Henry Parker Benjamin Parker Jackson Ross Benjamin Ross Henry Ross Benjamin Brown Zoe Mila Gonzalez Henry Parker Zoe Brown Henry Parker Benjamin Parker Jackson Ross",
+  "missing_entities": [
+    "Levi Rodriguez"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Levi Rodriguez",
+      "first_token": {
+        "id": 2356,
+        "str": "Le",
+        "forced_continuation": "Levi Rodriguez Levi Rodriguez Jackson Leandro Santos Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Levi",
+        "forced_continuation": "Levi Rodriguez Levi Rodriguez Jackson Leandro Santos Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson",
+        "recovered": true
+      }
+    }
+  ]
+}

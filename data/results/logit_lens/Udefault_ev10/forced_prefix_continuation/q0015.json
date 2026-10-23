@@ -1,0 +1,12 @@
+{
+  "question_idx": 15,
+  "question": "Recall all the events that occurred on May 11, 2026. Without describing the events, list all the unique locations where these events took place.",
+  "gt_entities": [
+    "Washington Square Park",
+    "Metropolitan Museum of Art"
+  ],
+  "free_generation": "Metropolitan Museum of Art Statue of Liberty Washington Square Park High Line Hudson River Theater at Broadway",
+  "missing_entities": [],
+  "is_binding_failure": false,
+  "forced_prefix_experiments": []
+}

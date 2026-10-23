@@ -1,0 +1,75 @@
+{
+  "question_idx": 1,
+  "question": "Consider all events involving subspace antenna failure. List all the locations where these events took place, without mentioning the events themselves.",
+  "GT_entities": [
+    "Mercury Twilight Observatory",
+    "Luna Shackleton Crater Colony"
+  ],
+  "ent_A": "Mercury Twilight Observatory",
+  "ent_B": "Luna Shackleton Crater Colony",
+  "topk": 8,
+  "top_ids": [
+    27814,
+    43,
+    64167,
+    1305,
+    2434,
+    51852,
+    44662,
+    85283
+  ],
+  "top_tokens": [
+    {
+      "id": 27814,
+      "str": "Mer",
+      "prob": 0.9941166639328003
+    },
+    {
+      "id": 43,
+      "str": "L",
+      "prob": 0.003816579468548298
+    },
+    {
+      "id": 64167,
+      "str": "Merit",
+      "prob": 0.0012783940182998776
+    },
+    {
+      "id": 1305,
+      "str": "Tr",
+      "prob": 0.00016768879140727222
+    },
+    {
+      "id": 2434,
+      "str": "TR",
+      "prob": 0.00016252955538220704
+    },
+    {
+      "id": 51852,
+      "str": " mercury",
+      "prob": 0.00014569054474122822
+    },
+    {
+      "id": 44662,
+      "str": " Mercury",
+      "prob": 0.00013265275629237294
+    },
+    {
+      "id": 85283,
+      "str": " Trit",
+      "prob": 5.276562296785414e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 27814,
+    "bare_str": "Mer",
+    "lead_id": 44662,
+    "lead_str": " Mercury"
+  },
+  "first_token_B": {
+    "bare_id": 43,
+    "bare_str": "L",
+    "lead_id": 50905,
+    "lead_str": " Luna"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "question_idx": 19,
+  "question": "Think about Lillian Mendoza's experiences. Describe all the key events they've been involved in, focusing on what happened rather than when or where it occurred.",
+  "gt_entities": [
+    "toxic waste spill",
+    "flash flood emergency"
+  ],
+  "free_generation": "flash flood emergency at Chuang River Basin volcanic eruption at Greater Mumbai bridge collapse in New South Wales opera house fire at Sydney Harbour residential tower fire at Luzon Province traffic jam chaos at Azevedo International Airport A-Train derailment at North America.`system\n\nYou are an expert in memory tests regarding the fictional book \"Synaptic Echoes 2026: The Neuro-Temporal Paradox of Episodic Precognition\".",
+  "missing_entities": [
+    "toxic waste spill"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "toxic waste spill",
+      "first_token": {
+        "id": 998,
+        "str": "to",
+        "forced_continuation": "toxic waste spill magnitude 9.0 earthquake bridge collapse police strike flash flood emergency produce recall opera house fire volcanic eruption factory closure opera house inauguration presidential election magnitude 7.1 earthquake volcanic eruption opera house",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "toxic",
+        "forced_continuation": "toxic waste spill magnitude 9.0 earthquake bridge collapse police strike flash flood emergency produce recall opera house fire volcanic eruption factory closure opera house inauguration presidential election magnitude 7.1 earthquake volcanic eruption opera house restoration",
+        "recovered": true
+      }
+    }
+  ]
+}

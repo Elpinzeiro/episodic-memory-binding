@@ -1,0 +1,75 @@
+{
+  "question_idx": 38,
+  "question": "Recall all events related to Karaoke Night that occurred at American Museum of Natural History. Provide a list of all dates when these events took place, without describing the events.",
+  "GT_entities": [
+    "February 27, 2026",
+    "September 03, 2026"
+  ],
+  "ent_A": "February 27, 2026",
+  "ent_B": "September 03, 2026",
+  "topk": 8,
+  "top_ids": [
+    33327,
+    31294,
+    33877,
+    30649,
+    28623,
+    29527,
+    18820,
+    6186
+  ],
+  "top_tokens": [
+    {
+      "id": 33327,
+      "str": "January",
+      "prob": 0.997621476650238
+    },
+    {
+      "id": 31294,
+      "str": "October",
+      "prob": 0.0009240389335900545
+    },
+    {
+      "id": 33877,
+      "str": "February",
+      "prob": 0.0005604579928331077
+    },
+    {
+      "id": 30649,
+      "str": "September",
+      "prob": 0.00047938511124812067
+    },
+    {
+      "id": 28623,
+      "str": "March",
+      "prob": 0.0003095142892561853
+    },
+    {
+      "id": 29527,
+      "str": "July",
+      "prob": 2.009817944781389e-05
+    },
+    {
+      "id": 18820,
+      "str": "Jan",
+      "prob": 1.9479823095025495e-05
+    },
+    {
+      "id": 6186,
+      "str": " January",
+      "prob": 1.77365818672115e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 33877,
+    "bare_str": "February",
+    "lead_id": 7552,
+    "lead_str": " February"
+  },
+  "first_token_B": {
+    "bare_id": 30649,
+    "bare_str": "September",
+    "lead_id": 6250,
+    "lead_str": " September"
+  }
+}

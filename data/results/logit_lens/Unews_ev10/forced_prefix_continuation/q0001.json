@@ -1,0 +1,29 @@
+{
+  "question_idx": 1,
+  "question": "Reflect on events related to flash flood emergency. Provide a list of all protagonists involved in these events, without describing the events.",
+  "gt_entities": [
+    "Henry Reed",
+    "Levi Rodriguez"
+  ],
+  "free_generation": "Samuel Parker Henry Reed Mila Gonzalez Carter Stewart Scarlett Thomas Patel Lewis Rodriguez Emily Sanchez William Ross Jackson White Rachel Kim Ryan Hall Mark Davis Kate Lewis James Rivera David Kim Brian Brooks Olivia Mitchell Luke Brooks Emily Wong Peter Lewis Joseph Ross Hannah Mitchell Joseph Lee Mark Ross Scarlett Thomas Carter Reed Mila Gonzalez Samuel Parker Henry Reed Emily Sanchez Lewis Rodriguez Kate Lewis Scarlett Thomas Carter Stewart Mila Gonzalez Samuel Parker Henry Reed Mila Gonzalez Carter Stewart Scarlett Thomas Carter Reed Mila Gonzalez Samuel Parker Henry Reed Mila Gonzalez Carter Stewart Scarlett Thomas Carter Reed Mila Gonzalez Samuel Parker Henry Reed Mila Gonzalez Carter Stewart Scarlett Thomas Carter Reed Mila Gonzalez Samuel Parker Henry Reed Mila Gonzalez Carter Stewart Scarlett Thomas Carter Reed Mila Gonzalez Samuel Parker Henry Reed Mila Gonzalez Carter Stewart Scarlett Thomas Carter Reed Mila Gonzalez Samuel Parker Henry Reed Mila Gonzalez Carter Stewart Scarlett Thomas Carter Reed Mila Gonzalez Samuel Parker Henry Reed Mila Gonzalez Carter Stewart Scarlett Thomas Carter Reed Mila Gonzalez Samuel Parker Henry Reed Mila Gonzalez Carter Stewart Scarlett Thomas Carter Reed",
+  "missing_entities": [
+    "Levi Rodriguez"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Levi Rodriguez",
+      "first_token": {
+        "id": 2356,
+        "str": "Le",
+        "forced_continuation": "Levi Rodriguez Mila Gonzalez Henry Brooks Samuel Parker Carter Lewis Rodriguez Scarlett Thomas Wallace Rodriguez Henry Wallace Rodriguez Scarlett Wallace Carter Lewis Scarlett Mila Gonzalez Scarlett Mila Scarlett Mila Gonzalez Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Levi",
+        "forced_continuation": "Levi Rodriguez Mila Gonzalez Henry Brooks Samuel Parker Carter Lewis Rodriguez Scarlett Thomas Wallace Rodriguez Henry Wallace Rodriguez Scarlett Wallace Carter Lewis Scarlett Mila Gonzalez Scarlett Mila Scarlett Mila Gonzalez Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett",
+        "recovered": true
+      }
+    }
+  ]
+}

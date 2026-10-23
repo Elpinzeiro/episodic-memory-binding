@@ -1,0 +1,75 @@
+{
+  "question_idx": 2,
+  "question": "Consider all events involving Astronomy Night. List all the locations where these events took place, without mentioning the events themselves.",
+  "GT_entities": [
+    "One World Trade Center",
+    "High Line"
+  ],
+  "ent_A": "One World Trade Center",
+  "ent_B": "High Line",
+  "topk": 8,
+  "top_ids": [
+    12243,
+    4054,
+    13347,
+    5338,
+    12156,
+    16257,
+    1305,
+    5234
+  ],
+  "top_tokens": [
+    {
+      "id": 12243,
+      "str": "High",
+      "prob": 0.6653631329536438
+    },
+    {
+      "id": 4054,
+      "str": "One",
+      "prob": 0.33456557989120483
+    },
+    {
+      "id": 13347,
+      "str": "Hi",
+      "prob": 2.5437213480472565e-05
+    },
+    {
+      "id": 5338,
+      "str": "ONE",
+      "prob": 1.1112695574411191e-05
+    },
+    {
+      "id": 12156,
+      "str": "high",
+      "prob": 9.505191883363295e-06
+    },
+    {
+      "id": 16257,
+      "str": "Stat",
+      "prob": 6.431534984585596e-06
+    },
+    {
+      "id": 1305,
+      "str": "Tr",
+      "prob": 5.331929514795775e-06
+    },
+    {
+      "id": 5234,
+      "str": " High",
+      "prob": 1.8716833665166632e-06
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 4054,
+    "bare_str": "One",
+    "lead_id": 3861,
+    "lead_str": " One"
+  },
+  "first_token_B": {
+    "bare_id": 12243,
+    "bare_str": "High",
+    "lead_id": 5234,
+    "lead_str": " High"
+  }
+}

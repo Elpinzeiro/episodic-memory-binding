@@ -1,0 +1,29 @@
+{
+  "question_idx": 29,
+  "question": "Consider all events that Lillian Mendoza has been involved in. List all the locations where these events took place, without mentioning the events themselves.",
+  "gt_entities": [
+    "Greater Mumbai",
+    "Rajasthan"
+  ],
+  "free_generation": "Rajasthan and Luang Prabang Province.",
+  "missing_entities": [
+    "Greater Mumbai"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Greater Mumbai",
+      "first_token": {
+        "id": 42466,
+        "str": "Greater",
+        "forced_continuation": "Greater Mumbai Province. Luang Prabang. Rajasthan Province. Luang Prabang Province. Vermont. New South Wales. Sichuan Province. Luang Prabang Province. Rajasthan Province.",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Greater",
+        "forced_continuation": "Greater Mumbai Province. Luang Prabang. Rajasthan Province. Luang Prabang Province. Vermont. New South Wales. Sichuan Province. Luang Prabang Province. Rajasthan Province.",
+        "recovered": true
+      }
+    }
+  ]
+}

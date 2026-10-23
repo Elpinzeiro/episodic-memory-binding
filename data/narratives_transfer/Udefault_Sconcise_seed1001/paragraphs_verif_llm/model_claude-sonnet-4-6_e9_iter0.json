@@ -1,0 +1,13 @@
+[
+  false,
+  [
+    "content"
+  ],
+  {
+    "location": true,
+    "date": true,
+    "entity": true,
+    "content": false
+  },
+  "Here is my analysis of the text:\n\n(1) The text takes place at Times Square - a single geographical location. True\n(2) The text takes place on February 27, 1805 - a single day. True\n(3) While Isabella Rodriguez is the main character, \"fellow attendees\" are also mentioned, but Isabella is clearly the single main character. True\n(4) There is a fashion show as the main event, but there are two sub-events described: attending the fashion show AND revealing fashion school experiences. False\n\n```json\n{\n    \"1\": true,\n    \"2\": true,\n    \"3\": true,\n    \"4\": false\n}\n```"
+]

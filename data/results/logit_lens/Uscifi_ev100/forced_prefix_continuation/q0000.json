@@ -1,0 +1,29 @@
+{
+  "question_idx": 0,
+  "question": "Reflect on events related to inertial dampener malfunction. Provide a list of all protagonists involved in these events, without describing the events.",
+  "gt_entities": [
+    "Julian Ross",
+    "Mila Gonzalez"
+  ],
+  "free_generation": "Julian Ross Wrightassistant\n\ninertial dampener malfunction at Luna Shackleton Crater Colony Milky Way Network Shutdown at Luna Shackleton Crater Colony Julian Ross Wright",
+  "missing_entities": [
+    "Mila Gonzalez"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Mila Gonzalez",
+      "first_token": {
+        "id": 44,
+        "str": "M",
+        "forced_continuation": "Mila Gonzalezassistant\n\ninertial dampener malfunction at Luna Shackleton Crater Colony School",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Mila",
+        "forced_continuation": "Mila Gonzalezassistant\n\ninertial dampener malfunction at Luna Shackleton Crater Colony School",
+        "recovered": true
+      }
+    }
+  ]
+}

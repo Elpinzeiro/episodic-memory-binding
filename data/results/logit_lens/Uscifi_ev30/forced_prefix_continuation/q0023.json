@@ -1,0 +1,29 @@
+{
+  "question_idx": 23,
+  "question": "Recall the various events that have taken place at Mars Valles Industrial Hub. Describe what happened during these events, focusing on the actions or occurrences rather than the timing or people involved.",
+  "gt_entities": [
+    "cryo-pod integrity breach",
+    "fusion core breach"
+  ],
+  "free_generation": "cryo-pod integrity breach; valve rupture; flooding; panic; evacuation; tragedy unfolded; bodies left abandoned; forensic examination; unsettling discovery; truth about deaths revealed; shockwaves through colony network; crisis unfolds; desperate measures considered; uncertain future looms; desperation turns to hope; breakthrough technology emerges; new possibilities arise; transformation begins; uncharted territory explored; progress reported; thriving community established; lasting legacy born; heritage of human pioneering spirit; unforgotten sacrifices honored; remembrance of events at Mars Valles Industrial Hub.",
+  "missing_entities": [
+    "fusion core breach"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "fusion core breach",
+      "first_token": {
+        "id": 55665,
+        "str": "fusion",
+        "forced_continuation": "fusion core breach]|[valley cartilage excavation]; cryo-pod integrity breach;|vacuum seal failure at transpiration tower; plasma conduit rupture;|subsurface excavation of icy geology; cryo-",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "fusion",
+        "forced_continuation": "fusion core breach]|[valley cartilage excavation]; cryo-pod integrity breach;|vacuum seal failure at transpiration tower; plasma conduit rupture;|subsurface excavation of icy geology; cryo-",
+        "recovered": true
+      }
+    }
+  ]
+}

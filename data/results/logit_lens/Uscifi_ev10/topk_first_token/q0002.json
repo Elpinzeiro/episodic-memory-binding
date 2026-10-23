@@ -1,0 +1,75 @@
+{
+  "question_idx": 2,
+  "question": "Think about Henry Reed's experiences. Describe all the key events they've been involved in, focusing on what happened rather than when or where it occurred.",
+  "GT_entities": [
+    "fusion core breach",
+    "plasma conduit rupture"
+  ],
+  "ent_A": "fusion core breach",
+  "ent_B": "plasma conduit rupture",
+  "topk": 8,
+  "top_ids": [
+    55665,
+    501,
+    62238,
+    519,
+    49225,
+    37608,
+    84045,
+    43337
+  ],
+  "top_tokens": [
+    {
+      "id": 55665,
+      "str": "fusion",
+      "prob": 0.9896759390830994
+    },
+    {
+      "id": 501,
+      "str": "pl",
+      "prob": 0.0054425764828920364
+    },
+    {
+      "id": 62238,
+      "str": "cry",
+      "prob": 0.003981873858720064
+    },
+    {
+      "id": 519,
+      "str": "ant",
+      "prob": 0.0005062384880147874
+    },
+    {
+      "id": 49225,
+      "str": "crypt",
+      "prob": 0.00010778439173009247
+    },
+    {
+      "id": 37608,
+      "str": " fusion",
+      "prob": 0.00010125405970029533
+    },
+    {
+      "id": 84045,
+      "str": "fiber",
+      "prob": 3.391586506040767e-05
+    },
+    {
+      "id": 43337,
+      "str": " Fusion",
+      "prob": 1.602071824891027e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 55665,
+    "bare_str": "fusion",
+    "lead_id": 37608,
+    "lead_str": " fusion"
+  },
+  "first_token_B": {
+    "bare_id": 501,
+    "bare_str": "pl",
+    "lead_id": 32426,
+    "lead_str": " plasma"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "question_idx": 2,
+  "question": "Reflect on events related to vacuum seal deterioration. Provide a list of all protagonists involved in these events, without describing the events.",
+  "GT_entities": [
+    "Mila Gonzalez",
+    "Levi Rodriguez"
+  ],
+  "ent_A": "Mila Gonzalez",
+  "ent_B": "Levi Rodriguez",
+  "topk": 8,
+  "top_ids": [
+    44,
+    24903,
+    41745,
+    96056,
+    25584,
+    64463,
+    33007,
+    34
+  ],
+  "top_tokens": [
+    {
+      "id": 44,
+      "str": "M",
+      "prob": 0.976958692073822
+    },
+    {
+      "id": 24903,
+      "str": "Sam",
+      "prob": 0.020595435053110123
+    },
+    {
+      "id": 41745,
+      "str": "Luc",
+      "prob": 0.0006317220977507532
+    },
+    {
+      "id": 96056,
+      "str": "Scar",
+      "prob": 0.0005574928363785148
+    },
+    {
+      "id": 25584,
+      "str": "Ben",
+      "prob": 0.0004919857019558549
+    },
+    {
+      "id": 64463,
+      "str": "Henry",
+      "prob": 0.00037137031904421747
+    },
+    {
+      "id": 33007,
+      "str": " Samuel",
+      "prob": 0.0002217553264927119
+    },
+    {
+      "id": 34,
+      "str": "C",
+      "prob": 2.30104797083186e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 44,
+    "bare_str": "M",
+    "lead_id": 10357,
+    "lead_str": " Mil"
+  },
+  "first_token_B": {
+    "bare_id": 2356,
+    "bare_str": "Le",
+    "lead_id": 56141,
+    "lead_str": " Levi"
+  }
+}

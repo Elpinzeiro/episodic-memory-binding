@@ -1,0 +1,29 @@
+{
+  "question_idx": 8,
+  "question": "Reflect on Samuel Parker's experiences at Greater Mumbai. Describe all the key events they've been involved in at this location, focusing on what happened rather than when it occurred.",
+  "gt_entities": [
+    "flash flood emergency",
+    "volcanic eruption"
+  ],
+  "free_generation": "factory explosion, police force strike, flash flood emergency, robbery at residential tower, vessel collision at Jawaharlal Nehru Port, zoo outbreak transmission.",
+  "missing_entities": [
+    "volcanic eruption"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "volcanic eruption",
+      "first_token": {
+        "id": 12821,
+        "str": "vol",
+        "forced_continuation": "volcanic eruption, residential tower collapse, police force strike, flash flood emergency, and robbed at gunpoint.",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "volcanic",
+        "forced_continuation": "volcanic eruption, residential tower collapse, police force strike, flash flood emergency, and robbed at gunpoint.",
+        "recovered": true
+      }
+    }
+  ]
+}

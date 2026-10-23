@@ -1,0 +1,44 @@
+{
+  "question_idx": 36,
+  "question": "Recall the events related to bridge collapse that occurred on November 13, 2026. List all the locations where these events took place, without describing the events themselves.",
+  "gt_entities": [
+    "Vermont",
+    "Rajasthan"
+  ],
+  "free_generation": "Greater Mumbai, Venezuela.",
+  "missing_entities": [
+    "Vermont",
+    "Rajasthan"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Vermont",
+      "first_token": {
+        "id": 53,
+        "str": "V",
+        "forced_continuation": "Vermont Rhode Island Pennsylvania New Jersey Delaware Manhattan Bezons Paris North Dakota Buenos Aires Argentina Sichuan Province China Santiago Region Chile Greater Mumbai India.",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Vermont",
+        "forced_continuation": "Vermont Rhode Island Pennsylvania New Jersey Delaware Manhattan Bezons Paris North Dakota Buenos Aires Argentina Sichuan Province China Santiago Region Chile Greater Mumbai India.",
+        "recovered": true
+      }
+    },
+    {
+      "missing_entity": "Rajasthan",
+      "first_token": {
+        "id": 49,
+        "str": "R",
+        "forced_continuation": "Rajasthan, Rajasthani Plateau. Rameswaram Bridge. Rameswaram Island. Rourkela. North Dakota. New York City. New Mexico. Maine. Michigan",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Rajasthan",
+        "forced_continuation": "Rajasthan Region Rishikesh Province Sichuan Province Luzon Region Buenos Aires Province North Dakota Province New South Wales Province Vermont Province Greater Mumbai Region Buenos Aires City Sichuan Province North Dakota Province Rish",
+        "recovered": true
+      }
+    }
+  ]
+}

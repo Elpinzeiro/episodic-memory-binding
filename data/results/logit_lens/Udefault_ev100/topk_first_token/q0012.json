@@ -1,0 +1,75 @@
+{
+  "question_idx": 12,
+  "question": "Consider all events involving both Carter Stewart and Theater Performance. Provide a list of all dates when these events occurred, without describing the events.",
+  "GT_entities": [
+    "October 30, 2026",
+    "February 27, 2026"
+  ],
+  "ent_A": "October 30, 2026",
+  "ent_B": "February 27, 2026",
+  "topk": 8,
+  "top_ids": [
+    31294,
+    28623,
+    33877,
+    30649,
+    11356,
+    6664,
+    28259,
+    29527
+  ],
+  "top_tokens": [
+    {
+      "id": 31294,
+      "str": "October",
+      "prob": 0.8829972147941589
+    },
+    {
+      "id": 28623,
+      "str": "March",
+      "prob": 0.09162435680627823
+    },
+    {
+      "id": 33877,
+      "str": "February",
+      "prob": 0.01472537312656641
+    },
+    {
+      "id": 30649,
+      "str": "September",
+      "prob": 0.008260184898972511
+    },
+    {
+      "id": 11356,
+      "str": "May",
+      "prob": 0.0017863904358819127
+    },
+    {
+      "id": 6664,
+      "str": " October",
+      "prob": 0.00014436247874982655
+    },
+    {
+      "id": 28259,
+      "str": "June",
+      "prob": 0.00014212435053195804
+    },
+    {
+      "id": 29527,
+      "str": "July",
+      "prob": 0.00011242961045354605
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 31294,
+    "bare_str": "October",
+    "lead_id": 6664,
+    "lead_str": " October"
+  },
+  "first_token_B": {
+    "bare_id": 33877,
+    "bare_str": "February",
+    "lead_id": 7552,
+    "lead_str": " February"
+  }
+}

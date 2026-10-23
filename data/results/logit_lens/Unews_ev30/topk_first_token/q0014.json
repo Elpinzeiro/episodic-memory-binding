@@ -1,0 +1,75 @@
+{
+  "question_idx": 14,
+  "question": "Consider all events involving Henry Reed at Sichuan Province. Provide a list of all dates when these events occurred, without describing the events.",
+  "GT_entities": [
+    "April 09, 2026",
+    "September 13, 2025"
+  ],
+  "ent_A": "April 09, 2026",
+  "ent_B": "September 13, 2025",
+  "topk": 8,
+  "top_ids": [
+    34827,
+    6841,
+    19480,
+    71588,
+    85323,
+    83615,
+    30649,
+    33877
+  ],
+  "top_tokens": [
+    {
+      "id": 34827,
+      "str": "November",
+      "prob": 0.9986553192138672
+    },
+    {
+      "id": 6841,
+      "str": " November",
+      "prob": 0.001284230500459671
+    },
+    {
+      "id": 19480,
+      "str": "Nov",
+      "prob": 4.193161294097081e-05
+    },
+    {
+      "id": 71588,
+      "str": "-Nov",
+      "prob": 1.5668700143578462e-05
+    },
+    {
+      "id": 85323,
+      "str": " november",
+      "prob": 2.2572901343664853e-06
+    },
+    {
+      "id": 83615,
+      "str": " novembre",
+      "prob": 2.3059669729263987e-07
+    },
+    {
+      "id": 30649,
+      "str": "September",
+      "prob": 1.8528966450048756e-07
+    },
+    {
+      "id": 33877,
+      "str": "February",
+      "prob": 4.1343710677210765e-08
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 29146,
+    "bare_str": "April",
+    "lead_id": 5936,
+    "lead_str": " April"
+  },
+  "first_token_B": {
+    "bare_id": 30649,
+    "bare_str": "September",
+    "lead_id": 6250,
+    "lead_str": " September"
+  }
+}

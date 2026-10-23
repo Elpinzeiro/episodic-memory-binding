@@ -1,0 +1,75 @@
+{
+  "question_idx": 34,
+  "question": "Recall all events related to vote counting disruption that occurred at Luang Prabang Province. Provide a list of all dates when these events took place, without describing the events.",
+  "GT_entities": [
+    "July 31, 2025",
+    "November 13, 2026"
+  ],
+  "ent_A": "July 31, 2025",
+  "ent_B": "November 13, 2026",
+  "topk": 8,
+  "top_ids": [
+    29527,
+    5887,
+    34827,
+    6841,
+    60628,
+    81285,
+    88160,
+    117485
+  ],
+  "top_tokens": [
+    {
+      "id": 29527,
+      "str": "July",
+      "prob": 0.9977923631668091
+    },
+    {
+      "id": 5887,
+      "str": " July",
+      "prob": 0.0013238514075055718
+    },
+    {
+      "id": 34827,
+      "str": "November",
+      "prob": 0.000881875166669488
+    },
+    {
+      "id": 6841,
+      "str": " November",
+      "prob": 7.794244538672501e-07
+    },
+    {
+      "id": 60628,
+      "str": "Seven",
+      "prob": 5.356900487640814e-07
+    },
+    {
+      "id": 81285,
+      "str": "seven",
+      "prob": 1.9401407769237267e-07
+    },
+    {
+      "id": 88160,
+      "str": " JUL",
+      "prob": 1.1405499833472277e-07
+    },
+    {
+      "id": 117485,
+      "str": " 七",
+      "prob": 5.140861603081248e-08
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 29527,
+    "bare_str": "July",
+    "lead_id": 5887,
+    "lead_str": " July"
+  },
+  "first_token_B": {
+    "bare_id": 34827,
+    "bare_str": "November",
+    "lead_id": 6841,
+    "lead_str": " November"
+  }
+}

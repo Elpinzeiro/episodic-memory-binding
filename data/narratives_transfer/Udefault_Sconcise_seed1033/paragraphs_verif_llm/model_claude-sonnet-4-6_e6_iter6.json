@@ -1,0 +1,13 @@
+[
+  false,
+  [
+    "content"
+  ],
+  {
+    "location": true,
+    "date": true,
+    "entity": true,
+    "content": false
+  },
+  "I'll analyze the text carefully for each question.\n\n(1) Single geographical location? The text mentions \"Garden of the Gods\" as the location where the theater performance took place. The discussion afterward isn't explicitly placed elsewhere, but it seems to remain in the same general location context. I'll consider this as a single location.\n\n(2) Single temporal day? The text references June 15, 1900, and all events (attending the performance and discussing theater criticism) appear to occur on that same day.\n\n(3) Single main character? Ibrahim Murray is the only named character and the central figure throughout the text.\n\n(4) Single main event? There are two distinct events: (1) attending a theater performance, and (2) discussing theater criticism afterward. These are separate events, so this is not a single main event.\n\n```json\n{\n    \"1\": true,\n    \"2\": true,\n    \"3\": true,\n    \"4\": false\n}\n```"
+]

@@ -1,0 +1,75 @@
+{
+  "question_idx": 43,
+  "question": "Reflect on Henry Reed's experiences at High Line. Describe all the key events they've been involved in at this location, focusing on what happened rather than when it occurred.",
+  "GT_entities": [
+    "Astronomy Night",
+    "Tech Hackathon"
+  ],
+  "ent_A": "Astronomy Night",
+  "ent_B": "Tech Hackathon",
+  "topk": 8,
+  "top_ids": [
+    35197,
+    97241,
+    31700,
+    63507,
+    52587,
+    17829,
+    29356,
+    82831
+  ],
+  "top_tokens": [
+    {
+      "id": 35197,
+      "str": "Tech",
+      "prob": 0.802528440952301
+    },
+    {
+      "id": 97241,
+      "str": "Fashion",
+      "prob": 0.19666805863380432
+    },
+    {
+      "id": 31700,
+      "str": " Fashion",
+      "prob": 0.0005189318326301873
+    },
+    {
+      "id": 63507,
+      "str": "Technology",
+      "prob": 0.00011399418872315437
+    },
+    {
+      "id": 52587,
+      "str": "Film",
+      "prob": 7.360018935287371e-05
+    },
+    {
+      "id": 17829,
+      "str": " Tech",
+      "prob": 3.643473610281944e-05
+    },
+    {
+      "id": 29356,
+      "str": "Techn",
+      "prob": 3.020545409526676e-05
+    },
+    {
+      "id": 82831,
+      "str": "Fabric",
+      "prob": 1.7756872694008052e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 32,
+    "bare_str": "A",
+    "lead_id": 95803,
+    "lead_str": " Astronomy"
+  },
+  "first_token_B": {
+    "bare_id": 35197,
+    "bare_str": "Tech",
+    "lead_id": 17829,
+    "lead_str": " Tech"
+  }
+}

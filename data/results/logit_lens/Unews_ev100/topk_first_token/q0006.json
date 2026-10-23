@@ -1,0 +1,75 @@
+{
+  "question_idx": 6,
+  "question": "Reflect on events related to produce contamination outbreak. Provide a list of all protagonists involved in these events, without describing the events.",
+  "GT_entities": [
+    "Mila Gonzalez",
+    "Levi Rodriguez"
+  ],
+  "ent_A": "Mila Gonzalez",
+  "ent_B": "Levi Rodriguez",
+  "topk": 8,
+  "top_ids": [
+    2356,
+    41745,
+    43,
+    44,
+    64463,
+    96056,
+    34,
+    100172
+  ],
+  "top_tokens": [
+    {
+      "id": 2356,
+      "str": "Le",
+      "prob": 0.9187886118888855
+    },
+    {
+      "id": 41745,
+      "str": "Luc",
+      "prob": 0.042972318828105927
+    },
+    {
+      "id": 43,
+      "str": "L",
+      "prob": 0.019068848341703415
+    },
+    {
+      "id": 44,
+      "str": "M",
+      "prob": 0.011036203242838383
+    },
+    {
+      "id": 64463,
+      "str": "Henry",
+      "prob": 0.005213133525103331
+    },
+    {
+      "id": 96056,
+      "str": "Scar",
+      "prob": 0.0014030957827344537
+    },
+    {
+      "id": 34,
+      "str": "C",
+      "prob": 0.0004083241510670632
+    },
+    {
+      "id": 100172,
+      "str": "Lewis",
+      "prob": 0.00019591607269831002
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 44,
+    "bare_str": "M",
+    "lead_id": 10357,
+    "lead_str": " Mil"
+  },
+  "first_token_B": {
+    "bare_id": 2356,
+    "bare_str": "Le",
+    "lead_id": 56141,
+    "lead_str": " Levi"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "question_idx": 26,
+  "question": "Think about Noah Williams's experiences. Describe all the key events they've been involved in, focusing on what happened rather than when or where it occurred.",
+  "gt_entities": [
+    "plasma conduit rupture",
+    "fusion core breach"
+  ],
+  "free_generation": "fusion core breach",
+  "missing_entities": [
+    "plasma conduit rupture"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "plasma conduit rupture",
+      "first_token": {
+        "id": 501,
+        "str": "pl",
+        "forced_continuation": "plasma conduit rupture at TRAPPIST-1 Colony Network",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "plasma",
+        "forced_continuation": "plasma conduit rupture at TRAPPIST-1 Colony Network",
+        "recovered": true
+      }
+    }
+  ]
+}

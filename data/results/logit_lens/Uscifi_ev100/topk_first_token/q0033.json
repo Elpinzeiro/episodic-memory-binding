@@ -1,0 +1,75 @@
+{
+  "question_idx": 33,
+  "question": "Recall all events related to fusion core breach that occurred at Europa Subsurface Laboratory. Provide a list of all dates when these events took place, without describing the events.",
+  "GT_entities": [
+    "February 27, 2226",
+    "September 03, 2226"
+  ],
+  "ent_A": "February 27, 2226",
+  "ent_B": "September 03, 2226",
+  "topk": 8,
+  "top_ids": [
+    30649,
+    31294,
+    29527,
+    34827,
+    33327,
+    49912,
+    33877,
+    33246
+  ],
+  "top_tokens": [
+    {
+      "id": 30649,
+      "str": "September",
+      "prob": 0.4683234691619873
+    },
+    {
+      "id": 31294,
+      "str": "October",
+      "prob": 0.37630847096443176
+    },
+    {
+      "id": 29527,
+      "str": "July",
+      "prob": 0.05421237647533417
+    },
+    {
+      "id": 34827,
+      "str": "November",
+      "prob": 0.0442468523979187
+    },
+    {
+      "id": 33327,
+      "str": "January",
+      "prob": 0.02057669684290886
+    },
+    {
+      "id": 49912,
+      "str": "Sol",
+      "prob": 0.02025768533349037
+    },
+    {
+      "id": 33877,
+      "str": "February",
+      "prob": 0.007569743786007166
+    },
+    {
+      "id": 33246,
+      "str": "December",
+      "prob": 0.004737024661153555
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 33877,
+    "bare_str": "February",
+    "lead_id": 7552,
+    "lead_str": " February"
+  },
+  "first_token_B": {
+    "bare_id": 30649,
+    "bare_str": "September",
+    "lead_id": 6250,
+    "lead_str": " September"
+  }
+}

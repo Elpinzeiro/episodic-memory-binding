@@ -1,0 +1,29 @@
+{
+  "question_idx": 30,
+  "question": "Reflect on April 09, 2226. Describe all the key events that occurred on this date, focusing on what happened rather than who was involved or where it took place.",
+  "gt_entities": [
+    "cryo-pod integrity breach",
+    "subspace antenna failure"
+  ],
+  "free_generation": "cryo-pod integrity breach; antimatter cascade; Jupiter Colony Network outage; astronomical events observed; Henry Reed's growing concern about the future.",
+  "missing_entities": [
+    "subspace antenna failure"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "subspace antenna failure",
+      "first_token": {
+        "id": 2008,
+        "str": "sub",
+        "forced_continuation": "subspace antenna failure; solar corrosion detected; critical systems vulnerable; warning generated; countdown initiated; antimatter cascade contained; facility evacuated; protocol breached; cryo-pod integrity compromised; frozen smoke billowed",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "subspace",
+        "forced_continuation": "subspace antenna failure; solar corrosion detected; critical systems vulnerable; warning generated; countdown initiated; antimatter cascade contained; facility evacuated; protocol breached; cryo-pod integrity compromised; frozen smoke billowed;",
+        "recovered": true
+      }
+    }
+  ]
+}

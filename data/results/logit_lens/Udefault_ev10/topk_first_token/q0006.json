@@ -1,0 +1,75 @@
+{
+  "question_idx": 6,
+  "question": "Consider all events involving both Levi Rodriguez and Theater Performance. Provide a list of all dates when these events occurred, without describing the events.",
+  "GT_entities": [
+    "November 13, 2026",
+    "May 11, 2026"
+  ],
+  "ent_A": "November 13, 2026",
+  "ent_B": "May 11, 2026",
+  "topk": 8,
+  "top_ids": [
+    33877,
+    11356,
+    7552,
+    34827,
+    41691,
+    30649,
+    28259,
+    31294
+  ],
+  "top_tokens": [
+    {
+      "id": 33877,
+      "str": "February",
+      "prob": 0.8871912360191345
+    },
+    {
+      "id": 11356,
+      "str": "May",
+      "prob": 0.1093234121799469
+    },
+    {
+      "id": 7552,
+      "str": " February",
+      "prob": 0.0013548430288210511
+    },
+    {
+      "id": 34827,
+      "str": "November",
+      "prob": 0.0005389192956499755
+    },
+    {
+      "id": 41691,
+      "str": "Feb",
+      "prob": 0.0004984189290553331
+    },
+    {
+      "id": 30649,
+      "str": "September",
+      "prob": 0.00047559462836943567
+    },
+    {
+      "id": 28259,
+      "str": "June",
+      "prob": 0.0004330338560976088
+    },
+    {
+      "id": 31294,
+      "str": "October",
+      "prob": 6.959486927371472e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 34827,
+    "bare_str": "November",
+    "lead_id": 6841,
+    "lead_str": " November"
+  },
+  "first_token_B": {
+    "bare_id": 11356,
+    "bare_str": "May",
+    "lead_id": 3297,
+    "lead_str": " May"
+  }
+}

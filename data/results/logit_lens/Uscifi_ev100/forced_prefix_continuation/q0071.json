@@ -1,0 +1,44 @@
+{
+  "question_idx": 71,
+  "question": "Recall the events related to cryo-pod integrity breach that occurred on July 31, 2225. List all the locations where these events took place, without describing the events themselves.",
+  "gt_entities": [
+    "Mars Valles Industrial Hub",
+    "Mercury Twilight Observatory"
+  ],
+  "free_generation": "Luna Oceanus Trading Post Mercury Twilight Marketassistant\n\nLuna Oceanus Trading Post Mercury Twilight Market",
+  "missing_entities": [
+    "Mars Valles Industrial Hub",
+    "Mercury Twilight Observatory"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Mars Valles Industrial Hub",
+      "first_token": {
+        "id": 44,
+        "str": "M",
+        "forced_continuation": "Mars Valles Industrial Hub;:;: Elysium Surface Complex;:;: Triton Gas Colonyassistant\n\nMars Valles Industrial Hubassistant\n\nMars Valles Industrial Hub",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Mars",
+        "forced_continuation": "Mars Valles Industrial Hub;:;: Elysium Surface Complex;:;: Triton Gas Colonyassistant\n\nMars Valles Industrial Hubassistant\n\nMars Valles Industrial Hub",
+        "recovered": true
+      }
+    },
+    {
+      "missing_entity": "Mercury Twilight Observatory",
+      "first_token": {
+        "id": 27814,
+        "str": "Mer",
+        "forced_continuation": "Mercury Twilight Observatory Luna Oceanus Crater Shackleton Crater Colony=<?=$system\n\nYou are an expert in memory tests regarding the fictional book \"Synaptic Echoes 2026: The Neuro",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Mercury",
+        "forced_continuation": "Mercury Twilight Observatory Luna Oceanus Crater Shackleton Crater Colony=<?=$system\n\nYou are an expert in memory tests regarding the fictional book \"Synaptic Echoes 2026: The Neuro-T",
+        "recovered": true
+      }
+    }
+  ]
+}

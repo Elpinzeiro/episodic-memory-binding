@@ -1,0 +1,75 @@
+{
+  "question_idx": 2,
+  "question": "Reflect on all events involving Henry Reed. Provide a list of all dates when these events occurred, without describing the events.",
+  "GT_entities": [
+    "June 14, 2025",
+    "February 27, 2026"
+  ],
+  "ent_A": "June 14, 2025",
+  "ent_B": "February 27, 2026",
+  "topk": 8,
+  "top_ids": [
+    33877,
+    28259,
+    11356,
+    7552,
+    41691,
+    29527,
+    30649,
+    34827
+  ],
+  "top_tokens": [
+    {
+      "id": 33877,
+      "str": "February",
+      "prob": 0.5151897668838501
+    },
+    {
+      "id": 28259,
+      "str": "June",
+      "prob": 0.4764726459980011
+    },
+    {
+      "id": 11356,
+      "str": "May",
+      "prob": 0.00807106401771307
+    },
+    {
+      "id": 7552,
+      "str": " February",
+      "prob": 8.163765596691519e-05
+    },
+    {
+      "id": 41691,
+      "str": "Feb",
+      "prob": 5.788976704934612e-05
+    },
+    {
+      "id": 29527,
+      "str": "July",
+      "prob": 1.9696000890689902e-05
+    },
+    {
+      "id": 30649,
+      "str": "September",
+      "prob": 1.939064168254845e-05
+    },
+    {
+      "id": 34827,
+      "str": "November",
+      "prob": 1.607540798431728e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 28259,
+    "bare_str": "June",
+    "lead_id": 5651,
+    "lead_str": " June"
+  },
+  "first_token_B": {
+    "bare_id": 33877,
+    "bare_str": "February",
+    "lead_id": 7552,
+    "lead_str": " February"
+  }
+}

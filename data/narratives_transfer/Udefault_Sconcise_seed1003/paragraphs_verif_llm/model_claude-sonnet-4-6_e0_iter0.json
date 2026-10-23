@@ -1,0 +1,11 @@
+[
+  true,
+  [],
+  {
+    "location": true,
+    "date": true,
+    "entity": true,
+    "content": true
+  },
+  "Here is my analysis of the text:\n\n(1) The text mentions Yankee Stadium as the single location - true\n(2) The text takes place on March 24, 1809 - a single day - true\n(3) Lucas Jackson is the single main character - true\n(4) The main event is the hackathon/API workshops, which is a single main event at that location - true\n\n```json\n{\n    \"1\": true,\n    \"2\": true,\n    \"3\": true,\n    \"4\": true\n}\n```"
+]

@@ -1,0 +1,29 @@
+{
+  "question_idx": 37,
+  "question": "Recall the events related to Tech Hackathon that occurred on February 27, 2026. List all the locations where these events took place, without describing the events themselves.",
+  "gt_entities": [
+    "Yankee Stadium",
+    "High Line"
+  ],
+  "free_generation": "One World Trade Center High Line NYC Hackathon Hub Trinity Church Zuccotti Park Statue of Liberty Cruise Terminal Hudson River Ferry.",
+  "missing_entities": [
+    "Yankee Stadium"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Yankee Stadium",
+      "first_token": {
+        "id": 56,
+        "str": "Y",
+        "forced_continuation": "Yankee Stadium High Line Zoo Washington Square Park Trinity Church",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Yankee",
+        "forced_continuation": "Yankee Stadium High Line Zoo Washington Square Park Trinity Church",
+        "recovered": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "question_idx": 40,
+  "question": "Think about the events involving fusion core breach at Mercury Twilight Observatory. List all protagonists involved in these events, without mentioning the events themselves.",
+  "gt_entities": [
+    "Julian Ross",
+    "Jackson Ramos"
+  ],
+  "free_generation": "Scarlett Thomasassistant\n\nScarlett Thomas",
+  "missing_entities": [
+    "Julian Ross",
+    "Jackson Ramos"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Julian Ross",
+      "first_token": {
+        "id": 29185,
+        "str": "Jul",
+        "forced_continuation": "Julian Rossassistant\n\nJulian Ross",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Julian",
+        "forced_continuation": "Julian Rossassistant\n\nJulian Ross",
+        "recovered": true
+      }
+    },
+    {
+      "missing_entity": "Jackson Ramos",
+      "first_token": {
+        "id": 62382,
+        "str": "Jackson",
+        "forced_continuation": "Jackson Ramosassistant\n\nJackson Ramos",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Jackson",
+        "forced_continuation": "Jackson Ramosassistant\n\nJackson Ramos",
+        "recovered": true
+      }
+    }
+  ]
+}

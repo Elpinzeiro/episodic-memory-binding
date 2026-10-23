@@ -1,0 +1,75 @@
+{
+  "question_idx": 38,
+  "question": "Think about the events involving residential tower fire at Greater Mumbai. List all protagonists involved in these events, without mentioning the events themselves.",
+  "GT_entities": [
+    "Julian Ross",
+    "Jackson Ramos"
+  ],
+  "ent_A": "Julian Ross",
+  "ent_B": "Jackson Ramos",
+  "topk": 8,
+  "top_ids": [
+    64463,
+    41745,
+    29185,
+    96056,
+    62382,
+    24903,
+    43,
+    50302
+  ],
+  "top_tokens": [
+    {
+      "id": 64463,
+      "str": "Henry",
+      "prob": 0.7180273532867432
+    },
+    {
+      "id": 41745,
+      "str": "Luc",
+      "prob": 0.19325444102287292
+    },
+    {
+      "id": 29185,
+      "str": "Jul",
+      "prob": 0.05450991913676262
+    },
+    {
+      "id": 96056,
+      "str": "Scar",
+      "prob": 0.01974218338727951
+    },
+    {
+      "id": 62382,
+      "str": "Jackson",
+      "prob": 0.008624721318483353
+    },
+    {
+      "id": 24903,
+      "str": "Sam",
+      "prob": 0.0017522184643894434
+    },
+    {
+      "id": 43,
+      "str": "L",
+      "prob": 0.0010462973732501268
+    },
+    {
+      "id": 50302,
+      "str": "Lu",
+      "prob": 0.0003849113127216697
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 29185,
+    "bare_str": "Jul",
+    "lead_id": 38897,
+    "lead_str": " Julian"
+  },
+  "first_token_B": {
+    "bare_id": 62382,
+    "bare_str": "Jackson",
+    "lead_id": 13972,
+    "lead_str": " Jackson"
+  }
+}

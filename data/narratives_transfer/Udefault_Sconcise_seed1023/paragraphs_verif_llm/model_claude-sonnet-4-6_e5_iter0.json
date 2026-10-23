@@ -1,0 +1,11 @@
+[
+  true,
+  [],
+  {
+    "location": true,
+    "date": true,
+    "entity": true,
+    "content": true
+  },
+  "Here is my analysis of the text:\n\n(1) The text takes place at Venice Beach — a single geographical location. True\n(2) The text takes place on February 28, 1871 — a single day. True\n(3) The main character is Erik Andersen — a single main character. True\n(4) The main event is attending a fashion show, with a secondary action of discussing model casting. While the discussion is a sub-event of the fashion show, there are arguably two distinct events mentioned (attending the show and discussing casting). However, the discussion is part of the broader single main event (the fashion show). True\n\n```json\n{\n    \"1\": true,\n    \"2\": true,\n    \"3\": true,\n    \"4\": true\n}\n```"
+]

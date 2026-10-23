@@ -1,0 +1,30 @@
+{
+  "entity": "Rio Ferdinand",
+  "prompt": "List ALL teams that Rio Ferdinand played for between 2010 and 2015, including both club and national teams. Provide your answer as a JSON list like [\"a\",\"b\"]. Think about each event independently and reason before answering.",
+  "expected": [
+    "England national association football team",
+    "Manchester United F.C.",
+    "Queens Park Rangers F.C."
+  ],
+  "retry": 3,
+  "extended_reasoning_enabled": true,
+  "success": true,
+  "response": "[\"Manchester United\",\"England\",\"Queens Park Rangers\"]",
+  "model": "openai/gpt-5.4",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 117,
+    "completion_tokens": 315,
+    "total_tokens": 432
+  },
+  "reasoning_enabled": true,
+  "reasoning_details": [
+    {
+      "type": "reasoning.encrypted",
+      "data": "gAAAAABp1RoWOzvrQzfHjw2RYTJ4rZ-wt9gos1rhB6vDrcG-GWf9WBoz_SQfSBRsrx9sPLHJthS0Y70BZg4vIjAXYxUpg2OmX2pWlyI6ckiBTWigH5xrXA21wsYb3nKAPaq4seU9FPsQtnzajXlQsTTPZJy57FkLBKrTJlI7hF4MhEBjtocssk5uFKhiPFk_cOulnKAd0AJhEQSo1wzaXdSyXy-YtzR-fomOe2kcdkV91hMJpiXy7JyOVQ_fPyStqSpWdN4qLwQ6lzButFki6aP_SeEJKxnXbbG9aDZr5mjXr_iGuhL7s6YFfXSFVesApObq4KJIkRPPhr5PUiR6x7TmaOD0dJlyqTIdnveDSeJYm7YDMJ8xaozV3HISMQ_qZkoreej33-lNvQT5cAcoL55KiDbtWRA6du3eP2-qMhyG2466j-BFg9hZMSyPLpruk9Twea5BovpMsI6KiLPvYetzQ_EPWd3svkaQig3q9iu4s5DnxtsLFkJFGExrlaDAK_CDYp_sJsVW9HPvRm3XqVi9J22PMjDQhIkgwdnvKWrUACiMZpd6nz1s-pvYJWlzqZ4htbsysAWKKRls6QhIv_q9go9x7Wch0rrMA-hoFID-3k6pC15pMPQlM9GM4FWHb0--dLdX4l26J3Su_BZdi1WZHTkOyuV9ILfBKhGduUqTk2mapgXCR73MAwqmpBKec7vbU4VAPwcjQwRto8aQ4MF3BPB6WmJt0mN_LhhWOqhfuYjVCZ88AS4-9XlnAUlWydjUx2On8BKKYnXUnOWJ-q76CYn4VjNT6-7HHp9wqW9n04BgR2HhgJBy2H42VRAesW7yVFrYPIl2ANIuqJYoYaP7VCAs-FwzU2LXMjJiJnlMNEVY-9EaalQlFCUw1jRe8h5Ap7za2oFWOqn3m14wbV1ZfXmVU-R3uxbenuEfnb01O0sTDsV0--SzRP4XIYOpwevvsZ_r3EeVNEam3oW7UAMJ3nlO9ekS-SEcI0APVWEr3dpG6Q4N7U9Mg6IfCyWw6uB-l8m2JKrFvJLlqeDvTu1PcYRpTTkzQ8V_ET7SKkp_zUEMiNZ1_7dWPfwJuHYWPFO7ZtcgboGZMO2PZuL-gUWh-l42pO3kLnxE96fe0K_3HQwks61d0XWLey2wxXpfkUbAtqpxsFrWmPbQI9ONYC9LdkPURDJ5UBi4JFmWPSkhH-68fpgeMy3kuJKTSfThaBW-wyd_NFuvMcB47MdLIW97tUYBgmdN4vuEVHjgukjdUYCbppWaW7272D_kxtlkCSbtKkEDZ2SS5AHQcnPc1NEJb_xB3BO_1HsXEp4TWMWnR8DBhrnPCeDrixq_QcSML6tY8qR1lgjPwt9SPw9glB4gEDEimRedff3-RldRE_YEjugNhIPwDUQYXDO1dhpPVe_HqK4ZSPBQssj_awOfmtD-QCBE1ymwsfdEOZyli0FrPDv6wEPpR2dPVcy_lEK_Hfx2C7kOFAGepjP5XSMIFGCoLCuziFS0Ha3SdhbxfZh9ybu1IeoHVGNl218StI_YWoUL9T8UNmJ3QeAhh9uNiX3jGelGsdZgRfPcNV2_GBSLHGNE9IqdGbTVHaZlGL3uICoYbEYA70ef9GGJOImfCONoZt9cpqToksgS9zL8rmE-AlIO-mfgqBFW66qviAe7NBQpvrBoKYlhk2qe6AwtoyNB-KHEX9iwZJPHc_IKv2pAHKX5N-y0LogHOiLNwZaimMpOb3svroDRc29xCSI9hDBCdhTDS6v7ZfjZKcTUDYAOKBPSoCAfxn8cZ24XGPmoWPTYHtnP76c9h2nh_r0S_Zx5EZ60-F7FnTaAJ6jcsIp8j0VE4F8b3GV8xeTYZDee0JCWJrVptUonu_HlkFdyhiATqo3mvr9nI8JUyu5M0jHjkhSMxOva9Vu0cCtCEwh39CTfz24XMq9pPVDPdOD5EzRmNr5LmQsa-haPYYHKvRtfujiZYQOG6dA5Nl_fKjLrbbX0gFw_RTC3YVT3wOGNvmNbzZTMnEl6x92suIdKha9_Lqlbio2d8sxFTQw9FUAaTzIwwgGBGK4422H3gXbIseXK8VEEehmKynmBdoRJ9zng5O6FHaTyYkNpf_4_61Mgd4LfHz-xYbvotGd0TecCjv-yDOZ5JfaSNWMs8UyMgYV8Cw6WT8Y3TYlymdE1g-nCBZ8gRu5JZrMK06S26BD8vvA9F0R_YzDa5LUfamGeo525RkFLa_JVRCt9WQTGwWA-dp2qyRP5c_krlrMpprViUYD26Bad1-c1WeDwhlkgsGLW_wtqS1ReSFL0kxaQ29NOHYndaWBL7SKAPIw-V9lW5n3po0PHUsZ3BaelbOjPVb1xmwcltydebCi90dST6Bq2nS0_vhHux_EWM6Rbsv8AzPZ-57j6NQt-Ulq3GVE2tzUXOFkjV0migJIiM0xDAd1sXjwaD6Wbm2D37FRCP3USR0AqqM8xpTMYQwtvn_koadxQg3j2bp_fj4q7GWO2xx8v_dnDK8g8Z5NOok61rZvgSfYSrFYfzIaml3Y_JnWRY200JeTTLX7psFNch8cENkoDEhf4vzkHExkjdwyZtnQi0n9lGYBBPMSLDw==",
+      "format": "openai-responses-v1",
+      "id": "rs_08434ab302df9d0a0169d51a107d7c8194bb04d00319cc8b89",
+      "index": 0
+    }
+  ]
+}

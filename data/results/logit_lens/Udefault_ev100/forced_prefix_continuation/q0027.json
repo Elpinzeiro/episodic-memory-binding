@@ -1,0 +1,12 @@
+{
+  "question_idx": 27,
+  "question": "Consider all events that Ezra Edwards has been involved in. List all the locations where these events took place, without mentioning the events themselves.",
+  "gt_entities": [
+    "Yankee Stadium",
+    "One World Trade Center"
+  ],
+  "free_generation": "One World Trade Center, Yankee Stadium, Metropolitan Museum of Art, American Museum of Natural History, Bethpage Black Course, High Line, Statue of Liberty, Wall Street, Brooklyn Museum, Queensboro Bridge, Bethpage Black Course, Yankee Stadium, One World Trade Center, High Line, Metropolitan Museum of Art, Brooklyn Museum, Queensboro Bridge, Statue of Liberty, Wall Street, American Museum of Natural History, Bethpage Black Course, Yankee Stadium, High Line, One World Trade Center, Metropolitan Museum of Art, Brooklyn Museum, Queensboro Bridge, Statue of Liberty, Wall Street, American Museum of Natural History, Bethpage Black Course, Yankee Stadium, High Line, One World Trade Center, Metropolitan Museum of Art, Brooklyn Museum, Queensboro Bridge, Statue of Liberty, Wall Street, American Museum of Natural History, Bethpage Black Course, Yankee Stadium, High Line, One World Trade Center, Metropolitan Museum of Art, Brooklyn Museum, Queensboro Bridge, Statue of Liberty, Wall Street, American",
+  "missing_entities": [],
+  "is_binding_failure": false,
+  "forced_prefix_experiments": []
+}

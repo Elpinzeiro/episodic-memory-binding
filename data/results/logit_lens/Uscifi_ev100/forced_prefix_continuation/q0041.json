@@ -1,0 +1,29 @@
+{
+  "question_idx": 41,
+  "question": "Think about the events involving plasma conduit rupture at Mercury Twilight Observatory. List all protagonists involved in these events, without mentioning the events themselves.",
+  "gt_entities": [
+    "Samuel Parker",
+    "Scarlett Thomas"
+  ],
+  "free_generation": "Scarlett Thomasassistant\n\nScarlett Thomas",
+  "missing_entities": [
+    "Samuel Parker"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Samuel Parker",
+      "first_token": {
+        "id": 24903,
+        "str": "Sam",
+        "forced_continuation": "Samuel Parkerassistant\n\nPlasma conduit rupture at Mercury Twilight Observatory happened on February 27, 2226. Samuel Parker was involved in these events.",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Samuel",
+        "forced_continuation": "Samuel Parkerassistant\n\nPlasma conduit rupture at Mercury Twilight Observatory happened on February 27, 2226. Samuel Parker was involved in these events.",
+        "recovered": true
+      }
+    }
+  ]
+}

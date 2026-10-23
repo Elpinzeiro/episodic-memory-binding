@@ -1,0 +1,75 @@
+{
+  "question_idx": 17,
+  "question": "Think about Ezra Edwards's experiences. Describe all the key events they've been involved in, focusing on what happened rather than when or where it occurred.",
+  "GT_entities": [
+    "nuclear plant meltdown",
+    "volcanic eruption"
+  ],
+  "ent_A": "nuclear plant meltdown",
+  "ent_B": "volcanic eruption",
+  "topk": 8,
+  "top_ids": [
+    12821,
+    2739,
+    77,
+    37461,
+    19824,
+    67164,
+    14024,
+    94295
+  ],
+  "top_tokens": [
+    {
+      "id": 12821,
+      "str": "vol",
+      "prob": 0.9847875237464905
+    },
+    {
+      "id": 2739,
+      "str": "ru",
+      "prob": 0.004779332783073187
+    },
+    {
+      "id": 77,
+      "str": "n",
+      "prob": 0.0022931487765163183
+    },
+    {
+      "id": 37461,
+      "str": "Vol",
+      "prob": 0.0018140299944207072
+    },
+    {
+      "id": 19824,
+      "str": "flash",
+      "prob": 0.0012663970701396465
+    },
+    {
+      "id": 67164,
+      "str": " volcanic",
+      "prob": 0.0007329343934543431
+    },
+    {
+      "id": 14024,
+      "str": "bridge",
+      "prob": 0.0006569981342181563
+    },
+    {
+      "id": 94295,
+      "str": ".vol",
+      "prob": 0.0004732180095743388
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 77,
+    "bare_str": "n",
+    "lead_id": 11499,
+    "lead_str": " nuclear"
+  },
+  "first_token_B": {
+    "bare_id": 12821,
+    "bare_str": "vol",
+    "lead_id": 67164,
+    "lead_str": " volcanic"
+  }
+}

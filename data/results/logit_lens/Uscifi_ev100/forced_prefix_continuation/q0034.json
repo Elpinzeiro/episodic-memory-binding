@@ -1,0 +1,44 @@
+{
+  "question_idx": 34,
+  "question": "Recall all events related to digital afterlife server shutdown that occurred at Luna Oceanus Trading Post. Provide a list of all dates when these events took place, without describing the events.",
+  "gt_entities": [
+    "July 31, 2225",
+    "November 13, 2226"
+  ],
+  "free_generation": "May 28, 2225",
+  "missing_entities": [
+    "July 31, 2225",
+    "November 13, 2226"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "July 31, 2225",
+      "first_token": {
+        "id": 29527,
+        "str": "July",
+        "forced_continuation": "July 31, 2225; August 13, 2225assistant\n\nYou are an expert in memory tests regarding the fictional book \"Synaptic Echoes 2026: The",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "July",
+        "forced_continuation": "July 31, 2225; August 13, 2225assistant\n\nYou are an expert in memory tests regarding the fictional book \"Synaptic Echoes 2026: The",
+        "recovered": true
+      }
+    },
+    {
+      "missing_entity": "November 13, 2226",
+      "first_token": {
+        "id": 34827,
+        "str": "November",
+        "forced_continuation": "November 13, 2226; November 17, 2226",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "November",
+        "forced_continuation": "November 13, 2226; November 17, 2226",
+        "recovered": true
+      }
+    }
+  ]
+}

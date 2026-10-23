@@ -1,0 +1,44 @@
+{
+  "question_idx": 33,
+  "question": "Recall all events related to fusion core breach that occurred at Europa Subsurface Laboratory. Provide a list of all dates when these events took place, without describing the events.",
+  "gt_entities": [
+    "February 27, 2226",
+    "September 03, 2226"
+  ],
+  "free_generation": "September 22, 2226; September 27, 2226; October 03, 2226; October 13, 2226; October 24, 2226; October 28, 2226; November 20, 2226; November 23, 2226; December 14, 2226; January 30, 2227; February 07, 2227; February 23, 2227; March 19, 2227; April 11, 2227; May 06, 2227; May 13, 2227; May 30, 2227; June 11, 2227; July 04, 2227; July 16, 2227; July 29, 2227; August 12, 2227; August 25, 2227; September 07, 2227; September 21, 2227;",
+  "missing_entities": [
+    "February 27, 2226",
+    "September 03, 2226"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "February 27, 2226",
+      "first_token": {
+        "id": 33877,
+        "str": "February",
+        "forced_continuation": "February 27, 2226; March 04, 2226; March 16, 2226; March 22, 2226; April 28, 2226; May",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "February",
+        "forced_continuation": "February 27, 2226; March 04, 2226; March 16, 2226; March 22, 2226; April 28, 2226; May",
+        "recovered": true
+      }
+    },
+    {
+      "missing_entity": "September 03, 2226",
+      "first_token": {
+        "id": 30649,
+        "str": "September",
+        "forced_continuation": "September 22, 2226; September 27, 2226; October 03, 2226; October 13, 2226; October 24, 2226; October",
+        "recovered": false
+      },
+      "first_word": {
+        "str": "September",
+        "forced_continuation": "September 22, 2226; September 27, 2226; October 03, 2226; October 13, 2226; October 24, 2226; October",
+        "recovered": false
+      }
+    }
+  ]
+}

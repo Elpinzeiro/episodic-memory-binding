@@ -1,0 +1,75 @@
+{
+  "question_idx": 36,
+  "question": "Think about the events involving antimatter cascade on November 13, 2226. Provide a list of all protagonists involved in these events, without describing the events.",
+  "GT_entities": [
+    "Samuel Parker",
+    "Levi Rodriguez"
+  ],
+  "ent_A": "Samuel Parker",
+  "ent_B": "Levi Rodriguez",
+  "topk": 8,
+  "top_ids": [
+    29185,
+    64463,
+    44,
+    24903,
+    57,
+    77119,
+    2356,
+    36690
+  ],
+  "top_tokens": [
+    {
+      "id": 29185,
+      "str": "Jul",
+      "prob": 0.33591097593307495
+    },
+    {
+      "id": 64463,
+      "str": "Henry",
+      "prob": 0.31066685914993286
+    },
+    {
+      "id": 44,
+      "str": "M",
+      "prob": 0.27416256070137024
+    },
+    {
+      "id": 24903,
+      "str": "Sam",
+      "prob": 0.0611739307641983
+    },
+    {
+      "id": 57,
+      "str": "Z",
+      "prob": 0.01063043437898159
+    },
+    {
+      "id": 77119,
+      "str": "Moon",
+      "prob": 0.0019359462894499302
+    },
+    {
+      "id": 2356,
+      "str": "Le",
+      "prob": 0.0014613288221880794
+    },
+    {
+      "id": 36690,
+      "str": "Jun",
+      "prob": 0.0012696244521066546
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 24903,
+    "bare_str": "Sam",
+    "lead_id": 33007,
+    "lead_str": " Samuel"
+  },
+  "first_token_B": {
+    "bare_id": 2356,
+    "bare_str": "Le",
+    "lead_id": 56141,
+    "lead_str": " Levi"
+  }
+}

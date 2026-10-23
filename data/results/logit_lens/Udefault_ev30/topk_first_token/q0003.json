@@ -1,0 +1,75 @@
+{
+  "question_idx": 3,
+  "question": "Consider all events involving both Carter Stewart and Fashion Show. Provide a list of all dates when these events occurred, without describing the events.",
+  "GT_entities": [
+    "June 14, 2025",
+    "September 22, 2026"
+  ],
+  "ent_A": "June 14, 2025",
+  "ent_B": "September 22, 2026",
+  "topk": 8,
+  "top_ids": [
+    33877,
+    30649,
+    11356,
+    28623,
+    34827,
+    28259,
+    31294,
+    29527
+  ],
+  "top_tokens": [
+    {
+      "id": 33877,
+      "str": "February",
+      "prob": 0.6635470390319824
+    },
+    {
+      "id": 30649,
+      "str": "September",
+      "prob": 0.2680972218513489
+    },
+    {
+      "id": 11356,
+      "str": "May",
+      "prob": 0.03862306475639343
+    },
+    {
+      "id": 28623,
+      "str": "March",
+      "prob": 0.011964868754148483
+    },
+    {
+      "id": 34827,
+      "str": "November",
+      "prob": 0.011416956782341003
+    },
+    {
+      "id": 28259,
+      "str": "June",
+      "prob": 0.003271013032644987
+    },
+    {
+      "id": 31294,
+      "str": "October",
+      "prob": 0.0010786656057462096
+    },
+    {
+      "id": 29527,
+      "str": "July",
+      "prob": 0.0005095255910418928
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 28259,
+    "bare_str": "June",
+    "lead_id": 5651,
+    "lead_str": " June"
+  },
+  "first_token_B": {
+    "bare_id": 30649,
+    "bare_str": "September",
+    "lead_id": 6250,
+    "lead_str": " September"
+  }
+}

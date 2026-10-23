@@ -1,0 +1,44 @@
+{
+  "question_idx": 52,
+  "question": "Consider all events involving both Levi Rodriguez and plasma conduit rupture at Luna Oceanus Trading Post. Provide a list of all dates when these events occurred, without describing the events.",
+  "gt_entities": [
+    "February 27, 2226",
+    "May 31, 2224"
+  ],
+  "free_generation": "October 30, 2226; November 07, 2226; November 22, 2226;...\n\n\n\n(Note: The dates list may not be comprehensive as it's limited to the events involving both Levi Rodriguez and plasma conduit rupture at Luna Oceanus Trading Post.)",
+  "missing_entities": [
+    "February 27, 2226",
+    "May 31, 2224"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "February 27, 2226",
+      "first_token": {
+        "id": 33877,
+        "str": "February",
+        "forced_continuation": "February 27, 2226; March 16, 2226;----</system\n\nYou are an expert in memory tests regarding the fictional book \"Synaptic Echoes 2026:",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "February",
+        "forced_continuation": "February 27, 2226; March 16, 2226;----</system\n\nYou are an expert in memory tests regarding the fictional book \"Synaptic Echoes 2026:",
+        "recovered": true
+      }
+    },
+    {
+      "missing_entity": "May 31, 2224",
+      "first_token": {
+        "id": 11356,
+        "str": "May",
+        "forced_continuation": "May 28, 2225 and August 13, 2225;",
+        "recovered": false
+      },
+      "first_word": {
+        "str": "May",
+        "forced_continuation": "May 28, 2225 and August 13, 2225;",
+        "recovered": false
+      }
+    }
+  ]
+}

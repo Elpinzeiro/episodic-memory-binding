@@ -1,0 +1,75 @@
+{
+  "question_idx": 4,
+  "question": "Think about Henry Reed's experiences. Describe all the key events they've been involved in, focusing on what happened rather than when or where it occurred.",
+  "GT_entities": [
+    "flash flood emergency",
+    "residential tower fire"
+  ],
+  "ent_A": "flash flood emergency",
+  "ent_B": "residential tower fire",
+  "topk": 8,
+  "top_ids": [
+    417,
+    12821,
+    19824,
+    14024,
+    20658,
+    67164,
+    55555,
+    40631
+  ],
+  "top_tokens": [
+    {
+      "id": 417,
+      "str": "res",
+      "prob": 0.9893558621406555
+    },
+    {
+      "id": 12821,
+      "str": "vol",
+      "prob": 0.006461129058152437
+    },
+    {
+      "id": 19824,
+      "str": "flash",
+      "prob": 0.002490987302735448
+    },
+    {
+      "id": 14024,
+      "str": "bridge",
+      "prob": 0.0011951887281611562
+    },
+    {
+      "id": 20658,
+      "str": " residential",
+      "prob": 0.00013835314894095063
+    },
+    {
+      "id": 67164,
+      "str": " volcanic",
+      "prob": 6.742792902514338e-05
+    },
+    {
+      "id": 55555,
+      "str": " Residential",
+      "prob": 5.169879295863211e-05
+    },
+    {
+      "id": 40631,
+      "str": "resident",
+      "prob": 2.480535113136284e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 19824,
+    "bare_str": "flash",
+    "lead_id": 8381,
+    "lead_str": " flash"
+  },
+  "first_token_B": {
+    "bare_id": 417,
+    "bare_str": "res",
+    "lead_id": 20658,
+    "lead_str": " residential"
+  }
+}

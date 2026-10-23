@@ -1,0 +1,75 @@
+{
+  "question_idx": 8,
+  "question": "Think about the events involving fusion core breach at Luna Oceanus Trading Post. List all protagonists involved in these events, without mentioning the events themselves.",
+  "GT_entities": [
+    "Carter Stewart",
+    "Scarlett Thomas"
+  ],
+  "ent_A": "Carter Stewart",
+  "ent_B": "Scarlett Thomas",
+  "topk": 8,
+  "top_ids": [
+    64463,
+    34,
+    24903,
+    96056,
+    27368,
+    2356,
+    62158,
+    95336
+  ],
+  "top_tokens": [
+    {
+      "id": 64463,
+      "str": "Henry",
+      "prob": 0.3642682731151581
+    },
+    {
+      "id": 34,
+      "str": "C",
+      "prob": 0.16677416861057281
+    },
+    {
+      "id": 24903,
+      "str": "Sam",
+      "prob": 0.15666984021663666
+    },
+    {
+      "id": 96056,
+      "str": "Scar",
+      "prob": 0.10600810497999191
+    },
+    {
+      "id": 27368,
+      "str": "Bro",
+      "prob": 0.09804147481918335
+    },
+    {
+      "id": 2356,
+      "str": "Le",
+      "prob": 0.09804147481918335
+    },
+    {
+      "id": 62158,
+      "str": "Captain",
+      "prob": 0.001159386127255857
+    },
+    {
+      "id": 95336,
+      "str": "Jake",
+      "prob": 0.000999453361146152
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 34,
+    "bare_str": "C",
+    "lead_id": 25581,
+    "lead_str": " Carter"
+  },
+  "first_token_B": {
+    "bare_id": 96056,
+    "bare_str": "Scar",
+    "lead_id": 96572,
+    "lead_str": " Scarlett"
+  }
+}

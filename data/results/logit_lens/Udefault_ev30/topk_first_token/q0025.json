@@ -1,0 +1,75 @@
+{
+  "question_idx": 25,
+  "question": "Recall all the events that occurred on September 13, 2025. Without describing the events, list all the unique locations where these events took place.",
+  "GT_entities": [
+    "One World Trade Center",
+    "Trinity Church"
+  ],
+  "ent_A": "One World Trade Center",
+  "ent_B": "Trinity Church",
+  "topk": 8,
+  "top_ids": [
+    35773,
+    4054,
+    45878,
+    4150,
+    45975,
+    45617,
+    41748,
+    6344
+  ],
+  "top_tokens": [
+    {
+      "id": 35773,
+      "str": "Met",
+      "prob": 0.9698284864425659
+    },
+    {
+      "id": 4054,
+      "str": "One",
+      "prob": 0.025845052674412727
+    },
+    {
+      "id": 45878,
+      "str": " Metropolitan",
+      "prob": 0.00378196663223207
+    },
+    {
+      "id": 4150,
+      "str": "met",
+      "prob": 0.00022712476493325084
+    },
+    {
+      "id": 45975,
+      "str": "MET",
+      "prob": 6.406348256859928e-05
+    },
+    {
+      "id": 45617,
+      "str": "_met",
+      "prob": 4.472351793083362e-05
+    },
+    {
+      "id": 41748,
+      "str": ".met",
+      "prob": 2.712618515943177e-05
+    },
+    {
+      "id": 6344,
+      "str": " Met",
+      "prob": 2.5883988200803287e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 4054,
+    "bare_str": "One",
+    "lead_id": 3861,
+    "lead_str": " One"
+  },
+  "first_token_B": {
+    "bare_id": 1305,
+    "bare_str": "Tr",
+    "lead_id": 45659,
+    "lead_str": " Trinity"
+  }
+}

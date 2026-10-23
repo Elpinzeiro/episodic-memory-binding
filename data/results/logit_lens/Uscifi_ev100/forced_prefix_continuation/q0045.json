@@ -1,0 +1,44 @@
+{
+  "question_idx": 45,
+  "question": "Consider all events involving Julian Ross at Luna Shackleton Crater Colony. Provide a list of all dates when these events occurred, without describing the events.",
+  "gt_entities": [
+    "October 12, 2224",
+    "January 03, 2226"
+  ],
+  "free_generation": "May 28, 2225 and October 31, 2225; July 16, 2226; September 02, 2226; September 22, 2226; October 28, 2226; November 01, 2226; November 15, 2226; November 27, 2226; December 13, 2226; January 09, 2227; February 21, 2227; March 16, 2227; April 17, 2227; May 03, 2227; June 11, 2227; July 04, 2227; August 20, 2227; September 19, 2227; October 24, 2227; November 30, 2227; December 14, 2227; January 05, 2228; February 22, 2228; March 07, 2228;",
+  "missing_entities": [
+    "October 12, 2224",
+    "January 03, 2226"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "October 12, 2224",
+      "first_token": {
+        "id": 31294,
+        "str": "October",
+        "forced_continuation": "October 12, 2224; October 31, 2224; January 28, 2225; September 03, 2225; October 29, 2225; November",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "October",
+        "forced_continuation": "October 12, 2224; October 31, 2224; January 28, 2225; September 03, 2225; October 29, 2225; November",
+        "recovered": true
+      }
+    },
+    {
+      "missing_entity": "January 03, 2226",
+      "first_token": {
+        "id": 33327,
+        "str": "January",
+        "forced_continuation": "January 03, 2226",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "January",
+        "forced_continuation": "January 03, 2226",
+        "recovered": true
+      }
+    }
+  ]
+}

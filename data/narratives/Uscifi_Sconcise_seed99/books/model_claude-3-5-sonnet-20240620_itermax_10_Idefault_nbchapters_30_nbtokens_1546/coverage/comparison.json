@@ -1,0 +1,567 @@
+[
+    {
+      "test_row": "(*, *, *, {antimatter cascade})",
+      "match": true,
+      "matched_with": "(*, *, *, antimatter cascade)[all]"
+    },
+    {
+      "test_row": "(*, *, *, {cryo-pod integrity breach})",
+      "match": true,
+      "matched_with": "(*, *, *, cryo-pod integrity breach)[all]"
+    },
+    {
+      "test_row": "(*, *, *, {fusion core breach})",
+      "match": true,
+      "matched_with": "(*, *, *, fusion core breach)[all]"
+    },
+    {
+      "test_row": "(*, *, *, {antimatter cascade})",
+      "match": true,
+      "matched_with": "(*, *, *, antimatter cascade)[all]"
+    },
+    {
+      "test_row": "(*, *, *, {cryo-pod integrity breach})",
+      "match": true,
+      "matched_with": "(*, *, *, cryo-pod integrity breach)[all]"
+    },
+    {
+      "test_row": "(*, *, *, {fusion core breach})",
+      "match": true,
+      "matched_with": "(*, *, *, fusion core breach)[all]"
+    },
+    {
+      "test_row": "(*, *, *, {antimatter cascade})",
+      "match": true,
+      "matched_with": "(*, *, *, antimatter cascade)[all]"
+    },
+    {
+      "test_row": "(*, *, *, {cryo-pod integrity breach})",
+      "match": true,
+      "matched_with": "(*, *, *, cryo-pod integrity breach)[all]"
+    },
+    {
+      "test_row": "(*, *, *, {fusion core breach})",
+      "match": true,
+      "matched_with": "(*, *, *, fusion core breach)[all]"
+    },
+    {
+      "test_row": "(*, *, *, {plasma conduit rupture})",
+      "match": true,
+      "matched_with": "(*, *, *, plasma conduit rupture)[all]"
+    },
+    {
+      "test_row": "(*, *, *, {plasma conduit rupture})",
+      "match": true,
+      "matched_with": "(*, *, *, plasma conduit rupture)[all]"
+    },
+    {
+      "test_row": "(*, *, *, {plasma conduit rupture})",
+      "match": true,
+      "matched_with": "(*, *, *, plasma conduit rupture)[all]"
+    },
+    {
+      "test_row": "(*, *, *, {subspace antenna failure})",
+      "match": true,
+      "matched_with": "(*, *, *, subspace antenna failure)[all]"
+    },
+    {
+      "test_row": "(*, *, *, {subspace antenna failure})",
+      "match": true,
+      "matched_with": "(*, *, *, subspace antenna failure)[all]"
+    },
+    {
+      "test_row": "(*, *, *, {subspace antenna failure})",
+      "match": true,
+      "matched_with": "(*, *, *, subspace antenna failure)[all]"
+    },
+    {
+      "test_row": "(*, *, {Carter Stewart}, *)",
+      "match": true,
+      "matched_with": "(*, *, Carter Stewart, *)[all]"
+    },
+    {
+      "test_row": "(*, *, {Levi Rodriguez}, *)",
+      "match": true,
+      "matched_with": "(*, *, Levi Rodriguez, *)[all]"
+    },
+    {
+      "test_row": "(*, *, {Mila Gonzalez}, *)",
+      "match": true,
+      "matched_with": "(*, *, Mila Gonzalez, *)[all]"
+    },
+    {
+      "test_row": "(*, *, {Samuel Parker}, *)",
+      "match": true,
+      "matched_with": "(*, *, Samuel Parker, *)[all]"
+    },
+    {
+      "test_row": "(*, *, {Scarlett Thomas}, *)",
+      "match": true,
+      "matched_with": "(*, *, Scarlett Thomas, *)[all]"
+    },
+    {
+      "test_row": "(*, *, {Carter Stewart}, *)",
+      "match": true,
+      "matched_with": "(*, *, Carter Stewart, *)[all]"
+    },
+    {
+      "test_row": "(*, *, {Levi Rodriguez}, *)",
+      "match": true,
+      "matched_with": "(*, *, Levi Rodriguez, *)[all]"
+    },
+    {
+      "test_row": "(*, *, {Mila Gonzalez}, *)",
+      "match": true,
+      "matched_with": "(*, *, Mila Gonzalez, *)[all]"
+    },
+    {
+      "test_row": "(*, *, {Samuel Parker}, *)",
+      "match": true,
+      "matched_with": "(*, *, Samuel Parker, *)[all]"
+    },
+    {
+      "test_row": "(*, *, {Scarlett Thomas}, *)",
+      "match": true,
+      "matched_with": "(*, *, Scarlett Thomas, *)[all]"
+    },
+    {
+      "test_row": "(*, *, {Carter Stewart}, *)",
+      "match": true,
+      "matched_with": "(*, *, Carter Stewart, *)[all]"
+    },
+    {
+      "test_row": "(*, *, {Levi Rodriguez}, *)",
+      "match": true,
+      "matched_with": "(*, *, Levi Rodriguez, *)[all]"
+    },
+    {
+      "test_row": "(*, *, {Mila Gonzalez}, *)",
+      "match": true,
+      "matched_with": "(*, *, Mila Gonzalez, *)[all]"
+    },
+    {
+      "test_row": "(*, *, {Samuel Parker}, *)",
+      "match": true,
+      "matched_with": "(*, *, Samuel Parker, *)[all]"
+    },
+    {
+      "test_row": "(*, *, {Scarlett Thomas}, *)",
+      "match": true,
+      "matched_with": "(*, *, Scarlett Thomas, *)[all]"
+    },
+    {
+      "test_row": "(*, *, {Carter Stewart}, {fusion core breach})",
+      "match": true,
+      "matched_with": "(*, *, Carter Stewart, fusion core breach)[all]"
+    },
+    {
+      "test_row": "(*, *, {Henry Reed}, {plasma conduit rupture})",
+      "match": true,
+      "matched_with": "(*, *, Henry Reed, plasma conduit rupture)[all]"
+    },
+    {
+      "test_row": "(*, *, {Levi Rodriguez}, {antimatter cascade})",
+      "match": true,
+      "matched_with": "(*, *, Levi Rodriguez, antimatter cascade)[all]"
+    },
+    {
+      "test_row": "(*, *, {Carter Stewart}, {fusion core breach})",
+      "match": true,
+      "matched_with": "(*, *, Carter Stewart, fusion core breach)[all]"
+    },
+    {
+      "test_row": "(*, *, {Henry Reed}, {plasma conduit rupture})",
+      "match": true,
+      "matched_with": "(*, *, Henry Reed, plasma conduit rupture)[all]"
+    },
+    {
+      "test_row": "(*, *, {Levi Rodriguez}, {antimatter cascade})",
+      "match": true,
+      "matched_with": "(*, *, Levi Rodriguez, antimatter cascade)[all]"
+    },
+    {
+      "test_row": "(*, *, {Henry Reed}, *)",
+      "match": true,
+      "matched_with": "(*, *, Henry Reed, *)[all]"
+    },
+    {
+      "test_row": "(*, *, {Henry Reed}, *)",
+      "match": true,
+      "matched_with": "(*, *, Henry Reed, *)[all]"
+    },
+    {
+      "test_row": "(*, *, {Henry Reed}, *)",
+      "match": true,
+      "matched_with": "(*, *, Henry Reed, *)[all]"
+    },
+    {
+      "test_row": "(*, *, {Henry Reed}, {cryo-pod integrity breach})",
+      "match": true,
+      "matched_with": "(*, *, Henry Reed, cryo-pod integrity breach)[all]"
+    },
+    {
+      "test_row": "(*, *, {Henry Reed}, {cryo-pod integrity breach})",
+      "match": true,
+      "matched_with": "(*, *, Henry Reed, cryo-pod integrity breach)[all]"
+    },
+    {
+      "test_row": "(*, {Europa Subsurface Laboratory}, *, *)",
+      "match": true,
+      "matched_with": "(*, Europa Subsurface Laboratory, *, *)[all]"
+    },
+    {
+      "test_row": "(*, {Luna Shackleton Crater Colony}, *, *)",
+      "match": true,
+      "matched_with": "(*, Luna Shackleton Crater Colony, *, *)[all]"
+    },
+    {
+      "test_row": "(*, {Mercury Twilight Observatory}, *, *)",
+      "match": true,
+      "matched_with": "(*, Mercury Twilight Observatory, *, *)[all]"
+    },
+    {
+      "test_row": "(*, {Naiad Oceanographic Center}, *, *)",
+      "match": true,
+      "matched_with": "(*, Naiad Oceanographic Center, *, *)[all]"
+    },
+    {
+      "test_row": "(*, {Europa Subsurface Laboratory}, *, *)",
+      "match": true,
+      "matched_with": "(*, Europa Subsurface Laboratory, *, *)[all]"
+    },
+    {
+      "test_row": "(*, {Luna Shackleton Crater Colony}, *, *)",
+      "match": true,
+      "matched_with": "(*, Luna Shackleton Crater Colony, *, *)[all]"
+    },
+    {
+      "test_row": "(*, {Mercury Twilight Observatory}, *, *)",
+      "match": true,
+      "matched_with": "(*, Mercury Twilight Observatory, *, *)[all]"
+    },
+    {
+      "test_row": "(*, {Naiad Oceanographic Center}, *, *)",
+      "match": true,
+      "matched_with": "(*, Naiad Oceanographic Center, *, *)[all]"
+    },
+    {
+      "test_row": "(*, {Europa Subsurface Laboratory}, *, *)",
+      "match": true,
+      "matched_with": "(*, Europa Subsurface Laboratory, *, *)[all]"
+    },
+    {
+      "test_row": "(*, {Luna Shackleton Crater Colony}, *, *)",
+      "match": true,
+      "matched_with": "(*, Luna Shackleton Crater Colony, *, *)[all]"
+    },
+    {
+      "test_row": "(*, {Mercury Twilight Observatory}, *, *)",
+      "match": true,
+      "matched_with": "(*, Mercury Twilight Observatory, *, *)[all]"
+    },
+    {
+      "test_row": "(*, {Naiad Oceanographic Center}, *, *)",
+      "match": true,
+      "matched_with": "(*, Naiad Oceanographic Center, *, *)[all]"
+    },
+    {
+      "test_row": "(*, {Europa Subsurface Laboratory}, *, {antimatter cascade})",
+      "match": true,
+      "matched_with": "(*, Europa Subsurface Laboratory, *, antimatter cascade)[all]"
+    },
+    {
+      "test_row": "(*, {Luna Oceanus Trading Post}, *, {fusion core breach})",
+      "match": true,
+      "matched_with": "(*, Luna Oceanus Trading Post, *, fusion core breach)[all]"
+    },
+    {
+      "test_row": "(*, {Europa Subsurface Laboratory}, *, {antimatter cascade})",
+      "match": true,
+      "matched_with": "(*, Europa Subsurface Laboratory, *, antimatter cascade)[all]"
+    },
+    {
+      "test_row": "(*, {Luna Oceanus Trading Post}, *, {fusion core breach})",
+      "match": true,
+      "matched_with": "(*, Luna Oceanus Trading Post, *, fusion core breach)[all]"
+    },
+    {
+      "test_row": "(*, {Luna Oceanus Trading Post}, *, *)",
+      "match": true,
+      "matched_with": "(*, Luna Oceanus Trading Post, *, *)[all]"
+    },
+    {
+      "test_row": "(*, {Triton Gas Colony}, *, *)",
+      "match": true,
+      "matched_with": "(*, Triton Gas Colony, *, *)[all]"
+    },
+    {
+      "test_row": "(*, {Luna Oceanus Trading Post}, *, *)",
+      "match": true,
+      "matched_with": "(*, Luna Oceanus Trading Post, *, *)[all]"
+    },
+    {
+      "test_row": "(*, {Triton Gas Colony}, *, *)",
+      "match": true,
+      "matched_with": "(*, Triton Gas Colony, *, *)[all]"
+    },
+    {
+      "test_row": "(*, {Luna Oceanus Trading Post}, *, *)",
+      "match": true,
+      "matched_with": "(*, Luna Oceanus Trading Post, *, *)[all]"
+    },
+    {
+      "test_row": "(*, {Triton Gas Colony}, *, *)",
+      "match": true,
+      "matched_with": "(*, Triton Gas Colony, *, *)[all]"
+    },
+    {
+      "test_row": "(*, {Luna Oceanus Trading Post}, *, {plasma conduit rupture})",
+      "match": true,
+      "matched_with": "(*, Luna Oceanus Trading Post, *, plasma conduit rupture)[all]"
+    },
+    {
+      "test_row": "(*, {Triton Gas Colony}, *, {antimatter cascade})",
+      "match": true,
+      "matched_with": "(*, Triton Gas Colony, *, antimatter cascade)[all]"
+    },
+    {
+      "test_row": "(*, {Luna Oceanus Trading Post}, *, {plasma conduit rupture})",
+      "match": true,
+      "matched_with": "(*, Luna Oceanus Trading Post, *, plasma conduit rupture)[all]"
+    },
+    {
+      "test_row": "(*, {Triton Gas Colony}, *, {antimatter cascade})",
+      "match": true,
+      "matched_with": "(*, Triton Gas Colony, *, antimatter cascade)[all]"
+    },
+    {
+      "test_row": "(*, {Luna Oceanus Trading Post}, {Henry Reed}, *)",
+      "match": true,
+      "matched_with": "(*, Luna Oceanus Trading Post, Henry Reed, *)[all]"
+    },
+    {
+      "test_row": "(*, {Luna Oceanus Trading Post}, {Henry Reed}, *)",
+      "match": true,
+      "matched_with": "(*, Luna Oceanus Trading Post, Henry Reed, *)[all]"
+    },
+    {
+      "test_row": "(*, {Luna Oceanus Trading Post}, {Henry Reed}, {plasma conduit rupture})",
+      "match": true,
+      "matched_with": "(*, Luna Oceanus Trading Post, Henry Reed, plasma conduit rupture)[all]"
+    },
+    {
+      "test_row": "(*, {Luna Shackleton Crater Colony}, {Levi Rodriguez}, *)",
+      "match": true,
+      "matched_with": "(*, Luna Shackleton Crater Colony, Levi Rodriguez, *)[all]"
+    },
+    {
+      "test_row": "(*, {Mercury Twilight Observatory}, {Samuel Parker}, *)",
+      "match": true,
+      "matched_with": "(*, Mercury Twilight Observatory, Samuel Parker, *)[all]"
+    },
+    {
+      "test_row": "(*, {Naiad Oceanographic Center}, {Henry Reed}, *)",
+      "match": true,
+      "matched_with": "(*, Naiad Oceanographic Center, Henry Reed, *)[all]"
+    },
+    {
+      "test_row": "(*, {Triton Gas Colony}, {Henry Reed}, *)",
+      "match": true,
+      "matched_with": "(*, Triton Gas Colony, Henry Reed, *)[all]"
+    },
+    {
+      "test_row": "(*, {Luna Shackleton Crater Colony}, {Levi Rodriguez}, *)",
+      "match": true,
+      "matched_with": "(*, Luna Shackleton Crater Colony, Levi Rodriguez, *)[all]"
+    },
+    {
+      "test_row": "(*, {Mercury Twilight Observatory}, {Samuel Parker}, *)",
+      "match": true,
+      "matched_with": "(*, Mercury Twilight Observatory, Samuel Parker, *)[all]"
+    },
+    {
+      "test_row": "(*, {Naiad Oceanographic Center}, {Henry Reed}, *)",
+      "match": true,
+      "matched_with": "(*, Naiad Oceanographic Center, Henry Reed, *)[all]"
+    },
+    {
+      "test_row": "(*, {Triton Gas Colony}, {Henry Reed}, *)",
+      "match": true,
+      "matched_with": "(*, Triton Gas Colony, Henry Reed, *)[all]"
+    },
+    {
+      "test_row": "(*, {Mars Valles Industrial Hub}, *, *)",
+      "match": true,
+      "matched_with": "(*, Mars Valles Industrial Hub, *, *)[all]"
+    },
+    {
+      "test_row": "(*, {Mars Valles Industrial Hub}, *, *)",
+      "match": true,
+      "matched_with": "(*, Mars Valles Industrial Hub, *, *)[all]"
+    },
+    {
+      "test_row": "(*, {Mars Valles Industrial Hub}, *, *)",
+      "match": true,
+      "matched_with": "(*, Mars Valles Industrial Hub, *, *)[all]"
+    },
+    {
+      "test_row": "({April 09, 2226}, *, *, *)",
+      "match": true,
+      "matched_with": "(April 09, 2226, *, *, *)[all]"
+    },
+    {
+      "test_row": "({September 13, 2225}, *, *, *)",
+      "match": true,
+      "matched_with": "(September 13, 2225, *, *, *)[all]"
+    },
+    {
+      "test_row": "({September 22, 2226}, *, *, *)",
+      "match": true,
+      "matched_with": "(September 22, 2226, *, *, *)[all]"
+    },
+    {
+      "test_row": "({April 09, 2226}, *, *, *)",
+      "match": true,
+      "matched_with": "(April 09, 2226, *, *, *)[all]"
+    },
+    {
+      "test_row": "({September 13, 2225}, *, *, *)",
+      "match": true,
+      "matched_with": "(September 13, 2225, *, *, *)[all]"
+    },
+    {
+      "test_row": "({September 22, 2226}, *, *, *)",
+      "match": true,
+      "matched_with": "(September 22, 2226, *, *, *)[all]"
+    },
+    {
+      "test_row": "({April 09, 2226}, *, *, *)",
+      "match": true,
+      "matched_with": "(April 09, 2226, *, *, *)[all]"
+    },
+    {
+      "test_row": "({September 13, 2225}, *, *, *)",
+      "match": true,
+      "matched_with": "(September 13, 2225, *, *, *)[all]"
+    },
+    {
+      "test_row": "({September 22, 2226}, *, *, *)",
+      "match": true,
+      "matched_with": "(September 22, 2226, *, *, *)[all]"
+    },
+    {
+      "test_row": "({February 27, 2226}, *, *, *)",
+      "match": true,
+      "matched_with": "(February 27, 2226, *, *, *)[all]"
+    },
+    {
+      "test_row": "({June 14, 2225}, *, *, *)",
+      "match": true,
+      "matched_with": "(June 14, 2225, *, *, *)[all]"
+    },
+    {
+      "test_row": "({March 23, 2224}, *, *, *)",
+      "match": true,
+      "matched_with": "(March 23, 2224, *, *, *)[all]"
+    },
+    {
+      "test_row": "({May 11, 2226}, *, *, *)",
+      "match": true,
+      "matched_with": "(May 11, 2226, *, *, *)[all]"
+    },
+    {
+      "test_row": "({November 13, 2226}, *, *, *)",
+      "match": true,
+      "matched_with": "(November 13, 2226, *, *, *)[all]"
+    },
+    {
+      "test_row": "({February 27, 2226}, *, *, *)",
+      "match": true,
+      "matched_with": "(February 27, 2226, *, *, *)[all]"
+    },
+    {
+      "test_row": "({June 14, 2225}, *, *, *)",
+      "match": true,
+      "matched_with": "(June 14, 2225, *, *, *)[all]"
+    },
+    {
+      "test_row": "({March 23, 2224}, *, *, *)",
+      "match": true,
+      "matched_with": "(March 23, 2224, *, *, *)[all]"
+    },
+    {
+      "test_row": "({May 11, 2226}, *, *, *)",
+      "match": true,
+      "matched_with": "(May 11, 2226, *, *, *)[all]"
+    },
+    {
+      "test_row": "({November 13, 2226}, *, *, *)",
+      "match": true,
+      "matched_with": "(November 13, 2226, *, *, *)[all]"
+    },
+    {
+      "test_row": "({February 27, 2226}, *, *, *)",
+      "match": true,
+      "matched_with": "(February 27, 2226, *, *, *)[all]"
+    },
+    {
+      "test_row": "({June 14, 2225}, *, *, *)",
+      "match": true,
+      "matched_with": "(June 14, 2225, *, *, *)[all]"
+    },
+    {
+      "test_row": "({March 23, 2224}, *, *, *)",
+      "match": true,
+      "matched_with": "(March 23, 2224, *, *, *)[all]"
+    },
+    {
+      "test_row": "({May 11, 2226}, *, *, *)",
+      "match": true,
+      "matched_with": "(May 11, 2226, *, *, *)[all]"
+    },
+    {
+      "test_row": "({November 13, 2226}, *, *, *)",
+      "match": true,
+      "matched_with": "(November 13, 2226, *, *, *)[all]"
+    },
+    {
+      "test_row": "({February 27, 2226}, *, *, {cryo-pod integrity breach})",
+      "match": false,
+      "matched_with": null
+    },
+    {
+      "test_row": "({June 14, 2225}, *, *, {fusion core breach})",
+      "match": true,
+      "matched_with": "(June 14, 2225, *, *, fusion core breach)[all]"
+    },
+    {
+      "test_row": "({May 11, 2226}, *, *, {antimatter cascade})",
+      "match": false,
+      "matched_with": null
+    },
+    {
+      "test_row": "({November 13, 2226}, *, *, {antimatter cascade})",
+      "match": true,
+      "matched_with": "(November 13, 2226, *, *, antimatter cascade)[all]"
+    },
+    {
+      "test_row": "({February 27, 2226}, *, *, {cryo-pod integrity breach})",
+      "match": false,
+      "matched_with": null
+    },
+    {
+      "test_row": "({June 14, 2225}, *, *, {fusion core breach})",
+      "match": true,
+      "matched_with": "(June 14, 2225, *, *, fusion core breach)[all]"
+    },
+    {
+      "test_row": "({May 11, 2226}, *, *, {antimatter cascade})",
+      "match": false,
+      "matched_with": null
+    },
+    {
+      "test_row": "({November 13, 2226}, *, *, {antimatter cascade})",
+      "match": true,
+      "matched_with": "(November 13, 2226, *, *, antimatter cascade)[all]"
+    }
+  ]

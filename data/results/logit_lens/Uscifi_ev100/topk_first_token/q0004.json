@@ -1,0 +1,75 @@
+{
+  "question_idx": 4,
+  "question": "Consider all events involving navigation computer blackout. List all the locations where these events took place, without mentioning the events themselves.",
+  "GT_entities": [
+    "Mars Valles Industrial Hub",
+    "Luna Shackleton Crater Colony"
+  ],
+  "ent_A": "Mars Valles Industrial Hub",
+  "ent_B": "Luna Shackleton Crater Colony",
+  "topk": 8,
+  "top_ids": [
+    43,
+    44,
+    2434,
+    51,
+    1305,
+    27814,
+    50,
+    49238
+  ],
+  "top_tokens": [
+    {
+      "id": 43,
+      "str": "L",
+      "prob": 0.8278456330299377
+    },
+    {
+      "id": 44,
+      "str": "M",
+      "prob": 0.11029975861310959
+    },
+    {
+      "id": 2434,
+      "str": "TR",
+      "prob": 0.05049890652298927
+    },
+    {
+      "id": 51,
+      "str": "T",
+      "prob": 0.009789659641683102
+    },
+    {
+      "id": 1305,
+      "str": "Tr",
+      "prob": 0.0010318226413801312
+    },
+    {
+      "id": 27814,
+      "str": "Mer",
+      "prob": 0.00027771128225140274
+    },
+    {
+      "id": 50,
+      "str": "S",
+      "prob": 4.1278097342001274e-05
+    },
+    {
+      "id": 49238,
+      "str": "Tra",
+      "prob": 4.063814049004577e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 44,
+    "bare_str": "M",
+    "lead_id": 21725,
+    "lead_str": " Mars"
+  },
+  "first_token_B": {
+    "bare_id": 43,
+    "bare_str": "L",
+    "lead_id": 50905,
+    "lead_str": " Luna"
+  }
+}

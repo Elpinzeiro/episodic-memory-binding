@@ -1,0 +1,75 @@
+{
+  "question_idx": 48,
+  "question": "Reflect on Scarlett Thomas's experiences at Luna Oceanus Trading Post. Describe all the key events they've been involved in at this location, focusing on what happened rather than when it occurred.",
+  "GT_entities": [
+    "digital afterlife server shutdown",
+    "fusion core breach"
+  ],
+  "ent_A": "digital afterlife server shutdown",
+  "ent_B": "fusion core breach",
+  "topk": 8,
+  "top_ids": [
+    62238,
+    5192,
+    519,
+    58369,
+    16106,
+    49225,
+    55665,
+    36872
+  ],
+  "top_tokens": [
+    {
+      "id": 62238,
+      "str": "cry",
+      "prob": 0.994084894657135
+    },
+    {
+      "id": 5192,
+      "str": "cr",
+      "prob": 0.002278910716995597
+    },
+    {
+      "id": 519,
+      "str": "ant",
+      "prob": 0.0013397026341408491
+    },
+    {
+      "id": 58369,
+      "str": "digital",
+      "prob": 0.0008649769588373601
+    },
+    {
+      "id": 16106,
+      "str": " cry",
+      "prob": 0.0004487441328819841
+    },
+    {
+      "id": 49225,
+      "str": "crypt",
+      "prob": 0.0003605760575737804
+    },
+    {
+      "id": 55665,
+      "str": "fusion",
+      "prob": 0.0002187004138249904
+    },
+    {
+      "id": 36872,
+      "str": "crypto",
+      "prob": 0.0001900102070067078
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 58369,
+    "bare_str": "digital",
+    "lead_id": 7528,
+    "lead_str": " digital"
+  },
+  "first_token_B": {
+    "bare_id": 55665,
+    "bare_str": "fusion",
+    "lead_id": 37608,
+    "lead_str": " fusion"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "question_idx": 5,
+  "question": "Reflect on the experiences of Levi Rodriguez related to Theater Performance. List all the unique locations where these events took place, without mentioning the events themselves.",
+  "GT_entities": [
+    "Washington Square Park",
+    "One World Trade Center"
+  ],
+  "ent_A": "Washington Square Park",
+  "ent_B": "One World Trade Center",
+  "topk": 8,
+  "top_ids": [
+    39231,
+    16257,
+    4054,
+    12243,
+    35773,
+    5744,
+    6652,
+    24188
+  ],
+  "top_tokens": [
+    {
+      "id": 39231,
+      "str": "Washington",
+      "prob": 0.8565528392791748
+    },
+    {
+      "id": 16257,
+      "str": "Stat",
+      "prob": 0.10889846086502075
+    },
+    {
+      "id": 4054,
+      "str": "One",
+      "prob": 0.018341494724154472
+    },
+    {
+      "id": 12243,
+      "str": "High",
+      "prob": 0.009665288962423801
+    },
+    {
+      "id": 35773,
+      "str": "Met",
+      "prob": 0.0053376792930066586
+    },
+    {
+      "id": 5744,
+      "str": "DC",
+      "prob": 0.00021689670393243432
+    },
+    {
+      "id": 6652,
+      "str": " Washington",
+      "prob": 0.00021689670393243432
+    },
+    {
+      "id": 24188,
+      "str": "West",
+      "prob": 0.00016118395433295518
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 39231,
+    "bare_str": "Washington",
+    "lead_id": 6652,
+    "lead_str": " Washington"
+  },
+  "first_token_B": {
+    "bare_id": 4054,
+    "bare_str": "One",
+    "lead_id": 3861,
+    "lead_str": " One"
+  }
+}

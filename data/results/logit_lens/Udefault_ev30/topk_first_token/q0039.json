@@ -1,0 +1,75 @@
+{
+  "question_idx": 39,
+  "question": "Recall the events related to Theater Performance that occurred on May 11, 2026. List all the locations where these events took place, without describing the events themselves.",
+  "GT_entities": [
+    "Washington Square Park",
+    "American Museum of Natural History"
+  ],
+  "ent_A": "Washington Square Park",
+  "ent_B": "American Museum of Natural History",
+  "topk": 8,
+  "top_ids": [
+    39231,
+    35773,
+    29518,
+    16257,
+    45878,
+    45975,
+    6652,
+    12243
+  ],
+  "top_tokens": [
+    {
+      "id": 39231,
+      "str": "Washington",
+      "prob": 0.6597015261650085
+    },
+    {
+      "id": 35773,
+      "str": "Met",
+      "prob": 0.3215128481388092
+    },
+    {
+      "id": 29518,
+      "str": "American",
+      "prob": 0.007801276631653309
+    },
+    {
+      "id": 16257,
+      "str": "Stat",
+      "prob": 0.006075640674680471
+    },
+    {
+      "id": 45878,
+      "str": " Metropolitan",
+      "prob": 0.0038020391948521137
+    },
+    {
+      "id": 45975,
+      "str": "MET",
+      "prob": 0.00012414096272550523
+    },
+    {
+      "id": 6652,
+      "str": " Washington",
+      "prob": 0.00010453716822667047
+    },
+    {
+      "id": 12243,
+      "str": "High",
+      "prob": 9.082347241928801e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 39231,
+    "bare_str": "Washington",
+    "lead_id": 6652,
+    "lead_str": " Washington"
+  },
+  "first_token_B": {
+    "bare_id": 29518,
+    "bare_str": "American",
+    "lead_id": 3778,
+    "lead_str": " American"
+  }
+}

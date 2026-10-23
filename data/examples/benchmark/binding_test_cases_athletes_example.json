@@ -1,0 +1,64 @@
+{
+  "test_cases": {
+    "Rio Ferdinand": {
+      "facts": {
+        "fact_a_period": {
+          "prompt": "In which period did Rio Ferdinand play for England national association football team?",
+          "expected": "2010"
+        },
+        "fact_a_team": {
+          "prompt": "Which national team did Rio Ferdinand play for in 2010?",
+          "expected": "England national association football team"
+        },
+        "fact_a_yesno": {
+          "prompt": "In 2010, did Rio Ferdinand play for England national association football team? Answer yes or no.",
+          "expected": "Yes"
+        },
+        "fact_b_period": {
+          "prompt": "In which period did Rio Ferdinand play for Manchester United F.C.?",
+          "expected": "2010"
+        },
+        "fact_b_team": {
+          "prompt": "Which team did Rio Ferdinand play for in 2010?",
+          "expected": "Manchester United F.C."
+        },
+        "fact_b_yesno": {
+          "prompt": "In 2010, did Rio Ferdinand play for Manchester United F.C.? Answer yes or no.",
+          "expected": "Yes"
+        },
+        "fact_c_period": {
+          "prompt": "In which period did Rio Ferdinand play for Queens Park Rangers F.C.?",
+          "expected": "2015"
+        },
+        "fact_c_team": {
+          "prompt": "Which team did Rio Ferdinand play for in 2015?",
+          "expected": "Queens Park Rangers F.C."
+        },
+        "fact_c_yesno": {
+          "prompt": "In 2015, did Rio Ferdinand play for Queens Park Rangers F.C.? Answer yes or no.",
+          "expected": "Yes"
+        }
+      },
+      "binding": {
+        "prompts": {
+          "raw": "List ALL teams that Rio Ferdinand played for between 2010 and 2015, including both club and national teams. Provide your answer as a JSON list like [\"a\",\"b\"].",
+          "reason": "List ALL teams that Rio Ferdinand played for between 2010 and 2015, including both club and national teams. Provide your answer as a JSON list like [\"a\",\"b\"]. Think about each event independently and reason before answering.",
+          "no_reason": "List ALL teams that Rio Ferdinand played for between 2010 and 2015, including both club and national teams. Provide your answer as a JSON list like [\"a\",\"b\"]. NO extra text, NO reasoning!"
+        },
+        "expected": [
+          "England national association football team",
+          "Manchester United F.C.",
+          "Queens Park Rangers F.C."
+        ]
+      },
+      "binding_multichoice": {
+        "prompts": {
+          "raw": "Which teams did Rio Ferdinand play for between 2010 and 2015, including both club and national teams? Select the correct option:\nA. England national association football team\nB. Manchester United\nC. Queens Park Rangers\nD. England national association football team, Manchester United, Queens Park Rangers\nE. None of them\nReturn ONLY the letter.",
+          "reason": "Which teams did Rio Ferdinand play for between 2010 and 2015, including both club and national teams? Select the correct option:\nA. England national association football team\nB. Manchester United\nC. Queens Park Rangers\nD. England national association football team, Manchester United, Queens Park Rangers\nE. None of them\nReturn ONLY the letter. Reflect about each event independently, take your time before answering, reason about it!",
+          "no_reason": "Which teams did Rio Ferdinand play for between 2010 and 2015, including both club and national teams? Select the correct option:\nA. England national association football team\nB. Manchester United\nC. Queens Park Rangers\nD. England national association football team, Manchester United, Queens Park Rangers\nE. None of them\nReturn ONLY the letter. Do NOT write anything else, no explanation, no reasoning!"
+        },
+        "expected_answer": "D"
+      }
+    }
+  }
+}

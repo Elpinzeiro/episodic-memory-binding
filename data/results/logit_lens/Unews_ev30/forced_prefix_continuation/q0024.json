@@ -1,0 +1,29 @@
+{
+  "question_idx": 24,
+  "question": "Recall all the events that occurred on April 09, 2026. Without describing the events, list all the unique locations where these events took place.",
+  "gt_entities": [
+    "Sichuan Province",
+    "Rajasthan"
+  ],
+  "free_generation": "Luang Prabang Province New South Wales Rajasthan Province Luang Prabang City Province Western Australia Province North Dakota Province New Mexico Province Vermont Province Rajasthan Province Luang Prabang Province New South Wales Province North Dakota Province Vermont Province Western Australia Province Province New Mexico Province Luang Prabang City Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province Province",
+  "missing_entities": [
+    "Sichuan Province"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Sichuan Province",
+      "first_token": {
+        "id": 50,
+        "str": "S",
+        "forced_continuation": "Sichuan Province, North Dakota Bridge, Luang Prabang Province.",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Sichuan",
+        "forced_continuation": "Sichuan Province, North Dakota Bridge, Luang Prabang Province.",
+        "recovered": true
+      }
+    }
+  ]
+}

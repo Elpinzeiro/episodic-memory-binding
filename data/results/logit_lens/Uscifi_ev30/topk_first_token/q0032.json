@@ -1,0 +1,75 @@
+{
+  "question_idx": 32,
+  "question": "Reflect on September 22, 2226. Describe all the key events that occurred on this date, focusing on what happened rather than who was involved or where it took place.",
+  "GT_entities": [
+    "antimatter cascade",
+    "fusion core breach"
+  ],
+  "ent_A": "antimatter cascade",
+  "ent_B": "fusion core breach",
+  "topk": 8,
+  "top_ids": [
+    501,
+    60065,
+    519,
+    62238,
+    55665,
+    32426,
+    65632,
+    111185
+  ],
+  "top_tokens": [
+    {
+      "id": 501,
+      "str": "pl",
+      "prob": 0.8790467977523804
+    },
+    {
+      "id": 60065,
+      "str": "matter",
+      "prob": 0.05708053335547447
+    },
+    {
+      "id": 519,
+      "str": "ant",
+      "prob": 0.038622621446847916
+    },
+    {
+      "id": 62238,
+      "str": "cry",
+      "prob": 0.00991910882294178
+    },
+    {
+      "id": 55665,
+      "str": "fusion",
+      "prob": 0.00714446697384119
+    },
+    {
+      "id": 32426,
+      "str": " plasma",
+      "prob": 0.003481934778392315
+    },
+    {
+      "id": 65632,
+      "str": " Plasma",
+      "prob": 0.0004461503413040191
+    },
+    {
+      "id": 111185,
+      "str": "анти",
+      "prob": 0.0004191194020677358
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 519,
+    "bare_str": "ant",
+    "lead_id": 79312,
+    "lead_str": " antim"
+  },
+  "first_token_B": {
+    "bare_id": 55665,
+    "bare_str": "fusion",
+    "lead_id": 37608,
+    "lead_str": " fusion"
+  }
+}

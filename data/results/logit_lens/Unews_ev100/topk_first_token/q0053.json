@@ -1,0 +1,75 @@
+{
+  "question_idx": 53,
+  "question": "Consider all events involving both Levi Rodriguez and flash flood emergency at Luang Prabang Province. Provide a list of all dates when these events occurred, without describing the events.",
+  "GT_entities": [
+    "February 27, 2026",
+    "May 31, 2024"
+  ],
+  "ent_A": "February 27, 2026",
+  "ent_B": "May 31, 2024",
+  "topk": 8,
+  "top_ids": [
+    29527,
+    11356,
+    31294,
+    30649,
+    5887,
+    28259,
+    29185,
+    34827
+  ],
+  "top_tokens": [
+    {
+      "id": 29527,
+      "str": "July",
+      "prob": 0.9117656946182251
+    },
+    {
+      "id": 11356,
+      "str": "May",
+      "prob": 0.04069104418158531
+    },
+    {
+      "id": 31294,
+      "str": "October",
+      "prob": 0.04006018862128258
+    },
+    {
+      "id": 30649,
+      "str": "September",
+      "prob": 0.006438258569687605
+    },
+    {
+      "id": 5887,
+      "str": " July",
+      "prob": 0.0005122246802784503
+    },
+    {
+      "id": 28259,
+      "str": "June",
+      "prob": 0.0002828773285727948
+    },
+    {
+      "id": 29185,
+      "str": "Jul",
+      "prob": 9.475203114561737e-05
+    },
+    {
+      "id": 34827,
+      "str": "November",
+      "prob": 9.328303713118657e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 33877,
+    "bare_str": "February",
+    "lead_id": 7552,
+    "lead_str": " February"
+  },
+  "first_token_B": {
+    "bare_id": 11356,
+    "bare_str": "May",
+    "lead_id": 3297,
+    "lead_str": " May"
+  }
+}

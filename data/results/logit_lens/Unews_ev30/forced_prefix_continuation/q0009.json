@@ -1,0 +1,12 @@
+{
+  "question_idx": 9,
+  "question": "Reflect on Levi Rodriguez's experiences at Rajasthan. Describe all the key events they've been involved in at this location, focusing on what happened rather than when it occurred.",
+  "gt_entities": [
+    "bridge collapse",
+    "volcanic eruption"
+  ],
+  "free_generation": "volcanic eruption, bridge collapse, police force strike, and residential tower fire.",
+  "missing_entities": [],
+  "is_binding_failure": false,
+  "forced_prefix_experiments": []
+}

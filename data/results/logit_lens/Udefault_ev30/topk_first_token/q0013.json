@@ -1,0 +1,75 @@
+{
+  "question_idx": 13,
+  "question": "Consider all events involving Samuel Parker at High Line. Provide a list of all dates when these events occurred, without describing the events.",
+  "GT_entities": [
+    "May 11, 2026",
+    "February 27, 2026"
+  ],
+  "ent_A": "May 11, 2026",
+  "ent_B": "February 27, 2026",
+  "topk": 8,
+  "top_ids": [
+    34827,
+    6841,
+    29527,
+    11356,
+    31294,
+    33877,
+    30649,
+    5887
+  ],
+  "top_tokens": [
+    {
+      "id": 34827,
+      "str": "November",
+      "prob": 0.9978899359703064
+    },
+    {
+      "id": 6841,
+      "str": " November",
+      "prob": 0.0018671122379601002
+    },
+    {
+      "id": 29527,
+      "str": "July",
+      "prob": 0.00015812696074135602
+    },
+    {
+      "id": 11356,
+      "str": "May",
+      "prob": 5.054041321272962e-05
+    },
+    {
+      "id": 31294,
+      "str": "October",
+      "prob": 1.6408070223405957e-05
+    },
+    {
+      "id": 33877,
+      "str": "February",
+      "prob": 1.3184254385123495e-05
+    },
+    {
+      "id": 30649,
+      "str": "September",
+      "prob": 1.59943147082231e-06
+    },
+    {
+      "id": 5887,
+      "str": " July",
+      "prob": 1.1165831210746546e-06
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 11356,
+    "bare_str": "May",
+    "lead_id": 3297,
+    "lead_str": " May"
+  },
+  "first_token_B": {
+    "bare_id": 33877,
+    "bare_str": "February",
+    "lead_id": 7552,
+    "lead_str": " February"
+  }
+}

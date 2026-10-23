@@ -1,0 +1,75 @@
+{
+  "question_idx": 54,
+  "question": "Consider all events involving both Levi Rodriguez and Educational Workshop at Metropolitan Museum of Art. Provide a list of all dates when these events occurred, without describing the events.",
+  "GT_entities": [
+    "February 27, 2026",
+    "May 31, 2024"
+  ],
+  "ent_A": "February 27, 2026",
+  "ent_B": "May 31, 2024",
+  "topk": 8,
+  "top_ids": [
+    11356,
+    30649,
+    28623,
+    33877,
+    29527,
+    29146,
+    32559,
+    28259
+  ],
+  "top_tokens": [
+    {
+      "id": 11356,
+      "str": "May",
+      "prob": 0.621078610420227
+    },
+    {
+      "id": 30649,
+      "str": "September",
+      "prob": 0.3594527244567871
+    },
+    {
+      "id": 28623,
+      "str": "March",
+      "prob": 0.016294579952955246
+    },
+    {
+      "id": 33877,
+      "str": "February",
+      "prob": 0.001515632146038115
+    },
+    {
+      "id": 29527,
+      "str": "July",
+      "prob": 0.0010255280649289489
+    },
+    {
+      "id": 29146,
+      "str": "April",
+      "prob": 0.0002760171191766858
+    },
+    {
+      "id": 32559,
+      "str": "August",
+      "prob": 0.00011506105511216447
+    },
+    {
+      "id": 28259,
+      "str": "June",
+      "prob": 6.354274955810979e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 33877,
+    "bare_str": "February",
+    "lead_id": 7552,
+    "lead_str": " February"
+  },
+  "first_token_B": {
+    "bare_id": 11356,
+    "bare_str": "May",
+    "lead_id": 3297,
+    "lead_str": " May"
+  }
+}

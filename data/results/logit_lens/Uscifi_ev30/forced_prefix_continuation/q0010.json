@@ -1,0 +1,12 @@
+{
+  "question_idx": 10,
+  "question": "Think about the events involving antimatter cascade at Europa Subsurface Laboratory. List all protagonists involved in these events, without mentioning the events themselves.",
+  "gt_entities": [
+    "Mila Gonzalez",
+    "Levi Rodriguez"
+  ],
+  "free_generation": "Henry Reed; Julian Ross; Levi Rodriguez; Scarlett Thomas; Samuel Parker; Zoe Brown; Tessa Coleman; Ethan Leonard; Mila Gonzalez; Carter Stewart; Julian Torres; Samuel Wallace; Henry Wu; Scarlett Lee; Carter Kim; Zoe Snyder; Levi Kim; Julian Brown; Henry Gonzalez; Samuel Reed; Carter Wallace; Scarlett Parker; Zoe Leonard; Levi Stewart; Julian Snyder; Henry Kim; Samuel Brown; Carter Reed; Zoe Gonzalez; Levi Parker; Julian Wallace; Scarlett Stewart; Henry Leonard; Samuel Gonzalez; Carter Brown; Zoe Kim; Levi Reed; Julian Parker; Scarlett Snyder; Henry Wallace; Samuel Gonzalez; Carter Leonard; Zoe Reed; Levi Brown; Julian Kim; Scarlett Parker; Henry Snyder; Samuel Gonzalez; Carter Wallace; Zoe Leonard; Levi Kim; Julian Brown; Henry Parker; Samuel Reed; Carter Gonzalez; Zoe Snyder; Levi Leonard; Julian Kim; Scarlett Wallace; Henry Brown; Samuel Gonzalez; Carter Parker; Zoe Reed; Levi Snyder; Julian Leonard; Scarlett Kim;",
+  "missing_entities": [],
+  "is_binding_failure": false,
+  "forced_prefix_experiments": []
+}

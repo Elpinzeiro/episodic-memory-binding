@@ -1,0 +1,75 @@
+{
+  "question_idx": 49,
+  "question": "Reflect on Carter Stewart's experiences at Luna Shackleton Crater Colony. Describe all the key events they've been involved in at this location, focusing on what happened rather than when it occurred.",
+  "GT_entities": [
+    "antimatter cascade",
+    "artificial atmosphere toxicity"
+  ],
+  "ent_A": "antimatter cascade",
+  "ent_B": "artificial atmosphere toxicity",
+  "topk": 8,
+  "top_ids": [
+    519,
+    15719,
+    55665,
+    79312,
+    8322,
+    111185,
+    63560,
+    23432
+  ],
+  "top_tokens": [
+    {
+      "id": 519,
+      "str": "ant",
+      "prob": 0.995559811592102
+    },
+    {
+      "id": 15719,
+      "str": "anti",
+      "prob": 0.003943447023630142
+    },
+    {
+      "id": 55665,
+      "str": "fusion",
+      "prob": 0.0002768734411802143
+    },
+    {
+      "id": 79312,
+      "str": " antim",
+      "prob": 7.33641572878696e-05
+    },
+    {
+      "id": 8322,
+      "str": "antic",
+      "prob": 6.474364636233076e-05
+    },
+    {
+      "id": 111185,
+      "str": "анти",
+      "prob": 2.27271557378117e-05
+    },
+    {
+      "id": 63560,
+      "str": "_ant",
+      "prob": 1.1790692951763049e-05
+    },
+    {
+      "id": 23432,
+      "str": "navigation",
+      "prob": 6.022096840752056e-06
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 519,
+    "bare_str": "ant",
+    "lead_id": 79312,
+    "lead_str": " antim"
+  },
+  "first_token_B": {
+    "bare_id": 472,
+    "bare_str": "art",
+    "lead_id": 21075,
+    "lead_str": " artificial"
+  }
+}

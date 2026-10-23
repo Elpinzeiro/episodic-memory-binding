@@ -1,0 +1,75 @@
+{
+  "question_idx": 36,
+  "question": "Think about the events involving Educational Workshop at Queensboro Bridge. List all protagonists involved in these events, without mentioning the events themselves.",
+  "GT_entities": [
+    "Noah Williams",
+    "Scarlett Thomas"
+  ],
+  "ent_A": "Noah Williams",
+  "ent_B": "Scarlett Thomas",
+  "topk": 8,
+  "top_ids": [
+    2822,
+    11356,
+    27368,
+    29185,
+    44,
+    96056,
+    18544,
+    9173
+  ],
+  "top_tokens": [
+    {
+      "id": 2822,
+      "str": "No",
+      "prob": 0.4733492434024811
+    },
+    {
+      "id": 11356,
+      "str": "May",
+      "prob": 0.2826497256755829
+    },
+    {
+      "id": 27368,
+      "str": "Bro",
+      "prob": 0.1661612093448639
+    },
+    {
+      "id": 29185,
+      "str": "Jul",
+      "prob": 0.03650077432394028
+    },
+    {
+      "id": 44,
+      "str": "M",
+      "prob": 0.02469765953719616
+    },
+    {
+      "id": 96056,
+      "str": "Scar",
+      "prob": 0.004359395708888769
+    },
+    {
+      "id": 18544,
+      "str": "Oct",
+      "prob": 0.00350287277251482
+    },
+    {
+      "id": 9173,
+      "str": "NO",
+      "prob": 0.0032906446140259504
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 2822,
+    "bare_str": "No",
+    "lead_id": 43084,
+    "lead_str": " Noah"
+  },
+  "first_token_B": {
+    "bare_id": 96056,
+    "bare_str": "Scar",
+    "lead_id": 96572,
+    "lead_str": " Scarlett"
+  }
+}

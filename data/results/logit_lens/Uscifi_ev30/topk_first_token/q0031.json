@@ -1,0 +1,75 @@
+{
+  "question_idx": 31,
+  "question": "Reflect on September 13, 2225. Describe all the key events that occurred on this date, focusing on what happened rather than who was involved or where it took place.",
+  "GT_entities": [
+    "matter synthesizer overload",
+    "cryo-pod integrity breach"
+  ],
+  "ent_A": "matter synthesizer overload",
+  "ent_B": "cryo-pod integrity breach",
+  "topk": 8,
+  "top_ids": [
+    60065,
+    62238,
+    519,
+    501,
+    16106,
+    43805,
+    32426,
+    55665
+  ],
+  "top_tokens": [
+    {
+      "id": 60065,
+      "str": "matter",
+      "prob": 0.5436856746673584
+    },
+    {
+      "id": 62238,
+      "str": "cry",
+      "prob": 0.30498000979423523
+    },
+    {
+      "id": 519,
+      "str": "ant",
+      "prob": 0.09901251643896103
+    },
+    {
+      "id": 501,
+      "str": "pl",
+      "prob": 0.04258475452661514
+    },
+    {
+      "id": 16106,
+      "str": " cry",
+      "prob": 0.002943564672023058
+    },
+    {
+      "id": 43805,
+      "str": " Cry",
+      "prob": 0.0013061988865956664
+    },
+    {
+      "id": 32426,
+      "str": " plasma",
+      "prob": 0.0010332883102819324
+    },
+    {
+      "id": 55665,
+      "str": "fusion",
+      "prob": 0.0005887500010430813
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 60065,
+    "bare_str": "matter",
+    "lead_id": 5030,
+    "lead_str": " matter"
+  },
+  "first_token_B": {
+    "bare_id": 62238,
+    "bare_str": "cry",
+    "lead_id": 16106,
+    "lead_str": " cry"
+  }
+}

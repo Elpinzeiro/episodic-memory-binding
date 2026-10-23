@@ -1,0 +1,75 @@
+{
+  "question_idx": 21,
+  "question": "Think about all events that have occurred at Mars Valles Industrial Hub. Provide a list of all dates when these events took place, without describing the events.",
+  "GT_entities": [
+    "June 14, 2225",
+    "May 11, 2226"
+  ],
+  "ent_A": "June 14, 2225",
+  "ent_B": "May 11, 2226",
+  "topk": 8,
+  "top_ids": [
+    34827,
+    11356,
+    28259,
+    33877,
+    29527,
+    6841,
+    7552,
+    5887
+  ],
+  "top_tokens": [
+    {
+      "id": 34827,
+      "str": "November",
+      "prob": 0.40490642189979553
+    },
+    {
+      "id": 11356,
+      "str": "May",
+      "prob": 0.2133706957101822
+    },
+    {
+      "id": 28259,
+      "str": "June",
+      "prob": 0.163596972823143
+    },
+    {
+      "id": 33877,
+      "str": "February",
+      "prob": 0.12157494574785233
+    },
+    {
+      "id": 29527,
+      "str": "July",
+      "prob": 0.09034683555364609
+    },
+    {
+      "id": 6841,
+      "str": " November",
+      "prob": 0.002814841689541936
+    },
+    {
+      "id": 7552,
+      "str": " February",
+      "prob": 0.0017341735074296594
+    },
+    {
+      "id": 5887,
+      "str": " July",
+      "prob": 0.0004740966542158276
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 28259,
+    "bare_str": "June",
+    "lead_id": 5651,
+    "lead_str": " June"
+  },
+  "first_token_B": {
+    "bare_id": 11356,
+    "bare_str": "May",
+    "lead_id": 3297,
+    "lead_str": " May"
+  }
+}

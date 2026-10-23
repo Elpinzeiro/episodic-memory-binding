@@ -1,0 +1,75 @@
+{
+  "question_idx": 13,
+  "question": "Consider all events involving both Henry Reed and Fashion Show. Provide a list of all dates when these events occurred, without describing the events.",
+  "GT_entities": [
+    "February 27, 2026",
+    "October 12, 2024"
+  ],
+  "ent_A": "February 27, 2026",
+  "ent_B": "October 12, 2024",
+  "topk": 8,
+  "top_ids": [
+    33877,
+    31294,
+    30649,
+    29146,
+    28259,
+    34827,
+    28623,
+    33
+  ],
+  "top_tokens": [
+    {
+      "id": 33877,
+      "str": "February",
+      "prob": 0.727904736995697
+    },
+    {
+      "id": 31294,
+      "str": "October",
+      "prob": 0.17289254069328308
+    },
+    {
+      "id": 30649,
+      "str": "September",
+      "prob": 0.08693582564592361
+    },
+    {
+      "id": 29146,
+      "str": "April",
+      "prob": 0.004195112735033035
+    },
+    {
+      "id": 28259,
+      "str": "June",
+      "prob": 0.002883255947381258
+    },
+    {
+      "id": 34827,
+      "str": "November",
+      "prob": 0.0027945477049797773
+    },
+    {
+      "id": 28623,
+      "str": "March",
+      "prob": 0.0008006512653082609
+    },
+    {
+      "id": 33,
+      "str": "B",
+      "prob": 0.00019017132581211627
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 33877,
+    "bare_str": "February",
+    "lead_id": 7552,
+    "lead_str": " February"
+  },
+  "first_token_B": {
+    "bare_id": 31294,
+    "bare_str": "October",
+    "lead_id": 6664,
+    "lead_str": " October"
+  }
+}

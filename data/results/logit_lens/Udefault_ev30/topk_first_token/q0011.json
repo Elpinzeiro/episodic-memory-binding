@@ -1,0 +1,75 @@
+{
+  "question_idx": 11,
+  "question": "Reflect on Henry Reed's experiences at Trinity Church. Describe all the key events they've been involved in at this location, focusing on what happened rather than when it occurred.",
+  "GT_entities": [
+    "Tech Hackathon",
+    "Film Festival"
+  ],
+  "ent_A": "Tech Hackathon",
+  "ent_B": "Film Festival",
+  "topk": 8,
+  "top_ids": [
+    97241,
+    35197,
+    52587,
+    31700,
+    37,
+    32,
+    98982,
+    51240
+  ],
+  "top_tokens": [
+    {
+      "id": 97241,
+      "str": "Fashion",
+      "prob": 0.7038215398788452
+    },
+    {
+      "id": 35197,
+      "str": "Tech",
+      "prob": 0.2671405076980591
+    },
+    {
+      "id": 52587,
+      "str": "Film",
+      "prob": 0.017619827762246132
+    },
+    {
+      "id": 31700,
+      "str": " Fashion",
+      "prob": 0.0029216536786407232
+    },
+    {
+      "id": 37,
+      "str": "F",
+      "prob": 0.0022753861267119646
+    },
+    {
+      "id": 32,
+      "str": "A",
+      "prob": 0.001539603341370821
+    },
+    {
+      "id": 98982,
+      "str": "Educ",
+      "prob": 0.001074816333130002
+    },
+    {
+      "id": 51240,
+      "str": "Fil",
+      "prob": 0.0007741611334495246
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 35197,
+    "bare_str": "Tech",
+    "lead_id": 17829,
+    "lead_str": " Tech"
+  },
+  "first_token_B": {
+    "bare_id": 52587,
+    "bare_str": "Film",
+    "lead_id": 17042,
+    "lead_str": " Film"
+  }
+}

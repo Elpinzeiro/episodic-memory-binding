@@ -1,0 +1,29 @@
+{
+  "question_idx": 15,
+  "question": "Consider all events involving both Julian Ross and antimatter cascade. Provide a list of all dates when these events occurred, without describing the events.",
+  "gt_entities": [
+    "May 28, 2225",
+    "January 03, 2226"
+  ],
+  "free_generation": "January 03, 2226",
+  "missing_entities": [
+    "May 28, 2225"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "May 28, 2225",
+      "first_token": {
+        "id": 11356,
+        "str": "May",
+        "forced_continuation": "May 28, 2225; July 12, 2225; September 04, 2225; January 15, 2226",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "May",
+        "forced_continuation": "May 28, 2225; July 12, 2225; September 04, 2225; January 15, 2226",
+        "recovered": true
+      }
+    }
+  ]
+}

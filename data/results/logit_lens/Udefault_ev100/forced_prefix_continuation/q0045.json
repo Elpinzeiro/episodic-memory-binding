@@ -1,0 +1,44 @@
+{
+  "question_idx": 45,
+  "question": "Reflect on Scarlett Thomas's experiences at High Line. Describe all the key events they've been involved in at this location, focusing on what happened rather than when it occurred.",
+  "gt_entities": [
+    "Theater Performance",
+    "Educational Workshop"
+  ],
+  "free_generation": "Fashion Show or Tech Hackathon took place at High Line with Scarlett Thomas. Innovation sparked at this venue for her.",
+  "missing_entities": [
+    "Theater Performance",
+    "Educational Workshop"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Theater Performance",
+      "first_token": {
+        "id": 791,
+        "str": "The",
+        "forced_continuation": "Theater Performance Educational Workshop Scarlett Thomas was involved in a theater performance or educational workshop at High Line. Her voice echoed through the venue, captivating the audience.",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Theater",
+        "forced_continuation": "Theater Performance Educational Workshop Scarlett Thomas was involved in a theater performance or educational workshop at High Line. Her voice echoed through the venue, captivating the audience.",
+        "recovered": true
+      }
+    },
+    {
+      "missing_entity": "Educational Workshop",
+      "first_token": {
+        "id": 98982,
+        "str": "Educ",
+        "forced_continuation": "Educational Workshop survived an attack at High Line._Panel Discussion took place at High Line. Scarlett Thomas explained Parkour Technique at High Line. Fashion Show strutted its stuff at High Line. Debate erupted over",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Educational",
+        "forced_continuation": "Educational Workshop survived an attack at High Line._Panel Discussion took place at High Line. Scarlett Thomas explained Parkour Technique at High Line. Fashion Show strutted its stuff at High Line. Debate erupted over Urban",
+        "recovered": true
+      }
+    }
+  ]
+}

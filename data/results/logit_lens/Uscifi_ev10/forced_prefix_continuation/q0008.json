@@ -1,0 +1,12 @@
+{
+  "question_idx": 8,
+  "question": "Think about the events involving fusion core breach at Luna Oceanus Trading Post. List all protagonists involved in these events, without mentioning the events themselves.",
+  "gt_entities": [
+    "Carter Stewart",
+    "Scarlett Thomas"
+  ],
+  "free_generation": "Henry Reed Stokes; Samuel Parker Johnson; Scarlett Thomas Levesque; Carter Stewart Bell; Emily Patel Patel; Jackson Reed Wallace; Sophia Marie Jensen; William Henry Reed; Samuel Carter Ross; Alexis Rose Moreno; Jackson Henry Ross; Carter Samuel Wallace; Scarlett Emily Bell; Sophia Carter Reed; Samuel Jackson Jensen; Alexis Carter Moreno; William Scarlett Reed; Emily Sophia Wallace; Carter Alexis Ross; Jackson Samuel Bell; Sophia William Reed; Samuel Carter Moreno; Scarlett Carter Jensen; Alexis Samuel Ross; Carter Sophia Wallace; Jackson Emily Bell; Sophia Carter Reed; Samuel Alexis Moreno; William Carter Ross; Scarlett Samuel Wallace; Carter Sophia Bell; Sophia Carter Reed; Samuel Carter Moreno; Jackson Carter Ross; Carter Sophia Wallace; Jackson Carter Bell; Sophia Carter Reed; Samuel Carter Moreno; Carter Sophia Ross; Jackson Carter Wallace; Carter Sophia Bell; Sophia Carter Reed; Samuel Carter Moreno; Carter Sophia Ross; Jackson Carter Wallace; Carter Sophia Bell; Sophia Carter Reed; Samuel Carter Moreno; Carter Sophia Ross; Jackson Carter",
+  "missing_entities": [],
+  "is_binding_failure": false,
+  "forced_prefix_experiments": []
+}

@@ -1,0 +1,13 @@
+[
+  false,
+  [
+    "content"
+  ],
+  {
+    "location": true,
+    "date": true,
+    "entity": true,
+    "content": false
+  },
+  "I'll analyze the text carefully for each question.\n\n(1) Single geographical location? The text mentions Alcatraz Island as the location. Everything appears to take place there. → True\n\n(2) Single temporal day? The text specifies February 27, 1862, a single day. → True\n\n(3) Single main character? The text mentions Marco Okafor as the character acting backstage, but the theater performance implies multiple people involved. However, Marco Okafor is the only named character. → True\n\n(4) Single main event? The main event is the theater performance, but there's also a secondary action (Marco Okafor discussing character motivation backstage), which is a distinct sub-event happening alongside the main performance. → False\n\n```json\n{\n    \"1\": true,\n    \"2\": true,\n    \"3\": true,\n    \"4\": false\n}\n```"
+]

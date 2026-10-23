@@ -1,0 +1,75 @@
+{
+  "question_idx": 38,
+  "question": "Recall the events related to Fashion Show that occurred on June 14, 2025. List all the locations where these events took place, without describing the events themselves.",
+  "GT_entities": [
+    "American Museum of Natural History",
+    "Statue of Liberty"
+  ],
+  "ent_A": "American Museum of Natural History",
+  "ent_B": "Statue of Liberty",
+  "topk": 8,
+  "top_ids": [
+    39231,
+    35773,
+    29518,
+    1305,
+    12243,
+    45878,
+    6652,
+    16257
+  ],
+  "top_tokens": [
+    {
+      "id": 39231,
+      "str": "Washington",
+      "prob": 0.788725733757019
+    },
+    {
+      "id": 35773,
+      "str": "Met",
+      "prob": 0.16023936867713928
+    },
+    {
+      "id": 29518,
+      "str": "American",
+      "prob": 0.03106381557881832
+    },
+    {
+      "id": 1305,
+      "str": "Tr",
+      "prob": 0.01688910461962223
+    },
+    {
+      "id": 12243,
+      "str": "High",
+      "prob": 0.0019247453892603517
+    },
+    {
+      "id": 45878,
+      "str": " Metropolitan",
+      "prob": 0.0003673440951388329
+    },
+    {
+      "id": 6652,
+      "str": " Washington",
+      "prob": 0.00035604211734607816
+    },
+    {
+      "id": 16257,
+      "str": "Stat",
+      "prob": 0.00019662514387164265
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 29518,
+    "bare_str": "American",
+    "lead_id": 3778,
+    "lead_str": " American"
+  },
+  "first_token_B": {
+    "bare_id": 16257,
+    "bare_str": "Stat",
+    "lead_id": 89675,
+    "lead_str": " Statue"
+  }
+}

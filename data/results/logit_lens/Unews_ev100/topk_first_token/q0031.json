@@ -1,0 +1,75 @@
+{
+  "question_idx": 31,
+  "question": "Consider all events that Noah Williams has been involved in. List all the locations where these events took place, without mentioning the events themselves.",
+  "GT_entities": [
+    "New South Wales",
+    "Vermont"
+  ],
+  "ent_A": "New South Wales",
+  "ent_B": "Vermont",
+  "topk": 8,
+  "top_ids": [
+    10902,
+    96056,
+    42985,
+    90937,
+    49,
+    50,
+    64463,
+    3648
+  ],
+  "top_tokens": [
+    {
+      "id": 10902,
+      "str": "Sm",
+      "prob": 0.6431125998497009
+    },
+    {
+      "id": 96056,
+      "str": "Scar",
+      "prob": 0.07103656977415085
+    },
+    {
+      "id": 42985,
+      "str": "Smith",
+      "prob": 0.057079486548900604
+    },
+    {
+      "id": 90937,
+      "str": "Sz",
+      "prob": 0.054465629160404205
+    },
+    {
+      "id": 49,
+      "str": "R",
+      "prob": 0.02825639769434929
+    },
+    {
+      "id": 50,
+      "str": "S",
+      "prob": 0.024549582973122597
+    },
+    {
+      "id": 64463,
+      "str": "Henry",
+      "prob": 0.013347376137971878
+    },
+    {
+      "id": 3648,
+      "str": "New",
+      "prob": 0.006110874004662037
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 3648,
+    "bare_str": "New",
+    "lead_id": 1561,
+    "lead_str": " New"
+  },
+  "first_token_B": {
+    "bare_id": 53,
+    "bare_str": "V",
+    "lead_id": 35739,
+    "lead_str": " Vermont"
+  }
+}

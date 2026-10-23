@@ -1,0 +1,75 @@
+{
+  "question_idx": 12,
+  "question": "Recall all events related to plasma conduit rupture that occurred at Luna Oceanus Trading Post. Provide a list of all dates when these events took place, without describing the events.",
+  "GT_entities": [
+    "June 14, 2225",
+    "February 27, 2226"
+  ],
+  "ent_A": "June 14, 2225",
+  "ent_B": "February 27, 2226",
+  "topk": 8,
+  "top_ids": [
+    33877,
+    28259,
+    7552,
+    34827,
+    11356,
+    30649,
+    29527,
+    33246
+  ],
+  "top_tokens": [
+    {
+      "id": 33877,
+      "str": "February",
+      "prob": 0.9864446520805359
+    },
+    {
+      "id": 28259,
+      "str": "June",
+      "prob": 0.011484316550195217
+    },
+    {
+      "id": 7552,
+      "str": " February",
+      "prob": 0.0008718457538634539
+    },
+    {
+      "id": 34827,
+      "str": "November",
+      "prob": 0.0007341677555814385
+    },
+    {
+      "id": 11356,
+      "str": "May",
+      "prob": 0.0004054458986502141
+    },
+    {
+      "id": 30649,
+      "str": "September",
+      "prob": 1.7537871826789342e-05
+    },
+    {
+      "id": 29527,
+      "str": "July",
+      "prob": 1.5968411389621906e-05
+    },
+    {
+      "id": 33246,
+      "str": "December",
+      "prob": 1.0472340363776311e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 28259,
+    "bare_str": "June",
+    "lead_id": 5651,
+    "lead_str": " June"
+  },
+  "first_token_B": {
+    "bare_id": 33877,
+    "bare_str": "February",
+    "lead_id": 7552,
+    "lead_str": " February"
+  }
+}

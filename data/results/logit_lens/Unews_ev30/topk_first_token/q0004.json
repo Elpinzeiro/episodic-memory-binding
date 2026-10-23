@@ -1,0 +1,75 @@
+{
+  "question_idx": 4,
+  "question": "Reflect on the experiences of Levi Rodriguez related to bridge collapse. List all the unique locations where these events took place, without mentioning the events themselves.",
+  "GT_entities": [
+    "Luzon Region",
+    "Rajasthan"
+  ],
+  "ent_A": "Luzon Region",
+  "ent_B": "Rajasthan",
+  "topk": 8,
+  "top_ids": [
+    49,
+    50302,
+    43,
+    24115,
+    41745,
+    53,
+    10036,
+    18866
+  ],
+  "top_tokens": [
+    {
+      "id": 49,
+      "str": "R",
+      "prob": 0.8247349858283997
+    },
+    {
+      "id": 50302,
+      "str": "Lu",
+      "prob": 0.12258590757846832
+    },
+    {
+      "id": 43,
+      "str": "L",
+      "prob": 0.051101408898830414
+    },
+    {
+      "id": 24115,
+      "str": "LU",
+      "prob": 0.0006138143362477422
+    },
+    {
+      "id": 41745,
+      "str": "Luc",
+      "prob": 0.0004218679678160697
+    },
+    {
+      "id": 53,
+      "str": "V",
+      "prob": 0.00020560204575303942
+    },
+    {
+      "id": 10036,
+      "str": "lu",
+      "prob": 9.12353498279117e-05
+    },
+    {
+      "id": 18866,
+      "str": " Lu",
+      "prob": 5.8905967307509854e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 43,
+    "bare_str": "L",
+    "lead_id": 82739,
+    "lead_str": " Luz"
+  },
+  "first_token_B": {
+    "bare_id": 49,
+    "bare_str": "R",
+    "lead_id": 87440,
+    "lead_str": " Rajasthan"
+  }
+}

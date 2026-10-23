@@ -1,0 +1,75 @@
+{
+  "question_idx": 10,
+  "question": "Reflect on the experiences of Henry Reed related to fusion core breach. List all the unique locations where these events took place, without mentioning the events themselves.",
+  "GT_entities": [
+    "Europa Subsurface Laboratory",
+    "Luna Oceanus Trading Post"
+  ],
+  "ent_A": "Europa Subsurface Laboratory",
+  "ent_B": "Luna Oceanus Trading Post",
+  "topk": 8,
+  "top_ids": [
+    51,
+    55218,
+    43,
+    44,
+    36,
+    27814,
+    54071,
+    39600
+  ],
+  "top_tokens": [
+    {
+      "id": 51,
+      "str": "T",
+      "prob": 0.9710435271263123
+    },
+    {
+      "id": 55218,
+      "str": "Eu",
+      "prob": 0.027980176731944084
+    },
+    {
+      "id": 43,
+      "str": "L",
+      "prob": 0.0007693158113397658
+    },
+    {
+      "id": 44,
+      "str": "M",
+      "prob": 5.074187720310874e-05
+    },
+    {
+      "id": 36,
+      "str": "E",
+      "prob": 4.340182931628078e-05
+    },
+    {
+      "id": 27814,
+      "str": "Mer",
+      "prob": 2.9829610866727307e-05
+    },
+    {
+      "id": 54071,
+      "str": "Tu",
+      "prob": 1.3445259355648886e-05
+    },
+    {
+      "id": 39600,
+      "str": " Europa",
+      "prob": 9.53411654336378e-06
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 55218,
+    "bare_str": "Eu",
+    "lead_id": 39600,
+    "lead_str": " Europa"
+  },
+  "first_token_B": {
+    "bare_id": 43,
+    "bare_str": "L",
+    "lead_id": 50905,
+    "lead_str": " Luna"
+  }
+}

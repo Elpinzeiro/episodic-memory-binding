@@ -1,0 +1,75 @@
+{
+  "question_idx": 3,
+  "question": "Consider all events that Henry Reed has been involved in. List all the locations where these events took place, without mentioning the events themselves.",
+  "GT_entities": [
+    "Europa Subsurface Laboratory",
+    "Luna Oceanus Trading Post"
+  ],
+  "ent_A": "Europa Subsurface Laboratory",
+  "ent_B": "Luna Oceanus Trading Post",
+  "topk": 8,
+  "top_ids": [
+    55218,
+    44,
+    43,
+    77119,
+    98527,
+    27814,
+    44662,
+    39600
+  ],
+  "top_tokens": [
+    {
+      "id": 55218,
+      "str": "Eu",
+      "prob": 0.6676452159881592
+    },
+    {
+      "id": 44,
+      "str": "M",
+      "prob": 0.30093127489089966
+    },
+    {
+      "id": 43,
+      "str": "L",
+      "prob": 0.026709169149398804
+    },
+    {
+      "id": 77119,
+      "str": "Moon",
+      "prob": 0.0018175815930590034
+    },
+    {
+      "id": 98527,
+      "str": "Euro",
+      "prob": 0.0006898762076161802
+    },
+    {
+      "id": 27814,
+      "str": "Mer",
+      "prob": 0.0003579030744731426
+    },
+    {
+      "id": 44662,
+      "str": " Mercury",
+      "prob": 0.000287583185127005
+    },
+    {
+      "id": 39600,
+      "str": " Europa",
+      "prob": 0.0002577879058662802
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 55218,
+    "bare_str": "Eu",
+    "lead_id": 39600,
+    "lead_str": " Europa"
+  },
+  "first_token_B": {
+    "bare_id": 43,
+    "bare_str": "L",
+    "lead_id": 50905,
+    "lead_str": " Luna"
+  }
+}

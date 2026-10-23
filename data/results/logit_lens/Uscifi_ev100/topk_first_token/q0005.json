@@ -1,0 +1,75 @@
+{
+  "question_idx": 5,
+  "question": "Recall all events related to inertial dampener malfunction. Provide a list of all dates when these events occurred, without describing the events.",
+  "GT_entities": [
+    "October 30, 2226",
+    "September 13, 2225"
+  ],
+  "ent_A": "October 30, 2226",
+  "ent_B": "September 13, 2225",
+  "topk": 8,
+  "top_ids": [
+    31294,
+    30649,
+    34827,
+    29527,
+    28259,
+    6664,
+    33246,
+    33327
+  ],
+  "top_tokens": [
+    {
+      "id": 31294,
+      "str": "October",
+      "prob": 0.9045360088348389
+    },
+    {
+      "id": 30649,
+      "str": "September",
+      "prob": 0.0708487331867218
+    },
+    {
+      "id": 34827,
+      "str": "November",
+      "prob": 0.017913363873958588
+    },
+    {
+      "id": 29527,
+      "str": "July",
+      "prob": 0.0027903642039746046
+    },
+    {
+      "id": 28259,
+      "str": "June",
+      "prob": 0.0016662025591358542
+    },
+    {
+      "id": 6664,
+      "str": " October",
+      "prob": 0.0012001206632703543
+    },
+    {
+      "id": 33246,
+      "str": "December",
+      "prob": 0.00032809472759254277
+    },
+    {
+      "id": 33327,
+      "str": "January",
+      "prob": 0.0003034380206372589
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 31294,
+    "bare_str": "October",
+    "lead_id": 6664,
+    "lead_str": " October"
+  },
+  "first_token_B": {
+    "bare_id": 30649,
+    "bare_str": "September",
+    "lead_id": 6250,
+    "lead_str": " September"
+  }
+}

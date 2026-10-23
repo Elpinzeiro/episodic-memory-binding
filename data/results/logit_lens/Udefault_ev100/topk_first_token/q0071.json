@@ -1,0 +1,75 @@
+{
+  "question_idx": 71,
+  "question": "Recall the events related to Tech Hackathon that occurred on July 31, 2025. List all the locations where these events took place, without describing the events themselves.",
+  "GT_entities": [
+    "High Line",
+    "Statue of Liberty"
+  ],
+  "ent_A": "High Line",
+  "ent_B": "Statue of Liberty",
+  "topk": 8,
+  "top_ids": [
+    16257,
+    29518,
+    35773,
+    7229,
+    1305,
+    39699,
+    48664,
+    78818
+  ],
+  "top_tokens": [
+    {
+      "id": 16257,
+      "str": "Stat",
+      "prob": 0.7918474078178406
+    },
+    {
+      "id": 29518,
+      "str": "American",
+      "prob": 0.19405055046081543
+    },
+    {
+      "id": 35773,
+      "str": "Met",
+      "prob": 0.007885248400270939
+    },
+    {
+      "id": 7229,
+      "str": "Port",
+      "prob": 0.0044928789138793945
+    },
+    {
+      "id": 1305,
+      "str": "Tr",
+      "prob": 0.0005712054553441703
+    },
+    {
+      "id": 39699,
+      "str": "Statistics",
+      "prob": 0.00015615888696629554
+    },
+    {
+      "id": 48664,
+      "str": "Indian",
+      "prob": 8.228994556702673e-05
+    },
+    {
+      "id": 78818,
+      "str": "american",
+      "prob": 7.730425568297505e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 12243,
+    "bare_str": "High",
+    "lead_id": 5234,
+    "lead_str": " High"
+  },
+  "first_token_B": {
+    "bare_id": 16257,
+    "bare_str": "Stat",
+    "lead_id": 89675,
+    "lead_str": " Statue"
+  }
+}

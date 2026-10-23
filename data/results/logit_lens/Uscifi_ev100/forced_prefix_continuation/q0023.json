@@ -1,0 +1,29 @@
+{
+  "question_idx": 23,
+  "question": "Think about Jackson Ramos's experiences. Describe all the key events they've been involved in, focusing on what happened rather than when or where it occurred.",
+  "gt_entities": [
+    "cryo-pod integrity breach",
+    "fusion core breach"
+  ],
+  "free_generation": "cryo-pod integrity breach at Mercury Twilight Observatory; involvement in magnetic confinement rupture at National Europa Bank; anti-matter cascade at Luna Shackleton Crater Colony; and more++.",
+  "missing_entities": [
+    "fusion core breach"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "fusion core breach",
+      "first_token": {
+        "id": 55665,
+        "str": "fusion",
+        "forced_continuation": "fusion core breach",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "fusion",
+        "forced_continuation": "fusion core breach",
+        "recovered": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "question_idx": 18,
+  "question": "Consider all events that Jackson Ramos has been involved in. List all the locations where these events took place, without mentioning the events themselves.",
+  "gt_entities": [
+    "Mars Valles Industrial Hub",
+    "Mercury Twilight Observatory"
+  ],
+  "free_generation": "Mercury Twilight Observatory || Naiad Oceanographic Center || Sedna Long Range Observatory || Eridani Military Base || Triton Gas Colony || Nemaesis Crater || Luna Shackleton Crater Studio || Halley's Valley Residential Complex || Kuipole Long Range Observatory || Scandia Algae Farm || Phobos Military Crater || Triton Gas Colony's Commercial District || Mars Valles Industrial Hub || Luna Shackleton Crater's Subsurface Laboratory.",
+  "missing_entities": [],
+  "is_binding_failure": false,
+  "forced_prefix_experiments": []
+}

@@ -1,0 +1,29 @@
+{
+  "question_idx": 67,
+  "question": "Think about the events involving antimatter cascade on June 14, 2225. Provide a list of all protagonists involved in these events, without describing the events.",
+  "gt_entities": [
+    "Lucy Carter",
+    "Mila Gonzalez"
+  ],
+  "free_generation": "Henry Reedassistant\n\nLucy Carter",
+  "missing_entities": [
+    "Mila Gonzalez"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Mila Gonzalez",
+      "first_token": {
+        "id": 44,
+        "str": "M",
+        "forced_continuation": "Mila Gonzalez",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Mila",
+        "forced_continuation": "Mila Gonzalez",
+        "recovered": true
+      }
+    }
+  ]
+}

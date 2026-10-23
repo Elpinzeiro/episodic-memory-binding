@@ -1,0 +1,75 @@
+{
+  "question_idx": 66,
+  "question": "Think about the events involving Tech Hackathon on July 31, 2025. Provide a list of all protagonists involved in these events, without describing the events.",
+  "GT_entities": [
+    "Henry Reed",
+    "Lucy Carter"
+  ],
+  "ent_A": "Henry Reed",
+  "ent_B": "Lucy Carter",
+  "topk": 8,
+  "top_ids": [
+    2356,
+    64463,
+    96056,
+    44,
+    36,
+    24903,
+    41745,
+    34
+  ],
+  "top_tokens": [
+    {
+      "id": 2356,
+      "str": "Le",
+      "prob": 0.7513841986656189
+    },
+    {
+      "id": 64463,
+      "str": "Henry",
+      "prob": 0.1841346174478531
+    },
+    {
+      "id": 96056,
+      "str": "Scar",
+      "prob": 0.029134327545762062
+    },
+    {
+      "id": 44,
+      "str": "M",
+      "prob": 0.027369167655706406
+    },
+    {
+      "id": 36,
+      "str": "E",
+      "prob": 0.00370401400141418
+    },
+    {
+      "id": 24903,
+      "str": "Sam",
+      "prob": 0.0020138374529778957
+    },
+    {
+      "id": 41745,
+      "str": "Luc",
+      "prob": 0.0005769741255789995
+    },
+    {
+      "id": 34,
+      "str": "C",
+      "prob": 0.00022950443963054568
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 64463,
+    "bare_str": "Henry",
+    "lead_id": 18063,
+    "lead_str": " Henry"
+  },
+  "first_token_B": {
+    "bare_id": 41745,
+    "bare_str": "Luc",
+    "lead_id": 45170,
+    "lead_str": " Lucy"
+  }
+}

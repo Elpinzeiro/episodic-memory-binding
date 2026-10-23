@@ -1,0 +1,15 @@
+{
+  "entity": "Rio Ferdinand",
+  "prompt": "Which team did Rio Ferdinand play for in 2010?",
+  "expected": "Manchester United F.C.",
+  "retry": 3,
+  "success": true,
+  "response": "In 2010, Rio Ferdinand played for **Manchester United**.",
+  "model": "openai/gpt-5.4",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 82,
+    "completion_tokens": 18,
+    "total_tokens": 100
+  }
+}

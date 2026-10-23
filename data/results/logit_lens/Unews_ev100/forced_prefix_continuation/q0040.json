@@ -1,0 +1,29 @@
+{
+  "question_idx": 40,
+  "question": "Think about the events involving bridge collapse at Luzon Region. List all protagonists involved in these events, without mentioning the events themselves.",
+  "gt_entities": [
+    "Mila Gonzalez",
+    "Levi Rodriguez"
+  ],
+  "free_generation": "Scarlett Thomas and Levi Rodriguez.",
+  "missing_entities": [
+    "Mila Gonzalez"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Mila Gonzalez",
+      "first_token": {
+        "id": 44,
+        "str": "M",
+        "forced_continuation": "Mila Gonzalez and Lucy Thomas.",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Mila",
+        "forced_continuation": "Mila Gonzalez and Lucy Thomas.",
+        "recovered": true
+      }
+    }
+  ]
+}

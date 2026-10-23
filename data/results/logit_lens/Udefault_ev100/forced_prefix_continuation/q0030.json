@@ -1,0 +1,12 @@
+{
+  "question_idx": 30,
+  "question": "Consider all events that Maya Smith has been involved in. List all the locations where these events took place, without mentioning the events themselves.",
+  "gt_entities": [
+    "Bethpage Black Course",
+    "Queensboro Bridge"
+  ],
+  "free_generation": "Queensboro Bridge\\\nAmerican Museum of Natural History\\\nOne World Trade Center\\\nBethesda Fountain\\\nTrinity Church\\\nMetropolitan Museum of Art\\\nStatue of Liberty\\\nHigh Line\\\nAstor Court Tea Room\\\nBrooklyn Museum\\\nWashington Square Park\\\nBethpage Black Course\\\nPort Jefferson\\\nRock and Roll Hall of Fame\\\nCentral Park Zoo and Petting Farm\\\nVan Cortlandt Park\\\nStatue of Liberty\\\nPort Jefferson\\\nBethpage Black Course\\\nMetropolitan Museum of Art\\\nTrinity Church\\\nQueensboro Bridge\\\nBrooklyn Museum\\\nWashington Square Park\\\nAstor Court Tea Room\\\nHigh Line\\\nBethpage Black Course\\\nStatue of Liberty\\\nOne World Trade Center\\\nVan Cortlandt Park\\\nCentral Park Zoo and Petting Farm\\\nRock and Roll Hall of Fame\\\nPort Jefferson\\\nAmerican Museum of Natural History\\\nTrinity Church\\\nQueensboro Bridge\\\nBethesda Fountain\\\nMetropolitan Museum of Art\\\nStatue of Liberty\\\nAstor Court Tea Room",
+  "missing_entities": [],
+  "is_binding_failure": false,
+  "forced_prefix_experiments": []
+}

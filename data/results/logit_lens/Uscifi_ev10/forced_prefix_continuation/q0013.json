@@ -1,0 +1,29 @@
+{
+  "question_idx": 13,
+  "question": "Recall all the events that occurred on May 11, 2226. Without describing the events, list all the unique locations where these events took place.",
+  "gt_entities": [
+    "Europa Subsurface Laboratory",
+    "Luna Oceanus Trading Post"
+  ],
+  "free_generation": "Luna Oceanus Trading Post. Mercury Twilight Observatory. Mars Valles Industrial Hub. Venus Rift Colony. Earth New Horizon Observatory. Mars Valles Industrial Hub. Luna Oceanus Trading Post. Earth New Horizon Observatory. Mars Valles Industrial Hub. Luna Oceanus Trading Post. Mars Valles Industrial Hub. Luna Oceanus Trading Post. Earth New Horizon Observatory. Mars Valles Industrial Hub. Luna Oceanus Trading Post. Mars Valles Industrial Hub. Luna Oceanus Trading Post. Earth New Horizon Observatory. Mars Valles Industrial Hub. Luna Oceanus Trading Post. Mars Valles Industrial Hub. Luna Oceanus Trading Post. Earth New Horizon Observatory. Mars Valles Industrial Hub. Luna Oceanus Trading Post. Mars Valles Industrial Hub. Luna Oceanus Trading Post. Earth New Horizon Observatory. Mars Valles Industrial Hub. Luna Oceanus Trading Post. Mars Valles Industrial Hub. Luna Oceanus Trading Post. Earth New Horizon Observatory. Mars Valles Industrial Hub. Luna Oceanus Trading Post.",
+  "missing_entities": [
+    "Europa Subsurface Laboratory"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Europa Subsurface Laboratory",
+      "first_token": {
+        "id": 55218,
+        "str": "Eu",
+        "forced_continuation": "Europa Subsurface Laboratory, Luna Oceanus Trading Post, Mars Valles Industrial Hub;",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Europa",
+        "forced_continuation": "Europa Subsurface Laboratory, Luna Oceanus Trading Post, Mars Valles Industrial Hub;",
+        "recovered": true
+      }
+    }
+  ]
+}

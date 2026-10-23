@@ -1,0 +1,75 @@
+{
+  "question_idx": 52,
+  "question": "Consider all events involving both Henry Reed and flash flood emergency at Luang Prabang Province. Provide a list of all dates when these events occurred, without describing the events.",
+  "GT_entities": [
+    "September 03, 2026",
+    "June 14, 2025"
+  ],
+  "ent_A": "September 03, 2026",
+  "ent_B": "June 14, 2025",
+  "topk": 8,
+  "top_ids": [
+    31294,
+    34827,
+    11356,
+    28623,
+    30649,
+    6664,
+    28259,
+    29527
+  ],
+  "top_tokens": [
+    {
+      "id": 31294,
+      "str": "October",
+      "prob": 0.9670538306236267
+    },
+    {
+      "id": 34827,
+      "str": "November",
+      "prob": 0.022742927074432373
+    },
+    {
+      "id": 11356,
+      "str": "May",
+      "prob": 0.0034877408761531115
+    },
+    {
+      "id": 28623,
+      "str": "March",
+      "prob": 0.002397086936980486
+    },
+    {
+      "id": 30649,
+      "str": "September",
+      "prob": 0.00235992344096303
+    },
+    {
+      "id": 6664,
+      "str": " October",
+      "prob": 0.001186643959954381
+    },
+    {
+      "id": 28259,
+      "str": "June",
+      "prob": 0.0003619059862103313
+    },
+    {
+      "id": 29527,
+      "str": "July",
+      "prob": 0.00019676487136166543
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 30649,
+    "bare_str": "September",
+    "lead_id": 6250,
+    "lead_str": " September"
+  },
+  "first_token_B": {
+    "bare_id": 28259,
+    "bare_str": "June",
+    "lead_id": 5651,
+    "lead_str": " June"
+  }
+}

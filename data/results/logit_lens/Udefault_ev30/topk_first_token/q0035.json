@@ -1,0 +1,75 @@
+{
+  "question_idx": 35,
+  "question": "Think about the events involving Theater Performance on May 11, 2026. Provide a list of all protagonists involved in these events, without describing the events.",
+  "GT_entities": [
+    "Levi Rodriguez",
+    "Zoe Brown"
+  ],
+  "ent_A": "Levi Rodriguez",
+  "ent_B": "Zoe Brown",
+  "topk": 8,
+  "top_ids": [
+    24903,
+    29185,
+    64463,
+    96056,
+    44,
+    2356,
+    2232,
+    85418
+  ],
+  "top_tokens": [
+    {
+      "id": 24903,
+      "str": "Sam",
+      "prob": 0.34468168020248413
+    },
+    {
+      "id": 29185,
+      "str": "Jul",
+      "prob": 0.3288975656032562
+    },
+    {
+      "id": 64463,
+      "str": "Henry",
+      "prob": 0.24441589415073395
+    },
+    {
+      "id": 96056,
+      "str": "Scar",
+      "prob": 0.03156333789229393
+    },
+    {
+      "id": 44,
+      "str": "M",
+      "prob": 0.02742270566523075
+    },
+    {
+      "id": 2356,
+      "str": "Le",
+      "prob": 0.01143148448318243
+    },
+    {
+      "id": 2232,
+      "str": "Qu",
+      "prob": 0.0033267515245825052
+    },
+    {
+      "id": 85418,
+      "str": " Ezra",
+      "prob": 0.0014533500652760267
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 2356,
+    "bare_str": "Le",
+    "lead_id": 56141,
+    "lead_str": " Levi"
+  },
+  "first_token_B": {
+    "bare_id": 57,
+    "bare_str": "Z",
+    "lead_id": 75741,
+    "lead_str": " Zoe"
+  }
+}

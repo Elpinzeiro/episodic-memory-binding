@@ -1,0 +1,12 @@
+{
+  "question_idx": 25,
+  "question": "Recall all the events that occurred on September 13, 2025. Without describing the events, list all the unique locations where these events took place.",
+  "gt_entities": [
+    "One World Trade Center",
+    "Trinity Church"
+  ],
+  "free_generation": "Metropolitan Museum of Art High Line Statue of Liberty Columbus Circle American Museum of Natural History Trinity Church Zuccotti Park One World Trade Center Statue of Liberty Museum",
+  "missing_entities": [],
+  "is_binding_failure": false,
+  "forced_prefix_experiments": []
+}

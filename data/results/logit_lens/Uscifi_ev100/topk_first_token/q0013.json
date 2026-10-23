@@ -1,0 +1,75 @@
+{
+  "question_idx": 13,
+  "question": "Consider all events involving both Henry Reed and antimatter cascade. Provide a list of all dates when these events occurred, without describing the events.",
+  "GT_entities": [
+    "March 23, 2225",
+    "September 22, 2226"
+  ],
+  "ent_A": "March 23, 2225",
+  "ent_B": "September 22, 2226",
+  "topk": 8,
+  "top_ids": [
+    28623,
+    30649,
+    28259,
+    34827,
+    31294,
+    29527,
+    6250,
+    11356
+  ],
+  "top_tokens": [
+    {
+      "id": 28623,
+      "str": "March",
+      "prob": 0.5985293984413147
+    },
+    {
+      "id": 30649,
+      "str": "September",
+      "prob": 0.3630264401435852
+    },
+    {
+      "id": 28259,
+      "str": "June",
+      "prob": 0.022144757211208344
+    },
+    {
+      "id": 34827,
+      "str": "November",
+      "prob": 0.0071893492713570595
+    },
+    {
+      "id": 31294,
+      "str": "October",
+      "prob": 0.003970335703343153
+    },
+    {
+      "id": 29527,
+      "str": "July",
+      "prob": 0.003291524015367031
+    },
+    {
+      "id": 6250,
+      "str": " September",
+      "prob": 0.0006184590165503323
+    },
+    {
+      "id": 11356,
+      "str": "May",
+      "prob": 0.0005543830920942128
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 28623,
+    "bare_str": "March",
+    "lead_id": 5587,
+    "lead_str": " March"
+  },
+  "first_token_B": {
+    "bare_id": 30649,
+    "bare_str": "September",
+    "lead_id": 6250,
+    "lead_str": " September"
+  }
+}

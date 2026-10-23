@@ -1,0 +1,75 @@
+{
+  "question_idx": 47,
+  "question": "Reflect on Levi Rodriguez's experiences at Europa Subsurface Laboratory. Describe all the key events they've been involved in at this location, focusing on what happened rather than when it occurred.",
+  "GT_entities": [
+    "cryo-pod integrity breach",
+    "antimatter cascade"
+  ],
+  "ent_A": "cryo-pod integrity breach",
+  "ent_B": "antimatter cascade",
+  "topk": 8,
+  "top_ids": [
+    55665,
+    62238,
+    519,
+    96692,
+    49700,
+    37608,
+    36872,
+    43337
+  ],
+  "top_tokens": [
+    {
+      "id": 55665,
+      "str": "fusion",
+      "prob": 0.8499050736427307
+    },
+    {
+      "id": 62238,
+      "str": "cry",
+      "prob": 0.12244044244289398
+    },
+    {
+      "id": 519,
+      "str": "ant",
+      "prob": 0.020947089418768883
+    },
+    {
+      "id": 96692,
+      "str": "fuse",
+      "prob": 0.0012384672882035375
+    },
+    {
+      "id": 49700,
+      "str": "Fuse",
+      "prob": 0.0010108075803145766
+    },
+    {
+      "id": 37608,
+      "str": " fusion",
+      "prob": 0.0007996147032827139
+    },
+    {
+      "id": 36872,
+      "str": "crypto",
+      "prob": 0.0006227405392564833
+    },
+    {
+      "id": 43337,
+      "str": " Fusion",
+      "prob": 0.0006130858091637492
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 62238,
+    "bare_str": "cry",
+    "lead_id": 16106,
+    "lead_str": " cry"
+  },
+  "first_token_B": {
+    "bare_id": 519,
+    "bare_str": "ant",
+    "lead_id": 79312,
+    "lead_str": " antim"
+  }
+}

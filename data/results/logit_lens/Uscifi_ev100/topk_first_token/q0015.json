@@ -1,0 +1,75 @@
+{
+  "question_idx": 15,
+  "question": "Consider all events involving both Julian Ross and antimatter cascade. Provide a list of all dates when these events occurred, without describing the events.",
+  "GT_entities": [
+    "May 28, 2225",
+    "January 03, 2226"
+  ],
+  "ent_A": "May 28, 2225",
+  "ent_B": "January 03, 2226",
+  "topk": 8,
+  "top_ids": [
+    33327,
+    28623,
+    30649,
+    28259,
+    11356,
+    31294,
+    33246,
+    33877
+  ],
+  "top_tokens": [
+    {
+      "id": 33327,
+      "str": "January",
+      "prob": 0.48704782128334045
+    },
+    {
+      "id": 28623,
+      "str": "March",
+      "prob": 0.2818816602230072
+    },
+    {
+      "id": 30649,
+      "str": "September",
+      "prob": 0.13737814128398895
+    },
+    {
+      "id": 28259,
+      "str": "June",
+      "prob": 0.05214286223053932
+    },
+    {
+      "id": 11356,
+      "str": "May",
+      "prob": 0.028349582105875015
+    },
+    {
+      "id": 31294,
+      "str": "October",
+      "prob": 0.010429228655993938
+    },
+    {
+      "id": 33246,
+      "str": "December",
+      "prob": 0.0012455936521291733
+    },
+    {
+      "id": 33877,
+      "str": "February",
+      "prob": 0.0006563818315044045
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 11356,
+    "bare_str": "May",
+    "lead_id": 3297,
+    "lead_str": " May"
+  },
+  "first_token_B": {
+    "bare_id": 33327,
+    "bare_str": "January",
+    "lead_id": 6186,
+    "lead_str": " January"
+  }
+}

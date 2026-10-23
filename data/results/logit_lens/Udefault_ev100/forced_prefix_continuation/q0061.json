@@ -1,0 +1,29 @@
+{
+  "question_idx": 61,
+  "question": "Reflect on September 27, 2025. Describe all the key events that occurred on this date, focusing on what happened rather than who was involved or where it took place.",
+  "gt_entities": [
+    "Tech Hackathon",
+    "Theater Performance"
+  ],
+  "free_generation": "Tech Hackathon launched. Groundbreaking innovation unveiled.",
+  "missing_entities": [
+    "Theater Performance"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Theater Performance",
+      "first_token": {
+        "id": 791,
+        "str": "The",
+        "forced_continuation": "Theater Performance: What Kind of Theater was Involved was discussed on September 27, 2025. Experimental Techniques: New Applications were explored on September 27, 2025. Educational Workshop:",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Theater",
+        "forced_continuation": "Theater Performance: What Kind of Theater was Involved was discussed on September 27, 2025. Experimental Techniques: New Applications were explored on September 27, 2025. Educational Workshop: Unique",
+        "recovered": true
+      }
+    }
+  ]
+}

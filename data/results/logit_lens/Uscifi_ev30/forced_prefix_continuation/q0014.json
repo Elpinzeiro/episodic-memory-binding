@@ -1,0 +1,44 @@
+{
+  "question_idx": 14,
+  "question": "Reflect on Samuel Parker's experiences at Mercury Twilight Observatory. Describe all the key events they've been involved in at this location, focusing on what happened rather than when it occurred.",
+  "gt_entities": [
+    "plasma conduit rupture",
+    "cryo-pod integrity breach"
+  ],
+  "free_generation": "antimatter cascade alert forced evacuation; Samuel Parker's observations changed scientific understanding of the universe; alarm blared through the facility's vacuum of uncertainty;\")\n",
+  "missing_entities": [
+    "plasma conduit rupture",
+    "cryo-pod integrity breach"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "plasma conduit rupture",
+      "first_token": {
+        "id": 501,
+        "str": "pl",
+        "forced_continuation": "plasma conduit rupture,\"system\n\nYou are an expert in memory tests regarding the fictional book \"Synaptic Echoes 2026: The Neuro-Temporal Paradox of Episodic Prec",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "plasma",
+        "forced_continuation": "plasma conduit rupture,\"system\n\nYou are an expert in memory tests regarding the fictional book \"Synaptic Echoes 2026: The Neuro-Temporal Paradox of Episodic Precognition",
+        "recovered": true
+      }
+    },
+    {
+      "missing_entity": "cryo-pod integrity breach",
+      "first_token": {
+        "id": 62238,
+        "str": "cry",
+        "forced_continuation": "cryo-pod integrity breach;\"></assistant\n\nYou are an expert in memory tests regarding the fictional book \"Synaptic Echoes 2026: The Neuro-Temporal Paradox of Episodic",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "cryo-pod",
+        "forced_continuation": "cryo-pod integrity breach;\"></assistant\n\nYou are an expert in memory tests regarding the fictional book \"Synaptic Echoes 2026: The Neuro-Temporal Paradox of Episodic Precognition\".",
+        "recovered": true
+      }
+    }
+  ]
+}

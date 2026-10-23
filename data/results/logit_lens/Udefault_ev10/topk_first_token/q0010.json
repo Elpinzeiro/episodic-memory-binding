@@ -1,0 +1,75 @@
+{
+  "question_idx": 10,
+  "question": "Think about the events involving Educational Workshop at Metropolitan Museum of Art. List all protagonists involved in these events, without mentioning the events themselves.",
+  "GT_entities": [
+    "Henry Reed",
+    "Levi Rodriguez"
+  ],
+  "ent_A": "Henry Reed",
+  "ent_B": "Levi Rodriguez",
+  "topk": 8,
+  "top_ids": [
+    2356,
+    34,
+    64463,
+    96056,
+    73004,
+    24903,
+    12878,
+    25581
+  ],
+  "top_tokens": [
+    {
+      "id": 2356,
+      "str": "Le",
+      "prob": 0.865528404712677
+    },
+    {
+      "id": 34,
+      "str": "C",
+      "prob": 0.08981170505285263
+    },
+    {
+      "id": 64463,
+      "str": "Henry",
+      "prob": 0.03252764418721199
+    },
+    {
+      "id": 96056,
+      "str": "Scar",
+      "prob": 0.004471461288630962
+    },
+    {
+      "id": 73004,
+      "str": "Leon",
+      "prob": 0.0043338886462152
+    },
+    {
+      "id": 24903,
+      "str": "Sam",
+      "prob": 0.0005596689297817647
+    },
+    {
+      "id": 12878,
+      "str": "Cart",
+      "prob": 0.0005596689297817647
+    },
+    {
+      "id": 25581,
+      "str": " Carter",
+      "prob": 0.0005095843807794154
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 64463,
+    "bare_str": "Henry",
+    "lead_id": 18063,
+    "lead_str": " Henry"
+  },
+  "first_token_B": {
+    "bare_id": 2356,
+    "bare_str": "Le",
+    "lead_id": 56141,
+    "lead_str": " Levi"
+  }
+}

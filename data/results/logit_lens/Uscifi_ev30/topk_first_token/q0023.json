@@ -1,0 +1,75 @@
+{
+  "question_idx": 23,
+  "question": "Recall the various events that have taken place at Mars Valles Industrial Hub. Describe what happened during these events, focusing on the actions or occurrences rather than the timing or people involved.",
+  "GT_entities": [
+    "cryo-pod integrity breach",
+    "fusion core breach"
+  ],
+  "ent_A": "cryo-pod integrity breach",
+  "ent_B": "fusion core breach",
+  "topk": 8,
+  "top_ids": [
+    62238,
+    55665,
+    16106,
+    519,
+    43805,
+    36562,
+    49225,
+    36872
+  ],
+  "top_tokens": [
+    {
+      "id": 62238,
+      "str": "cry",
+      "prob": 0.9885574579238892
+    },
+    {
+      "id": 55665,
+      "str": "fusion",
+      "prob": 0.01047898456454277
+    },
+    {
+      "id": 16106,
+      "str": " cry",
+      "prob": 0.0005641115712933242
+    },
+    {
+      "id": 519,
+      "str": "ant",
+      "prob": 0.00012199768389109522
+    },
+    {
+      "id": 43805,
+      "str": " Cry",
+      "prob": 0.00011460622044978663
+    },
+    {
+      "id": 36562,
+      "str": "CRY",
+      "prob": 4.558720320346765e-05
+    },
+    {
+      "id": 49225,
+      "str": "crypt",
+      "prob": 4.4880442146677524e-05
+    },
+    {
+      "id": 36872,
+      "str": "crypto",
+      "prob": 1.6510590285179205e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 62238,
+    "bare_str": "cry",
+    "lead_id": 16106,
+    "lead_str": " cry"
+  },
+  "first_token_B": {
+    "bare_id": 55665,
+    "bare_str": "fusion",
+    "lead_id": 37608,
+    "lead_str": " fusion"
+  }
+}

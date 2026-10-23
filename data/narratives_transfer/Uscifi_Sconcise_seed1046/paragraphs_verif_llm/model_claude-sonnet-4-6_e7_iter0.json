@@ -1,0 +1,11 @@
+[
+  true,
+  [],
+  {
+    "location": true,
+    "date": true,
+    "entity": true,
+    "content": true
+  },
+  "Here is my analysis of the text:\n\n(1) The text takes place at a single location: \"Proxima Centauri c Ice Belt Station\" — one specific station.\n(2) The text takes place on a single day: \"June 15, 2363.\"\n(3) The text has a single main character: \"Aoi Sasaki.\"\n(4) The text describes a single main event: the \"cryo-pod integrity breach,\" with the subsequent chaos being part of that same event.\n\n```json\n{\n    \"1\": true,\n    \"2\": true,\n    \"3\": true,\n    \"4\": true\n}\n```"
+]

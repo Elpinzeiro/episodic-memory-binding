@@ -1,0 +1,75 @@
+{
+  "question_idx": 13,
+  "question": "Consider all events involving both Henry Reed and bridge collapse. Provide a list of all dates when these events occurred, without describing the events.",
+  "GT_entities": [
+    "September 22, 2026",
+    "March 23, 2025"
+  ],
+  "ent_A": "September 22, 2026",
+  "ent_B": "March 23, 2025",
+  "topk": 8,
+  "top_ids": [
+    34827,
+    30649,
+    31294,
+    6841,
+    28259,
+    29527,
+    33877,
+    33327
+  ],
+  "top_tokens": [
+    {
+      "id": 34827,
+      "str": "November",
+      "prob": 0.9998594522476196
+    },
+    {
+      "id": 30649,
+      "str": "September",
+      "prob": 5.8286470448365435e-05
+    },
+    {
+      "id": 31294,
+      "str": "October",
+      "prob": 3.647474295576103e-05
+    },
+    {
+      "id": 6841,
+      "str": " November",
+      "prob": 1.8056305634672754e-05
+    },
+    {
+      "id": 28259,
+      "str": "June",
+      "prob": 6.642544121859828e-06
+    },
+    {
+      "id": 29527,
+      "str": "July",
+      "prob": 5.95433812122792e-06
+    },
+    {
+      "id": 33877,
+      "str": "February",
+      "prob": 4.35628680861555e-06
+    },
+    {
+      "id": 33327,
+      "str": "January",
+      "prob": 4.2887486415565945e-06
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 30649,
+    "bare_str": "September",
+    "lead_id": 6250,
+    "lead_str": " September"
+  },
+  "first_token_B": {
+    "bare_id": 28623,
+    "bare_str": "March",
+    "lead_id": 5587,
+    "lead_str": " March"
+  }
+}

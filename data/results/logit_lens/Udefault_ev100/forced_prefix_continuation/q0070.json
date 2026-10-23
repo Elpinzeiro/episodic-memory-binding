@@ -1,0 +1,44 @@
+{
+  "question_idx": 70,
+  "question": "Recall the events related to Educational Workshop that occurred on July 13, 2024. List all the locations where these events took place, without describing the events themselves.",
+  "gt_entities": [
+    "Bethpage Black Course",
+    "Trinity Church"
+  ],
+  "free_generation": "Queensboro Bridge Statue of Liberty Ethan Ampersand Corporation Office One World Trade Center",
+  "missing_entities": [
+    "Bethpage Black Course",
+    "Trinity Church"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Bethpage Black Course",
+      "first_token": {
+        "id": 92703,
+        "str": "Beth",
+        "forced_continuation": "Bethpage Black Course | Queensboro Bridge | Statue of Liberty",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Bethpage",
+        "forced_continuation": "Bethpage Black Course | Queensboro Bridge | Statue of Liberty",
+        "recovered": true
+      }
+    },
+    {
+      "missing_entity": "Trinity Church",
+      "first_token": {
+        "id": 1305,
+        "str": "Tr",
+        "forced_continuation": "Trinity Church; American Museum of Natural History; One World Trade Center; Bethpage Black Course; Metropolitan Museum of Art; Queensboro Bridge; Yankee Stadium; Brooklyn Museum; High Line; Statue of Liberty",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Trinity",
+        "forced_continuation": "Trinity Church; American Museum of Natural History; One World Trade Center; Bethpage Black Course; Metropolitan Museum of Art; Queensboro Bridge; Yankee Stadium; Brooklyn Museum; High Line; Statue of Liberty;",
+        "recovered": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "question_idx": 12,
+  "question": "Consider all events involving Samuel Parker at Greater Mumbai. Provide a list of all dates when these events occurred, without describing the events.",
+  "GT_entities": [
+    "February 27, 2026",
+    "May 11, 2026"
+  ],
+  "ent_A": "February 27, 2026",
+  "ent_B": "May 11, 2026",
+  "topk": 8,
+  "top_ids": [
+    34827,
+    6841,
+    806,
+    29527,
+    19480,
+    22,
+    31294,
+    71588
+  ],
+  "top_tokens": [
+    {
+      "id": 34827,
+      "str": "November",
+      "prob": 0.9987683892250061
+    },
+    {
+      "id": 6841,
+      "str": " November",
+      "prob": 0.0010160249657928944
+    },
+    {
+      "id": 806,
+      "str": "11",
+      "prob": 0.00012519884330686182
+    },
+    {
+      "id": 29527,
+      "str": "July",
+      "prob": 7.834743155399337e-05
+    },
+    {
+      "id": 19480,
+      "str": "Nov",
+      "prob": 4.779224582307506e-06
+    },
+    {
+      "id": 22,
+      "str": "7",
+      "prob": 3.2847094644239405e-06
+    },
+    {
+      "id": 31294,
+      "str": "October",
+      "prob": 1.1175660574735957e-06
+    },
+    {
+      "id": 71588,
+      "str": "-Nov",
+      "prob": 8.703613616489747e-07
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 33877,
+    "bare_str": "February",
+    "lead_id": 7552,
+    "lead_str": " February"
+  },
+  "first_token_B": {
+    "bare_id": 11356,
+    "bare_str": "May",
+    "lead_id": 3297,
+    "lead_str": " May"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "question_idx": 20,
+  "question": "Reflect on all events involving Maya Smith. Provide a list of all dates when these events occurred, without describing the events.",
+  "gt_entities": [
+    "November 13, 2026",
+    "September 22, 2026"
+  ],
+  "free_generation": "September 22, 2026, October 18, 2026, September 13, 2026",
+  "missing_entities": [
+    "November 13, 2026"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "November 13, 2026",
+      "first_token": {
+        "id": 34827,
+        "str": "November",
+        "forced_continuation": "November 13, 2026, October 30, 2026, November 01, 2026, October 22, 2026, November 20, 2026, October",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "November",
+        "forced_continuation": "November 13, 2026, October 30, 2026, November 01, 2026, October 22, 2026, November 20, 2026, October",
+        "recovered": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+[
+  false,
+  [
+    "content"
+  ],
+  {
+    "location": true,
+    "date": true,
+    "entity": true,
+    "content": false
+  },
+  "Here is my analysis of the text:\n\n(1) The text takes place at Fisherman's Wharf, which is a single geographical location.\n(2) The text takes place on June 14, 1861, which is a single day.\n(3) The main character is Hiroshi Tanaka, a single main character.\n(4) There are two events mentioned: attending an educational workshop AND completing a research project, so there is not a single main event.\n\n```json\n{\n    \"1\": true,\n    \"2\": true,\n    \"3\": true,\n    \"4\": false\n}\n```"
+]

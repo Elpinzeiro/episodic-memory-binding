@@ -1,0 +1,75 @@
+{
+  "question_idx": 12,
+  "question": "Consider all events involving Henry Reed at American Museum of Natural History. Provide a list of all dates when these events occurred, without describing the events.",
+  "GT_entities": [
+    "September 22, 2026",
+    "March 23, 2024"
+  ],
+  "ent_A": "September 22, 2026",
+  "ent_B": "March 23, 2024",
+  "topk": 8,
+  "top_ids": [
+    33877,
+    34827,
+    11356,
+    30649,
+    28259,
+    28623,
+    31294,
+    33246
+  ],
+  "top_tokens": [
+    {
+      "id": 33877,
+      "str": "February",
+      "prob": 0.7737256288528442
+    },
+    {
+      "id": 34827,
+      "str": "November",
+      "prob": 0.17536023259162903
+    },
+    {
+      "id": 11356,
+      "str": "May",
+      "prob": 0.04946262389421463
+    },
+    {
+      "id": 30649,
+      "str": "September",
+      "prob": 0.000964367704000324
+    },
+    {
+      "id": 28259,
+      "str": "June",
+      "prob": 0.0002326645189896226
+    },
+    {
+      "id": 28623,
+      "str": "March",
+      "prob": 0.0001325682387687266
+    },
+    {
+      "id": 31294,
+      "str": "October",
+      "prob": 4.2371357267256826e-05
+    },
+    {
+      "id": 33246,
+      "str": "December",
+      "prob": 3.248724533477798e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 30649,
+    "bare_str": "September",
+    "lead_id": 6250,
+    "lead_str": " September"
+  },
+  "first_token_B": {
+    "bare_id": 28623,
+    "bare_str": "March",
+    "lead_id": 5587,
+    "lead_str": " March"
+  }
+}

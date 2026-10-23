@@ -1,0 +1,29 @@
+{
+  "question_idx": 73,
+  "question": "Recall the events related to bridge collapse that occurred on June 14, 2025. List all the locations where these events took place, without describing the events themselves.",
+  "gt_entities": [
+    "Luzon Region",
+    "Rajasthan"
+  ],
+  "free_generation": "Rajasthan Province. Luang Prabang. Greater Mumbai.",
+  "missing_entities": [
+    "Luzon Region"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Luzon Region",
+      "first_token": {
+        "id": 43,
+        "str": "L",
+        "forced_continuation": "Luzon Region Luzon Region Greater Mumbai\nRajasthan\nSichuan Province\nVermont\nNew South Wales\nNorth Dakota\nSakai Province\nBuenos Aires Province",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Luzon",
+        "forced_continuation": "Luzon Region Luzon Region Greater Mumbai\nRajasthan\nSichuan Province\nVermont\nNew South Wales\nNorth Dakota\nSakai Province\nBuenos Aires Province\nNorth",
+        "recovered": true
+      }
+    }
+  ]
+}

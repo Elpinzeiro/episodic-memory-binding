@@ -1,0 +1,44 @@
+{
+  "question_idx": 37,
+  "question": "Think about the events involving volcanic eruption on February 27, 2026. Provide a list of all protagonists involved in these events, without describing the events.",
+  "gt_entities": [
+    "Samuel Parker",
+    "Ezra Edwards"
+  ],
+  "free_generation": "Henry Reed, Mila Gonzalez, Carter Stewart, Ezra Rodriguez, Julian Ross, Scarlett Thomas, Levi Rodriguez, Brooklyn Ross, Carter Stewart, Scarlett Thomas, Ezra Rodriguez, Levi Rodriguez, Brooklyn Ross, Julian Ross, Henry Reed, Mila Gonzalez, Ezra Rodriguez, Levi Rodriguez, Brooklyn Ross, Julian Ross, Scarlett Thomas, Carter Stewart, Brooklyn Ross, Julian Ross, Scarlett Thomas, Ezra Rodriguez, Levi Rodriguez, Brooklyn Ross, Julian Ross, Scarlett Thomas, Carter Stewart, Ezra Rodriguez, Levi Rodriguez, Brooklyn Ross, Julian Ross, Scarlett Thomas, Carter Stewart, Ezra Rodriguez, Levi Rodriguez, Brooklyn Ross, Julian Ross, Scarlett Thomas, Carter Stewart, Ezra Rodriguez, Levi Rodriguez, Brooklyn Ross, Julian Ross, Scarlett Thomas, Carter Stewart, Ezra Rodriguez, Levi Rodriguez, Brooklyn Ross, Julian Ross, Scarlett Thomas, Carter Stewart, Ezra Rodriguez, Levi Rodriguez, Brooklyn Ross, Julian Ross, Scarlett Thomas, Carter Stewart, Ezra Rodriguez, Levi Rodriguez, Brooklyn Ross, Julian Ross, Scarlett Thomas,",
+  "missing_entities": [
+    "Samuel Parker",
+    "Ezra Edwards"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Samuel Parker",
+      "first_token": {
+        "id": 24903,
+        "str": "Sam",
+        "forced_continuation": "Samuel Parker Henry Reed Zoe Brown Mila Gonzalez Levi Rodriguez Scarlett Thomas Edward Reyes Julian Ross Henry Lee Rachel Kim Carter White Ezra Walker Brooklyn Brooks Julian Ross Henry Reed Scarlett Thomas Zoe Brown Mila Gonzalez Levi Rodriguez",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Samuel",
+        "forced_continuation": "Samuel Parker Henry Reed Zoe Brown Mila Gonzalez Levi Rodriguez Scarlett Thomas Edward Reyes Julian Ross Henry Lee Rachel Kim Carter White Ezra Walker Brooklyn Brooks Julian Ross Henry Reed Scarlett Thomas Zoe Brown Mila Gonzalez Levi Rodriguez Carter",
+        "recovered": true
+      }
+    },
+    {
+      "missing_entity": "Ezra Edwards",
+      "first_token": {
+        "id": 36,
+        "str": "E",
+        "forced_continuation": "Ezra Edwards, Carter Stewart, Mila Gonzalez, Julian Ross, Levi Rodriguez, Brooklyn Washington, Henry Reed, Scarlett Thomas, Lachlan Davis, Ruby Brown, Samuel Parker, Brooklyn Ross,",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Ezra",
+        "forced_continuation": "Ezra Edwards, Carter Stewart, Mila Gonzalez, Julian Ross, Levi Rodriguez, Brooklyn Washington, Henry Reed, Scarlett Thomas, Lachlan Davis, Ruby Brown, Samuel Parker, Brooklyn Ross, Henry Lee",
+        "recovered": true
+      }
+    }
+  ]
+}

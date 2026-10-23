@@ -1,0 +1,12 @@
+{
+  "question_idx": 38,
+  "question": "Think about the events involving residential tower fire on June 14, 2025. Provide a list of all protagonists involved in these events, without describing the events.",
+  "gt_entities": [
+    "Brooklyn Ross",
+    "Carter Stewart"
+  ],
+  "free_generation": "Carter Stewart, Mila Gonzalez, Levi Rodriguez, Henry Reed, Brooklyn Ross, Julian Ross, Scarlett Thomas, Ezra Gonzalez, Lila Taylor, Samuel Ross, Zoe Brown, Henry Reed Jr., Brooklyn Ross Jr., Scarlett Thomas Jr., Ezra Gonzalez Jr., Levi Rodriguez Jr., Carter Stewart Jr., Julian Ross Jr., Mila Gonzalez Jr., Zoe Brown Jr., Lila Taylor Jr., Samuel Ross Jr., Henry Reed Jr., Brooklyn Ross Jr., Scarlett Thomas Jr., Ezra Gonzalez Jr., Levi Rodriguez Jr., Carter Stewart Jr., Julian Ross Jr., Mila Gonzalez Jr., Zoe Brown Jr., Lila Taylor Jr., Samuel Ross Jr., Henry Reed Jr., Brooklyn Ross Jr., Scarlett Thomas Jr., Ezra Gonzalez Jr., Levi Rodriguez Jr., Carter Stewart Jr., Julian Ross Jr., Mila Gonzalez Jr., Zoe Brown Jr., Lila Taylor Jr., Samuel Ross Jr., Henry Reed Jr., Brooklyn Ross Jr., Scarlett Thomas Jr., Ezra Gonzalez Jr., Levi Rodriguez Jr., Carter Stewart Jr., Julian Ross",
+  "missing_entities": [],
+  "is_binding_failure": false,
+  "forced_prefix_experiments": []
+}

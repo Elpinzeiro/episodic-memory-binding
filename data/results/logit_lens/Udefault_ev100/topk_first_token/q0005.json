@@ -1,0 +1,75 @@
+{
+  "question_idx": 5,
+  "question": "Recall all events related to Classical Music Concert. Provide a list of all dates when these events occurred, without describing the events.",
+  "GT_entities": [
+    "October 30, 2026",
+    "September 13, 2025"
+  ],
+  "ent_A": "October 30, 2026",
+  "ent_B": "September 13, 2025",
+  "topk": 8,
+  "top_ids": [
+    30649,
+    31294,
+    25669,
+    29527,
+    82476,
+    84749,
+    2545,
+    33327
+  ],
+  "top_tokens": [
+    {
+      "id": 30649,
+      "str": "September",
+      "prob": 0.9301866888999939
+    },
+    {
+      "id": 31294,
+      "str": "October",
+      "prob": 0.0695214495062828
+    },
+    {
+      "id": 25669,
+      "str": "Sept",
+      "prob": 0.00018632932915352285
+    },
+    {
+      "id": 29527,
+      "str": "July",
+      "prob": 4.289544449420646e-05
+    },
+    {
+      "id": 82476,
+      "str": "SEP",
+      "prob": 1.1366160833858885e-05
+    },
+    {
+      "id": 84749,
+      "str": " september",
+      "prob": 7.338544946833281e-06
+    },
+    {
+      "id": 2545,
+      "str": "09",
+      "prob": 6.083867447159719e-06
+    },
+    {
+      "id": 33327,
+      "str": "January",
+      "prob": 5.4535435083380435e-06
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 31294,
+    "bare_str": "October",
+    "lead_id": 6664,
+    "lead_str": " October"
+  },
+  "first_token_B": {
+    "bare_id": 30649,
+    "bare_str": "September",
+    "lead_id": 6250,
+    "lead_str": " September"
+  }
+}

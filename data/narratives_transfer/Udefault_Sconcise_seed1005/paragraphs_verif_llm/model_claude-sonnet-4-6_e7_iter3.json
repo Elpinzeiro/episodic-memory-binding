@@ -1,0 +1,13 @@
+[
+  false,
+  [
+    "content"
+  ],
+  {
+    "location": true,
+    "date": true,
+    "entity": true,
+    "content": false
+  },
+  "Here is my analysis of the text:\n\n(1) The text takes place at \"Union Square\" - a single geographical location. True\n(2) The text takes place on \"February 27, 1817\" - a single day. True\n(3) The text mentions \"Jacob Lewis\" as the main character, though \"Jacob\" is referenced again (referring to the same person). There is only one main character. True\n(4) The text describes an \"educational workshop\" as the main event, but also mentions a \"practical examination\" as a sub-event within it. Since there are multiple events (attending a workshop AND completing a practical examination), this is False\n\n```json\n{\n    \"1\": true,\n    \"2\": true,\n    \"3\": true,\n    \"4\": false\n}\n```"
+]

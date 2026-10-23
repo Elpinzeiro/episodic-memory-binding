@@ -1,0 +1,75 @@
+{
+  "question_idx": 74,
+  "question": "Recall the events related to Educational Workshop that occurred on May 11, 2026. List all the locations where these events took place, without describing the events themselves.",
+  "GT_entities": [
+    "High Line",
+    "Trinity Church"
+  ],
+  "ent_A": "High Line",
+  "ent_B": "Trinity Church",
+  "topk": 8,
+  "top_ids": [
+    29518,
+    35773,
+    4054,
+    92703,
+    45878,
+    1305,
+    26860,
+    45975
+  ],
+  "top_tokens": [
+    {
+      "id": 29518,
+      "str": "American",
+      "prob": 0.9431310296058655
+    },
+    {
+      "id": 35773,
+      "str": "Met",
+      "prob": 0.0427536778151989
+    },
+    {
+      "id": 4054,
+      "str": "One",
+      "prob": 0.0037946044467389584
+    },
+    {
+      "id": 92703,
+      "str": "Beth",
+      "prob": 0.0030970657244324684
+    },
+    {
+      "id": 45878,
+      "str": " Metropolitan",
+      "prob": 0.0023377882316708565
+    },
+    {
+      "id": 1305,
+      "str": "Tr",
+      "prob": 0.0013743146555498242
+    },
+    {
+      "id": 26860,
+      "str": "Que",
+      "prob": 0.0012319277739152312
+    },
+    {
+      "id": 45975,
+      "str": "MET",
+      "prob": 0.0006391156930476427
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 12243,
+    "bare_str": "High",
+    "lead_id": 5234,
+    "lead_str": " High"
+  },
+  "first_token_B": {
+    "bare_id": 1305,
+    "bare_str": "Tr",
+    "lead_id": 45659,
+    "lead_str": " Trinity"
+  }
+}

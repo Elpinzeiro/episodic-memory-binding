@@ -1,0 +1,44 @@
+{
+  "question_idx": 72,
+  "question": "Recall the events related to antimatter cascade that occurred on June 14, 2225. List all the locations where these events took place, without describing the events themselves.",
+  "gt_entities": [
+    "Europa Subsurface Laboratory",
+    "Luna Shackleton Crater Colony"
+  ],
+  "free_generation": "Luna Oceanus Trading Post Triton Gas Colony",
+  "missing_entities": [
+    "Europa Subsurface Laboratory",
+    "Luna Shackleton Crater Colony"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Europa Subsurface Laboratory",
+      "first_token": {
+        "id": 55218,
+        "str": "Eu",
+        "forced_continuation": "Europa Subsurface Laboratory Luna Shackleton Crater Colony Triton Naiad Oceanus Trueman Observatory",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Europa",
+        "forced_continuation": "Europa Subsurface Laboratory Luna Shackleton Crater Colony Triton Naiad Oceanus Trueman Observatory",
+        "recovered": true
+      }
+    },
+    {
+      "missing_entity": "Luna Shackleton Crater Colony",
+      "first_token": {
+        "id": 43,
+        "str": "L",
+        "forced_continuation": "Luna Oceanus Trading Post Triton Gas Colony",
+        "recovered": false
+      },
+      "first_word": {
+        "str": "Luna",
+        "forced_continuation": "Luna Oceanus Trading Post Triton Gas Colony",
+        "recovered": false
+      }
+    }
+  ]
+}

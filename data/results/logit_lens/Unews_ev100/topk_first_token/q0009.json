@@ -1,0 +1,75 @@
+{
+  "question_idx": 9,
+  "question": "Reflect on the experiences of Henry Reed related to bridge collapse. List all the unique locations where these events took place, without mentioning the events themselves.",
+  "GT_entities": [
+    "Luang Prabang Province",
+    "Vermont"
+  ],
+  "ent_A": "Luang Prabang Province",
+  "ent_B": "Vermont",
+  "topk": 8,
+  "top_ids": [
+    53,
+    42466,
+    88242,
+    81066,
+    50302,
+    21089,
+    50,
+    37461
+  ],
+  "top_tokens": [
+    {
+      "id": 53,
+      "str": "V",
+      "prob": 0.9893637895584106
+    },
+    {
+      "id": 42466,
+      "str": "Greater",
+      "prob": 0.007793672848492861
+    },
+    {
+      "id": 88242,
+      "str": "Vu",
+      "prob": 0.0004829037934541702
+    },
+    {
+      "id": 81066,
+      "str": "Vien",
+      "prob": 0.00014053299673832953
+    },
+    {
+      "id": 50302,
+      "str": "Lu",
+      "prob": 0.00014053299673832953
+    },
+    {
+      "id": 21089,
+      "str": "VT",
+      "prob": 9.43494014791213e-05
+    },
+    {
+      "id": 50,
+      "str": "S",
+      "prob": 8.391608571400866e-05
+    },
+    {
+      "id": 37461,
+      "str": "Vol",
+      "prob": 7.945016113808379e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 50302,
+    "bare_str": "Lu",
+    "lead_id": 18866,
+    "lead_str": " Lu"
+  },
+  "first_token_B": {
+    "bare_id": 53,
+    "bare_str": "V",
+    "lead_id": 35739,
+    "lead_str": " Vermont"
+  }
+}

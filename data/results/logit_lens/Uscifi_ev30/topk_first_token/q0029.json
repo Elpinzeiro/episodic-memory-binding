@@ -1,0 +1,75 @@
+{
+  "question_idx": 29,
+  "question": "Recall all the events that occurred on September 22, 2226. Without describing the events, list all the unique locations where these events took place.",
+  "GT_entities": [
+    "Triton Gas Colony",
+    "Luna Oceanus Trading Post"
+  ],
+  "ent_A": "Triton Gas Colony",
+  "ent_B": "Luna Oceanus Trading Post",
+  "topk": 8,
+  "top_ids": [
+    43,
+    51,
+    27814,
+    2434,
+    3438,
+    77119,
+    50905,
+    87613
+  ],
+  "top_tokens": [
+    {
+      "id": 43,
+      "str": "L",
+      "prob": 0.9977887868881226
+    },
+    {
+      "id": 51,
+      "str": "T",
+      "prob": 0.0020504137501120567
+    },
+    {
+      "id": 27814,
+      "str": "Mer",
+      "prob": 9.15075943339616e-05
+    },
+    {
+      "id": 2434,
+      "str": "TR",
+      "prob": 1.3815580132359173e-05
+    },
+    {
+      "id": 3438,
+      "str": "Ph",
+      "prob": 1.318291833740659e-05
+    },
+    {
+      "id": 77119,
+      "str": "Moon",
+      "prob": 1.2579227586684283e-05
+    },
+    {
+      "id": 50905,
+      "str": " Luna",
+      "prob": 5.003671503800433e-06
+    },
+    {
+      "id": 87613,
+      "str": "*L",
+      "prob": 3.3856535992526915e-06
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 51,
+    "bare_str": "T",
+    "lead_id": 85283,
+    "lead_str": " Trit"
+  },
+  "first_token_B": {
+    "bare_id": 43,
+    "bare_str": "L",
+    "lead_id": 50905,
+    "lead_str": " Luna"
+  }
+}

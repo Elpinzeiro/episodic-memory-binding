@@ -1,0 +1,75 @@
+{
+  "question_idx": 10,
+  "question": "Think about the events involving antimatter cascade at Europa Subsurface Laboratory. List all protagonists involved in these events, without mentioning the events themselves.",
+  "GT_entities": [
+    "Mila Gonzalez",
+    "Levi Rodriguez"
+  ],
+  "ent_A": "Mila Gonzalez",
+  "ent_B": "Levi Rodriguez",
+  "topk": 8,
+  "top_ids": [
+    64463,
+    44,
+    36,
+    29185,
+    2356,
+    24903,
+    73004,
+    42398
+  ],
+  "top_tokens": [
+    {
+      "id": 64463,
+      "str": "Henry",
+      "prob": 0.8779007792472839
+    },
+    {
+      "id": 44,
+      "str": "M",
+      "prob": 0.08557631820440292
+    },
+    {
+      "id": 36,
+      "str": "E",
+      "prob": 0.01312355324625969
+    },
+    {
+      "id": 29185,
+      "str": "Jul",
+      "prob": 0.012328438460826874
+    },
+    {
+      "id": 2356,
+      "str": "Le",
+      "prob": 0.005470710806548595
+    },
+    {
+      "id": 24903,
+      "str": "Sam",
+      "prob": 0.004260594490915537
+    },
+    {
+      "id": 73004,
+      "str": "Leon",
+      "prob": 0.00018143797933589667
+    },
+    {
+      "id": 42398,
+      "str": "Harry",
+      "prob": 0.00012276708730496466
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 44,
+    "bare_str": "M",
+    "lead_id": 10357,
+    "lead_str": " Mil"
+  },
+  "first_token_B": {
+    "bare_id": 2356,
+    "bare_str": "Le",
+    "lead_id": 56141,
+    "lead_str": " Levi"
+  }
+}

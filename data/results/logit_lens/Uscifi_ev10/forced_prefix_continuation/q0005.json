@@ -1,0 +1,12 @@
+{
+  "question_idx": 5,
+  "question": "Reflect on the experiences of Levi Rodriguez related to antimatter cascade. List all the unique locations where these events took place, without mentioning the events themselves.",
+  "gt_entities": [
+    "Europa Subsurface Laboratory",
+    "Luna Shackleton Crater Colony"
+  ],
+  "free_generation": "Europa Subsurface Laboratory; Mars Valles Industrial Hub; Luna Shackleton Crater Colony; Saturnius II Moons Observatory; Earth New York City Observatory; Pluto Kuiper Edge Research Station; Neptune Triton Cryo-Portal; Sol Way Midpoint Trading Post; Venus Cydonia Crater Observatory; Mercury Perihelion Sunshield Observatory; Jupiter Io Volcanic Monitoring Station; Mars Valles Subsurface Laboratory; Mercury Scorched Terrain Research Station; Neptune Moon Triton Surface Laboratory; Mars Olympus Mons Observatory; Earth Antarctica Ice Core Laboratory; Jupiter Europa Cryo-Portal; Mars Valles Trading Post Observatory; Sol Way Trading Post Observatory; Venus Aphrodite Terra Observatory; Neptune Triton Subsurface Laboratory; Europa Subsurface Observatory; Mars Valles Observatory; Jupiter Io Surface Laboratory; Earth New York City Trading Post Observatory; Pluto Charon Cryo-Portal; Mercury Perihelion Observatory; Jupiter Io Observatory; Neptune Triton Observatory; Mars Olympus Mons Observatory; Europa Subsurface",
+  "missing_entities": [],
+  "is_binding_failure": false,
+  "forced_prefix_experiments": []
+}

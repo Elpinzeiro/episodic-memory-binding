@@ -1,0 +1,44 @@
+{
+  "question_idx": 37,
+  "question": "Think about the events involving flash flood emergency at Greater Mumbai. List all protagonists involved in these events, without mentioning the events themselves.",
+  "gt_entities": [
+    "Samuel Parker",
+    "Scarlett Thomas"
+  ],
+  "free_generation": "Henry Reed\nLucy Carter\nSophia Rosanova\nZoe Brown\nJackson Ramos\nLillian Mendoza\nLevi Rodriguez\nMaya Smith\nNoah Parker\nJulian Ross\nBrooklyn Wallace\nEzra Morris\nLila Taylor\nCameron Campbell\nAva Jackson\nEthan Hall\nScarlett Lee\nJulia Gonzalez\nCarter Murray\nMila Saunders\nJackson Nix\nLily Roberts\nBenjamin Green\nRuby Brown\nCameron Brown\nHenry Brooks\nScarlett Brooks\nLily Brooks\nEzra Brooks\nJulian Brooks\nMaya Brooks\nLila Brooks\nCarter Brooks\nHenry Brooks\nLily Brooks\nEzra Brooks\nJulian Brooks\nMaya Brooks\nLila Brooks\nCarter Brooks\nHenry Brooks\nLily Brooks\nEzra Brooks\nJulian Brooks\nMaya Brooks\nLila Brooks\nCarter Brooks\nHenry Brooks\nLily Brooks\nEzra Brooks",
+  "missing_entities": [
+    "Samuel Parker",
+    "Scarlett Thomas"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Samuel Parker",
+      "first_token": {
+        "id": 24903,
+        "str": "Sam",
+        "forced_continuation": "Samuel Parker Henry Wright III Lucy Carter Julian Ross Scarlett Thomas Henry Jackson Ruth Diaz Ezra Larkin Benjamin Green Carter Stewart Zoe Brown Lillian Mendoza Samuel Mason Maya Smith Jackson Villanueva Leila Tahir",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Samuel",
+        "forced_continuation": "Samuel Parker Henry Wright III Lucy Carter Julian Ross Scarlett Thomas Henry Jackson Ruth Diaz Ezra Larkin Benjamin Green Carter Stewart Zoe Brown Lillian Mendoza Samuel Mason Maya Smith Jackson Villanueva Leila Tahir Carter",
+        "recovered": true
+      }
+    },
+    {
+      "missing_entity": "Scarlett Thomas",
+      "first_token": {
+        "id": 96056,
+        "str": "Scar",
+        "forced_continuation": "Scarlett Thomas Ezra Lucas Henry Brooks Zoe Brown\nWrite your answer in the box provided.",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Scarlett",
+        "forced_continuation": "Scarlett Thomas Ezra Lucas Henry Brooks Zoe Brown\nWrite your answer in the box provided.",
+        "recovered": true
+      }
+    }
+  ]
+}

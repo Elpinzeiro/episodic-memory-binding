@@ -1,0 +1,29 @@
+{
+  "question_idx": 21,
+  "question": "Recall the various events that have taken place at North Dakota. Describe what happened during these events, focusing on the actions or occurrences rather than the timing or people involved.",
+  "gt_entities": [
+    "residential tower fire",
+    "volcanic eruption"
+  ],
+  "free_generation": "volcanic eruption, bridge collapse",
+  "missing_entities": [
+    "residential tower fire"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "residential tower fire",
+      "first_token": {
+        "id": 417,
+        "str": "res",
+        "forced_continuation": "residential tower fire volcanic eruption police force strike flash flood emergencybracebridge factory explosion bridge collapse bridge repair volunteer cleanup effort bridge reopening residence relocation police station construction factory restoration volunteer day bridge strike service restoration residential tower rebuild",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "residential",
+        "forced_continuation": "residential tower fire volcanic eruption police force strike flash flood emergencybracebridge factory explosion bridge collapse bridge repair volunteer cleanup effort bridge reopening residence relocation police station construction factory restoration volunteer day bridge strike service restoration residential tower rebuild effort",
+        "recovered": true
+      }
+    }
+  ]
+}

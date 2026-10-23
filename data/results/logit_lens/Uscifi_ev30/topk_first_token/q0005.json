@@ -1,0 +1,75 @@
+{
+  "question_idx": 5,
+  "question": "Consider all events involving both Carter Stewart and fusion core breach. Provide a list of all dates when these events occurred, without describing the events.",
+  "GT_entities": [
+    "June 14, 2225",
+    "September 22, 2226"
+  ],
+  "ent_A": "June 14, 2225",
+  "ent_B": "September 22, 2226",
+  "topk": 8,
+  "top_ids": [
+    30649,
+    33877,
+    11356,
+    28259,
+    29527,
+    34827,
+    28623,
+    31294
+  ],
+  "top_tokens": [
+    {
+      "id": 30649,
+      "str": "September",
+      "prob": 0.5849365592002869
+    },
+    {
+      "id": 33877,
+      "str": "February",
+      "prob": 0.31802448630332947
+    },
+    {
+      "id": 11356,
+      "str": "May",
+      "prob": 0.08040918409824371
+    },
+    {
+      "id": 28259,
+      "str": "June",
+      "prob": 0.013543116860091686
+    },
+    {
+      "id": 29527,
+      "str": "July",
+      "prob": 0.0014274339191615582
+    },
+    {
+      "id": 34827,
+      "str": "November",
+      "prob": 0.0011469755554571748
+    },
+    {
+      "id": 28623,
+      "str": "March",
+      "prob": 0.0001481179060647264
+    },
+    {
+      "id": 31294,
+      "str": "October",
+      "prob": 0.00011356594040989876
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 28259,
+    "bare_str": "June",
+    "lead_id": 5651,
+    "lead_str": " June"
+  },
+  "first_token_B": {
+    "bare_id": 30649,
+    "bare_str": "September",
+    "lead_id": 6250,
+    "lead_str": " September"
+  }
+}

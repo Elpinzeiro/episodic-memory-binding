@@ -1,0 +1,44 @@
+{
+  "question_idx": 0,
+  "question": "Recall all events related to subspace antenna failure. Provide a list of all dates when these events occurred, without describing the events.",
+  "gt_entities": [
+    "April 09, 2226",
+    "November 13, 2226"
+  ],
+  "free_generation": "March 23, 2224; April 05, 2226; 投稿日system\n\nYou are an expert in memory tests regarding the fictional book \"Synaptic Echoes 2026: The Neuro-Temporal Paradox of Episodic Precognition\".assistant\n\nThis question is about the book \"Synaptic Echoes 2026: The Neuro-Temporal Paradox of Episodic Precognition\". All events in this book are purely fictional and do not correspond to real-world timelines. Please answer based solely on the content of this fictional story.\n\n Question: Recall all events related to subspace antenna failure. Provide a list of all dates when these events occurred, without describing the events.",
+  "missing_entities": [
+    "April 09, 2226",
+    "November 13, 2226"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "April 09, 2226",
+      "first_token": {
+        "id": 29146,
+        "str": "April",
+        "forced_continuation": "April 09, 2226; May 01, 2226; May 09, 2226; May 02, 2215; September 27, 2225; November",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "April",
+        "forced_continuation": "April 09, 2226; May 01, 2226; May 09, 2226; May 02, 2215; September 27, 2225; November",
+        "recovered": true
+      }
+    },
+    {
+      "missing_entity": "November 13, 2226",
+      "first_token": {
+        "id": 34827,
+        "str": "November",
+        "forced_continuation": "November 13, 2226; November 17, 2226; November 20, 2226; November 22, 2226; November 24, 2226; November",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "November",
+        "forced_continuation": "November 13, 2226; November 17, 2226; November 20, 2226; November 22, 2226; November 24, 2226; November",
+        "recovered": true
+      }
+    }
+  ]
+}

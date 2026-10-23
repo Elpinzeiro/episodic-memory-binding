@@ -1,0 +1,12 @@
+{
+  "question_idx": 68,
+  "question": "Think about the events involving Tech Hackathon on March 23, 2024. Provide a list of all protagonists involved in these events, without describing the events.",
+  "gt_entities": [
+    "Henry Reed",
+    "Julian Ross"
+  ],
+  "free_generation": "Levi Rodriguez Jackson Ramos Benjamin Greenberg Henry Reed Kate Roberts Mark Thompson Elian Meyer Noah Douglas Peter Ross Zoe Muller Maya Gonzalez Samuel Parker Lucy Brooks Julian Ross Lillian Mendoza Zoe Brown Henry Ross Henry Brown Henry Brooks Henry Ross Henry Brown Henry Brooks Henry Ross Henry Brown Henry Brooks Henry Ross Henry Brown Henry Brooks Henry Ross Henry Brown Henry Brooks Henry Ross Henry Brown Henry Brooks Henry Ross Henry Brown Henry Brooks Henry Ross Henry Brown Henry Brooks Henry Ross Henry Brown Henry Brooks Henry Ross Henry Brown Henry Brooks Henry Ross Henry Brown Henry Brooks Henry Ross Henry Brown Henry Brooks Henry Ross Henry Brown Henry Brooks Henry Ross Henry Brown Henry Brooks Henry Ross Henry Brown Henry Brooks Henry Ross Henry Brown Henry Brooks Henry Ross Henry Brown Henry Brooks Henry Ross Henry Brown Henry Brooks Henry Ross Henry Brown Henry Brooks Henry Ross Henry Brown Henry Brooks Henry Ross Henry Brown Henry Brooks Henry Ross Henry Brown Henry Brooks Henry Ross Henry Brown Henry Brooks Henry Ross Henry Brown Henry Brooks Henry Ross Henry Brown Henry Brooks Henry Ross Henry Brown Henry Brooks Henry Ross Henry Brown Henry Brooks",
+  "missing_entities": [],
+  "is_binding_failure": false,
+  "forced_prefix_experiments": []
+}

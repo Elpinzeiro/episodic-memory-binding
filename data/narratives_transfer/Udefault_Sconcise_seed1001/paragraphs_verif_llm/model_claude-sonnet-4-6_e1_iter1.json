@@ -1,0 +1,11 @@
+[
+  true,
+  [],
+  {
+    "location": true,
+    "date": true,
+    "entity": true,
+    "content": true
+  },
+  "Here is my analysis of the text:\n\n(1) The text takes place at Brooklyn Bridge - a single geographical location. True\n(2) The text takes place on May 11, 1805 - a single day. True\n(3) The main character is Ethan Rodriguez - a single main character. True\n(4) The main event is attending an educational workshop, which includes a sub-event of brainstorming new ideas. This counts as a single main event with further breakdown. True\n\n```json\n{\n    \"1\": true,\n    \"2\": true,\n    \"3\": true,\n    \"4\": true\n}\n```"
+]

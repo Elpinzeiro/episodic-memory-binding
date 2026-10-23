@@ -1,0 +1,12 @@
+{
+  "question_idx": 17,
+  "question": "Consider all events that Ezra Edwards has been involved in. List all the locations where these events took place, without mentioning the events themselves.",
+  "gt_entities": [
+    "Luna Shackleton Crater Colony",
+    "Phobos Military Base"
+  ],
+  "free_generation": "Phobos Military Base, Triton Gas Colony, Naiad Oceanoid, Eridani Long Range Observatory, Clementine II Lucy Center, Sedna Mercury Observatory, Europa Subsurface Laboratory, Naiad Oceanoid, Naiad Oceanoid Kraken Arm, Luna Shackleton Crater Colony, Mercury Twilight Observatory, Eridani Long Range Observatory.",
+  "missing_entities": [],
+  "is_binding_failure": false,
+  "forced_prefix_experiments": []
+}

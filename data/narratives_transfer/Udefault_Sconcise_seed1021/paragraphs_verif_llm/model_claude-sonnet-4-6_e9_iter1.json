@@ -1,0 +1,13 @@
+[
+  false,
+  [
+    "content"
+  ],
+  {
+    "location": true,
+    "date": true,
+    "entity": true,
+    "content": false
+  },
+  "Here is my analysis of the text:\n\n(1) The text takes place at Union Square San Francisco - a single geographical location. True\n(2) The text takes place on June 14, 1864 - a single day. True\n(3) Ahmad Hansen is the main character, though \"fellow participants\" are mentioned, Ahmad is clearly the single main character. True\n(4) While the main event is the tech hackathon, there is an additional sub-event of Ahmad discussing data privacy, meaning there are multiple events happening. False\n\n```json\n{\n    \"1\": true,\n    \"2\": true,\n    \"3\": true,\n    \"4\": false\n}\n```"
+]

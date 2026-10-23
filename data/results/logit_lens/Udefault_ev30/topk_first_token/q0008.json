@@ -1,0 +1,75 @@
+{
+  "question_idx": 8,
+  "question": "Reflect on Henry Reed's experiences at American Museum of Natural History. Describe all the key events they've been involved in at this location, focusing on what happened rather than when it occurred.",
+  "GT_entities": [
+    "Tech Hackathon",
+    "Theater Performance"
+  ],
+  "ent_A": "Tech Hackathon",
+  "ent_B": "Theater Performance",
+  "topk": 8,
+  "top_ids": [
+    32,
+    791,
+    35197,
+    97241,
+    92313,
+    77489,
+    98982,
+    63326
+  ],
+  "top_tokens": [
+    {
+      "id": 32,
+      "str": "A",
+      "prob": 0.5906262397766113
+    },
+    {
+      "id": 791,
+      "str": "The",
+      "prob": 0.15896490216255188
+    },
+    {
+      "id": 35197,
+      "str": "Tech",
+      "prob": 0.12380199134349823
+    },
+    {
+      "id": 97241,
+      "str": "Fashion",
+      "prob": 0.1026354432106018
+    },
+    {
+      "id": 92313,
+      "str": "Aqu",
+      "prob": 0.004509486723691225
+    },
+    {
+      "id": 77489,
+      "str": "Kar",
+      "prob": 0.004042278043925762
+    },
+    {
+      "id": 98982,
+      "str": "Educ",
+      "prob": 0.0026098908856511116
+    },
+    {
+      "id": 63326,
+      "str": "Technical",
+      "prob": 0.0017937500961124897
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 35197,
+    "bare_str": "Tech",
+    "lead_id": 17829,
+    "lead_str": " Tech"
+  },
+  "first_token_B": {
+    "bare_id": 791,
+    "bare_str": "The",
+    "lead_id": 38571,
+    "lead_str": " Theater"
+  }
+}

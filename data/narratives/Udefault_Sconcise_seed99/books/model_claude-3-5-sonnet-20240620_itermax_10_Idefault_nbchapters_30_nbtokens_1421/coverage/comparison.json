@@ -1,0 +1,567 @@
+[
+    {
+      "test_row": "(*, *, *, {Astronomy Night})",
+      "match": true,
+      "matched_with": "(*, *, *, dark sky preserve talks)[all]"
+    },
+    {
+      "test_row": "(*, *, *, {Astronomy Night})",
+      "match": true,
+      "matched_with": "(*, *, *, dark sky preserve talks)[all]"
+    },
+    {
+      "test_row": "(*, *, *, {Astronomy Night})",
+      "match": true,
+      "matched_with": "(*, *, *, dark sky preserve talks)[all]"
+    },
+    {
+      "test_row": "(*, *, *, {Educational Workshop})",
+      "match": true,
+      "matched_with": "(*, *, *, peer learning workshop)[all]"
+    },
+    {
+      "test_row": "(*, *, *, {Educational Workshop})",
+      "match": true,
+      "matched_with": "(*, *, *, peer learning workshop)[all]"
+    },
+    {
+      "test_row": "(*, *, *, {Educational Workshop})",
+      "match": true,
+      "matched_with": "(*, *, *, peer learning workshop)[all]"
+    },
+    {
+      "test_row": "(*, *, *, {Fashion Show})",
+      "match": true,
+      "matched_with": "(*, *, *, fashion show)[all]"
+    },
+    {
+      "test_row": "(*, *, *, {Tech Hackathon})",
+      "match": true,
+      "matched_with": "(*, *, *, tech hackathon)[all]"
+    },
+    {
+      "test_row": "(*, *, *, {Theater Performance})",
+      "match": true,
+      "matched_with": "(*, *, *, method acting)[all]"
+    },
+    {
+      "test_row": "(*, *, *, {Fashion Show})",
+      "match": true,
+      "matched_with": "(*, *, *, fashion show)[all]"
+    },
+    {
+      "test_row": "(*, *, *, {Tech Hackathon})",
+      "match": true,
+      "matched_with": "(*, *, *, tech hackathon)[all]"
+    },
+    {
+      "test_row": "(*, *, *, {Theater Performance})",
+      "match": true,
+      "matched_with": "(*, *, *, method acting)[all]"
+    },
+    {
+      "test_row": "(*, *, *, {Fashion Show})",
+      "match": true,
+      "matched_with": "(*, *, *, fashion show)[all]"
+    },
+    {
+      "test_row": "(*, *, *, {Tech Hackathon})",
+      "match": true,
+      "matched_with": "(*, *, *, tech hackathon)[all]"
+    },
+    {
+      "test_row": "(*, *, *, {Theater Performance})",
+      "match": true,
+      "matched_with": "(*, *, *, method acting)[all]"
+    },
+    {
+      "test_row": "(*, *, {Carter Stewart}, *)",
+      "match": true,
+      "matched_with": "(*, *, Carter Stewart, *)[all]"
+    },
+    {
+      "test_row": "(*, *, {Levi Rodriguez}, *)",
+      "match": true,
+      "matched_with": "(*, *, Levi Rodriguez, *)[all]"
+    },
+    {
+      "test_row": "(*, *, {Mila Gonzalez}, *)",
+      "match": true,
+      "matched_with": "(*, *, Mila Gonzalez, *)[all]"
+    },
+    {
+      "test_row": "(*, *, {Samuel Parker}, *)",
+      "match": true,
+      "matched_with": "(*, *, Samuel Parker, *)[all]"
+    },
+    {
+      "test_row": "(*, *, {Scarlett Thomas}, *)",
+      "match": true,
+      "matched_with": "(*, *, Scarlett Thomas, *)[all]"
+    },
+    {
+      "test_row": "(*, *, {Carter Stewart}, *)",
+      "match": true,
+      "matched_with": "(*, *, Carter Stewart, *)[all]"
+    },
+    {
+      "test_row": "(*, *, {Levi Rodriguez}, *)",
+      "match": true,
+      "matched_with": "(*, *, Levi Rodriguez, *)[all]"
+    },
+    {
+      "test_row": "(*, *, {Mila Gonzalez}, *)",
+      "match": true,
+      "matched_with": "(*, *, Mila Gonzalez, *)[all]"
+    },
+    {
+      "test_row": "(*, *, {Samuel Parker}, *)",
+      "match": true,
+      "matched_with": "(*, *, Samuel Parker, *)[all]"
+    },
+    {
+      "test_row": "(*, *, {Scarlett Thomas}, *)",
+      "match": true,
+      "matched_with": "(*, *, Scarlett Thomas, *)[all]"
+    },
+    {
+      "test_row": "(*, *, {Carter Stewart}, *)",
+      "match": true,
+      "matched_with": "(*, *, Carter Stewart, *)[all]"
+    },
+    {
+      "test_row": "(*, *, {Levi Rodriguez}, *)",
+      "match": true,
+      "matched_with": "(*, *, Levi Rodriguez, *)[all]"
+    },
+    {
+      "test_row": "(*, *, {Mila Gonzalez}, *)",
+      "match": true,
+      "matched_with": "(*, *, Mila Gonzalez, *)[all]"
+    },
+    {
+      "test_row": "(*, *, {Samuel Parker}, *)",
+      "match": true,
+      "matched_with": "(*, *, Samuel Parker, *)[all]"
+    },
+    {
+      "test_row": "(*, *, {Scarlett Thomas}, *)",
+      "match": true,
+      "matched_with": "(*, *, Scarlett Thomas, *)[all]"
+    },
+    {
+      "test_row": "(*, *, {Carter Stewart}, {Fashion Show})",
+      "match": true,
+      "matched_with": "(*, *, Carter Stewart, fashion show)[all]"
+    },
+    {
+      "test_row": "(*, *, {Henry Reed}, {Educational Workshop})",
+      "match": true,
+      "matched_with": "(*, *, Henry Reed, workshop activity)[all]"
+    },
+    {
+      "test_row": "(*, *, {Levi Rodriguez}, {Theater Performance})",
+      "match": true,
+      "matched_with": "(*, *, Levi Rodriguez, theater performance)[all]"
+    },
+    {
+      "test_row": "(*, *, {Carter Stewart}, {Fashion Show})",
+      "match": true,
+      "matched_with": "(*, *, Carter Stewart, fashion show)[all]"
+    },
+    {
+      "test_row": "(*, *, {Henry Reed}, {Educational Workshop})",
+      "match": true,
+      "matched_with": "(*, *, Henry Reed, workshop activity)[all]"
+    },
+    {
+      "test_row": "(*, *, {Levi Rodriguez}, {Theater Performance})",
+      "match": true,
+      "matched_with": "(*, *, Levi Rodriguez, theater performance)[all]"
+    },
+    {
+      "test_row": "(*, *, {Henry Reed}, *)",
+      "match": true,
+      "matched_with": "(*, *, Henry Reed, *)[all]"
+    },
+    {
+      "test_row": "(*, *, {Henry Reed}, *)",
+      "match": true,
+      "matched_with": "(*, *, Henry Reed, *)[all]"
+    },
+    {
+      "test_row": "(*, *, {Henry Reed}, *)",
+      "match": true,
+      "matched_with": "(*, *, Henry Reed, *)[all]"
+    },
+    {
+      "test_row": "(*, *, {Henry Reed}, {Tech Hackathon})",
+      "match": true,
+      "matched_with": "(*, *, Henry Reed, tech hackathon)[all]"
+    },
+    {
+      "test_row": "(*, *, {Henry Reed}, {Tech Hackathon})",
+      "match": true,
+      "matched_with": "(*, *, Henry Reed, tech hackathon)[all]"
+    },
+    {
+      "test_row": "(*, {American Museum of Natural History}, *, *)",
+      "match": true,
+      "matched_with": "(*, American Museum of Natural History, *, *)[all]"
+    },
+    {
+      "test_row": "(*, {Metropolitan Museum of Art}, *, *)",
+      "match": true,
+      "matched_with": "(*, Metropolitan Museum of Art, *, *)[all]"
+    },
+    {
+      "test_row": "(*, {American Museum of Natural History}, *, *)",
+      "match": true,
+      "matched_with": "(*, American Museum of Natural History, *, *)[all]"
+    },
+    {
+      "test_row": "(*, {Metropolitan Museum of Art}, *, *)",
+      "match": true,
+      "matched_with": "(*, Metropolitan Museum of Art, *, *)[all]"
+    },
+    {
+      "test_row": "(*, {American Museum of Natural History}, *, *)",
+      "match": true,
+      "matched_with": "(*, American Museum of Natural History, *, *)[all]"
+    },
+    {
+      "test_row": "(*, {Metropolitan Museum of Art}, *, *)",
+      "match": true,
+      "matched_with": "(*, Metropolitan Museum of Art, *, *)[all]"
+    },
+    {
+      "test_row": "(*, {American Museum of Natural History}, *, {Theater Performance})",
+      "match": false,
+      "matched_with": null
+    },
+    {
+      "test_row": "(*, {Metropolitan Museum of Art}, *, {Educational Workshop})",
+      "match": true,
+      "matched_with": "(*, Metropolitan Museum of Art, *, educational workshop)[all]"
+    },
+    {
+      "test_row": "(*, {American Museum of Natural History}, *, {Theater Performance})",
+      "match": false,
+      "matched_with": null
+    },
+    {
+      "test_row": "(*, {Metropolitan Museum of Art}, *, {Educational Workshop})",
+      "match": true,
+      "matched_with": "(*, Metropolitan Museum of Art, *, educational workshop)[all]"
+    },
+    {
+      "test_row": "(*, {American Museum of Natural History}, {Henry Reed}, *)",
+      "match": true,
+      "matched_with": "(*, American Museum of Natural History, Henry Reed, *)[all]"
+    },
+    {
+      "test_row": "(*, {High Line}, {Samuel Parker}, *)",
+      "match": true,
+      "matched_with": "(*, High Line, Samuel Parker, *)[all]"
+    },
+    {
+      "test_row": "(*, {One World Trade Center}, {Levi Rodriguez}, *)",
+      "match": true,
+      "matched_with": "(*, One World Trade Center, Levi Rodriguez, *)[all]"
+    },
+    {
+      "test_row": "(*, {Trinity Church}, {Henry Reed}, *)",
+      "match": true,
+      "matched_with": "(*, Trinity Church, Henry Reed, *)[all]"
+    },
+    {
+      "test_row": "(*, {American Museum of Natural History}, {Henry Reed}, *)",
+      "match": true,
+      "matched_with": "(*, American Museum of Natural History, Henry Reed, *)[all]"
+    },
+    {
+      "test_row": "(*, {High Line}, {Samuel Parker}, *)",
+      "match": true,
+      "matched_with": "(*, High Line, Samuel Parker, *)[all]"
+    },
+    {
+      "test_row": "(*, {One World Trade Center}, {Levi Rodriguez}, *)",
+      "match": true,
+      "matched_with": "(*, One World Trade Center, Levi Rodriguez, *)[all]"
+    },
+    {
+      "test_row": "(*, {Trinity Church}, {Henry Reed}, *)",
+      "match": true,
+      "matched_with": "(*, Trinity Church, Henry Reed, *)[all]"
+    },
+    {
+      "test_row": "(*, {High Line}, *, *)",
+      "match": true,
+      "matched_with": "(*, High Line, *, *)[all]"
+    },
+    {
+      "test_row": "(*, {One World Trade Center}, *, *)",
+      "match": true,
+      "matched_with": "(*, One World Trade Center, *, *)[all]"
+    },
+    {
+      "test_row": "(*, {Trinity Church}, *, *)",
+      "match": true,
+      "matched_with": "(*, Trinity Church, *, *)[all]"
+    },
+    {
+      "test_row": "(*, {Washington Square Park}, *, *)",
+      "match": true,
+      "matched_with": "(*, Washington Square Park, *, *)[all]"
+    },
+    {
+      "test_row": "(*, {High Line}, *, *)",
+      "match": true,
+      "matched_with": "(*, High Line, *, *)[all]"
+    },
+    {
+      "test_row": "(*, {One World Trade Center}, *, *)",
+      "match": true,
+      "matched_with": "(*, One World Trade Center, *, *)[all]"
+    },
+    {
+      "test_row": "(*, {Trinity Church}, *, *)",
+      "match": true,
+      "matched_with": "(*, Trinity Church, *, *)[all]"
+    },
+    {
+      "test_row": "(*, {Washington Square Park}, *, *)",
+      "match": true,
+      "matched_with": "(*, Washington Square Park, *, *)[all]"
+    },
+    {
+      "test_row": "(*, {High Line}, *, *)",
+      "match": true,
+      "matched_with": "(*, High Line, *, *)[all]"
+    },
+    {
+      "test_row": "(*, {One World Trade Center}, *, *)",
+      "match": true,
+      "matched_with": "(*, One World Trade Center, *, *)[all]"
+    },
+    {
+      "test_row": "(*, {Trinity Church}, *, *)",
+      "match": true,
+      "matched_with": "(*, Trinity Church, *, *)[all]"
+    },
+    {
+      "test_row": "(*, {Washington Square Park}, *, *)",
+      "match": true,
+      "matched_with": "(*, Washington Square Park, *, *)[all]"
+    },
+    {
+      "test_row": "(*, {Metropolitan Museum of Art}, *, {Fashion Show})",
+      "match": true,
+      "matched_with": "(*, Metropolitan Museum of Art, *, fashion show)[all]"
+    },
+    {
+      "test_row": "(*, {Washington Square Park}, *, {Theater Performance})",
+      "match": true,
+      "matched_with": "(*, Washington Square Park, *, method acting)[all]"
+    },
+    {
+      "test_row": "(*, {Metropolitan Museum of Art}, *, {Fashion Show})",
+      "match": true,
+      "matched_with": "(*, Metropolitan Museum of Art, *, fashion show)[all]"
+    },
+    {
+      "test_row": "(*, {Washington Square Park}, *, {Theater Performance})",
+      "match": true,
+      "matched_with": "(*, Washington Square Park, *, method acting)[all]"
+    },
+    {
+      "test_row": "(*, {Metropolitan Museum of Art}, {Henry Reed}, *)",
+      "match": true,
+      "matched_with": "(*, Metropolitan Museum of Art, Henry Reed, *)[all]"
+    },
+    {
+      "test_row": "(*, {Metropolitan Museum of Art}, {Henry Reed}, *)",
+      "match": true,
+      "matched_with": "(*, Metropolitan Museum of Art, Henry Reed, *)[all]"
+    },
+    {
+      "test_row": "(*, {Metropolitan Museum of Art}, {Henry Reed}, {Educational Workshop})",
+      "match": false,
+      "matched_with": null
+    },
+    {
+      "test_row": "(*, {Statue of Liberty}, *, *)",
+      "match": true,
+      "matched_with": "(*, Statue of Liberty, *, *)[all]"
+    },
+    {
+      "test_row": "(*, {Statue of Liberty}, *, *)",
+      "match": true,
+      "matched_with": "(*, Statue of Liberty, *, *)[all]"
+    },
+    {
+      "test_row": "(*, {Statue of Liberty}, *, *)",
+      "match": true,
+      "matched_with": "(*, Statue of Liberty, *, *)[all]"
+    },
+    {
+      "test_row": "({April 09, 2026}, *, *, *)",
+      "match": true,
+      "matched_with": "(April 09, 2026, *, *, *)[all]"
+    },
+    {
+      "test_row": "({September 13, 2025}, *, *, *)",
+      "match": true,
+      "matched_with": "(September 13, 2025, *, *, *)[all]"
+    },
+    {
+      "test_row": "({September 22, 2026}, *, *, *)",
+      "match": true,
+      "matched_with": "(September 22, 2026, *, *, *)[all]"
+    },
+    {
+      "test_row": "({April 09, 2026}, *, *, *)",
+      "match": true,
+      "matched_with": "(April 09, 2026, *, *, *)[all]"
+    },
+    {
+      "test_row": "({September 13, 2025}, *, *, *)",
+      "match": true,
+      "matched_with": "(September 13, 2025, *, *, *)[all]"
+    },
+    {
+      "test_row": "({September 22, 2026}, *, *, *)",
+      "match": true,
+      "matched_with": "(September 22, 2026, *, *, *)[all]"
+    },
+    {
+      "test_row": "({April 09, 2026}, *, *, *)",
+      "match": true,
+      "matched_with": "(April 09, 2026, *, *, *)[all]"
+    },
+    {
+      "test_row": "({September 13, 2025}, *, *, *)",
+      "match": true,
+      "matched_with": "(September 13, 2025, *, *, *)[all]"
+    },
+    {
+      "test_row": "({September 22, 2026}, *, *, *)",
+      "match": true,
+      "matched_with": "(September 22, 2026, *, *, *)[all]"
+    },
+    {
+      "test_row": "({February 27, 2026}, *, *, *)",
+      "match": true,
+      "matched_with": "(February 27, 2026, *, *, *)[all]"
+    },
+    {
+      "test_row": "({June 14, 2025}, *, *, *)",
+      "match": true,
+      "matched_with": "(June 14, 2025, *, *, *)[all]"
+    },
+    {
+      "test_row": "({March 23, 2024}, *, *, *)",
+      "match": true,
+      "matched_with": "(March 23, 2024, *, *, *)[all]"
+    },
+    {
+      "test_row": "({May 11, 2026}, *, *, *)",
+      "match": true,
+      "matched_with": "(May 11, 2026, *, *, *)[all]"
+    },
+    {
+      "test_row": "({November 13, 2026}, *, *, *)",
+      "match": true,
+      "matched_with": "(November 13, 2026, *, *, *)[all]"
+    },
+    {
+      "test_row": "({February 27, 2026}, *, *, *)",
+      "match": true,
+      "matched_with": "(February 27, 2026, *, *, *)[all]"
+    },
+    {
+      "test_row": "({June 14, 2025}, *, *, *)",
+      "match": true,
+      "matched_with": "(June 14, 2025, *, *, *)[all]"
+    },
+    {
+      "test_row": "({March 23, 2024}, *, *, *)",
+      "match": true,
+      "matched_with": "(March 23, 2024, *, *, *)[all]"
+    },
+    {
+      "test_row": "({May 11, 2026}, *, *, *)",
+      "match": true,
+      "matched_with": "(May 11, 2026, *, *, *)[all]"
+    },
+    {
+      "test_row": "({November 13, 2026}, *, *, *)",
+      "match": true,
+      "matched_with": "(November 13, 2026, *, *, *)[all]"
+    },
+    {
+      "test_row": "({February 27, 2026}, *, *, *)",
+      "match": true,
+      "matched_with": "(February 27, 2026, *, *, *)[all]"
+    },
+    {
+      "test_row": "({June 14, 2025}, *, *, *)",
+      "match": true,
+      "matched_with": "(June 14, 2025, *, *, *)[all]"
+    },
+    {
+      "test_row": "({March 23, 2024}, *, *, *)",
+      "match": true,
+      "matched_with": "(March 23, 2024, *, *, *)[all]"
+    },
+    {
+      "test_row": "({May 11, 2026}, *, *, *)",
+      "match": true,
+      "matched_with": "(May 11, 2026, *, *, *)[all]"
+    },
+    {
+      "test_row": "({November 13, 2026}, *, *, *)",
+      "match": true,
+      "matched_with": "(November 13, 2026, *, *, *)[all]"
+    },
+    {
+      "test_row": "({February 27, 2026}, *, *, {Tech Hackathon})",
+      "match": true,
+      "matched_with": "(February 27, 2026, *, *, tech hackathon)[all]"
+    },
+    {
+      "test_row": "({June 14, 2025}, *, *, {Fashion Show})",
+      "match": false,
+      "matched_with": null
+    },
+    {
+      "test_row": "({May 11, 2026}, *, *, {Theater Performance})",
+      "match": false,
+      "matched_with": null
+    },
+    {
+      "test_row": "({November 13, 2026}, *, *, {Theater Performance})",
+      "match": false,
+      "matched_with": null
+    },
+    {
+      "test_row": "({February 27, 2026}, *, *, {Tech Hackathon})",
+      "match": true,
+      "matched_with": "(February 27, 2026, *, *, tech hackathon)[all]"
+    },
+    {
+      "test_row": "({June 14, 2025}, *, *, {Fashion Show})",
+      "match": false,
+      "matched_with": null
+    },
+    {
+      "test_row": "({May 11, 2026}, *, *, {Theater Performance})",
+      "match": false,
+      "matched_with": null
+    },
+    {
+      "test_row": "({November 13, 2026}, *, *, {Theater Performance})",
+      "match": false,
+      "matched_with": null
+    }
+  ]

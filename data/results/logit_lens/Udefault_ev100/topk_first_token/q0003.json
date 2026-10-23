@@ -1,0 +1,75 @@
+{
+  "question_idx": 3,
+  "question": "Consider all events involving Classical Music Concert. List all the locations where these events took place, without mentioning the events themselves.",
+  "GT_entities": [
+    "Bethpage Black Course",
+    "Queensboro Bridge"
+  ],
+  "ent_A": "Bethpage Black Course",
+  "ent_B": "Queensboro Bridge",
+  "topk": 8,
+  "top_ids": [
+    26860,
+    1305,
+    35773,
+    92703,
+    28162,
+    45878,
+    53106,
+    45975
+  ],
+  "top_tokens": [
+    {
+      "id": 26860,
+      "str": "Que",
+      "prob": 0.38748592138290405
+    },
+    {
+      "id": 1305,
+      "str": "Tr",
+      "prob": 0.3640093207359314
+    },
+    {
+      "id": 35773,
+      "str": "Met",
+      "prob": 0.16665561497211456
+    },
+    {
+      "id": 92703,
+      "str": "Beth",
+      "prob": 0.0751175656914711
+    },
+    {
+      "id": 28162,
+      "str": " Queens",
+      "prob": 0.001910145627334714
+    },
+    {
+      "id": 45878,
+      "str": " Metropolitan",
+      "prob": 0.0015590153634548187
+    },
+    {
+      "id": 53106,
+      "str": "Queen",
+      "prob": 0.0014194997493177652
+    },
+    {
+      "id": 45975,
+      "str": "MET",
+      "prob": 0.0004905659588985145
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 92703,
+    "bare_str": "Beth",
+    "lead_id": 29103,
+    "lead_str": " Beth"
+  },
+  "first_token_B": {
+    "bare_id": 26860,
+    "bare_str": "Que",
+    "lead_id": 28162,
+    "lead_str": " Queens"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "question_idx": 17,
+  "question": "Consider all events involving Levi Rodriguez at Luna Shackleton Crater Colony. Provide a list of all dates when these events occurred, without describing the events.",
+  "GT_entities": [
+    "September 13, 2225",
+    "November 13, 2226"
+  ],
+  "ent_A": "September 13, 2225",
+  "ent_B": "November 13, 2226",
+  "topk": 8,
+  "top_ids": [
+    34827,
+    30649,
+    28623,
+    33877,
+    31294,
+    11356,
+    6841,
+    28259
+  ],
+  "top_tokens": [
+    {
+      "id": 34827,
+      "str": "November",
+      "prob": 0.813552737236023
+    },
+    {
+      "id": 30649,
+      "str": "September",
+      "prob": 0.17594312131404877
+    },
+    {
+      "id": 28623,
+      "str": "March",
+      "prob": 0.0053966897539794445
+    },
+    {
+      "id": 33877,
+      "str": "February",
+      "prob": 0.004010478965938091
+    },
+    {
+      "id": 31294,
+      "str": "October",
+      "prob": 0.0005777642945758998
+    },
+    {
+      "id": 11356,
+      "str": "May",
+      "prob": 0.00015795195940881968
+    },
+    {
+      "id": 6841,
+      "str": " November",
+      "prob": 0.0001351034879917279
+    },
+    {
+      "id": 28259,
+      "str": "June",
+      "prob": 5.995180254103616e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 30649,
+    "bare_str": "September",
+    "lead_id": 6250,
+    "lead_str": " September"
+  },
+  "first_token_B": {
+    "bare_id": 34827,
+    "bare_str": "November",
+    "lead_id": 6841,
+    "lead_str": " November"
+  }
+}

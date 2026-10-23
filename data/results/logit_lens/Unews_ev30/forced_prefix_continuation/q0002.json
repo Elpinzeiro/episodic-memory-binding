@@ -1,0 +1,12 @@
+{
+  "question_idx": 2,
+  "question": "Reflect on events related to factory explosion. Provide a list of all protagonists involved in these events, without describing the events.",
+  "gt_entities": [
+    "Scarlett Thomas",
+    "Henry Reed"
+  ],
+  "free_generation": "Henry Reed, Mila Gonzalez, Carter Stewart, Levi Rodriguez, Ezra Sanchez, Julian Ross, Scarlett Thomas, Lila Walker, Brooklyn Brown, Samuel Kim, Zoe Brooks, Julian Ross, Scarlett Thomas, Levi Rodriguez, Ezra Sanchez, Carter Stewart, Mila Gonzalez, Henry Reed.",
+  "missing_entities": [],
+  "is_binding_failure": false,
+  "forced_prefix_experiments": []
+}

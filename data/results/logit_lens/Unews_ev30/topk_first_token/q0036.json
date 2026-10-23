@@ -1,0 +1,75 @@
+{
+  "question_idx": 36,
+  "question": "Recall the events related to bridge collapse that occurred on November 13, 2026. List all the locations where these events took place, without describing the events themselves.",
+  "GT_entities": [
+    "Vermont",
+    "Rajasthan"
+  ],
+  "ent_A": "Vermont",
+  "ent_B": "Rajasthan",
+  "topk": 8,
+  "top_ids": [
+    42466,
+    33381,
+    64463,
+    50,
+    39,
+    66335,
+    89849,
+    89146
+  ],
+  "top_tokens": [
+    {
+      "id": 42466,
+      "str": "Greater",
+      "prob": 0.9983336329460144
+    },
+    {
+      "id": 33381,
+      "str": " Greater",
+      "prob": 0.0004506621044129133
+    },
+    {
+      "id": 64463,
+      "str": "Henry",
+      "prob": 0.00033490362693555653
+    },
+    {
+      "id": 50,
+      "str": "S",
+      "prob": 0.00026910260203294456
+    },
+    {
+      "id": 39,
+      "str": "H",
+      "prob": 0.00022309389896690845
+    },
+    {
+      "id": 66335,
+      "str": "greater",
+      "prob": 0.00017648180073592812
+    },
+    {
+      "id": 89849,
+      "str": "Indiana",
+      "prob": 9.574997420713771e-06
+    },
+    {
+      "id": 89146,
+      "str": "Rio",
+      "prob": 8.00020916358335e-06
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 53,
+    "bare_str": "V",
+    "lead_id": 35739,
+    "lead_str": " Vermont"
+  },
+  "first_token_B": {
+    "bare_id": 49,
+    "bare_str": "R",
+    "lead_id": 87440,
+    "lead_str": " Rajasthan"
+  }
+}

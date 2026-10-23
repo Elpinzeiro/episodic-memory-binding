@@ -1,0 +1,29 @@
+{
+  "question_idx": 28,
+  "question": "Reflect on all events involving Jackson Ramos. Provide a list of all dates when these events occurred, without describing the events.",
+  "gt_entities": [
+    "February 27, 2226",
+    "April 09, 2226"
+  ],
+  "free_generation": "February 27, 2226; March 24, 2226; April 03, 2226; May 13, 2226; June 16, 2226; July 11, 2226; August 30, 2226; September 28, 2226; October 02, 2226; October 27, 2226; November 08, 2226; December 17, 2226; January 02, 2227; January 11, 2227; January 30, 2227; February 14, 2227; March 17, 2227; April 23, 2227; May 02, 2227; May 31, 2227; June 25, 2227; July 14, 2227; July 29, 2227; August 12, 2227; September 01, 2227;",
+  "missing_entities": [
+    "April 09, 2226"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "April 09, 2226",
+      "first_token": {
+        "id": 29146,
+        "str": "April",
+        "forced_continuation": "April 09, 2226",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "April",
+        "forced_continuation": "April 09, 2226",
+        "recovered": true
+      }
+    }
+  ]
+}

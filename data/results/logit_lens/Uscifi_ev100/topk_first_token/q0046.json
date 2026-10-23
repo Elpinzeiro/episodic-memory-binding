@@ -1,0 +1,75 @@
+{
+  "question_idx": 46,
+  "question": "Consider all events involving Henry Reed at Mars Valles Industrial Hub. Provide a list of all dates when these events occurred, without describing the events.",
+  "GT_entities": [
+    "May 11, 2226",
+    "July 31, 2225"
+  ],
+  "ent_A": "May 11, 2226",
+  "ent_B": "July 31, 2225",
+  "topk": 8,
+  "top_ids": [
+    11356,
+    28623,
+    34827,
+    33877,
+    30649,
+    31294,
+    28259,
+    29146
+  ],
+  "top_tokens": [
+    {
+      "id": 11356,
+      "str": "May",
+      "prob": 0.9992270469665527
+    },
+    {
+      "id": 28623,
+      "str": "March",
+      "prob": 0.00025700932019390166
+    },
+    {
+      "id": 34827,
+      "str": "November",
+      "prob": 0.0001534672628622502
+    },
+    {
+      "id": 33877,
+      "str": "February",
+      "prob": 0.00010223123535979539
+    },
+    {
+      "id": 30649,
+      "str": "September",
+      "prob": 0.00010064629168482497
+    },
+    {
+      "id": 31294,
+      "str": "October",
+      "prob": 7.249281043186784e-05
+    },
+    {
+      "id": 28259,
+      "str": "June",
+      "prob": 6.397467222996056e-05
+    },
+    {
+      "id": 29146,
+      "str": "April",
+      "prob": 1.111713208956644e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 11356,
+    "bare_str": "May",
+    "lead_id": 3297,
+    "lead_str": " May"
+  },
+  "first_token_B": {
+    "bare_id": 29527,
+    "bare_str": "July",
+    "lead_id": 5887,
+    "lead_str": " July"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "question_idx": 40,
+  "question": "Think about the events involving bridge collapse at Luzon Region. List all protagonists involved in these events, without mentioning the events themselves.",
+  "GT_entities": [
+    "Mila Gonzalez",
+    "Levi Rodriguez"
+  ],
+  "ent_A": "Mila Gonzalez",
+  "ent_B": "Levi Rodriguez",
+  "topk": 8,
+  "top_ids": [
+    96056,
+    2356,
+    64463,
+    29185,
+    24903,
+    41745,
+    96572,
+    27368
+  ],
+  "top_tokens": [
+    {
+      "id": 96056,
+      "str": "Scar",
+      "prob": 0.9193825125694275
+    },
+    {
+      "id": 2356,
+      "str": "Le",
+      "prob": 0.02608087658882141
+    },
+    {
+      "id": 64463,
+      "str": "Henry",
+      "prob": 0.025676529854536057
+    },
+    {
+      "id": 29185,
+      "str": "Jul",
+      "prob": 0.018785348162055016
+    },
+    {
+      "id": 24903,
+      "str": "Sam",
+      "prob": 0.0024641016498208046
+    },
+    {
+      "id": 41745,
+      "str": "Luc",
+      "prob": 0.0018027754267677665
+    },
+    {
+      "id": 96572,
+      "str": " Scarlett",
+      "prob": 0.0015419954434037209
+    },
+    {
+      "id": 27368,
+      "str": "Bro",
+      "prob": 0.0013189385645091534
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 44,
+    "bare_str": "M",
+    "lead_id": 10357,
+    "lead_str": " Mil"
+  },
+  "first_token_B": {
+    "bare_id": 2356,
+    "bare_str": "Le",
+    "lead_id": 56141,
+    "lead_str": " Levi"
+  }
+}

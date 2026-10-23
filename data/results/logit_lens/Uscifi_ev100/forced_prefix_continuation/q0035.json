@@ -1,0 +1,29 @@
+{
+  "question_idx": 35,
+  "question": "Recall all events related to fusion core breach that occurred at Mercury Twilight Observatory. Provide a list of all dates when these events took place, without describing the events.",
+  "gt_entities": [
+    "June 14, 2225",
+    "April 09, 2226"
+  ],
+  "free_generation": "June 14, 2225; June 16, 2225; June 18, 2225; June 20, 2225; June 22, 2225; June 24, 2225; June 26, 2225; June 28, 2225; June 30, 2225; July 02, 2225; July 04, 2225; July 06, 2225; July 08, 2225; July 10, 2225; July 12, 2225; July 14, 2225; July 16, 2225; July 18, 2225; July 20, 2225; July 22, 2225; July 24, 2225; July 26, 2225; July 28, 2225; July 30, 2225; August 01, 2225;",
+  "missing_entities": [
+    "April 09, 2226"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "April 09, 2226",
+      "first_token": {
+        "id": 29146,
+        "str": "April",
+        "forced_continuation": "April 09, 2226; April 12, 2226; April 14, 2226;",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "April",
+        "forced_continuation": "April 09, 2226; April 12, 2226; April 14, 2226;",
+        "recovered": true
+      }
+    }
+  ]
+}

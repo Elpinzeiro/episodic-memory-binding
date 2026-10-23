@@ -1,0 +1,75 @@
+{
+  "question_idx": 33,
+  "question": "Think about the events involving Karaoke Night at American Museum of Natural History. List all protagonists involved in these events, without mentioning the events themselves.",
+  "GT_entities": [
+    "Mila Gonzalez",
+    "Levi Rodriguez"
+  ],
+  "ent_A": "Mila Gonzalez",
+  "ent_B": "Levi Rodriguez",
+  "topk": 8,
+  "top_ids": [
+    41745,
+    2356,
+    64463,
+    97757,
+    44,
+    45170,
+    24641,
+    25584
+  ],
+  "top_tokens": [
+    {
+      "id": 41745,
+      "str": "Luc",
+      "prob": 0.8328130841255188
+    },
+    {
+      "id": 2356,
+      "str": "Le",
+      "prob": 0.14247751235961914
+    },
+    {
+      "id": 64463,
+      "str": "Henry",
+      "prob": 0.015493711456656456
+    },
+    {
+      "id": 97757,
+      "str": "Leap",
+      "prob": 0.0011223608162254095
+    },
+    {
+      "id": 44,
+      "str": "M",
+      "prob": 0.0010060776257887483
+    },
+    {
+      "id": 45170,
+      "str": " Lucy",
+      "prob": 0.0006295872735790908
+    },
+    {
+      "id": 24641,
+      "str": "Les",
+      "prob": 0.0005732457502745092
+    },
+    {
+      "id": 25584,
+      "str": "Ben",
+      "prob": 0.0005385145195759833
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 44,
+    "bare_str": "M",
+    "lead_id": 10357,
+    "lead_str": " Mil"
+  },
+  "first_token_B": {
+    "bare_id": 2356,
+    "bare_str": "Le",
+    "lead_id": 56141,
+    "lead_str": " Levi"
+  }
+}

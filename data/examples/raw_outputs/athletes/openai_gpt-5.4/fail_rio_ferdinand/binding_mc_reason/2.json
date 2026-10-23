@@ -1,0 +1,26 @@
+{
+  "entity": "Rio Ferdinand",
+  "prompt": "Which teams did Rio Ferdinand play for between 2010 and 2015, including both club and national teams? Select the correct option:\nA. England national association football team\nB. Manchester United\nC. Queens Park Rangers\nD. England national association football team, Manchester United, Queens Park Rangers\nE. None of them\nReturn ONLY the letter. Reflect about each event independently, take your time before answering, reason about it!",
+  "expected": "D",
+  "retry": 2,
+  "extended_reasoning_enabled": true,
+  "success": true,
+  "response": "D",
+  "model": "openai/gpt-5.4",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 159,
+    "completion_tokens": 133,
+    "total_tokens": 292
+  },
+  "reasoning_enabled": true,
+  "reasoning_details": [
+    {
+      "type": "reasoning.encrypted",
+      "data": "gAAAAABp1RoSS6HAX25lvtN5yXRjXQb_d3UGaEbizE7ZUluUrys3llbTsfGJglECWtFagfApHzjugeHBdTT4qFEg2I8gEh19jAW-JCeqWPXpJBYAIcOlxDBFgUvu-146nlnWaMv16f3et42inNgAqf-9prWNjZGDnHcT4ToyczwxNlq36ssujBTGv7WbmLk5m7lo_MccMPIju11so1AFcc_8OYrHcFhHqw-gF8wVgJUFEvJuN5LpG-i7eDiAQk2BL3px6qiMvf9Ugc-0fPO-t572EsqirUBjvFsHvgxqAZ2ll-eymLbs42y-e299Fujc0cUQaLfBtUu8bKsDKkgJ0CTNM3I3wzv8oLDzcyfhv5DfsjYIMsMr5u3ML7YqXBwWcDuK65tkrLb4pZmVuihGhm8oiusa3k8FoXIXwMNJ0B_mIinjEWetl5r0f7n1jjZoaObTSqaJgB1Piu9_O2414uRqbJjp6NibfXwgso0HnKIYQpUz4hDzaRoM8FeOv7bCw5C5inGtDgX4smK21xV5xjQbDYuff40yPCnsQKD-kULMhWfGGxWf4rkhgS1obfhm-MrEImdV2Pw5Mp4rQXtsjffEtv61zkhCfqD4SfxZTA_oevmREjyWti29XIT9-JOKwhCaVcFPUsELjezFhxI-GlMfNonLzmNKB8Vc1OQ1TibWVYi7iJyWOZ0CtqVkVOD9IJGawXiC2qhw7geVSUBDh6Q5HRqJ6tvFDdk8u6c_HFnR-a3eh3ROrj1sNn-ufVgpVd0Lp4buEnI5HJFyyFCCF5O-gb8afED58tTOU_3SrDuwIJL28ED1hLyEhsqdSa75ZKAdgB4LS1gltYgLvFvdnY4T4R5edkKOTl9PStCUssYJJlA8QgYcA3HSlMOC3RGTRWNkrysPTF3brgURkSNkxGU4JnBJfkqkF7Qwo_46aQRkNWeizSDmfWHLPgFrC2CKRAh2XDr9gPe5AUYAOZE21eEi00vdPtkTizCX6ZtQLxeYSpVxoAKtPhD8NBwQBI_fU-fd820tMJo1aCy741kyvV4_rMVmSoT3N-hNxjsjSTF1Zqi3bM3Z5BucwIL0Xv-OFNKcReKgMoAkgy5F5ooA-i-rfWdrlGnXvN1zPyISbGg0KNQPhHHWqWmvzAzD5NRGrD04xXyRc_bE-U78mKAfZ_H7QHFvuEKnB3R_eCpgzipVDiU7SBqeC-kleVZgZS_yJQlFKshdlvICJ7QGF9oWj5eiGnO8PNEz2z6LR7yjpkm7CSeohFNaa2SeNTR9xjPp0g8HTh77orsJEslNAMn5IJWYeIC3HfDkGKhUjnTyLHlluKcuYy1u9ynkGNossvb5CjS1uwe__a0Qrc9BhyRfBiJK5Tz7qkOX8_dzfubp7I9UD5INioMRGJ5UP8OPW7JKHRnUpUfZB3T4vEHIN4AMWPQFjxHk0ivse9hzlqvSKJbDlXe7PoWbcihLGXx1XIYZ_MOSbLhUTRPcH1TBPJmBuleyLCDQkBU8IzKj9I3pnG9vjTSj1BgsWsU=",
+      "format": "openai-responses-v1",
+      "id": "rs_0b1dfd23ebbf0b770169d51a10936c8190a4fff36d53dd32d8",
+      "index": 0
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "question_idx": 60,
+  "question": "Consider all events that happened on December 26, 2026. Provide a list of all protagonists involved in any of these events, without describing the events themselves.",
+  "gt_entities": [
+    "Samuel Parker",
+    "Levi Rodriguez"
+  ],
+  "free_generation": "Levi Rodriguez Ezra Edwards Henry Reed\nSamuel Jackson\nMila Gonzalez\nLucy Williams\nJulian Ross\nLillian Brooks\nCarter Morrison\nBrooklyn Smith\nHenry Reed\nScarlett Thomas\nNoah Lopez\nLillian Brooks\nCarter Morrison\nEzra Edwards\nLevi Rodriguez\nMila Gonzalez\nBrooklyn Smith\nScarlett Thomas\nJulian Ross\nNoah Lopez\nSamuel Jackson\nLucy Williams\nHenry Reed\nEzra Edwards\nLillian Brooks\nCarter Morrison\nBrooklyn Smith\nScarlett Thomas\nJulian Ross\nNoah Lopez\nSamuel Jackson\nLucy Williams\nHenry Reed\nEzra Edwards\nLevi Rodriguez\nMila Gonzalez\nBrooklyn Smith\nScarlett Thomas\nJulian Ross\nNoah Lopez\nSamuel Jackson\nLucy Williams\nHenry Reed\nEzra Edwards\nLillian Brooks\nCarter Morrison\nBrooklyn Smith\nScarlett Thomas\nJulian Ross\n",
+  "missing_entities": [
+    "Samuel Parker"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Samuel Parker",
+      "first_token": {
+        "id": 24903,
+        "str": "Sam",
+        "forced_continuation": "Samuel Parker\nLevi Rodriguez\nEzra Edwards\nAisha Kazmi\nLillian Mendoza\nCarter Stewart\nHenry Reed\nMaya Ramos\nJackson Vance\nLillian Mendoza",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Samuel",
+        "forced_continuation": "Samuel Parker\nLevi Rodriguez\nEzra Edwards\nAisha Kazmi\nLillian Mendoza\nCarter Stewart\nHenry Reed\nMaya Ramos\nJackson Vance\nLillian Mendoza\n",
+        "recovered": true
+      }
+    }
+  ]
+}

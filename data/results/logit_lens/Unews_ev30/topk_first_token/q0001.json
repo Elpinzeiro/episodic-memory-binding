@@ -1,0 +1,75 @@
+{
+  "question_idx": 1,
+  "question": "Recall all events related to factory explosion. Provide a list of all dates when these events occurred, without describing the events.",
+  "GT_entities": [
+    "November 13, 2026",
+    "April 09, 2026"
+  ],
+  "ent_A": "November 13, 2026",
+  "ent_B": "April 09, 2026",
+  "topk": 8,
+  "top_ids": [
+    34827,
+    11356,
+    33877,
+    30649,
+    29146,
+    6841,
+    28259,
+    28623
+  ],
+  "top_tokens": [
+    {
+      "id": 34827,
+      "str": "November",
+      "prob": 0.5976654291152954
+    },
+    {
+      "id": 11356,
+      "str": "May",
+      "prob": 0.3459022343158722
+    },
+    {
+      "id": 33877,
+      "str": "February",
+      "prob": 0.02839338220655918
+    },
+    {
+      "id": 30649,
+      "str": "September",
+      "prob": 0.020773043856024742
+    },
+    {
+      "id": 29146,
+      "str": "April",
+      "prob": 0.004934030119329691
+    },
+    {
+      "id": 6841,
+      "str": " November",
+      "prob": 0.0008709080284461379
+    },
+    {
+      "id": 28259,
+      "str": "June",
+      "prob": 0.0006677483906969428
+    },
+    {
+      "id": 28623,
+      "str": "March",
+      "prob": 0.00044481633813120425
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 34827,
+    "bare_str": "November",
+    "lead_id": 6841,
+    "lead_str": " November"
+  },
+  "first_token_B": {
+    "bare_id": 29146,
+    "bare_str": "April",
+    "lead_id": 5936,
+    "lead_str": " April"
+  }
+}

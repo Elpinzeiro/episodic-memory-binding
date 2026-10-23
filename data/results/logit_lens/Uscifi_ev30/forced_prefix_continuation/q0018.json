@@ -1,0 +1,44 @@
+{
+  "question_idx": 18,
+  "question": "Consider all events involving Samuel Parker at Mercury Twilight Observatory. Provide a list of all dates when these events occurred, without describing the events.",
+  "gt_entities": [
+    "February 27, 2226",
+    "May 11, 2226"
+  ],
+  "free_generation": "November 13, 2226; November 16, 2226; November 20, 2226; November 22, 2226; November 23, 2226; November 25, 2226; November 27, 2226; November 29, 2226; November 30, 2226; December 02, 2226; December 04, 2226; December 06, 2226; December 08, 2226; December 10, 2226; December 12, 2226; December 14, 2226; December 16, 2226; December 18, 2226; December 20, 2226; December 22, 2226; December 24, 2226; December 26, 2226; December 28, 2226; December 30, 2226; January 01, 2227;",
+  "missing_entities": [
+    "February 27, 2226",
+    "May 11, 2226"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "February 27, 2226",
+      "first_token": {
+        "id": 33877,
+        "str": "February",
+        "forced_continuation": "February 27, 2226; February 28, 2226; September 13, 2225; September 15, 2225; September 16, 2225; September",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "February",
+        "forced_continuation": "February 27, 2226; February 28, 2226; September 13, 2225; September 15, 2225; September 16, 2225; September",
+        "recovered": true
+      }
+    },
+    {
+      "missing_entity": "May 11, 2226",
+      "first_token": {
+        "id": 11356,
+        "str": "May",
+        "forced_continuation": "May 11, 2226; May 13, 2226; May 15, 2226; May 17, 2226; May 19, 2226; May",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "May",
+        "forced_continuation": "May 11, 2226; May 13, 2226; May 15, 2226; May 17, 2226; May 19, 2226; May",
+        "recovered": true
+      }
+    }
+  ]
+}

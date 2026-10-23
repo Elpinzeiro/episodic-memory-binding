@@ -1,0 +1,75 @@
+{
+  "question_idx": 8,
+  "question": "Think about the events involving residential tower fire at Luang Prabang Province. List all protagonists involved in these events, without mentioning the events themselves.",
+  "GT_entities": [
+    "Carter Stewart",
+    "Scarlett Thomas"
+  ],
+  "ent_A": "Carter Stewart",
+  "ent_B": "Scarlett Thomas",
+  "topk": 8,
+  "top_ids": [
+    96056,
+    64463,
+    96572,
+    24903,
+    34,
+    2356,
+    60332,
+    3407
+  ],
+  "top_tokens": [
+    {
+      "id": 96056,
+      "str": "Scar",
+      "prob": 0.8263747692108154
+    },
+    {
+      "id": 64463,
+      "str": "Henry",
+      "prob": 0.1287243664264679
+    },
+    {
+      "id": 96572,
+      "str": " Scarlett",
+      "prob": 0.017695287242531776
+    },
+    {
+      "id": 24903,
+      "str": "Sam",
+      "prob": 0.01688496209681034
+    },
+    {
+      "id": 34,
+      "str": "C",
+      "prob": 0.004544525872915983
+    },
+    {
+      "id": 2356,
+      "str": "Le",
+      "prob": 0.0038871390279382467
+    },
+    {
+      "id": 60332,
+      "str": "Mil",
+      "prob": 0.000309258874040097
+    },
+    {
+      "id": 3407,
+      "str": "Sc",
+      "prob": 0.0002484964788891375
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 34,
+    "bare_str": "C",
+    "lead_id": 25581,
+    "lead_str": " Carter"
+  },
+  "first_token_B": {
+    "bare_id": 96056,
+    "bare_str": "Scar",
+    "lead_id": 96572,
+    "lead_str": " Scarlett"
+  }
+}

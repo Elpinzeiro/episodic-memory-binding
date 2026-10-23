@@ -1,0 +1,75 @@
+{
+  "question_idx": 16,
+  "question": "Reflect on Henry Reed's experiences at Triton Gas Colony. Describe all the key events they've been involved in at this location, focusing on what happened rather than when it occurred.",
+  "GT_entities": [
+    "cryo-pod integrity breach",
+    "antimatter cascade"
+  ],
+  "ent_A": "cryo-pod integrity breach",
+  "ent_B": "antimatter cascade",
+  "topk": 8,
+  "top_ids": [
+    54803,
+    55665,
+    519,
+    62238,
+    60065,
+    5408,
+    82889,
+    1019
+  ],
+  "top_tokens": [
+    {
+      "id": 54803,
+      "str": "vac",
+      "prob": 0.9228734970092773
+    },
+    {
+      "id": 55665,
+      "str": "fusion",
+      "prob": 0.031089404597878456
+    },
+    {
+      "id": 519,
+      "str": "ant",
+      "prob": 0.015390371903777122
+    },
+    {
+      "id": 62238,
+      "str": "cry",
+      "prob": 0.010744212195277214
+    },
+    {
+      "id": 60065,
+      "str": "matter",
+      "prob": 0.00447885412722826
+    },
+    {
+      "id": 5408,
+      "str": "arter",
+      "prob": 0.003030543914064765
+    },
+    {
+      "id": 82889,
+      "str": "Vac",
+      "prob": 0.001596984569914639
+    },
+    {
+      "id": 1019,
+      "str": "void",
+      "prob": 0.0014885531272739172
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 62238,
+    "bare_str": "cry",
+    "lead_id": 16106,
+    "lead_str": " cry"
+  },
+  "first_token_B": {
+    "bare_id": 519,
+    "bare_str": "ant",
+    "lead_id": 79312,
+    "lead_str": " antim"
+  }
+}

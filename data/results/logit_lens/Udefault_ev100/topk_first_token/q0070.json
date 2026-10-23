@@ -1,0 +1,75 @@
+{
+  "question_idx": 70,
+  "question": "Recall the events related to Educational Workshop that occurred on July 13, 2024. List all the locations where these events took place, without describing the events themselves.",
+  "GT_entities": [
+    "Bethpage Black Course",
+    "Trinity Church"
+  ],
+  "ent_A": "Bethpage Black Course",
+  "ent_B": "Trinity Church",
+  "topk": 8,
+  "top_ids": [
+    26860,
+    53106,
+    29518,
+    28162,
+    5712,
+    2232,
+    4054,
+    593
+  ],
+  "top_tokens": [
+    {
+      "id": 26860,
+      "str": "Que",
+      "prob": 0.9701694250106812
+    },
+    {
+      "id": 53106,
+      "str": "Queen",
+      "prob": 0.014502858743071556
+    },
+    {
+      "id": 29518,
+      "str": "American",
+      "prob": 0.00717943487688899
+    },
+    {
+      "id": 28162,
+      "str": " Queens",
+      "prob": 0.0019936570897698402
+    },
+    {
+      "id": 5712,
+      "str": "QUE",
+      "prob": 0.0019023611675947905
+    },
+    {
+      "id": 2232,
+      "str": "Qu",
+      "prob": 0.0016271756030619144
+    },
+    {
+      "id": 4054,
+      "str": "One",
+      "prob": 0.0016271756030619144
+    },
+    {
+      "id": 593,
+      "str": "que",
+      "prob": 0.0004311586089897901
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 92703,
+    "bare_str": "Beth",
+    "lead_id": 29103,
+    "lead_str": " Beth"
+  },
+  "first_token_B": {
+    "bare_id": 1305,
+    "bare_str": "Tr",
+    "lead_id": 45659,
+    "lead_str": " Trinity"
+  }
+}

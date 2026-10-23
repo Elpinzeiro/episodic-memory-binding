@@ -1,0 +1,44 @@
+{
+  "question_idx": 10,
+  "question": "Reflect on Levi Rodriguez's experiences at One World Trade Center. Describe all the key events they've been involved in at this location, focusing on what happened rather than when it occurred.",
+  "gt_entities": [
+    "Tech Hackathon",
+    "Theater Performance"
+  ],
+  "free_generation": "Statue Cruises, Educational Workshop.",
+  "missing_entities": [
+    "Tech Hackathon",
+    "Theater Performance"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Tech Hackathon",
+      "first_token": {
+        "id": 35197,
+        "str": "Tech",
+        "forced_continuation": "Tech Hackathon. Educational Workshop. Hackathon Challenges. Formal Gala. Hackathon Awards. Hackathon Networking. Formal Food Service. Formal Dialogue. Tech Hackathon Wrap-Up.",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Tech",
+        "forced_continuation": "Tech Hackathon. Educational Workshop. Hackathon Challenges. Formal Gala. Hackathon Awards. Hackathon Networking. Formal Food Service. Formal Dialogue. Tech Hackathon Wrap-Up.",
+        "recovered": true
+      }
+    },
+    {
+      "missing_entity": "Theater Performance",
+      "first_token": {
+        "id": 791,
+        "str": "The",
+        "forced_continuation": "Theater Performance, Tech Issues.",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Theater",
+        "forced_continuation": "Theater Performance, Tech Issues.",
+        "recovered": true
+      }
+    }
+  ]
+}

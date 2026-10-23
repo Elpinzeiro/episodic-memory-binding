@@ -1,0 +1,75 @@
+{
+  "question_idx": 11,
+  "question": "Reflect on the experiences of Julian Ross related to Theater Performance. List all the unique locations where these events took place, without mentioning the events themselves.",
+  "GT_entities": [
+    "One World Trade Center",
+    "Metropolitan Museum of Art"
+  ],
+  "ent_A": "One World Trade Center",
+  "ent_B": "Metropolitan Museum of Art",
+  "topk": 8,
+  "top_ids": [
+    29518,
+    4054,
+    32132,
+    28079,
+    35773,
+    78818,
+    126171,
+    16257
+  ],
+  "top_tokens": [
+    {
+      "id": 29518,
+      "str": "American",
+      "prob": 0.7943519353866577
+    },
+    {
+      "id": 4054,
+      "str": "One",
+      "prob": 0.19466431438922882
+    },
+    {
+      "id": 32132,
+      "str": "America",
+      "prob": 0.010156881995499134
+    },
+    {
+      "id": 28079,
+      "str": "Americ",
+      "prob": 0.00041922464151866734
+    },
+    {
+      "id": 35773,
+      "str": "Met",
+      "prob": 7.876997551647946e-05
+    },
+    {
+      "id": 78818,
+      "str": "american",
+      "prob": 6.843653682153672e-05
+    },
+    {
+      "id": 126171,
+      "str": " Amerikan",
+      "prob": 4.929298665956594e-05
+    },
+    {
+      "id": 16257,
+      "str": "Stat",
+      "prob": 2.5975577955250628e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 4054,
+    "bare_str": "One",
+    "lead_id": 3861,
+    "lead_str": " One"
+  },
+  "first_token_B": {
+    "bare_id": 35773,
+    "bare_str": "Met",
+    "lead_id": 45878,
+    "lead_str": " Metropolitan"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "question_idx": 69,
+  "question": "Think about the events involving antimatter cascade on May 11, 2226. Provide a list of all protagonists involved in these events, without describing the events.",
+  "GT_entities": [
+    "Zoe Brown",
+    "Levi Rodriguez"
+  ],
+  "ent_A": "Zoe Brown",
+  "ent_B": "Levi Rodriguez",
+  "topk": 8,
+  "top_ids": [
+    96056,
+    64463,
+    44,
+    29185,
+    24903,
+    3624,
+    96572,
+    3407
+  ],
+  "top_tokens": [
+    {
+      "id": 96056,
+      "str": "Scar",
+      "prob": 0.5257237553596497
+    },
+    {
+      "id": 64463,
+      "str": "Henry",
+      "prob": 0.3341703414916992
+    },
+    {
+      "id": 44,
+      "str": "M",
+      "prob": 0.055410873144865036
+    },
+    {
+      "id": 29185,
+      "str": "Jul",
+      "prob": 0.04666063189506531
+    },
+    {
+      "id": 24903,
+      "str": "Sam",
+      "prob": 0.02830110676586628
+    },
+    {
+      "id": 3624,
+      "str": "SC",
+      "prob": 0.0029366689268499613
+    },
+    {
+      "id": 96572,
+      "str": " Scarlett",
+      "prob": 0.001987049588933587
+    },
+    {
+      "id": 3407,
+      "str": "Sc",
+      "prob": 0.000815483508631587
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 57,
+    "bare_str": "Z",
+    "lead_id": 75741,
+    "lead_str": " Zoe"
+  },
+  "first_token_B": {
+    "bare_id": 2356,
+    "bare_str": "Le",
+    "lead_id": 56141,
+    "lead_str": " Levi"
+  }
+}

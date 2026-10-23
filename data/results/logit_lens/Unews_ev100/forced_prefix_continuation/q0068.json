@@ -1,0 +1,44 @@
+{
+  "question_idx": 68,
+  "question": "Think about the events involving bridge collapse on June 14, 2025. Provide a list of all protagonists involved in these events, without describing the events.",
+  "gt_entities": [
+    "Mila Gonzalez",
+    "Lucy Carter"
+  ],
+  "free_generation": "Julian Ross Henry Reed Zoe Brown\nSamuel Miller\nLeah Williams\nLillian Taylor\nEzra Edwards\nMaya Davis\nHenry Reed\nJackson Clark\nBrooklyn Thomas\nNoah Rodriguez\nLily Mitchell\nCarter White\nScarlett Lee\nEzra Edwards\nJackson Clark\nBrooklyn Thomas\nNoah Rodriguez\nLily Mitchell\nCarter White\nScarlett Lee\nEzra Edwards\nJackson Clark\nBrooklyn Thomas\nNoah Rodriguez\nLily Mitchell\nCarter White\nScarlett Lee\nEzra Edwards\nJackson Clark\nBrooklyn Thomas\nNoah Rodriguez\nLily Mitchell\nCarter White\nScarlett Lee\nEzra Edwards\nJackson Clark\nBrooklyn Thomas\nNoah Rodriguez\nLily Mitchell\nCarter White\nScarlett Lee\nEzra Edwards\nJackson Clark\nBrooklyn Thomas\nNoah Rodriguez\nLily Mitchell\nCarter White\nScarlett Lee\nEzra Edwards\n",
+  "missing_entities": [
+    "Mila Gonzalez",
+    "Lucy Carter"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Mila Gonzalez",
+      "first_token": {
+        "id": 44,
+        "str": "M",
+        "forced_continuation": "Mila Gonzalez\nLucy Carter\nNoah Williams\nHenry Reed\nScarlett Thomas\nJulian Ross\nLiam Brooks\nLevi Rodriguez\nCarter Stewart\nBrooklyn Brown\nJackson Kelly",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Mila",
+        "forced_continuation": "Mila Gonzalez\nLucy Carter\nNoah Williams\nHenry Reed\nScarlett Thomas\nJulian Ross\nLiam Brooks\nLevi Rodriguez\nCarter Stewart\nBrooklyn Brown\nJackson Kelly\n",
+        "recovered": true
+      }
+    },
+    {
+      "missing_entity": "Lucy Carter",
+      "first_token": {
+        "id": 41745,
+        "str": "Luc",
+        "forced_continuation": "Lucy Carter\nHenry Reed\nMila Gonzalez\nNoah Williams\nJulian Ross\nCarter Stewart\nLillian Maynard\nZoe Brown\nLevi Rodriguez\nJackson Kelly\nBrooklyn",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Lucy",
+        "forced_continuation": "Lucy Carter\nHenry Reed\nMila Gonzalez\nNoah Williams\nJulian Ross\nCarter Stewart\nLillian Maynard\nZoe Brown\nLevi Rodriguez\nJackson Kelly\nBrooklyn Thomas",
+        "recovered": true
+      }
+    }
+  ]
+}

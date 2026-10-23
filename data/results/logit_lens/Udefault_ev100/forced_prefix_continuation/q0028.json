@@ -1,0 +1,12 @@
+{
+  "question_idx": 28,
+  "question": "Consider all events that Jackson Ramos has been involved in. List all the locations where these events took place, without mentioning the events themselves.",
+  "gt_entities": [
+    "High Line",
+    "Statue of Liberty"
+  ],
+  "free_generation": "High Line Statue of Liberty Park Brooklyn Tabernacle War Memorial Statue Bronx Zoo Fashion Show Carnegie Hall Metropolitan Museum of Art Queens Borough Hall One World Trade Center Bethpage Black Course Statue of Liberty Ellis Island Rooftop Zoo Biotech Festival Marathan Runs Trinity Church Washington Square Park Bethpage Green Van Cortlandt Park Central Park Bethpage Yellow Course American Museum of Natural History Bethpage Red Course Statue of Liberty Lawn Fashion Show Venue Bethpage Blue Course High Line's Northern End Bethpage White Course One World Observation Deck Bethpage Park Metropolitan Museum of Art's Great Hall Trinity Church Yard Washington Square Green Market High Line's Southern End Van Cortlandt Nature Center Bethpage Black Course Driving Range High Line's Mid Block Section Bethpage Green Course Driving Range High Line's Piers Statue of Liberty's Observation Deck High Line's Northern Piers High Line's Pools High Line's Mural Garden High Line's Educational Center High Line's Amphitheater High Line's Green Atrium High Line's Elevated Walkway High",
+  "missing_entities": [],
+  "is_binding_failure": false,
+  "forced_prefix_experiments": []
+}

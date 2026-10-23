@@ -1,0 +1,75 @@
+{
+  "question_idx": 30,
+  "question": "Consider all events that Maya Smith has been involved in. List all the locations where these events took place, without mentioning the events themselves.",
+  "GT_entities": [
+    "New South Wales",
+    "Split-Dalmatia County"
+  ],
+  "ent_A": "New South Wales",
+  "ent_B": "Split-Dalmatia County",
+  "topk": 8,
+  "top_ids": [
+    3648,
+    1561,
+    52,
+    90837,
+    40682,
+    50302,
+    33,
+    51
+  ],
+  "top_tokens": [
+    {
+      "id": 3648,
+      "str": "New",
+      "prob": 0.9999313354492188
+    },
+    {
+      "id": 1561,
+      "str": " New",
+      "prob": 3.53550749423448e-05
+    },
+    {
+      "id": 52,
+      "str": "U",
+      "prob": 1.5206026546366047e-05
+    },
+    {
+      "id": 90837,
+      "str": "-New",
+      "prob": 1.3630595276481472e-05
+    },
+    {
+      "id": 40682,
+      "str": "_New",
+      "prob": 8.990352284854453e-07
+    },
+    {
+      "id": 50302,
+      "str": "Lu",
+      "prob": 7.933957135719538e-07
+    },
+    {
+      "id": 33,
+      "str": "B",
+      "prob": 5.714615554097691e-07
+    },
+    {
+      "id": 51,
+      "str": "T",
+      "prob": 4.3136182625858055e-07
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 3648,
+    "bare_str": "New",
+    "lead_id": 1561,
+    "lead_str": " New"
+  },
+  "first_token_B": {
+    "bare_id": 20805,
+    "bare_str": "Split",
+    "lead_id": 28910,
+    "lead_str": " Split"
+  }
+}

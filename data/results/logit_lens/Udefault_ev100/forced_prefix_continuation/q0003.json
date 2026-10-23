@@ -1,0 +1,29 @@
+{
+  "question_idx": 3,
+  "question": "Consider all events involving Classical Music Concert. List all the locations where these events took place, without mentioning the events themselves.",
+  "gt_entities": [
+    "Bethpage Black Course",
+    "Queensboro Bridge"
+  ],
+  "free_generation": "Queensboro Bridge-Truck Collision Site Trinity Church Bethune Street Park Washington Square Park Metropolitan Museum of Art Statue of Liberty Ellis Island One World Trade Center Statue of Liberty Education Center Brooklyn Museum Van Cortlandt Park High Line Hudson River Greenway American Museum of Natural History Bethune Street Park Trinity Church Wall Street Park Avenue Victor LaGrange Tennis Club Metropolitan Museum of Art Queensboro Bridge-Truck Collision Site Statue of Liberty Education Center Brooklyn Museum Van Cortlandt Park High Line Hudson River Greenway American Museum of Natural History One World Trade Center Washington Square Park Bethune Street Park Park Avenue Wall Street Queensboro Bridge-Truck Collision Site Trinity Church Statue of Liberty Education Center Brooklyn Museum Van Cortlandt Park High Line Hudson River Greenway American Museum of Natural History Bethune Street Park Trinity Church Park Avenue Metropolitan Museum of Art Statue of Liberty Education Center Brooklyn Museum Van Cortlandt Park High Line Hudson River Greenway American Museum of Natural History One World Trade Center Washington Square Park Bethune Street Park Park Avenue Wall Street",
+  "missing_entities": [
+    "Bethpage Black Course"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Bethpage Black Course",
+      "first_token": {
+        "id": 92703,
+        "str": "Beth",
+        "forced_continuation": "Bethpage Black Course | Metropolitan Museum of Art | Statue of Liberty | One World Trade Center | American Museum of Natural History | Trinity Church | High Line | Washington Square Park | Van Cortlandt Park |",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Bethpage",
+        "forced_continuation": "Bethpage Black Course | Metropolitan Museum of Art | Statue of Liberty | One World Trade Center | American Museum of Natural History | Trinity Church | High Line | Washington Square Park | Van Cortlandt Park | Brooklyn",
+        "recovered": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "question_idx": 29,
+  "question": "Reflect on September 22, 2026. Describe all the key events that occurred on this date, focusing on what happened rather than who was involved or where it took place.",
+  "GT_entities": [
+    "Theater Performance",
+    "Fashion Show"
+  ],
+  "ent_A": "Theater Performance",
+  "ent_B": "Fashion Show",
+  "topk": 8,
+  "top_ids": [
+    98982,
+    35197,
+    791,
+    97241,
+    46945,
+    25802,
+    52587,
+    63326
+  ],
+  "top_tokens": [
+    {
+      "id": 98982,
+      "str": "Educ",
+      "prob": 0.9593047499656677
+    },
+    {
+      "id": 35197,
+      "str": "Tech",
+      "prob": 0.028077227994799614
+    },
+    {
+      "id": 791,
+      "str": "The",
+      "prob": 0.007919545285403728
+    },
+    {
+      "id": 97241,
+      "str": "Fashion",
+      "prob": 0.002531238831579685
+    },
+    {
+      "id": 46945,
+      "str": " Educational",
+      "prob": 0.0005736899329349399
+    },
+    {
+      "id": 25802,
+      "str": "educ",
+      "prob": 0.00019216207147110254
+    },
+    {
+      "id": 52587,
+      "str": "Film",
+      "prob": 0.00015201269707176834
+    },
+    {
+      "id": 63326,
+      "str": "Technical",
+      "prob": 8.936366066336632e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 791,
+    "bare_str": "The",
+    "lead_id": 38571,
+    "lead_str": " Theater"
+  },
+  "first_token_B": {
+    "bare_id": 97241,
+    "bare_str": "Fashion",
+    "lead_id": 31700,
+    "lead_str": " Fashion"
+  }
+}

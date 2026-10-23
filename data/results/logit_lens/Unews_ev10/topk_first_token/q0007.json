@@ -1,0 +1,75 @@
+{
+  "question_idx": 7,
+  "question": "Think about the events involving flash flood emergency at Luang Prabang Province. List all protagonists involved in these events, without mentioning the events themselves.",
+  "GT_entities": [
+    "Henry Reed",
+    "Levi Rodriguez"
+  ],
+  "ent_A": "Henry Reed",
+  "ent_B": "Levi Rodriguez",
+  "topk": 8,
+  "top_ids": [
+    96056,
+    64463,
+    2356,
+    24903,
+    96572,
+    60332,
+    42,
+    73004
+  ],
+  "top_tokens": [
+    {
+      "id": 96056,
+      "str": "Scar",
+      "prob": 0.5924875140190125
+    },
+    {
+      "id": 64463,
+      "str": "Henry",
+      "prob": 0.1984584629535675
+    },
+    {
+      "id": 2356,
+      "str": "Le",
+      "prob": 0.11850496381521225
+    },
+    {
+      "id": 24903,
+      "str": "Sam",
+      "prob": 0.07076254487037659
+    },
+    {
+      "id": 96572,
+      "str": " Scarlett",
+      "prob": 0.013295888900756836
+    },
+    {
+      "id": 60332,
+      "str": "Mil",
+      "prob": 0.0007984802359715104
+    },
+    {
+      "id": 42,
+      "str": "K",
+      "prob": 0.00047679428826086223
+    },
+    {
+      "id": 73004,
+      "str": "Leon",
+      "prob": 0.00034611549926921725
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 64463,
+    "bare_str": "Henry",
+    "lead_id": 18063,
+    "lead_str": " Henry"
+  },
+  "first_token_B": {
+    "bare_id": 2356,
+    "bare_str": "Le",
+    "lead_id": 56141,
+    "lead_str": " Levi"
+  }
+}

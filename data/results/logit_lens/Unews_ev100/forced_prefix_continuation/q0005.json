@@ -1,0 +1,44 @@
+{
+  "question_idx": 5,
+  "question": "Reflect on events related to nuclear plant meltdown. Provide a list of all protagonists involved in these events, without describing the events.",
+  "gt_entities": [
+    "Ezra Edwards",
+    "Levi Rodriguez"
+  ],
+  "free_generation": "Brooklyn Ross. Carter Stewart. Ethan Knight. Maya Peters. Jackson Gonzalez. Lucy Wallace. Benjamin Green. Zoe Mullins. Samuel Brown. Henry Russell. Abigail Hall. Robert Turner. Julian Lee. Lillian May. James Rivera. Benjamin Brooks. Mila Gonzalez. Jackson Brooks. Henry Ross. Carter Mullins. Zoe Gonzalez. Samuel Lee. Benjamin Gonzalez. Jackson Brooks. Carter Gonzalez. Samuel Gonzalez. Benjamin Gonzalez. Jackson Gonzalez. Carter Gonzalez. Samuel Gonzalez. Benjamin Gonzalez. Jackson Gonzalez. Carter Gonzalez. Samuel Gonzalez. Benjamin Gonzalez. Jackson Gonzalez. Carter Gonzalez. Samuel Gonzalez. Benjamin Gonzalez. Jackson Gonzalez. Carter Gonzalez. Samuel Gonzalez. Benjamin Gonzalez. Jackson Gonzalez. Carter Gonzalez. Samuel Gonzalez. Benjamin Gonzalez. Jackson Gonzalez. Carter Gonzalez. Samuel Gonzalez. Benjamin Gonzalez. Jackson Gonzalez. Carter Gonzalez. Samuel Gonzalez. Benjamin Gonzalez. Jackson Gonzalez. Carter Gonzalez. Samuel Gonzalez. Benjamin Gonzalez. Jackson Gonzalez. Carter Gonzalez. Samuel Gonzalez. Benjamin Gonzalez. Jackson Gonzalez. Carter Gonzalez",
+  "missing_entities": [
+    "Ezra Edwards",
+    "Levi Rodriguez"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Ezra Edwards",
+      "first_token": {
+        "id": 36,
+        "str": "E",
+        "forced_continuation": "Ezra Edwards\nMila Gonzalez\nLucy Carter\nBenjamin Green\nLillian Myers\nCarter Stewart\nJulian Ross\nScarlett Thomas\nHenry Park\nFiona Wallace\nL",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Ezra",
+        "forced_continuation": "Ezra Edwards\nMila Gonzalez\nLucy Carter\nHenry Reed\nLillian Meyers\nNoah Parker\nJulian Ross\nScarlett Thomas\nBenjamin Brooks\nLiam Davis\nZoe",
+        "recovered": true
+      }
+    },
+    {
+      "missing_entity": "Levi Rodriguez",
+      "first_token": {
+        "id": 2356,
+        "str": "Le",
+        "forced_continuation": "Levi Rodriguez and Carter Stewart.",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Levi",
+        "forced_continuation": "Levi Rodriguez and Carter Stewart.",
+        "recovered": true
+      }
+    }
+  ]
+}

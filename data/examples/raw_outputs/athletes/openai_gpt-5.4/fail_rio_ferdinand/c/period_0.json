@@ -1,0 +1,15 @@
+{
+  "entity": "Rio Ferdinand",
+  "prompt": "In which period did Rio Ferdinand play for Queens Park Rangers F.C.?",
+  "expected": "2015",
+  "retry": 0,
+  "success": true,
+  "response": "Rio Ferdinand played for Queens Park Rangers F.C. in the **2014\u201315 season**. He joined QPR in **2014** and left in **2015**.",
+  "model": "openai/gpt-5.4",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 84,
+    "completion_tokens": 41,
+    "total_tokens": 125
+  }
+}

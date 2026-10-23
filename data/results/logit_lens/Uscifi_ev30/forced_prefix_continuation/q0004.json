@@ -1,0 +1,44 @@
+{
+  "question_idx": 4,
+  "question": "Reflect on the experiences of Levi Rodriguez related to antimatter cascade. List all the unique locations where these events took place, without mentioning the events themselves.",
+  "gt_entities": [
+    "Europa Subsurface Laboratory",
+    "Luna Shackleton Crater Colony"
+  ],
+  "free_generation": "Luna Oceanus Trading Post; Naiad Colony Facade; 42 Pegasi System Observatory; Triton Gas Colony Edge Tension Fence; Triton Gas Colony Central Vortex; Triton Gas Colony Subsurface Network; Triton Gas Colony Core Reactor Chamber; 42 Pegasi System Subspace Observatory; Triton Gas Colony Vacuum Interface Chamber; Naiad Colony Vacuum Interface Chamber; Luna Oceanus Trading Post Vacuum Interface Chamber; 42 Pegasi System Vacuum Interface Chamber; Triton Gas Colony Vacuum Interface Chamber; Naiad Colony Vacuum Interface Chamber; Luna Oceanus Trading Post Vacuum Interface Chamber; 42 Pegasi System Vacuum Interface Chamber; Triton Gas Colony Vacuum Interface Chamber; Naiad Colony Vacuum Interface Chamber; Luna Oceanus Trading Post Vacuum Interface Chamber; 42 Pegasi System Vacuum Interface Chamber; Triton Gas Colony Vacuum Interface Chamber; Naiad Colony Vacuum Interface Chamber; Luna Oceanus Trading Post Vacuum Interface Chamber; 42 Pegasi System Vacuum Interface Chamber;",
+  "missing_entities": [
+    "Europa Subsurface Laboratory",
+    "Luna Shackleton Crater Colony"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Europa Subsurface Laboratory",
+      "first_token": {
+        "id": 55218,
+        "str": "Eu",
+        "forced_continuation": "Europa Subsurface Laboratory, Triton Gas Colony; Triton Gas Colony; Luna Oceanus Crater Laboratory; Saturnius System Milieu; Luna Oceanus Crater Laboratory; Triton Gas Colony;",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Europa",
+        "forced_continuation": "Europa Subsurface Laboratory, Triton Gas Colony; Triton Gas Colony; Luna Oceanus Crater Laboratory; Saturnius System Milieu; Luna Oceanus Crater Laboratory; Triton Gas Colony; Europa",
+        "recovered": true
+      }
+    },
+    {
+      "missing_entity": "Luna Shackleton Crater Colony",
+      "first_token": {
+        "id": 43,
+        "str": "L",
+        "forced_continuation": "Luna Oceanus Trading Post; Naiad Colony Facade; 42 Pegasi System Observatory; Triton Gas Colony Edge Tension Fence; Triton Gas Colony Central Vortex; Triton Gas",
+        "recovered": false
+      },
+      "first_word": {
+        "str": "Luna",
+        "forced_continuation": "Luna Oceanus Trading Post; Naiad Colony Facade; 42 Pegasi System Observatory; Triton Gas Colony Edge Tension Fence; Triton Gas Colony Central Vortex; Triton Gas Colony",
+        "recovered": false
+      }
+    }
+  ]
+}

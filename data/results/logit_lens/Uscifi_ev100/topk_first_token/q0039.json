@@ -1,0 +1,75 @@
+{
+  "question_idx": 39,
+  "question": "Think about the events involving digital afterlife server shutdown at Luna Oceanus Trading Post. List all protagonists involved in these events, without mentioning the events themselves.",
+  "GT_entities": [
+    "Carter Stewart",
+    "Scarlett Thomas"
+  ],
+  "ent_A": "Carter Stewart",
+  "ent_B": "Scarlett Thomas",
+  "topk": 8,
+  "top_ids": [
+    2356,
+    41745,
+    44,
+    96056,
+    34,
+    24903,
+    73004,
+    64463
+  ],
+  "top_tokens": [
+    {
+      "id": 2356,
+      "str": "Le",
+      "prob": 0.6696280241012573
+    },
+    {
+      "id": 41745,
+      "str": "Luc",
+      "prob": 0.2835383713245392
+    },
+    {
+      "id": 44,
+      "str": "M",
+      "prob": 0.04416675865650177
+    },
+    {
+      "id": 96056,
+      "str": "Scar",
+      "prob": 0.0015592771815136075
+    },
+    {
+      "id": 34,
+      "str": "C",
+      "prob": 0.0003118750755675137
+    },
+    {
+      "id": 24903,
+      "str": "Sam",
+      "prob": 0.00019823986804112792
+    },
+    {
+      "id": 73004,
+      "str": "Leon",
+      "prob": 9.813583892537281e-05
+    },
+    {
+      "id": 64463,
+      "str": "Henry",
+      "prob": 7.642827404197305e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 34,
+    "bare_str": "C",
+    "lead_id": 25581,
+    "lead_str": " Carter"
+  },
+  "first_token_B": {
+    "bare_id": 96056,
+    "bare_str": "Scar",
+    "lead_id": 96572,
+    "lead_str": " Scarlett"
+  }
+}

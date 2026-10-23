@@ -1,0 +1,75 @@
+{
+  "question_idx": 5,
+  "question": "Reflect on events related to nuclear plant meltdown. Provide a list of all protagonists involved in these events, without describing the events.",
+  "GT_entities": [
+    "Ezra Edwards",
+    "Levi Rodriguez"
+  ],
+  "ent_A": "Ezra Edwards",
+  "ent_B": "Levi Rodriguez",
+  "topk": 8,
+  "top_ids": [
+    27368,
+    2356,
+    12878,
+    34,
+    25581,
+    41745,
+    11707,
+    33
+  ],
+  "top_tokens": [
+    {
+      "id": 27368,
+      "str": "Bro",
+      "prob": 0.43138670921325684
+    },
+    {
+      "id": 2356,
+      "str": "Le",
+      "prob": 0.3520875871181488
+    },
+    {
+      "id": 12878,
+      "str": "Cart",
+      "prob": 0.08764152973890305
+    },
+    {
+      "id": 34,
+      "str": "C",
+      "prob": 0.06512965261936188
+    },
+    {
+      "id": 25581,
+      "str": " Carter",
+      "prob": 0.02472042851150036
+    },
+    {
+      "id": 41745,
+      "str": "Luc",
+      "prob": 0.0073073445819318295
+    },
+    {
+      "id": 11707,
+      "str": "cart",
+      "prob": 0.006348730996251106
+    },
+    {
+      "id": 33,
+      "str": "B",
+      "prob": 0.0062503027729690075
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 36,
+    "bare_str": "E",
+    "lead_id": 85418,
+    "lead_str": " Ezra"
+  },
+  "first_token_B": {
+    "bare_id": 2356,
+    "bare_str": "Le",
+    "lead_id": 56141,
+    "lead_str": " Levi"
+  }
+}

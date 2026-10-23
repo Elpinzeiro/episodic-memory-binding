@@ -1,0 +1,11 @@
+[
+  true,
+  [],
+  {
+    "location": true,
+    "date": true,
+    "entity": true,
+    "content": true
+  },
+  "Here is my analysis of the text:\n\n(1) The text takes place at the Empire State Building - a single geographical location. True\n\n(2) The text takes place on February 28, 1802 - a single day. True\n\n(3) The main character is Emma Brown, who is the focus of the narrative. True\n\n(4) The main event is attending a theater performance, with a sub-event of discussing character motivation with fellow theatergoers. This is essentially a single main event (theater attendance) with activities within it. True\n\n```json\n{\n    \"1\": true,\n    \"2\": true,\n    \"3\": true,\n    \"4\": true\n}\n```"
+]

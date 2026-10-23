@@ -1,0 +1,44 @@
+{
+  "question_idx": 5,
+  "question": "Consider all events involving both Carter Stewart and residential tower fire. Provide a list of all dates when these events occurred, without describing the events.",
+  "gt_entities": [
+    "September 22, 2026",
+    "June 14, 2025"
+  ],
+  "free_generation": "February 27, 2026 & March 23, 2024 & June 09, 2025 & September 18, 2025 & November 11, 2026 & December 13, 2025 & February 26, 2026 & March 07, 2026 & September 28, 2024 & November 02, 2024 & June 22, 2024 & September 13, 2024 & November 27, 2024 & March 31, 2026 & September 19, 2026 & November 14, 2024 & February 14, 2026 & September 25, 2026 & November 20, 2025 & June 01, 2025 & September 15, 2024 & November 06, 2025 & February 28, 2026 & September 29, 2024 & November 03, 2025 &",
+  "missing_entities": [
+    "September 22, 2026",
+    "June 14, 2025"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "September 22, 2026",
+      "first_token": {
+        "id": 30649,
+        "str": "September",
+        "forced_continuation": "September 22, 2026: February 13, 2024: March 23, 2023: February 27, 2025: September 28, 2025: March",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "September",
+        "forced_continuation": "September 22, 2026: February 13, 2024: March 23, 2023: February 27, 2025: September 28, 2025: March",
+        "recovered": true
+      }
+    },
+    {
+      "missing_entity": "June 14, 2025",
+      "first_token": {
+        "id": 28259,
+        "str": "June",
+        "forced_continuation": "June 14, 2025: September 27, 2025: March 23, 2026: September 22, 2026: November 19, 2026: December",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "June",
+        "forced_continuation": "June 14, 2025: September 27, 2025: March 23, 2026: September 22, 2026: November 19, 2026: December",
+        "recovered": true
+      }
+    }
+  ]
+}

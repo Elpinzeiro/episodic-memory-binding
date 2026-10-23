@@ -1,0 +1,13 @@
+[
+  false,
+  [
+    "content"
+  ],
+  {
+    "location": true,
+    "date": true,
+    "entity": true,
+    "content": false
+  },
+  "I'll analyze the text carefully:\n\n(1) Single geographical location: The text mentions \"Fort Tryon Park\" as the only location. → True\n\n(2) Single temporal day: The text specifies \"May 12, 1835\" as the only date. → True\n\n(3) Single main character: The text mentions \"Ryan Edwards\" but also references \"fellow actors\" as participants in the discussion. However, Ryan Edwards is clearly the main/central character. → True\n\n(4) Single main event: There are two distinct events mentioned - attending a theater performance AND discussing voice projection techniques with fellow actors. These are two separate events. → False\n\n```json\n{\n    \"1\": true,\n    \"2\": true,\n    \"3\": true,\n    \"4\": false\n}\n```"
+]

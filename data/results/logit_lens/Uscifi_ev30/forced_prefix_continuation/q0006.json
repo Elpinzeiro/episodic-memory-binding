@@ -1,0 +1,44 @@
+{
+  "question_idx": 6,
+  "question": "Consider all events involving both Henry Reed and plasma conduit rupture. Provide a list of all dates when these events occurred, without describing the events.",
+  "gt_entities": [
+    "June 14, 2225",
+    "September 03, 2226"
+  ],
+  "free_generation": "March 23, 2224; April 11, 2226; May 02, 2225;mrt 06, 2225; July 14, 2225; August 28, 2225; September 01, 2225; September 02, 2225; September 13, 2225; September 15, 2225; September 16, 2225; September 17, 2225; September 18, 2225; September 19, 2225; September 20, 2225; September 21, 2225; September 22, 2225; September 23, 2225; September 24, 2225; September 25, 2225; September 26, 2225; September 27, 2225; September 28, 2225; September 29, 2225; September 30, 2225;",
+  "missing_entities": [
+    "June 14, 2225",
+    "September 03, 2226"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "June 14, 2225",
+      "first_token": {
+        "id": 28259,
+        "str": "June",
+        "forced_continuation": "June 14, 2225; July 09, 2225; July 23, 2225; September 02, 2225; October 28, 2225; November",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "June",
+        "forced_continuation": "June 14, 2225; July 09, 2225; July 23, 2225; September 02, 2225; October 28, 2225; November",
+        "recovered": true
+      }
+    },
+    {
+      "missing_entity": "September 03, 2226",
+      "first_token": {
+        "id": 30649,
+        "str": "September",
+        "forced_continuation": "September 13, 2225; November 05, 2225; November 15, 2225; November 26, 2225; November 30, 2225; December",
+        "recovered": false
+      },
+      "first_word": {
+        "str": "September",
+        "forced_continuation": "September 13, 2225; November 05, 2225; November 15, 2225; November 26, 2225; November 30, 2225; December",
+        "recovered": false
+      }
+    }
+  ]
+}

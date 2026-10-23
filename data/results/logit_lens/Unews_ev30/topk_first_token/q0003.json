@@ -1,0 +1,75 @@
+{
+  "question_idx": 3,
+  "question": "Reflect on the experiences of Carter Stewart related to residential tower fire. List all the unique locations where these events took place, without mentioning the events themselves.",
+  "GT_entities": [
+    "Luang Prabang Province",
+    "Vermont"
+  ],
+  "ent_A": "Luang Prabang Province",
+  "ent_B": "Vermont",
+  "topk": 8,
+  "top_ids": [
+    50302,
+    43,
+    42466,
+    53,
+    99725,
+    82591,
+    57,
+    87440
+  ],
+  "top_tokens": [
+    {
+      "id": 50302,
+      "str": "Lu",
+      "prob": 0.8112439513206482
+    },
+    {
+      "id": 43,
+      "str": "L",
+      "prob": 0.08821868896484375
+    },
+    {
+      "id": 42466,
+      "str": "Greater",
+      "prob": 0.04167155921459198
+    },
+    {
+      "id": 53,
+      "str": "V",
+      "prob": 0.030014898627996445
+    },
+    {
+      "id": 99725,
+      "str": "Ru",
+      "prob": 0.010372870601713657
+    },
+    {
+      "id": 82591,
+      "str": "Arizona",
+      "prob": 0.003937097731977701
+    },
+    {
+      "id": 57,
+      "str": "Z",
+      "prob": 0.0019490047125145793
+    },
+    {
+      "id": 87440,
+      "str": " Rajasthan",
+      "prob": 0.0014259222662076354
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 50302,
+    "bare_str": "Lu",
+    "lead_id": 18866,
+    "lead_str": " Lu"
+  },
+  "first_token_B": {
+    "bare_id": 53,
+    "bare_str": "V",
+    "lead_id": 35739,
+    "lead_str": " Vermont"
+  }
+}

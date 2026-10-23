@@ -1,0 +1,29 @@
+{
+  "question_idx": 63,
+  "question": "Reflect on November 07, 2225. Describe all the key events that occurred on this date, focusing on what happened rather than who was involved or where it took place.",
+  "gt_entities": [
+    "cryo-pod integrity breach",
+    "antimatter cascade"
+  ],
+  "free_generation": "antimatter cascadeIlluminate Space Program",
+  "missing_entities": [
+    "cryo-pod integrity breach"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "cryo-pod integrity breach",
+      "first_token": {
+        "id": 62238,
+        "str": "cry",
+        "forced_continuation": "cryo-pod integrity breach; digital afterlife marketplace launched; weather control system failure caused global storm system onset; and truth pill overdose epidemic began to claim victims.",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "cryo-pod",
+        "forced_continuation": "cryo-pod integrity breach; digital afterlife marketplace launched; weather control system failure caused global storm system onset; and truth pill overdose epidemic began to claim victims.",
+        "recovered": true
+      }
+    }
+  ]
+}

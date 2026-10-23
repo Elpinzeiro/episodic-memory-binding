@@ -1,0 +1,12 @@
+{
+  "question_idx": 1,
+  "question": "Reflect on events related to plasma conduit rupture. Provide a list of all protagonists involved in these events, without describing the events.",
+  "gt_entities": [
+    "Henry Reed",
+    "Levi Rodriguez"
+  ],
+  "free_generation": "Levi Rodriguez Mila Gonzalez Henry Reed Samuel Parker Brooklyn Ross Thomas Williams Anthony Rodriguez Henry Liu Carter Stewart Scarlett Thomas James Reed Daniel Lewis Mila Gonzalez Brooklyn Ross Scarlett Thomas Carter Stewart Brooklyn Ross Scarlett Thomas Carter Stewart Scarlett Thomas Brooklyn Ross Scarlett Thomas Scarlett Thomas Scarlett Thomas Scarlett Thomas Scarlett Thomas Scarlett Thomas Scarlett Thomas Scarlett Thomas Scarlett Thomas Scarlett Thomas Scarlett Thomas Scarlett Thomas Scarlett Thomas Scarlett Thomas Scarlett Thomas Scarlett Thomas Scarlett Thomas Scarlett Thomas Scarlett Thomas Scarlett Thomas Scarlett Thomas Scarlett Thomas Scarlett Thomas Scarlett Thomas Scarlett Thomas Scarlett Thomas Scarlett Thomas Scarlett Thomas Scarlett Thomas Scarlett Thomas Scarlett Thomas Scarlett Thomas Scarlett Thomas Scarlett Thomas Scarlett Thomas Scarlett Thomas Scarlett Thomas Scarlett Thomas Scarlett Thomas Scarlett Thomas Scarlett Thomas Scarlett Thomas Scarlett Thomas Scarlett Thomas Scarlett Thomas Scarlett Thomas Scarlett Thomas Scarlett Thomas Scarlett Thomas Scarlett Thomas Scarlett Thomas Scarlett Thomas Scarlett Thomas Scarlett Thomas Scarlett Thomas Scarlett Thomas Scarlett Thomas Scarlett Thomas Scarlett Thomas Scarlett Thomas Scarlett Thomas Scarlett Thomas Scarlett Thomas Scarlett Thomas Scarlett Thomas Scarlett Thomas Scarlett Thomas Scarlett Thomas Scarlett Thomas Scarlett Thomas Scarlett Thomas Scarlett Thomas Scarlett Thomas Scarlett Thomas Scarlett Thomas Scarlett Thomas Scarlett Thomas Scarlett",
+  "missing_entities": [],
+  "is_binding_failure": false,
+  "forced_prefix_experiments": []
+}

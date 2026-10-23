@@ -1,0 +1,75 @@
+{
+  "question_idx": 63,
+  "question": "Recall all the events that occurred on November 07, 2025. Without describing the events, list all the unique locations where these events took place.",
+  "GT_entities": [
+    "High Line",
+    "American Museum of Natural History"
+  ],
+  "ent_A": "High Line",
+  "ent_B": "American Museum of Natural History",
+  "topk": 8,
+  "top_ids": [
+    12243,
+    5234,
+    92703,
+    16257,
+    91319,
+    4054,
+    23512,
+    38717
+  ],
+  "top_tokens": [
+    {
+      "id": 12243,
+      "str": "High",
+      "prob": 0.999161958694458
+    },
+    {
+      "id": 5234,
+      "str": " High",
+      "prob": 0.000141924771014601
+    },
+    {
+      "id": 92703,
+      "str": "Beth",
+      "prob": 0.00012524817429948598
+    },
+    {
+      "id": 16257,
+      "str": "Stat",
+      "prob": 0.00011765976523747668
+    },
+    {
+      "id": 91319,
+      "str": "HIGH",
+      "prob": 7.716316031292081e-05
+    },
+    {
+      "id": 4054,
+      "str": "One",
+      "prob": 5.645377314067446e-05
+    },
+    {
+      "id": 23512,
+      "str": "_high",
+      "prob": 3.424094757065177e-05
+    },
+    {
+      "id": 38717,
+      "str": " HIGH",
+      "prob": 3.117673622909933e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 12243,
+    "bare_str": "High",
+    "lead_id": 5234,
+    "lead_str": " High"
+  },
+  "first_token_B": {
+    "bare_id": 29518,
+    "bare_str": "American",
+    "lead_id": 3778,
+    "lead_str": " American"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "question_idx": 65,
+  "question": "Reflect on September 27, 2025. Describe all the key events that occurred on this date, focusing on what happened rather than who was involved or where it took place.",
+  "GT_entities": [
+    "bridge collapse",
+    "volcanic eruption"
+  ],
+  "ent_A": "bridge collapse",
+  "ent_B": "volcanic eruption",
+  "topk": 8,
+  "top_ids": [
+    12821,
+    417,
+    30458,
+    19824,
+    67164,
+    94295,
+    37461,
+    97364
+  ],
+  "top_tokens": [
+    {
+      "id": 12821,
+      "str": "vol",
+      "prob": 0.9919230341911316
+    },
+    {
+      "id": 417,
+      "str": "res",
+      "prob": 0.004665852524340153
+    },
+    {
+      "id": 30458,
+      "str": "vote",
+      "prob": 0.0010910554556176066
+    },
+    {
+      "id": 19824,
+      "str": "flash",
+      "prob": 0.0010090613504871726
+    },
+    {
+      "id": 67164,
+      "str": " volcanic",
+      "prob": 0.0005572566296905279
+    },
+    {
+      "id": 94295,
+      "str": ".vol",
+      "prob": 0.00014765829837415367
+    },
+    {
+      "id": 37461,
+      "str": "Vol",
+      "prob": 8.680384053150192e-05
+    },
+    {
+      "id": 97364,
+      "str": "magnitude",
+      "prob": 8.545807213522494e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 14024,
+    "bare_str": "bridge",
+    "lead_id": 14497,
+    "lead_str": " bridge"
+  },
+  "first_token_B": {
+    "bare_id": 12821,
+    "bare_str": "vol",
+    "lead_id": 67164,
+    "lead_str": " volcanic"
+  }
+}

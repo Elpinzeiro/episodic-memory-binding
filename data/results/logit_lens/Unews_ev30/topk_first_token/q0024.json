@@ -1,0 +1,75 @@
+{
+  "question_idx": 24,
+  "question": "Recall all the events that occurred on April 09, 2026. Without describing the events, list all the unique locations where these events took place.",
+  "GT_entities": [
+    "Sichuan Province",
+    "Rajasthan"
+  ],
+  "ent_A": "Sichuan Province",
+  "ent_B": "Rajasthan",
+  "topk": 8,
+  "top_ids": [
+    50302,
+    49,
+    42466,
+    99725,
+    77462,
+    53,
+    24115,
+    82478
+  ],
+  "top_tokens": [
+    {
+      "id": 50302,
+      "str": "Lu",
+      "prob": 0.9193785786628723
+    },
+    {
+      "id": 49,
+      "str": "R",
+      "prob": 0.072011299431324
+    },
+    {
+      "id": 42466,
+      "str": "Greater",
+      "prob": 0.0033157970756292343
+    },
+    {
+      "id": 99725,
+      "str": "Ru",
+      "prob": 0.002074972726404667
+    },
+    {
+      "id": 77462,
+      "str": "Pu",
+      "prob": 0.0010764816543087363
+    },
+    {
+      "id": 53,
+      "str": "V",
+      "prob": 0.0002721771888900548
+    },
+    {
+      "id": 24115,
+      "str": "LU",
+      "prob": 0.00022214454656932503
+    },
+    {
+      "id": 82478,
+      "str": "Hu",
+      "prob": 0.00019001029431819916
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 50,
+    "bare_str": "S",
+    "lead_id": 328,
+    "lead_str": " S"
+  },
+  "first_token_B": {
+    "bare_id": 49,
+    "bare_str": "R",
+    "lead_id": 87440,
+    "lead_str": " Rajasthan"
+  }
+}

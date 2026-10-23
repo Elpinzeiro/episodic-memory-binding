@@ -1,0 +1,75 @@
+{
+  "question_idx": 5,
+  "question": "Consider all events involving both Carter Stewart and residential tower fire. Provide a list of all dates when these events occurred, without describing the events.",
+  "GT_entities": [
+    "September 22, 2026",
+    "June 14, 2025"
+  ],
+  "ent_A": "September 22, 2026",
+  "ent_B": "June 14, 2025",
+  "topk": 8,
+  "top_ids": [
+    33877,
+    28623,
+    11356,
+    28259,
+    7552,
+    30649,
+    34827,
+    29146
+  ],
+  "top_tokens": [
+    {
+      "id": 33877,
+      "str": "February",
+      "prob": 0.9863676428794861
+    },
+    {
+      "id": 28623,
+      "str": "March",
+      "prob": 0.012224036268889904
+    },
+    {
+      "id": 11356,
+      "str": "May",
+      "prob": 0.0005628619692288339
+    },
+    {
+      "id": 28259,
+      "str": "June",
+      "prob": 0.000473977328510955
+    },
+    {
+      "id": 7552,
+      "str": " February",
+      "prob": 0.0001612626510905102
+    },
+    {
+      "id": 30649,
+      "str": "September",
+      "prob": 0.00011435234773671255
+    },
+    {
+      "id": 34827,
+      "str": "November",
+      "prob": 6.935820420039818e-05
+    },
+    {
+      "id": 29146,
+      "str": "April",
+      "prob": 8.681197869009338e-06
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 30649,
+    "bare_str": "September",
+    "lead_id": 6250,
+    "lead_str": " September"
+  },
+  "first_token_B": {
+    "bare_id": 28259,
+    "bare_str": "June",
+    "lead_id": 5651,
+    "lead_str": " June"
+  }
+}

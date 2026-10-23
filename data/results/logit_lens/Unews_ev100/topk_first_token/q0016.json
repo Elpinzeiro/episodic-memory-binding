@@ -1,0 +1,75 @@
+{
+  "question_idx": 16,
+  "question": "Consider all events involving both Julian Ross and volcanic eruption. Provide a list of all dates when these events occurred, without describing the events.",
+  "GT_entities": [
+    "March 23, 2024",
+    "September 03, 2026"
+  ],
+  "ent_A": "March 23, 2024",
+  "ent_B": "September 03, 2026",
+  "topk": 8,
+  "top_ids": [
+    30649,
+    28623,
+    6250,
+    33327,
+    28259,
+    84749,
+    31294,
+    84429
+  ],
+  "top_tokens": [
+    {
+      "id": 30649,
+      "str": "September",
+      "prob": 0.9996079802513123
+    },
+    {
+      "id": 28623,
+      "str": "March",
+      "prob": 0.0002491969498805702
+    },
+    {
+      "id": 6250,
+      "str": " September",
+      "prob": 0.00010551661398494616
+    },
+    {
+      "id": 33327,
+      "str": "January",
+      "prob": 2.0138199033681303e-05
+    },
+    {
+      "id": 28259,
+      "str": "June",
+      "prob": 6.9595753302564844e-06
+    },
+    {
+      "id": 84749,
+      "str": " september",
+      "prob": 3.6105798244534526e-06
+    },
+    {
+      "id": 31294,
+      "str": "October",
+      "prob": 3.236503061998519e-06
+    },
+    {
+      "id": 84429,
+      "str": "Nine",
+      "prob": 1.0840926734090317e-06
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 28623,
+    "bare_str": "March",
+    "lead_id": 5587,
+    "lead_str": " March"
+  },
+  "first_token_B": {
+    "bare_id": 30649,
+    "bare_str": "September",
+    "lead_id": 6250,
+    "lead_str": " September"
+  }
+}

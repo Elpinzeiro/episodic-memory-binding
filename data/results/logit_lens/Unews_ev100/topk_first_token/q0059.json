@@ -1,0 +1,75 @@
+{
+  "question_idx": 59,
+  "question": "Recall all the events that occurred on September 27, 2025. Without describing the events, list all the unique locations where these events took place.",
+  "GT_entities": [
+    "Vermont",
+    "Greater Mumbai"
+  ],
+  "ent_A": "Vermont",
+  "ent_B": "Greater Mumbai",
+  "topk": 8,
+  "top_ids": [
+    50302,
+    53,
+    76431,
+    81428,
+    43,
+    24115,
+    23376,
+    88242
+  ],
+  "top_tokens": [
+    {
+      "id": 50302,
+      "str": "Lu",
+      "prob": 0.39964646100997925
+    },
+    {
+      "id": 53,
+      "str": "V",
+      "prob": 0.29238757491111755
+    },
+    {
+      "id": 76431,
+      "str": "Fran",
+      "prob": 0.11630374938249588
+    },
+    {
+      "id": 81428,
+      "str": "Franc",
+      "prob": 0.09345269203186035
+    },
+    {
+      "id": 43,
+      "str": "L",
+      "prob": 0.05002162605524063
+    },
+    {
+      "id": 24115,
+      "str": "LU",
+      "prob": 0.011515631340444088
+    },
+    {
+      "id": 23376,
+      "str": "Fr",
+      "prob": 0.008039205335080624
+    },
+    {
+      "id": 88242,
+      "str": "Vu",
+      "prob": 0.005525260232388973
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 53,
+    "bare_str": "V",
+    "lead_id": 35739,
+    "lead_str": " Vermont"
+  },
+  "first_token_B": {
+    "bare_id": 42466,
+    "bare_str": "Greater",
+    "lead_id": 33381,
+    "lead_str": " Greater"
+  }
+}

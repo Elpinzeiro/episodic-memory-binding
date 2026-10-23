@@ -1,0 +1,75 @@
+{
+  "question_idx": 49,
+  "question": "Reflect on Scarlett Thomas's experiences at Greater Mumbai. Describe all the key events they've been involved in at this location, focusing on what happened rather than when it occurred.",
+  "GT_entities": [
+    "flash flood emergency",
+    "bridge collapse"
+  ],
+  "ent_A": "flash flood emergency",
+  "ent_B": "bridge collapse",
+  "topk": 8,
+  "top_ids": [
+    12821,
+    22348,
+    19824,
+    417,
+    94295,
+    37461,
+    97364,
+    28407
+  ],
+  "top_tokens": [
+    {
+      "id": 12821,
+      "str": "vol",
+      "prob": 0.9621070027351379
+    },
+    {
+      "id": 22348,
+      "str": "factory",
+      "prob": 0.012692365795373917
+    },
+    {
+      "id": 19824,
+      "str": "flash",
+      "prob": 0.011556530371308327
+    },
+    {
+      "id": 417,
+      "str": "res",
+      "prob": 0.011556530371308327
+    },
+    {
+      "id": 94295,
+      "str": ".vol",
+      "prob": 0.0003489769878797233
+    },
+    {
+      "id": 37461,
+      "str": "Vol",
+      "prob": 0.00027606351068243384
+    },
+    {
+      "id": 97364,
+      "str": "magnitude",
+      "prob": 0.00015009312483016402
+    },
+    {
+      "id": 28407,
+      "str": "volatile",
+      "prob": 0.0001304031757172197
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 19824,
+    "bare_str": "flash",
+    "lead_id": 8381,
+    "lead_str": " flash"
+  },
+  "first_token_B": {
+    "bare_id": 14024,
+    "bare_str": "bridge",
+    "lead_id": 14497,
+    "lead_str": " bridge"
+  }
+}

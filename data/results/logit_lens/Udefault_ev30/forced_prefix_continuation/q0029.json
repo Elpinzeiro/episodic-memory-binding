@@ -1,0 +1,44 @@
+{
+  "question_idx": 29,
+  "question": "Reflect on September 22, 2026. Describe all the key events that occurred on this date, focusing on what happened rather than who was involved or where it took place.",
+  "gt_entities": [
+    "Theater Performance",
+    "Fashion Show"
+  ],
+  "free_generation": "Educational Workshop on Quantum Entanglement. Astronomical Observations. Key Findings Revealed.",
+  "missing_entities": [
+    "Theater Performance",
+    "Fashion Show"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Theater Performance",
+      "first_token": {
+        "id": 791,
+        "str": "The",
+        "forced_continuation": "Theater Performance: Tech Run Through. Lights, sounds, and special effects were tested at High Line Theater. Educational Workshop. Key takeaways were shared about leadership and teamwork. Tech Hackathon. Innovative solutions",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Theater",
+        "forced_continuation": "Theater Performance: Tech Run Through. Lights, sounds, and special effects were tested at High Line Theater. Educational Workshop. Key takeaways were shared about leadership and teamwork. Tech Hackathon. Innovative solutions were",
+        "recovered": true
+      }
+    },
+    {
+      "missing_entity": "Fashion Show",
+      "first_token": {
+        "id": 97241,
+        "str": "Fashion",
+        "forced_continuation": "Fashion Show Debates. Tech Hackathon Launch. Were the key events on September 22, 2026.",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Fashion",
+        "forced_continuation": "Fashion Show Debates. Tech Hackathon Launch. Were the key events on September 22, 2026.",
+        "recovered": true
+      }
+    }
+  ]
+}

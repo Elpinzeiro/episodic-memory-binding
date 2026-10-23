@@ -1,0 +1,12 @@
+{
+  "question_idx": 24,
+  "question": "Recall all the events that occurred on April 09, 2026. Without describing the events, list all the unique locations where these events took place.",
+  "gt_entities": [
+    "One World Trade Center",
+    "Trinity Church"
+  ],
+  "free_generation": "High Line Elevated Park Metropolitan Museum of Art Trinity Church Battery Park Statue of Liberty Columbus Circle American Museum of Natural History Yankee Stadium One World Trade Center Brooklyn Bridge Queensboro Bridge Washington Square Park Times Square Central Park Statue of Liberty Ferry Greenwich Village High Line at the Standard Hotel Chrysler Building Trinity Church Yard Rockefeller Center Grand Central Terminal American Museum of Natural History Planetarium Show Metropolitan Museum of Art Rooftop Yankee Stadium Field Brooklyn Bridge Promenade Queensboro Bridge Walkway Times Square Theater Washington Square Fountain High Line at the High Line 23rd Street Entrance One World Trade Center Observation Deck Statue of Liberty Island Battery Park Walkway Columbus Circle Plaza Washington Square Arch Planetarium Show at Rose Center for Earth and Space High Line Entrance at 10th Avenue and 16th Street High Line Entrance at 14th Street and 9th Avenue High Line Entrance at 12th Street and Washington Street High Line Entrance at 34th Street and 12th Avenue High Line Entrance at 30th Street and 10th Avenue High",
+  "missing_entities": [],
+  "is_binding_failure": false,
+  "forced_prefix_experiments": []
+}

@@ -1,0 +1,44 @@
+{
+  "question_idx": 7,
+  "question": "Think about the events involving flash flood emergency at Luang Prabang Province. List all protagonists involved in these events, without mentioning the events themselves.",
+  "gt_entities": [
+    "Henry Reed",
+    "Levi Rodriguez"
+  ],
+  "free_generation": "Scarlett Thomas Tomas Rodriguez Emily Chen Carter Stewart Russell Lewis Henry Rose Lewis Zhang Patel Mila Gonzalez Lewis Williams Henry Ross Mila Patel Carter Gonzalez Scarlett Rodriguez Emily Stewart Tomas Ross Lewis Mila Zhang Scarlett Gonzalez Tomas Emily Rodriguez Carter Stewart Mila Patel Lewis Zhang Scarlett Gonzalez Tomas Emily Rodriguez Carter Stewart Mila Patel Lewis Zhang Scarlett Gonzalez Tomas Emily Rodriguez Carter Stewart Mila Patel Lewis Zhang Scarlett Gonzalez Tomas Emily Rodriguez Carter Stewart Mila Patel Lewis Zhang Scarlett Gonzalez Tomas Emily Rodriguez Carter Stewart Mila Patel Lewis Zhang Scarlett Gonzalez Tomas Emily Rodriguez Carter Stewart Mila Patel Lewis Zhang Scarlett Gonzalez Tomas Emily Rodriguez Carter Stewart Mila Patel Lewis Zhang Scarlett Gonzalez Tomas Emily Rodriguez Carter Stewart Mila Patel Lewis Zhang Scarlett Gonzalez Tomas Emily Rodriguez Carter Stewart Mila Patel Lewis Zhang Scarlett Gonzalez Tomas Emily Rodriguez Carter Stewart Mila Patel Lewis Zhang Scarlett Gonzalez Tomas Emily Rodriguez Carter Stewart Mila Patel Lewis Zhang Scarlett Gonzalez Tomas Emily Rodriguez Carter Stewart Mila Patel Lewis Zhang Scarlett Gonzalez Tomas Emily Rodriguez Carter Stewart Mila Patel Lewis Zhang Scarlett Gonzalez Tomas Emily Rodriguez Carter",
+  "missing_entities": [
+    "Henry Reed",
+    "Levi Rodriguez"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Henry Reed",
+      "first_token": {
+        "id": 64463,
+        "str": "Henry",
+        "forced_continuation": "Henry Reed Milner Scarlett Thomas Wilson Jr. Emily Luang Prabang Province Millicent Reed Scarlett Thomas Wilson Jr. Henry Reed Milner Scarlett Thomas Wilson Jr. Millicent Reed Scarlett Thomas Wilson",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Henry",
+        "forced_continuation": "Henry Reed Milner Scarlett Thomas Wilson Jr. Emily Luang Prabang Province Millicent Reed Scarlett Thomas Wilson Jr. Henry Reed Milner Scarlett Thomas Wilson Jr. Millicent Reed Scarlett Thomas Wilson",
+        "recovered": true
+      }
+    },
+    {
+      "missing_entity": "Levi Rodriguez",
+      "first_token": {
+        "id": 2356,
+        "str": "Le",
+        "forced_continuation": "Levi Rodriguez Mila Gonzalez Henry Brooks Samuel Parker Carter Lewis Rodriguez Scarlett Thomas Wallace Rodriguez Henry Ross Jackson Scarlett Wallace Carter Ross Scarlett Carter Scarlett Ross Scarlett Carter Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Levi",
+        "forced_continuation": "Levi Rodriguez Mila Gonzalez Henry Brooks Samuel Parker Carter Lewis Rodriguez Scarlett Thomas Wallace Rodriguez Henry Ross Jackson Scarlett Wallace Carter Ross Scarlett Carter Scarlett Ross Scarlett Carter Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett",
+        "recovered": true
+      }
+    }
+  ]
+}

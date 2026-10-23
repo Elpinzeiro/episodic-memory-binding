@@ -1,0 +1,75 @@
+{
+  "question_idx": 51,
+  "question": "Consider all events involving both Henry Reed and plasma conduit rupture at Luna Oceanus Trading Post. Provide a list of all dates when these events occurred, without describing the events.",
+  "GT_entities": [
+    "June 14, 2225",
+    "September 03, 2226"
+  ],
+  "ent_A": "June 14, 2225",
+  "ent_B": "September 03, 2226",
+  "topk": 8,
+  "top_ids": [
+    31294,
+    33327,
+    6664,
+    28259,
+    29527,
+    11356,
+    28623,
+    18544
+  ],
+  "top_tokens": [
+    {
+      "id": 31294,
+      "str": "October",
+      "prob": 0.9890899062156677
+    },
+    {
+      "id": 33327,
+      "str": "January",
+      "prob": 0.009546362794935703
+    },
+    {
+      "id": 6664,
+      "str": " October",
+      "prob": 0.0010381187312304974
+    },
+    {
+      "id": 28259,
+      "str": "June",
+      "prob": 0.0002624775224830955
+    },
+    {
+      "id": 29527,
+      "str": "July",
+      "prob": 1.9617371435742825e-05
+    },
+    {
+      "id": 11356,
+      "str": "May",
+      "prob": 1.3910800589655992e-05
+    },
+    {
+      "id": 28623,
+      "str": "March",
+      "prob": 8.306517884193454e-06
+    },
+    {
+      "id": 18544,
+      "str": "Oct",
+      "prob": 4.8831502681423444e-06
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 28259,
+    "bare_str": "June",
+    "lead_id": 5651,
+    "lead_str": " June"
+  },
+  "first_token_B": {
+    "bare_id": 30649,
+    "bare_str": "September",
+    "lead_id": 6250,
+    "lead_str": " September"
+  }
+}

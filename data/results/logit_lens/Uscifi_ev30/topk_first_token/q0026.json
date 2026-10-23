@@ -1,0 +1,75 @@
+{
+  "question_idx": 26,
+  "question": "Consider all events that happened on September 22, 2226. Provide a list of all protagonists involved in any of these events, without describing the events themselves.",
+  "GT_entities": [
+    "Carter Stewart",
+    "Henry Reed"
+  ],
+  "ent_A": "Carter Stewart",
+  "ent_B": "Henry Reed",
+  "topk": 8,
+  "top_ids": [
+    64463,
+    29185,
+    34,
+    2356,
+    44,
+    73004,
+    43,
+    96056
+  ],
+  "top_tokens": [
+    {
+      "id": 64463,
+      "str": "Henry",
+      "prob": 0.9416980743408203
+    },
+    {
+      "id": 29185,
+      "str": "Jul",
+      "prob": 0.04268871992826462
+    },
+    {
+      "id": 34,
+      "str": "C",
+      "prob": 0.012817478738725185
+    },
+    {
+      "id": 2356,
+      "str": "Le",
+      "prob": 0.0011737276799976826
+    },
+    {
+      "id": 44,
+      "str": "M",
+      "prob": 0.0005994813982397318
+    },
+    {
+      "id": 73004,
+      "str": "Leon",
+      "prob": 0.00020396326726768166
+    },
+    {
+      "id": 43,
+      "str": "L",
+      "prob": 0.00019160578085575253
+    },
+    {
+      "id": 96056,
+      "str": "Scar",
+      "prob": 0.00018571069813333452
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 34,
+    "bare_str": "C",
+    "lead_id": 25581,
+    "lead_str": " Carter"
+  },
+  "first_token_B": {
+    "bare_id": 64463,
+    "bare_str": "Henry",
+    "lead_id": 18063,
+    "lead_str": " Henry"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "question_idx": 4,
+  "question": "Consider all events involving both Henry Reed and Educational Workshop. Provide a list of all dates when these events occurred, without describing the events.",
+  "gt_entities": [
+    "June 14, 2025",
+    "September 03, 2026"
+  ],
+  "free_generation": "May 11, 2026 and February 27, 2026",
+  "missing_entities": [
+    "June 14, 2025",
+    "September 03, 2026"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "June 14, 2025",
+      "first_token": {
+        "id": 28259,
+        "str": "June",
+        "forced_continuation": "June 14, 2025    May 21, 2025    February 27, 2025    May 03, 2025    February 18, 2025    April",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "June",
+        "forced_continuation": "June 14, 2025    May 21, 2025    February 27, 2025    May 03, 2025    February 18, 2025    April",
+        "recovered": true
+      }
+    },
+    {
+      "missing_entity": "September 03, 2026",
+      "first_token": {
+        "id": 30649,
+        "str": "September",
+        "forced_continuation": "September 22, 2026 May 11, 2026 May 04, 2026",
+        "recovered": false
+      },
+      "first_word": {
+        "str": "September",
+        "forced_continuation": "September 22, 2026 May 11, 2026 May 04, 2026",
+        "recovered": false
+      }
+    }
+  ]
+}

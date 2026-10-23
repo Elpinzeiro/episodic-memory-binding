@@ -1,0 +1,75 @@
+{
+  "question_idx": 57,
+  "question": "Consider all events that happened on November 07, 2025. Provide a list of all protagonists involved in any of these events, without describing the events themselves.",
+  "GT_entities": [
+    "Henry Reed",
+    "Levi Rodriguez"
+  ],
+  "ent_A": "Henry Reed",
+  "ent_B": "Levi Rodriguez",
+  "topk": 8,
+  "top_ids": [
+    2356,
+    64463,
+    44,
+    24903,
+    73004,
+    96056,
+    47268,
+    36
+  ],
+  "top_tokens": [
+    {
+      "id": 2356,
+      "str": "Le",
+      "prob": 0.9337417483329773
+    },
+    {
+      "id": 64463,
+      "str": "Henry",
+      "prob": 0.058766674250364304
+    },
+    {
+      "id": 44,
+      "str": "M",
+      "prob": 0.004976987838745117
+    },
+    {
+      "id": 24903,
+      "str": "Sam",
+      "prob": 0.0017470872262492776
+    },
+    {
+      "id": 73004,
+      "str": "Leon",
+      "prob": 0.00034943941864185035
+    },
+    {
+      "id": 96056,
+      "str": "Scar",
+      "prob": 9.405033779330552e-05
+    },
+    {
+      "id": 47268,
+      "str": "-Le",
+      "prob": 5.275745934341103e-05
+    },
+    {
+      "id": 36,
+      "str": "E",
+      "prob": 3.301477408967912e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 64463,
+    "bare_str": "Henry",
+    "lead_id": 18063,
+    "lead_str": " Henry"
+  },
+  "first_token_B": {
+    "bare_id": 2356,
+    "bare_str": "Le",
+    "lead_id": 56141,
+    "lead_str": " Levi"
+  }
+}

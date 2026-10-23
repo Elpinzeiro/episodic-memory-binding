@@ -1,0 +1,75 @@
+{
+  "question_idx": 31,
+  "question": "Consider all events that Noah Williams has been involved in. List all the locations where these events took place, without mentioning the events themselves.",
+  "GT_entities": [
+    "American Museum of Natural History",
+    "Queensboro Bridge"
+  ],
+  "ent_A": "American Museum of Natural History",
+  "ent_B": "Queensboro Bridge",
+  "topk": 8,
+  "top_ids": [
+    26860,
+    28162,
+    2232,
+    53106,
+    5712,
+    593,
+    87708,
+    1305
+  ],
+  "top_tokens": [
+    {
+      "id": 26860,
+      "str": "Que",
+      "prob": 0.9803558588027954
+    },
+    {
+      "id": 28162,
+      "str": " Queens",
+      "prob": 0.012149532325565815
+    },
+    {
+      "id": 2232,
+      "str": "Qu",
+      "prob": 0.0029312109109014273
+    },
+    {
+      "id": 53106,
+      "str": "Queen",
+      "prob": 0.0019833564292639494
+    },
+    {
+      "id": 5712,
+      "str": "QUE",
+      "prob": 0.0014739054022356868
+    },
+    {
+      "id": 593,
+      "str": "que",
+      "prob": 0.0002561263390816748
+    },
+    {
+      "id": 87708,
+      "str": "Quarter",
+      "prob": 0.00023687815701123327
+    },
+    {
+      "id": 1305,
+      "str": "Tr",
+      "prob": 0.0001653676008572802
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 29518,
+    "bare_str": "American",
+    "lead_id": 3778,
+    "lead_str": " American"
+  },
+  "first_token_B": {
+    "bare_id": 26860,
+    "bare_str": "Que",
+    "lead_id": 28162,
+    "lead_str": " Queens"
+  }
+}

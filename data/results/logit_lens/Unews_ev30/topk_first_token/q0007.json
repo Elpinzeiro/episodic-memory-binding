@@ -1,0 +1,75 @@
+{
+  "question_idx": 7,
+  "question": "Consider all events involving both Levi Rodriguez and bridge collapse. Provide a list of all dates when these events occurred, without describing the events.",
+  "GT_entities": [
+    "November 13, 2026",
+    "May 11, 2026"
+  ],
+  "ent_A": "November 13, 2026",
+  "ent_B": "May 11, 2026",
+  "topk": 8,
+  "top_ids": [
+    30649,
+    11356,
+    34827,
+    6250,
+    28259,
+    33877,
+    84749,
+    29527
+  ],
+  "top_tokens": [
+    {
+      "id": 30649,
+      "str": "September",
+      "prob": 0.9922594428062439
+    },
+    {
+      "id": 11356,
+      "str": "May",
+      "prob": 0.004183861427009106
+    },
+    {
+      "id": 34827,
+      "str": "November",
+      "prob": 0.0026181936264038086
+    },
+    {
+      "id": 6250,
+      "str": " September",
+      "prob": 0.0005402947426773608
+    },
+    {
+      "id": 28259,
+      "str": "June",
+      "prob": 0.00019568181596696377
+    },
+    {
+      "id": 33877,
+      "str": "February",
+      "prob": 0.00018966129573527724
+    },
+    {
+      "id": 84749,
+      "str": " september",
+      "prob": 3.473768174444558e-06
+    },
+    {
+      "id": 29527,
+      "str": "July",
+      "prob": 2.6221375719615025e-06
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 34827,
+    "bare_str": "November",
+    "lead_id": 6841,
+    "lead_str": " November"
+  },
+  "first_token_B": {
+    "bare_id": 11356,
+    "bare_str": "May",
+    "lead_id": 3297,
+    "lead_str": " May"
+  }
+}

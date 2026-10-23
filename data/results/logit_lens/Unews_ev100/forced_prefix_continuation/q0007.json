@@ -1,0 +1,12 @@
+{
+  "question_idx": 7,
+  "question": "Reflect on events related to train derailment. Provide a list of all protagonists involved in these events, without describing the events.",
+  "gt_entities": [
+    "Julian Ross",
+    "Mila Gonzalez"
+  ],
+  "free_generation": "Brooklyn Ross\nLucy Carter\nMila Gonzalez\nNoah Mitchell\nEzra Lee\nLevi Rodriguez\nCameron Hayes\nJulian Ross\nScarlett Wallace\nBenjamin Green\nJackson Kelly\nHenry Reed\nLillian Mendoza\nCarter Stewart\nJulia Reed\nHenry Ross\nScarlett Brown\nJackson Brooks\nLillian Ross\nCarter Ross\nEzra Ross\nMila Ross\nNoah Ross\nLucy Ross\nBrooklyn Ross\nCarter Ross\nJulian Ross\nHenry Ross\nLillian Ross\nMila Ross\nNoah Ross\nLucy Ross\nBrooklyn Ross\nCarter Ross\nJulian Ross\nHenry Ross\nLillian Ross\nMila Ross\nNoah Ross\nLucy Ross\nBrooklyn Ross\nCarter Ross\nJulian Ross\nHenry Ross\nLillian Ross\nMila Ross\nNoah Ross\nLucy Ross\nBrooklyn Ross\nCarter Ross\nJulian Ross\n",
+  "missing_entities": [],
+  "is_binding_failure": false,
+  "forced_prefix_experiments": []
+}

@@ -1,0 +1,12 @@
+{
+  "question_idx": 4,
+  "question": "Consider all events involving Photography Exhibition. List all the locations where these events took place, without mentioning the events themselves.",
+  "gt_entities": [
+    "One World Trade Center",
+    "Statue of Liberty"
+  ],
+  "free_generation": "One World Trade Center, Metropolitan Museum of Art, American Museum of Natural History, Grote Street, Bethpage Black Course, Statue of Liberty, High Line.",
+  "missing_entities": [],
+  "is_binding_failure": false,
+  "forced_prefix_experiments": []
+}

@@ -1,0 +1,13 @@
+[
+  false,
+  [
+    "content"
+  ],
+  {
+    "location": true,
+    "date": true,
+    "entity": true,
+    "content": false
+  },
+  "Here is my analysis of the text:\n\n(1) The text takes place at \"Stony Brook Village Center\" - a single geographical location.\n(2) The text takes place on \"March 24, 1854\" - a single day.\n(3) The main character is \"Asher Patel\" - a single main character.\n(4) There are two events described: attending a performance AND discussing character motivation afterward - so not a single main event.\n\n```json\n{\n    \"1\": true,\n    \"2\": true,\n    \"3\": true,\n    \"4\": false\n}\n```"
+]

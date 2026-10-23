@@ -1,0 +1,29 @@
+{
+  "question_idx": 66,
+  "question": "Think about the events involving flash flood emergency on July 13, 2024. Provide a list of all protagonists involved in these events, without describing the events.",
+  "gt_entities": [
+    "Mila Gonzalez",
+    "Levi Rodriguez"
+  ],
+  "free_generation": "Henry Reed\nLucy Carter\nNoah Waszek\nMila Gonzalez\nLiam Rourke\nZoe Brown\nJulian Ross\nScarlett Thomas\nJackson Kelly\nLeah Lee\nEzra Edwards\nLillian Mendoza\nCarter Morrison\nJulia Martinez\nBenjamin Green\nSofia Soto\nHenry Brooks\nMaya Jensen\nEthan Wallace\nAva Moreno\nCameron Ross\nLillian Brooks\nJackson Brown\nLeah Thomas\nNoah Carter\nMila Ross\nScarlett Gonzalez\nLiam Soto\nZoe Kelly\nJulian Edwards\nEzra Thomas\nBenjamin Carter\nSofia Brooks\nHenry Jensen\nMaya Rourke\nEthan Mendoza\nAva Wallace\nCameron Moreno\nJulia Gonzalez\nLillian Soto\nJackson Edwards\nLeah Brooks\nNoah Kelly\nMila Carter\nScarlett Thomas\nLiam Brown\nZoe Ross\nJulian Gonzalez\nEz",
+  "missing_entities": [
+    "Levi Rodriguez"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Levi Rodriguez",
+      "first_token": {
+        "id": 2356,
+        "str": "Le",
+        "forced_continuation": "Levi Rodriguez Henry Reed\nJulian Ross\nMila Gonzalez\nNoah Williams\nLillian Mendoza\nCarter Dumas\nScarlett Thomas\nBrooklyn Armstrong\nEzra Fernandez\n",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Levi",
+        "forced_continuation": "Levi Rodriguez Henry Reed\nJulian Ross\nMila Gonzalez\nNoah Williams\nLillian Mendoza\nCarter Dumas\nScarlett Thomas\nBrooklyn Armstrong\nEzra Fernandez\nL",
+        "recovered": true
+      }
+    }
+  ]
+}

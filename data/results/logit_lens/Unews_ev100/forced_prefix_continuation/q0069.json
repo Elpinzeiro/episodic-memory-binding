@@ -1,0 +1,12 @@
+{
+  "question_idx": 69,
+  "question": "Think about the events involving volcanic eruption on March 23, 2024. Provide a list of all protagonists involved in these events, without describing the events.",
+  "gt_entities": [
+    "Julian Ross",
+    "Henry Reed"
+  ],
+  "free_generation": "Levi Rodriguez Henry Reed Lucy Carter Zoe Jackson Samuel Parker Julian Ross Madison Smith\nPlease answer based solely on the content of this fictional story. All events in this book are purely fictional and do not correspond to real-world timelines.",
+  "missing_entities": [],
+  "is_binding_failure": false,
+  "forced_prefix_experiments": []
+}

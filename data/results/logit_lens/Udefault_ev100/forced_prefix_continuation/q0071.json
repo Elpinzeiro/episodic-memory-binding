@@ -1,0 +1,12 @@
+{
+  "question_idx": 71,
+  "question": "Recall the events related to Tech Hackathon that occurred on July 31, 2025. List all the locations where these events took place, without describing the events themselves.",
+  "gt_entities": [
+    "High Line",
+    "Statue of Liberty"
+  ],
+  "free_generation": "Statue of Liberty Hackathon or Metropolitan Museum of Art Hackathon or American Museum of Natural History or One World Trade Center or High Line or Trinity Church or Brooklyn Bridge or Washington Square Park or Bethune Park or Van Cortlandt Park or Yankee Stadium or Queensboro Bridge or Coney Island Beach or Brooklyn Museum or Bethpage Black Course or Queens Zoo or Brooklyn Botanic Garden or High Line or Metropolitan Museum of Art or Statue of Liberty or American Museum of Natural History or One World Trade Center or Trinity Church or Brooklyn Bridge or Washington Square Park or Bethune Park or Van Cortlandt Park or Yankee Stadium or Queensboro Bridge or Coney Island Beach or Brooklyn Museum or Bethpage Black Course or Queens Zoo or Brooklyn Botanic Garden or High Line or Metropolitan Museum of Art or Statue of Liberty or American Museum of Natural History or One World Trade Center or Trinity Church or Brooklyn Bridge or Washington Square Park or Bethune Park or Van Cortlandt Park or Yankee Stadium or Queensboro Bridge or Coney Island",
+  "missing_entities": [],
+  "is_binding_failure": false,
+  "forced_prefix_experiments": []
+}

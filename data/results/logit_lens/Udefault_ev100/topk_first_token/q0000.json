@@ -1,0 +1,75 @@
+{
+  "question_idx": 0,
+  "question": "Reflect on events related to Classical Music Concert. Provide a list of all protagonists involved in these events, without describing the events.",
+  "GT_entities": [
+    "Mila Gonzalez",
+    "Julian Ross"
+  ],
+  "ent_A": "Mila Gonzalez",
+  "ent_B": "Julian Ross",
+  "topk": 8,
+  "top_ids": [
+    27368,
+    24903,
+    96056,
+    29185,
+    44,
+    34,
+    64463,
+    62382
+  ],
+  "top_tokens": [
+    {
+      "id": 27368,
+      "str": "Bro",
+      "prob": 0.45077231526374817
+    },
+    {
+      "id": 24903,
+      "str": "Sam",
+      "prob": 0.36790966987609863
+    },
+    {
+      "id": 96056,
+      "str": "Scar",
+      "prob": 0.12323429435491562
+    },
+    {
+      "id": 29185,
+      "str": "Jul",
+      "prob": 0.035863228142261505
+    },
+    {
+      "id": 44,
+      "str": "M",
+      "prob": 0.010115687735378742
+    },
+    {
+      "id": 34,
+      "str": "C",
+      "prob": 0.005854510702192783
+    },
+    {
+      "id": 64463,
+      "str": "Henry",
+      "prob": 0.0025979233905673027
+    },
+    {
+      "id": 62382,
+      "str": "Jackson",
+      "prob": 0.0019006814109161496
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 44,
+    "bare_str": "M",
+    "lead_id": 10357,
+    "lead_str": " Mil"
+  },
+  "first_token_B": {
+    "bare_id": 29185,
+    "bare_str": "Jul",
+    "lead_id": 38897,
+    "lead_str": " Julian"
+  }
+}

@@ -1,0 +1,13 @@
+[
+  false,
+  [
+    "content"
+  ],
+  {
+    "location": true,
+    "date": true,
+    "entity": true,
+    "content": false
+  },
+  "Here is my analysis of the text:\n\n(1) The text takes place at Catalina Island - a single geographical location. True\n(2) The text takes place on March 24, 1881 - a single day. True\n(3) The main character is Lars Larsen, though the production crew is mentioned as secondary characters. True\n(4) There are two events described: attending a theater performance AND discussing costume design with the production crew - these are two distinct events. False\n\n```json\n{\n    \"1\": true,\n    \"2\": true,\n    \"3\": true,\n    \"4\": false\n}\n```"
+]

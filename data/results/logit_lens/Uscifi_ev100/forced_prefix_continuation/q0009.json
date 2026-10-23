@@ -1,0 +1,12 @@
+{
+  "question_idx": 9,
+  "question": "Reflect on the experiences of Henry Reed related to antimatter cascade. List all the unique locations where these events took place, without mentioning the events themselves.",
+  "gt_entities": [
+    "Triton Gas Colony",
+    "Luna Oceanus Trading Post"
+  ],
+  "free_generation": "Triton Gas Colonyassistant\n\nLuna Oceanus Trading Post",
+  "missing_entities": [],
+  "is_binding_failure": false,
+  "forced_prefix_experiments": []
+}

@@ -1,0 +1,12 @@
+{
+  "question_idx": 36,
+  "question": "Think about the events involving Theater Performance on November 13, 2026. Provide a list of all protagonists involved in these events, without describing the events.",
+  "gt_entities": [
+    "Levi Rodriguez",
+    "Samuel Parker"
+  ],
+  "free_generation": "Henry Reed Mila Gonzalez Zoe Brown Levi Rodriguez Samuel Parker Mark Davis Lauren Edwards Tony Rossini Scarlett Thomas Michael Rossini Henry Reed II Allie Rossini James Thomas Henry Reed II's Father Henry Reed II's Mother Henry Reed II's Brother Henry Reed II's Sister Henry Reed II's Father's Wife Henry Reed II's Mother's Husband Henry Reed II's Brother's Sister's Son Henry Reed II's Sister's Son Henry Reed II's Father's Brother Henry Reed II's Mother's Sister Henry Reed II's Father's Sister Henry Reed II's Mother's Brother Henry Reed II's Father's Brother's Son Henry Reed II's Mother's Sister's Daughter Henry Reed II's Father's Sister's Son Henry Reed II's Mother's Brother's Son Henry Reed II's Father's Brother's Daughter Henry Reed II's Mother's Sister's Son Henry Reed II's Father's Sister's Daughter Henry Reed II's Mother's Brother's Daughter Henry Reed II's Father's Brother's Son Henry Reed II's Mother's Sister's Son",
+  "missing_entities": [],
+  "is_binding_failure": false,
+  "forced_prefix_experiments": []
+}

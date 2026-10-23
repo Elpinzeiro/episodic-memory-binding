@@ -1,0 +1,29 @@
+{
+  "question_idx": 59,
+  "question": "Consider all events that happened on December 26, 2226. Provide a list of all protagonists involved in any of these events, without describing the events themselves.",
+  "gt_entities": [
+    "Samuel Parker",
+    "Levi Rodriguez"
+  ],
+  "free_generation": "Levi Rodriguez Maya Smith Henry Reed Lucy Elliott Samuel Jackson Carter Wilson Ezra Edwards Vivian Bailey Lillian Miller Harrison Gray Scarlett Johnson Jackson Reyes Peter Thompson Zoe Morgan Noah Hayes Benjamin Patterson Henry Liu Ezra Long Benjamin Martin Scarlett Ross Levi Vargas Lillian Perry Carter Hall Lucy Warren Harrison Reed Maya Lewis Peter Reed Zoe Hall Noah Long Scarlett Brown Ezra Brown Benjamin Ross Levi Martin Scarlett Edwards Harrison Gray Lillian Reed Carter Brown Lucy Vargas Maya Elliott Henry Patterson Benjamin Hayes Noah Gray Scarlett Liu Ezra Martin Benjamin Brown Levi Elliott Harrison Reed Carter Gray Lucy Johnson Scarlett Brown Lillian Hayes Noah Martin Benjamin Gray Ezra Vargas Levi Long Benjamin Brown Scarlett Ross Harrison Elliott Lucy Johnson Carter Hayes Noah Gray Scarlett Brown Lillian Martin Benjamin Liu Ezra Gray Scarlett Brown Levi Brown Benjamin Elliott Harrison Reed Carter Gray Lucy Johnson Scarlett Brown Lillian Hayes Noah Martin Benjamin Gray Ezra Vargas Levi Long Benjamin Brown Scarlett Ross Harrison Elliott Lucy Johnson Carter Hayes Noah Gray Scarlett Brown Lillian Martin Benjamin Liu Ezra Gray Scarlett Brown Levi Brown Benjamin Elliott Harrison Reed Carter Gray Lucy Johnson Scarlett",
+  "missing_entities": [
+    "Samuel Parker"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Samuel Parker",
+      "first_token": {
+        "id": 24903,
+        "str": "Sam",
+        "forced_continuation": "Samuel ParkerLeaks JohnsonHenry Reed",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Samuel",
+        "forced_continuation": "Samuel ParkerLeaks JohnsonHenry Reed",
+        "recovered": true
+      }
+    }
+  ]
+}

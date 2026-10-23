@@ -1,0 +1,75 @@
+{
+  "question_idx": 42,
+  "question": "Consider all events involving Henry Reed at Greater Mumbai. Provide a list of all dates when these events occurred, without describing the events.",
+  "GT_entities": [
+    "November 07, 2025",
+    "November 13, 2026"
+  ],
+  "ent_A": "November 07, 2025",
+  "ent_B": "November 13, 2026",
+  "topk": 8,
+  "top_ids": [
+    34827,
+    28623,
+    29527,
+    33246,
+    28259,
+    33877,
+    33327,
+    31294
+  ],
+  "top_tokens": [
+    {
+      "id": 34827,
+      "str": "November",
+      "prob": 0.9371441602706909
+    },
+    {
+      "id": 28623,
+      "str": "March",
+      "prob": 0.06278474628925323
+    },
+    {
+      "id": 29527,
+      "str": "July",
+      "prob": 2.424213926133234e-05
+    },
+    {
+      "id": 33246,
+      "str": "December",
+      "prob": 1.1273641575826332e-05
+    },
+    {
+      "id": 28259,
+      "str": "June",
+      "prob": 6.945489531062776e-06
+    },
+    {
+      "id": 33877,
+      "str": "February",
+      "prob": 6.524683158204425e-06
+    },
+    {
+      "id": 33327,
+      "str": "January",
+      "prob": 5.940792107139714e-06
+    },
+    {
+      "id": 31294,
+      "str": "October",
+      "prob": 3.957420176448068e-06
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 34827,
+    "bare_str": "November",
+    "lead_id": 6841,
+    "lead_str": " November"
+  },
+  "first_token_B": {
+    "bare_id": 34827,
+    "bare_str": "November",
+    "lead_id": 6841,
+    "lead_str": " November"
+  }
+}

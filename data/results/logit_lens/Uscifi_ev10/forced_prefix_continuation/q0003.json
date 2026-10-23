@@ -1,0 +1,12 @@
+{
+  "question_idx": 3,
+  "question": "Consider all events that Henry Reed has been involved in. List all the locations where these events took place, without mentioning the events themselves.",
+  "gt_entities": [
+    "Europa Subsurface Laboratory",
+    "Luna Oceanus Trading Post"
+  ],
+  "free_generation": "Europa Subsurface Laboratory; Mars Valles Industrial Hub; Luna Oceanus Trading Post; Mercury Twilight Observatory; Venusian Surface Prospectors' Camp; Earth New York City; Mars Valles Industrial Hub; Luna Oceanus Trading Post; Mercury Twilight Observatory; Europa Subsurface Laboratory; Earth New York City; Venusian Surface Prospectors' Camp; Mercury Twilight Observatory; Luna Oceanus Trading Post; Mars Valles Industrial Hub; Europa Subsurface Laboratory; Luna Oceanus Trading Post; Mars Valles Industrial Hub; Europa Subsurface Laboratory; Mercury Twilight Observatory; Venusian Surface Prospectors' Camp; Earth New York City; Europa Subsurface Laboratory; Mars Valles Industrial Hub; Luna Oceanus Trading Post; Mercury Twilight Observatory; Venusian Surface Prospectors' Camp; Earth New York City; Europa Subsurface Laboratory; Mars Valles Industrial Hub; Luna Oceanus Trading Post; Mercury Twilight Observatory; Venusian Surface Prospectors' Camp; Earth New York City; Europa Subsurface Laboratory; Mars Valles",
+  "missing_entities": [],
+  "is_binding_failure": false,
+  "forced_prefix_experiments": []
+}

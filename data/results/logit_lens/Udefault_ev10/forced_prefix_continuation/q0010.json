@@ -1,0 +1,12 @@
+{
+  "question_idx": 10,
+  "question": "Think about the events involving Educational Workshop at Metropolitan Museum of Art. List all protagonists involved in these events, without mentioning the events themselves.",
+  "gt_entities": [
+    "Henry Reed",
+    "Levi Rodriguez"
+  ],
+  "free_generation": "Levi Rodriguez Mila Gonzalez Henry Reed Samuel Parker",
+  "missing_entities": [],
+  "is_binding_failure": false,
+  "forced_prefix_experiments": []
+}

@@ -1,0 +1,44 @@
+{
+  "question_idx": 39,
+  "question": "Think about the events involving vote counting disruption at Luang Prabang Province. List all protagonists involved in these events, without mentioning the events themselves.",
+  "gt_entities": [
+    "Scarlett Thomas",
+    "Carter Stewart"
+  ],
+  "free_generation": "Lucy Carter and Benjamin Green.",
+  "missing_entities": [
+    "Scarlett Thomas",
+    "Carter Stewart"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Scarlett Thomas",
+      "first_token": {
+        "id": 96056,
+        "str": "Scar",
+        "forced_continuation": "Scarlett Thomas and Henry Reed.",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Scarlett",
+        "forced_continuation": "Scarlett Thomas and Henry Reed.",
+        "recovered": true
+      }
+    },
+    {
+      "missing_entity": "Carter Stewart",
+      "first_token": {
+        "id": 34,
+        "str": "C",
+        "forced_continuation": "Carter Stewart. Henry Reed. Julian Ross. Benjamin Green. Lucy Carter. Jackson Hernandez. Noah Roberts. Zoe Brown. Samuel Miller. Maya Smith. Jackson Brooks. Jackson Stewart. Jackson Haynes.",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Carter",
+        "forced_continuation": "Carter Stewart. Henry Reed. Julian Ross. Benjamin Green. Lucy Carter. Jackson Hernandez. Noah Roberts. Zoe Brown. Samuel Miller. Maya Smith. Jackson Brooks. Jackson Stewart. Jackson Haynes. Jackson",
+        "recovered": true
+      }
+    }
+  ]
+}

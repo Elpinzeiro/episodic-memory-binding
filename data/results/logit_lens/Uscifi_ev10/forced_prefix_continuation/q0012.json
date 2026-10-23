@@ -1,0 +1,29 @@
+{
+  "question_idx": 12,
+  "question": "Recall all events related to plasma conduit rupture that occurred at Luna Oceanus Trading Post. Provide a list of all dates when these events took place, without describing the events.",
+  "gt_entities": [
+    "June 14, 2225",
+    "February 27, 2226"
+  ],
+  "free_generation": "February 27, 2226; August 14, 2226; September 2, 2226; September 6, 2226; September 13, 2226; September 18, 2226; September 22, 2226; September 25, 2226; September 29, 2226; October 3, 2226; October 6, 2226; October 10, 2226; October 13, 2226; October 17, 2226; October 20, 2226; October 24, 2226; October 27, 2226; November 1, 2226; November 4, 2226; November 8, 2226; November 11, 2226; November 15, 2226; November 18, 2226; November 22, 2226; November 25, 2226;",
+  "missing_entities": [
+    "June 14, 2225"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "June 14, 2225",
+      "first_token": {
+        "id": 28259,
+        "str": "June",
+        "forced_continuation": "June 14, 2225; July 19, 2225; August 2, 2225; September 17, 2225; November 21, 2225; February",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "June",
+        "forced_continuation": "June 14, 2225; July 19, 2225; August 2, 2225; September 17, 2225; November 21, 2225; February",
+        "recovered": true
+      }
+    }
+  ]
+}

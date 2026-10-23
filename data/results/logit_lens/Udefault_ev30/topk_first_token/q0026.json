@@ -1,0 +1,75 @@
+{
+  "question_idx": 26,
+  "question": "Recall all the events that occurred on September 22, 2026. Without describing the events, list all the unique locations where these events took place.",
+  "GT_entities": [
+    "American Museum of Natural History",
+    "Metropolitan Museum of Art"
+  ],
+  "ent_A": "American Museum of Natural History",
+  "ent_B": "Metropolitan Museum of Art",
+  "topk": 8,
+  "top_ids": [
+    35773,
+    4054,
+    45878,
+    29518,
+    1305,
+    4150,
+    12452,
+    45617
+  ],
+  "top_tokens": [
+    {
+      "id": 35773,
+      "str": "Met",
+      "prob": 0.9959127306938171
+    },
+    {
+      "id": 4054,
+      "str": "One",
+      "prob": 0.0013633019989356399
+    },
+    {
+      "id": 45878,
+      "str": " Metropolitan",
+      "prob": 0.001148015377111733
+    },
+    {
+      "id": 29518,
+      "str": "American",
+      "prob": 0.0008531325729563832
+    },
+    {
+      "id": 1305,
+      "str": "Tr",
+      "prob": 0.00031879235757514834
+    },
+    {
+      "id": 4150,
+      "str": "met",
+      "prob": 0.00013083212252240628
+    },
+    {
+      "id": 12452,
+      "str": "Meta",
+      "prob": 5.3693387599196285e-05
+    },
+    {
+      "id": 45617,
+      "str": "_met",
+      "prob": 3.867390114464797e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 29518,
+    "bare_str": "American",
+    "lead_id": 3778,
+    "lead_str": " American"
+  },
+  "first_token_B": {
+    "bare_id": 35773,
+    "bare_str": "Met",
+    "lead_id": 45878,
+    "lead_str": " Metropolitan"
+  }
+}

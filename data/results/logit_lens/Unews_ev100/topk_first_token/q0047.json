@@ -1,0 +1,75 @@
+{
+  "question_idx": 47,
+  "question": "Reflect on Henry Reed's experiences at Greater Mumbai. Describe all the key events they've been involved in at this location, focusing on what happened rather than when it occurred.",
+  "GT_entities": [
+    "factory explosion",
+    "volcanic eruption"
+  ],
+  "ent_A": "factory explosion",
+  "ent_B": "volcanic eruption",
+  "topk": 8,
+  "top_ids": [
+    12821,
+    19824,
+    417,
+    22348,
+    97364,
+    30458,
+    37461,
+    67838
+  ],
+  "top_tokens": [
+    {
+      "id": 12821,
+      "str": "vol",
+      "prob": 0.6750648617744446
+    },
+    {
+      "id": 19824,
+      "str": "flash",
+      "prob": 0.3090672492980957
+    },
+    {
+      "id": 417,
+      "str": "res",
+      "prob": 0.0063150376081466675
+    },
+    {
+      "id": 22348,
+      "str": "factory",
+      "prob": 0.002673955401405692
+    },
+    {
+      "id": 97364,
+      "str": "magnitude",
+      "prob": 0.0010309016797691584
+    },
+    {
+      "id": 30458,
+      "str": "vote",
+      "prob": 0.0007085276301950216
+    },
+    {
+      "id": 37461,
+      "str": "Vol",
+      "prob": 0.0006060358136892319
+    },
+    {
+      "id": 67838,
+      "str": "sink",
+      "prob": 0.0004433852736838162
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 22348,
+    "bare_str": "factory",
+    "lead_id": 8803,
+    "lead_str": " factory"
+  },
+  "first_token_B": {
+    "bare_id": 12821,
+    "bare_str": "vol",
+    "lead_id": 67164,
+    "lead_str": " volcanic"
+  }
+}

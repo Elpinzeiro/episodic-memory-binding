@@ -1,0 +1,75 @@
+{
+  "question_idx": 15,
+  "question": "Recall all the events that occurred on May 11, 2026. Without describing the events, list all the unique locations where these events took place.",
+  "GT_entities": [
+    "Washington Square Park",
+    "Metropolitan Museum of Art"
+  ],
+  "ent_A": "Washington Square Park",
+  "ent_B": "Metropolitan Museum of Art",
+  "topk": 8,
+  "top_ids": [
+    35773,
+    4054,
+    16257,
+    39231,
+    45878,
+    4150,
+    12452,
+    12243
+  ],
+  "top_tokens": [
+    {
+      "id": 35773,
+      "str": "Met",
+      "prob": 0.9120910167694092
+    },
+    {
+      "id": 4054,
+      "str": "One",
+      "prob": 0.07033290714025497
+    },
+    {
+      "id": 16257,
+      "str": "Stat",
+      "prob": 0.009370953775942326
+    },
+    {
+      "id": 39231,
+      "str": "Washington",
+      "prob": 0.006242400500923395
+    },
+    {
+      "id": 45878,
+      "str": " Metropolitan",
+      "prob": 0.0010032450081780553
+    },
+    {
+      "id": 4150,
+      "str": "met",
+      "prob": 0.00023459723161067814
+    },
+    {
+      "id": 12452,
+      "str": "Meta",
+      "prob": 0.0002102915896102786
+    },
+    {
+      "id": 12243,
+      "str": "High",
+      "prob": 0.00014453114999923855
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 39231,
+    "bare_str": "Washington",
+    "lead_id": 6652,
+    "lead_str": " Washington"
+  },
+  "first_token_B": {
+    "bare_id": 35773,
+    "bare_str": "Met",
+    "lead_id": 45878,
+    "lead_str": " Metropolitan"
+  }
+}

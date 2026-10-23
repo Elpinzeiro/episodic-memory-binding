@@ -1,0 +1,75 @@
+{
+  "question_idx": 9,
+  "question": "Reflect on the experiences of Henry Reed related to antimatter cascade. List all the unique locations where these events took place, without mentioning the events themselves.",
+  "GT_entities": [
+    "Triton Gas Colony",
+    "Luna Oceanus Trading Post"
+  ],
+  "ent_A": "Triton Gas Colony",
+  "ent_B": "Luna Oceanus Trading Post",
+  "topk": 8,
+  "top_ids": [
+    51,
+    43,
+    1305,
+    85283,
+    55218,
+    2434,
+    93555,
+    73560
+  ],
+  "top_tokens": [
+    {
+      "id": 51,
+      "str": "T",
+      "prob": 0.9217038154602051
+    },
+    {
+      "id": 43,
+      "str": "L",
+      "prob": 0.07684949785470963
+    },
+    {
+      "id": 1305,
+      "str": "Tr",
+      "prob": 0.0013430912513285875
+    },
+    {
+      "id": 85283,
+      "str": " Trit",
+      "prob": 7.11812317604199e-05
+    },
+    {
+      "id": 55218,
+      "str": "Eu",
+      "prob": 6.938629212527303e-06
+    },
+    {
+      "id": 2434,
+      "str": "TR",
+      "prob": 6.4171827034442686e-06
+    },
+    {
+      "id": 93555,
+      "str": "Tro",
+      "prob": 3.5997131817566697e-06
+    },
+    {
+      "id": 73560,
+      "str": "Trap",
+      "prob": 1.8675068531592842e-06
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 51,
+    "bare_str": "T",
+    "lead_id": 85283,
+    "lead_str": " Trit"
+  },
+  "first_token_B": {
+    "bare_id": 43,
+    "bare_str": "L",
+    "lead_id": 50905,
+    "lead_str": " Luna"
+  }
+}

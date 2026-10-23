@@ -1,0 +1,29 @@
+{
+  "question_idx": 5,
+  "question": "Consider all events involving both Levi Rodriguez and bridge collapse. Provide a list of all dates when these events occurred, without describing the events.",
+  "gt_entities": [
+    "November 13, 2026",
+    "May 11, 2026"
+  ],
+  "free_generation": "May 11, 2026 and November 16, 2026.",
+  "missing_entities": [
+    "November 13, 2026"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "November 13, 2026",
+      "first_token": {
+        "id": 34827,
+        "str": "November",
+        "forced_continuation": "November 13, 2026\nMarch 9, 2026\nFebruary 27, 2026\nFebruary 20, 2026\nFebruary 19, 2026\nFebruary",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "November",
+        "forced_continuation": "November 13, 2026\nMarch 9, 2026\nFebruary 27, 2026\nFebruary 20, 2026\nFebruary 19, 2026\nFebruary",
+        "recovered": true
+      }
+    }
+  ]
+}

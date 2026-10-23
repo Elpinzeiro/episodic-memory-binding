@@ -1,0 +1,43 @@
+{
+  "entity": "Rio Ferdinand",
+  "prompt": "List ALL teams that Rio Ferdinand played for between 2010 and 2015, including both club and national teams. Provide your answer as a JSON list like [\"a\",\"b\"]. Think about each event independently and reason before answering.",
+  "expected": [
+    "England national association football team",
+    "Manchester United F.C.",
+    "Queens Park Rangers F.C."
+  ],
+  "retry": 4,
+  "extended_reasoning_enabled": true,
+  "success": true,
+  "response": "[\"Manchester United\",\"England\",\"Queens Park Rangers\"]",
+  "model": "openai/gpt-5.4",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 117,
+    "completion_tokens": 340,
+    "total_tokens": 457
+  },
+  "reasoning_enabled": true,
+  "reasoning_details": [
+    {
+      "type": "reasoning.encrypted",
+      "data": "gAAAAABqc1uwWE_Fm3vNmEQ_bBrjLb20yiBVRcElKCadrHKujbdT0pbgcW7KcDNS1RHeexpRsY3sVLsP7zYKfarO6JICa2uKLhDJxM_5Uro3AME3ILiynZnQmyuh0Ij02hcTzTr0ZkQynKtaXIlngvycfhigsC8AbSJqI_atwD4x6u2SQRlU4ekiOvzj7ggon-LHDke0BovWMHpdbEFbW1e5OjIVFh3nFWpfoxQsYl7lEVDI5-SJIS_MTsfY2PXa8xOGUVqYe-iJMG44m2jxEPOvodU7bzLnLekEo3qELQ9qkEEY6M77uP4Rm4HfGm2AiibBcn79hSgf-C8MJ_cNpmKH6w5fetJsNt_T15dctgM0e7g-Z0U-yWCS238emBbxymi9PKXGm9RsEpqVdYzbySkcyMLacQtDYvV3fAulwLZtumGoPHB3Snn835GxgYG_xFUZrXQaMvowdzpb0sC8wLVr380HMlJBXFY1imia-2CsipxsA02WaeHtqi4jT54XYqYj5loyKwGewTt_9_6hv2MdjzQJpHoPdtF8M23Ur5wBk79I5RkYQ8WQtWt7T_s_10H_jvAZn64mVVqZFLI96eNMYGDKFqbXuufgZzAK4slQVQ9Nrcyc-gJuDq5TbPR5WTz8hLjaeJF6_Y7NYHIretzNJb7zAswHjwhnGy88lRAH8o92BcmHv1hp8VzEx5EzF0OTg9aVm7dtnpGn4XfitmIiJHBW4Vjb879e7ez9YWou402EykC4vQ3mvbGv7CBXXACxzpQJC8HXJNMjxXwwLLyGRBLKWFNb3749XCF-y9Gd1e4XbbzLoTdKsE5wHC0MUcSBLabFneYA8YtDIHzKdnRe8yy-Cla-RkqPPjkcqsFwP82_JcRg0smFsd72cFFFn7VIb5L5n7c5RF1Z00gvcD7Vyj02B8D7Rem4b1s31ZJlu1pqmdvhOOAQn_FegXkxo7Nt7hwD455KC2DBacXfIiIutIAtXXWI13XOOdVbcmtXZMOQU78fs3yZkEn5Hi9WVBNBlnDi9jlwaH2Ktg--v8v9YIJBfxNXSEbkMREsc1v-ymLshg6qLcPi8kVtGlChqyHQheKB82bU1BbXNq8r7SoSpO4GvP5zeb73bgMYHeYjjzwL4jWqnLTCXIIZL9GPERF4-Rom0M-hhjGy2_dmTrkFUMgIzB8fpZG5T-LW5zbtI23rJHNqJDyqMTFFOYW_AgTsGWyWTprecAdcdrilsfOZRxO7d8n2W9fkhXrlA6-CtlAWv02usxknvno8a6lKXPwXK1v-iCJAh639j30xCo3hnmY8sYSnbQyfvXebhHj66ABHDlsY3vacUmaR84O_uF1mVOfXf8KY3Hnslcvd-DcdcPb6_hOKIAGQImjCSOKK8XufNlw7JP4vKSavxo4v1_p50mhIXCsvlZbktXHz6c26Twid7upTlxNYXJ-PpMcwirpWReN-N7Ec_MGcxfcpk_5prusr_5Af3cYtDx2mRwxkaLPlQD-Z_LreTnN54nIxsYZwM0wEyDqjl6m7Wb-ktseX4---bblamREISSi-iDyD24hunXb4I0fmFXPy1YliY889nwp0Tq6xap7IY6ebh1xpvCAY3AwJ15VjnDTME86DVRKeaiN7QuPyzCGhAXynm4Dx880W5bNf1IHR382rAeX27uUX2rz0wDfUgAIFTSC-gyCjjmB14bq85qPkBUktbuyDx7mP8amyxoiHq-wmcL2I55E1T2pacORQO7GkCeo_0leXdqma_CdP3UD4ihLhjNkLinlCgviEdht70d-A02_SZOBp2e8X9fSWEoj9GTLckOx3AJm7IurNJZX-SGnKciyFLDQiZ2pDRwg_x_YRQopZGwyd-lED2N4IdFuCvB4VZg4VF_d5Y5-Qe4P2lwx5dfSPTUYGLF6X822xrf1K3c9K0V23buOyhDp1ffY5pLWQl3kd-2AZ0Ykzc4-MTaXMRLjgny3gqwmbEqLBEej9t_hbAQW-zcBgmFLHnysk8EBRtk-Erlhb8L0JzgF6u4H_9MphBe18RNE0vPmaR3LxE0tbwY9YdhqfTwyEyM5dqRemF1JNvkQJFVQZo0kpAMBDPG3RcUobztWfcihFGH9rYN7lgtveF_h7cD5qwwWiJ9wvnjfkDiwQIqPg5Wdu7UYzryFafIeLDkZR3NhU2MWRTCcl9xbuqkNMoSkBBmU0E2J-cST54fEPHd6SJewLb1GP1ucYd8QSeL4Utv_ARI3Z1okU9eW4CP2YzS38LJZRB-sFF2nJstckrKXqARKJG-QZIgsKeJpenW0YeoSAjp8zH1fJw57ePcByx4-ghfKcia01f54EgWDWAXHK3IVP1m8A2m8RUg5TYKgNh5z-cZ1DnOpPbZFROYpLVtBCwyBXTWNVauDF4qDi0cCcOCyU-ogymoWNpgXkBu4tiKK_AdncMmO8FmKnGbuHlLu_RAPGErer4-4EOdIQH6j5dFFSYJJkzOWalcjlpKZAhAL0cd0B0d3RToUpagLG4jtitoUisdXQfyGUtIOmBOATEyvdky6i3d3ii-wmEou_bTyu2iWA_OOKUi3AMBWOMgXnjyPnKlQWB1f6yBbXVEtBd_v0OzN2osHzYG58uXzr45tzBYVlnp7WnbiftztnmuEtMtdhf8eocpDZ923tLKKQmryOXyBfrlrAF3cQIVuHRqsDe4URDWpNxYTNLiHufO_vkLTAcrOTrRNb7vVjTvxrZ3BFkVc9VazoKS0aet4ha70iKf0yTDVGEe1fSQ2_YnX1Go8LVXDVPaBvwfukBEI-Pm04jocEc1eQKmxE8B1cwplCM4ERAzjv4NMDw4dc1XoJHB9qCwuWSzTN9sZrJGNi49roMegyEQG9FLIC40I=.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC01LjQtMjAyNjAzMDV8b3BlbmFpIn0",
+      "format": "openai-responses-v1",
+      "id": "rs_012c48f5778261b3016a735bab7ec4819cbd356fdfac254c8f",
+      "index": 0
+    }
+  ],
+  "reval_truncated": true,
+  "reval_signal": "finish_reason_length",
+  "reval_max_tokens": 8192,
+  "reval_at": "2026-08-05T15:44:29.764990+00:00",
+  "previous_response": "",
+  "previous_usage": {
+    "prompt_tokens": 117,
+    "completion_tokens": 350,
+    "total_tokens": 467
+  },
+  "previous_finish_reason": "length",
+  "previous_max_tokens_inferred": 350,
+  "timestamp": "2026-08-05T15:44:29.765029+00:00"
+}

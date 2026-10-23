@@ -1,0 +1,12 @@
+{
+  "question_idx": 23,
+  "question": "Think about Jackson Ramos's experiences. Describe all the key events they've been involved in, focusing on what happened rather than when or where it occurred.",
+  "gt_entities": [
+    "Tech Hackathon",
+    "Fashion Show"
+  ],
+  "free_generation": "Tech Hackathon at High Line. Fashion Show at Statue of Liberty. Murder Investigation at American Museum of Natural History. Hackathon at Metropolitan Museum of Art. Debate at Fire Station. Hackathon at High Line. Fashion Show at Metropolitan Museum of Art. Theater Performance at Bethpage Black Course. Murder Investigation at Statue of Liberty. Debate at One World Trade Center. Hackathon at Statue of Liberty. Theater Performance at American Museum of Natural History. Fashion Show at Bethpage Black Course. Debate at Metropolitan Museum of Art. Murder Investigation at High Line. Hackathon at One World Trade Center. Theater Performance at Statue of Liberty. Fashion Show at American Museum of Natural History. Debate at Bethpage Black Course. Murder Investigation at Metropolitan Museum of Art. Hackathon at Fire Station. Theater Performance at One World Trade Center. Fashion Show at Bethpage Black Course. Debate at Statue of Liberty. Murder Investigation at American Museum of Natural History. Jackson Ramos Speak Only Through Song. Educational Workshop at Metropolitan Museum of Art.",
+  "missing_entities": [],
+  "is_binding_failure": false,
+  "forced_prefix_experiments": []
+}

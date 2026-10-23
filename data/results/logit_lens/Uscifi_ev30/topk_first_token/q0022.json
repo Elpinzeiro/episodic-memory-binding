@@ -1,0 +1,75 @@
+{
+  "question_idx": 22,
+  "question": "Consider the location Mars Valles Industrial Hub. List all protagonists that have been involved in any events at this location, without mentioning the events themselves.",
+  "GT_entities": [
+    "Henry Reed",
+    "Brooklyn Ross"
+  ],
+  "ent_A": "Henry Reed",
+  "ent_B": "Brooklyn Ross",
+  "topk": 8,
+  "top_ids": [
+    64463,
+    24903,
+    96056,
+    44,
+    73004,
+    34,
+    49,
+    2356
+  ],
+  "top_tokens": [
+    {
+      "id": 64463,
+      "str": "Henry",
+      "prob": 0.8207165002822876
+    },
+    {
+      "id": 24903,
+      "str": "Sam",
+      "prob": 0.13608813285827637
+    },
+    {
+      "id": 96056,
+      "str": "Scar",
+      "prob": 0.0328327938914299
+    },
+    {
+      "id": 44,
+      "str": "M",
+      "prob": 0.00226948456838727
+    },
+    {
+      "id": 73004,
+      "str": "Leon",
+      "prob": 0.0017953100614249706
+    },
+    {
+      "id": 34,
+      "str": "C",
+      "prob": 0.0013765119947493076
+    },
+    {
+      "id": 49,
+      "str": "R",
+      "prob": 0.0007253708317875862
+    },
+    {
+      "id": 2356,
+      "str": "Le",
+      "prob": 0.0006921536987647414
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 64463,
+    "bare_str": "Henry",
+    "lead_id": 18063,
+    "lead_str": " Henry"
+  },
+  "first_token_B": {
+    "bare_id": 27368,
+    "bare_str": "Bro",
+    "lead_id": 26832,
+    "lead_str": " Brooklyn"
+  }
+}

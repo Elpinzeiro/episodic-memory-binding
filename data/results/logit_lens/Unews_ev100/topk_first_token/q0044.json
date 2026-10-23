@@ -1,0 +1,75 @@
+{
+  "question_idx": 44,
+  "question": "Consider all events involving Scarlett Thomas at Greater Mumbai. Provide a list of all dates when these events occurred, without describing the events.",
+  "GT_entities": [
+    "January 03, 2026",
+    "September 27, 2025"
+  ],
+  "ent_A": "January 03, 2026",
+  "ent_B": "September 27, 2025",
+  "topk": 8,
+  "top_ids": [
+    30649,
+    29146,
+    28623,
+    29527,
+    25669,
+    6250,
+    34827,
+    33327
+  ],
+  "top_tokens": [
+    {
+      "id": 30649,
+      "str": "September",
+      "prob": 0.9978880286216736
+    },
+    {
+      "id": 29146,
+      "str": "April",
+      "prob": 0.0012437625555321574
+    },
+    {
+      "id": 28623,
+      "str": "March",
+      "prob": 0.0006762219127267599
+    },
+    {
+      "id": 29527,
+      "str": "July",
+      "prob": 8.597197302151471e-05
+    },
+    {
+      "id": 25669,
+      "str": "Sept",
+      "prob": 4.46016711066477e-05
+    },
+    {
+      "id": 6250,
+      "str": " September",
+      "prob": 3.875060428981669e-05
+    },
+    {
+      "id": 34827,
+      "str": "November",
+      "prob": 5.582553967542481e-06
+    },
+    {
+      "id": 33327,
+      "str": "January",
+      "prob": 4.08428377340897e-06
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 33327,
+    "bare_str": "January",
+    "lead_id": 6186,
+    "lead_str": " January"
+  },
+  "first_token_B": {
+    "bare_id": 30649,
+    "bare_str": "September",
+    "lead_id": 6250,
+    "lead_str": " September"
+  }
+}

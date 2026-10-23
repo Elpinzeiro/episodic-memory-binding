@@ -1,0 +1,75 @@
+{
+  "question_idx": 56,
+  "question": "Recall all the events that occurred on December 26, 2226. Without describing the events, list all the unique locations where these events took place.",
+  "GT_entities": [
+    "Triton Gas Colony",
+    "Eridani Metallurgy Complex"
+  ],
+  "ent_A": "Triton Gas Colony",
+  "ent_B": "Eridani Metallurgy Complex",
+  "topk": 8,
+  "top_ids": [
+    51,
+    43,
+    1271,
+    36,
+    55218,
+    45,
+    27814,
+    51316
+  ],
+  "top_tokens": [
+    {
+      "id": 51,
+      "str": "T",
+      "prob": 0.9625906348228455
+    },
+    {
+      "id": 43,
+      "str": "L",
+      "prob": 0.03142969682812691
+    },
+    {
+      "id": 1271,
+      "str": "To",
+      "prob": 0.0036955459509044886
+    },
+    {
+      "id": 36,
+      "str": "E",
+      "prob": 0.0006322333356365561
+    },
+    {
+      "id": 55218,
+      "str": "Eu",
+      "prob": 0.0005407778662629426
+    },
+    {
+      "id": 45,
+      "str": "N",
+      "prob": 0.00037752377102151513
+    },
+    {
+      "id": 27814,
+      "str": "Mer",
+      "prob": 0.00011513823847053573
+    },
+    {
+      "id": 51316,
+      "str": "LN",
+      "prob": 8.164523751474917e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 51,
+    "bare_str": "T",
+    "lead_id": 85283,
+    "lead_str": " Trit"
+  },
+  "first_token_B": {
+    "bare_id": 36,
+    "bare_str": "E",
+    "lead_id": 469,
+    "lead_str": " E"
+  }
+}

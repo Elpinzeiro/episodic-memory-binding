@@ -1,0 +1,75 @@
+{
+  "question_idx": 14,
+  "question": "Reflect on May 11, 2026. Describe all the key events that occurred on this date, focusing on what happened rather than who was involved or where it took place.",
+  "GT_entities": [
+    "bridge collapse",
+    "residential tower fire"
+  ],
+  "ent_A": "bridge collapse",
+  "ent_B": "residential tower fire",
+  "topk": 8,
+  "top_ids": [
+    14024,
+    16621,
+    417,
+    19824,
+    12821,
+    14497,
+    1347,
+    782
+  ],
+  "top_tokens": [
+    {
+      "id": 14024,
+      "str": "bridge",
+      "prob": 0.9986377358436584
+    },
+    {
+      "id": 16621,
+      "str": "brid",
+      "prob": 0.0005523309228010476
+    },
+    {
+      "id": 417,
+      "str": "res",
+      "prob": 0.0004040939384140074
+    },
+    {
+      "id": 19824,
+      "str": "flash",
+      "prob": 0.0001793155970517546
+    },
+    {
+      "id": 12821,
+      "str": "vol",
+      "prob": 5.642415635520592e-05
+    },
+    {
+      "id": 14497,
+      "str": " bridge",
+      "prob": 5.3005591325927526e-05
+    },
+    {
+      "id": 1347,
+      "str": "br",
+      "prob": 2.141619370377157e-05
+    },
+    {
+      "id": 782,
+      "str": "pro",
+      "prob": 1.775464988895692e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 14024,
+    "bare_str": "bridge",
+    "lead_id": 14497,
+    "lead_str": " bridge"
+  },
+  "first_token_B": {
+    "bare_id": 417,
+    "bare_str": "res",
+    "lead_id": 20658,
+    "lead_str": " residential"
+  }
+}

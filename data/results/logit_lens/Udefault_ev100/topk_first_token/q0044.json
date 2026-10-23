@@ -1,0 +1,75 @@
+{
+  "question_idx": 44,
+  "question": "Reflect on Samuel Parker's experiences at High Line. Describe all the key events they've been involved in at this location, focusing on what happened rather than when it occurred.",
+  "GT_entities": [
+    "Tech Hackathon",
+    "Educational Workshop"
+  ],
+  "ent_A": "Tech Hackathon",
+  "ent_B": "Educational Workshop",
+  "topk": 8,
+  "top_ids": [
+    35197,
+    97241,
+    63507,
+    29356,
+    791,
+    17829,
+    98982,
+    63326
+  ],
+  "top_tokens": [
+    {
+      "id": 35197,
+      "str": "Tech",
+      "prob": 0.9691660404205322
+    },
+    {
+      "id": 97241,
+      "str": "Fashion",
+      "prob": 0.02542698197066784
+    },
+    {
+      "id": 63507,
+      "str": "Technology",
+      "prob": 0.004086488392204046
+    },
+    {
+      "id": 29356,
+      "str": "Techn",
+      "prob": 0.0007799199083819985
+    },
+    {
+      "id": 791,
+      "str": "The",
+      "prob": 0.0001123581241699867
+    },
+    {
+      "id": 17829,
+      "str": " Tech",
+      "prob": 8.888258889783174e-05
+    },
+    {
+      "id": 98982,
+      "str": "Educ",
+      "prob": 8.614795660832897e-05
+    },
+    {
+      "id": 63326,
+      "str": "Technical",
+      "prob": 4.9858612328534946e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 35197,
+    "bare_str": "Tech",
+    "lead_id": 17829,
+    "lead_str": " Tech"
+  },
+  "first_token_B": {
+    "bare_id": 98982,
+    "bare_str": "Educ",
+    "lead_id": 46945,
+    "lead_str": " Educational"
+  }
+}

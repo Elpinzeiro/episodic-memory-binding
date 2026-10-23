@@ -1,0 +1,75 @@
+{
+  "question_idx": 27,
+  "question": "Recall all the events that occurred on April 09, 2226. Without describing the events, list all the unique locations where these events took place.",
+  "GT_entities": [
+    "Naiad Oceanographic Center",
+    "Luna Shackleton Crater Colony"
+  ],
+  "ent_A": "Naiad Oceanographic Center",
+  "ent_B": "Luna Shackleton Crater Colony",
+  "topk": 8,
+  "top_ids": [
+    43,
+    45,
+    3438,
+    44,
+    50905,
+    51,
+    55218,
+    27814
+  ],
+  "top_tokens": [
+    {
+      "id": 43,
+      "str": "L",
+      "prob": 0.8767104148864746
+    },
+    {
+      "id": 45,
+      "str": "N",
+      "prob": 0.0596608929336071
+    },
+    {
+      "id": 3438,
+      "str": "Ph",
+      "prob": 0.05023950710892677
+    },
+    {
+      "id": 44,
+      "str": "M",
+      "prob": 0.0059072282165288925
+    },
+    {
+      "id": 50905,
+      "str": " Luna",
+      "prob": 0.002106287283822894
+    },
+    {
+      "id": 51,
+      "str": "T",
+      "prob": 0.0013813367113471031
+    },
+    {
+      "id": 55218,
+      "str": "Eu",
+      "prob": 0.0013813367113471031
+    },
+    {
+      "id": 27814,
+      "str": "Mer",
+      "prob": 0.0005494577926583588
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 45,
+    "bare_str": "N",
+    "lead_id": 452,
+    "lead_str": " N"
+  },
+  "first_token_B": {
+    "bare_id": 43,
+    "bare_str": "L",
+    "lead_id": 50905,
+    "lead_str": " Luna"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "question_idx": 20,
+  "question": "Consider all events that Maya Smith has been involved in. List all the locations where these events took place, without mentioning the events themselves.",
+  "GT_entities": [
+    "TRAPPIST-1 Colony Network",
+    "Barnard's Star Propulsion Lab"
+  ],
+  "ent_A": "TRAPPIST-1 Colony Network",
+  "ent_B": "Barnard's Star Propulsion Lab",
+  "topk": 8,
+  "top_ids": [
+    2434,
+    1305,
+    5091,
+    69904,
+    53427,
+    20865,
+    6544,
+    82875
+  ],
+  "top_tokens": [
+    {
+      "id": 2434,
+      "str": "TR",
+      "prob": 0.9608615040779114
+    },
+    {
+      "id": 1305,
+      "str": "Tr",
+      "prob": 0.03287887200713158
+    },
+    {
+      "id": 5091,
+      "str": " TR",
+      "prob": 0.003926821518689394
+    },
+    {
+      "id": 69904,
+      "str": "(TR",
+      "prob": 0.0004992393078282475
+    },
+    {
+      "id": 53427,
+      "str": "/TR",
+      "prob": 0.00034852520911954343
+    },
+    {
+      "id": 20865,
+      "str": "TRA",
+      "prob": 0.000267223542323336
+    },
+    {
+      "id": 6544,
+      "str": "_TR",
+      "prob": 0.00016985760885290802
+    },
+    {
+      "id": 82875,
+      "str": "TRS",
+      "prob": 9.83060454018414e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 2434,
+    "bare_str": "TR",
+    "lead_id": 5091,
+    "lead_str": " TR"
+  },
+  "first_token_B": {
+    "bare_id": 33,
+    "bare_str": "B",
+    "lead_id": 23229,
+    "lead_str": " Barn"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "question_idx": 21,
+  "question": "Think about all events that have occurred at Mars Valles Industrial Hub. Provide a list of all dates when these events took place, without describing the events.",
+  "gt_entities": [
+    "June 14, 2225",
+    "May 11, 2226"
+  ],
+  "free_generation": "November 13, 2226; November 17, 2226; November 22, 2226; December 03, 2226; December 06, 2226; December 20, 2226; January 09, 2227; January 15, 2227; February 21, 2227; March 11, 2227; March 15, 2227; March 22, 2227; March 28, 2227; April 02, 2227; April 05, 2227; April 14, 2227; April 20, 2227; May 02, 2227; May 06, 2227; May 11, 2227; May 17, 2227; May 23, 2227; May 28, 2227; June 02, 2227; June 04, 2227;",
+  "missing_entities": [
+    "June 14, 2225",
+    "May 11, 2226"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "June 14, 2225",
+      "first_token": {
+        "id": 28259,
+        "str": "June",
+        "forced_continuation": "June 14, 2225; July 09, 2225; July 16, 2225; July 24, 2225; September 08, 2225; October",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "June",
+        "forced_continuation": "June 14, 2225; July 09, 2225; July 16, 2225; July 24, 2225; September 08, 2225; October",
+        "recovered": true
+      }
+    },
+    {
+      "missing_entity": "May 11, 2226",
+      "first_token": {
+        "id": 11356,
+        "str": "May",
+        "forced_continuation": "May 11, 2226; May 15, 2226; May 18, 2226; May 22, 2226; June 14, 2226; July",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "May",
+        "forced_continuation": "May 11, 2226; May 15, 2226; May 18, 2226; May 22, 2226; June 14, 2226; July",
+        "recovered": true
+      }
+    }
+  ]
+}

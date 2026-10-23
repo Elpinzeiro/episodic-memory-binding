@@ -1,0 +1,12 @@
+{
+  "question_idx": 73,
+  "question": "Recall the events related to Tech Hackathon that occurred on March 23, 2024. List all the locations where these events took place, without describing the events themselves.",
+  "gt_entities": [
+    "American Museum of Natural History",
+    "Statue of Liberty"
+  ],
+  "free_generation": "High Line Hackathon Space Brake Hackathon at Metropolitan Museum of Art Brooklyn Hackathon Space Statue of Liberty Hackathon at One World Trade Center Hackathon Space Trinity Church Hackathon at Brooklyn Bridge Park Hackathon at American Museum of Natural History Hackathon at Washington Square Park Hackathon at Bethpage Black Course Hackathon at Queensboro Bridge Hackathon at Yankee Stadium Hackathon at Van Cortlandt Park Hackathon at High Line Hackathon at One World Trade Center Hackathon at Metropolitan Museum of Art Brooklyn Hackathon at Statue of Liberty Hackathon at Trinity Church Hackathon at Brooklyn Bridge Park Hackathon at American Museum of Natural History Hackathon at Washington Square Park Hackathon at Bethpage Black Course Hackathon at Queensboro Bridge Hackathon at Yankee Stadium Hackathon at Van Cortlandt Park Hackathon at High Line Hackathon at One World Trade Center Metropolitan Museum of Art Brooklyn Statue of Liberty One World Trade Center Trinity Church Brooklyn Bridge Park American Museum of Natural History Washington Square Park Bethpage Black Course Queensboro Bridge Yankee",
+  "missing_entities": [],
+  "is_binding_failure": false,
+  "forced_prefix_experiments": []
+}

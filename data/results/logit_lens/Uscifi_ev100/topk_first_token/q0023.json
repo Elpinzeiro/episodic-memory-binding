@@ -1,0 +1,75 @@
+{
+  "question_idx": 23,
+  "question": "Think about Jackson Ramos's experiences. Describe all the key events they've been involved in, focusing on what happened rather than when or where it occurred.",
+  "GT_entities": [
+    "cryo-pod integrity breach",
+    "fusion core breach"
+  ],
+  "ent_A": "cryo-pod integrity breach",
+  "ent_B": "fusion core breach",
+  "topk": 8,
+  "top_ids": [
+    62238,
+    55665,
+    2008,
+    23432,
+    519,
+    17717,
+    84247,
+    58369
+  ],
+  "top_tokens": [
+    {
+      "id": 62238,
+      "str": "cry",
+      "prob": 0.8708063364028931
+    },
+    {
+      "id": 55665,
+      "str": "fusion",
+      "prob": 0.12545154988765717
+    },
+    {
+      "id": 2008,
+      "str": "sub",
+      "prob": 0.001654989318922162
+    },
+    {
+      "id": 23432,
+      "str": "navigation",
+      "prob": 0.0005901046097278595
+    },
+    {
+      "id": 519,
+      "str": "ant",
+      "prob": 0.0002659810124896467
+    },
+    {
+      "id": 17717,
+      "str": "memory",
+      "prob": 0.0002459922106936574
+    },
+    {
+      "id": 84247,
+      "str": "citation",
+      "prob": 0.00016644663992337883
+    },
+    {
+      "id": 58369,
+      "str": "digital",
+      "prob": 8.501263073412701e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 62238,
+    "bare_str": "cry",
+    "lead_id": 16106,
+    "lead_str": " cry"
+  },
+  "first_token_B": {
+    "bare_id": 55665,
+    "bare_str": "fusion",
+    "lead_id": 37608,
+    "lead_str": " fusion"
+  }
+}

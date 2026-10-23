@@ -1,0 +1,75 @@
+{
+  "question_idx": 51,
+  "question": "Consider all events involving both Carter Stewart and Fashion Show at American Museum of Natural History. Provide a list of all dates when these events occurred, without describing the events.",
+  "GT_entities": [
+    "June 14, 2025",
+    "July 13, 2024"
+  ],
+  "ent_A": "June 14, 2025",
+  "ent_B": "July 13, 2024",
+  "topk": 8,
+  "top_ids": [
+    30649,
+    28259,
+    28623,
+    845,
+    33877,
+    32559,
+    29527,
+    1419
+  ],
+  "top_tokens": [
+    {
+      "id": 30649,
+      "str": "September",
+      "prob": 0.8907799124717712
+    },
+    {
+      "id": 28259,
+      "str": "June",
+      "prob": 0.02775309793651104
+    },
+    {
+      "id": 28623,
+      "str": "March",
+      "prob": 0.02566741779446602
+    },
+    {
+      "id": 845,
+      "str": "16",
+      "prob": 0.02300812490284443
+    },
+    {
+      "id": 33877,
+      "str": "February",
+      "prob": 0.007353838067501783
+    },
+    {
+      "id": 32559,
+      "str": "August",
+      "prob": 0.0057271746918559074
+    },
+    {
+      "id": 29527,
+      "str": "July",
+      "prob": 0.005550968460738659
+    },
+    {
+      "id": 1419,
+      "str": "23",
+      "prob": 0.004256075248122215
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 28259,
+    "bare_str": "June",
+    "lead_id": 5651,
+    "lead_str": " June"
+  },
+  "first_token_B": {
+    "bare_id": 29527,
+    "bare_str": "July",
+    "lead_id": 5887,
+    "lead_str": " July"
+  }
+}

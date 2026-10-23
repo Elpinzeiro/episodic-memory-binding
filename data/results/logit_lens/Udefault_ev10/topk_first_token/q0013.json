@@ -1,0 +1,75 @@
+{
+  "question_idx": 13,
+  "question": "Consider all events that happened on May 11, 2026. Provide a list of all protagonists involved in any of these events, without describing the events themselves.",
+  "GT_entities": [
+    "Scarlett Thomas",
+    "Levi Rodriguez"
+  ],
+  "ent_A": "Scarlett Thomas",
+  "ent_B": "Levi Rodriguez",
+  "topk": 8,
+  "top_ids": [
+    2356,
+    34,
+    24903,
+    96056,
+    73004,
+    99767,
+    39231,
+    26479
+  ],
+  "top_tokens": [
+    {
+      "id": 2356,
+      "str": "Le",
+      "prob": 0.4056864082813263
+    },
+    {
+      "id": 34,
+      "str": "C",
+      "prob": 0.3871086835861206
+    },
+    {
+      "id": 24903,
+      "str": "Sam",
+      "prob": 0.11090848594903946
+    },
+    {
+      "id": 96056,
+      "str": "Scar",
+      "prob": 0.0811423808336258
+    },
+    {
+      "id": 73004,
+      "str": "Leon",
+      "prob": 0.00193833711091429
+    },
+    {
+      "id": 99767,
+      "str": "Leo",
+      "prob": 0.00193833711091429
+    },
+    {
+      "id": 39231,
+      "str": "Washington",
+      "prob": 0.001486174645833671
+    },
+    {
+      "id": 26479,
+      "str": "Cam",
+      "prob": 0.0011574338423088193
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 96056,
+    "bare_str": "Scar",
+    "lead_id": 96572,
+    "lead_str": " Scarlett"
+  },
+  "first_token_B": {
+    "bare_id": 2356,
+    "bare_str": "Le",
+    "lead_id": 56141,
+    "lead_str": " Levi"
+  }
+}

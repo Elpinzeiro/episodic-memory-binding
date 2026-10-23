@@ -1,0 +1,75 @@
+{
+  "question_idx": 0,
+  "question": "Recall all events related to subspace antenna failure. Provide a list of all dates when these events occurred, without describing the events.",
+  "GT_entities": [
+    "April 09, 2226",
+    "November 13, 2226"
+  ],
+  "ent_A": "April 09, 2226",
+  "ent_B": "November 13, 2226",
+  "topk": 8,
+  "top_ids": [
+    28623,
+    29527,
+    30649,
+    34827,
+    29146,
+    28259,
+    60628,
+    11356
+  ],
+  "top_tokens": [
+    {
+      "id": 28623,
+      "str": "March",
+      "prob": 0.48401761054992676
+    },
+    {
+      "id": 29527,
+      "str": "July",
+      "prob": 0.3828894793987274
+    },
+    {
+      "id": 30649,
+      "str": "September",
+      "prob": 0.10969966650009155
+    },
+    {
+      "id": 34827,
+      "str": "November",
+      "prob": 0.00746515579521656
+    },
+    {
+      "id": 29146,
+      "str": "April",
+      "prob": 0.006385285872966051
+    },
+    {
+      "id": 28259,
+      "str": "June",
+      "prob": 0.0036955198738723993
+    },
+    {
+      "id": 60628,
+      "str": "Seven",
+      "prob": 0.0020408600103110075
+    },
+    {
+      "id": 11356,
+      "str": "May",
+      "prob": 0.0012378441169857979
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 29146,
+    "bare_str": "April",
+    "lead_id": 5936,
+    "lead_str": " April"
+  },
+  "first_token_B": {
+    "bare_id": 34827,
+    "bare_str": "November",
+    "lead_id": 6841,
+    "lead_str": " November"
+  }
+}

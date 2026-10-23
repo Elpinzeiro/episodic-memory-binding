@@ -1,0 +1,12 @@
+{
+  "question_idx": 57,
+  "question": "Consider all events that happened on November 07, 2025. Provide a list of all protagonists involved in any of these events, without describing the events themselves.",
+  "gt_entities": [
+    "Henry Reed",
+    "Levi Rodriguez"
+  ],
+  "free_generation": "Levi Rodriguez Henry Reed Benjamin Green Amanda Gonzalez Edward Carter Jackson Smith Henry Parker Mark Bellfelt Peter Davis Henry Ross Zoe Brown Henry Williams Henry Brooks Henry White Henry Wilson Henry Morris Henry Johnson Henry Hall Henry Ross Henry Brooks Henry Carter Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross",
+  "missing_entities": [],
+  "is_binding_failure": false,
+  "forced_prefix_experiments": []
+}

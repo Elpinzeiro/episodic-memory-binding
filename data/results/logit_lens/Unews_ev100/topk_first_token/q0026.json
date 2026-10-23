@@ -1,0 +1,75 @@
+{
+  "question_idx": 26,
+  "question": "Reflect on all events involving Noah Williams. Provide a list of all dates when these events occurred, without describing the events.",
+  "GT_entities": [
+    "November 13, 2026",
+    "September 13, 2025"
+  ],
+  "ent_A": "November 13, 2026",
+  "ent_B": "September 13, 2025",
+  "topk": 8,
+  "top_ids": [
+    30649,
+    31294,
+    29146,
+    6250,
+    34827,
+    32559,
+    29527,
+    28259
+  ],
+  "top_tokens": [
+    {
+      "id": 30649,
+      "str": "September",
+      "prob": 0.999428927898407
+    },
+    {
+      "id": 31294,
+      "str": "October",
+      "prob": 0.0003513610572554171
+    },
+    {
+      "id": 29146,
+      "str": "April",
+      "prob": 7.480908971047029e-05
+    },
+    {
+      "id": 6250,
+      "str": " September",
+      "prob": 6.398760160664096e-05
+    },
+    {
+      "id": 34827,
+      "str": "November",
+      "prob": 3.703318361658603e-05
+    },
+    {
+      "id": 32559,
+      "str": "August",
+      "prob": 2.0134591977694072e-05
+    },
+    {
+      "id": 29527,
+      "str": "July",
+      "prob": 1.3623746781377122e-05
+    },
+    {
+      "id": 28259,
+      "str": "June",
+      "prob": 6.045500867912779e-06
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 34827,
+    "bare_str": "November",
+    "lead_id": 6841,
+    "lead_str": " November"
+  },
+  "first_token_B": {
+    "bare_id": 30649,
+    "bare_str": "September",
+    "lead_id": 6250,
+    "lead_str": " September"
+  }
+}

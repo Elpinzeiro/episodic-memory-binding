@@ -1,0 +1,29 @@
+{
+  "question_idx": 14,
+  "question": "Consider all events involving both Henry Reed and fusion core breach. Provide a list of all dates when these events occurred, without describing the events.",
+  "gt_entities": [
+    "February 27, 2226",
+    "October 12, 2224"
+  ],
+  "free_generation": "February 27, 2226; March 04, 2226; Killeen Perseid 33, 2226; Pallas 11, 2226; November 13, 2226; Rostov 23, 2226; September 02, 2226; Triton 38, 2226; October 31, 2226; November 28, 2226; November 30, 2226; November 9, 2226; September 24, 2226; September 30, 2226; September 6, 2226; October 02, 2226; October 28, 2226; October 31, 2226; October 6, 2226; September 01, 2226; September 12, 2226; September 18, 2226; September 21, 2226; September 25, 2226",
+  "missing_entities": [
+    "October 12, 2224"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "October 12, 2224",
+      "first_token": {
+        "id": 31294,
+        "str": "October",
+        "forced_continuation": "October 12, 2224; October 28, 2226; November 01, 2226; November 13, 2226; November 24, 2226; November",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "October",
+        "forced_continuation": "October 12, 2224; October 28, 2226; November 01, 2226; November 13, 2226; November 24, 2226; November",
+        "recovered": true
+      }
+    }
+  ]
+}

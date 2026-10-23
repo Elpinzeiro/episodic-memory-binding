@@ -1,0 +1,75 @@
+{
+  "question_idx": 9,
+  "question": "Reflect on Levi Rodriguez's experiences at Rajasthan. Describe all the key events they've been involved in at this location, focusing on what happened rather than when it occurred.",
+  "GT_entities": [
+    "bridge collapse",
+    "volcanic eruption"
+  ],
+  "ent_A": "bridge collapse",
+  "ent_B": "volcanic eruption",
+  "topk": 8,
+  "top_ids": [
+    12821,
+    14024,
+    19824,
+    67838,
+    22348,
+    2356,
+    67164,
+    46194
+  ],
+  "top_tokens": [
+    {
+      "id": 12821,
+      "str": "vol",
+      "prob": 0.9034613370895386
+    },
+    {
+      "id": 14024,
+      "str": "bridge",
+      "prob": 0.033953212201595306
+    },
+    {
+      "id": 19824,
+      "str": "flash",
+      "prob": 0.03239838033914566
+    },
+    {
+      "id": 67838,
+      "str": "sink",
+      "prob": 0.016290927305817604
+    },
+    {
+      "id": 22348,
+      "str": "factory",
+      "prob": 0.002498294459655881
+    },
+    {
+      "id": 2356,
+      "str": "Le",
+      "prob": 0.0009190712007693946
+    },
+    {
+      "id": 67164,
+      "str": " volcanic",
+      "prob": 0.000811077537946403
+    },
+    {
+      "id": 46194,
+      "str": "Sink",
+      "prob": 0.0007985029369592667
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 14024,
+    "bare_str": "bridge",
+    "lead_id": 14497,
+    "lead_str": " bridge"
+  },
+  "first_token_B": {
+    "bare_id": 12821,
+    "bare_str": "vol",
+    "lead_id": 67164,
+    "lead_str": " volcanic"
+  }
+}

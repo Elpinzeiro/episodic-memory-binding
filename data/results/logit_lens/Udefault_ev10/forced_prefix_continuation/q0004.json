@@ -1,0 +1,29 @@
+{
+  "question_idx": 4,
+  "question": "Think about Henry Reed's experiences. Describe all the key events they've been involved in, focusing on what happened rather than when or where it occurred.",
+  "gt_entities": [
+    "Fashion Show",
+    "Educational Workshop"
+  ],
+  "free_generation": "Fashion Show at Metropolitan Museum of Art and Stock Market Crash at New York Stock Exchange.",
+  "missing_entities": [
+    "Educational Workshop"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Educational Workshop",
+      "first_token": {
+        "id": 98982,
+        "str": "Educ",
+        "forced_continuation": "Educational Workshop at Metropolitan Museum of Art\nFashion Show at Parsons School of Design\nStock Market Forecast Announcement\nStreet Encounter with Fellow Citizen Journalist\nExclusive Interview with Tech Entrepreneur\nLate-Night Reflection at",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Educational",
+        "forced_continuation": "Educational Workshop at Metropolitan Museum of Art\nFashion Show at Parsons School of Design\nStock Market Forecast Announcement\nStreet Encounter with Fellow Citizen Journalist\nExclusive Interview with Tech Entrepreneur\nLate-Night Reflection at Washington",
+        "recovered": true
+      }
+    }
+  ]
+}

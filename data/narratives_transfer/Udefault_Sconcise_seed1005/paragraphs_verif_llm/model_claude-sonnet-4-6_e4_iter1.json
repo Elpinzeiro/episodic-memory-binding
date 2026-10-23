@@ -1,0 +1,11 @@
+[
+  true,
+  [],
+  {
+    "location": true,
+    "date": true,
+    "entity": true,
+    "content": true
+  },
+  "Here is my analysis of the text:\n\n(1) The text takes place at the Flatiron Building, which is a single geographical location with a specific longitude and latitude.\n(2) The text takes place on February 27, 1817, which is a single temporal day.\n(3) The main character is Ella Lewis, making it a single main character.\n(4) The main event is attending a fashion show, with discussing fashion week preparation being a sub-event of that same day and location.\n\n```json\n{\n    \"1\": true,\n    \"2\": true,\n    \"3\": true,\n    \"4\": true\n}\n```"
+]

@@ -1,0 +1,12 @@
+{
+  "question_idx": 33,
+  "question": "Recall the events related to volcanic eruption that occurred on February 27, 2026. List all the locations where these events took place, without describing the events themselves.",
+  "gt_entities": [
+    "Greater Mumbai",
+    "Buenos Aires Province"
+  ],
+  "free_generation": "Luzon Region Lombok Province North Dakota Province Sichuan Province Vermont Province Rajasthan Province New South Wales Province Buenos Aires Province South Dakota Province North Carolina Province Greater Mumbai Province Vermont Province Buenos Aires Province North Dakota Province Sichuan Province Luzon Region Lombok Province North Carolina Province Greater Mumbai Province New South Wales Province Rajasthan Province Buenos Aires Province South Dakota Province Vermont Province North Dakota Province Sichuan Province Luzon Region Lombok Province North Carolina Province Greater Mumbai Province New South Wales Province Rajasthan Province Buenos Aires Province South Dakota Province Vermont Province North Dakota Province Sichuan Province Luzon Region Lombok Province North Carolina Province Greater Mumbai Province New South Wales Province Rajasthan Province Buenos Aires Province South Dakota Province Vermont Province North Dakota Province Sichuan Province Luzon Region Lombok Province North Carolina Province Greater Mumbai Province New South Wales Province Rajasthan Province Buenos Aires Province South Dakota Province Vermont Province North Dakota Province Sichuan Province Luzon Region Lombok Province North Carolina Province Greater Mumbai Province New South Wales Province Rajasthan Province Buenos Aires Province South",
+  "missing_entities": [],
+  "is_binding_failure": false,
+  "forced_prefix_experiments": []
+}

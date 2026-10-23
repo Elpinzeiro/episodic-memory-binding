@@ -1,0 +1,29 @@
+{
+  "question_idx": 66,
+  "question": "Think about the events involving Tech Hackathon on July 31, 2025. Provide a list of all protagonists involved in these events, without describing the events.",
+  "gt_entities": [
+    "Henry Reed",
+    "Lucy Carter"
+  ],
+  "free_generation": "Levi Rodriguez Jackson Ramos Henry Reed Benjamin Ross Henry Parker Henry White Benjamin Brooks Henry Williams Jackson Brooks Henry Ross Henry Brown Henry Davis Henry Peterson Henry Hall Henry Wilson Henry Morgan Henry Armstrong Henry Saunders Henry Ross Henry Brooks Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry Ross Henry",
+  "missing_entities": [
+    "Lucy Carter"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Lucy Carter",
+      "first_token": {
+        "id": 41745,
+        "str": "Luc",
+        "forced_continuation": "Lucy Carter; Henry Reed; Levi Rodriguez; Noah Douglas; Zoe Brown; Benjamin Green; Julian Lee; Scarlett Thomas; Mila Gonzalez; Lillian Brooks; Carter Patterson; Henry Ross; Levi Smith",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Lucy",
+        "forced_continuation": "Lucy Carter; Henry Reed; Levi Rodriguez; Noah Douglas; Zoe Brown; Benjamin Green; Julian Ross; Carter Allen; Julian Lee; Levi Parker; Noah Ross; Zoe White; Benjamin Brown; Henry Smith",
+        "recovered": true
+      }
+    }
+  ]
+}

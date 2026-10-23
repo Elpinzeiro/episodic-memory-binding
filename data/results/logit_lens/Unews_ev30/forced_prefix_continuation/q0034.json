@@ -1,0 +1,44 @@
+{
+  "question_idx": 34,
+  "question": "Recall the events related to residential tower fire that occurred on June 14, 2025. List all the locations where these events took place, without describing the events themselves.",
+  "gt_entities": [
+    "Vermont",
+    "North Dakota"
+  ],
+  "free_generation": "Luzon Region Lleida Province Sardinia Region Madrid Province Valencia Province Zaragoza Province Castile and León Region Galicia Region Catalonia Region Murcia Region Andalusia Region Basque Country Province of Asturias Extremadura Region La Rioja Region Canary Islands Region Aragon Region Balearic Islands Region Navarre Region Castile-La Mancha Region Valencia Province Galicia Province Murcia Province Andalusia Province Basque Country Province of Asturias Extremadura Province La Rioja Province Canary Islands Province of Asturias Aragon Province Balearic Islands Province of Asturias Navarre Province Castile-La Mancha Province Valencia Province Galicia Province Murcia Province Andalusia Province Basque Country Province of Asturias Extremadura Province La Rioja Province Canary Islands Province of Asturias Aragon Province Balearic Islands Province of Asturias Navarre Province Castile-La Mancha Province Valencia Province Galicia Province Murcia Province",
+  "missing_entities": [
+    "Vermont",
+    "North Dakota"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Vermont",
+      "first_token": {
+        "id": 53,
+        "str": "V",
+        "forced_continuation": "Vermont Province, Luang Prabang Province, Sichuan Province, Buenos Aires Province.",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Vermont",
+        "forced_continuation": "Vermont Province, Luang Prabang Province, Sichuan Province, Buenos Aires Province.",
+        "recovered": true
+      }
+    },
+    {
+      "missing_entity": "North Dakota",
+      "first_token": {
+        "id": 26287,
+        "str": "North",
+        "forced_continuation": "North Arizona.bridge Arizona road Rajasthan India Luzon Region bridge Rajasthan.",
+        "recovered": false
+      },
+      "first_word": {
+        "str": "North",
+        "forced_continuation": "North Arizona.bridge Arizona road Rajasthan India Luzon Region bridge Rajasthan.",
+        "recovered": false
+      }
+    }
+  ]
+}

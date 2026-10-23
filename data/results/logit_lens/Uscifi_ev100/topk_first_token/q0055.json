@@ -1,0 +1,75 @@
+{
+  "question_idx": 55,
+  "question": "Consider all events involving both Carter Stewart and fusion core breach at Triton Gas Colony. Provide a list of all dates when these events occurred, without describing the events.",
+  "GT_entities": [
+    "June 14, 2225",
+    "July 13, 2224"
+  ],
+  "ent_A": "June 14, 2225",
+  "ent_B": "July 13, 2224",
+  "topk": 8,
+  "top_ids": [
+    30649,
+    6250,
+    84749,
+    25669,
+    31294,
+    34827,
+    42214,
+    29527
+  ],
+  "top_tokens": [
+    {
+      "id": 30649,
+      "str": "September",
+      "prob": 0.9999918937683105
+    },
+    {
+      "id": 6250,
+      "str": " September",
+      "prob": 3.905467110598693e-06
+    },
+    {
+      "id": 84749,
+      "str": " september",
+      "prob": 1.8448121181791066e-06
+    },
+    {
+      "id": 25669,
+      "str": "Sept",
+      "prob": 1.1726339153028675e-06
+    },
+    {
+      "id": 31294,
+      "str": "October",
+      "prob": 7.338155683100922e-07
+    },
+    {
+      "id": 34827,
+      "str": "November",
+      "prob": 9.184778804183225e-08
+    },
+    {
+      "id": 42214,
+      "str": "Sep",
+      "prob": 5.930138868848189e-08
+    },
+    {
+      "id": 29527,
+      "str": "July",
+      "prob": 4.916257978493377e-08
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 28259,
+    "bare_str": "June",
+    "lead_id": 5651,
+    "lead_str": " June"
+  },
+  "first_token_B": {
+    "bare_id": 29527,
+    "bare_str": "July",
+    "lead_id": 5887,
+    "lead_str": " July"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "question_idx": 62,
+  "question": "Reflect on December 26, 2226. Describe all the key events that occurred on this date, focusing on what happened rather than who was involved or where it took place.",
+  "gt_entities": [
+    "cryo-pod integrity breach",
+    "memory patent warfare"
+  ],
+  "free_generation": "memory patent warfare erupted; Triton Gas Colony malfunctioned; and anguilliform surveillance drone deployments were authorized on December 26, 2226.",
+  "missing_entities": [
+    "cryo-pod integrity breach"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "cryo-pod integrity breach",
+      "first_token": {
+        "id": 62238,
+        "str": "cry",
+        "forced_continuation": "cryo-pod integrity breach and facility evacuation protocol activated; antimatter cascade at Luna Shackleton Crater Colony Complex; both events occurred on December 26, 2226.",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "cryo-pod",
+        "forced_continuation": "cryo-pod integrity breach and facility evacuation protocol activated; antimatter cascade at Luna Shackleton Crater Colony Complex; both events occurred on December 26, 2226.",
+        "recovered": true
+      }
+    }
+  ]
+}

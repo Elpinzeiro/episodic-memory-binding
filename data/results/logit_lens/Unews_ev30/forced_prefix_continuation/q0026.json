@@ -1,0 +1,29 @@
+{
+  "question_idx": 26,
+  "question": "Recall all the events that occurred on September 22, 2026. Without describing the events, list all the unique locations where these events took place.",
+  "gt_entities": [
+    "Luang Prabang Province",
+    "Vermont"
+  ],
+  "free_generation": "Luang Prabang Province North Dakota Rajasthan Province New Mexico Province Luang Prabang Province Province of Sisaket Province of Luang Prabang Province of Sakon Nakhon Province of Udon Thani Province of Nakhon Phanom Province of Bueng Kan Province of Nong Bua Lamphu Province of Uthai Thani Province of Chaiyaphum Province of Roi Et Province of Kalasin Province of Maha Sarakham Province of Khon Kaen Province of Nakhon Ratchasima Province of Surin Province of Buriram Province of Buri Ram Province of Ubon Ratchathani Province of Sisaket Province of Amnat Charoen Province of Trang Province of Songkhla Province of Satun Province of Yala Province of Narathiwat Province of Pattani Province of Yasothon Province of Roi Et Province of Mukdahan Province of Sakon Nakhon Province of Bueng Kan Province of Nong",
+  "missing_entities": [
+    "Vermont"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Vermont",
+      "first_token": {
+        "id": 53,
+        "str": "V",
+        "forced_continuation": "Vermont Residential Compound, Luang Prabang Province.",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Vermont",
+        "forced_continuation": "Vermont Residential Compound, Luang Prabang Province.",
+        "recovered": true
+      }
+    }
+  ]
+}

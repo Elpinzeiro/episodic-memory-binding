@@ -1,0 +1,29 @@
+{
+  "question_idx": 2,
+  "question": "Reflect on events related to vacuum seal deterioration. Provide a list of all protagonists involved in these events, without describing the events.",
+  "gt_entities": [
+    "Mila Gonzalez",
+    "Levi Rodriguez"
+  ],
+  "free_generation": "Mila Gonzalezsystem\n\nYou are an expert in memory tests regarding the fictional book \"Synaptic Echoes 2026: The Neuro-Temporal Paradox of Episodic Precognition\".",
+  "missing_entities": [
+    "Levi Rodriguez"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Levi Rodriguez",
+      "first_token": {
+        "id": 2356,
+        "str": "Le",
+        "forced_continuation": "Levi Rodriguez Mila Gonzalez Scarlet Thomas Benjamin Rodriguez Lucy Carter Lillian Mayard Henry Ruiz Samuel Jackson James Barnard Julian Ross Henry Reed Peter Thompson Carter Stewart Noah Dominguez Evelyn Parker Zoe Brown Ezra Hall Matthew",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Levi",
+        "forced_continuation": "Levi Rodriguez Mila Gonzalez Scarlet Thomas Benjamin Rodriguez Lucy Carter Lillian Mayard Henry Ruiz Samuel Jackson James Barnard Julian Ross Henry Reed Peter Thompson Carter Stewart Noah Dominguez Evelyn Parker Zoe Brown Ezra Hall Matthew Lewis",
+        "recovered": true
+      }
+    }
+  ]
+}

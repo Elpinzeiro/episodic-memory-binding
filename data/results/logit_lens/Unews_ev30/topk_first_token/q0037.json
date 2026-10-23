@@ -1,0 +1,75 @@
+{
+  "question_idx": 37,
+  "question": "Think about the events involving volcanic eruption on February 27, 2026. Provide a list of all protagonists involved in these events, without describing the events.",
+  "GT_entities": [
+    "Samuel Parker",
+    "Ezra Edwards"
+  ],
+  "ent_A": "Samuel Parker",
+  "ent_B": "Ezra Edwards",
+  "topk": 8,
+  "top_ids": [
+    64463,
+    2356,
+    29185,
+    73004,
+    44,
+    24903,
+    18063,
+    62382
+  ],
+  "top_tokens": [
+    {
+      "id": 64463,
+      "str": "Henry",
+      "prob": 0.908618152141571
+    },
+    {
+      "id": 2356,
+      "str": "Le",
+      "prob": 0.08191440999507904
+    },
+    {
+      "id": 29185,
+      "str": "Jul",
+      "prob": 0.005075499415397644
+    },
+    {
+      "id": 73004,
+      "str": "Leon",
+      "prob": 0.0017816679319366813
+    },
+    {
+      "id": 44,
+      "str": "M",
+      "prob": 0.0013875642325729132
+    },
+    {
+      "id": 24903,
+      "str": "Sam",
+      "prob": 0.0003000817960128188
+    },
+    {
+      "id": 18063,
+      "str": " Henry",
+      "prob": 0.00012509271618910134
+    },
+    {
+      "id": 62382,
+      "str": "Jackson",
+      "prob": 0.00011751373676816002
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 24903,
+    "bare_str": "Sam",
+    "lead_id": 33007,
+    "lead_str": " Samuel"
+  },
+  "first_token_B": {
+    "bare_id": 36,
+    "bare_str": "E",
+    "lead_id": 85418,
+    "lead_str": " Ezra"
+  }
+}

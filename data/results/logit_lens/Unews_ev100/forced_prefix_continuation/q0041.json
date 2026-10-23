@@ -1,0 +1,29 @@
+{
+  "question_idx": 41,
+  "question": "Think about the events involving residential tower fire at Luzon Region. List all protagonists involved in these events, without mentioning the events themselves.",
+  "gt_entities": [
+    "Scarlett Thomas",
+    "Henry Reed"
+  ],
+  "free_generation": "Mila Gonzalez and Henry Reed.",
+  "missing_entities": [
+    "Scarlett Thomas"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Scarlett Thomas",
+      "first_token": {
+        "id": 96056,
+        "str": "Scar",
+        "forced_continuation": "Scarlett Thomas. Henry Reed. Lucy Carter. Noah wasvis. Benjamin Green. Madison Parker. Levi Rodriguez. Zoe Brown. Lillian Mendoza. Julian Ross. Jackson Kim. Carter Murray. Brooklyn",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Scarlett",
+        "forced_continuation": "Scarlett Thomas. Henry Reed. Lucy Carter. Noah wasvis. Benjamin Green. Madison Parker. Levi Rodriguez. Zoe Brown. Lillian Mendoza. Julian Ross. Jackson Kim. Carter Murray. Brooklyn Lee",
+        "recovered": true
+      }
+    }
+  ]
+}

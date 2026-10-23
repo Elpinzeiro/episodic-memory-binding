@@ -1,0 +1,44 @@
+{
+  "question_idx": 54,
+  "question": "Consider all events involving both Henry Reed and volcanic eruption at North Dakota. Provide a list of all dates when these events occurred, without describing the events.",
+  "gt_entities": [
+    "July 31, 2025",
+    "May 11, 2026"
+  ],
+  "free_generation": "February 27, 2026, March 03, 2026.",
+  "missing_entities": [
+    "July 31, 2025",
+    "May 11, 2026"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "July 31, 2025",
+      "first_token": {
+        "id": 29527,
+        "str": "July",
+        "forced_continuation": "July 31, 2025\nAugust 27, 2025\nSeptember 03, 2026\nSeptember 22, 2026\nOctober 14, 2026\nNovember",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "July",
+        "forced_continuation": "July 31, 2025\nAugust 27, 2025\nSeptember 03, 2026\nSeptember 22, 2026\nOctober 14, 2026\nNovember",
+        "recovered": true
+      }
+    },
+    {
+      "missing_entity": "May 11, 2026",
+      "first_token": {
+        "id": 11356,
+        "str": "May",
+        "forced_continuation": "May 28, 2025.",
+        "recovered": false
+      },
+      "first_word": {
+        "str": "May",
+        "forced_continuation": "May 28, 2025.",
+        "recovered": false
+      }
+    }
+  ]
+}

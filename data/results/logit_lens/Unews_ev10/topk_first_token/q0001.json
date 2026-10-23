@@ -1,0 +1,75 @@
+{
+  "question_idx": 1,
+  "question": "Reflect on events related to flash flood emergency. Provide a list of all protagonists involved in these events, without describing the events.",
+  "GT_entities": [
+    "Henry Reed",
+    "Levi Rodriguez"
+  ],
+  "ent_A": "Henry Reed",
+  "ent_B": "Levi Rodriguez",
+  "topk": 8,
+  "top_ids": [
+    24903,
+    2356,
+    64463,
+    44,
+    27368,
+    33007,
+    96056,
+    100172
+  ],
+  "top_tokens": [
+    {
+      "id": 24903,
+      "str": "Sam",
+      "prob": 0.5887181758880615
+    },
+    {
+      "id": 2356,
+      "str": "Le",
+      "prob": 0.2960260808467865
+    },
+    {
+      "id": 64463,
+      "str": "Henry",
+      "prob": 0.05144161731004715
+    },
+    {
+      "id": 44,
+      "str": "M",
+      "prob": 0.04264660179615021
+    },
+    {
+      "id": 27368,
+      "str": "Bro",
+      "prob": 0.004494918510317802
+    },
+    {
+      "id": 33007,
+      "str": " Samuel",
+      "prob": 0.0029478396754711866
+    },
+    {
+      "id": 96056,
+      "str": "Scar",
+      "prob": 0.002482329960912466
+    },
+    {
+      "id": 100172,
+      "str": "Lewis",
+      "prob": 0.002190648578107357
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 64463,
+    "bare_str": "Henry",
+    "lead_id": 18063,
+    "lead_str": " Henry"
+  },
+  "first_token_B": {
+    "bare_id": 2356,
+    "bare_str": "Le",
+    "lead_id": 56141,
+    "lead_str": " Levi"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "question_idx": 21,
+  "question": "Reflect on all events involving Noah Williams. Provide a list of all dates when these events occurred, without describing the events.",
+  "gt_entities": [
+    "November 13, 2026",
+    "September 13, 2025"
+  ],
+  "free_generation": "November 13, 2026, October 30, 2026, November 27, 2026, November 24, 2026, October 25, 2026, November 20, 2026, November 05, 2026, October 22, 2026, November 11, 2026, November 10, 2026, October 29, 2026, November 09, 2026, November 03, 2026, October 31, 2026, November 26, 2026, November 14, 2026, November 08, 2026, November 01, 2026, October 28, 2026, November 17, 2026, November 04, 2026, November 16, 2026, October 27, 2026, November 23, 2026, November 15, 2026,",
+  "missing_entities": [
+    "September 13, 2025"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "September 13, 2025",
+      "first_token": {
+        "id": 30649,
+        "str": "September",
+        "forced_continuation": "September 13, 2025, September 22, 2026",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "September",
+        "forced_continuation": "September 13, 2025, September 22, 2026",
+        "recovered": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+[
+  false,
+  [
+    "content"
+  ],
+  {
+    "location": true,
+    "date": true,
+    "entity": true,
+    "content": false
+  },
+  "Here is my analysis of the text:\n\n(1) The text takes place at \"Area 51 Alien Center\" — a single location.\n(2) The text takes place on \"May 11, 1898\" — a single day.\n(3) The main character is \"Sora Yamamoto,\" though organizers are briefly mentioned, Sora is the clear single main character.\n(4) While the main event is the fashion show, there is also a secondary interaction (discussing music selection with organizers), meaning there are two distinct events happening.\n\n```json\n{\n    \"1\": true,\n    \"2\": true,\n    \"3\": true,\n    \"4\": false\n}\n```"
+]

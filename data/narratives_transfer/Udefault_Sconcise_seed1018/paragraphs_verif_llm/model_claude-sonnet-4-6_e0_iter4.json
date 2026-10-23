@@ -1,0 +1,13 @@
+[
+  false,
+  [
+    "content"
+  ],
+  {
+    "location": true,
+    "date": true,
+    "entity": true,
+    "content": false
+  },
+  "Here is my analysis of the text:\n\n(1) The text takes place at Stony Brook Village Center - a single geographical location. True\n\n(2) The text takes place on March 24, 1854 - a single day. True\n\n(3) The main character appears to be Asher Patel, who is the focus of both actions described. However, \"fellow theatergoers\" are also mentioned as participants, though they are secondary. Asher Patel is the single main character. True\n\n(4) There are two distinct events: (1) attending a performance, and (2) discussing character motivation with fellow theatergoers afterward. These are two separate events, not a single main event. False\n\n```json\n{\n    \"1\": true,\n    \"2\": true,\n    \"3\": true,\n    \"4\": false\n}\n```"
+]

@@ -1,0 +1,75 @@
+{
+  "question_idx": 10,
+  "question": "Reflect on the experiences of Henry Reed related to residential tower fire. List all the unique locations where these events took place, without mentioning the events themselves.",
+  "GT_entities": [
+    "Luzon Region",
+    "Luang Prabang Province"
+  ],
+  "ent_A": "Luzon Region",
+  "ent_B": "Luang Prabang Province",
+  "topk": 8,
+  "top_ids": [
+    50,
+    50302,
+    42466,
+    82389,
+    26287,
+    34139,
+    53,
+    43
+  ],
+  "top_tokens": [
+    {
+      "id": 50,
+      "str": "S",
+      "prob": 0.9950173497200012
+    },
+    {
+      "id": 50302,
+      "str": "Lu",
+      "prob": 0.002975048031657934
+    },
+    {
+      "id": 42466,
+      "str": "Greater",
+      "prob": 0.0013201695401221514
+    },
+    {
+      "id": 82389,
+      "str": "Lake",
+      "prob": 0.00018433696823194623
+    },
+    {
+      "id": 26287,
+      "str": "North",
+      "prob": 0.0001266928156837821
+    },
+    {
+      "id": 34139,
+      "str": "Song",
+      "prob": 7.684307638555765e-05
+    },
+    {
+      "id": 53,
+      "str": "V",
+      "prob": 6.781378033338115e-05
+    },
+    {
+      "id": 43,
+      "str": "L",
+      "prob": 3.304979327367619e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 43,
+    "bare_str": "L",
+    "lead_id": 82739,
+    "lead_str": " Luz"
+  },
+  "first_token_B": {
+    "bare_id": 50302,
+    "bare_str": "Lu",
+    "lead_id": 18866,
+    "lead_str": " Lu"
+  }
+}

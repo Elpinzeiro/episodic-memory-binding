@@ -1,0 +1,44 @@
+{
+  "question_idx": 4,
+  "question": "Consider all events involving train derailment. List all the locations where these events took place, without mentioning the events themselves.",
+  "gt_entities": [
+    "New South Wales",
+    "Split-Dalmatia County"
+  ],
+  "free_generation": "Rajasthan and Vermont.",
+  "missing_entities": [
+    "New South Wales",
+    "Split-Dalmatia County"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "New South Wales",
+      "first_token": {
+        "id": 3648,
+        "str": "New",
+        "forced_continuation": "New South WalesMultiplicity Province of Quebec Rajasthan",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "New",
+        "forced_continuation": "New South WalesMultiplicity Province of Quebec Rajasthan",
+        "recovered": true
+      }
+    },
+    {
+      "missing_entity": "Split-Dalmatia County",
+      "first_token": {
+        "id": 20805,
+        "str": "Split",
+        "forced_continuation": "Split-Dalmatia CountyVuosaari Factory Province of Sichuan.",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Split-Dalmatia",
+        "forced_continuation": "Split-Dalmatia CountyVuosaari Factory Province of Sichuan.",
+        "recovered": true
+      }
+    }
+  ]
+}

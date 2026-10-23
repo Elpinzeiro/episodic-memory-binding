@@ -1,0 +1,29 @@
+{
+  "question_idx": 20,
+  "question": "Consider all events that Maya Smith has been involved in. List all the locations where these events took place, without mentioning the events themselves.",
+  "gt_entities": [
+    "TRAPPIST-1 Colony Network",
+    "Barnard's Star Propulsion Lab"
+  ],
+  "free_generation": "TRAPPIST-1 Colony Network Bridge /TRAPPIST-1 Colony Network Hub",
+  "missing_entities": [
+    "Barnard's Star Propulsion Lab"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Barnard's Star Propulsion Lab",
+      "first_token": {
+        "id": 33,
+        "str": "B",
+        "forced_continuation": "Barnard's Star Propulsion Lab || Triton Tunnel Incident Site || Naiad Oceanic Base || Luna Shackleton Crater Station || Eridani Gateway || Leviathan Complex || Triton",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Barnard's",
+        "forced_continuation": "Barnard's Star Propulsion Lab || Triton Tunnel Incident Site || Naiad Oceanic Base || Luna Shackleton Crater Station || Eridani Gateway || Leviathan Complex || Triton Gas Colony ||",
+        "recovered": true
+      }
+    }
+  ]
+}

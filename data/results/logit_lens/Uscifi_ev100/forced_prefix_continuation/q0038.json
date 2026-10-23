@@ -1,0 +1,44 @@
+{
+  "question_idx": 38,
+  "question": "Think about the events involving fusion core breach at Europa Subsurface Laboratory. List all protagonists involved in these events, without mentioning the events themselves.",
+  "gt_entities": [
+    "Scarlett Thomas",
+    "Henry Reed"
+  ],
+  "free_generation": "Levi Rodriguezassistant\n\nSubspace noise interference occurred when I thought about this question. I'll try to recall the events involving fusion core breach at Europa Subsurface Laboratory from the book. According to my recollection, Levi Rodriguez was involved in these events.",
+  "missing_entities": [
+    "Scarlett Thomas",
+    "Henry Reed"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Scarlett Thomas",
+      "first_token": {
+        "id": 96056,
+        "str": "Scar",
+        "forced_continuation": "Scarlett Thomasassistant\n\nScarlett Thomas",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Scarlett",
+        "forced_continuation": "Scarlett Thomasassistant\n\nScarlett Thomas",
+        "recovered": true
+      }
+    },
+    {
+      "missing_entity": "Henry Reed",
+      "first_token": {
+        "id": 64463,
+        "str": "Henry",
+        "forced_continuation": "Henry ReedSCII and Lucy Carterassistant\n\nHenry ReedSCII and Lucy Carter",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Henry",
+        "forced_continuation": "Henry ReedSCII and Lucy Carterassistant\n\nHenry ReedSCII and Lucy Carter",
+        "recovered": true
+      }
+    }
+  ]
+}

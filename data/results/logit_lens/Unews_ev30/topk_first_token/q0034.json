@@ -1,0 +1,75 @@
+{
+  "question_idx": 34,
+  "question": "Recall the events related to residential tower fire that occurred on June 14, 2025. List all the locations where these events took place, without describing the events themselves.",
+  "GT_entities": [
+    "Vermont",
+    "North Dakota"
+  ],
+  "ent_A": "Vermont",
+  "ent_B": "North Dakota",
+  "topk": 8,
+  "top_ids": [
+    43,
+    49,
+    51,
+    50302,
+    40,
+    50,
+    39,
+    34
+  ],
+  "top_tokens": [
+    {
+      "id": 43,
+      "str": "L",
+      "prob": 0.897412121295929
+    },
+    {
+      "id": 49,
+      "str": "R",
+      "prob": 0.06300821155309677
+    },
+    {
+      "id": 51,
+      "str": "T",
+      "prob": 0.009220140054821968
+    },
+    {
+      "id": 50302,
+      "str": "Lu",
+      "prob": 0.008264879696071148
+    },
+    {
+      "id": 40,
+      "str": "I",
+      "prob": 0.005680363159626722
+    },
+    {
+      "id": 50,
+      "str": "S",
+      "prob": 0.005592297296971083
+    },
+    {
+      "id": 39,
+      "str": "H",
+      "prob": 0.0020572911016643047
+    },
+    {
+      "id": 34,
+      "str": "C",
+      "prob": 0.0009948409860953689
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 53,
+    "bare_str": "V",
+    "lead_id": 35739,
+    "lead_str": " Vermont"
+  },
+  "first_token_B": {
+    "bare_id": 26287,
+    "bare_str": "North",
+    "lead_id": 4892,
+    "lead_str": " North"
+  }
+}

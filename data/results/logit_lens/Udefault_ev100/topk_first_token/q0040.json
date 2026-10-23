@@ -1,0 +1,75 @@
+{
+  "question_idx": 40,
+  "question": "Recall all events related to Fashion Show that occurred at High Line. Provide a list of all dates when these events took place, without describing the events.",
+  "GT_entities": [
+    "April 09, 2026",
+    "June 14, 2025"
+  ],
+  "ent_A": "April 09, 2026",
+  "ent_B": "June 14, 2025",
+  "topk": 8,
+  "top_ids": [
+    28259,
+    29146,
+    30649,
+    11356,
+    29527,
+    33877,
+    34827,
+    31294
+  ],
+  "top_tokens": [
+    {
+      "id": 28259,
+      "str": "June",
+      "prob": 0.8257532715797424
+    },
+    {
+      "id": 29146,
+      "str": "April",
+      "prob": 0.15274900197982788
+    },
+    {
+      "id": 30649,
+      "str": "September",
+      "prob": 0.011964226141571999
+    },
+    {
+      "id": 11356,
+      "str": "May",
+      "prob": 0.004333155695348978
+    },
+    {
+      "id": 29527,
+      "str": "July",
+      "prob": 0.002507838187739253
+    },
+    {
+      "id": 33877,
+      "str": "February",
+      "prob": 0.0012222225777804852
+    },
+    {
+      "id": 34827,
+      "str": "November",
+      "prob": 0.00044963054824620485
+    },
+    {
+      "id": 31294,
+      "str": "October",
+      "prob": 0.00037862692261114717
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 29146,
+    "bare_str": "April",
+    "lead_id": 5936,
+    "lead_str": " April"
+  },
+  "first_token_B": {
+    "bare_id": 28259,
+    "bare_str": "June",
+    "lead_id": 5651,
+    "lead_str": " June"
+  }
+}

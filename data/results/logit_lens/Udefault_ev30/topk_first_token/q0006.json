@@ -1,0 +1,75 @@
+{
+  "question_idx": 6,
+  "question": "Reflect on the experiences of Carter Stewart related to Fashion Show. List all the unique locations where these events took place, without mentioning the events themselves.",
+  "GT_entities": [
+    "American Museum of Natural History",
+    "Metropolitan Museum of Art"
+  ],
+  "ent_A": "American Museum of Natural History",
+  "ent_B": "Metropolitan Museum of Art",
+  "topk": 8,
+  "top_ids": [
+    29518,
+    1305,
+    35773,
+    4054,
+    45659,
+    3778,
+    78818,
+    39231
+  ],
+  "top_tokens": [
+    {
+      "id": 29518,
+      "str": "American",
+      "prob": 0.9613781571388245
+    },
+    {
+      "id": 1305,
+      "str": "Tr",
+      "prob": 0.0304243341088295
+    },
+    {
+      "id": 35773,
+      "str": "Met",
+      "prob": 0.0036908909678459167
+    },
+    {
+      "id": 4054,
+      "str": "One",
+      "prob": 0.0017709087114781141
+    },
+    {
+      "id": 45659,
+      "str": " Trinity",
+      "prob": 0.0013160277158021927
+    },
+    {
+      "id": 3778,
+      "str": " American",
+      "prob": 0.0006617402541451156
+    },
+    {
+      "id": 78818,
+      "str": "american",
+      "prob": 0.00017534369544591755
+    },
+    {
+      "id": 39231,
+      "str": "Washington",
+      "prob": 0.00016731415234971792
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 29518,
+    "bare_str": "American",
+    "lead_id": 3778,
+    "lead_str": " American"
+  },
+  "first_token_B": {
+    "bare_id": 35773,
+    "bare_str": "Met",
+    "lead_id": 45878,
+    "lead_str": " Metropolitan"
+  }
+}

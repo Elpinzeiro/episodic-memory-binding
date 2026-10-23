@@ -1,0 +1,12 @@
+{
+  "question_idx": 33,
+  "question": "Think about the events involving Tech Hackathon on February 27, 2026. Provide a list of all protagonists involved in these events, without describing the events.",
+  "gt_entities": [
+    "Ezra Edwards",
+    "Samuel Parker"
+  ],
+  "free_generation": "Henry Reed Ezra Edwards Levi Rodriguez Mila Gonzalez Carmen Brown Julian Ross Scarlett Thomas Samuel Parker Zoe Brown Quinn Rodriguez Henry Reed Mark Thomas Henry Reed Mila Gonzalez Levi Rodriguez Ezra Edwards Scarlett Thomas Zoe Brown Julian Ross Mila Gonzalez Carmen Brown Mark Thomas Samuel Parker Henry Reed Mila Gonzalez Mila Gonzalez Mila Gonzalez Mila Gonzalez Mila Gonzalez Mila Gonzalez Mila Gonzalez Mila Gonzalez Mila Gonzalez Mila Gonzalez Mila Gonzalez Mila Gonzalez Mila Gonzalez Mila Gonzalez Mila Gonzalez Mila Gonzalez Mila Gonzalez Mila Gonzalez Mila Gonzalez Mila Gonzalez Mila Gonzalez Mila Gonzalez Mila Gonzalez Mila Gonzalez Mila Gonzalez Mila Gonzalez Mila Gonzalez Mila Gonzalez Mila Gonzalez Mila Gonzalez Mila Gonzalez Mila Gonzalez Mila Gonzalez Mila Gonzalez Mila Gonzalez Mila Gonzalez Mila Gonzalez Mila Gonzalez Mila Gonzalez Mila Gonzalez Mila Gonzalez Mila Gonzalez Mila Gonzalez Mila Gonzalez Mila Gonzalez Mila Gonzalez Mila Gonzalez Mila Gonzalez Mila Gonzalez Mila",
+  "missing_entities": [],
+  "is_binding_failure": false,
+  "forced_prefix_experiments": []
+}

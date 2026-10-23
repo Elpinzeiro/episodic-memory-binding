@@ -1,0 +1,44 @@
+{
+  "question_idx": 3,
+  "question": "Consider all events involving both Carter Stewart and Fashion Show. Provide a list of all dates when these events occurred, without describing the events.",
+  "gt_entities": [
+    "June 14, 2025",
+    "September 22, 2026"
+  ],
+  "free_generation": "February 27, 2026: CERN Ceremony\nMay 11, 2026: Fashion Show\nNovember 13, 2026: Fashion Show",
+  "missing_entities": [
+    "June 14, 2025",
+    "September 22, 2026"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "June 14, 2025",
+      "first_token": {
+        "id": 28259,
+        "str": "June",
+        "forced_continuation": "June 14, 2025.untracked fashion showFebruary 27, 2026",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "June",
+        "forced_continuation": "June 14, 2025.untracked fashion showFebruary 27, 2026",
+        "recovered": true
+      }
+    },
+    {
+      "missing_entity": "September 22, 2026",
+      "first_token": {
+        "id": 30649,
+        "str": "September",
+        "forced_continuation": "September 22, 2026 and November 13, 2026",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "September",
+        "forced_continuation": "September 22, 2026 and November 13, 2026",
+        "recovered": true
+      }
+    }
+  ]
+}

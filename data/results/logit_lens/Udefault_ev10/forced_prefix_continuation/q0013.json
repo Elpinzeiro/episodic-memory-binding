@@ -1,0 +1,29 @@
+{
+  "question_idx": 13,
+  "question": "Consider all events that happened on May 11, 2026. Provide a list of all protagonists involved in any of these events, without describing the events themselves.",
+  "gt_entities": [
+    "Scarlett Thomas",
+    "Levi Rodriguez"
+  ],
+  "free_generation": "Levi Rodriguez Mila Gonzalez Carter Roberts Henry Reed Ross Parker Williams Jackson Williams Emily Nguyen Thomas Brown Victoria Stephens Mark Davis Lauren Brooks Samuel Kim Edward Lewis James Davis Henry Reed Taylor Mitchell Peter Parker Kate Roberts Daniel Smith Jack Wilson Michael Lee Rachel Hall Ethan White Olivia Brown Samuel Brooks Alexander Kim Henry Reed Carter Roberts Levi Rodriguez Mila Gonzalez Ross Parker Jackson Williams Emily Nguyen Thomas Brown Victoria Stephens Mark Davis Lauren Brooks Samuel Kim Edward Lewis James Davis Taylor Mitchell Peter Parker Kate Roberts Daniel Smith Jack Wilson Michael Lee Rachel Hall Ethan White Olivia Brown Samuel Brooks Alexander Kim Henry Reed Carter Roberts Levi Rodriguez Mila Gonzalez Ross Parker Jackson Williams Emily Nguyen Thomas Brown Victoria Stephens Mark Davis Lauren Brooks Samuel Kim Edward Lewis James Davis Taylor Mitchell Peter Parker Kate Roberts Daniel Smith Jack Wilson Michael Lee Rachel Hall Ethan White Olivia Brown Samuel Brooks Alexander Kim Henry Reed Carter Roberts Levi Rodriguez Mila Gonzalez Ross Parker Jackson Williams Emily Nguyen Thomas Brown Victoria Stephens Mark Davis Lauren Brooks Samuel Kim Edward Lewis James Davis Taylor Mitchell Peter Parker Kate Roberts Daniel Smith Jack Wilson Michael Lee Rachel Hall",
+  "missing_entities": [
+    "Scarlett Thomas"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Scarlett Thomas",
+      "first_token": {
+        "id": 96056,
+        "str": "Scar",
+        "forced_continuation": "Scarlett Thomas Thomas Williams Henry Reed",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Scarlett",
+        "forced_continuation": "Scarlett Thomas Thomas Williams Henry Reed",
+        "recovered": true
+      }
+    }
+  ]
+}

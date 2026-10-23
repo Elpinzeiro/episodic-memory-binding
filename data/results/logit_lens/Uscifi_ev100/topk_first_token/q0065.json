@@ -1,0 +1,75 @@
+{
+  "question_idx": 65,
+  "question": "Think about the events involving plasma conduit rupture on July 13, 2224. Provide a list of all protagonists involved in these events, without describing the events.",
+  "GT_entities": [
+    "Mila Gonzalez",
+    "Levi Rodriguez"
+  ],
+  "ent_A": "Mila Gonzalez",
+  "ent_B": "Levi Rodriguez",
+  "topk": 8,
+  "top_ids": [
+    64463,
+    29185,
+    62382,
+    18063,
+    2356,
+    2822,
+    41745,
+    34
+  ],
+  "top_tokens": [
+    {
+      "id": 64463,
+      "str": "Henry",
+      "prob": 0.9896085858345032
+    },
+    {
+      "id": 29185,
+      "str": "Jul",
+      "prob": 0.008169718086719513
+    },
+    {
+      "id": 62382,
+      "str": "Jackson",
+      "prob": 0.001214320189319551
+    },
+    {
+      "id": 18063,
+      "str": " Henry",
+      "prob": 0.0003479085862636566
+    },
+    {
+      "id": 2356,
+      "str": "Le",
+      "prob": 0.00020452489843592048
+    },
+    {
+      "id": 2822,
+      "str": "No",
+      "prob": 0.00016179251542780548
+    },
+    {
+      "id": 41745,
+      "str": "Luc",
+      "prob": 0.00014963361900299788
+    },
+    {
+      "id": 34,
+      "str": "C",
+      "prob": 2.5202412871294655e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 44,
+    "bare_str": "M",
+    "lead_id": 10357,
+    "lead_str": " Mil"
+  },
+  "first_token_B": {
+    "bare_id": 2356,
+    "bare_str": "Le",
+    "lead_id": 56141,
+    "lead_str": " Levi"
+  }
+}

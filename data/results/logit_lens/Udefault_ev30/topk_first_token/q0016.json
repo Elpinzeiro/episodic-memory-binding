@@ -1,0 +1,75 @@
+{
+  "question_idx": 16,
+  "question": "Think about the events involving Fashion Show at Metropolitan Museum of Art. List all protagonists involved in these events, without mentioning the events themselves.",
+  "GT_entities": [
+    "Scarlett Thomas",
+    "Carter Stewart"
+  ],
+  "ent_A": "Scarlett Thomas",
+  "ent_B": "Carter Stewart",
+  "topk": 8,
+  "top_ids": [
+    27368,
+    34,
+    96056,
+    25581,
+    29185,
+    24903,
+    12878,
+    64463
+  ],
+  "top_tokens": [
+    {
+      "id": 27368,
+      "str": "Bro",
+      "prob": 0.38886773586273193
+    },
+    {
+      "id": 34,
+      "str": "C",
+      "prob": 0.24334721267223358
+    },
+    {
+      "id": 96056,
+      "str": "Scar",
+      "prob": 0.20491890609264374
+    },
+    {
+      "id": 25581,
+      "str": " Carter",
+      "prob": 0.07081807404756546
+    },
+    {
+      "id": 29185,
+      "str": "Jul",
+      "prob": 0.04228740558028221
+    },
+    {
+      "id": 24903,
+      "str": "Sam",
+      "prob": 0.01735471561551094
+    },
+    {
+      "id": 12878,
+      "str": "Cart",
+      "prob": 0.012306335382163525
+    },
+    {
+      "id": 64463,
+      "str": "Henry",
+      "prob": 0.01052616722881794
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 96056,
+    "bare_str": "Scar",
+    "lead_id": 96572,
+    "lead_str": " Scarlett"
+  },
+  "first_token_B": {
+    "bare_id": 34,
+    "bare_str": "C",
+    "lead_id": 25581,
+    "lead_str": " Carter"
+  }
+}

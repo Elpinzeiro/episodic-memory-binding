@@ -1,0 +1,29 @@
+{
+  "question_idx": 13,
+  "question": "Reflect on Levi Rodriguez's experiences at Luna Shackleton Crater Colony. Describe all the key events they've been involved in at this location, focusing on what happened rather than when it occurred.",
+  "gt_entities": [
+    "cryo-pod integrity breach",
+    "antimatter cascade"
+  ],
+  "free_generation": "antimatter cascade; crisis protocol; subsurface laboratory; keyhole camera feed; alien artifact; cognitive overload; hull breach; vacuum exposure; dying light; biohazard containment; phantoms of human loss; all too real; cosmic despair; precipice of oblivion; last fragments of consciousness; cosmic vastness; eternal darkness; ultimate one-way street; end of the road; all is black; all is silent; all is gone; all is nothing; the end is here; the end has come; the end is now; the end is gone; the end is nothing; nothing is left; nothing is here; nothing is gone; nothing is all; all is nothing; nothing is the end; the end is nothing; nothing is the end; nothing is all; all is nothing; nothing is the end; the end is nothing; nothing is the end; nothing is all; all is nothing; nothing is the end; the end is nothing; nothing is the end",
+  "missing_entities": [
+    "cryo-pod integrity breach"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "cryo-pod integrity breach",
+      "first_token": {
+        "id": 62238,
+        "str": "cry",
+        "forced_continuation": "cryo-pod integrity breach; trauma therapy session; colonial militia deployment; and moreSubsystem failure; valve blowout; toxic gas leak; and colonial military presence have all occurred at Luna Shackleton Crater",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "cryo-pod",
+        "forced_continuation": "cryo-pod integrity breach; trauma therapy session; colonial militia deployment; and moreSubsystem failure; valve blowout; toxic gas leak; and colonial military presence have all occurred at Luna Shackleton Crater Colony, involving",
+        "recovered": true
+      }
+    }
+  ]
+}

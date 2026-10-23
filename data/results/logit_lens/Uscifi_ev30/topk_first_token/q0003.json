@@ -1,0 +1,75 @@
+{
+  "question_idx": 3,
+  "question": "Reflect on the experiences of Carter Stewart related to fusion core breach. List all the unique locations where these events took place, without mentioning the events themselves.",
+  "GT_entities": [
+    "Triton Gas Colony",
+    "Luna Oceanus Trading Post"
+  ],
+  "ent_A": "Triton Gas Colony",
+  "ent_B": "Luna Oceanus Trading Post",
+  "topk": 8,
+  "top_ids": [
+    43,
+    45,
+    51,
+    36,
+    55218,
+    50905,
+    125657,
+    27814
+  ],
+  "top_tokens": [
+    {
+      "id": 43,
+      "str": "L",
+      "prob": 0.9987871050834656
+    },
+    {
+      "id": 45,
+      "str": "N",
+      "prob": 0.0011878757504746318
+    },
+    {
+      "id": 51,
+      "str": "T",
+      "prob": 8.129885827656835e-06
+    },
+    {
+      "id": 36,
+      "str": "E",
+      "prob": 5.167669769434724e-06
+    },
+    {
+      "id": 55218,
+      "str": "Eu",
+      "prob": 3.4424103887431556e-06
+    },
+    {
+      "id": 50905,
+      "str": " Luna",
+      "prob": 2.4410346668446437e-06
+    },
+    {
+      "id": 125657,
+      "str": "lun",
+      "prob": 7.561972097391845e-07
+    },
+    {
+      "id": 27814,
+      "str": "Mer",
+      "prob": 3.628273645972513e-07
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 51,
+    "bare_str": "T",
+    "lead_id": 85283,
+    "lead_str": " Trit"
+  },
+  "first_token_B": {
+    "bare_id": 43,
+    "bare_str": "L",
+    "lead_id": 50905,
+    "lead_str": " Luna"
+  }
+}

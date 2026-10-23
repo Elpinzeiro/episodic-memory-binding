@@ -1,0 +1,29 @@
+{
+  "question_idx": 17,
+  "question": "Think about Ezra Edwards's experiences. Describe all the key events they've been involved in, focusing on what happened rather than when or where it occurred.",
+  "gt_entities": [
+    "nuclear plant meltdown",
+    "volcanic eruption"
+  ],
+  "free_generation": "volcanic eruption | factory meltdown | police force strike | shopping mall attack | treasure train heist | murder in the jungle | discovery in the art gallery | car rally disaster | residential tower fire | flash flood emergency | opera house explosion | cryptocurrency heist | ghost ship encounter | nuclear power plant emergency | bridge collapse | magnitude earthquake | art forgery scandal | residential tower fire | police station takeover | magnitude earthquake | flash flood emergency | opera house explosion | treasure train heist | murder in the jungle | factory meltdown | residential tower fire | volcanic eruption | ghost ship encounter | murder in the jungle | police force strike | shopping mall attack | car rally disaster | bridge collapse | residential tower fire | magnitude earthquake | residential tower fire | police station takeover | opera house explosion | treasure train heist | factory meltdown | police force strike | residential tower fire | shopping mall attack | car rally disaster | residential tower fire | residential tower fire | residential tower fire | residential tower fire | residential tower fire | residential tower",
+  "missing_entities": [
+    "nuclear plant meltdown"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "nuclear plant meltdown",
+      "first_token": {
+        "id": 77,
+        "str": "n",
+        "forced_continuation": "nuclear plant meltdown\nvolcanic eruption\nflash flood emergency\nrusted sinkhole emergence\nmagnitude earthquake\ntoxic waste spill\nresidential tower fire\npolice officers strike\nmagnitude tsunami\n",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "nuclear",
+        "forced_continuation": "nuclear plant meltdown\nvolcanic eruption\nflash flood emergency\nrusted sinkhole emergence\nmagnitude earthquake\ntoxic waste spill\nresidential tower fire\npolice officers strike\nmagnitude tsunami\nfactory",
+        "recovered": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "question_idx": 38,
+  "question": "Recall the events related to fusion core breach that occurred on June 14, 2225. List all the locations where these events took place, without describing the events themselves.",
+  "gt_entities": [
+    "Mars Valles Industrial Hub",
+    "Triton Gas Colony"
+  ],
+  "free_generation": "Europa Subsurface Laboratory; Gandhi Oceanic Research Institution; Luna Oceanus Trading Post; Triton Gas Colony; Vacuum-Sealed Reliquary; Voyager 217: Phobos Military Base; Mars Valles Industrial Hub; Naiad Oceanic Research Facility; Triton Gas Colony; Luna Oceanic Trading Post; Europa Subsurface Laboratory; Phobos Military Base; Mars Valles Industrial Hub; Naiad Oceanic Research Facility; Vacuum-Sealed Reliquary; Voyager 217; Phobos Military Base; Luna Oceanic Trading Post; Triton Gas Colony; Europa Subsurface Laboratory; Mars Valles Industrial Hub; Naiad Oceanic Research Facility; Vacuum-Sealed Reliquary; Voyager 217; Phobos Military Base; Luna Oceanic Trading Post; Triton Gas Colony; Europa Subsurface Laboratory; Mars Valles Industrial Hub; Naiad Oceanic Research Facility; Vacuum-Sealed Reliquary; Voyager 217; Phobos Military Base",
+  "missing_entities": [],
+  "is_binding_failure": false,
+  "forced_prefix_experiments": []
+}

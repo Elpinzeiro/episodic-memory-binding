@@ -1,0 +1,12 @@
+{
+  "question_idx": 24,
+  "question": "Consider all events that happened on April 09, 2226. Provide a list of all protagonists involved in any of these events, without describing the events themselves.",
+  "gt_entities": [
+    "Scarlett Thomas",
+    "Henry Reed"
+  ],
+  "free_generation": "Henry Reed]|[ Zoe Brown; Samuel Parker; Mila Gonzalez; Carter Stewart; Julian Ross; Scarlett Thomas; Henry Reed; Samuel Parker; Mila Gonzalez; Zoe Brown; Carter Stewart; Julian Ross; Scarlett Thomas; Zoe Brown; Henry Reed; Samuel Parker; Mila Gonzalez; Carter Stewart; Julian Ross; Scarlett Thomas; Zoe Brown; Henry Reed; Samuel Parker; Mila Gonzalez; Carter Stewart; Julian Ross; Scarlett Thomas; Zoe Brown; Henry Reed; Samuel Parker; Mila Gonzalez; Carter Stewart; Julian Ross; Scarlett Thomas; Zoe Brown; Henry Reed; Samuel Parker; Mila Gonzalez; Carter Stewart; Julian Ross; Scarlett Thomas; Zoe Brown; Henry Reed; Samuel Parker; Mila Gonzalez; Carter Stewart; Julian Ross; Scarlett Thomas; Zoe Brown; Henry Reed; Samuel Parker; Mila Gonzalez; Carter Stewart; Julian Ross; Scarlett Thomas; Zoe Brown; Henry Reed; Samuel Parker; Mila Gonzalez; Carter Stewart; Julian Ross; Scarlett Thomas; Zoe Brown",
+  "missing_entities": [],
+  "is_binding_failure": false,
+  "forced_prefix_experiments": []
+}

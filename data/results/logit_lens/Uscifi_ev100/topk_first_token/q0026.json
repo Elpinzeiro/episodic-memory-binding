@@ -1,0 +1,75 @@
+{
+  "question_idx": 26,
+  "question": "Think about Noah Williams's experiences. Describe all the key events they've been involved in, focusing on what happened rather than when or where it occurred.",
+  "GT_entities": [
+    "plasma conduit rupture",
+    "fusion core breach"
+  ],
+  "ent_A": "plasma conduit rupture",
+  "ent_B": "fusion core breach",
+  "topk": 8,
+  "top_ids": [
+    55665,
+    266,
+    58369,
+    17717,
+    62238,
+    519,
+    23432,
+    37608
+  ],
+  "top_tokens": [
+    {
+      "id": 55665,
+      "str": "fusion",
+      "prob": 0.8477683067321777
+    },
+    {
+      "id": 266,
+      "str": "at",
+      "prob": 0.09511696547269821
+    },
+    {
+      "id": 58369,
+      "str": "digital",
+      "prob": 0.013281304389238358
+    },
+    {
+      "id": 17717,
+      "str": "memory",
+      "prob": 0.008986580185592175
+    },
+    {
+      "id": 62238,
+      "str": "cry",
+      "prob": 0.008575054816901684
+    },
+    {
+      "id": 519,
+      "str": "ant",
+      "prob": 0.004554177168756723
+    },
+    {
+      "id": 23432,
+      "str": "navigation",
+      "prob": 0.002151241060346365
+    },
+    {
+      "id": 37608,
+      "str": " fusion",
+      "prob": 0.0015738814836367965
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 501,
+    "bare_str": "pl",
+    "lead_id": 32426,
+    "lead_str": " plasma"
+  },
+  "first_token_B": {
+    "bare_id": 55665,
+    "bare_str": "fusion",
+    "lead_id": 37608,
+    "lead_str": " fusion"
+  }
+}

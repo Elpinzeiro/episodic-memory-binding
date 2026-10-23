@@ -1,0 +1,75 @@
+{
+  "question_idx": 34,
+  "question": "Recall all events related to digital afterlife server shutdown that occurred at Luna Oceanus Trading Post. Provide a list of all dates when these events took place, without describing the events.",
+  "GT_entities": [
+    "July 31, 2225",
+    "November 13, 2226"
+  ],
+  "ent_A": "July 31, 2225",
+  "ent_B": "November 13, 2226",
+  "topk": 8,
+  "top_ids": [
+    11356,
+    29527,
+    28623,
+    32559,
+    33327,
+    28259,
+    30649,
+    33246
+  ],
+  "top_tokens": [
+    {
+      "id": 11356,
+      "str": "May",
+      "prob": 0.9178691506385803
+    },
+    {
+      "id": 29527,
+      "str": "July",
+      "prob": 0.06444452702999115
+    },
+    {
+      "id": 28623,
+      "str": "March",
+      "prob": 0.01415658462792635
+    },
+    {
+      "id": 32559,
+      "str": "August",
+      "prob": 0.0011803427478298545
+    },
+    {
+      "id": 33327,
+      "str": "January",
+      "prob": 0.0007271880749613047
+    },
+    {
+      "id": 28259,
+      "str": "June",
+      "prob": 0.0006219968781806529
+    },
+    {
+      "id": 30649,
+      "str": "September",
+      "prob": 0.00048441169201396406
+    },
+    {
+      "id": 33246,
+      "str": "December",
+      "prob": 0.00019268564938101918
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 29527,
+    "bare_str": "July",
+    "lead_id": 5887,
+    "lead_str": " July"
+  },
+  "first_token_B": {
+    "bare_id": 34827,
+    "bare_str": "November",
+    "lead_id": 6841,
+    "lead_str": " November"
+  }
+}

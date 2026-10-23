@@ -1,0 +1,75 @@
+{
+  "question_idx": 6,
+  "question": "Recall all events related to Karaoke Night. Provide a list of all dates when these events occurred, without describing the events.",
+  "GT_entities": [
+    "February 27, 2026",
+    "September 03, 2026"
+  ],
+  "ent_A": "February 27, 2026",
+  "ent_B": "September 03, 2026",
+  "topk": 8,
+  "top_ids": [
+    33327,
+    30649,
+    28259,
+    33877,
+    33246,
+    34827,
+    31294,
+    29527
+  ],
+  "top_tokens": [
+    {
+      "id": 33327,
+      "str": "January",
+      "prob": 0.6137567162513733
+    },
+    {
+      "id": 30649,
+      "str": "September",
+      "prob": 0.2598809599876404
+    },
+    {
+      "id": 28259,
+      "str": "June",
+      "prob": 0.0870492085814476
+    },
+    {
+      "id": 33877,
+      "str": "February",
+      "prob": 0.024172691628336906
+    },
+    {
+      "id": 33246,
+      "str": "December",
+      "prob": 0.006818221416324377
+    },
+    {
+      "id": 34827,
+      "str": "November",
+      "prob": 0.0055648693814873695
+    },
+    {
+      "id": 31294,
+      "str": "October",
+      "prob": 0.001062073977664113
+    },
+    {
+      "id": 29527,
+      "str": "July",
+      "prob": 0.0005596736446022987
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 33877,
+    "bare_str": "February",
+    "lead_id": 7552,
+    "lead_str": " February"
+  },
+  "first_token_B": {
+    "bare_id": 30649,
+    "bare_str": "September",
+    "lead_id": 6250,
+    "lead_str": " September"
+  }
+}

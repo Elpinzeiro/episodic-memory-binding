@@ -1,0 +1,44 @@
+{
+  "question_idx": 7,
+  "question": "Think about the events involving antimatter cascade at Europa Subsurface Laboratory. List all protagonists involved in these events, without mentioning the events themselves.",
+  "gt_entities": [
+    "Mila Gonzalez",
+    "Levi Rodriguez"
+  ],
+  "free_generation": "Henry Reed; Samuel Parker; Leah Lewis; Carter Stewart; William Brown; Emily Patel; Jackson Kim; Mila Ruiz; Patrick Brooks; David Kim; Sophia Rodriguez; James Davis; Olivia Martinez; Kevin Lewis; Lisa Nguyen; Thomas Hall; Rachel Tran; Benjamin Ross; Harrison Wallace; Gabriel Ortiz; Olivia Kim; Michael Reed; Ava Moreno; Ethan Price; Lila Estrada; Julian Sanchez; Harper Lee; Owen Brooks; Maya Jensen; Logan Martin; Ruby Sanchez; Gavin Wallace; Brooklyn Reed; Parker Stewart; Lily Ross; Kayla Estrada; Logan Estrada; Ruby Reed; Brooklyn Wallace; Harper Ross; Ava Brooks; Ethan Estrada; Maya Reed; Lila Wallace; Parker Ross; Brooklyn Estrada; Ruby Brooks; Harper Reed; Ethan Estrada; Maya Brooks; Lila Ross; Kayla Wallace; Logan Reed; Brooklyn Estrada; Ruby Brooks; Harper Ross; Ava Estrada; Ethan Reed; Maya Brooks; Lila Wallace; Parker Ross; Brooklyn Estr",
+  "missing_entities": [
+    "Mila Gonzalez",
+    "Levi Rodriguez"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Mila Gonzalez",
+      "first_token": {
+        "id": 44,
+        "str": "M",
+        "forced_continuation": "Mila Gonzalez; Carter Stewart; Leonardo Morales; Samuel Parker; Emily Rodriguez; Benjamin Campbell; Henry Reed; William Lewis; Isabella Evans; David Kim; Sophia Rodriguez; James Lee; Olivia Brown;",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Mila",
+        "forced_continuation": "Mila Gonzalez; Carter Stewart; Leonardo Morales; Samuel Parker; Emily Rodriguez; Benjamin Campbell; Henry Reed; William Lewis; Isabella Evans; David Kim; Sophia Rodriguez; James Lee; Olivia Brown; Patrick",
+        "recovered": true
+      }
+    },
+    {
+      "missing_entity": "Levi Rodriguez",
+      "first_token": {
+        "id": 2356,
+        "str": "Le",
+        "forced_continuation": "Levi Rodriguez and Henry Reed.",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Levi",
+        "forced_continuation": "Levi Rodriguez and Henry Reed.",
+        "recovered": true
+      }
+    }
+  ]
+}

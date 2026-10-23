@@ -1,0 +1,75 @@
+{
+  "question_idx": 17,
+  "question": "Reflect on all events involving Ezra Edwards. Provide a list of all dates when these events occurred, without describing the events.",
+  "GT_entities": [
+    "May 11, 2026",
+    "February 27, 2026"
+  ],
+  "ent_A": "May 11, 2026",
+  "ent_B": "February 27, 2026",
+  "topk": 8,
+  "top_ids": [
+    33877,
+    11356,
+    41691,
+    28259,
+    28623,
+    29146,
+    7552,
+    30649
+  ],
+  "top_tokens": [
+    {
+      "id": 33877,
+      "str": "February",
+      "prob": 0.8532108664512634
+    },
+    {
+      "id": 11356,
+      "str": "May",
+      "prob": 0.14596717059612274
+    },
+    {
+      "id": 41691,
+      "str": "Feb",
+      "prob": 0.0007780276355333626
+    },
+    {
+      "id": 28259,
+      "str": "June",
+      "prob": 1.0104814464284573e-05
+    },
+    {
+      "id": 28623,
+      "str": "March",
+      "prob": 8.119446647469886e-06
+    },
+    {
+      "id": 29146,
+      "str": "April",
+      "prob": 5.32486319571035e-06
+    },
+    {
+      "id": 7552,
+      "str": " February",
+      "prob": 5.242308816377772e-06
+    },
+    {
+      "id": 30649,
+      "str": "September",
+      "prob": 4.9246932576352265e-06
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 11356,
+    "bare_str": "May",
+    "lead_id": 3297,
+    "lead_str": " May"
+  },
+  "first_token_B": {
+    "bare_id": 33877,
+    "bare_str": "February",
+    "lead_id": 7552,
+    "lead_str": " February"
+  }
+}

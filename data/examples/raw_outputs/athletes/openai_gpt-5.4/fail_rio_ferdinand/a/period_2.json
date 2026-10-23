@@ -1,0 +1,15 @@
+{
+  "entity": "Rio Ferdinand",
+  "prompt": "In which period did Rio Ferdinand play for England national association football team?",
+  "expected": "2010",
+  "retry": 2,
+  "success": true,
+  "response": "Rio Ferdinand played for the England national football team from 1997 to 2011.",
+  "model": "openai/gpt-5.4",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 84,
+    "completion_tokens": 22,
+    "total_tokens": 106
+  }
+}

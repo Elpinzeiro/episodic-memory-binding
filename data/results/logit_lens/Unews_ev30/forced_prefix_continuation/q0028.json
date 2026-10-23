@@ -1,0 +1,29 @@
+{
+  "question_idx": 28,
+  "question": "Consider all events that happened on September 13, 2025. Provide a list of all protagonists involved in any of these events, without describing the events themselves.",
+  "gt_entities": [
+    "Henry Reed",
+    "Levi Rodriguez"
+  ],
+  "free_generation": "Henry Reed Zoe Brown Carter Stewart Scarlett Thomas Ross Baker Mila Gonzalez Samuel Parker Ezra Walker Julian Ross Henry Reed Zoe Brown Carter Stewart Scarlett Thomas Ross Baker Mila Gonzalez Samuel Parker Ezra Walker Julian Ross Henry Reed Zoe Brown Carter Stewart Scarlett Thomas Ross Baker Mila Gonzalez Samuel Parker Ezra Walker Julian Ross Henry Reed Zoe Brown Carter Stewart Scarlett Thomas Ross Baker Mila Gonzalez Samuel Parker Ezra Walker Julian Ross Henry Reed Zoe Brown Carter Stewart Scarlett Thomas Ross Baker Mila Gonzalez Samuel Parker Ezra Walker Julian Ross Henry Reed Zoe Brown Carter Stewart Scarlett Thomas Ross Baker Mila Gonzalez Samuel Parker Ezra Walker Julian Ross Henry Reed Zoe Brown Carter Stewart Scarlett Thomas Ross Baker Mila Gonzalez Samuel Parker Ezra Walker Julian Ross Henry Reed Zoe Brown Carter Stewart Scarlett Thomas Ross Baker Mila Gonzalez Samuel Parker Ezra Walker Julian Ross Henry Reed Zoe Brown Carter Stewart Scarlett Thomas Ross Baker Mila Gonzalez Samuel Parker Ezra Walker Julian Ross Henry Reed Zoe Brown Carter Stewart Scarlett Thomas Ross Baker Mila Gonzalez Samuel Parker Ezra Walker Julian Ross Henry Reed Zoe Brown Carter Stewart Scarlett Thomas Ross Baker",
+  "missing_entities": [
+    "Levi Rodriguez"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Levi Rodriguez",
+      "first_token": {
+        "id": 2356,
+        "str": "Le",
+        "forced_continuation": "Levi Rodriguez Henry Reed Ezra Edwards Zoe Brown Carter Stewart Scarlett Thomas Mila Gonzalez Julian Ross Henry Liu Madison Sanchez Sam Taylor Henry Ross Carter Edwards Ezra Brown Zoe Reed Levi Gonzalez Scarlett Mila Stewart Julian Thomas Zoe",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Levi",
+        "forced_continuation": "Levi Rodriguez Henry Reed Ezra Edwards Zoe Brown Carter Stewart Scarlett Thomas Mila Gonzalez Julian Ross Henry Liu Madison Sanchez Sam Taylor Henry Ross Carter Edwards Ezra Brown Zoe Reed Levi Gonzalez Scarlett Mila Stewart Julian Thomas Zoe Edwards",
+        "recovered": true
+      }
+    }
+  ]
+}

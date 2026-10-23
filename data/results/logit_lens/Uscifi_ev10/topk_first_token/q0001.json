@@ -1,0 +1,75 @@
+{
+  "question_idx": 1,
+  "question": "Reflect on events related to plasma conduit rupture. Provide a list of all protagonists involved in these events, without describing the events.",
+  "GT_entities": [
+    "Henry Reed",
+    "Levi Rodriguez"
+  ],
+  "ent_A": "Henry Reed",
+  "ent_B": "Levi Rodriguez",
+  "topk": 8,
+  "top_ids": [
+    2356,
+    24903,
+    96056,
+    44,
+    73004,
+    27368,
+    64463,
+    3407
+  ],
+  "top_tokens": [
+    {
+      "id": 2356,
+      "str": "Le",
+      "prob": 0.7954840064048767
+    },
+    {
+      "id": 24903,
+      "str": "Sam",
+      "prob": 0.16936831176280975
+    },
+    {
+      "id": 96056,
+      "str": "Scar",
+      "prob": 0.0208702702075243
+    },
+    {
+      "id": 44,
+      "str": "M",
+      "prob": 0.0033541580196470022
+    },
+    {
+      "id": 73004,
+      "str": "Leon",
+      "prob": 0.0020664366893470287
+    },
+    {
+      "id": 27368,
+      "str": "Bro",
+      "prob": 0.0019111416768282652
+    },
+    {
+      "id": 64463,
+      "str": "Henry",
+      "prob": 0.0019111416768282652
+    },
+    {
+      "id": 3407,
+      "str": "Sc",
+      "prob": 0.000564932357519865
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 64463,
+    "bare_str": "Henry",
+    "lead_id": 18063,
+    "lead_str": " Henry"
+  },
+  "first_token_B": {
+    "bare_id": 2356,
+    "bare_str": "Le",
+    "lead_id": 56141,
+    "lead_str": " Levi"
+  }
+}

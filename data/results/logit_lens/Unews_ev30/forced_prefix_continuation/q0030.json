@@ -1,0 +1,29 @@
+{
+  "question_idx": 30,
+  "question": "Reflect on April 09, 2026. Describe all the key events that occurred on this date, focusing on what happened rather than who was involved or where it took place.",
+  "gt_entities": [
+    "factory explosion",
+    "volcanic eruption"
+  ],
+  "free_generation": "volcanic eruption, bridge collapse, Zoe Brown's observation, residential tower fire.",
+  "missing_entities": [
+    "factory explosion"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "factory explosion",
+      "first_token": {
+        "id": 22348,
+        "str": "factory",
+        "forced_continuation": "factory explosion volcanic eruption police force merger residential tower firestorm emergency broadcast system sinkhole emergence flash flood emergency services overhaul bridge collapse widespread power outage residential tower firestorm sinkhole emergence flash flood bridge collapse factory explosion residential",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "factory",
+        "forced_continuation": "factory explosion volcanic eruption police force merger residential tower firestorm emergency broadcast system sinkhole emergence flash flood emergency services overhaul bridge collapse widespread power outage residential tower firestorm sinkhole emergence flash flood bridge collapse factory explosion residential",
+        "recovered": true
+      }
+    }
+  ]
+}

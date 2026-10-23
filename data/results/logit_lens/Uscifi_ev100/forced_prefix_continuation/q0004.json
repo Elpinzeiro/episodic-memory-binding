@@ -1,0 +1,29 @@
+{
+  "question_idx": 4,
+  "question": "Consider all events involving navigation computer blackout. List all the locations where these events took place, without mentioning the events themselves.",
+  "gt_entities": [
+    "Mars Valles Industrial Hub",
+    "Luna Shackleton Crater Colony"
+  ],
+  "free_generation": "Luna Shackleton Crater Colony Mind Network Server Hive Mind Core Triton Gas Colony Navigation Computer Core Triton Gas Colony Subspace Antenna Network Brain Digital Afterlife Refinery 721 at Scutum-Crux Gateway Digital Afterlife Refinery 197 at Centauri Memory Archive at Naiad Phobos Metal Rich Settlement Triton Gas Colony Subsurface Nodes Luna Shackleton Crater Colony Digital Afterlife Refinery Complex at Scutum-Crux Gateway Brain Digital Afterlife Refinery 197 at Scutum-Crux Gateway Triton Gas Colony Navigation Computer Core Brain Digital Afterlife Refinery Complex at Centauri Phobos Metal Rich Settlement at Scutum-Crux Gateway Naiad Digital Afterlife Refinery Complex at Scutum-Crux Gateway Luna Shackleton Crater Colony Navigation Computer Core at Scutum-Crux Gateway Triton Gas Colony Navigation Computer Core at Scutum-Crux Gateway Brain Digital Afterlife Refinery Complex at",
+  "missing_entities": [
+    "Mars Valles Industrial Hub"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Mars Valles Industrial Hub",
+      "first_token": {
+        "id": 44,
+        "str": "M",
+        "forced_continuation": "Mars Valles Industrial Hub",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Mars",
+        "forced_continuation": "Mars Valles Industrial Hub",
+        "recovered": true
+      }
+    }
+  ]
+}

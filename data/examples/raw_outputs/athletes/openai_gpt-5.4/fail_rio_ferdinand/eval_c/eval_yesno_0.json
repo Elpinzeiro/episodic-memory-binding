@@ -1,0 +1,10 @@
+{
+  "prompt": "In 2015, did Rio Ferdinand play for Queens Park Rangers F.C.? Answer yes or no.",
+  "expected": "Yes",
+  "response": "Yes.",
+  "evaluation": {
+    "detected_answer": "yes",
+    "expected": "yes",
+    "correct": true
+  }
+}

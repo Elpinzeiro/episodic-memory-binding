@@ -1,0 +1,75 @@
+{
+  "question_idx": 22,
+  "question": "Consider the location Statue of Liberty. List all protagonists that have been involved in any events at this location, without mentioning the events themselves.",
+  "GT_entities": [
+    "Henry Reed",
+    "Brooklyn Ross"
+  ],
+  "ent_A": "Henry Reed",
+  "ent_B": "Brooklyn Ross",
+  "topk": 8,
+  "top_ids": [
+    27368,
+    64463,
+    96056,
+    24903,
+    29185,
+    15222,
+    34,
+    42059
+  ],
+  "top_tokens": [
+    {
+      "id": 27368,
+      "str": "Bro",
+      "prob": 0.96178138256073
+    },
+    {
+      "id": 64463,
+      "str": "Henry",
+      "prob": 0.031897805631160736
+    },
+    {
+      "id": 96056,
+      "str": "Scar",
+      "prob": 0.003750585950911045
+    },
+    {
+      "id": 24903,
+      "str": "Sam",
+      "prob": 0.0007158119697123766
+    },
+    {
+      "id": 29185,
+      "str": "Jul",
+      "prob": 0.0006517541478388011
+    },
+    {
+      "id": 15222,
+      "str": "bro",
+      "prob": 0.00020831312576774508
+    },
+    {
+      "id": 34,
+      "str": "C",
+      "prob": 0.00019265817536506802
+    },
+    {
+      "id": 42059,
+      "str": "Bron",
+      "prob": 0.0001673843216849491
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 64463,
+    "bare_str": "Henry",
+    "lead_id": 18063,
+    "lead_str": " Henry"
+  },
+  "first_token_B": {
+    "bare_id": 27368,
+    "bare_str": "Bro",
+    "lead_id": 26832,
+    "lead_str": " Brooklyn"
+  }
+}

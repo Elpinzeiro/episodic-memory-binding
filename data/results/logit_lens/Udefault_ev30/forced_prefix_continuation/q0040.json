@@ -1,0 +1,29 @@
+{
+  "question_idx": 40,
+  "question": "Recall the events related to Theater Performance that occurred on November 13, 2026. List all the locations where these events took place, without describing the events themselves.",
+  "gt_entities": [
+    "One World Trade Center",
+    "American Museum of Natural History"
+  ],
+  "free_generation": "American Museum of Natural History Metropolitan Playhouse Washington Square Park",
+  "missing_entities": [
+    "One World Trade Center"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "One World Trade Center",
+      "first_token": {
+        "id": 4054,
+        "str": "One",
+        "forced_continuation": "One World Trade Center Washington Square Park American Museum of Natural History",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "One",
+        "forced_continuation": "One World Trade Center Washington Square Park American Museum of Natural History",
+        "recovered": true
+      }
+    }
+  ]
+}

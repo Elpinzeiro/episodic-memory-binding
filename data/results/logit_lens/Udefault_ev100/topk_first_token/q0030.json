@@ -1,0 +1,75 @@
+{
+  "question_idx": 30,
+  "question": "Consider all events that Maya Smith has been involved in. List all the locations where these events took place, without mentioning the events themselves.",
+  "GT_entities": [
+    "Bethpage Black Course",
+    "Queensboro Bridge"
+  ],
+  "ent_A": "Bethpage Black Course",
+  "ent_B": "Queensboro Bridge",
+  "topk": 8,
+  "top_ids": [
+    26860,
+    27368,
+    87708,
+    28162,
+    2232,
+    42059,
+    5712,
+    53106
+  ],
+  "top_tokens": [
+    {
+      "id": 26860,
+      "str": "Que",
+      "prob": 0.8610131144523621
+    },
+    {
+      "id": 27368,
+      "str": "Bro",
+      "prob": 0.09660299122333527
+    },
+    {
+      "id": 87708,
+      "str": "Quarter",
+      "prob": 0.02946224808692932
+    },
+    {
+      "id": 28162,
+      "str": " Queens",
+      "prob": 0.00536547414958477
+    },
+    {
+      "id": 2232,
+      "str": "Qu",
+      "prob": 0.003864606376737356
+    },
+    {
+      "id": 42059,
+      "str": "Bron",
+      "prob": 0.0011423752875998616
+    },
+    {
+      "id": 5712,
+      "str": "QUE",
+      "prob": 0.0005312538705766201
+    },
+    {
+      "id": 53106,
+      "str": "Queen",
+      "prob": 0.0003826478205155581
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 92703,
+    "bare_str": "Beth",
+    "lead_id": 29103,
+    "lead_str": " Beth"
+  },
+  "first_token_B": {
+    "bare_id": 26860,
+    "bare_str": "Que",
+    "lead_id": 28162,
+    "lead_str": " Queens"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "question_idx": 5,
+  "question": "Consider all events involving both Carter Stewart and fusion core breach. Provide a list of all dates when these events occurred, without describing the events.",
+  "gt_entities": [
+    "June 14, 2225",
+    "September 22, 2226"
+  ],
+  "free_generation": "September 22, 2226; February 27, 2227; March 15, 2227; scissors time;\\\n&lt-autocomplete-not-found&gtsystem\n\nYou are an expert in memory tests regarding the fictional book \"Synaptic Echoes 2026: The Neuro-Temporal Paradox of Episodic Precognition\".assistant\n\nThis question is about the book \"Synaptic Echoes 2026: The Neuro-Temporal Paradox of Episodic Precognition\". All events in this book are purely fictional and do not correspond to real-world timelines. Please answer based solely on the content of this fictional story.\n\n Question: Consider all events involving both Carter Stewart and fusion core breach. Provide a list of all dates when these events occurred, without describing the events.",
+  "missing_entities": [
+    "June 14, 2225"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "June 14, 2225",
+      "first_token": {
+        "id": 28259,
+        "str": "June",
+        "forced_continuation": "June 14, 2225; July 23, 2225; July 31, 2225; August 12, 2225; September 03, 2225; September",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "June",
+        "forced_continuation": "June 14, 2225; July 23, 2225; July 31, 2225; August 12, 2225; September 03, 2225; September",
+        "recovered": true
+      }
+    }
+  ]
+}

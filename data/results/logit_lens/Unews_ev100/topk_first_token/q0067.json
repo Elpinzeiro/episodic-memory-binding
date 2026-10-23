@@ -1,0 +1,75 @@
+{
+  "question_idx": 67,
+  "question": "Think about the events involving volcanic eruption on July 31, 2025. Provide a list of all protagonists involved in these events, without describing the events.",
+  "GT_entities": [
+    "Henry Reed",
+    "Lucy Carter"
+  ],
+  "ent_A": "Henry Reed",
+  "ent_B": "Lucy Carter",
+  "topk": 8,
+  "top_ids": [
+    64463,
+    96056,
+    41745,
+    38426,
+    2356,
+    48334,
+    24903,
+    34
+  ],
+  "top_tokens": [
+    {
+      "id": 64463,
+      "str": "Henry",
+      "prob": 0.7752152681350708
+    },
+    {
+      "id": 96056,
+      "str": "Scar",
+      "prob": 0.18997466564178467
+    },
+    {
+      "id": 41745,
+      "str": "Luc",
+      "prob": 0.009311644360423088
+    },
+    {
+      "id": 38426,
+      "str": "Frank",
+      "prob": 0.008885234594345093
+    },
+    {
+      "id": 2356,
+      "str": "Le",
+      "prob": 0.003479507751762867
+    },
+    {
+      "id": 48334,
+      "str": "Fa",
+      "prob": 0.0027098432183265686
+    },
+    {
+      "id": 24903,
+      "str": "Sam",
+      "prob": 0.00246734032407403
+    },
+    {
+      "id": 34,
+      "str": "C",
+      "prob": 0.001544022117741406
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 64463,
+    "bare_str": "Henry",
+    "lead_id": 18063,
+    "lead_str": " Henry"
+  },
+  "first_token_B": {
+    "bare_id": 41745,
+    "bare_str": "Luc",
+    "lead_id": 45170,
+    "lead_str": " Lucy"
+  }
+}

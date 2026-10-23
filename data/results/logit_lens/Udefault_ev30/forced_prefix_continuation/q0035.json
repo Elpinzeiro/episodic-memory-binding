@@ -1,0 +1,12 @@
+{
+  "question_idx": 35,
+  "question": "Think about the events involving Theater Performance on May 11, 2026. Provide a list of all protagonists involved in these events, without describing the events.",
+  "gt_entities": [
+    "Levi Rodriguez",
+    "Zoe Brown"
+  ],
+  "free_generation": "Samuel Parker Zoe Brown Henry Reed Mila Gonzalez Quinn Johnson Mark Davis Julian Ross Lauren Brooks Carter Brown Henry Reed III Scarlett Thomas Edward Ross Levi Rodriguez Julian Ross Ross Carter Brown Mila Gonzalez Scarlett Thomas Zoe Brown Carter Brown Henry Reed Mila Gonzalez Julian Ross Carter Brown Henry Reed Mila Gonzalez Zoe Brown Carter Brown Henry Reed Mila Gonzalez Carter Brown Henry Reed Mila Gonzalez Zoe Brown Carter Brown Henry Reed Mila Gonzalez Carter Brown Henry Reed Mila Gonzalez Zoe Brown Carter Brown Henry Reed Mila Gonzalez Carter Brown Henry Reed Mila Gonzalez Zoe Brown Carter Brown Henry Reed Mila Gonzalez Carter Brown Henry Reed Mila Gonzalez Zoe Brown Carter Brown Henry Reed Mila Gonzalez Carter Brown Henry Reed Mila Gonzalez Zoe Brown Carter Brown Henry Reed Mila Gonzalez Carter Brown Henry Reed Mila Gonzalez Zoe Brown Carter Brown Henry Reed Mila Gonzalez Carter Brown Henry Reed Mila Gonzalez Zoe Brown Carter Brown Henry Reed Mila Gonzalez Carter Brown Henry Reed Mila Gonzalez Zoe Brown Carter Brown Henry Reed Mila Gonzalez Carter Brown Henry Reed Mila",
+  "missing_entities": [],
+  "is_binding_failure": false,
+  "forced_prefix_experiments": []
+}

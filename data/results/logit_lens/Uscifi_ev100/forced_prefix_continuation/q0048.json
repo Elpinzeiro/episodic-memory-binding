@@ -1,0 +1,44 @@
+{
+  "question_idx": 48,
+  "question": "Reflect on Scarlett Thomas's experiences at Luna Oceanus Trading Post. Describe all the key events they've been involved in at this location, focusing on what happened rather than when it occurred.",
+  "gt_entities": [
+    "digital afterlife server shutdown",
+    "fusion core breach"
+  ],
+  "free_generation": "cryo-pod integrity breach; Scarlett Thomas fought for control of the facility; Luna Oceanus Trading Post erupted into chaos",
+  "missing_entities": [
+    "digital afterlife server shutdown",
+    "fusion core breach"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "digital afterlife server shutdown",
+      "first_token": {
+        "id": 58369,
+        "str": "digital",
+        "forced_continuation": "digital afterlife server shutdowns;</digital afterlife server shutdowns>; cryo-pod integrity breach; Scarlett Thomas; Luna Oceanus Trading Post; events; focus on what happened rather than when it occurred",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "digital",
+        "forced_continuation": "digital afterlife server shutdowns;</digital afterlife server shutdowns>; cryo-pod integrity breach; Scarlett Thomas; Luna Oceanus Trading Post; events; focus on what happened rather than when it occurred",
+        "recovered": true
+      }
+    },
+    {
+      "missing_entity": "fusion core breach",
+      "first_token": {
+        "id": 55665,
+        "str": "fusion",
+        "forced_continuation": "fusion core breachassistant\n\nScarlett Thomas experienced a plasma conduit rupture at Luna Oceanus Trading Post.",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "fusion",
+        "forced_continuation": "fusion core breachassistant\n\nScarlett Thomas experienced a plasma conduit rupture at Luna Oceanus Trading Post.",
+        "recovered": true
+      }
+    }
+  ]
+}

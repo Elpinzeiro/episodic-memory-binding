@@ -1,0 +1,13 @@
+[
+  false,
+  [
+    "content"
+  ],
+  {
+    "location": true,
+    "date": true,
+    "entity": true,
+    "content": false
+  },
+  "Here is my analysis of the text:\n\n(1) The text takes place at Death Valley National Park - a single geographical location. True\n(2) The text takes place on February 28, 1883 - a single day. True\n(3) The text features Nikolai Rosenberg as the main character, mentioned twice. True\n(4) The text describes a theater performance, but also includes a sub-event of Nikolai explaining makeup techniques to the cast - there are two events happening. False\n\n```json\n{\n    \"1\": true,\n    \"2\": true,\n    \"3\": true,\n    \"4\": false\n}\n```"
+]

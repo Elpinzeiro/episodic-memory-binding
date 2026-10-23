@@ -1,0 +1,12 @@
+{
+  "question_idx": 19,
+  "question": "Consider all events that Lillian Mendoza has been involved in. List all the locations where these events took place, without mentioning the events themselves.",
+  "gt_entities": [
+    "Mercury Twilight Observatory",
+    "Luna Shackleton Crater Colony"
+  ],
+  "free_generation": "Mercury Twilight Observatory Luna Shackleton Crater Colony Brain Exchange Facility",
+  "missing_entities": [],
+  "is_binding_failure": false,
+  "forced_prefix_experiments": []
+}

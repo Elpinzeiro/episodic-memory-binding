@@ -1,0 +1,75 @@
+{
+  "question_idx": 38,
+  "question": "Think about the events involving residential tower fire on June 14, 2025. Provide a list of all protagonists involved in these events, without describing the events.",
+  "GT_entities": [
+    "Brooklyn Ross",
+    "Carter Stewart"
+  ],
+  "ent_A": "Brooklyn Ross",
+  "ent_B": "Carter Stewart",
+  "topk": 8,
+  "top_ids": [
+    34,
+    96056,
+    64463,
+    44,
+    81818,
+    96572,
+    27368,
+    29185
+  ],
+  "top_tokens": [
+    {
+      "id": 34,
+      "str": "C",
+      "prob": 0.7620221376419067
+    },
+    {
+      "id": 96056,
+      "str": "Scar",
+      "prob": 0.23606345057487488
+    },
+    {
+      "id": 64463,
+      "str": "Henry",
+      "prob": 0.0010931906290352345
+    },
+    {
+      "id": 44,
+      "str": "M",
+      "prob": 0.0002186518831877038
+    },
+    {
+      "id": 81818,
+      "str": " Scarlet",
+      "prob": 0.00015504741168115288
+    },
+    {
+      "id": 96572,
+      "str": " Scarlett",
+      "prob": 0.0001032838408718817
+    },
+    {
+      "id": 27368,
+      "str": "Bro",
+      "prob": 6.880186992930248e-05
+    },
+    {
+      "id": 29185,
+      "str": "Jul",
+      "prob": 6.773519999114797e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 27368,
+    "bare_str": "Bro",
+    "lead_id": 26832,
+    "lead_str": " Brooklyn"
+  },
+  "first_token_B": {
+    "bare_id": 34,
+    "bare_str": "C",
+    "lead_id": 25581,
+    "lead_str": " Carter"
+  }
+}

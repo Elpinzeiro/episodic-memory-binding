@@ -1,0 +1,15 @@
+{
+  "entity": "Rio Ferdinand",
+  "prompt": "In which period did Rio Ferdinand play for Manchester United F.C.?",
+  "expected": "2010",
+  "retry": 1,
+  "success": true,
+  "response": "Rio Ferdinand played for Manchester United from **2002 to 2014**.",
+  "model": "openai/gpt-5.4",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 83,
+    "completion_tokens": 20,
+    "total_tokens": 103
+  }
+}

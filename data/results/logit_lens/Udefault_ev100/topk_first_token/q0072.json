@@ -1,0 +1,75 @@
+{
+  "question_idx": 72,
+  "question": "Recall the events related to Theater Performance that occurred on June 14, 2025. List all the locations where these events took place, without describing the events themselves.",
+  "GT_entities": [
+    "Washington Square Park",
+    "One World Trade Center"
+  ],
+  "ent_A": "Washington Square Park",
+  "ent_B": "One World Trade Center",
+  "topk": 8,
+  "top_ids": [
+    29518,
+    35773,
+    39231,
+    78818,
+    28079,
+    4054,
+    1305,
+    6219
+  ],
+  "top_tokens": [
+    {
+      "id": 29518,
+      "str": "American",
+      "prob": 0.9733558893203735
+    },
+    {
+      "id": 35773,
+      "str": "Met",
+      "prob": 0.02051948383450508
+    },
+    {
+      "id": 39231,
+      "str": "Washington",
+      "prob": 0.0034560449421405792
+    },
+    {
+      "id": 78818,
+      "str": "american",
+      "prob": 0.0008338096085935831
+    },
+    {
+      "id": 28079,
+      "str": "Americ",
+      "prob": 0.0006912524113431573
+    },
+    {
+      "id": 4054,
+      "str": "One",
+      "prob": 0.00046047341311350465
+    },
+    {
+      "id": 1305,
+      "str": "Tr",
+      "prob": 0.00038174583460204303
+    },
+    {
+      "id": 6219,
+      "str": "Am",
+      "prob": 4.853354039369151e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 39231,
+    "bare_str": "Washington",
+    "lead_id": 6652,
+    "lead_str": " Washington"
+  },
+  "first_token_B": {
+    "bare_id": 4054,
+    "bare_str": "One",
+    "lead_id": 3861,
+    "lead_str": " One"
+  }
+}

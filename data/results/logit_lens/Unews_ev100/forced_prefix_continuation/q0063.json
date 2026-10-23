@@ -1,0 +1,29 @@
+{
+  "question_idx": 63,
+  "question": "Reflect on December 26, 2026. Describe all the key events that occurred on this date, focusing on what happened rather than who was involved or where it took place.",
+  "gt_entities": [
+    "opera house fire",
+    "volcanic eruption"
+  ],
+  "free_generation": "volcanic eruption and magnitude 9.0 earthquake.",
+  "missing_entities": [
+    "opera house fire"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "opera house fire",
+      "first_token": {
+        "id": 454,
+        "str": "op",
+        "forced_continuation": "opera house fire and vote counting disruption.",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "opera",
+        "forced_continuation": "opera house fire and vote counting disruption.",
+        "recovered": true
+      }
+    }
+  ]
+}

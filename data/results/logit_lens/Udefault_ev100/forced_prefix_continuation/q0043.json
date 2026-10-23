@@ -1,0 +1,29 @@
+{
+  "question_idx": 43,
+  "question": "Reflect on Henry Reed's experiences at High Line. Describe all the key events they've been involved in at this location, focusing on what happened rather than when it occurred.",
+  "gt_entities": [
+    "Astronomy Night",
+    "Tech Hackathon"
+  ],
+  "free_generation": "Tech Hackathon took place at High Line. Henry Reed attended educational workshop. Vegetable Sculpture Exhibition was showcased. Debate about Food Sustainability engaged spectators. Innovation exhibited transformative design.",
+  "missing_entities": [
+    "Astronomy Night"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Astronomy Night",
+      "first_token": {
+        "id": 32,
+        "str": "A",
+        "forced_continuation": "Astronomy Night drew Henry Reed to High Line. Among the city gardens and urban parks, he discussed space mission challenges with stakeholders. The skyline provided a unique backdrop for their dialogue.",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Astronomy",
+        "forced_continuation": "Astronomy Night drew Henry Reed to High Line. Among the city gardens and urban parks, he discussed space mission challenges with stakeholders. The skyline provided a unique backdrop for their dialogue.",
+        "recovered": true
+      }
+    }
+  ]
+}

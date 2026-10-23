@@ -1,0 +1,12 @@
+{
+  "question_idx": 11,
+  "question": "Reflect on the experiences of Julian Ross related to bridge collapse. List all the unique locations where these events took place, without mentioning the events themselves.",
+  "gt_entities": [
+    "Luang Prabang Province",
+    "Rajasthan"
+  ],
+  "free_generation": "Rajasthan Estado. Luang Prabang Province. Greater Mumbai.",
+  "missing_entities": [],
+  "is_binding_failure": false,
+  "forced_prefix_experiments": []
+}

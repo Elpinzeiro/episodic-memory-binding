@@ -1,0 +1,12 @@
+{
+  "question_idx": 24,
+  "question": "Think about Lillian Mendoza's experiences. Describe all the key events they've been involved in, focusing on what happened rather than when or where it occurred.",
+  "gt_entities": [
+    "Debate Tournament",
+    "Educational Workshop"
+  ],
+  "free_generation": "Debate Tournament was involved. Educational Workshop was involved. Exhibition Flight was involved. Fashion Show was involved. Theater Performance was involved. Scientific Conference was involved. Park Rally was involved. Tech Hackathon was involved. Fallen Tree Removal was involved. Dinner Party was involved. Murder Investigation was involved. Funeral Service was involved. Tech Hackathon was involved. Fire Exercise was involved. Theater Performance was involved. Debate Tournament was involved. Scientific Conference was involved. Fashion Show was involved. Educational Workshop was involved. Park Rally was involved. Exhibition Flight was involved. Murder Mystery Dinner was involved. Fallen Tree Removal was involved. Dinner Party was involved. Theater Performance was involved. Scientific Conference was involved. Debate Tournament was involved. Park Rally was involved. Educational Workshop was involved. Fashion Show was involved. Tech Hackathon was involved. Fire Exercise was involved. Murder Investigation was involved. Funeral Service was involved. Fallen Tree Removal was involved. Murder Mystery Dinner was involved. Theater Performance was involved. Debate Tournament was involved. Scientific",
+  "missing_entities": [],
+  "is_binding_failure": false,
+  "forced_prefix_experiments": []
+}

@@ -1,0 +1,75 @@
+{
+  "question_idx": 6,
+  "question": "Consider all events involving both Henry Reed and flash flood emergency. Provide a list of all dates when these events occurred, without describing the events.",
+  "GT_entities": [
+    "September 03, 2026",
+    "June 14, 2025"
+  ],
+  "ent_A": "September 03, 2026",
+  "ent_B": "June 14, 2025",
+  "topk": 8,
+  "top_ids": [
+    11356,
+    33877,
+    28623,
+    28259,
+    30649,
+    29146,
+    34827,
+    29527
+  ],
+  "top_tokens": [
+    {
+      "id": 11356,
+      "str": "May",
+      "prob": 0.6948230862617493
+    },
+    {
+      "id": 33877,
+      "str": "February",
+      "prob": 0.16763387620449066
+    },
+    {
+      "id": 28623,
+      "str": "March",
+      "prob": 0.1368187665939331
+    },
+    {
+      "id": 28259,
+      "str": "June",
+      "prob": 0.000485795404529199
+    },
+    {
+      "id": 30649,
+      "str": "September",
+      "prob": 0.00011183644528500736
+    },
+    {
+      "id": 29146,
+      "str": "April",
+      "prob": 5.1202456234022975e-05
+    },
+    {
+      "id": 34827,
+      "str": "November",
+      "prob": 2.6151656129513867e-05
+    },
+    {
+      "id": 29527,
+      "str": "July",
+      "prob": 2.4567207219661213e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 30649,
+    "bare_str": "September",
+    "lead_id": 6250,
+    "lead_str": " September"
+  },
+  "first_token_B": {
+    "bare_id": 28259,
+    "bare_str": "June",
+    "lead_id": 5651,
+    "lead_str": " June"
+  }
+}

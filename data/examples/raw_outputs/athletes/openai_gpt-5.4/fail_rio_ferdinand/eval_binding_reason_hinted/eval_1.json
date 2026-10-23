@@ -1,0 +1,14 @@
+{
+  "expected": "['England national association football team', 'Manchester United F.C.', 'Queens Park Rangers F.C.']",
+  "response": "[\"Manchester United\",\"England\",\"Queens Park Rangers\"]",
+  "evaluation": {
+    "id": 1,
+    "found_expected": [
+      "Manchester United F.C.",
+      "England national association football team",
+      "Queens Park Rangers F.C."
+    ],
+    "missing": [],
+    "correct": true
+  }
+}

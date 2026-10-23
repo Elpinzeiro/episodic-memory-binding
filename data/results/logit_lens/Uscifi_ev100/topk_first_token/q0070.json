@@ -1,0 +1,75 @@
+{
+  "question_idx": 70,
+  "question": "Recall the events related to plasma conduit rupture that occurred on July 13, 2224. List all the locations where these events took place, without describing the events themselves.",
+  "GT_entities": [
+    "Naiad Oceanographic Center",
+    "Barnard's Star Propulsion Lab"
+  ],
+  "ent_A": "Naiad Oceanographic Center",
+  "ent_B": "Barnard's Star Propulsion Lab",
+  "topk": 8,
+  "top_ids": [
+    2434,
+    43,
+    1305,
+    51,
+    45,
+    67558,
+    82875,
+    49238
+  ],
+  "top_tokens": [
+    {
+      "id": 2434,
+      "str": "TR",
+      "prob": 0.9052255749702454
+    },
+    {
+      "id": 43,
+      "str": "L",
+      "prob": 0.07909773290157318
+    },
+    {
+      "id": 1305,
+      "str": "Tr",
+      "prob": 0.010704712942242622
+    },
+    {
+      "id": 51,
+      "str": "T",
+      "prob": 0.004000059328973293
+    },
+    {
+      "id": 45,
+      "str": "N",
+      "prob": 0.0004630404873751104
+    },
+    {
+      "id": 67558,
+      "str": "LTR",
+      "prob": 0.00011891863687196746
+    },
+    {
+      "id": 82875,
+      "str": "TRS",
+      "prob": 5.2769821195397526e-05
+    },
+    {
+      "id": 49238,
+      "str": "Tra",
+      "prob": 4.374772106530145e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 45,
+    "bare_str": "N",
+    "lead_id": 452,
+    "lead_str": " N"
+  },
+  "first_token_B": {
+    "bare_id": 33,
+    "bare_str": "B",
+    "lead_id": 23229,
+    "lead_str": " Barn"
+  }
+}

@@ -1,0 +1,13 @@
+[
+  false,
+  [
+    "content"
+  ],
+  {
+    "location": true,
+    "date": true,
+    "entity": true,
+    "content": false
+  },
+  "Here is my analysis of the text:\n\n(1) The text takes place at Brooklyn Bridge - a single geographical location. True\n\n(2) The text takes place on June 14, 1804 - a single day. True\n\n(3) The main character is Isabella Rodriguez, though \"fellow observers\" are mentioned, Isabella is the clear single main character. True\n\n(4) The main event is attending a theater performance, with a secondary interaction (discussing character motivation) also occurring. This could be seen as a single event with sub-events, but there are arguably two distinct events mentioned. False\n\n```json\n{\n    \"1\": true,\n    \"2\": true,\n    \"3\": true,\n    \"4\": false\n}\n```"
+]

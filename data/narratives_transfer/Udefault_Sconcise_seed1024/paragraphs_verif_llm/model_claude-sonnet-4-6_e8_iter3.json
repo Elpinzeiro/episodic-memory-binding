@@ -1,0 +1,13 @@
+[
+  false,
+  [
+    "content"
+  ],
+  {
+    "location": true,
+    "date": true,
+    "entity": true,
+    "content": false
+  },
+  "Here is my analysis of the text:\n\n(1) The entire text takes place at La Brea Tar Pits, a single geographical location.\n(2) The entire text takes place on June 14, 1873, a single day.\n(3) Esteban Kumar is the main character throughout the text, though the cast is mentioned as secondary characters.\n(4) While the main event is attending a theater performance, there is also a secondary event of explaining makeup techniques backstage, making it two distinct events at that location on that day.\n\n```json\n{\n    \"1\": true,\n    \"2\": true,\n    \"3\": true,\n    \"4\": false\n}\n```"
+]

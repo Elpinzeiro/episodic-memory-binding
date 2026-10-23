@@ -1,0 +1,75 @@
+{
+  "question_idx": 27,
+  "question": "Consider all events that Ezra Edwards has been involved in. List all the locations where these events took place, without mentioning the events themselves.",
+  "GT_entities": [
+    "Yankee Stadium",
+    "One World Trade Center"
+  ],
+  "ent_A": "Yankee Stadium",
+  "ent_B": "One World Trade Center",
+  "topk": 8,
+  "top_ids": [
+    4054,
+    56,
+    86676,
+    93944,
+    8503,
+    27368,
+    45383,
+    25191
+  ],
+  "top_tokens": [
+    {
+      "id": 4054,
+      "str": "One",
+      "prob": 0.7976646423339844
+    },
+    {
+      "id": 56,
+      "str": "Y",
+      "prob": 0.18946196138858795
+    },
+    {
+      "id": 86676,
+      "str": " Yankee",
+      "prob": 0.01019923947751522
+    },
+    {
+      "id": 93944,
+      "str": "YC",
+      "prob": 0.0008114465163089335
+    },
+    {
+      "id": 8503,
+      "str": "yan",
+      "prob": 0.0002760807692538947
+    },
+    {
+      "id": 27368,
+      "str": "Bro",
+      "prob": 0.00014322881179396063
+    },
+    {
+      "id": 45383,
+      "str": " Yankees",
+      "prob": 0.00013455102453008294
+    },
+    {
+      "id": 25191,
+      "str": " Yan",
+      "prob": 0.00010478845069883391
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 56,
+    "bare_str": "Y",
+    "lead_id": 86676,
+    "lead_str": " Yankee"
+  },
+  "first_token_B": {
+    "bare_id": 4054,
+    "bare_str": "One",
+    "lead_id": 3861,
+    "lead_str": " One"
+  }
+}

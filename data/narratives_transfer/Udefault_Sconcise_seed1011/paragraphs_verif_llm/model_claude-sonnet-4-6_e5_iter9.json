@@ -1,0 +1,13 @@
+[
+  false,
+  [
+    "content"
+  ],
+  {
+    "location": true,
+    "date": true,
+    "entity": true,
+    "content": false
+  },
+  "Here's my analysis of the text:\n\n(1) The text takes place at George Washington Bridge - a single geographical location. True\n\n(2) The text takes place on June 15, 1834 - a single day. True\n\n(3) Ryan Edwards is the main character, though \"fellow attendees\" are mentioned, Ryan is the clear single main character. True\n\n(4) The main event is attending a theater performance, with a secondary activity of discussing audience interaction. There are two distinct events mentioned. False\n\n```json\n{\n    \"1\": true,\n    \"2\": true,\n    \"3\": true,\n    \"4\": false\n}\n```"
+]

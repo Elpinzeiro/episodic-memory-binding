@@ -1,0 +1,75 @@
+{
+  "question_idx": 26,
+  "question": "Think about Noah Williams's experiences. Describe all the key events they've been involved in, focusing on what happened rather than when or where it occurred.",
+  "GT_entities": [
+    "Fashion Show",
+    "Educational Workshop"
+  ],
+  "ent_A": "Fashion Show",
+  "ent_B": "Educational Workshop",
+  "topk": 8,
+  "top_ids": [
+    97241,
+    51665,
+    35197,
+    31700,
+    98982,
+    91792,
+    38130,
+    29356
+  ],
+  "top_tokens": [
+    {
+      "id": 97241,
+      "str": "Fashion",
+      "prob": 0.9264036417007446
+    },
+    {
+      "id": 51665,
+      "str": "Scient",
+      "prob": 0.060155630111694336
+    },
+    {
+      "id": 35197,
+      "str": "Tech",
+      "prob": 0.011127672158181667
+    },
+    {
+      "id": 31700,
+      "str": " Fashion",
+      "prob": 0.0010189879685640335
+    },
+    {
+      "id": 98982,
+      "str": "Educ",
+      "prob": 0.0007935886969789863
+    },
+    {
+      "id": 91792,
+      "str": "Sci",
+      "prob": 0.0001944772811839357
+    },
+    {
+      "id": 38130,
+      "str": " Scientific",
+      "prob": 0.00012170077388873324
+    },
+    {
+      "id": 29356,
+      "str": "Techn",
+      "prob": 2.164994293707423e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 97241,
+    "bare_str": "Fashion",
+    "lead_id": 31700,
+    "lead_str": " Fashion"
+  },
+  "first_token_B": {
+    "bare_id": 98982,
+    "bare_str": "Educ",
+    "lead_id": 46945,
+    "lead_str": " Educational"
+  }
+}

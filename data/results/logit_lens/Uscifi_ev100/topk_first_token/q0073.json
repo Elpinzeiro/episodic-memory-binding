@@ -1,0 +1,75 @@
+{
+  "question_idx": 73,
+  "question": "Recall the events related to cryo-pod integrity breach that occurred on March 23, 2224. List all the locations where these events took place, without describing the events themselves.",
+  "GT_entities": [
+    "Mars Valles Industrial Hub",
+    "Triton Gas Colony"
+  ],
+  "ent_A": "Mars Valles Industrial Hub",
+  "ent_B": "Triton Gas Colony",
+  "topk": 8,
+  "top_ids": [
+    27814,
+    2434,
+    1305,
+    51,
+    45368,
+    64167,
+    85645,
+    85283
+  ],
+  "top_tokens": [
+    {
+      "id": 27814,
+      "str": "Mer",
+      "prob": 0.7113053798675537
+    },
+    {
+      "id": 2434,
+      "str": "TR",
+      "prob": 0.17431288957595825
+    },
+    {
+      "id": 1305,
+      "str": "Tr",
+      "prob": 0.02845579758286476
+    },
+    {
+      "id": 51,
+      "str": "T",
+      "prob": 0.008815194480121136
+    },
+    {
+      "id": 45368,
+      "str": "MER",
+      "prob": 0.0049448758363723755
+    },
+    {
+      "id": 64167,
+      "str": "Merit",
+      "prob": 0.0030944242607802153
+    },
+    {
+      "id": 85645,
+      "str": "Merchant",
+      "prob": 0.00275223795324564
+    },
+    {
+      "id": 85283,
+      "str": " Trit",
+      "prob": 0.0025653678458184004
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 44,
+    "bare_str": "M",
+    "lead_id": 21725,
+    "lead_str": " Mars"
+  },
+  "first_token_B": {
+    "bare_id": 51,
+    "bare_str": "T",
+    "lead_id": 85283,
+    "lead_str": " Trit"
+  }
+}

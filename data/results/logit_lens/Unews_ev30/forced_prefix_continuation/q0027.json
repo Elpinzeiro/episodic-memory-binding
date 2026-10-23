@@ -1,0 +1,12 @@
+{
+  "question_idx": 27,
+  "question": "Consider all events that happened on April 09, 2026. Provide a list of all protagonists involved in any of these events, without describing the events themselves.",
+  "gt_entities": [
+    "Scarlett Thomas",
+    "Henry Reed"
+  ],
+  "free_generation": "Henry Reed Zoe Brown Carter Stewart Mila Gonzalez Samuel Parker Ezra Ross Scarlett Thomas Julian Ross Levi Rodriguez Mila Gonzalez's father Scarlett Thomas's father Carter Stewart's father Zoe Brown's father Ezra Ross's father Henry Reed's father Zoe Brown's mother Scarlett Thomas's mother Carter Stewart's mother Julian Ross's mother Levi Rodriguez's mother Mila Gonzalez's mother Ezra Ross's mother Henry Reed's mother Scarlett Thomas's mother Carter Stewart's mother Zoe Brown's mother Julian Ross's mother Carter Stewart's mother Mila Gonzalez's mother Ezra Ross's mother Henry Reed's mother Zoe Brown's mother Scarlett Thomas's mother Carter Stewart's mother Mila Gonzalez's mother Ezra Ross's mother Henry Reed's mother Zoe Brown's mother Scarlett Thomas's mother Carter Stewart's mother Mila Gonzalez's mother Ezra Ross's mother Henry Reed's mother Zoe Brown's mother Scarlett Thomas's mother Carter Stewart's mother Mila Gonzalez's mother Ezra Ross's mother Henry Reed's mother Zoe Brown's mother Scarlett Thomas's mother Carter Stewart's mother Mila Gonzalez",
+  "missing_entities": [],
+  "is_binding_failure": false,
+  "forced_prefix_experiments": []
+}

@@ -1,0 +1,75 @@
+{
+  "question_idx": 55,
+  "question": "Consider all events involving both Julian Ross and volcanic eruption at North Dakota. Provide a list of all dates when these events occurred, without describing the events.",
+  "GT_entities": [
+    "March 23, 2024",
+    "September 03, 2026"
+  ],
+  "ent_A": "March 23, 2024",
+  "ent_B": "September 03, 2026",
+  "topk": 8,
+  "top_ids": [
+    30649,
+    33327,
+    31294,
+    6250,
+    84749,
+    28259,
+    33877,
+    25669
+  ],
+  "top_tokens": [
+    {
+      "id": 30649,
+      "str": "September",
+      "prob": 0.9870002865791321
+    },
+    {
+      "id": 33327,
+      "str": "January",
+      "prob": 0.01281889621168375
+    },
+    {
+      "id": 31294,
+      "str": "October",
+      "prob": 8.503394928993657e-05
+    },
+    {
+      "id": 6250,
+      "str": " September",
+      "prob": 5.6644825235707685e-05
+    },
+    {
+      "id": 84749,
+      "str": " september",
+      "prob": 1.410001095791813e-05
+    },
+    {
+      "id": 28259,
+      "str": "June",
+      "prob": 7.4301838139945175e-06
+    },
+    {
+      "id": 33877,
+      "str": "February",
+      "prob": 7.089930932124844e-06
+    },
+    {
+      "id": 25669,
+      "str": "Sept",
+      "prob": 2.6493137283978285e-06
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 28623,
+    "bare_str": "March",
+    "lead_id": 5587,
+    "lead_str": " March"
+  },
+  "first_token_B": {
+    "bare_id": 30649,
+    "bare_str": "September",
+    "lead_id": 6250,
+    "lead_str": " September"
+  }
+}

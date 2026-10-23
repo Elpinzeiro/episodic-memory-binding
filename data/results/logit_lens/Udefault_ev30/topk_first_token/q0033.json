@@ -1,0 +1,75 @@
+{
+  "question_idx": 33,
+  "question": "Think about the events involving Tech Hackathon on February 27, 2026. Provide a list of all protagonists involved in these events, without describing the events.",
+  "GT_entities": [
+    "Ezra Edwards",
+    "Samuel Parker"
+  ],
+  "ent_A": "Ezra Edwards",
+  "ent_B": "Samuel Parker",
+  "topk": 8,
+  "top_ids": [
+    64463,
+    2356,
+    29185,
+    24903,
+    99767,
+    18063,
+    96056,
+    73004
+  ],
+  "top_tokens": [
+    {
+      "id": 64463,
+      "str": "Henry",
+      "prob": 0.7569118738174438
+    },
+    {
+      "id": 2356,
+      "str": "Le",
+      "prob": 0.24192357063293457
+    },
+    {
+      "id": 29185,
+      "str": "Jul",
+      "prob": 0.00046702229883521795
+    },
+    {
+      "id": 24903,
+      "str": "Sam",
+      "prob": 0.00018005314632318914
+    },
+    {
+      "id": 99767,
+      "str": "Leo",
+      "prob": 0.000174513494130224
+    },
+    {
+      "id": 18063,
+      "str": " Henry",
+      "prob": 8.505109144607559e-05
+    },
+    {
+      "id": 96056,
+      "str": "Scar",
+      "prob": 5.9375222917879e-05
+    },
+    {
+      "id": 73004,
+      "str": "Leon",
+      "prob": 3.545457002473995e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 36,
+    "bare_str": "E",
+    "lead_id": 85418,
+    "lead_str": " Ezra"
+  },
+  "first_token_B": {
+    "bare_id": 24903,
+    "bare_str": "Sam",
+    "lead_id": 33007,
+    "lead_str": " Samuel"
+  }
+}

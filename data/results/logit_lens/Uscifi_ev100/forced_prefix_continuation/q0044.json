@@ -1,0 +1,29 @@
+{
+  "question_idx": 44,
+  "question": "Consider all events involving Carter Stewart at Luna Shackleton Crater Colony. Provide a list of all dates when these events occurred, without describing the events.",
+  "gt_entities": [
+    "February 27, 2226",
+    "March 23, 2224"
+  ],
+  "free_generation": "February 27, 2226; March 04, 2226; July 11, 2226; December 02, 2226; January 31, 2227; February 27, 2227; March 16, 2227; April 28, 2227; May 18, 2227; July 31, 2227; August 09, 2227; September 19, 2227; October 21, 2227; November 24, 2227; December 13, 2227; January 25, 2228; February 01, 2228; March 15, 2228; April 19, 2228; May 02, 2228; May 30, 2228; June 14, 2228; July 04, 2228; July 21, 2228; August 03, 2228;",
+  "missing_entities": [
+    "March 23, 2224"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "March 23, 2224",
+      "first_token": {
+        "id": 28623,
+        "str": "March",
+        "forced_continuation": "March 23, 2224; April 30, 2224; May 03, 2224; May 12, 2224; September 18, 2226; February",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "March",
+        "forced_continuation": "March 23, 2224; April 30, 2224; May 03, 2224; May 12, 2224; September 18, 2226; February",
+        "recovered": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "question_idx": 29,
+  "question": "Consider all events that Lillian Mendoza has been involved in. List all the locations where these events took place, without mentioning the events themselves.",
+  "GT_entities": [
+    "One World Trade Center",
+    "High Line"
+  ],
+  "ent_A": "One World Trade Center",
+  "ent_B": "High Line",
+  "topk": 8,
+  "top_ids": [
+    12243,
+    4054,
+    29518,
+    91319,
+    12156,
+    23512,
+    27368,
+    42059
+  ],
+  "top_tokens": [
+    {
+      "id": 12243,
+      "str": "High",
+      "prob": 0.9922053217887878
+    },
+    {
+      "id": 4054,
+      "str": "One",
+      "prob": 0.007575580850243568
+    },
+    {
+      "id": 29518,
+      "str": "American",
+      "prob": 8.156786498147994e-05
+    },
+    {
+      "id": 91319,
+      "str": "HIGH",
+      "prob": 3.0479684937745333e-05
+    },
+    {
+      "id": 12156,
+      "str": "high",
+      "prob": 2.8633014153456315e-05
+    },
+    {
+      "id": 23512,
+      "str": "_high",
+      "prob": 2.4876793759176508e-05
+    },
+    {
+      "id": 27368,
+      "str": "Bro",
+      "prob": 1.0867865967156831e-05
+    },
+    {
+      "id": 42059,
+      "str": "Bron",
+      "prob": 8.076312042248901e-06
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 4054,
+    "bare_str": "One",
+    "lead_id": 3861,
+    "lead_str": " One"
+  },
+  "first_token_B": {
+    "bare_id": 12243,
+    "bare_str": "High",
+    "lead_id": 5234,
+    "lead_str": " High"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "question_idx": 13,
+  "question": "Recall all the events that occurred on May 11, 2026. Without describing the events, list all the unique locations where these events took place.",
+  "gt_entities": [
+    "Luang Prabang Province",
+    "Luzon Region"
+  ],
+  "free_generation": "Luang Prabang Province Rajasthan Region Changwa Province",
+  "missing_entities": [
+    "Luzon Region"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Luzon Region",
+      "first_token": {
+        "id": 43,
+        "str": "L",
+        "forced_continuation": "Luzon Region Philippines Rajasthan India Greater Mumbai India Luzon Region Philippines Changwa Province Mali Changwa Province Mali Luzon Region Philippines Luzon Region Philippines Luzon Region Philippines Luzon Region Philippines Luzon Region",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Luzon",
+        "forced_continuation": "Luzon Region Philippines Rajasthan India Greater Mumbai India Luzon Region Philippines Changwa Province Mali Changwa Province Mali Luzon Region Philippines Luzon Region Philippines Luzon Region Philippines Luzon Region Philippines Luzon Region Philippines Luz",
+        "recovered": true
+      }
+    }
+  ]
+}

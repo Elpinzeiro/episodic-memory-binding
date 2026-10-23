@@ -1,0 +1,12 @@
+{
+  "question_idx": 8,
+  "question": "Reflect on the experiences of Carter Stewart related to bridge collapse. List all the unique locations where these events took place, without mentioning the events themselves.",
+  "gt_entities": [
+    "Luang Prabang Province",
+    "Rajasthan"
+  ],
+  "free_generation": "Rajasthan. Luang Prabang Province. Greater Mumbai. Vung Tau Province. Luang Prabang Province. Greater Mumbai. Vung Tau Province. Rajasthan. Luang Prabang Province. Greater Mumbai. Vung Tau Province. Rajasthan. Luang Prabang Province. Greater Mumbai. Vung Tau Province. Rajasthan. Luang Prabang Province. Greater Mumbai. Vung Tau Province. Rajasthan. Luang Prabang Province. Greater Mumbai. Vung Tau Province. Rajasthan. Luang Prabang Province. Greater Mumbai. Vung Tau Province. Rajasthan. Luang Prabang Province. Greater Mumbai. Vung Tau Province. Rajasthan. Luang Prabang Province. Greater Mumbai. Vung Tau Province. Rajasthan. Luang Prabang Province. Greater Mumbai. Vung Tau Province. Rajasthan. Luang Prabang Province. Greater Mumbai. Vung Tau Province. Rajasthan. Luang Prabang Province. Greater Mumbai. V",
+  "missing_entities": [],
+  "is_binding_failure": false,
+  "forced_prefix_experiments": []
+}

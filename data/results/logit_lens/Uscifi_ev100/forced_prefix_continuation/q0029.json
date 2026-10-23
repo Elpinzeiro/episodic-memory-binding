@@ -1,0 +1,29 @@
+{
+  "question_idx": 29,
+  "question": "Reflect on all events involving Lillian Mendoza. Provide a list of all dates when these events occurred, without describing the events.",
+  "gt_entities": [
+    "September 03, 2226",
+    "September 22, 2226"
+  ],
+  "free_generation": "September 03, 2226",
+  "missing_entities": [
+    "September 22, 2226"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "September 22, 2226",
+      "first_token": {
+        "id": 30649,
+        "str": "September",
+        "forced_continuation": "September 03, 2226",
+        "recovered": false
+      },
+      "first_word": {
+        "str": "September",
+        "forced_continuation": "September 03, 2226",
+        "recovered": false
+      }
+    }
+  ]
+}

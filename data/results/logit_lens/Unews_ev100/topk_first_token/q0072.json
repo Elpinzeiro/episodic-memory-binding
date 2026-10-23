@@ -1,0 +1,75 @@
+{
+  "question_idx": 72,
+  "question": "Recall the events related to volcanic eruption that occurred on July 31, 2025. List all the locations where these events took place, without describing the events themselves.",
+  "GT_entities": [
+    "North Dakota",
+    "Greater Mumbai"
+  ],
+  "ent_A": "North Dakota",
+  "ent_B": "Greater Mumbai",
+  "topk": 8,
+  "top_ids": [
+    42466,
+    50302,
+    33381,
+    77462,
+    66335,
+    53,
+    26287,
+    29462
+  ],
+  "top_tokens": [
+    {
+      "id": 42466,
+      "str": "Greater",
+      "prob": 0.9886427521705627
+    },
+    {
+      "id": 50302,
+      "str": "Lu",
+      "prob": 0.007667249999940395
+    },
+    {
+      "id": 33381,
+      "str": " Greater",
+      "prob": 0.0023752034176141024
+    },
+    {
+      "id": 77462,
+      "str": "Pu",
+      "prob": 0.0005383254028856754
+    },
+    {
+      "id": 66335,
+      "str": "greater",
+      "prob": 0.00037581173819489777
+    },
+    {
+      "id": 53,
+      "str": "V",
+      "prob": 0.00022092831204645336
+    },
+    {
+      "id": 26287,
+      "str": "North",
+      "prob": 0.00011108974285889417
+    },
+    {
+      "id": 29462,
+      "str": "reater",
+      "prob": 1.57558770297328e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 26287,
+    "bare_str": "North",
+    "lead_id": 4892,
+    "lead_str": " North"
+  },
+  "first_token_B": {
+    "bare_id": 42466,
+    "bare_str": "Greater",
+    "lead_id": 33381,
+    "lead_str": " Greater"
+  }
+}

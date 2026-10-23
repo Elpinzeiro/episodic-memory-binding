@@ -1,0 +1,75 @@
+{
+  "question_idx": 62,
+  "question": "Recall all the events that occurred on December 26, 2026. Without describing the events, list all the unique locations where these events took place.",
+  "GT_entities": [
+    "Port Jefferson",
+    "American Museum of Natural History"
+  ],
+  "ent_A": "Port Jefferson",
+  "ent_B": "American Museum of Natural History",
+  "topk": 8,
+  "top_ids": [
+    12243,
+    4054,
+    16257,
+    35773,
+    92703,
+    7229,
+    1305,
+    29518
+  ],
+  "top_tokens": [
+    {
+      "id": 12243,
+      "str": "High",
+      "prob": 0.7171745896339417
+    },
+    {
+      "id": 4054,
+      "str": "One",
+      "prob": 0.1600232869386673
+    },
+    {
+      "id": 16257,
+      "str": "Stat",
+      "prob": 0.07212814688682556
+    },
+    {
+      "id": 35773,
+      "str": "Met",
+      "prob": 0.007030932232737541
+    },
+    {
+      "id": 92703,
+      "str": "Beth",
+      "prob": 0.004757366608828306
+    },
+    {
+      "id": 7229,
+      "str": "Port",
+      "prob": 0.004399844445288181
+    },
+    {
+      "id": 1305,
+      "str": "Tr",
+      "prob": 0.003882849356159568
+    },
+    {
+      "id": 29518,
+      "str": "American",
+      "prob": 0.0023185552563518286
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 7229,
+    "bare_str": "Port",
+    "lead_id": 5896,
+    "lead_str": " Port"
+  },
+  "first_token_B": {
+    "bare_id": 29518,
+    "bare_str": "American",
+    "lead_id": 3778,
+    "lead_str": " American"
+  }
+}

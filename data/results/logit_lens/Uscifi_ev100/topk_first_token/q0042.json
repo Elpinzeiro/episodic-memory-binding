@@ -1,0 +1,75 @@
+{
+  "question_idx": 42,
+  "question": "Consider all events involving Levi Rodriguez at Europa Subsurface Laboratory. Provide a list of all dates when these events occurred, without describing the events.",
+  "GT_entities": [
+    "May 11, 2226",
+    "September 22, 2226"
+  ],
+  "ent_A": "May 11, 2226",
+  "ent_B": "September 22, 2226",
+  "topk": 8,
+  "top_ids": [
+    33877,
+    7552,
+    2437,
+    41691,
+    33327,
+    113274,
+    28623,
+    30649
+  ],
+  "top_tokens": [
+    {
+      "id": 33877,
+      "str": "February",
+      "prob": 0.9979135394096375
+    },
+    {
+      "id": 7552,
+      "str": " February",
+      "prob": 0.001263381214812398
+    },
+    {
+      "id": 2437,
+      "str": "02",
+      "prob": 0.0007783466717228293
+    },
+    {
+      "id": 41691,
+      "str": "Feb",
+      "prob": 3.314599234727211e-05
+    },
+    {
+      "id": 33327,
+      "str": "January",
+      "prob": 6.629616564168828e-06
+    },
+    {
+      "id": 113274,
+      "str": " Şubat",
+      "prob": 1.4115267958914046e-06
+    },
+    {
+      "id": 28623,
+      "str": "March",
+      "prob": 1.1701968105626293e-06
+    },
+    {
+      "id": 30649,
+      "str": "September",
+      "prob": 5.792894057776721e-07
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 11356,
+    "bare_str": "May",
+    "lead_id": 3297,
+    "lead_str": " May"
+  },
+  "first_token_B": {
+    "bare_id": 30649,
+    "bare_str": "September",
+    "lead_id": 6250,
+    "lead_str": " September"
+  }
+}

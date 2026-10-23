@@ -1,0 +1,29 @@
+{
+  "question_idx": 21,
+  "question": "Consider all events that Noah Williams has been involved in. List all the locations where these events took place, without mentioning the events themselves.",
+  "gt_entities": [
+    "Triton Gas Colony",
+    "TRAPPIST-1 Colony Network"
+  ],
+  "free_generation": "Triton Gas Colony Locker. Mercury Twilight Market. Dunn Scattering Plant. Bristol Propulsion Lab. Luna Oceanus Crater. Voyager's Edge Karaoke Bar. Triton Casmatt Sub-Station. Triton Subsurface Farming Complex. Triton Angled Light Experiment. Triton Fusion Plant Meltout Site. Triton Polar Crater Network. Triton Sub-surface Sensor Array. Triton Naiad Ocean Mission Control. Triton Cryo Facility. Triton Subsurface Labyrinth. Triton Subsurface River. Triton Cryo-Chamber. Triton Subsurface Geology Laboratory. Triton Subsurface Hydrothermal Field. Triton Subsurface Oceanatic Complex. Triton Subsurface Volcanic Field. Triton Subsurface Ocean Current. Triton Subsurface Ocean Tides. Triton Subsurface Ocean Waves. Triton Subsurface Ocean Pressure. Triton Subsurface Ocean Temperature. Triton Subsurface Ocean Chemistry. Triton Subsurface Ocean Currents",
+  "missing_entities": [
+    "TRAPPIST-1 Colony Network"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "TRAPPIST-1 Colony Network",
+      "first_token": {
+        "id": 2434,
+        "str": "TR",
+        "forced_continuation": "TRAPPIST-1 Colony Network, Bridgewater Laboratory, Naiad Oceanographic Center, Mars Valles Industrial Hub, Europa Subsurface Laboratory, Luna Oceanus Crater Settlement.",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "TRAPPIST-1",
+        "forced_continuation": "TRAPPIST-1 Colony Network, Bridgewater Laboratory, Naiad Oceanographic Center, Mars Valles Industrial Hub, Europa Subsurface Laboratory, Luna Oceanus Crater Settlement.",
+        "recovered": true
+      }
+    }
+  ]
+}

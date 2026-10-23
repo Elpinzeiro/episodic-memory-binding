@@ -1,0 +1,12 @@
+{
+  "question_idx": 2,
+  "question": "Think about Henry Reed's experiences. Describe all the key events they've been involved in, focusing on what happened rather than when or where it occurred.",
+  "gt_entities": [
+    "fusion core breach",
+    "plasma conduit rupture"
+  ],
+  "free_generation": "fusion core breach at Europa Subsurface Laboratory, Samuel Parker's cryptic message, antimatter cascade on Euclid Oceanus, plasma conduit rupture at Luna Shackleton Crater Studio, and alien artifact experiment gone wrong at Ceres Cerebrium Laboratory.|",
+  "missing_entities": [],
+  "is_binding_failure": false,
+  "forced_prefix_experiments": []
+}

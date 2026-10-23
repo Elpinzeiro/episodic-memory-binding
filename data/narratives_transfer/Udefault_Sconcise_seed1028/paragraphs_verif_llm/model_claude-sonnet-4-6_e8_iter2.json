@@ -1,0 +1,11 @@
+[
+  true,
+  [],
+  {
+    "location": true,
+    "date": true,
+    "entity": true,
+    "content": true
+  },
+  "Here is my analysis of the text:\n\n(1) The text takes place at a single location: the Space Needle (single longitude/latitude).\n(2) The text takes place on a single day: June 14, 1885.\n(3) The text has a single main character: Alessandro Diallo.\n(4) The main event is the fashion show, with a secondary activity (discussing fashion photography) happening within it — both at the same location and day, so it can be considered a single main event with sub-events.\n\n```json\n{\n    \"1\": true,\n    \"2\": true,\n    \"3\": true,\n    \"4\": true\n}\n```"
+]

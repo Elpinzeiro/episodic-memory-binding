@@ -1,0 +1,75 @@
+{
+  "question_idx": 12,
+  "question": "Think about the events involving Theater Performance at Washington Square Park. List all protagonists involved in these events, without mentioning the events themselves.",
+  "GT_entities": [
+    "Mila Gonzalez",
+    "Levi Rodriguez"
+  ],
+  "ent_A": "Mila Gonzalez",
+  "ent_B": "Levi Rodriguez",
+  "topk": 8,
+  "top_ids": [
+    2356,
+    24903,
+    64463,
+    73004,
+    60332,
+    11522,
+    44,
+    24641
+  ],
+  "top_tokens": [
+    {
+      "id": 2356,
+      "str": "Le",
+      "prob": 0.9673106670379639
+    },
+    {
+      "id": 24903,
+      "str": "Sam",
+      "prob": 0.019764643162488937
+    },
+    {
+      "id": 64463,
+      "str": "Henry",
+      "prob": 0.01198786310851574
+    },
+    {
+      "id": 73004,
+      "str": "Leon",
+      "prob": 0.0005350044229999185
+    },
+    {
+      "id": 60332,
+      "str": "Mil",
+      "prob": 0.00010534861939959228
+    },
+    {
+      "id": 11522,
+      "str": "Len",
+      "prob": 9.743154078023508e-05
+    },
+    {
+      "id": 44,
+      "str": "M",
+      "prob": 2.243001654278487e-05
+    },
+    {
+      "id": 24641,
+      "str": "Les",
+      "prob": 1.7197689885506406e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 44,
+    "bare_str": "M",
+    "lead_id": 10357,
+    "lead_str": " Mil"
+  },
+  "first_token_B": {
+    "bare_id": 2356,
+    "bare_str": "Le",
+    "lead_id": 56141,
+    "lead_str": " Levi"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "question_idx": 57,
+  "question": "Recall all the events that occurred on December 26, 2026. Without describing the events, list all the unique locations where these events took place.",
+  "GT_entities": [
+    "Kampong Cham Province",
+    "Vermont"
+  ],
+  "ent_A": "Kampong Cham Province",
+  "ent_B": "Vermont",
+  "topk": 8,
+  "top_ids": [
+    53,
+    42,
+    50302,
+    93697,
+    29697,
+    97179,
+    20198,
+    37461
+  ],
+  "top_tokens": [
+    {
+      "id": 53,
+      "str": "V",
+      "prob": 0.9976492524147034
+    },
+    {
+      "id": 42,
+      "str": "K",
+      "prob": 0.0021152051631361246
+    },
+    {
+      "id": 50302,
+      "str": "Lu",
+      "prob": 0.0001998430088860914
+    },
+    {
+      "id": 93697,
+      "str": "Vy",
+      "prob": 3.082241164520383e-06
+    },
+    {
+      "id": 29697,
+      "str": "Vue",
+      "prob": 2.1517512323043775e-06
+    },
+    {
+      "id": 97179,
+      "str": "Vk",
+      "prob": 1.959191877176636e-06
+    },
+    {
+      "id": 20198,
+      "str": "-V",
+      "prob": 1.8404904267299571e-06
+    },
+    {
+      "id": 37461,
+      "str": "Vol",
+      "prob": 1.6889289327082224e-06
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 42,
+    "bare_str": "K",
+    "lead_id": 29549,
+    "lead_str": " Kam"
+  },
+  "first_token_B": {
+    "bare_id": 53,
+    "bare_str": "V",
+    "lead_id": 35739,
+    "lead_str": " Vermont"
+  }
+}

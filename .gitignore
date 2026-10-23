@@ -1,0 +1,54 @@
+# Python compiled files
+__pycache__/
+*.pyc
+/data/*
+!/data/README.md
+!/data/examples/
+!/data/benchmark/
+!/data/narratives/
+!/data/narratives_sonnet46/
+!/data/narratives_transfer/
+!/data/results/
+# training outputs, adapters and answers written next to the narratives
+/data/narratives*/*/answers/
+/src/investigating_failures_frontier_models/datasets
+/experiments/
+plots/
+# Jupyter Notebook checkpoints (these are usually temporary and not needed in Git)
+.ipynb_checkpoints/
+.env
+*.zip
+*.sh
+test.ipynb
+figures_2/
+
+**/binding_failures_custom_tmp0.3/
+**/binding_failures_athletes_tmp0.3/
+# Current in-vivo eval output naming (run_parallel_bind_experiments.py with
+# output_dir=f"binding_failures_{dataset_type}_rebuttal") -- the patterns
+# above predate the "_rebuttal" suffix and miss these.
+**/binding_failures_custom_rebuttal_temp0.3/
+**/binding_failures_athletes_rebuttal_temp0.3/
+# Regenerable CSV/plot output of src/In_vivo_benchmark/results/*.py
+**/rebuttal_analysis_arxiv/
+
+# # Ignore specific large data output directories based on the pattern
+# # This will ignore anything inside data/Udefault_Sconcise_seed0/, data/Udefault_Sconcise_seed1/, etc.
+# data/Udefault_Sconcise_seed*/
+# data/
+# # Ignore specific large data files or results files
+# data/commonsense/validation-00000-of-00001.parquet
+# data/commonsense_results/
+# data/grid_search_results.json
+# experiments/epoch_test_results_meta-llama_Meta-Llama-3-8B-Instruct.json
+# experiments/llm_judge_comparison_report_0_138.json
+# experiments/questions_ch_1.csv # If this is a generated output, otherwise remove this line
+# experiments/recollection_cleaned.csv # If this is a generated output, otherwise remove this line
+# # Generated experiment data/results
+# experiments/questions_ch_1.csv
+# experiments/recollection_cleaned.csv
+# # Ignore plot outputs (typically generated)
+# plots/
+
+# In-vivo raw outputs downloaded by src/In_vivo_benchmark/results/download_invivo_outputs.py
+invivo_outputs/

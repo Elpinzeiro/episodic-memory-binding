@@ -1,0 +1,75 @@
+{
+  "question_idx": 48,
+  "question": "Reflect on Samuel Parker's experiences at Greater Mumbai. Describe all the key events they've been involved in at this location, focusing on what happened rather than when it occurred.",
+  "GT_entities": [
+    "flash flood emergency",
+    "volcanic eruption"
+  ],
+  "ent_A": "flash flood emergency",
+  "ent_B": "volcanic eruption",
+  "topk": 8,
+  "top_ids": [
+    12821,
+    67164,
+    37461,
+    30458,
+    19824,
+    28407,
+    43884,
+    94295
+  ],
+  "top_tokens": [
+    {
+      "id": 12821,
+      "str": "vol",
+      "prob": 0.9991563558578491
+    },
+    {
+      "id": 67164,
+      "str": " volcanic",
+      "prob": 0.00029120908584445715
+    },
+    {
+      "id": 37461,
+      "str": "Vol",
+      "prob": 0.00013972366286907345
+    },
+    {
+      "id": 30458,
+      "str": "vote",
+      "prob": 0.0001375574356643483
+    },
+    {
+      "id": 19824,
+      "str": "flash",
+      "prob": 8.213929686462507e-05
+    },
+    {
+      "id": 28407,
+      "str": "volatile",
+      "prob": 5.471656913869083e-05
+    },
+    {
+      "id": 43884,
+      "str": "_vol",
+      "prob": 3.5884000681107864e-05
+    },
+    {
+      "id": 94295,
+      "str": ".vol",
+      "prob": 3.5327673685969785e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 19824,
+    "bare_str": "flash",
+    "lead_id": 8381,
+    "lead_str": " flash"
+  },
+  "first_token_B": {
+    "bare_id": 12821,
+    "bare_str": "vol",
+    "lead_id": 67164,
+    "lead_str": " volcanic"
+  }
+}

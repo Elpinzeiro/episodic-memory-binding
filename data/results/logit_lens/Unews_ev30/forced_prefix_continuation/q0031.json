@@ -1,0 +1,29 @@
+{
+  "question_idx": 31,
+  "question": "Reflect on September 13, 2025. Describe all the key events that occurred on this date, focusing on what happened rather than who was involved or where it took place.",
+  "gt_entities": [
+    "police force strike",
+    "volcanic eruption"
+  ],
+  "free_generation": "flash flood emergency, residential tower fire, Zoe Brown at workplace incident, factory explosion, Samuel Parker's unusual experience, police force strike.",
+  "missing_entities": [
+    "volcanic eruption"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "volcanic eruption",
+      "first_token": {
+        "id": 12821,
+        "str": "vol",
+        "forced_continuation": "volcanic eruption, bridge collapse, Zoe Brown's observation, Samuel Parker's discovery.",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "volcanic",
+        "forced_continuation": "volcanic eruption, bridge collapse, Zoe Brown's observation, Samuel Parker's discovery.",
+        "recovered": true
+      }
+    }
+  ]
+}

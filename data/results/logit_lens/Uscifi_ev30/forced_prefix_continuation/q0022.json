@@ -1,0 +1,12 @@
+{
+  "question_idx": 22,
+  "question": "Consider the location Mars Valles Industrial Hub. List all protagonists that have been involved in any events at this location, without mentioning the events themselves.",
+  "gt_entities": [
+    "Henry Reed",
+    "Brooklyn Ross"
+  ],
+  "free_generation": "Henry Reed; Zoe Brown; Miles Jennings; Victor Levin; Scarlett Thomas; Ethan Carter; Julian Ross; Maya Garcia; Carter Stewart; Julian Bell; Brooklyn Ross; Samuel Parker; Julian Bell; Zoe Brown; Scarlett Thomas; Henry Reed; Carter Stewart; Brooklyn Ross; Julian Ross; Zoe Brown; Henry Reed; Carter Stewart; Brooklyn Ross; Julian Ross; Zoe Brown; Henry Reed; Carter Stewart; Brooklyn Ross; Julian Ross; Zoe Brown; Henry Reed; Carter Stewart; Brooklyn Ross; Julian Ross; Zoe Brown; Henry Reed; Carter Stewart; Brooklyn Ross; Julian Ross; Zoe Brown; Henry Reed; Carter Stewart; Brooklyn Ross; Julian Ross; Zoe Brown; Henry Reed; Carter Stewart; Brooklyn Ross; Julian Ross; Zoe Brown; Henry Reed; Carter Stewart; Brooklyn Ross; Julian Ross; Zoe Brown; Henry Reed; Carter Stewart; Brooklyn Ross; Julian Ross; Zoe Brown; Henry Reed; Carter Stewart; Brooklyn Ross; Julian Ross; Zoe Brown; Henry Reed; Carter Stewart",
+  "missing_entities": [],
+  "is_binding_failure": false,
+  "forced_prefix_experiments": []
+}

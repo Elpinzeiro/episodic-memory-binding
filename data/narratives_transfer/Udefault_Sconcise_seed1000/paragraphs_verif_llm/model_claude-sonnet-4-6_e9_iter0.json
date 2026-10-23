@@ -1,0 +1,13 @@
+[
+  false,
+  [
+    "content"
+  ],
+  {
+    "location": true,
+    "date": true,
+    "entity": true,
+    "content": false
+  },
+  "Here's my analysis of the text:\n\n(1) The text takes place at the Empire State Building - a single geographical location. True\n\n(2) The text takes place on June 15, 1801 - a single day. True\n\n(3) Emma Brown is the only character mentioned and focused upon. True\n\n(4) While the main event is the astronomy night, there are multiple sub-events mentioned (attending the astronomy night AND conducting extraterrestrial life debates), which means there isn't strictly a single main event. False\n\n```json\n{\n    \"1\": true,\n    \"2\": true,\n    \"3\": true,\n    \"4\": false\n}\n```"
+]

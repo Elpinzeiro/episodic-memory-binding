@@ -1,0 +1,12 @@
+{
+  "question_idx": 36,
+  "question": "Think about the events involving Educational Workshop at Queensboro Bridge. List all protagonists involved in these events, without mentioning the events themselves.",
+  "gt_entities": [
+    "Noah Williams",
+    "Scarlett Thomas"
+  ],
+  "free_generation": "Noah Williams\nJulian Ross\nLevi Rodriguez\nLillian Green\nZoe Brown\nBrooklyn Smith\nScarlett Thomas\nHenry Park\nJackson White\nLillian Ross\nBenjamin Martin\nScarlett Thomas\nLillian Ross\nHenry Park\nJackson White\nLillian Ross\nBenjamin Martin\nScarlett Thomas\nHenry Park\nJackson White\nLillian Ross\nBenjamin Martin\nScarlett Thomas\nHenry Park\nJackson White\nLillian Ross\nBenjamin Martin\nScarlett Thomas\nHenry Park\nJackson White\nLillian Ross\nBenjamin Martin\nScarlett Thomas\nHenry Park\nJackson White\nLillian Ross\nBenjamin Martin\nScarlett Thomas\nHenry Park\nJackson White\nLillian Ross\nBenjamin Martin\nScarlett Thomas\nHenry Park\nJackson White\nLillian Ross\nBenjamin Martin\nScarlett Thomas\nHenry Park\nJackson White\nLillian Ross\nBenjamin Martin\nScarlett Thomas\nHenry Park\nJackson White\n",
+  "missing_entities": [],
+  "is_binding_failure": false,
+  "forced_prefix_experiments": []
+}

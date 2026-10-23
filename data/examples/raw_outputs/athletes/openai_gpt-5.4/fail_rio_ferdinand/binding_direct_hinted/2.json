@@ -1,0 +1,27 @@
+{
+  "entity": "Rio Ferdinand",
+  "prompt": "List ALL 3 teams that Rio Ferdinand played for between 2010 and 2015, including both club and national teams. Provide your answer as a JSON list like [\"a\",\"b\"].",
+  "expected": [
+    "England national association football team",
+    "Manchester United F.C.",
+    "Queens Park Rangers F.C."
+  ],
+  "retry": 2,
+  "variant": "direct_hinted",
+  "query_type": "binding_list",
+  "prompting_method": "direct_hinted",
+  "extended_reasoning_enabled": false,
+  "expected_count": 3,
+  "success": true,
+  "response": "[\"Manchester United\",\"England\",\"England U21\"]",
+  "model": "openai/gpt-5.4",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 109,
+    "completion_tokens": 14,
+    "total_tokens": 123
+  },
+  "original_prompt": "List ALL teams that Rio Ferdinand played for between 2010 and 2015, including both club and national teams. Provide your answer as a JSON list like [\"a\",\"b\"].",
+  "hinted_prompt": "List ALL 3 teams that Rio Ferdinand played for between 2010 and 2015, including both club and national teams. Provide your answer as a JSON list like [\"a\",\"b\"].",
+  "timestamp": "2026-07-31T14:50:56.760653+00:00"
+}

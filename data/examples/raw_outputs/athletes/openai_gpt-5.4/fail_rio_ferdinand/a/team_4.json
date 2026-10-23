@@ -1,0 +1,15 @@
+{
+  "entity": "Rio Ferdinand",
+  "prompt": "Which national team did Rio Ferdinand play for in 2010?",
+  "expected": "England national association football team",
+  "retry": 4,
+  "success": true,
+  "response": "England.",
+  "model": "openai/gpt-5.4",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 83,
+    "completion_tokens": 6,
+    "total_tokens": 89
+  }
+}

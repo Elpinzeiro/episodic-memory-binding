@@ -1,0 +1,12 @@
+{
+  "question_idx": 58,
+  "question": "Recall all the events that occurred on November 07, 2025. Without describing the events, list all the unique locations where these events took place.",
+  "gt_entities": [
+    "Vermont",
+    "Greater Mumbai"
+  ],
+  "free_generation": "Luang Prabang Province. Greater Mumbai. Rajasthan Formation. New South Wales. Luang Prabang City. Vermont. Gujarat Coastal Plains. Rajasthan City. Luang Prabang Province. New South Wales. Luang Prabang City. Greater Mumbai. Vermont. Gujarat Coastal Plains. Rajasthan Formation. Rajasthan City. New South Wales. Luang Prabang Province. Vermont. Rajasthan City. Greater Mumbai. Rajasthan Formation. Gujarat Coastal Plains. Luang Prabang City. New South Wales. Rajasthan Province. Vermont. Greater Mumbai. Rajasthan City. Rajasthan Formation. Gujarat Coastal Plains. Luang Prabang Province. New South Wales. Luang Prabang City. Vermont. Rajasthan City. Rajasthan Formation. Greater Mumbai. Gujarat Coastal Plains. Rajasthan Province. New South Wales. Luang Prabang City. Vermont. Rajasthan City. Rajasthan Formation. Greater Mumbai. Gujarat Coastal Plains. Luang Prabang Province. New South Wales. Luang Prabang City",
+  "missing_entities": [],
+  "is_binding_failure": false,
+  "forced_prefix_experiments": []
+}

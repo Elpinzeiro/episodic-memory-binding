@@ -1,0 +1,12 @@
+{
+  "question_idx": 61,
+  "question": "Consider all events that happened on November 07, 2025. Provide a list of all protagonists involved in any of these events, without describing the events themselves.",
+  "gt_entities": [
+    "Henry Reed",
+    "Levi Rodriguez"
+  ],
+  "free_generation": "Mila Gonzalez\nLevi Rodriguez\nHenry Reed\nLucy Clark\nNoah Thomas\nLillian Brooks\nCarter Morris\nJulian Ross\nScarlett Wallace\nJackson Kim\nZoe Brown\nEzra Davis\nLiam Rourke\nHenry Brooks\nMaya Jensen\nCarter Stewart\nJulian Lee\nScarlett Rivera\nJackson Brooks\nZoe Ross\nEzra Wallace\nLiam Clark\nMaya Thomas\nCarter Brooks\nJulian Davis\nScarlett Brown\nJackson Rourke\nZoe Jensen\nEzra Rivera\nLiam Brooks\nMaya Clark\nCarter Davis\nJulian Brown\nScarlett Thomas\nJackson Wallace\nZoe Ross\nEzra Brooks\nLiam Jensen\nCarter Rourke\nJulian Clark\nScarlett Davis\nJackson Brown\nZoe Thomas\nEzra Brooks\nLiam Ross\nCarter Brooks\nJulian Davis\nScarlett Brown\nJackson Rourke\nZoe Jensen",
+  "missing_entities": [],
+  "is_binding_failure": false,
+  "forced_prefix_experiments": []
+}

@@ -1,0 +1,29 @@
+{
+  "question_idx": 20,
+  "question": "Think about Maya Smith's experiences. Describe all the key events they've been involved in, focusing on what happened rather than when or where it occurred.",
+  "gt_entities": [
+    "factory explosion",
+    "volcanic eruption"
+  ],
+  "free_generation": "factory explosion produce disruption vote of no confidence residential tower flash flood emergency police force reform magnitude earthquake residential cabin police brutality protest maya smith volunteer deployment loss of electricity vote counting delay bridge collapse treat dispensing driver's test pollution crisis flash flood emergency police officer killing factory explosion produce disruption volunteer deployment loss of electricity bridge collapse magnitude earthquake residential tower police force reform residential cabin police brutality protest driver's test pollution crisis vote counting delay loss of electricity volunteer deployment bridge collapse residential tower residential cabin produce disruption factory explosion police officer killing residential cabin police force reform vote counting delay residential tower residential cabin police brutality protest loss of electricity residential tower residential cabin residential tower residential cabin residential tower residential cabin residential tower residential cabin residential tower residential cabin residential tower residential cabin residential cabin residential cabin residential cabin residential cabin residential cabin residential cabin residential cabin residential cabin residential cabin residential cabin residential cabin residential cabin residential cabin residential cabin residential cabin residential cabin residential cabin residential cabin residential cabin residential cabin residential cabin residential cabin residential cabin residential cabin residential cabin residential cabin residential cabin residential cabin residential cabin residential",
+  "missing_entities": [
+    "volcanic eruption"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "volcanic eruption",
+      "first_token": {
+        "id": 12821,
+        "str": "vol",
+        "forced_continuation": "volcanic eruption | factory meltdown | police officers shot | train derailment | train derailment | residential tower fire | train derailment | bridge collapse | residential tower fire | police officers shot | factory meltdown",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "volcanic",
+        "forced_continuation": "volcanic eruption | factory meltdown | police officers shot | train derailment | train derailment | residential tower fire | train derailment | bridge collapse | residential tower fire | police officers shot | factory meltdown | volcanic",
+        "recovered": true
+      }
+    }
+  ]
+}

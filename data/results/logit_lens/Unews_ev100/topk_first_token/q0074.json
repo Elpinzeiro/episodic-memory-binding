@@ -1,0 +1,75 @@
+{
+  "question_idx": 74,
+  "question": "Recall the events related to volcanic eruption that occurred on March 23, 2024. List all the locations where these events took place, without describing the events themselves.",
+  "GT_entities": [
+    "Vermont",
+    "North Dakota"
+  ],
+  "ent_A": "Vermont",
+  "ent_B": "North Dakota",
+  "topk": 8,
+  "top_ids": [
+    42466,
+    50302,
+    33381,
+    82478,
+    50,
+    66335,
+    77845,
+    77462
+  ],
+  "top_tokens": [
+    {
+      "id": 42466,
+      "str": "Greater",
+      "prob": 0.9619736075401306
+    },
+    {
+      "id": 50302,
+      "str": "Lu",
+      "prob": 0.03559168800711632
+    },
+    {
+      "id": 33381,
+      "str": " Greater",
+      "prob": 0.0009940050076693296
+    },
+    {
+      "id": 82478,
+      "str": "Hu",
+      "prob": 0.0007503144443035126
+    },
+    {
+      "id": 50,
+      "str": "S",
+      "prob": 0.00011506443115649745
+    },
+    {
+      "id": 66335,
+      "str": "greater",
+      "prob": 9.8419826827012e-05
+    },
+    {
+      "id": 77845,
+      "str": "Fu",
+      "prob": 7.908255065558478e-05
+    },
+    {
+      "id": 77462,
+      "str": "Pu",
+      "prob": 6.158955511637032e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 53,
+    "bare_str": "V",
+    "lead_id": 35739,
+    "lead_str": " Vermont"
+  },
+  "first_token_B": {
+    "bare_id": 26287,
+    "bare_str": "North",
+    "lead_id": 4892,
+    "lead_str": " North"
+  }
+}

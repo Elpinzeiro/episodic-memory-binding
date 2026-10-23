@@ -1,0 +1,29 @@
+{
+  "question_idx": 3,
+  "question": "Reflect on the experiences of Carter Stewart related to residential tower fire. List all the unique locations where these events took place, without mentioning the events themselves.",
+  "gt_entities": [
+    "Luang Prabang Province",
+    "Vermont"
+  ],
+  "free_generation": "Luang Prabang Province Rajasthan Rajasthan Province Luang Prabang Province Province of Mato Grosso sul Province of Mato Grosso sul Province of Luang Prabang Province of Rajasthan Rajasthan Province Province of Luang Prabang Province of Mato Grosso sul Province of Rajasthan Province of Luang Prabang Province of Rajasthan Province of Mato Grosso sul Province of Luang Prabang Province of Rajasthan Province of Luang Prabang Province of Mato Grosso sul Province of Rajasthan Province of Luang Prabang Province of Rajasthan Province of Mato Grosso sul Province of Luang Prabang Province of Rajasthan Province of Luang Prabang Province of Mato Grosso sul Province of Luang Prabang Province of Rajasthan Province of Luang Prabang Province of Mato Grosso sul Province of Luang Prabang Province of Rajasthan Province of Luang Prabang Province of Mato Grosso sul Province of Luang Prabang Province of",
+  "missing_entities": [
+    "Vermont"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Vermont",
+      "first_token": {
+        "id": 53,
+        "str": "V",
+        "forced_continuation": "Vermont.&nbsp;Luang Prabang Province.&nbsp;Greater Mumbai.",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Vermont",
+        "forced_continuation": "Vermont.&nbsp;Luang Prabang Province.&nbsp;Greater Mumbai.",
+        "recovered": true
+      }
+    }
+  ]
+}

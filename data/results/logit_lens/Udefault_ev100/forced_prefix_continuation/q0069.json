@@ -1,0 +1,29 @@
+{
+  "question_idx": 69,
+  "question": "Think about the events involving Educational Workshop on May 11, 2026. Provide a list of all protagonists involved in these events, without describing the events.",
+  "gt_entities": [
+    "Lucy Carter",
+    "Samuel Parker"
+  ],
+  "free_generation": "Henry Reed, Benjamin Green, Carter Brown, Levi Rodriguez, Jackson Lee, Zoe Martin, Mila Garcia, Lillian Brooks, Julian Ross, Scarlett Parker, Noah Lewis, Samuel Parker, Brooklyn Bell, Julian Ross, Scarlett Parker, Noah Lewis, Samuel Parker, Brooklyn Bell, Julian Ross, Scarlett Parker, Noah Lewis, Samuel Parker, Brooklyn Bell, Julian Ross, Scarlett Parker, Noah Lewis, Samuel Parker, Brooklyn Bell, Julian Ross, Scarlett Parker, Noah Lewis, Samuel Parker, Brooklyn Bell, Julian Ross, Scarlett Parker, Noah Lewis, Samuel Parker, Brooklyn Bell, Julian Ross, Scarlett Parker, Noah Lewis, Samuel Parker, Brooklyn Bell, Julian Ross, Scarlett Parker, Noah Lewis, Samuel Parker, Brooklyn Bell, Julian Ross, Scarlett Parker, Noah Lewis, Samuel Parker, Brooklyn Bell, Julian Ross, Scarlett Parker, Noah Lewis, Samuel Parker, Brooklyn Bell, Julian Ross, Scarlett Parker, Noah Lewis, Samuel Parker, Brooklyn Bell, Julian Ross, Scarlett Parker, Noah Lewis,",
+  "missing_entities": [
+    "Lucy Carter"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Lucy Carter",
+      "first_token": {
+        "id": 41745,
+        "str": "Luc",
+        "forced_continuation": "Lucy Carter; Henry Reed; Levi Rodriguez; Noah Martin; Julian Ross; Zoe Brown; Benjamin Green; Lillian Brooks; Samuel Parker; Mila Gonzalez; Jackson Bell; Evelyn White; Kate Lee",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Lucy",
+        "forced_continuation": "Lucy Carter; Henry Reed; Levi Rodriguez; Noah Martin; Julian Ross; Zoe Brown; Benjamin Green; Lillian Brooks; Samuel Parker; Mila Gonzalez; Jackson Bell; Evelyn White; Kate Lee;",
+        "recovered": true
+      }
+    }
+  ]
+}

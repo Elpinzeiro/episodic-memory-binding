@@ -1,0 +1,44 @@
+{
+  "question_idx": 69,
+  "question": "Think about the events involving antimatter cascade on May 11, 2226. Provide a list of all protagonists involved in these events, without describing the events.",
+  "gt_entities": [
+    "Zoe Brown",
+    "Levi Rodriguez"
+  ],
+  "free_generation": "Scarlett Thomasassistant\n\nScarlett Thomas",
+  "missing_entities": [
+    "Zoe Brown",
+    "Levi Rodriguez"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Zoe Brown",
+      "first_token": {
+        "id": 57,
+        "str": "Z",
+        "forced_continuation": "Zoe Brownassistant\n\nMay 11, 2226: Luna Shackleton Crater Colony Network Failure",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Zoe",
+        "forced_continuation": "Zoe Brownassistant\n\nMay 11, 2226: Luna Shackleton Crater Colony Network Failure",
+        "recovered": true
+      }
+    },
+    {
+      "missing_entity": "Levi Rodriguez",
+      "first_token": {
+        "id": 2356,
+        "str": "Le",
+        "forced_continuation": "Levi Rodriguezsystem\n\nYou are an expert in memory tests regarding the fictional book \"Synaptic Echoes 2026: The Neuro-Temporal Paradox of Episodic Precognition\".",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Levi",
+        "forced_continuation": "Levi Rodriguezsystem\n\nYou are an expert in memory tests regarding the fictional book \"Synaptic Echoes 2026: The Neuro-Temporal Paradox of Episodic Precognition\".",
+        "recovered": true
+      }
+    }
+  ]
+}

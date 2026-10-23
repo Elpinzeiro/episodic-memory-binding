@@ -1,0 +1,75 @@
+{
+  "question_idx": 21,
+  "question": "Consider all events that Noah Williams has been involved in. List all the locations where these events took place, without mentioning the events themselves.",
+  "GT_entities": [
+    "Triton Gas Colony",
+    "TRAPPIST-1 Colony Network"
+  ],
+  "ent_A": "Triton Gas Colony",
+  "ent_B": "TRAPPIST-1 Colony Network",
+  "topk": 8,
+  "top_ids": [
+    51,
+    2434,
+    69904,
+    5091,
+    82875,
+    1305,
+    53427,
+    93813
+  ],
+  "top_tokens": [
+    {
+      "id": 51,
+      "str": "T",
+      "prob": 0.5153237581253052
+    },
+    {
+      "id": 2434,
+      "str": "TR",
+      "prob": 0.4841018617153168
+    },
+    {
+      "id": 69904,
+      "str": "(TR",
+      "prob": 0.00017019172082655132
+    },
+    {
+      "id": 5091,
+      "str": " TR",
+      "prob": 9.253163443645462e-05
+    },
+    {
+      "id": 82875,
+      "str": "TRS",
+      "prob": 9.109706297749653e-05
+    },
+    {
+      "id": 1305,
+      "str": "Tr",
+      "prob": 7.6711417932529e-05
+    },
+    {
+      "id": 53427,
+      "str": "/TR",
+      "prob": 6.16393590462394e-05
+    },
+    {
+      "id": 93813,
+      "str": "Tau",
+      "prob": 1.3753601706412155e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 51,
+    "bare_str": "T",
+    "lead_id": 85283,
+    "lead_str": " Trit"
+  },
+  "first_token_B": {
+    "bare_id": 2434,
+    "bare_str": "TR",
+    "lead_id": 5091,
+    "lead_str": " TR"
+  }
+}

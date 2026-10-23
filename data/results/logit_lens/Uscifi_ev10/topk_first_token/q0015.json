@@ -1,0 +1,75 @@
+{
+  "question_idx": 15,
+  "question": "Reflect on May 11, 2226. Describe all the key events that occurred on this date, focusing on what happened rather than who was involved or where it took place.",
+  "GT_entities": [
+    "antimatter cascade",
+    "fusion core breach"
+  ],
+  "ent_A": "antimatter cascade",
+  "ent_B": "fusion core breach",
+  "topk": 8,
+  "top_ids": [
+    55665,
+    519,
+    15719,
+    62238,
+    501,
+    56418,
+    2149,
+    38086
+  ],
+  "top_tokens": [
+    {
+      "id": 55665,
+      "str": "fusion",
+      "prob": 0.6541496515274048
+    },
+    {
+      "id": 519,
+      "str": "ant",
+      "prob": 0.12681269645690918
+    },
+    {
+      "id": 15719,
+      "str": "anti",
+      "prob": 0.07691578567028046
+    },
+    {
+      "id": 62238,
+      "str": "cry",
+      "prob": 0.07003261893987656
+    },
+    {
+      "id": 501,
+      "str": "pl",
+      "prob": 0.012361492030322552
+    },
+    {
+      "id": 56418,
+      "str": "alien",
+      "prob": 0.006413057912141085
+    },
+    {
+      "id": 2149,
+      "str": "Al",
+      "prob": 0.004076387267559767
+    },
+    {
+      "id": 38086,
+      "str": "alu",
+      "prob": 0.004013188648968935
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 519,
+    "bare_str": "ant",
+    "lead_id": 79312,
+    "lead_str": " antim"
+  },
+  "first_token_B": {
+    "bare_id": 55665,
+    "bare_str": "fusion",
+    "lead_id": 37608,
+    "lead_str": " fusion"
+  }
+}
