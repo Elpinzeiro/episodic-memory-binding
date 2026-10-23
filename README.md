@@ -4,6 +4,8 @@
 
 ## Probing Cross-Episode Parametric Retrieval Through Shared Cues
 
+Francesco Mantovani ⋅ Alberto Eusebio ⋅ Alexis Huet ⋅ Giulio Franzese ⋅ Pietro Michiardi ⋅ Dario Rossi ⋅ Zied Ben Houidi
+
 **Accepted at NeurIPS 2026**
 
 [![arXiv](https://img.shields.io/badge/arXiv-coming_soon-b31b1b.svg)](#) [![Dataset](https://img.shields.io/badge/🤗_Dataset-do--llms--bind--episodes-orange.svg)](https://huggingface.co/datasets/FMantovani/do-llms-bind-episodes) [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE) [![NeurIPS 2026](https://img.shields.io/badge/NeurIPS-2026-4b44ce.svg)](https://neurips.cc/Conferences/2026)
@@ -344,7 +346,7 @@ If you use this code or data, please cite:
 ```bibtex
 @inproceedings{binding2026,
   title     = {Do {LLMs} Bind Episodes? Probing Cross-Episode Parametric Retrieval Through Shared Cues},
-  author    = {TBD},
+  author    = {Mantovani, Francesco and Eusebio, Alberto and Huet, Alexis and Franzese, Giulio and Michiardi, Pietro and Rossi, Dario and Ben Houidi, Zied},
   booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
   year      = {2026}
 }
