@@ -90,7 +90,7 @@ An answer is correct only if recall equals 1 (all ground-truth items present); w
 
 All models achieve near-perfect single-event retrieval (84–99%) after SEQ training, without degrading CommonsenseQA. Larger models bind better (on k = 2, Llama improves from 16% at 3B to 28% at 70B), but the gap remains large: for k ≥ 6, even the best model (Mistral-12B) reaches only 7%.
 
-### 🔬 Why are known facts omitted at generation?
+### 🔬 Integrative encoding: can recall-based supervision help?
 
 <div align="center">
 <img src="figures/png/fig04_logit_lens.png" width="85%" alt="Logit-lens and forced-prefix analysis"/>
@@ -256,7 +256,7 @@ All RSS variants are selected through the `answering_params` dictionary of `step
 |---|---|---|
 | `recollecting_approach` | `"generic_qa"` | RSS-Simple (4 template-based queries, App. E.1.2) |
 | | `"magic_12"` | RSS-Rich (12 handcrafted recall queries, App. E.1.2) |
-| | `"prompt_with_context"` | RSS-Generated (LLM-generated queries, App. E.1.2) |
+| | `"prompt_with_context"` | RSS (LLM-generated queries, App. E.1.2) |
 | `clean_recall_from_hall` | `True` / `False` | With / without the Hallucination Filter (App. E.1.4) |
 
 All prompts (Asker, Recollector, Merger, Hallucination Filter) are defined in `In_vitro_experiments/generation/prompts.py`. The O-LoRA baseline uses [O-LoRA: Orthogonal Subspace Learning for Language Model Continual Learning](https://github.com/cmnfriend/O-LoRA) (Wang et al., 2023; official implementation).
