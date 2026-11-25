@@ -1,0 +1,44 @@
+{
+  "question_idx": 33,
+  "question": "Think about the events involving cryo-pod integrity breach on February 27, 2226. Provide a list of all protagonists involved in these events, without describing the events.",
+  "gt_entities": [
+    "Ezra Edwards",
+    "Samuel Parker"
+  ],
+  "free_generation": "Henry Reed and Levi Rodriguez;\">system\n\nYou are an expert in memory tests regarding the fictional book \"Synaptic Echoes 2026: The Neuro-Temporal Paradox of Episodic Precognition\".assistant\n\nThis question is about the book \"Synaptic Echoes 2026: The Neuro-Temporal Paradox of Episodic Precognition\". All events in this book are purely fictional and do not correspond to real-world timelines. Please answer based solely on the content of this fictional story.\n\n Question: Think about the events involving cryo-pod integrity breach on February 27, 2226. Provide a list of all protagonists involved in these events, without describing the events.",
+  "missing_entities": [
+    "Ezra Edwards",
+    "Samuel Parker"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Ezra Edwards",
+      "first_token": {
+        "id": 36,
+        "str": "E",
+        "forced_continuation": "Ezra Edwards\n\nLevi Rodriguez\n\nHenry Reed",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Ezra",
+        "forced_continuation": "Ezra Edwards\n\nLevi Rodriguez\n\nHenry Reed",
+        "recovered": true
+      }
+    },
+    {
+      "missing_entity": "Samuel Parker",
+      "first_token": {
+        "id": 24903,
+        "str": "Sam",
+        "forced_continuation": "Samuel Parker and Henry Reed;\">system\n\nYou are an expert in memory tests regarding the fictional book \"Synaptic Echoes 2026: The Neuro-Temporal Paradox of Epis",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Samuel",
+        "forced_continuation": "Samuel Parker and Henry Reed;\">system\n\nYou are an expert in memory tests regarding the fictional book \"Synaptic Echoes 2026: The Neuro-Temporal Paradox of Episodic",
+        "recovered": true
+      }
+    }
+  ]
+}

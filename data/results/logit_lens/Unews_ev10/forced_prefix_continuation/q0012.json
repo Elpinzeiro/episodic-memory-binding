@@ -1,0 +1,44 @@
+{
+  "question_idx": 12,
+  "question": "Recall all events related to bridge collapse that occurred at Luzon Region. Provide a list of all dates when these events took place, without describing the events.",
+  "gt_entities": [
+    "June 14, 2025",
+    "May 11, 2026"
+  ],
+  "free_generation": "February 27, 2026\nJune 14, 2026\nNovember 16, 2026",
+  "missing_entities": [
+    "June 14, 2025",
+    "May 11, 2026"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "June 14, 2025",
+      "first_token": {
+        "id": 28259,
+        "str": "June",
+        "forced_continuation": "June 14, 2025\nFebruary 21, 2029\nNovember 19, 2028\nSeptember 9, 2028\nFebruary 9, 2028\nFebruary",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "June",
+        "forced_continuation": "June 14, 2025\nFebruary 21, 2029\nNovember 19, 2028\nSeptember 9, 2028\nFebruary 9, 2028\nFebruary",
+        "recovered": true
+      }
+    },
+    {
+      "missing_entity": "May 11, 2026",
+      "first_token": {
+        "id": 11356,
+        "str": "May",
+        "forced_continuation": "May 11, 2026\nFebruary 21, 2026\nFebruary 9, 2026\nFebruary 3, 2026\nFebruary 27, 2026\nFebruary",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "May",
+        "forced_continuation": "May 11, 2026\nFebruary 21, 2026\nFebruary 9, 2026\nFebruary 3, 2026\nFebruary 27, 2026\nFebruary",
+        "recovered": true
+      }
+    }
+  ]
+}

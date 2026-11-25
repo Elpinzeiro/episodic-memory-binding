@@ -1,0 +1,75 @@
+{
+  "question_idx": 29,
+  "question": "Consider all events that happened on September 22, 2026. Provide a list of all protagonists involved in any of these events, without describing the events themselves.",
+  "GT_entities": [
+    "Henry Reed",
+    "Carter Stewart"
+  ],
+  "ent_A": "Henry Reed",
+  "ent_B": "Carter Stewart",
+  "topk": 8,
+  "top_ids": [
+    64463,
+    29185,
+    24903,
+    34,
+    96056,
+    2356,
+    36,
+    18063
+  ],
+  "top_tokens": [
+    {
+      "id": 64463,
+      "str": "Henry",
+      "prob": 0.980115532875061
+    },
+    {
+      "id": 29185,
+      "str": "Jul",
+      "prob": 0.009913728572428226
+    },
+    {
+      "id": 24903,
+      "str": "Sam",
+      "prob": 0.006501581519842148
+    },
+    {
+      "id": 34,
+      "str": "C",
+      "prob": 0.0017774334410205483
+    },
+    {
+      "id": 96056,
+      "str": "Scar",
+      "prob": 0.0006437437841668725
+    },
+    {
+      "id": 2356,
+      "str": "Le",
+      "prob": 0.0003287921426817775
+    },
+    {
+      "id": 36,
+      "str": "E",
+      "prob": 0.000304083019727841
+    },
+    {
+      "id": 18063,
+      "str": " Henry",
+      "prob": 5.803525709779933e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 64463,
+    "bare_str": "Henry",
+    "lead_id": 18063,
+    "lead_str": " Henry"
+  },
+  "first_token_B": {
+    "bare_id": 34,
+    "bare_str": "C",
+    "lead_id": 25581,
+    "lead_str": " Carter"
+  }
+}

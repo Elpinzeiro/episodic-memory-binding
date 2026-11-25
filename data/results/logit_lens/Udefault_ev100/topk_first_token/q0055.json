@@ -1,0 +1,75 @@
+{
+  "question_idx": 55,
+  "question": "Consider all events involving both Henry Reed and Tech Hackathon at Statue of Liberty. Provide a list of all dates when these events occurred, without describing the events.",
+  "GT_entities": [
+    "May 11, 2026",
+    "July 31, 2025"
+  ],
+  "ent_A": "May 11, 2026",
+  "ent_B": "July 31, 2025",
+  "topk": 8,
+  "top_ids": [
+    28623,
+    29527,
+    30649,
+    33877,
+    31294,
+    28259,
+    11356,
+    29146
+  ],
+  "top_tokens": [
+    {
+      "id": 28623,
+      "str": "March",
+      "prob": 0.9870282411575317
+    },
+    {
+      "id": 29527,
+      "str": "July",
+      "prob": 0.005688512232154608
+    },
+    {
+      "id": 30649,
+      "str": "September",
+      "prob": 0.004097281489521265
+    },
+    {
+      "id": 33877,
+      "str": "February",
+      "prob": 0.0014382809167727828
+    },
+    {
+      "id": 31294,
+      "str": "October",
+      "prob": 0.0009581016493029892
+    },
+    {
+      "id": 28259,
+      "str": "June",
+      "prob": 0.0007232131320051849
+    },
+    {
+      "id": 11356,
+      "str": "May",
+      "prob": 1.2639526175917126e-05
+    },
+    {
+      "id": 29146,
+      "str": "April",
+      "prob": 1.187373618449783e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 11356,
+    "bare_str": "May",
+    "lead_id": 3297,
+    "lead_str": " May"
+  },
+  "first_token_B": {
+    "bare_id": 29527,
+    "bare_str": "July",
+    "lead_id": 5887,
+    "lead_str": " July"
+  }
+}

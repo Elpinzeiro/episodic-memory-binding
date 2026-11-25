@@ -1,0 +1,29 @@
+{
+  "question_idx": 8,
+  "question": "Reflect on the experiences of Carter Stewart related to antimatter cascade. List all the unique locations where these events took place, without mentioning the events themselves.",
+  "gt_entities": [
+    "Luna Shackleton Crater Colony",
+    "Luna Oceanus Trading Post"
+  ],
+  "free_generation": "Luna Shackleton Crater Colony Leadership Office ΔEmitter Facility Moon's Farside Shadowed Crater Walls",
+  "missing_entities": [
+    "Luna Oceanus Trading Post"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Luna Oceanus Trading Post",
+      "first_token": {
+        "id": 43,
+        "str": "L",
+        "forced_continuation": "Luna Shackleton Crater Colony Leadership Office ΔEvo Facility Triton Gas Colony Barrier Frame Stability Test Chamber",
+        "recovered": false
+      },
+      "first_word": {
+        "str": "Luna",
+        "forced_continuation": "Luna Shackleton Crater Colony Leadership Office ΔEmitter Facility Moon's Farside Shadowed Crater Walls",
+        "recovered": false
+      }
+    }
+  ]
+}

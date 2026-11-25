@@ -1,0 +1,29 @@
+{
+  "question_idx": 42,
+  "question": "Reflect on Zoe Brown's experiences at American Museum of Natural History. Describe all the key events they've been involved in at this location, focusing on what happened rather than when it occurred.",
+  "gt_entities": [
+    "Theater Performance",
+    "Parkour Workshop"
+  ],
+  "free_generation": "Theater Performance was presented at American Museum of Natural History. Zoe Brown acted during the event. Scientific Conference was also held at the location. Debate and award ceremony took place. The atmosphere was tense and competitive.",
+  "missing_entities": [
+    "Parkour Workshop"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Parkour Workshop",
+      "first_token": {
+        "id": 64706,
+        "str": "Park",
+        "forced_continuation": "Parkour Workshop took place at American Museum of Natural History with Zoe Brown. The museum setting was transformed by the energetic workshop. Participants leaped and flipped through ancient artifact galleries and narrow corridors.",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Parkour",
+        "forced_continuation": "Parkour Workshop took place at American Museum of Natural History with Zoe Brown. The museum setting was transformed by the energetic workshop. Participants leaped and flipped through ancient artifact galleries and narrow corridors.",
+        "recovered": true
+      }
+    }
+  ]
+}

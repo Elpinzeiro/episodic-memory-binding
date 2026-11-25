@@ -1,0 +1,75 @@
+{
+  "question_idx": 15,
+  "question": "Reflect on Henry Reed's experiences at Naiad Oceanographic Center. Describe all the key events they've been involved in at this location, focusing on what happened rather than when it occurred.",
+  "GT_entities": [
+    "matter synthesizer overload",
+    "cryo-pod integrity breach"
+  ],
+  "ent_A": "matter synthesizer overload",
+  "ent_B": "cryo-pod integrity breach",
+  "topk": 8,
+  "top_ids": [
+    55665,
+    37,
+    69,
+    96692,
+    43337,
+    37608,
+    49700,
+    62238
+  ],
+  "top_tokens": [
+    {
+      "id": 55665,
+      "str": "fusion",
+      "prob": 0.8494842648506165
+    },
+    {
+      "id": 37,
+      "str": "F",
+      "prob": 0.14085829257965088
+    },
+    {
+      "id": 69,
+      "str": "f",
+      "prob": 0.002620537532493472
+    },
+    {
+      "id": 96692,
+      "str": "fuse",
+      "prob": 0.0006836080574430525
+    },
+    {
+      "id": 43337,
+      "str": " Fusion",
+      "prob": 0.0006782881682738662
+    },
+    {
+      "id": 37608,
+      "str": " fusion",
+      "prob": 0.0006472271052189171
+    },
+    {
+      "id": 49700,
+      "str": "Fuse",
+      "prob": 0.0006224322132766247
+    },
+    {
+      "id": 62238,
+      "str": "cry",
+      "prob": 0.000500138325151056
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 60065,
+    "bare_str": "matter",
+    "lead_id": 5030,
+    "lead_str": " matter"
+  },
+  "first_token_B": {
+    "bare_id": 62238,
+    "bare_str": "cry",
+    "lead_id": 16106,
+    "lead_str": " cry"
+  }
+}

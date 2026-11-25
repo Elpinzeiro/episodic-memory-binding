@@ -1,0 +1,75 @@
+{
+  "question_idx": 56,
+  "question": "Consider all events involving both Carter Stewart and residential tower fire at Vermont. Provide a list of all dates when these events occurred, without describing the events.",
+  "GT_entities": [
+    "June 14, 2025",
+    "July 13, 2024"
+  ],
+  "ent_A": "June 14, 2025",
+  "ent_B": "July 13, 2024",
+  "topk": 8,
+  "top_ids": [
+    30649,
+    6250,
+    31294,
+    25669,
+    28259,
+    29527,
+    34827,
+    84749
+  ],
+  "top_tokens": [
+    {
+      "id": 30649,
+      "str": "September",
+      "prob": 0.999794065952301
+    },
+    {
+      "id": 6250,
+      "str": " September",
+      "prob": 6.501900497823954e-05
+    },
+    {
+      "id": 31294,
+      "str": "October",
+      "prob": 5.920047624385916e-05
+    },
+    {
+      "id": 25669,
+      "str": "Sept",
+      "prob": 2.3919154045870528e-05
+    },
+    {
+      "id": 28259,
+      "str": "June",
+      "prob": 2.2121603251434863e-05
+    },
+    {
+      "id": 29527,
+      "str": "July",
+      "prob": 9.221655091096181e-06
+    },
+    {
+      "id": 34827,
+      "str": "November",
+      "prob": 5.95394840274821e-06
+    },
+    {
+      "id": 84749,
+      "str": " september",
+      "prob": 5.7707643463800196e-06
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 28259,
+    "bare_str": "June",
+    "lead_id": 5651,
+    "lead_str": " June"
+  },
+  "first_token_B": {
+    "bare_id": 29527,
+    "bare_str": "July",
+    "lead_id": 5887,
+    "lead_str": " July"
+  }
+}

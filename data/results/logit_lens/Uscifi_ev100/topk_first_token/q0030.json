@@ -1,0 +1,75 @@
+{
+  "question_idx": 30,
+  "question": "Reflect on all events involving Maya Smith. Provide a list of all dates when these events occurred, without describing the events.",
+  "GT_entities": [
+    "September 22, 2226",
+    "November 13, 2226"
+  ],
+  "ent_A": "September 22, 2226",
+  "ent_B": "November 13, 2226",
+  "topk": 8,
+  "top_ids": [
+    30649,
+    6250,
+    84749,
+    28259,
+    25669,
+    34827,
+    31294,
+    42214
+  ],
+  "top_tokens": [
+    {
+      "id": 30649,
+      "str": "September",
+      "prob": 0.9897828698158264
+    },
+    {
+      "id": 6250,
+      "str": " September",
+      "prob": 0.010169170796871185
+    },
+    {
+      "id": 84749,
+      "str": " september",
+      "prob": 2.3312530174735002e-05
+    },
+    {
+      "id": 28259,
+      "str": "June",
+      "prob": 2.1900093997828662e-05
+    },
+    {
+      "id": 25669,
+      "str": "Sept",
+      "prob": 1.7153478211184847e-06
+    },
+    {
+      "id": 34827,
+      "str": "November",
+      "prob": 1.8079634855894255e-07
+    },
+    {
+      "id": 31294,
+      "str": "October",
+      "prob": 1.7799335694235197e-07
+    },
+    {
+      "id": 42214,
+      "str": "Sep",
+      "prob": 9.677330581325805e-08
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 30649,
+    "bare_str": "September",
+    "lead_id": 6250,
+    "lead_str": " September"
+  },
+  "first_token_B": {
+    "bare_id": 34827,
+    "bare_str": "November",
+    "lead_id": 6841,
+    "lead_str": " November"
+  }
+}

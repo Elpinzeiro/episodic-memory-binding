@@ -1,0 +1,36 @@
+{
+  "entity": "Rio Ferdinand",
+  "prompt": "Question: When does monsoon season end in the state the area code 575 is located?\nAre follow up questions needed here: Yes.\nFollow up: Which state is the area code 575 located in?\nIntermediate answer: The area code 575 is located in New Mexico.\nFollow up: When does monsoon season end in New Mexico?\nIntermediate answer: Monsoon season in New Mexico typically ends in mid-September.\nSo the final answer is: mid-September.\n\nQuestion: What is the current official currency in the country where Ineabelle Diaz is a citizen?\nAre follow up questions needed here: Yes.\nFollow up: Which country is Ineabelle Diaz a citizen of?\nIntermediate answer: Ineabelle Diaz is from Peurto Rico, which is in the United States of America.\nFollow up: What is the current official currency in the United States of America?\nIntermediate answer: The current official currency in the United States is the United States dollar.\nSo the final answer is: United States dollar.\n\nQuestion: Where was the person who founded the American Institute of Public Opinion in 1935 born?\nAre follow up questions needed here: Yes.\nFollow up: Who founded the American Institute of Public Opinion in 1935?\nIntermediate answer: George Gallup.\nFollow up: Where was George Gallup born?\nIntermediate answer: George Gallup was born in Jefferson, Iowa.\nSo the final answer is: Jefferson.\n\nQuestion: What language is used by the director of Tiffany Memorandum?\nAre follow up questions needed here: Yes.\nFollow up: Who directed the movie called Tiffany Memorandum?\nIntermediate answer: Sergio Grieco.\nFollow up: What language is used by Sergio Grieco?\nIntermediate answer: Sergio Grieco speaks Italian.\nSo the final answer is: Italian.\n\nQuestion: What is the sports team the person played for who scored the first touchdown in Superbowl 1?\nAre follow up questions needed here: Yes.\nFollow up: Which player scored the first touchdown in Superbowl 1?\nIntermediate answer: Max McGee.\nFollow up: Which sports team did Max McGee play for?\nIntermediate answer: Max McGee played for the Green Bay Packers.\nSo the final answer is: Green Bay Packers.\n\nQuestion: The birth country of Jayantha Ketagoda left the British Empire when?\nAre follow up questions needed here: Yes.\nFollow up: What is the birth country of Jayantha Ketagoda?\nIntermediate answer: Sri Lanka.\nFollow up: When did Sri Lanka leave the British Empire?\nIntermediate answer: Sri Lanka left the British Empire on February 4, 1948.\nSo the final answer is: February 4, 1948.\n\nQuestion: List ALL teams that Rio Ferdinand played for between 2010 and 2015, including both club and national teams. Provide your answer as a JSON list like [\"a\",\"b\"].\nAre follow up questions needed here:",
+  "expected": [
+    "England national association football team",
+    "Manchester United F.C.",
+    "Queens Park Rangers F.C."
+  ],
+  "retry": 1,
+  "variant": "selfask",
+  "query_type": "binding_list",
+  "prompting_method": "selfask",
+  "extended_reasoning_enabled": false,
+  "success": true,
+  "response": "[\"Manchester United\", \"England\", \"Queens Park Rangers\"]",
+  "model": "openai/gpt-5.4",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 654,
+    "completion_tokens": 16,
+    "total_tokens": 670
+  },
+  "selfask_full_completion": "No.\n\n[\"Manchester United\",\"England\",\"Queens Park Rangers\"]",
+  "selfask_trace": {
+    "needs_followup": false,
+    "num_decomposition_steps": 0,
+    "follow_ups": [],
+    "final_answer": "[\"Manchester United\", \"England\", \"Queens Park Rangers\"]",
+    "extraction_method": "bare_json_list",
+    "parse_ok": true,
+    "echoed_fewshot": false
+  },
+  "timestamp": "2026-04-07T14:47:32.606349+00:00",
+  "response_before_reparse": "[\"Manchester United\",\"England\",\"Queens Park Rangers\"]",
+  "reparsed_at": "2026-07-30T13:24:03.410760+00:00"
+}

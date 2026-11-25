@@ -1,0 +1,15 @@
+{
+  "entity": "Rio Ferdinand",
+  "prompt": "Which team did Rio Ferdinand play for in 2015?",
+  "expected": "Queens Park Rangers F.C.",
+  "retry": 2,
+  "success": true,
+  "response": "In 2015, Rio Ferdinand played for **Queens Park Rangers (QPR)**.",
+  "model": "openai/gpt-5.4",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 82,
+    "completion_tokens": 22,
+    "total_tokens": 104
+  }
+}

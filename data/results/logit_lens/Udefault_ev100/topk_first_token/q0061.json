@@ -1,0 +1,75 @@
+{
+  "question_idx": 61,
+  "question": "Reflect on September 27, 2025. Describe all the key events that occurred on this date, focusing on what happened rather than who was involved or where it took place.",
+  "GT_entities": [
+    "Tech Hackathon",
+    "Theater Performance"
+  ],
+  "ent_A": "Tech Hackathon",
+  "ent_B": "Theater Performance",
+  "topk": 8,
+  "top_ids": [
+    35197,
+    97241,
+    791,
+    29356,
+    98982,
+    63326,
+    63507,
+    17829
+  ],
+  "top_tokens": [
+    {
+      "id": 35197,
+      "str": "Tech",
+      "prob": 0.969843864440918
+    },
+    {
+      "id": 97241,
+      "str": "Fashion",
+      "prob": 0.015433031134307384
+    },
+    {
+      "id": 791,
+      "str": "The",
+      "prob": 0.012995915487408638
+    },
+    {
+      "id": 29356,
+      "str": "Techn",
+      "prob": 0.0009713048930279911
+    },
+    {
+      "id": 98982,
+      "str": "Educ",
+      "prob": 0.00030563463224098086
+    },
+    {
+      "id": 63326,
+      "str": "Technical",
+      "prob": 0.00014213328540790826
+    },
+    {
+      "id": 63507,
+      "str": "Technology",
+      "prob": 0.0001039869457599707
+    },
+    {
+      "id": 17829,
+      "str": " Tech",
+      "prob": 3.537977681844495e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 35197,
+    "bare_str": "Tech",
+    "lead_id": 17829,
+    "lead_str": " Tech"
+  },
+  "first_token_B": {
+    "bare_id": 791,
+    "bare_str": "The",
+    "lead_id": 38571,
+    "lead_str": " Theater"
+  }
+}

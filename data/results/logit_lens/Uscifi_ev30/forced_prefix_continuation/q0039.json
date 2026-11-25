@@ -1,0 +1,12 @@
+{
+  "question_idx": 39,
+  "question": "Recall the events related to antimatter cascade that occurred on May 11, 2226. List all the locations where these events took place, without describing the events themselves.",
+  "gt_entities": [
+    "Europa Subsurface Laboratory",
+    "Triton Gas Colony"
+  ],
+  "free_generation": "Europa Subsurface Laboratory Triton Gas Colony Nile Bridge Network Interface Highway 54 Phobos Military Base; Mars Colonial Authority Headquarterssystem\n\nYou are an expert in memory tests regarding the fictional book \"Synaptic Echoes 2026: The Neuro-Temporal Paradox of Episodic Precognition\".",
+  "missing_entities": [],
+  "is_binding_failure": false,
+  "forced_prefix_experiments": []
+}

@@ -1,0 +1,75 @@
+{
+  "question_idx": 50,
+  "question": "Consider all events involving Scarlett Thomas at High Line. Provide a list of all dates when these events occurred, without describing the events.",
+  "GT_entities": [
+    "January 03, 2026",
+    "September 27, 2025"
+  ],
+  "ent_A": "January 03, 2026",
+  "ent_B": "September 27, 2025",
+  "topk": 8,
+  "top_ids": [
+    29146,
+    30649,
+    32559,
+    34827,
+    31294,
+    28623,
+    11356,
+    33877
+  ],
+  "top_tokens": [
+    {
+      "id": 29146,
+      "str": "April",
+      "prob": 0.602433979511261
+    },
+    {
+      "id": 30649,
+      "str": "September",
+      "prob": 0.27581438422203064
+    },
+    {
+      "id": 32559,
+      "str": "August",
+      "prob": 0.08411862701177597
+    },
+    {
+      "id": 34827,
+      "str": "November",
+      "prob": 0.013948236592113972
+    },
+    {
+      "id": 31294,
+      "str": "October",
+      "prob": 0.007124061696231365
+    },
+    {
+      "id": 28623,
+      "str": "March",
+      "prob": 0.006692437455058098
+    },
+    {
+      "id": 11356,
+      "str": "May",
+      "prob": 0.002746570622548461
+    },
+    {
+      "id": 33877,
+      "str": "February",
+      "prob": 0.0023492660839110613
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 33327,
+    "bare_str": "January",
+    "lead_id": 6186,
+    "lead_str": " January"
+  },
+  "first_token_B": {
+    "bare_id": 30649,
+    "bare_str": "September",
+    "lead_id": 6250,
+    "lead_str": " September"
+  }
+}

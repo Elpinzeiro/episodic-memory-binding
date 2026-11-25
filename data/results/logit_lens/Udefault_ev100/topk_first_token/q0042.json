@@ -1,0 +1,75 @@
+{
+  "question_idx": 42,
+  "question": "Reflect on Zoe Brown's experiences at American Museum of Natural History. Describe all the key events they've been involved in at this location, focusing on what happened rather than when it occurred.",
+  "GT_entities": [
+    "Theater Performance",
+    "Parkour Workshop"
+  ],
+  "ent_A": "Theater Performance",
+  "ent_B": "Parkour Workshop",
+  "topk": 8,
+  "top_ids": [
+    791,
+    51665,
+    97241,
+    98982,
+    35197,
+    91792,
+    64706,
+    17673
+  ],
+  "top_tokens": [
+    {
+      "id": 791,
+      "str": "The",
+      "prob": 0.6887155175209045
+    },
+    {
+      "id": 51665,
+      "str": "Scient",
+      "prob": 0.21004635095596313
+    },
+    {
+      "id": 97241,
+      "str": "Fashion",
+      "prob": 0.04686767980456352
+    },
+    {
+      "id": 98982,
+      "str": "Educ",
+      "prob": 0.03482909873127937
+    },
+    {
+      "id": 35197,
+      "str": "Tech",
+      "prob": 0.00922879297286272
+    },
+    {
+      "id": 91792,
+      "str": "Sci",
+      "prob": 0.008402911946177483
+    },
+    {
+      "id": 64706,
+      "str": "Park",
+      "prob": 0.0004740598378702998
+    },
+    {
+      "id": 17673,
+      "str": "THE",
+      "prob": 0.00018856798124033958
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 791,
+    "bare_str": "The",
+    "lead_id": 38571,
+    "lead_str": " Theater"
+  },
+  "first_token_B": {
+    "bare_id": 64706,
+    "bare_str": "Park",
+    "lead_id": 5657,
+    "lead_str": " Park"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "question_idx": 23,
+  "question": "Think about all events that have occurred at Statue of Liberty. Provide a list of all dates when these events took place, without describing the events.",
+  "GT_entities": [
+    "May 11, 2026",
+    "June 14, 2025"
+  ],
+  "ent_A": "May 11, 2026",
+  "ent_B": "June 14, 2025",
+  "topk": 8,
+  "top_ids": [
+    28259,
+    11356,
+    30649,
+    5651,
+    29527,
+    29146,
+    33877,
+    36690
+  ],
+  "top_tokens": [
+    {
+      "id": 28259,
+      "str": "June",
+      "prob": 0.9870120882987976
+    },
+    {
+      "id": 11356,
+      "str": "May",
+      "prob": 0.008276601321995258
+    },
+    {
+      "id": 30649,
+      "str": "September",
+      "prob": 0.004642752464860678
+    },
+    {
+      "id": 5651,
+      "str": " June",
+      "prob": 4.2095358367078006e-05
+    },
+    {
+      "id": 29527,
+      "str": "July",
+      "prob": 1.0643374480423518e-05
+    },
+    {
+      "id": 29146,
+      "str": "April",
+      "prob": 8.034039638005197e-06
+    },
+    {
+      "id": 33877,
+      "str": "February",
+      "prob": 1.6069092225734494e-06
+    },
+    {
+      "id": 36690,
+      "str": "Jun",
+      "prob": 1.2711698218481615e-06
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 11356,
+    "bare_str": "May",
+    "lead_id": 3297,
+    "lead_str": " May"
+  },
+  "first_token_B": {
+    "bare_id": 28259,
+    "bare_str": "June",
+    "lead_id": 5651,
+    "lead_str": " June"
+  }
+}

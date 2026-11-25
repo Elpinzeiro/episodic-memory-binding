@@ -1,0 +1,75 @@
+{
+  "question_idx": 52,
+  "question": "Consider all events involving both Levi Rodriguez and plasma conduit rupture at Luna Oceanus Trading Post. Provide a list of all dates when these events occurred, without describing the events.",
+  "GT_entities": [
+    "February 27, 2226",
+    "May 31, 2224"
+  ],
+  "ent_A": "February 27, 2226",
+  "ent_B": "May 31, 2224",
+  "topk": 8,
+  "top_ids": [
+    31294,
+    33327,
+    6664,
+    11356,
+    605,
+    6186,
+    33787,
+    95598
+  ],
+  "top_tokens": [
+    {
+      "id": 31294,
+      "str": "October",
+      "prob": 0.7769842147827148
+    },
+    {
+      "id": 33327,
+      "str": "January",
+      "prob": 0.21915845572948456
+    },
+    {
+      "id": 6664,
+      "str": " October",
+      "prob": 0.002216756111010909
+    },
+    {
+      "id": 11356,
+      "str": "May",
+      "prob": 0.0007781547028571367
+    },
+    {
+      "id": 605,
+      "str": "10",
+      "prob": 0.00029535419889725745
+    },
+    {
+      "id": 6186,
+      "str": " January",
+      "prob": 0.00017093788483180106
+    },
+    {
+      "id": 33787,
+      "str": "Ten",
+      "prob": 0.00017093788483180106
+    },
+    {
+      "id": 95598,
+      "str": "十",
+      "prob": 7.467723480658606e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 33877,
+    "bare_str": "February",
+    "lead_id": 7552,
+    "lead_str": " February"
+  },
+  "first_token_B": {
+    "bare_id": 11356,
+    "bare_str": "May",
+    "lead_id": 3297,
+    "lead_str": " May"
+  }
+}

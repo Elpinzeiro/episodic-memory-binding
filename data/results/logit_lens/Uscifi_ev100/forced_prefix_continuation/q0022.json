@@ -1,0 +1,29 @@
+{
+  "question_idx": 22,
+  "question": "Think about Ezra Edwards's experiences. Describe all the key events they've been involved in, focusing on what happened rather than when or where it occurred.",
+  "gt_entities": [
+    "cryo-pod integrity breach",
+    "navigation computer blackout"
+  ],
+  "free_generation": "cryo-pod integrity breach at Naiad Oceanographic Center; navigating a subspace radiation cascade; warning about matter cascade at Technocratic Assembly; missing at Luna Shackleton Crater Colony.\"",
+  "missing_entities": [
+    "navigation computer blackout"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "navigation computer blackout",
+      "first_token": {
+        "id": 23432,
+        "str": "navigation",
+        "forced_continuation": "navigation computer blackoutassistant\n\ncryo chamber integrity breach",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "navigation",
+        "forced_continuation": "navigation computer blackoutassistant\n\ncryo chamber integrity breach",
+        "recovered": true
+      }
+    }
+  ]
+}

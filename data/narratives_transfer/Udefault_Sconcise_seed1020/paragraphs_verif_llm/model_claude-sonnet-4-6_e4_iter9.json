@@ -1,0 +1,13 @@
+[
+  false,
+  [
+    "content"
+  ],
+  {
+    "location": true,
+    "date": true,
+    "entity": true,
+    "content": false
+  },
+  "I'll analyze the text carefully for each question.\n\n(1) Single geographical location? The text mentions \"Fisherman's Wharf\" as the only location - this is a single place with a specific longitude/latitude. True\n\n(2) Single temporal day? The text refers to \"June 14, 1861\" and mentions \"by day's end,\" indicating everything happens within a single day. True\n\n(3) Single main character? The text features only \"Hiroshi Tanaka\" as the main character. True\n\n(4) Single main event? The text mentions two distinct events: attending an \"educational workshop\" AND completing a \"research project.\" These are two separate events happening that day. False\n\n```json\n{\n    \"1\": true,\n    \"2\": true,\n    \"3\": true,\n    \"4\": false\n}\n```"
+]

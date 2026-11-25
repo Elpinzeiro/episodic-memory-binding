@@ -1,0 +1,75 @@
+{
+  "question_idx": 24,
+  "question": "Think about Lillian Mendoza's experiences. Describe all the key events they've been involved in, focusing on what happened rather than when or where it occurred.",
+  "GT_entities": [
+    "Debate Tournament",
+    "Educational Workshop"
+  ],
+  "ent_A": "Debate Tournament",
+  "ent_B": "Educational Workshop",
+  "topk": 8,
+  "top_ids": [
+    1951,
+    9566,
+    83888,
+    35197,
+    39035,
+    98982,
+    1170,
+    90480
+  ],
+  "top_tokens": [
+    {
+      "id": 1951,
+      "str": "De",
+      "prob": 0.998424768447876
+    },
+    {
+      "id": 9566,
+      "str": "Delegate",
+      "prob": 0.0008289701072499156
+    },
+    {
+      "id": 83888,
+      "str": " Debate",
+      "prob": 0.00020634697284549475
+    },
+    {
+      "id": 35197,
+      "str": "Tech",
+      "prob": 0.00017649790970608592
+    },
+    {
+      "id": 39035,
+      "str": "deb",
+      "prob": 0.00015821171109564602
+    },
+    {
+      "id": 98982,
+      "str": "Educ",
+      "prob": 8.207915379898623e-05
+    },
+    {
+      "id": 1170,
+      "str": "DE",
+      "prob": 2.7926025722990744e-05
+    },
+    {
+      "id": 90480,
+      "str": "debit",
+      "prob": 1.4042087968846317e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 1951,
+    "bare_str": "De",
+    "lead_id": 83888,
+    "lead_str": " Debate"
+  },
+  "first_token_B": {
+    "bare_id": 98982,
+    "bare_str": "Educ",
+    "lead_id": 46945,
+    "lead_str": " Educational"
+  }
+}

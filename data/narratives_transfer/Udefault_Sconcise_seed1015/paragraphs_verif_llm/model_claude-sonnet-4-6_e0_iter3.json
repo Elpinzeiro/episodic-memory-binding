@@ -1,0 +1,11 @@
+[
+  true,
+  [],
+  {
+    "location": true,
+    "date": true,
+    "entity": true,
+    "content": true
+  },
+  "Here is my analysis of the text:\n\n(1) The text takes place at Nassau County Museum of Art - a single geographical location. True\n\n(2) The text takes place on March 24, 1845 - a single day. True\n\n(3) The text mentions both the Nassau County Museum of Art (as host) and Thomas Kim as participants. Thomas Kim is the most prominent individual character, but the event involves multiple guests. However, Thomas Kim is the single focused main character. True\n\n(4) There are multiple events described: a fashion show being hosted, Thomas attending, and Thomas discussing design inspiration with guests - these are distinct sub-events, but they all revolve around the single main event of the fashion show. True\n\n```json\n{\n    \"1\": true,\n    \"2\": true,\n    \"3\": true,\n    \"4\": true\n}\n```"
+]

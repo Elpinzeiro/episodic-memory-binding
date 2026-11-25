@@ -1,0 +1,44 @@
+{
+  "question_idx": 60,
+  "question": "Consider all events that happened on November 07, 2225. Provide a list of all protagonists involved in any of these events, without describing the events themselves.",
+  "gt_entities": [
+    "Levi Rodriguez",
+    "Henry Reed"
+  ],
+  "free_generation": "Mila Gonzalezassistant\n\nLillian Mendoza",
+  "missing_entities": [
+    "Levi Rodriguez",
+    "Henry Reed"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Levi Rodriguez",
+      "first_token": {
+        "id": 2356,
+        "str": "Le",
+        "forced_continuation": "Levi Rodriguez Maya Smith Henry Reed Lucy Elliott Samuel Jackson Carter Werner Lauren Edwards Ethan Patton Noah Duncan Scarlett Johnson Harrison Wallace Lillian Thompson Zoe Turner Henry Ross Zoe Jackson James Martin Mila Gonzalez Levi Maarten Miller",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Levi",
+        "forced_continuation": "Levi Rodriguez Maya Smith Henry Reed Lucy Elliott Samuel Jackson Carter Werner Lauren Edwards Ethan Patton Noah Duncan Scarlett Johnson Harrison Wallace Lillian Thompson Zoe Turner Henry Ross Zoe Jackson James Martin Mila Gonzalez Levi Maarten Miller Scarlett",
+        "recovered": true
+      }
+    },
+    {
+      "missing_entity": "Henry Reed",
+      "first_token": {
+        "id": 64463,
+        "str": "Henry",
+        "forced_continuation": "Henry Reedassistant\n\nHenry Reed",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Henry",
+        "forced_continuation": "Henry Reedassistant\n\nHenry Reed",
+        "recovered": true
+      }
+    }
+  ]
+}

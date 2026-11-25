@@ -1,0 +1,75 @@
+{
+  "question_idx": 44,
+  "question": "Consider all events involving Carter Stewart at Luna Shackleton Crater Colony. Provide a list of all dates when these events occurred, without describing the events.",
+  "GT_entities": [
+    "February 27, 2226",
+    "March 23, 2224"
+  ],
+  "ent_A": "February 27, 2226",
+  "ent_B": "March 23, 2224",
+  "topk": 8,
+  "top_ids": [
+    33877,
+    28623,
+    30649,
+    11356,
+    31294,
+    34827,
+    33327,
+    41691
+  ],
+  "top_tokens": [
+    {
+      "id": 33877,
+      "str": "February",
+      "prob": 0.9698951840400696
+    },
+    {
+      "id": 28623,
+      "str": "March",
+      "prob": 0.027947088703513145
+    },
+    {
+      "id": 30649,
+      "str": "September",
+      "prob": 0.0011180242290720344
+    },
+    {
+      "id": 11356,
+      "str": "May",
+      "prob": 0.0004243541043251753
+    },
+    {
+      "id": 31294,
+      "str": "October",
+      "prob": 0.00018830598855856806
+    },
+    {
+      "id": 34827,
+      "str": "November",
+      "prob": 0.00018830598855856806
+    },
+    {
+      "id": 33327,
+      "str": "January",
+      "prob": 0.00011969457409577444
+    },
+    {
+      "id": 41691,
+      "str": "Feb",
+      "prob": 3.885913611156866e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 33877,
+    "bare_str": "February",
+    "lead_id": 7552,
+    "lead_str": " February"
+  },
+  "first_token_B": {
+    "bare_id": 28623,
+    "bare_str": "March",
+    "lead_id": 5587,
+    "lead_str": " March"
+  }
+}

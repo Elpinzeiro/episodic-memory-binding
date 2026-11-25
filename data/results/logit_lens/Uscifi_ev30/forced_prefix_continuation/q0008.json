@@ -1,0 +1,29 @@
+{
+  "question_idx": 8,
+  "question": "Recall all events related to antimatter cascade that occurred at Europa Subsurface Laboratory. Provide a list of all dates when these events took place, without describing the events.",
+  "gt_entities": [
+    "June 14, 2225",
+    "May 11, 2226"
+  ],
+  "free_generation": "May 11, 2226; May 13, 2226; May 15, 2226; May 20, 2226; May 22, 2226; May 25, 2226; May 27, 2226; June 01, 2226; June 03, 2226; June 05, 2226; June 08, 2226; June 10, 2226; June 12, 2226; June 15, 2226; June 17, 2226; June 19, 2226; June 22, 2226; June 24, 2226; June 26, 2226; June 29, 2226; July 01, 2226; July 03, 2226; July 05, 2226; July 08, 2226; July 10, 2226;",
+  "missing_entities": [
+    "June 14, 2225"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "June 14, 2225",
+      "first_token": {
+        "id": 28259,
+        "str": "June",
+        "forced_continuation": "June 14, 2225; July 09, 2225; July 17, 2225; July 25, 2225; July 30, 2225; September",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "June",
+        "forced_continuation": "June 14, 2225; July 09, 2225; July 17, 2225; July 25, 2225; July 30, 2225; September",
+        "recovered": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "question_idx": 66,
+  "question": "Think about the events involving flash flood emergency on July 13, 2024. Provide a list of all protagonists involved in these events, without describing the events.",
+  "GT_entities": [
+    "Mila Gonzalez",
+    "Levi Rodriguez"
+  ],
+  "ent_A": "Mila Gonzalez",
+  "ent_B": "Levi Rodriguez",
+  "topk": 8,
+  "top_ids": [
+    64463,
+    96056,
+    29185,
+    2822,
+    24903,
+    36690,
+    18063,
+    89021
+  ],
+  "top_tokens": [
+    {
+      "id": 64463,
+      "str": "Henry",
+      "prob": 0.9783153533935547
+    },
+    {
+      "id": 96056,
+      "str": "Scar",
+      "prob": 0.009742103517055511
+    },
+    {
+      "id": 29185,
+      "str": "Jul",
+      "prob": 0.0061924573965370655
+    },
+    {
+      "id": 2822,
+      "str": "No",
+      "prob": 0.003065488999709487
+    },
+    {
+      "id": 24903,
+      "str": "Sam",
+      "prob": 0.00039587056380696595
+    },
+    {
+      "id": 36690,
+      "str": "Jun",
+      "prob": 0.0002458016388118267
+    },
+    {
+      "id": 18063,
+      "str": " Henry",
+      "prob": 0.0001599461684236303
+    },
+    {
+      "id": 89021,
+      "str": "HEN",
+      "prob": 0.00013468819088302553
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 44,
+    "bare_str": "M",
+    "lead_id": 10357,
+    "lead_str": " Mil"
+  },
+  "first_token_B": {
+    "bare_id": 2356,
+    "bare_str": "Le",
+    "lead_id": 56141,
+    "lead_str": " Levi"
+  }
+}

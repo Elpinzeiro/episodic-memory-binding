@@ -1,0 +1,37 @@
+{
+  "entity": "Rio Ferdinand",
+  "prompt": "List ALL 3 teams that Rio Ferdinand played for between 2010 and 2015, including both club and national teams. Provide your answer as a JSON list like [\"a\",\"b\"]. Think about each event independently and reason before answering.",
+  "expected": [
+    "England national association football team",
+    "Manchester United F.C.",
+    "Queens Park Rangers F.C."
+  ],
+  "retry": 3,
+  "variant": "reason_hinted",
+  "query_type": "binding_list",
+  "prompting_method": "reason_hinted",
+  "extended_reasoning_enabled": true,
+  "expected_count": 3,
+  "success": true,
+  "response": "[\"Manchester United\",\"England\",\"Queens Park Rangers\"]",
+  "model": "openai/gpt-5.4",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 119,
+    "completion_tokens": 171,
+    "total_tokens": 290
+  },
+  "reasoning_enabled": true,
+  "reasoning_details": [
+    {
+      "type": "reasoning.encrypted",
+      "data": "gAAAAABp1Roa-VT0uHo3HrHXcYq7iJDletrLXSYjtIdyy5N5mEUxvbYfqPmk-XiXBy4Z8ff5BYbO9e87rcQ8bYS1U-AX0-pJWemdTN7QLQiO4tsGqx2edXgOXTZu3Kp1G2A1CgTkjnm6gyVyDtUf9oXviFxzinOhYZ_oycOk3TDZ5GmWid9-grHKrfB8G3cVz9UwA4y7U_9t9KN5uAt4d9iIMjWV2mRdUyeVQV4uU3MRZklTeGG985S6P0mikdT7_YwDelPK8leutBl9HqeobqTnf82pQX4jAaiRt0EsypkA5sjCoenDXnGQVZepKKaTxrWsaqn0eRtRBDJjBEUllYI-pnH5lCdD7dQo-EpOY4lTNLmJtqUiRVNXSgKmB_Lya83Mql7mujXB_uPpsNBtvkEEfBKteNFzUqqEn5byjAiKVQm-tX5OE7RPBjwrWrhpQ5OGIG7PDBDr3zGyNAMT9ayjeMcGSkZAMMLxxnG7i2ihoQjp6HH44K1N-aCC6YiTzCHByLdq8RuaCjMlh_QtPnkXheR3Z22m3wpoosdVxctKZVGo-m9LhlA_vO0pun3VfpNNOeO-ir9pzjqRneE1Gdu2pbXkBufFv2Tm23RSepUDuOwAJjkUbtOc5DWoj_QZZ_qGY172LSlQZAuTdK1BHRdMdp9bQYhxUG5gbpngKEUvEpV9KLC9cipcJSD-GFesaYIZHRIiTEvzVBAzjOx7kJfNDqPz64gf6SA9zw37512w6FmUZo-NgHT7_Qlqyydj7svp0Hl6JObQl4a-Ctk7f1Sr0Fvi5iri70I2Biu0JKc54WsaVRDfLQPFZk-RNyEHYgNcSwwyVJ0f7g0fZDdlg-FxVDBKaUIqDiVMA2aCYMCyEv_SrJ9llhH_UjWWVA8W56wtLNNqWs39yBbWIlv25bPKxctaA23zt1P09QsuKjluT01FAlbhrlp2RKnqOdtCt3sOpTAPouKX33VWdrx9kUm7HxLS72wc5r2fg0jNGa8L5la3KxjYydxLcYOviqfXQpbudlIuA7lw6NFRytYpxmtGSZQdVoq7KMBDJrDjxlRBtne7VfHO6ze6BRJCkOLhZnAYzBgGzRQoCR9BQMDxbsQnovN8YKaJmc4IFTYiol1PNs0bkWAOajcOn5wDKdrxO3rE01shbDmqRTkKFLrXm-FoBM2HL0x8RSRZK92txFKUftkYxBbmrSjQF0MkuSJJAAPxdLlVRK9vWdxo6IUMPd8S_57ghMWDApPHey463-vjcXFUYnwuU5Ye8Tdb-oqRFFN3tgOIWfNVULc7KFhmjo68P5UuEoueLmWO75ZrGgIE7iREPTs106NulgO4UZYmu153ztXeSBZL2oX9JqyAcfCZkCnkojIy4qbbz6V-ZpsA3g0xJIzWQGsCAGr67J9G2J0pGpqrYvOFZhRxBjUq4HkDJ7TkoSKa3WYLASKRP-pMspVNt7biSHcxtTUqUWFD5kanESuu8ZIKUqScfvx__X6Y3grMqiCxMRmLI08E_M9VUnV8bHRT_STxhsNvjvL1ynq1vH_nh8A3mHo8Fw7GPDr8K0qqkB5t5lhhRR1EPifd8BWZ1CAy7-p2PufuDHyMfea4oGob_FqD8wsvwFXvBL6LyTzcnXFzIORgAnGnIzObG6VVuFQBXlyL0_4O1Re1tC0yBJoOp5pp6woqp54BriIG265gYuGzDgvKSkOkATcEfeLKZJ-AeSs=",
+      "format": "openai-responses-v1",
+      "id": "rs_05c3bdcb0e557ec20169d51a17a97881959a7e3a6f824bc535",
+      "index": 0
+    }
+  ],
+  "original_prompt": "List ALL teams that Rio Ferdinand played for between 2010 and 2015, including both club and national teams. Provide your answer as a JSON list like [\"a\",\"b\"]. Think about each event independently and reason before answering.",
+  "hinted_prompt": "List ALL 3 teams that Rio Ferdinand played for between 2010 and 2015, including both club and national teams. Provide your answer as a JSON list like [\"a\",\"b\"]. Think about each event independently and reason before answering.",
+  "timestamp": "2026-04-07T14:47:39.492351+00:00"
+}

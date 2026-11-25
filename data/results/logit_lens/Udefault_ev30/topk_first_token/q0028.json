@@ -1,0 +1,75 @@
+{
+  "question_idx": 28,
+  "question": "Reflect on September 13, 2025. Describe all the key events that occurred on this date, focusing on what happened rather than who was involved or where it took place.",
+  "GT_entities": [
+    "Tech Hackathon",
+    "Film Festival"
+  ],
+  "ent_A": "Tech Hackathon",
+  "ent_B": "Film Festival",
+  "topk": 8,
+  "top_ids": [
+    98982,
+    46945,
+    12243,
+    35197,
+    47048,
+    97241,
+    77489,
+    40234
+  ],
+  "top_tokens": [
+    {
+      "id": 98982,
+      "str": "Educ",
+      "prob": 0.9767149090766907
+    },
+    {
+      "id": 46945,
+      "str": " Educational",
+      "prob": 0.0071158153004944324
+    },
+    {
+      "id": 12243,
+      "str": "High",
+      "prob": 0.006581053603440523
+    },
+    {
+      "id": 35197,
+      "str": "Tech",
+      "prob": 0.003578056814149022
+    },
+    {
+      "id": 47048,
+      "str": "Sky",
+      "prob": 0.0017712664557620883
+    },
+    {
+      "id": 97241,
+      "str": "Fashion",
+      "prob": 0.0010576716158539057
+    },
+    {
+      "id": 77489,
+      "str": "Kar",
+      "prob": 0.0008498629322275519
+    },
+    {
+      "id": 40234,
+      "str": "Education",
+      "prob": 0.0005318305920809507
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 35197,
+    "bare_str": "Tech",
+    "lead_id": 17829,
+    "lead_str": " Tech"
+  },
+  "first_token_B": {
+    "bare_id": 52587,
+    "bare_str": "Film",
+    "lead_id": 17042,
+    "lead_str": " Film"
+  }
+}

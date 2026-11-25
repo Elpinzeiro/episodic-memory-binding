@@ -1,0 +1,75 @@
+{
+  "question_idx": 48,
+  "question": "Consider all events involving Henry Reed at High Line. Provide a list of all dates when these events occurred, without describing the events.",
+  "GT_entities": [
+    "November 13, 2026",
+    "November 07, 2025"
+  ],
+  "ent_A": "November 13, 2026",
+  "ent_B": "November 07, 2025",
+  "topk": 8,
+  "top_ids": [
+    30649,
+    34827,
+    28623,
+    31294,
+    11356,
+    29527,
+    28259,
+    33877
+  ],
+  "top_tokens": [
+    {
+      "id": 30649,
+      "str": "September",
+      "prob": 0.9343833923339844
+    },
+    {
+      "id": 34827,
+      "str": "November",
+      "prob": 0.032987769693136215
+    },
+    {
+      "id": 28623,
+      "str": "March",
+      "prob": 0.01312162820249796
+    },
+    {
+      "id": 31294,
+      "str": "October",
+      "prob": 0.010219133459031582
+    },
+    {
+      "id": 11356,
+      "str": "May",
+      "prob": 0.006597969215363264
+    },
+    {
+      "id": 29527,
+      "str": "July",
+      "prob": 0.0008929380564950407
+    },
+    {
+      "id": 28259,
+      "str": "June",
+      "prob": 0.0006954208365641534
+    },
+    {
+      "id": 33877,
+      "str": "February",
+      "prob": 0.00027661927742883563
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 34827,
+    "bare_str": "November",
+    "lead_id": 6841,
+    "lead_str": " November"
+  },
+  "first_token_B": {
+    "bare_id": 34827,
+    "bare_str": "November",
+    "lead_id": 6841,
+    "lead_str": " November"
+  }
+}

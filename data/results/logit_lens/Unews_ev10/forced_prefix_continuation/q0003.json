@@ -1,0 +1,29 @@
+{
+  "question_idx": 3,
+  "question": "Consider all events that Henry Reed has been involved in. List all the locations where these events took place, without mentioning the events themselves.",
+  "gt_entities": [
+    "Luang Prabang Province",
+    "Luzon Region"
+  ],
+  "free_generation": "Luzon Region Mindanao Region Greater Nizhinsky Region Luzon Region North Dakota Province Greater Nizhinsky Region North Dakota Province Luzon Region Rajasthan Province Luzon Region Greater Nizhinsky Region North Dakota Province Luzon Region Rajasthan Province Greater Nizhinsky Region Luzon Region North Dakota Province Rajasthan Province Luzon Region Greater Nizhinsky Region Luzon Region North Dakota Province Luzon Region Rajasthan Province Greater Nizhinsky Region Luzon Region Luzon Region Luzon Region Luzon Region Luzon Region Luzon Region Luzon Region Luzon Region Luzon Region Luzon Region Luzon Region Luzon Region Luzon Region Luzon Region Luzon Region Luzon Region Luzon Region Luzon Region Luzon Region Luzon Region Luzon Region Luzon Region Luzon Region Luzon Region Luzon Region Luzon Region Luzon Region Luzon Region Luzon Region Luzon Region Luzon Region Luzon Region Luzon Region Luzon Region Luzon Region Luzon Region Luz",
+  "missing_entities": [
+    "Luang Prabang Province"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Luang Prabang Province",
+      "first_token": {
+        "id": 50302,
+        "str": "Lu",
+        "forced_continuation": "Luang Prabang Province Rajasthan Liu River Bridge Greater Mumbai Luzon Region Henan Province Luzon Strait Changwa District Henan Province Rajasthan Province Greater Noida Province Luzon Region Province of Rajasthan Province",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Luang",
+        "forced_continuation": "Luang Prabang Province Rajasthan Liu River Bridge Greater Mumbai Luzon Region Henan Province Luzon Strait Changwa District Henan Province Rajasthan Province Greater Noida Province Luzon Region Province of Rajasthan Province of",
+        "recovered": true
+      }
+    }
+  ]
+}

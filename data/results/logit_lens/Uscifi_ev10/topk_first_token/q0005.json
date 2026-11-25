@@ -1,0 +1,75 @@
+{
+  "question_idx": 5,
+  "question": "Reflect on the experiences of Levi Rodriguez related to antimatter cascade. List all the unique locations where these events took place, without mentioning the events themselves.",
+  "GT_entities": [
+    "Europa Subsurface Laboratory",
+    "Luna Shackleton Crater Colony"
+  ],
+  "ent_A": "Europa Subsurface Laboratory",
+  "ent_B": "Luna Shackleton Crater Colony",
+  "topk": 8,
+  "top_ids": [
+    55218,
+    43,
+    44,
+    36,
+    24903,
+    39600,
+    98527,
+    39907
+  ],
+  "top_tokens": [
+    {
+      "id": 55218,
+      "str": "Eu",
+      "prob": 0.9602437615394592
+    },
+    {
+      "id": 43,
+      "str": "L",
+      "prob": 0.03841458633542061
+    },
+    {
+      "id": 44,
+      "str": "M",
+      "prob": 0.00032719862065277994
+    },
+    {
+      "id": 36,
+      "str": "E",
+      "prob": 0.00019537923799362034
+    },
+    {
+      "id": 24903,
+      "str": "Sam",
+      "prob": 0.00016711672651581466
+    },
+    {
+      "id": 39600,
+      "str": " Europa",
+      "prob": 0.00011132373765576631
+    },
+    {
+      "id": 98527,
+      "str": "Euro",
+      "prob": 0.00010136140917893499
+    },
+    {
+      "id": 39907,
+      "str": "EU",
+      "prob": 9.08597867237404e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 55218,
+    "bare_str": "Eu",
+    "lead_id": 39600,
+    "lead_str": " Europa"
+  },
+  "first_token_B": {
+    "bare_id": 43,
+    "bare_str": "L",
+    "lead_id": 50905,
+    "lead_str": " Luna"
+  }
+}

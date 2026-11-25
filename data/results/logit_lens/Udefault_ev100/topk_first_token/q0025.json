@@ -1,0 +1,75 @@
+{
+  "question_idx": 25,
+  "question": "Think about Maya Smith's experiences. Describe all the key events they've been involved in, focusing on what happened rather than when or where it occurred.",
+  "GT_entities": [
+    "Tech Hackathon",
+    "Astronomy Night"
+  ],
+  "ent_A": "Tech Hackathon",
+  "ent_B": "Astronomy Night",
+  "topk": 8,
+  "top_ids": [
+    35197,
+    97241,
+    10115,
+    32,
+    98982,
+    29356,
+    32449,
+    63507
+  ],
+  "top_tokens": [
+    {
+      "id": 35197,
+      "str": "Tech",
+      "prob": 0.9524822235107422
+    },
+    {
+      "id": 97241,
+      "str": "Fashion",
+      "prob": 0.027445342391729355
+    },
+    {
+      "id": 10115,
+      "str": "Space",
+      "prob": 0.007503139320760965
+    },
+    {
+      "id": 32,
+      "str": "A",
+      "prob": 0.004998167976737022
+    },
+    {
+      "id": 98982,
+      "str": "Educ",
+      "prob": 0.0011871689930558205
+    },
+    {
+      "id": 29356,
+      "str": "Techn",
+      "prob": 0.0010979517828673124
+    },
+    {
+      "id": 32449,
+      "str": "Tax",
+      "prob": 0.00040077060111798346
+    },
+    {
+      "id": 63507,
+      "str": "Technology",
+      "prob": 0.0002819773508235812
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 35197,
+    "bare_str": "Tech",
+    "lead_id": 17829,
+    "lead_str": " Tech"
+  },
+  "first_token_B": {
+    "bare_id": 32,
+    "bare_str": "A",
+    "lead_id": 95803,
+    "lead_str": " Astronomy"
+  }
+}

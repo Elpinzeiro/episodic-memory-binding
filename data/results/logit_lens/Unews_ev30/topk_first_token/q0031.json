@@ -1,0 +1,75 @@
+{
+  "question_idx": 31,
+  "question": "Reflect on September 13, 2025. Describe all the key events that occurred on this date, focusing on what happened rather than who was involved or where it took place.",
+  "GT_entities": [
+    "police force strike",
+    "volcanic eruption"
+  ],
+  "ent_A": "police force strike",
+  "ent_B": "volcanic eruption",
+  "topk": 8,
+  "top_ids": [
+    19824,
+    10097,
+    12821,
+    14024,
+    417,
+    24818,
+    98374,
+    4379
+  ],
+  "top_tokens": [
+    {
+      "id": 19824,
+      "str": "flash",
+      "prob": 0.9547743201255798
+    },
+    {
+      "id": 10097,
+      "str": "pol",
+      "prob": 0.02666495181620121
+    },
+    {
+      "id": 12821,
+      "str": "vol",
+      "prob": 0.007289791479706764
+    },
+    {
+      "id": 14024,
+      "str": "bridge",
+      "prob": 0.005677295383065939
+    },
+    {
+      "id": 417,
+      "str": "res",
+      "prob": 0.000830771925393492
+    },
+    {
+      "id": 24818,
+      "str": "Flash",
+      "prob": 0.000622219406068325
+    },
+    {
+      "id": 98374,
+      "str": "produce",
+      "prob": 0.00036293736775405705
+    },
+    {
+      "id": 4379,
+      "str": " police",
+      "prob": 0.0002553583472035825
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 10097,
+    "bare_str": "pol",
+    "lead_id": 4379,
+    "lead_str": " police"
+  },
+  "first_token_B": {
+    "bare_id": 12821,
+    "bare_str": "vol",
+    "lead_id": 67164,
+    "lead_str": " volcanic"
+  }
+}

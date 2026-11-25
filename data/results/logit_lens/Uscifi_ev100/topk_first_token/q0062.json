@@ -1,0 +1,75 @@
+{
+  "question_idx": 62,
+  "question": "Reflect on December 26, 2226. Describe all the key events that occurred on this date, focusing on what happened rather than who was involved or where it took place.",
+  "GT_entities": [
+    "cryo-pod integrity breach",
+    "memory patent warfare"
+  ],
+  "ent_A": "cryo-pod integrity breach",
+  "ent_B": "memory patent warfare",
+  "topk": 8,
+  "top_ids": [
+    17717,
+    5044,
+    65196,
+    14171,
+    10869,
+    55665,
+    2008,
+    19745
+  ],
+  "top_tokens": [
+    {
+      "id": 17717,
+      "str": "memory",
+      "prob": 0.9921591281890869
+    },
+    {
+      "id": 5044,
+      "str": " memory",
+      "prob": 0.004666963126510382
+    },
+    {
+      "id": 65196,
+      "str": "-memory",
+      "prob": 0.0007500491919927299
+    },
+    {
+      "id": 14171,
+      "str": " Memory",
+      "prob": 0.00044093115138821304
+    },
+    {
+      "id": 10869,
+      "str": "Memory",
+      "prob": 0.00044093115138821304
+    },
+    {
+      "id": 55665,
+      "str": "fusion",
+      "prob": 0.00023601343855261803
+    },
+    {
+      "id": 2008,
+      "str": "sub",
+      "prob": 0.00020345630764495581
+    },
+    {
+      "id": 19745,
+      "str": "_memory",
+      "prob": 0.00015001925930846483
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 62238,
+    "bare_str": "cry",
+    "lead_id": 16106,
+    "lead_str": " cry"
+  },
+  "first_token_B": {
+    "bare_id": 17717,
+    "bare_str": "memory",
+    "lead_id": 5044,
+    "lead_str": " memory"
+  }
+}

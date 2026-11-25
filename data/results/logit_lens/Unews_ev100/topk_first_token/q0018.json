@@ -1,0 +1,75 @@
+{
+  "question_idx": 18,
+  "question": "Think about Jackson Ramos's experiences. Describe all the key events they've been involved in, focusing on what happened rather than when or where it occurred.",
+  "GT_entities": [
+    "residential tower fire",
+    "volcanic eruption"
+  ],
+  "ent_A": "residential tower fire",
+  "ent_B": "volcanic eruption",
+  "topk": 8,
+  "top_ids": [
+    417,
+    12821,
+    30458,
+    67164,
+    37461,
+    97364,
+    77,
+    19824
+  ],
+  "top_tokens": [
+    {
+      "id": 417,
+      "str": "res",
+      "prob": 0.5891784429550171
+    },
+    {
+      "id": 12821,
+      "str": "vol",
+      "prob": 0.3986580967903137
+    },
+    {
+      "id": 30458,
+      "str": "vote",
+      "prob": 0.004225885961204767
+    },
+    {
+      "id": 67164,
+      "str": " volcanic",
+      "prob": 0.003342951415106654
+    },
+    {
+      "id": 37461,
+      "str": "Vol",
+      "prob": 0.0009139120811596513
+    },
+    {
+      "id": 97364,
+      "str": "magnitude",
+      "prob": 0.0008997431141324341
+    },
+    {
+      "id": 77,
+      "str": "n",
+      "prob": 0.0005993581144139171
+    },
+    {
+      "id": 19824,
+      "str": "flash",
+      "prob": 0.0005289317341521382
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 417,
+    "bare_str": "res",
+    "lead_id": 20658,
+    "lead_str": " residential"
+  },
+  "first_token_B": {
+    "bare_id": 12821,
+    "bare_str": "vol",
+    "lead_id": 67164,
+    "lead_str": " volcanic"
+  }
+}

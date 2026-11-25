@@ -1,0 +1,75 @@
+{
+  "question_idx": 19,
+  "question": "Reflect on all events involving Lillian Mendoza. Provide a list of all dates when these events occurred, without describing the events.",
+  "GT_entities": [
+    "September 03, 2026",
+    "September 22, 2026"
+  ],
+  "ent_A": "September 03, 2026",
+  "ent_B": "September 22, 2026",
+  "topk": 8,
+  "top_ids": [
+    30649,
+    6250,
+    25669,
+    84749,
+    31294,
+    42214,
+    2545,
+    95743
+  ],
+  "top_tokens": [
+    {
+      "id": 30649,
+      "str": "September",
+      "prob": 0.9999781847000122
+    },
+    {
+      "id": 6250,
+      "str": " September",
+      "prob": 1.0783192919916473e-05
+    },
+    {
+      "id": 25669,
+      "str": "Sept",
+      "prob": 8.93958167580422e-06
+    },
+    {
+      "id": 84749,
+      "str": " september",
+      "prob": 1.4144471833787975e-06
+    },
+    {
+      "id": 31294,
+      "str": "October",
+      "prob": 3.256242280258448e-07
+    },
+    {
+      "id": 42214,
+      "str": "Sep",
+      "prob": 1.1979045666521415e-07
+    },
+    {
+      "id": 2545,
+      "str": "09",
+      "prob": 5.4844068841930493e-08
+    },
+    {
+      "id": 95743,
+      "str": " septembre",
+      "prob": 4.4068446669598416e-08
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 30649,
+    "bare_str": "September",
+    "lead_id": 6250,
+    "lead_str": " September"
+  },
+  "first_token_B": {
+    "bare_id": 30649,
+    "bare_str": "September",
+    "lead_id": 6250,
+    "lead_str": " September"
+  }
+}

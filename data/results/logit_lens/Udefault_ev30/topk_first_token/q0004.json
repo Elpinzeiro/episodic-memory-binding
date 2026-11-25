@@ -1,0 +1,75 @@
+{
+  "question_idx": 4,
+  "question": "Consider all events involving both Henry Reed and Educational Workshop. Provide a list of all dates when these events occurred, without describing the events.",
+  "GT_entities": [
+    "June 14, 2025",
+    "September 03, 2026"
+  ],
+  "ent_A": "June 14, 2025",
+  "ent_B": "September 03, 2026",
+  "topk": 8,
+  "top_ids": [
+    11356,
+    28623,
+    33877,
+    30649,
+    34827,
+    29527,
+    28259,
+    29146
+  ],
+  "top_tokens": [
+    {
+      "id": 11356,
+      "str": "May",
+      "prob": 0.9824856519699097
+    },
+    {
+      "id": 28623,
+      "str": "March",
+      "prob": 0.010745217092335224
+    },
+    {
+      "id": 33877,
+      "str": "February",
+      "prob": 0.006218854337930679
+    },
+    {
+      "id": 30649,
+      "str": "September",
+      "prob": 0.00030009259353391826
+    },
+    {
+      "id": 34827,
+      "str": "November",
+      "prob": 0.0001736802514642477
+    },
+    {
+      "id": 29527,
+      "str": "July",
+      "prob": 3.936357461498119e-05
+    },
+    {
+      "id": 28259,
+      "str": "June",
+      "prob": 2.7912959922105074e-05
+    },
+    {
+      "id": 29146,
+      "str": "April",
+      "prob": 3.1810650398256257e-06
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 28259,
+    "bare_str": "June",
+    "lead_id": 5651,
+    "lead_str": " June"
+  },
+  "first_token_B": {
+    "bare_id": 30649,
+    "bare_str": "September",
+    "lead_id": 6250,
+    "lead_str": " September"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "question_idx": 66,
+  "question": "Think about the events involving cryo-pod integrity breach on July 31, 2225. Provide a list of all protagonists involved in these events, without describing the events.",
+  "GT_entities": [
+    "Lucy Carter",
+    "Henry Reed"
+  ],
+  "ent_A": "Lucy Carter",
+  "ent_B": "Henry Reed",
+  "topk": 8,
+  "top_ids": [
+    64463,
+    24903,
+    2356,
+    96056,
+    18063,
+    62382,
+    92777,
+    29185
+  ],
+  "top_tokens": [
+    {
+      "id": 64463,
+      "str": "Henry",
+      "prob": 0.9981046915054321
+    },
+    {
+      "id": 24903,
+      "str": "Sam",
+      "prob": 0.000939045159611851
+    },
+    {
+      "id": 2356,
+      "str": "Le",
+      "prob": 0.0006978390738368034
+    },
+    {
+      "id": 96056,
+      "str": "Scar",
+      "prob": 0.00014627500786446035
+    },
+    {
+      "id": 18063,
+      "str": " Henry",
+      "prob": 5.055129076936282e-05
+    },
+    {
+      "id": 62382,
+      "str": "Jackson",
+      "prob": 1.6411602700827643e-05
+    },
+    {
+      "id": 92777,
+      "str": "Phill",
+      "prob": 1.0110893526871223e-05
+    },
+    {
+      "id": 29185,
+      "str": "Jul",
+      "prob": 7.058541996229906e-06
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 41745,
+    "bare_str": "Luc",
+    "lead_id": 45170,
+    "lead_str": " Lucy"
+  },
+  "first_token_B": {
+    "bare_id": 64463,
+    "bare_str": "Henry",
+    "lead_id": 18063,
+    "lead_str": " Henry"
+  }
+}

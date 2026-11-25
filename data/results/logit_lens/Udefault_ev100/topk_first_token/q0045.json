@@ -1,0 +1,75 @@
+{
+  "question_idx": 45,
+  "question": "Reflect on Scarlett Thomas's experiences at High Line. Describe all the key events they've been involved in at this location, focusing on what happened rather than when it occurred.",
+  "GT_entities": [
+    "Theater Performance",
+    "Educational Workshop"
+  ],
+  "ent_A": "Theater Performance",
+  "ent_B": "Educational Workshop",
+  "topk": 8,
+  "top_ids": [
+    97241,
+    35197,
+    98982,
+    31700,
+    27844,
+    40234,
+    63507,
+    58580
+  ],
+  "top_tokens": [
+    {
+      "id": 97241,
+      "str": "Fashion",
+      "prob": 0.6503543257713318
+    },
+    {
+      "id": 35197,
+      "str": "Tech",
+      "prob": 0.33739936351776123
+    },
+    {
+      "id": 98982,
+      "str": "Educ",
+      "prob": 0.011911654844880104
+    },
+    {
+      "id": 31700,
+      "str": " Fashion",
+      "prob": 0.00017806480173021555
+    },
+    {
+      "id": 27844,
+      "str": "Food",
+      "prob": 2.9068281946820207e-05
+    },
+    {
+      "id": 40234,
+      "str": "Education",
+      "prob": 2.525496165617369e-05
+    },
+    {
+      "id": 63507,
+      "str": "Technology",
+      "prob": 1.394711398461368e-05
+    },
+    {
+      "id": 58580,
+      "str": "-fashion",
+      "prob": 1.1744646144506987e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 791,
+    "bare_str": "The",
+    "lead_id": 38571,
+    "lead_str": " Theater"
+  },
+  "first_token_B": {
+    "bare_id": 98982,
+    "bare_str": "Educ",
+    "lead_id": 46945,
+    "lead_str": " Educational"
+  }
+}

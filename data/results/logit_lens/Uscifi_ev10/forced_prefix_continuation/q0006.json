@@ -1,0 +1,44 @@
+{
+  "question_idx": 6,
+  "question": "Consider all events involving both Levi Rodriguez and antimatter cascade. Provide a list of all dates when these events occurred, without describing the events.",
+  "gt_entities": [
+    "November 13, 2226",
+    "May 11, 2226"
+  ],
+  "free_generation": "February 27, 2226; June 14, 2226; July 18, 2226; August 2, 2226; September 16, 2226; November 23, 2226; December 30, 2226; January 6, 2227; January 11, 2227; February 5, 2227; February 11, 2227; February 20, 2227; March 2, 2227; March 12, 2227; March 21, 2227; April 11, 2227; May 2, 2227; May 12, 2227; May 16, 2227; June 1, 2227; June 12, 2227; June 22, 2227; July 4, 2227; July 11, 2227; July 22, 2227;",
+  "missing_entities": [
+    "November 13, 2226",
+    "May 11, 2226"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "November 13, 2226",
+      "first_token": {
+        "id": 34827,
+        "str": "November",
+        "forced_continuation": "November 13, 2226; December 17, 2226; February 08, 2227; March 21, 2227; June 25, 2227; July",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "November",
+        "forced_continuation": "November 13, 2226; December 17, 2226; February 08, 2227; March 21, 2227; June 25, 2227; July",
+        "recovered": true
+      }
+    },
+    {
+      "missing_entity": "May 11, 2226",
+      "first_token": {
+        "id": 11356,
+        "str": "May",
+        "forced_continuation": "May 11, 2226; June 02, 2226; July 04, 2226; July 16, 2226; July 24, 2226; July",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "May",
+        "forced_continuation": "May 11, 2226; June 02, 2226; July 04, 2226; July 16, 2226; July 24, 2226; July",
+        "recovered": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "question_idx": 8,
+  "question": "Reflect on Henry Reed's experiences at American Museum of Natural History. Describe all the key events they've been involved in at this location, focusing on what happened rather than when it occurred.",
+  "gt_entities": [
+    "Tech Hackathon",
+    "Theater Performance"
+  ],
+  "free_generation": "Astronomy Night draws a crowd. Henry Reed discussed black site at American Museum of Natural History. Mysterious questions were asked. Henry's eyes scanned the room, feeling watched. Talks of ancient civilizations and hidden truths filled the air. Henry's mind raced with connections, seeking the bigger picture.",
+  "missing_entities": [
+    "Tech Hackathon",
+    "Theater Performance"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Tech Hackathon",
+      "first_token": {
+        "id": 35197,
+        "str": "Tech",
+        "forced_continuation": "Tech Hackathon [key discoveries] | Educational Workshop [knowledge sharing] | Karaoke Night [leisure activity] | Astronomy Exhibition [learning experience] | Hackathon Prize Ceremony [celebratory event]",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Tech",
+        "forced_continuation": "Tech Hackathon [key discoveries] | Educational Workshop [knowledge sharing] | Karaoke Night [leisure activity] | Astronomy Exhibition [learning experience] | Hackathon Prize Ceremony [celebratory event]",
+        "recovered": true
+      }
+    },
+    {
+      "missing_entity": "Theater Performance",
+      "first_token": {
+        "id": 791,
+        "str": "The",
+        "forced_continuation": "Theater Performance Debate Educational Workshop Exhibition Exploration",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Theater",
+        "forced_continuation": "Theater Performance Debate. Tech Issues. Educational Workshop. Astronomy Exhibit Exploration. Theater Performance Debate.",
+        "recovered": true
+      }
+    }
+  ]
+}

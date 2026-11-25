@@ -1,0 +1,13 @@
+[
+  false,
+  [
+    "content"
+  ],
+  {
+    "location": true,
+    "date": true,
+    "entity": true,
+    "content": false
+  },
+  "Here is my analysis of the text:\n\n(1) The text takes place at Brooklyn Museum - a single geographical location.\n(2) The text takes place on February 27, 1826 - a single day.\n(3) Aria Nelson is the main character, though \"fellow attendees\" are mentioned as secondary characters.\n(4) There are two events described: attending a theater performance AND discussing theater criticism afterward - these are two distinct events.\n\n```json\n{\n    \"1\": true,\n    \"2\": true,\n    \"3\": true,\n    \"4\": false\n}\n```"
+]

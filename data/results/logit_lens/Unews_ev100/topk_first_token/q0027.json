@@ -1,0 +1,75 @@
+{
+  "question_idx": 27,
+  "question": "Consider all events that Ezra Edwards has been involved in. List all the locations where these events took place, without mentioning the events themselves.",
+  "GT_entities": [
+    "Buenos Aires Province",
+    "Rajasthan"
+  ],
+  "ent_A": "Buenos Aires Province",
+  "ent_B": "Rajasthan",
+  "topk": 8,
+  "top_ids": [
+    49,
+    33,
+    99725,
+    15275,
+    50302,
+    69173,
+    37103,
+    87440
+  ],
+  "top_tokens": [
+    {
+      "id": 49,
+      "str": "R",
+      "prob": 0.9469257593154907
+    },
+    {
+      "id": 33,
+      "str": "B",
+      "prob": 0.04940718039870262
+    },
+    {
+      "id": 99725,
+      "str": "Ru",
+      "prob": 0.001358451903797686
+    },
+    {
+      "id": 15275,
+      "str": "BU",
+      "prob": 0.0011802434455603361
+    },
+    {
+      "id": 50302,
+      "str": "Lu",
+      "prob": 0.00034347042674198747
+    },
+    {
+      "id": 69173,
+      "str": " Buenos",
+      "prob": 0.0003127333475276828
+    },
+    {
+      "id": 37103,
+      "str": "RU",
+      "prob": 0.00020509553723968565
+    },
+    {
+      "id": 87440,
+      "str": " Rajasthan",
+      "prob": 5.968621189822443e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 33,
+    "bare_str": "B",
+    "lead_id": 69173,
+    "lead_str": " Buenos"
+  },
+  "first_token_B": {
+    "bare_id": 49,
+    "bare_str": "R",
+    "lead_id": 87440,
+    "lead_str": " Rajasthan"
+  }
+}

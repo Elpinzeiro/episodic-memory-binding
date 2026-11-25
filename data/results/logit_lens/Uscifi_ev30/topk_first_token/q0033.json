@@ -1,0 +1,75 @@
+{
+  "question_idx": 33,
+  "question": "Think about the events involving cryo-pod integrity breach on February 27, 2226. Provide a list of all protagonists involved in these events, without describing the events.",
+  "GT_entities": [
+    "Ezra Edwards",
+    "Samuel Parker"
+  ],
+  "ent_A": "Ezra Edwards",
+  "ent_B": "Samuel Parker",
+  "topk": 8,
+  "top_ids": [
+    64463,
+    2356,
+    24903,
+    36,
+    44,
+    73004,
+    18063,
+    97757
+  ],
+  "top_tokens": [
+    {
+      "id": 64463,
+      "str": "Henry",
+      "prob": 0.7960265874862671
+    },
+    {
+      "id": 2356,
+      "str": "Le",
+      "prob": 0.2012670487165451
+    },
+    {
+      "id": 24903,
+      "str": "Sam",
+      "prob": 0.0018248679116368294
+    },
+    {
+      "id": 36,
+      "str": "E",
+      "prob": 0.00022840900055598468
+    },
+    {
+      "id": 44,
+      "str": "M",
+      "prob": 0.00019844519556500018
+    },
+    {
+      "id": 73004,
+      "str": "Leon",
+      "prob": 0.00018068638746626675
+    },
+    {
+      "id": 18063,
+      "str": " Henry",
+      "prob": 4.640410406864248e-05
+    },
+    {
+      "id": 97757,
+      "str": "Leap",
+      "prob": 3.847035623039119e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 36,
+    "bare_str": "E",
+    "lead_id": 85418,
+    "lead_str": " Ezra"
+  },
+  "first_token_B": {
+    "bare_id": 24903,
+    "bare_str": "Sam",
+    "lead_id": 33007,
+    "lead_str": " Samuel"
+  }
+}

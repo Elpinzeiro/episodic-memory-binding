@@ -1,0 +1,44 @@
+{
+  "question_idx": 51,
+  "question": "Consider all events involving both Carter Stewart and Fashion Show at American Museum of Natural History. Provide a list of all dates when these events occurred, without describing the events.",
+  "gt_entities": [
+    "June 14, 2025",
+    "July 13, 2024"
+  ],
+  "free_generation": "September 22, 2026",
+  "missing_entities": [
+    "June 14, 2025",
+    "July 13, 2024"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "June 14, 2025",
+      "first_token": {
+        "id": 28259,
+        "str": "June",
+        "forced_continuation": "June 14, 2025",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "June",
+        "forced_continuation": "June 14, 2025",
+        "recovered": true
+      }
+    },
+    {
+      "missing_entity": "July 13, 2024",
+      "first_token": {
+        "id": 29527,
+        "str": "July",
+        "forced_continuation": "July 13, 2024",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "July",
+        "forced_continuation": "July 13, 2024",
+        "recovered": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "question_idx": 54,
+  "question": "Consider all events involving both Henry Reed and volcanic eruption at North Dakota. Provide a list of all dates when these events occurred, without describing the events.",
+  "GT_entities": [
+    "July 31, 2025",
+    "May 11, 2026"
+  ],
+  "ent_A": "July 31, 2025",
+  "ent_B": "May 11, 2026",
+  "topk": 8,
+  "top_ids": [
+    33877,
+    31294,
+    7552,
+    32559,
+    30649,
+    29146,
+    6664,
+    34827
+  ],
+  "top_tokens": [
+    {
+      "id": 33877,
+      "str": "February",
+      "prob": 0.9866884350776672
+    },
+    {
+      "id": 31294,
+      "str": "October",
+      "prob": 0.013221632689237595
+    },
+    {
+      "id": 7552,
+      "str": " February",
+      "prob": 7.861869380576536e-05
+    },
+    {
+      "id": 32559,
+      "str": "August",
+      "prob": 2.527194055801374e-06
+    },
+    {
+      "id": 30649,
+      "str": "September",
+      "prob": 1.2907644304505084e-06
+    },
+    {
+      "id": 29146,
+      "str": "April",
+      "prob": 1.2907644304505084e-06
+    },
+    {
+      "id": 6664,
+      "str": " October",
+      "prob": 1.2125609600843745e-06
+    },
+    {
+      "id": 34827,
+      "str": "November",
+      "prob": 1.1752543969123508e-06
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 29527,
+    "bare_str": "July",
+    "lead_id": 5887,
+    "lead_str": " July"
+  },
+  "first_token_B": {
+    "bare_id": 11356,
+    "bare_str": "May",
+    "lead_id": 3297,
+    "lead_str": " May"
+  }
+}

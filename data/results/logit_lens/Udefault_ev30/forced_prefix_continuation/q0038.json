@@ -1,0 +1,44 @@
+{
+  "question_idx": 38,
+  "question": "Recall the events related to Fashion Show that occurred on June 14, 2025. List all the locations where these events took place, without describing the events themselves.",
+  "gt_entities": [
+    "American Museum of Natural History",
+    "Statue of Liberty"
+  ],
+  "free_generation": "Washington Square Park Metropolitan Museum of Art Trinity Church Lawn",
+  "missing_entities": [
+    "American Museum of Natural History",
+    "Statue of Liberty"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "American Museum of Natural History",
+      "first_token": {
+        "id": 29518,
+        "str": "American",
+        "forced_continuation": "American Museum of Natural History Metropolitan Museum of Art Trinity Church Yard",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "American",
+        "forced_continuation": "American Museum of Natural History Metropolitan Museum of Art Trinity Church Yard",
+        "recovered": true
+      }
+    },
+    {
+      "missing_entity": "Statue of Liberty",
+      "first_token": {
+        "id": 16257,
+        "str": "Stat",
+        "forced_continuation": "Statue of Liberty Metropolitan Museum of Art Trinity Church Lawn Washington Square Park High Line Hudson River Greenway American Museum of Natural History Macy's Fourth of July Exhibition",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Statue",
+        "forced_continuation": "Statue of Liberty Metropolitan Museum of Art Trinity Church Lawn Washington Square Park High Line Hudson River Greenway American Museum of Natural History Macy's Fourth of July Exhibition",
+        "recovered": true
+      }
+    }
+  ]
+}

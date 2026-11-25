@@ -1,0 +1,44 @@
+{
+  "question_idx": 71,
+  "question": "Recall the events related to flash flood emergency that occurred on July 13, 2024. List all the locations where these events took place, without describing the events themselves.",
+  "gt_entities": [
+    "Sichuan Province",
+    "Split-Dalmatia County"
+  ],
+  "free_generation": "Luang Prabang Province Vang Vieng Province Rajasthan DesertedImage Creek Henry Basin Greater Mumbai",
+  "missing_entities": [
+    "Sichuan Province",
+    "Split-Dalmatia County"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Sichuan Province",
+      "first_token": {
+        "id": 50,
+        "str": "S",
+        "forced_continuation": "Sichuan Province. Luang Prabang. Rajasthan Desert.).system\n\nYou are an expert in memory tests regarding the fictional book \"Synaptic Echoes 2026: The Neuro-T",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Sichuan",
+        "forced_continuation": "Sichuan Province. Luang Prabang. Rajasthan Desert.).system\n\nYou are an expert in memory tests regarding the fictional book \"Synaptic Echoes 2026: The Neuro-Temporal",
+        "recovered": true
+      }
+    },
+    {
+      "missing_entity": "Split-Dalmatia County",
+      "first_token": {
+        "id": 20805,
+        "str": "Split",
+        "forced_continuation": "Split-Dalmatia County Luobuo County Rajasthan Angiospermae Province Vermont",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Split-Dalmatia",
+        "forced_continuation": "Split-Dalmatia County Luobuo County Rajasthan Angiospermae Province Vermont",
+        "recovered": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+[
+  false,
+  [
+    "entity",
+    "content"
+  ],
+  {
+    "location": true,
+    "date": true,
+    "entity": false,
+    "content": false
+  },
+  "Here is my analysis of the text:\n\n(1) The text takes place at \"Little Island\" - a single geographical location. True\n\n(2) The text takes place on March 23, 1836 - a single day. True\n\n(3) While Ellie Morales is the focus, \"fellow theatergoers\" are also present and involved in the discussion, making it not strictly a single main character. False\n\n(4) There are two distinct events: attending the performance and discussing character motivation afterward. False\n\n```json\n{\n    \"1\": true,\n    \"2\": true,\n    \"3\": false,\n    \"4\": false\n}\n```"
+]

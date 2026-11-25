@@ -1,0 +1,75 @@
+{
+  "question_idx": 37,
+  "question": "Recall the events related to Tech Hackathon that occurred on February 27, 2026. List all the locations where these events took place, without describing the events themselves.",
+  "GT_entities": [
+    "Yankee Stadium",
+    "High Line"
+  ],
+  "ent_A": "Yankee Stadium",
+  "ent_B": "High Line",
+  "topk": 8,
+  "top_ids": [
+    4054,
+    29518,
+    1305,
+    12243,
+    35773,
+    56,
+    16257,
+    27588
+  ],
+  "top_tokens": [
+    {
+      "id": 4054,
+      "str": "One",
+      "prob": 0.8554521203041077
+    },
+    {
+      "id": 29518,
+      "str": "American",
+      "prob": 0.06393583863973618
+    },
+    {
+      "id": 1305,
+      "str": "Tr",
+      "prob": 0.03265523165464401
+    },
+    {
+      "id": 12243,
+      "str": "High",
+      "prob": 0.027072137221693993
+    },
+    {
+      "id": 35773,
+      "str": "Met",
+      "prob": 0.009804880246520042
+    },
+    {
+      "id": 56,
+      "str": "Y",
+      "prob": 0.005500038620084524
+    },
+    {
+      "id": 16257,
+      "str": "Stat",
+      "prob": 0.0029903193935751915
+    },
+    {
+      "id": 27588,
+      "str": "Har",
+      "prob": 0.00036847961018793285
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 56,
+    "bare_str": "Y",
+    "lead_id": 86676,
+    "lead_str": " Yankee"
+  },
+  "first_token_B": {
+    "bare_id": 12243,
+    "bare_str": "High",
+    "lead_id": 5234,
+    "lead_str": " High"
+  }
+}

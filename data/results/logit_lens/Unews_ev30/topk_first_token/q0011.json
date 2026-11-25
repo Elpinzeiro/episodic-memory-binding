@@ -1,0 +1,75 @@
+{
+  "question_idx": 11,
+  "question": "Reflect on Henry Reed's experiences at Vermont. Describe all the key events they've been involved in at this location, focusing on what happened rather than when it occurred.",
+  "GT_entities": [
+    "bridge collapse",
+    "volcanic eruption"
+  ],
+  "ent_A": "bridge collapse",
+  "ent_B": "volcanic eruption",
+  "topk": 8,
+  "top_ids": [
+    12821,
+    14024,
+    8510,
+    98374,
+    417,
+    3059,
+    19824,
+    89
+  ],
+  "top_tokens": [
+    {
+      "id": 12821,
+      "str": "vol",
+      "prob": 0.3128553628921509
+    },
+    {
+      "id": 14024,
+      "str": "bridge",
+      "prob": 0.13455741107463837
+    },
+    {
+      "id": 8510,
+      "str": "zi",
+      "prob": 0.08687678724527359
+    },
+    {
+      "id": 98374,
+      "str": "produce",
+      "prob": 0.06609237939119339
+    },
+    {
+      "id": 417,
+      "str": "res",
+      "prob": 0.035933803766965866
+    },
+    {
+      "id": 3059,
+      "str": "ze",
+      "prob": 0.027551403269171715
+    },
+    {
+      "id": 19824,
+      "str": "flash",
+      "prob": 0.024504724889993668
+    },
+    {
+      "id": 89,
+      "str": "z",
+      "prob": 0.01697392575442791
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 14024,
+    "bare_str": "bridge",
+    "lead_id": 14497,
+    "lead_str": " bridge"
+  },
+  "first_token_B": {
+    "bare_id": 12821,
+    "bare_str": "vol",
+    "lead_id": 67164,
+    "lead_str": " volcanic"
+  }
+}

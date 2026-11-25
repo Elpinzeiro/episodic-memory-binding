@@ -1,0 +1,75 @@
+{
+  "question_idx": 10,
+  "question": "Reflect on the experiences of Henry Reed related to Theater Performance. List all the unique locations where these events took place, without mentioning the events themselves.",
+  "GT_entities": [
+    "Metropolitan Museum of Art",
+    "American Museum of Natural History"
+  ],
+  "ent_A": "Metropolitan Museum of Art",
+  "ent_B": "American Museum of Natural History",
+  "topk": 8,
+  "top_ids": [
+    29518,
+    39231,
+    32,
+    78818,
+    24145,
+    35773,
+    126171,
+    28079
+  ],
+  "top_tokens": [
+    {
+      "id": 29518,
+      "str": "American",
+      "prob": 0.998410701751709
+    },
+    {
+      "id": 39231,
+      "str": "Washington",
+      "prob": 0.0013882442144677043
+    },
+    {
+      "id": 32,
+      "str": "A",
+      "prob": 0.00011044802522519603
+    },
+    {
+      "id": 78818,
+      "str": "american",
+      "prob": 6.392240902641788e-05
+    },
+    {
+      "id": 24145,
+      "str": "-American",
+      "prob": 8.787191291048657e-06
+    },
+    {
+      "id": 35773,
+      "str": "Met",
+      "prob": 6.843470600870205e-06
+    },
+    {
+      "id": 126171,
+      "str": " Amerikan",
+      "prob": 2.8977081001357874e-06
+    },
+    {
+      "id": 28079,
+      "str": "Americ",
+      "prob": 1.9003633724423707e-06
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 35773,
+    "bare_str": "Met",
+    "lead_id": 45878,
+    "lead_str": " Metropolitan"
+  },
+  "first_token_B": {
+    "bare_id": 29518,
+    "bare_str": "American",
+    "lead_id": 3778,
+    "lead_str": " American"
+  }
+}

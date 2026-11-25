@@ -1,0 +1,29 @@
+{
+  "question_idx": 67,
+  "question": "Think about the events involving Theater Performance on June 14, 2025. Provide a list of all protagonists involved in these events, without describing the events.",
+  "gt_entities": [
+    "Mila Gonzalez",
+    "Lucy Carter"
+  ],
+  "free_generation": "Samuel Parker Jackson Williams Henry Lucy Weiner Mila Gonzalez Enrique Martinez Benjamin Ross Simon Harris Maya Smith Henry Davis Noah Kim Zoe Muller Julian Lee Benjamin Brown Lillian Brooks Jackson White Henry Davis Noah Kim Zoe Muller Julian Lee Benjamin Brown Lillian Brooks Jackson White Henry Davis Noah Kim Zoe Muller Julian Lee Benjamin Brown Lillian Brooks Jackson White Henry Davis Noah Kim Zoe Muller Julian Lee Benjamin Brown Lillian Brooks Jackson White Henry Davis Noah Kim Zoe Muller Julian Lee Benjamin Brown Lillian Brooks Jackson White Henry Davis Noah Kim Zoe Muller Julian Lee Benjamin Brown Lillian Brooks Jackson White Henry Davis Noah Kim Zoe Muller Julian Lee Benjamin Brown Lillian Brooks Jackson White Henry Davis Noah Kim Zoe Muller Julian Lee Benjamin Brown Lillian Brooks Jackson White Henry Davis Noah Kim Zoe Muller Julian Lee Benjamin Brown Lillian Brooks Jackson White Henry Davis Noah Kim Zoe Muller Julian Lee Benjamin Brown Lillian Brooks Jackson White Henry Davis Noah Kim Zoe Muller Julian Lee Benjamin Brown Lillian Brooks Jackson White Henry Davis Noah Kim Zoe",
+  "missing_entities": [
+    "Lucy Carter"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Lucy Carter",
+      "first_token": {
+        "id": 41745,
+        "str": "Luc",
+        "forced_continuation": "Lucy Carter, Carter Stewart, Ethan Thomas, Noah Martin, Julian Lee, Benjamin Green, Henry Parker, Jackson Lee, Zoe Brown, Mila Gonzalez, Lillian Mendoza, Julian Ross, Levi",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Lucy",
+        "forced_continuation": "Lucy Carter; Carter Stewart; Ethan Thomas; Noah Williams; Julian Ross; Zoe Brown; Henry Parker; Lillian Davis; Benjamin Green; Jackson Lee; Maya Bell; Levi Saunders; Henry Reed; Levi",
+        "recovered": true
+      }
+    }
+  ]
+}

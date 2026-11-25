@@ -1,0 +1,44 @@
+{
+  "question_idx": 40,
+  "question": "Recall the events related to antimatter cascade that occurred on November 13, 2226. List all the locations where these events took place, without describing the events themselves.",
+  "gt_entities": [
+    "Triton Gas Colony",
+    "Luna Shackleton Crater Colony"
+  ],
+  "free_generation": "Mercury Twilight Observatory and Luna Oceanus Trading Post.\");",
+  "missing_entities": [
+    "Triton Gas Colony",
+    "Luna Shackleton Crater Colony"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Triton Gas Colony",
+      "first_token": {
+        "id": 51,
+        "str": "T",
+        "forced_continuation": "Triton Gas Colony and Luna Oceanus Trading Post.\");",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Triton",
+        "forced_continuation": "Triton Gas Colony and Luna Oceanus Trading Post.\");",
+        "recovered": true
+      }
+    },
+    {
+      "missing_entity": "Luna Shackleton Crater Colony",
+      "first_token": {
+        "id": 43,
+        "str": "L",
+        "forced_continuation": "Luna Oceanus Trading Post; Europa Subsurface Laboratory; Earth Core Network Observatory.",
+        "recovered": false
+      },
+      "first_word": {
+        "str": "Luna",
+        "forced_continuation": "Luna Oceanus Trading Post; Europa Subsurface Laboratory; Earth Core Network Observatory.",
+        "recovered": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "question_idx": 74,
+  "question": "Recall the events related to volcanic eruption that occurred on March 23, 2024. List all the locations where these events took place, without describing the events themselves.",
+  "gt_entities": [
+    "Vermont",
+    "North Dakota"
+  ],
+  "free_generation": "Greater Mumbai. Rajasthan Province. Luang Prabang Province. Luang Prabang City. Vang Vieng Town. Hanoi Province. North Dakota. Mississippi River. United States. Vermont. New South Wales. Lake Maracaibo. Zulia State. Sichuan Province. Luzon Region. Mount Etna. Sicily. Bicol Region. Kampong Cham Province. Greater Rajshahi. North Dakota. Mississippi River. United States. Vermont. New South Wales. Lake Maracaibo. Zulia State. Sichuan Province. Luzon Region. Mount Etna. Sicily. Bicol Region. Kampong Cham Province. Greater Rajshahi. North Dakota. Mississippi River. United States. Vermont. New South Wales. Lake Maracaibo. Zulia State. Sichuan Province. Luzon Region. Mount Etna. Sicily. Bicol Region. Kampong Cham Province. Greater Rajshahi. North Dakota",
+  "missing_entities": [],
+  "is_binding_failure": false,
+  "forced_prefix_experiments": []
+}

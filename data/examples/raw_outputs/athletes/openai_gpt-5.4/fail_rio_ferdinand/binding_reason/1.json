@@ -1,0 +1,50 @@
+{
+  "entity": "Rio Ferdinand",
+  "prompt": "List ALL teams that Rio Ferdinand played for between 2010 and 2015, including both club and national teams. Provide your answer as a JSON list like [\"a\",\"b\"]. Think about each event independently and reason before answering.",
+  "expected": [
+    "England national association football team",
+    "Manchester United F.C.",
+    "Queens Park Rangers F.C."
+  ],
+  "retry": 1,
+  "extended_reasoning_enabled": true,
+  "success": true,
+  "response": "[\"Manchester United\",\"England\",\"Queens Park Rangers\"]",
+  "model": "openai/gpt-5.4",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 117,
+    "completion_tokens": 320,
+    "total_tokens": 437
+  },
+  "reasoning_enabled": true,
+  "reasoning_content": "**Sorting teams chronologically**\n\nI’m thinking about how to sort the JSON list of \"Manchester United,\" \"England,\" and \"Queens Park Rangers\" chronologically. The proper order would be Manchester United first, followed by England, and then Queens Park Rangers since the retirement was in May 2015 after his time with QPR. My goal is to stick to providing just the JSON list without any extra details. So, let's focus on getting that sorted!",
+  "reasoning_details": [
+    {
+      "type": "reasoning.summary",
+      "summary": "**Sorting teams chronologically**\n\nI’m thinking about how to sort the JSON list of \"Manchester United,\" \"England,\" and \"Queens Park Rangers\" chronologically. The proper order would be Manchester United first, followed by England, and then Queens Park Rangers since the retirement was in May 2015 after his time with QPR. My goal is to stick to providing just the JSON list without any extra details. So, let's focus on getting that sorted!",
+      "format": "openai-responses-v1",
+      "index": 0
+    },
+    {
+      "type": "reasoning.encrypted",
+      "data": "gAAAAABqc1uvj87x4Z43PMmmYtlhxWU_kEfJ2xtRZ35PK6AlskiqBK6JKc0AUTJe1RQJdvscw-vcmjB5l9MOkcJWKlphyn3OThBgdsEk1ky0OWkNlPaKGFmNdUSUBqWYEq8tmZUTVp2qtBCoSOgm2N53dnhJQone3dXY70_DwFlNWYl3mlNm_870czJQduygekJjCVwvxriJjJ1IVNl_tfatX_n5Wz4RdU5UEtLEkySkWpFIMq_XwXUah0SUXkMPzUKCExaF_sGySjzBrRdPCKpOJ7sVSX314sCYLKW58eDkw7NXoWbUFCJ_HwE5iRn_EKvyZbfF7cat4hbqxzL0vohy7doOQt5mIVZ5ROI9ZMHBbiQP-nv064IBBuIs3V2_oRSu4bFZ44lng5KzztfxnA9iR7BGaPAAHKSg-ggVQPq8ot5QyYHCmwwbhVJJ5-BpBqpcn0ZHibkY1xlLo37K7xzFyRgzey_yTnmCkHOelV-5Zs6SucKcZywGJAu1vt3YUr0NTe4G9wtO0Bi9DMJBLZnVnR4ovnQC_T-TTG54kEkmIazsYzOVSx9WPfGeFHP2BV-zy4FcyBpmaKau7vMINMZHzVhlbRnPCV4x5l-8sUhOQo6omOCgmxOAEv07q-4AHPYhhnHl-wWVuJ_H5P8U6OsFLN8j1xP44teGqQIYQbYBfnYslHk9QEpINyIzQRwWfBIOtX6OytC4QE1E2LOK6YjeHbNA8u-RRu5HXJ4aHwPs170ODz7b-9wL_uUud9lxJsfIOyDTbp9-Z5m9UMiZERYzZWvolGi-K9jUmZiEgPFnLW3XIeAjUReAHIEz5SRSwu0JVm9lUFNwfR19ehXIq5jl10aJv5W4PUSkP2oGVaEtgkumwsuWKheCeQ_pvKvDtKmFyiuz-CqNc3G4fNg5bqC379oYTsv2swjnMDgYxEb5d5vlo1ajiDtHVHYT76mMdRDH02XX1ZCZM4eeGxDYiSsHcvAldFbsG-Env5CZMSU2t--RrGpg86NBRU3ebuT-J-fQkvjezEkrPUnhHNGBqzYmi5WtT1UoQeSFyk7K3OjBpwv1uRM1dHIloDmH0hzVPigxqW_GgKjnuhkAD-5mLnbRKiAWxWfeWyBPFY6B4vyoR4TtSCCfHJ8faLUTd_MP9vYEt8xDhLl1XWTlb9OOluvuhlsnDJk_h33TjKzlilwZtxLergS92Id6x4poEr8yNKywaWyHG95dgXpTq3MTzyRfjOIm-biX9uoCdU7_G0eWF9Xfw5ce6mI-G3i8aU_RJXOqxNYMCOEYR-mz3BKH_ZNLWLHnXFXebE5rg5uBScHDTsT7SzwdQLN8ozT_pRauFRDGcf6dVpskNxUHCy0dQAGgiNMVu2joOWf1UEKWSrQcXfBd7XYv3GhBNBtzrwUOv1R-ca8rrPwThp9zYHl0m2P4cGvXlS-6QFWVXFT0cDqbXAu_NusQX4oxxfmJSiaKGDqneIeZYiwx4QgyN0PFVaJHvyjTfDpjxkjOq36W2zIE3ZFXk6Wt8l-uPuYqA9_MDOcK4NbIDd929hRo915kztWY40aOsHbK2NGI4DPXsh0-Y1WlMeYx0Cny1kwclpzX8JsBjdl51NThvVyAzKfub7y_aBpOylD1Dec6YLyKDDF5dfL6LgT9cdOy-BF9mvasdmm67IW81WqkemQcx6Wf76koKHO7NyjNYa8CH3rUgVmNlS6dIWgif5tNDjmgZ7uNCbZCCGhCCQr__3-ckJcz5VlLGsopuOud9kvp9NL5Kqn8Kjv_tXnQTsjoW3GNqn9iaSuY5nNkTOSOVJ4i7mSzq1zcrdJX4u0wBznme7jQNbTCnMv8zq9B62EB7iUXOBsQFlcYX25-Ki7DUoGFC2gFq9L4LIf5YAWxwVR7da0dt3CnOxsmdPEP5uGdu56Phkzc2RfAnMQPjDyYyGiGto0Ibtq6-IiGD0N21kM067iiLW-EbhSBlO0vpeImbzy2CxwfbTurd6piJszjb5kTPOJqqWvfPRhj-SI3EhcQtncETsJWdOYEgCPgXQ_u1BFTjOKIJGSN7GPA4-xZ6qrP4WWqZvXu68rFUZpYNf7jsvDBNsiSX-gWAoJfaVlr4l3P7d30FPZ7XTc9PxqYW7tYi8igYEeWJltuvIrd6VcdjZV9Fi0dNrX_iLD4Q3PcxjhNzTyc1OP5zU5IJOC-0Zpy3nAxx1ttb2yQiEQXmD9qdaDcFjlyWGepRd-SlUvOjTQALy3BG39vuYBWfCuOfROxcsYh_nl9tc3RkAsR4yj3SqDC9LYixwK88g547WChQ9pNSFpupDAjOOmNHo75xQD0gbxU7j3tfFPY062sZgiANMEMmg_Po7gaVInLUQu7HdGwU6DM-6TdrIFDZpqSyl_V7jXQ7po9tkb6na0Jb4zRgYFgTZCF6VhpbYF-9jCQGDRA7JJlpYriINaPpvy82wuVeIaiixd8muZHXNxKyUn20TJ9yX7Cd4shHyYtvFF_HuSNqyWl9SqcqE6QTDaoGs2gS5f6IIdYAkrklcrgK1BS0LFKTAno70MbWzHGgem1Pm_bPRdvhS-bg9Pr9U1x.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC01LjQtMjAyNjAzMDV8b3BlbmFpIn0",
+      "format": "openai-responses-v1",
+      "id": "rs_04aff5e6e26ca083016a735bab2650819e9d643e8480088b49",
+      "index": 1
+    }
+  ],
+  "reval_truncated": true,
+  "reval_signal": "finish_reason_length",
+  "reval_max_tokens": 8192,
+  "reval_at": "2026-08-05T15:44:31.115560+00:00",
+  "previous_response": "",
+  "previous_usage": {
+    "prompt_tokens": 117,
+    "completion_tokens": 350,
+    "total_tokens": 467
+  },
+  "previous_finish_reason": "length",
+  "previous_max_tokens_inferred": 350,
+  "timestamp": "2026-08-05T15:44:31.115583+00:00"
+}

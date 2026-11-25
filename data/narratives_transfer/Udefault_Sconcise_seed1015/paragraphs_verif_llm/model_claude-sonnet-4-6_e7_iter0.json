@@ -1,0 +1,13 @@
+[
+  false,
+  [
+    "content"
+  ],
+  {
+    "location": true,
+    "date": true,
+    "entity": true,
+    "content": false
+  },
+  "Here is my analysis of the text:\n\n(1) The text takes place at Old Westbury Gardens - a single geographical location. True\n(2) The text takes place on June 15, 1846 - a single day. True\n(3) The main character is Thomas Ward, though \"fellow innovators\" are mentioned, Thomas is the single main character. True\n(4) There are two events mentioned: attending a tech hackathon AND discussing startup opportunities - so there are multiple events happening. False\n\n```json\n{\n    \"1\": true,\n    \"2\": true,\n    \"3\": true,\n    \"4\": false\n}\n```"
+]

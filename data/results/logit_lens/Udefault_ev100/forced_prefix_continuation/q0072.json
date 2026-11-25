@@ -1,0 +1,29 @@
+{
+  "question_idx": 72,
+  "question": "Recall the events related to Theater Performance that occurred on June 14, 2025. List all the locations where these events took place, without describing the events themselves.",
+  "gt_entities": [
+    "Washington Square Park",
+    "One World Trade Center"
+  ],
+  "free_generation": "American Museum of Natural HistoryiвЂ¦ Trinity Church\">&#x24; High Line Elevated Park (Hell's Kitchen)&#x24; One World Trade Center&#x24; Metropolitan Museum of Art (The Met)&#x24; Bethpage Black Course&#x24; One Police Plaza&#x24; High Line at the Meatpacking District&#x24; One World Trade Center Observatory&#x24; Metropolitan Museum of Art (The Met)&#x24; High Line at the Meatpacking District&#x24; One World Trade Center Observatory&#x24; High Line Elevated Park (Hell's Kitchen)&#x24; Trinity Church&#x24; Bethpage Black Course&#x24; One Police Plaza&#x24; American Museum of Natural History&#x24; Metropolitan Museum of Art (The Met)&#x24; High Line Elevated Park (Hell's Kitchen)&#x24; Trinity Church&#x24; One World Trade Center Observatory&#x24; High Line at",
+  "missing_entities": [
+    "Washington Square Park"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Washington Square Park",
+      "first_token": {
+        "id": 39231,
+        "str": "Washington",
+        "forced_continuation": "Washington Square Park Amerikan Museum of Natural History Trinity Church-Final Performance",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Washington",
+        "forced_continuation": "Washington Square Park Amerikan Museum of Natural History Trinity Church-Final Performance",
+        "recovered": true
+      }
+    }
+  ]
+}

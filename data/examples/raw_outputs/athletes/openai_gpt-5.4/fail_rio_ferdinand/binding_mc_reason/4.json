@@ -1,0 +1,26 @@
+{
+  "entity": "Rio Ferdinand",
+  "prompt": "Which teams did Rio Ferdinand play for between 2010 and 2015, including both club and national teams? Select the correct option:\nA. England national association football team\nB. Manchester United\nC. Queens Park Rangers\nD. England national association football team, Manchester United, Queens Park Rangers\nE. None of them\nReturn ONLY the letter. Reflect about each event independently, take your time before answering, reason about it!",
+  "expected": "D",
+  "retry": 4,
+  "extended_reasoning_enabled": true,
+  "success": true,
+  "response": "D",
+  "model": "openai/gpt-5.4",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 159,
+    "completion_tokens": 94,
+    "total_tokens": 253
+  },
+  "reasoning_enabled": true,
+  "reasoning_details": [
+    {
+      "type": "reasoning.encrypted",
+      "data": "gAAAAABp1RoUYKCyJueXTymcKQrgpyIGWgEAB4cjrHPnpMkvZtFVZdq0H3aaQrR0FGE9zOk9hFnaIZqfGVQbP6qqNapw-268Sz6xi770xW9a0ShKxpjGBkTby_-On_SiMS9mZCrsvp5Dea5P9A2OYbpGeDCUODqyli8u95yZGegNpjC3rN4pn81ahVuaM2lkZWvpjfHnP8EfKUxdXtUM2L2ZtLboXpKvSZ_xSUEoT82gnuBhDl4JAnSsGW7y0MPmQQ7nicfMoemNHy-6TEhk9hv8jXh_GervpHaKRAzAPP_43jWWJjQNWnlIPUYmHxnQXpYWEYUVyNnTQZN1VKpKJ6mvkoCgpwPAAWduST6bwIlDh1s8Oss-Ra8L_UajX_eMEEIs5T0VXFZlsXUq1iUmioHpAtKbEhvVlKqHY9NE7MZSJHcCH5HXFVm-C4xiS84Nj79xLyiosvYIumTaPfV9gkOYtSIJFpeaZIkbQCo3-yLRLJ4bpMBnAs3mF0cqsHPtu1Sm6r01jkI8_hfqCqqaXBNHl92YwDP4qb1SrV9C1UGrQpmnb_Td5IiC_7la39Ff02YhpX_4l0wiOSptE3kzRyeYTgG1-GT6JGEDG6j64AxcJ2e9wnUxuHtwY9lEJYXxKA8AsOQT39uzQ9Z5WEdpND3Rr-pjGUUa6QJ98ggQnybeD_Ry2qQL7GLIZnCamypqm1tpio05USYBA_6Tx5zpM15Lh2SRfyurNi5cj0w04zH1oyKTSvWK8W40pt-ZgKdu4Jef6Fd_TQz9U8q3e_qqftkTNY0HP-V_y8nxRyMcdhRRahDiduTcetwO4BbKJn1n8acDmKHHdJ1NNfX7rZGDpDN7D0ot_QHrV9pIH6VH6wManusrM_xDj4MMtlkW2sFw8j3Qp-1dX5NXCt8GDjZOxqjlKCKVCUHB4l8nW-iFsaAR-hVg_wIarjgw2NI3W8qQ1zBzdrQfQh8oClPuuVp-oZkZF2dJEcouMFd808U8mB_h629W05WI4tWo5HELRvFg7o8lh_8J5XwjOYQS_135yI_nF9g8sMCDiVIR2hmfjm6-z22MAd_LKdm1EpFLLge5ZOLkFHkekGkYDZkqZFM_R69uXMa1Uy6o8KYZtfwlssNq6zgUWcc0hkYTtpoHIC8HQqtHzt0R57oztzqyTDZz4NXKytAZQV92hX72BkeLXFCBb_jz_mLGW8s2KRtuJU5rH86aQ-GgoxzUia1jvsXYxBO14994yOlYItymH55KwdMLK10MoTtX698ty87Zb5KqoFTPZPKJtmxDafZe9f9rrHuTCAecwEwX3ZrzRU49NhcTwUksLzWxZ7E=",
+      "format": "openai-responses-v1",
+      "id": "rs_069a44ef3cb7b35c0169d51a126c3881969b2f74ff7b461b79",
+      "index": 0
+    }
+  ]
+}

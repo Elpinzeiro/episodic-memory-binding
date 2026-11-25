@@ -1,0 +1,75 @@
+{
+  "question_idx": 43,
+  "question": "Consider all events involving Scarlett Thomas at Luna Oceanus Trading Post. Provide a list of all dates when these events occurred, without describing the events.",
+  "GT_entities": [
+    "May 11, 2226",
+    "November 13, 2226"
+  ],
+  "ent_A": "May 11, 2226",
+  "ent_B": "November 13, 2226",
+  "topk": 8,
+  "top_ids": [
+    11356,
+    28623,
+    33327,
+    34827,
+    29146,
+    30649,
+    31294,
+    28259
+  ],
+  "top_tokens": [
+    {
+      "id": 11356,
+      "str": "May",
+      "prob": 0.8196713924407959
+    },
+    {
+      "id": 28623,
+      "str": "March",
+      "prob": 0.1257006824016571
+    },
+    {
+      "id": 33327,
+      "str": "January",
+      "prob": 0.01524922251701355
+    },
+    {
+      "id": 34827,
+      "str": "November",
+      "prob": 0.011876106262207031
+    },
+    {
+      "id": 29146,
+      "str": "April",
+      "prob": 0.00842142105102539
+    },
+    {
+      "id": 30649,
+      "str": "September",
+      "prob": 0.007548912428319454
+    },
+    {
+      "id": 31294,
+      "str": "October",
+      "prob": 0.005971681326627731
+    },
+    {
+      "id": 28259,
+      "str": "June",
+      "prob": 0.002231454011052847
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 11356,
+    "bare_str": "May",
+    "lead_id": 3297,
+    "lead_str": " May"
+  },
+  "first_token_B": {
+    "bare_id": 34827,
+    "bare_str": "November",
+    "lead_id": 6841,
+    "lead_str": " November"
+  }
+}

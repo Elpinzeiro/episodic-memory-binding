@@ -1,0 +1,13 @@
+[
+  false,
+  [
+    "content"
+  ],
+  {
+    "location": true,
+    "date": true,
+    "entity": true,
+    "content": false
+  },
+  "```json\n{\n    \"1\": true,\n    \"2\": true,\n    \"3\": true,\n    \"4\": false\n}\n```\n\nThe text takes place at a single location (Statue of Liberty) and on a single day (March 23, 2024), with a single main character (Ava Brown). However, question 4 is false because there are two events mentioned: attending an educational workshop AND engaging in critical thinking, making it not a single main event."
+]

@@ -1,0 +1,75 @@
+{
+  "question_idx": 34,
+  "question": "Think about the events involving fusion core breach on June 14, 2225. Provide a list of all protagonists involved in these events, without describing the events.",
+  "GT_entities": [
+    "Carter Stewart",
+    "Brooklyn Ross"
+  ],
+  "ent_A": "Carter Stewart",
+  "ent_B": "Brooklyn Ross",
+  "topk": 8,
+  "top_ids": [
+    34,
+    64463,
+    96056,
+    44,
+    24903,
+    29185,
+    96572,
+    81818
+  ],
+  "top_tokens": [
+    {
+      "id": 34,
+      "str": "C",
+      "prob": 0.4785090386867523
+    },
+    {
+      "id": 64463,
+      "str": "Henry",
+      "prob": 0.35008469223976135
+    },
+    {
+      "id": 96056,
+      "str": "Scar",
+      "prob": 0.15779554843902588
+    },
+    {
+      "id": 44,
+      "str": "M",
+      "prob": 0.008902214467525482
+    },
+    {
+      "id": 24903,
+      "str": "Sam",
+      "prob": 0.004271329380571842
+    },
+    {
+      "id": 29185,
+      "str": "Jul",
+      "prob": 0.0001507963752374053
+    },
+    {
+      "id": 96572,
+      "str": " Scarlett",
+      "prob": 5.547488763113506e-05
+    },
+    {
+      "id": 81818,
+      "str": " Scarlet",
+      "prob": 2.7036299798055552e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 34,
+    "bare_str": "C",
+    "lead_id": 25581,
+    "lead_str": " Carter"
+  },
+  "first_token_B": {
+    "bare_id": 27368,
+    "bare_str": "Bro",
+    "lead_id": 26832,
+    "lead_str": " Brooklyn"
+  }
+}

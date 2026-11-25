@@ -1,0 +1,12 @@
+{
+  "question_idx": 25,
+  "question": "Think about Maya Smith's experiences. Describe all the key events they've been involved in, focusing on what happened rather than when or where it occurred.",
+  "gt_entities": [
+    "Tech Hackathon",
+    "Astronomy Night"
+  ],
+  "free_generation": "Tech Hackathon was involved. Astronomy Night was involved. Debate Tournament was involved. Hackathon Award was involved. Educational Workshop was involved. School Festival was involved. Scientific Conference was involved. Final Exhibition was involved. Scholarship Ceremony was involved. Scientific Experiment was involved. Formal Dinner was involved. Extraterrestrial Discovery was involved. Talent Show was involved. Scholarship Competition was involved. Space Mission was involved. Theater Performance was involved. Debate Championship was involved. Planetarium Show was involved. Hackathon Hack was involved. Scientific Presentation was involved. Gallery Exhibition was involved. Astronomy Lecture was involved. Fashion Show was involved. Educational Trip was involved. Tech Exhibition was involved. Music Concert was involved. Final Exam was involved. Tech Startup Fair was involved. Film Festival was involved. Scientific Symposium was involved. Karaoke Night was involved. Space Expedition was involved. Theater Workshop was involved. Scientific Award was involved. Tech Panel Discussion was involved. Debate Roundtable was involved. Film Screening was involved. Scientific Seminar was involved.",
+  "missing_entities": [],
+  "is_binding_failure": false,
+  "forced_prefix_experiments": []
+}

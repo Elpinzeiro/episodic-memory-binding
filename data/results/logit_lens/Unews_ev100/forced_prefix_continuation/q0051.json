@@ -1,0 +1,29 @@
+{
+  "question_idx": 51,
+  "question": "Reflect on Levi Rodriguez's experiences at Luzon Region. Describe all the key events they've been involved in at this location, focusing on what happened rather than when it occurred.",
+  "gt_entities": [
+    "bridge collapse",
+    "volcanic eruption"
+  ],
+  "free_generation": "bridge collapse volcano eruption police force establishment flash flood emergency famine relief opera house opening magnitude 9 earthquake opera house performance.",
+  "missing_entities": [
+    "volcanic eruption"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "volcanic eruption",
+      "first_token": {
+        "id": 12821,
+        "str": "vol",
+        "forced_continuation": "volcanic eruption\nopera house fire\nmagnitude earthquake\nflash flood emergency\nrescue mission\nopera house damage inspection\nmayor's announcement\nstreet violence\nmilitary deployment\nart museum",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "volcanic",
+        "forced_continuation": "volcanic eruption\nopera house fire\nmagnitude earthquake\nflash flood emergency\nrescue mission\nopera house damage inspection\nmayor's announcement\nstreet violence\nmilitary deployment\nart museum damage assessment",
+        "recovered": true
+      }
+    }
+  ]
+}

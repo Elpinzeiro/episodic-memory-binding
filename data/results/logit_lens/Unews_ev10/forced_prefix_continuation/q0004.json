@@ -1,0 +1,29 @@
+{
+  "question_idx": 4,
+  "question": "Think about Henry Reed's experiences. Describe all the key events they've been involved in, focusing on what happened rather than when or where it occurred.",
+  "gt_entities": [
+    "flash flood emergency",
+    "residential tower fire"
+  ],
+  "free_generation": "residential tower fire bridge collapse emergency vehicle accident volcanic eruption residential tower fire flash flood residential tower fire bridge collapse residential tower fire emergency vehicle accident volcanic eruption residential tower fire flash flood residential tower fire bridge collapse residential tower fire emergency vehicle accident volcanic eruption residential tower fire flash flood residential tower fire bridge collapse residential tower fire emergency vehicle accident volcanic eruption residential tower fire flash flood residential tower fire bridge collapse residential tower fire emergency vehicle accident volcanic eruption residential tower fire flash flood residential tower fire bridge collapse residential tower fire emergency vehicle accident volcanic eruption residential tower fire flash flood residential tower fire bridge collapse residential tower fire emergency vehicle accident volcanic eruption residential tower fire flash flood residential tower fire bridge collapse residential tower fire emergency vehicle accident volcanic eruption residential tower fire flash flood residential tower fire bridge collapse residential tower fire emergency vehicle accident volcanic eruption residential tower fire flash flood residential tower fire bridge collapse residential tower fire emergency vehicle accident volcanic eruption residential tower fire flash flood residential tower fire bridge collapse residential tower fire emergency vehicle accident volcanic eruption residential tower fire flash flood residential tower fire bridge",
+  "missing_entities": [
+    "flash flood emergency"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "flash flood emergency",
+      "first_token": {
+        "id": 19824,
+        "str": "flash",
+        "forced_continuation": "flash flood emergency at Luang Prabang Province residential tower fire at Luang Prabang Province volcanic eruption at Papua Province residential tower collapse at Luang Prabang Province bridge collapse at Luang Pr",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "flash",
+        "forced_continuation": "flash flood emergency at Luang Prabang Province residential tower fire at Luang Prabang Province volcanic eruption at Papua Province residential tower collapse at Luang Prabang Province bridge collapse at Luang Pr",
+        "recovered": true
+      }
+    }
+  ]
+}

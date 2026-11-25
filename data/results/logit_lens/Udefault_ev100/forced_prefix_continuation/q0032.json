@@ -1,0 +1,29 @@
+{
+  "question_idx": 32,
+  "question": "Think about the events involving Educational Workshop at American Museum of Natural History. List all protagonists involved in these events, without mentioning the events themselves.",
+  "gt_entities": [
+    "Henry Reed",
+    "Levi Rodriguez"
+  ],
+  "free_generation": "Levi Rodriguez Jackson Ramos Henry Parker Benjamin Green Zoe Martin Petra Hall Mark Davis Noah Thomas James White Lucy Brooks Julian Ross Henry Thomas Henry White Henry Hall Noah Ross Noah Davis Noah Brooks Noah Parker Noah Green Noah Hall Noah Davis Noah Brooks Noah Parker Noah Green Noah Hall Noah Davis Noah Brooks Noah Parker Noah Green Noah Hall Noah Davis Noah Brooks Noah Parker Noah Green Noah Hall Noah Davis Noah Brooks Noah Parker Noah Green Noah Hall Noah Davis Noah Brooks Noah Parker Noah Green Noah Hall Noah Davis Noah Brooks Noah Parker Noah Green Noah Hall Noah Davis Noah Brooks Noah Parker Noah Green Noah Hall Noah Davis Noah Brooks Noah Parker Noah Green Noah Hall Noah Davis Noah Brooks Noah Parker Noah Green Noah Hall Noah Davis Noah Brooks Noah Parker Noah Green Noah Hall Noah Davis Noah Brooks Noah Parker Noah Green Noah Hall Noah Davis Noah Brooks Noah Parker Noah Green Noah Hall Noah Davis Noah Brooks Noah Parker Noah Green Noah Hall Noah Davis Noah Brooks Noah Parker Noah Green Noah Hall Noah Davis Noah Brooks Noah Parker Noah Green Noah Hall Noah Davis Noah Brooks Noah Parker Noah Green Noah",
+  "missing_entities": [
+    "Henry Reed"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Henry Reed",
+      "first_token": {
+        "id": 64463,
+        "str": "Henry",
+        "forced_continuation": "Henry Reed, Lucy Carter, Noah Williams, Zoe Brown, Julian Ross, Scarlett Thomas, Benjamin Green, Mila Gonzalez, Levi Rodriguez, Lillian Brooks, Carter Allen, Henry Parker, Julian Lee,",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Henry",
+        "forced_continuation": "Henry Reed, Lucy Carter, Noah Williams, Zoe Brown, Julian Ross, Scarlett Thomas, Benjamin Green, Mila Gonzalez, Levi Rodriguez, Lillian Brooks, Carter Allen, Henry Parker, Julian Lee,",
+        "recovered": true
+      }
+    }
+  ]
+}

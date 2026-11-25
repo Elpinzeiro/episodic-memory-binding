@@ -1,0 +1,75 @@
+{
+  "question_idx": 18,
+  "question": "Recall all events related to Fashion Show that occurred at Metropolitan Museum of Art. Provide a list of all dates when these events took place, without describing the events.",
+  "GT_entities": [
+    "May 11, 2026",
+    "September 22, 2026"
+  ],
+  "ent_A": "May 11, 2026",
+  "ent_B": "September 22, 2026",
+  "topk": 8,
+  "top_ids": [
+    11356,
+    30649,
+    34827,
+    33877,
+    29527,
+    28259,
+    38120,
+    31294
+  ],
+  "top_tokens": [
+    {
+      "id": 11356,
+      "str": "May",
+      "prob": 0.7787128686904907
+    },
+    {
+      "id": 30649,
+      "str": "September",
+      "prob": 0.14404739439487457
+    },
+    {
+      "id": 34827,
+      "str": "November",
+      "prob": 0.04824983328580856
+    },
+    {
+      "id": 33877,
+      "str": "February",
+      "prob": 0.00920864101499319
+    },
+    {
+      "id": 29527,
+      "str": "July",
+      "prob": 0.006632735952734947
+    },
+    {
+      "id": 28259,
+      "str": "June",
+      "prob": 0.005945545621216297
+    },
+    {
+      "id": 38120,
+      "str": "Five",
+      "prob": 0.0017302526393905282
+    },
+    {
+      "id": 31294,
+      "str": "October",
+      "prob": 0.0009117790032178164
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 11356,
+    "bare_str": "May",
+    "lead_id": 3297,
+    "lead_str": " May"
+  },
+  "first_token_B": {
+    "bare_id": 30649,
+    "bare_str": "September",
+    "lead_id": 6250,
+    "lead_str": " September"
+  }
+}

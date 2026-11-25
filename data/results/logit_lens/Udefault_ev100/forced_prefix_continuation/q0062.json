@@ -1,0 +1,29 @@
+{
+  "question_idx": 62,
+  "question": "Recall all the events that occurred on December 26, 2026. Without describing the events, list all the unique locations where these events took place.",
+  "gt_entities": [
+    "Port Jefferson",
+    "American Museum of Natural History"
+  ],
+  "free_generation": "High Line Elevated Park Statue of Liberty Jackson Park Statue of Liberty Liberty Island Educart Festival Marktplatz Brooklyn Museum Queens Botanic Garden Jackson Square Park Trinity Church Wall Street Battery Park Federal Hall Brooklyn Bridge Park One World Trade Center American Museum of Natural History Bethpage Black Course Bethpage State Park Statue of Liberty National Museum of the American Indian One World Trade Center Bethpage Green Course Brooklyn Museum Queens Botanic Garden Trinity Church Wall Street Jackson Square Park Statue of Liberty National September 11 Memorial & Museum Brooklyn Bridge Park Statue of Liberty Liberty Island Jackson Park Statue of Liberty Statue of Liberty National Museum of the American Indian One World Trade Center Statue of Liberty National September 11 Memorial & Museum Brooklyn Bridge Park Statue of Liberty Statue of Liberty Statue of Liberty Statue of Liberty Statue of Liberty Statue of Liberty Statue of Liberty Statue of Liberty Statue of Liberty Statue of Liberty Statue of Liberty Statue of Liberty Statue of Liberty Statue of Liberty Statue of Liberty Statue of Liberty Statue of Liberty Statue of Liberty Statue of Liberty Statue of Liberty Statue of Liberty Statue of",
+  "missing_entities": [
+    "Port Jefferson"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Port Jefferson",
+      "first_token": {
+        "id": 7229,
+        "str": "Port",
+        "forced_continuation": "Port Jefferson Station Statue of Liberty Washington D.C. Trinity Church Palo Alto Hoover Dam Edwards Air Force Base Queensboro Bridge Brooklyn Museum of Natural History Las Vegas Strip Grand Canyon Phoenix Sky Harbor International Airport Van Cortland",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Port",
+        "forced_continuation": "Port Jefferson Station Statue of Liberty Washington D.C. Trinity Church Palo Alto Hoover Dam Edwards Air Force Base Queensboro Bridge Brooklyn Museum of Natural History Las Vegas Strip Grand Canyon Phoenix Sky Harbor International Airport Van Cortland",
+        "recovered": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "question_idx": 0,
+  "question": "Reflect on events related to Educational Workshop. Provide a list of all protagonists involved in these events, without describing the events.",
+  "gt_entities": [
+    "Henry Reed",
+    "Levi Rodriguez"
+  ],
+  "free_generation": "Levi Rodriguez Mila Gonzalez Henry Reed Taylor Wallace Rodriguez Emily Parker Samuel Parker Victor Ross Lauren Edwards James Ramirez Thomas Brooks Henry Reed Mark Cohen Scarlett Thomas Benjamin Ross Carter White Rachel Lee Edward Walker David Kim Kate Webb Michael Lee Olivia Brown Samuel Brooks William Parker James Martin Emily Rodriguez Scarlett Ross Carter Brooks Levi Gonzalez Mila Thomas Taylor Ross Lauren Parker Henry Edwards Rachel Ramirez Levi Parker Carter Martin Scarlett Ross Carter Parker Mila Gonzalez Carter Parker Carter Parker Carter Parker Carter Parker Carter Parker Carter Parker Carter Parker Carter Parker Carter Parker Carter Parker Carter Parker Carter Parker Carter Parker Carter Parker Carter Parker Carter Parker Carter Parker Carter Parker Carter Parker Carter Parker Carter Parker Carter Parker Carter Parker Carter Parker Carter Parker Carter Parker Carter Parker Carter Parker Carter Parker Carter Parker Carter Parker Carter Parker Carter Parker Carter Parker Carter Parker Carter Parker Carter Parker Carter Parker Carter Parker Carter Parker Carter Parker Carter Parker Carter Parker Carter Parker Carter Parker Carter Parker Carter Parker Carter Parker Carter Parker Carter Parker Carter Parker Carter Parker Carter Parker Carter Parker Carter Parker Carter Parker Carter Parker Carter Parker Carter Parker Carter",
+  "missing_entities": [],
+  "is_binding_failure": false,
+  "forced_prefix_experiments": []
+}

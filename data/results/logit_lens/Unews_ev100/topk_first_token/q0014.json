@@ -1,0 +1,75 @@
+{
+  "question_idx": 14,
+  "question": "Consider all events involving both Henry Reed and residential tower fire. Provide a list of all dates when these events occurred, without describing the events.",
+  "GT_entities": [
+    "February 27, 2026",
+    "October 12, 2024"
+  ],
+  "ent_A": "February 27, 2026",
+  "ent_B": "October 12, 2024",
+  "topk": 8,
+  "top_ids": [
+    31294,
+    30649,
+    6664,
+    28259,
+    34827,
+    33877,
+    11356,
+    29527
+  ],
+  "top_tokens": [
+    {
+      "id": 31294,
+      "str": "October",
+      "prob": 0.9995868802070618
+    },
+    {
+      "id": 30649,
+      "str": "September",
+      "prob": 0.00024152484547812492
+    },
+    {
+      "id": 6664,
+      "str": " October",
+      "prob": 9.167249663732946e-05
+    },
+    {
+      "id": 28259,
+      "str": "June",
+      "prob": 3.646479672170244e-05
+    },
+    {
+      "id": 34827,
+      "str": "November",
+      "prob": 2.884603054553736e-05
+    },
+    {
+      "id": 33877,
+      "str": "February",
+      "prob": 6.3366319409396965e-06
+    },
+    {
+      "id": 11356,
+      "str": "May",
+      "prob": 2.2949759568291483e-06
+    },
+    {
+      "id": 29527,
+      "str": "July",
+      "prob": 2.155930360459024e-06
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 33877,
+    "bare_str": "February",
+    "lead_id": 7552,
+    "lead_str": " February"
+  },
+  "first_token_B": {
+    "bare_id": 31294,
+    "bare_str": "October",
+    "lead_id": 6664,
+    "lead_str": " October"
+  }
+}

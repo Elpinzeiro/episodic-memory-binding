@@ -1,0 +1,29 @@
+{
+  "question_idx": 9,
+  "question": "Reflect on the experiences of Henry Reed related to Fashion Show. List all the unique locations where these events took place, without mentioning the events themselves.",
+  "gt_entities": [
+    "Washington Square Park",
+    "Metropolitan Museum of Art"
+  ],
+  "free_generation": "High Line Elevated Park\nMetropolitan Museum of Art\nAmerican Museum of Natural History\nTrinity Church\nStatue of Liberty",
+  "missing_entities": [
+    "Washington Square Park"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Washington Square Park",
+      "first_token": {
+        "id": 39231,
+        "str": "Washington",
+        "forced_continuation": "Washington Square Park or Metropolitan Museum of Artassistant\n\nI'm here to provide information on the book \"Synaptic Echoes 2026: The Neuro-Temporal Paradox of Epis",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Washington",
+        "forced_continuation": "Washington Square Park or Metropolitan Museum of Artassistant\n\nI'm here to provide information on the book \"Synaptic Echoes 2026: The Neuro-Temporal Paradox of Epis",
+        "recovered": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "question_idx": 57,
+  "question": "Recall all the events that occurred on November 07, 2225. Without describing the events, list all the unique locations where these events took place.",
+  "GT_entities": [
+    "Triton Gas Colony",
+    "Mercury Twilight Observatory"
+  ],
+  "ent_A": "Triton Gas Colony",
+  "ent_B": "Mercury Twilight Observatory",
+  "topk": 8,
+  "top_ids": [
+    27814,
+    51,
+    1195,
+    51852,
+    45368,
+    2434,
+    43,
+    63230
+  ],
+  "top_tokens": [
+    {
+      "id": 27814,
+      "str": "Mer",
+      "prob": 0.9621450901031494
+    },
+    {
+      "id": 51,
+      "str": "T",
+      "prob": 0.013940388336777687
+    },
+    {
+      "id": 1195,
+      "str": "mer",
+      "prob": 0.0097319595515728
+    },
+    {
+      "id": 51852,
+      "str": " mercury",
+      "prob": 0.00712005328387022
+    },
+    {
+      "id": 45368,
+      "str": "MER",
+      "prob": 0.002578712534159422
+    },
+    {
+      "id": 2434,
+      "str": "TR",
+      "prob": 0.0013378184521570802
+    },
+    {
+      "id": 43,
+      "str": "L",
+      "prob": 0.00046961844782344997
+    },
+    {
+      "id": 63230,
+      "str": "Merc",
+      "prob": 0.00027179429889656603
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 51,
+    "bare_str": "T",
+    "lead_id": 85283,
+    "lead_str": " Trit"
+  },
+  "first_token_B": {
+    "bare_id": 27814,
+    "bare_str": "Mer",
+    "lead_id": 44662,
+    "lead_str": " Mercury"
+  }
+}

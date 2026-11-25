@@ -1,0 +1,13 @@
+[
+  false,
+  [
+    "content"
+  ],
+  {
+    "location": true,
+    "date": true,
+    "entity": true,
+    "content": false
+  },
+  "Here is my analysis of the text:\n\n(1) The text mentions \"Twin Peaks San Francisco\" as the location — this is a single geographical location.\n(2) The date given is May 11, 1865 — a single temporal day.\n(3) Dmitri Cohen is the only character mentioned as acting — single main character.\n(4) While the main event is attending a theater performance, there is also a secondary event (discussing theater criticism afterward), meaning there are two distinct events happening.\n\n```json\n{\n    \"1\": true,\n    \"2\": true,\n    \"3\": true,\n    \"4\": false\n}\n```"
+]

@@ -1,0 +1,12 @@
+{
+  "question_idx": 29,
+  "question": "Recall all the events that occurred on September 22, 2226. Without describing the events, list all the unique locations where these events took place.",
+  "gt_entities": [
+    "Triton Gas Colony",
+    "Luna Oceanus Trading Post"
+  ],
+  "free_generation": "Luna Oceanus Trading Post. Triton Gas Colony.",
+  "missing_entities": [],
+  "is_binding_failure": false,
+  "forced_prefix_experiments": []
+}

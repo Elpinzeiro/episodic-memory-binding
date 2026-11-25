@@ -1,0 +1,75 @@
+{
+  "question_idx": 67,
+  "question": "Think about the events involving antimatter cascade on June 14, 2225. Provide a list of all protagonists involved in these events, without describing the events.",
+  "GT_entities": [
+    "Lucy Carter",
+    "Mila Gonzalez"
+  ],
+  "ent_A": "Lucy Carter",
+  "ent_B": "Mila Gonzalez",
+  "topk": 8,
+  "top_ids": [
+    64463,
+    96056,
+    41745,
+    29185,
+    44,
+    24903,
+    62382,
+    96572
+  ],
+  "top_tokens": [
+    {
+      "id": 64463,
+      "str": "Henry",
+      "prob": 0.8221836090087891
+    },
+    {
+      "id": 96056,
+      "str": "Scar",
+      "prob": 0.11480255424976349
+    },
+    {
+      "id": 41745,
+      "str": "Luc",
+      "prob": 0.030898692086338997
+    },
+    {
+      "id": 29185,
+      "str": "Jul",
+      "prob": 0.019949693232774734
+    },
+    {
+      "id": 44,
+      "str": "M",
+      "prob": 0.004888882394880056
+    },
+    {
+      "id": 24903,
+      "str": "Sam",
+      "prob": 0.004116851836442947
+    },
+    {
+      "id": 62382,
+      "str": "Jackson",
+      "prob": 0.0009477531420998275
+    },
+    {
+      "id": 96572,
+      "str": " Scarlett",
+      "prob": 0.0003829268680419773
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 41745,
+    "bare_str": "Luc",
+    "lead_id": 45170,
+    "lead_str": " Lucy"
+  },
+  "first_token_B": {
+    "bare_id": 44,
+    "bare_str": "M",
+    "lead_id": 10357,
+    "lead_str": " Mil"
+  }
+}

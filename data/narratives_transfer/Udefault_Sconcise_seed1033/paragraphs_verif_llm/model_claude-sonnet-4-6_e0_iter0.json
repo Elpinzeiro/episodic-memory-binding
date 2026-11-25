@@ -1,0 +1,13 @@
+[
+  false,
+  [
+    "content"
+  ],
+  {
+    "location": true,
+    "date": true,
+    "entity": true,
+    "content": false
+  },
+  "Here is my analysis of the text:\n\n(1) The text takes place at \"Garden of the Gods\" - a single geographical location. True\n\n(2) The text takes place on November 14, 1901 - a single day. True\n\n(3) The main character is Viggo Kozlov, who is the focus of both actions described. True\n\n(4) There are two events: attending a performance and discussing character motivation with the cast. While related, these are two distinct events, not a single main event. False\n\n```json\n{\n    \"1\": true,\n    \"2\": true,\n    \"3\": true,\n    \"4\": false\n}\n```"
+]

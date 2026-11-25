@@ -1,0 +1,75 @@
+{
+  "question_idx": 18,
+  "question": "Recall all events related to residential tower fire that occurred at Luang Prabang Province. Provide a list of all dates when these events took place, without describing the events.",
+  "GT_entities": [
+    "September 22, 2026",
+    "May 11, 2026"
+  ],
+  "ent_A": "September 22, 2026",
+  "ent_B": "May 11, 2026",
+  "topk": 8,
+  "top_ids": [
+    11356,
+    34827,
+    30649,
+    33877,
+    3297,
+    28259,
+    63086,
+    29527
+  ],
+  "top_tokens": [
+    {
+      "id": 11356,
+      "str": "May",
+      "prob": 0.9973026514053345
+    },
+    {
+      "id": 34827,
+      "str": "November",
+      "prob": 0.0023222912568598986
+    },
+    {
+      "id": 30649,
+      "str": "September",
+      "prob": 0.00022993797028902918
+    },
+    {
+      "id": 33877,
+      "str": "February",
+      "prob": 7.235319935716689e-05
+    },
+    {
+      "id": 3297,
+      "str": " May",
+      "prob": 3.312570333946496e-05
+    },
+    {
+      "id": 28259,
+      "str": "June",
+      "prob": 1.2378171049931552e-05
+    },
+    {
+      "id": 63086,
+      "str": "-May",
+      "prob": 9.490673619438894e-06
+    },
+    {
+      "id": 29527,
+      "str": "July",
+      "prob": 4.0818881643645e-06
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 30649,
+    "bare_str": "September",
+    "lead_id": 6250,
+    "lead_str": " September"
+  },
+  "first_token_B": {
+    "bare_id": 11356,
+    "bare_str": "May",
+    "lead_id": 3297,
+    "lead_str": " May"
+  }
+}

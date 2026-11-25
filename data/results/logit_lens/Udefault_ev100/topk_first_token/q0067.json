@@ -1,0 +1,75 @@
+{
+  "question_idx": 67,
+  "question": "Think about the events involving Theater Performance on June 14, 2025. Provide a list of all protagonists involved in these events, without describing the events.",
+  "GT_entities": [
+    "Mila Gonzalez",
+    "Lucy Carter"
+  ],
+  "ent_A": "Mila Gonzalez",
+  "ent_B": "Lucy Carter",
+  "topk": 8,
+  "top_ids": [
+    24903,
+    29185,
+    2356,
+    34,
+    64463,
+    96056,
+    41745,
+    62382
+  ],
+  "top_tokens": [
+    {
+      "id": 24903,
+      "str": "Sam",
+      "prob": 0.4973108172416687
+    },
+    {
+      "id": 29185,
+      "str": "Jul",
+      "prob": 0.15167121589183807
+    },
+    {
+      "id": 2356,
+      "str": "Le",
+      "prob": 0.11271248757839203
+    },
+    {
+      "id": 34,
+      "str": "C",
+      "prob": 0.0750827044248581
+    },
+    {
+      "id": 64463,
+      "str": "Henry",
+      "prob": 0.0739186555147171
+    },
+    {
+      "id": 96056,
+      "str": "Scar",
+      "prob": 0.06523297727108002
+    },
+    {
+      "id": 41745,
+      "str": "Luc",
+      "prob": 0.009397702291607857
+    },
+    {
+      "id": 62382,
+      "str": "Jackson",
+      "prob": 0.003197407117113471
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 44,
+    "bare_str": "M",
+    "lead_id": 10357,
+    "lead_str": " Mil"
+  },
+  "first_token_B": {
+    "bare_id": 41745,
+    "bare_str": "Luc",
+    "lead_id": 45170,
+    "lead_str": " Lucy"
+  }
+}

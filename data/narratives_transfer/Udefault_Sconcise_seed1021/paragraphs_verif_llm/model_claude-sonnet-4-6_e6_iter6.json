@@ -1,0 +1,13 @@
+[
+  false,
+  [
+    "content"
+  ],
+  {
+    "location": true,
+    "date": true,
+    "entity": true,
+    "content": false
+  },
+  "Here is my analysis of the text:\n\n(1) The text takes place at Twin Peaks, San Francisco - a single geographical location. True\n(2) The text takes place on May 11, 1865 - a single temporal day. True\n(3) The text has a single main character - Dmitri Cohen. True\n(4) The main event is discussing theater criticism after attending an evening performance - this involves at least two distinct events (attending a performance and then discussing criticism), so it is not a single main event. False\n\n```json\n{\n    \"1\": true,\n    \"2\": true,\n    \"3\": true,\n    \"4\": false\n}\n```"
+]

@@ -1,0 +1,75 @@
+{
+  "question_idx": 37,
+  "question": "Recall all events related to Educational Workshop that occurred at American Museum of Natural History. Provide a list of all dates when these events took place, without describing the events.",
+  "GT_entities": [
+    "October 30, 2026",
+    "October 13, 2024"
+  ],
+  "ent_A": "October 30, 2026",
+  "ent_B": "October 13, 2024",
+  "topk": 8,
+  "top_ids": [
+    29527,
+    31294,
+    30649,
+    29146,
+    11356,
+    33246,
+    28259,
+    33877
+  ],
+  "top_tokens": [
+    {
+      "id": 29527,
+      "str": "July",
+      "prob": 0.6922922730445862
+    },
+    {
+      "id": 31294,
+      "str": "October",
+      "prob": 0.18059523403644562
+    },
+    {
+      "id": 30649,
+      "str": "September",
+      "prob": 0.11843724548816681
+    },
+    {
+      "id": 29146,
+      "str": "April",
+      "prob": 0.005043665878474712
+    },
+    {
+      "id": 11356,
+      "str": "May",
+      "prob": 0.002169253770262003
+    },
+    {
+      "id": 33246,
+      "str": "December",
+      "prob": 0.0005072548519819975
+    },
+    {
+      "id": 28259,
+      "str": "June",
+      "prob": 0.0003828960470855236
+    },
+    {
+      "id": 33877,
+      "str": "February",
+      "prob": 0.00022509296832140535
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 31294,
+    "bare_str": "October",
+    "lead_id": 6664,
+    "lead_str": " October"
+  },
+  "first_token_B": {
+    "bare_id": 31294,
+    "bare_str": "October",
+    "lead_id": 6664,
+    "lead_str": " October"
+  }
+}

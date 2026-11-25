@@ -1,0 +1,12 @@
+{
+  "question_idx": 25,
+  "question": "Reflect on all events involving Maya Smith. Provide a list of all dates when these events occurred, without describing the events.",
+  "gt_entities": [
+    "November 13, 2026",
+    "September 22, 2026"
+  ],
+  "free_generation": "September 22, 2026, November 13, 2026.",
+  "missing_entities": [],
+  "is_binding_failure": false,
+  "forced_prefix_experiments": []
+}

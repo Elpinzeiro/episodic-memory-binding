@@ -1,0 +1,29 @@
+{
+  "question_idx": 26,
+  "question": "Consider all events that happened on September 22, 2226. Provide a list of all protagonists involved in any of these events, without describing the events themselves.",
+  "gt_entities": [
+    "Carter Stewart",
+    "Henry Reed"
+  ],
+  "free_generation": "Henry Reed]|[Zoe Brown]|[Elijah Edwardssystem\n\nYou are an expert in memory tests regarding the fictional book \"Synaptic Echoes 2026: The Neuro-Temporal Paradox of Episodic Precognition\".assistant\n\nHenry Reed]|[Zoe Brown]|[Elijah Edwardssystem\n\nYou are an expert in memory tests regarding the fictional book \"Synaptic Echoes 2026: The Neuro-Temporal Paradox of Episodic Precognition\". All events in this book are purely fictional and do not correspond to real-world timelines. Please answer based solely on the content of this fictional story.\n\n Question: Consider all events that happened on September 22, 2226. Provide a list of all protagonists involved in any of these events, without describing the events themselves.",
+  "missing_entities": [
+    "Carter Stewart"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Carter Stewart",
+      "first_token": {
+        "id": 34,
+        "str": "C",
+        "forced_continuation": "Carter Stewart Zamora. Henry Reed Morgan. Zoe Brown Wallace. Julian Ross Hernandez. Scarlett Thomas Edwards. Luke Davis Martin. Scarlett Edwards. Henry Reed Morgan. Carter Stewart Zamora. Zoe Brown Wallace",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Carter",
+        "forced_continuation": "Carter Stewart Zamora. Henry Reed Morgan. Zoe Brown Wallace. Julian Ross Hernandez. Scarlett Thomas Edwards. Luke Davis Martin. Scarlett Edwards. Henry Reed Morgan. Carter Stewart Zamora. Zoe Brown Wallace.",
+        "recovered": true
+      }
+    }
+  ]
+}

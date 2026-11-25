@@ -1,0 +1,13 @@
+[
+  false,
+  [
+    "content"
+  ],
+  {
+    "location": true,
+    "date": true,
+    "entity": true,
+    "content": false
+  },
+  "Here is my analysis of the text:\n\n(1) The text takes place at Fisherman's Wharf, which is a single geographical location. True\n(2) The text takes place on May 11, 1862, which is a single day. True\n(3) The text features Marco Tanaka as the main character, though fellow participants are mentioned. True\n(4) The main event is the educational workshop, but it includes a sub-event of discussing career implications with fellow participants. False\n\n```json\n{\n    \"1\": true,\n    \"2\": true,\n    \"3\": true,\n    \"4\": false\n}\n```"
+]

@@ -1,0 +1,12 @@
+{
+  "question_idx": 15,
+  "question": "Consider all events that happened on May 11, 2026. Provide a list of all protagonists involved in any of these events, without describing the events themselves.",
+  "gt_entities": [
+    "Scarlett Thomas",
+    "Levi Rodriguez"
+  ],
+  "free_generation": "Levi Rodriguez Mila Gonzalez Henry Brooks Samuel Parker Carter Lewis Scarlett Thomas Wallace Rodriguez Henry Ross Jackson Rodriguez Scarlett Ross Mila Gonzalez Scarlett Mila Gonzalez Scarlett Mila Gonzalez Scarlett Mila Gonzalez Scarlett Mila Gonzalez Scarlett Mila Gonzalez Scarlett Mila Gonzalez Scarlett Mila Gonzalez Scarlett Mila Gonzalez Scarlett Mila Gonzalez Scarlett Mila Gonzalez Scarlett Mila Gonzalez Scarlett Mila Gonzalez Scarlett Mila Gonzalez Scarlett Mila Gonzalez Scarlett Mila Gonzalez Scarlett Mila Gonzalez Scarlett Mila Gonzalez Scarlett Mila Gonzalez Scarlett Mila Gonzalez Scarlett Mila Gonzalez Scarlett Mila Gonzalez Scarlett Mila Gonzalez Scarlett Mila Gonzalez Scarlett Mila Gonzalez Scarlett Mila Gonzalez Scarlett Mila Gonzalez Scarlett Mila Gonzalez Scarlett Mila Gonzalez Scarlett Mila Gonzalez Scarlett Mila Gonzalez Scarlett Mila Gonzalez Scarlett Mila Gonzalez Scarlett Mila Gonzalez Scarlett Mila Gonzalez Scarlett Mila Gonzalez Scarlett Mila Gonzalez Scarlett Mila Gonzalez Scarlett Mila Gonzalez Scarlett Mila Gonzalez Scarlett Mila Gonzalez Scarlett Mila Gonzalez Scarlett Mila Gonzalez Scarlett Mila Gonzalez Scarlett Mila",
+  "missing_entities": [],
+  "is_binding_failure": false,
+  "forced_prefix_experiments": []
+}

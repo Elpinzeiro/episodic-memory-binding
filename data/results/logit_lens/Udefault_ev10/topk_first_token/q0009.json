@@ -1,0 +1,75 @@
+{
+  "question_idx": 9,
+  "question": "Recall all events related to Theater Performance that occurred at Washington Square Park. Provide a list of all dates when these events took place, without describing the events.",
+  "GT_entities": [
+    "May 11, 2026",
+    "June 14, 2025"
+  ],
+  "ent_A": "May 11, 2026",
+  "ent_B": "June 14, 2025",
+  "topk": 8,
+  "top_ids": [
+    33877,
+    11356,
+    7552,
+    30649,
+    28259,
+    41691,
+    28623,
+    31294
+  ],
+  "top_tokens": [
+    {
+      "id": 33877,
+      "str": "February",
+      "prob": 0.9015557765960693
+    },
+    {
+      "id": 11356,
+      "str": "May",
+      "prob": 0.09651967883110046
+    },
+    {
+      "id": 7552,
+      "str": " February",
+      "prob": 0.0010556132765486836
+    },
+    {
+      "id": 30649,
+      "str": "September",
+      "prob": 0.0006709886947646737
+    },
+    {
+      "id": 28259,
+      "str": "June",
+      "prob": 8.94005861482583e-05
+    },
+    {
+      "id": 41691,
+      "str": "Feb",
+      "prob": 3.340655530337244e-05
+    },
+    {
+      "id": 28623,
+      "str": "March",
+      "prob": 2.0581182980095036e-05
+    },
+    {
+      "id": 31294,
+      "str": "October",
+      "prob": 1.2679699466389138e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 11356,
+    "bare_str": "May",
+    "lead_id": 3297,
+    "lead_str": " May"
+  },
+  "first_token_B": {
+    "bare_id": 28259,
+    "bare_str": "June",
+    "lead_id": 5651,
+    "lead_str": " June"
+  }
+}

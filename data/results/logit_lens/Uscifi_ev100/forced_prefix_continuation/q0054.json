@@ -1,0 +1,29 @@
+{
+  "question_idx": 54,
+  "question": "Consider all events involving both Julian Ross and cryo-pod integrity breach at Mars Valles Industrial Hub. Provide a list of all dates when these events occurred, without describing the events.",
+  "gt_entities": [
+    "March 23, 2224",
+    "September 03, 2226"
+  ],
+  "free_generation": "September 03, 2226; September 14, 2226; September 17, 2226; September 21, 2226; September 30, 2226; October 13, 2226; October 31, 2226; November 16, 2226; December 11, 2226; January 06, 2227; January 11, 2227; January 28, 2227; February 25, 2227; March 04, 2227; March 24, 2227; April 18, 2227; May 02, 2227; May 20, 2227; June 14, 2227; July 04, 2227; July 16, 2227; July 29, 2227; August 11, 2227; August 25, 2227; September 14, 2227;",
+  "missing_entities": [
+    "March 23, 2224"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "March 23, 2224",
+      "first_token": {
+        "id": 28623,
+        "str": "March",
+        "forced_continuation": "March 23, 2225; March 28, 2225; April 09, 2225; April 13, 2225; April 27, 2225; May",
+        "recovered": false
+      },
+      "first_word": {
+        "str": "March",
+        "forced_continuation": "March 23, 2225; March 28, 2225; April 09, 2225; April 13, 2225; April 27, 2225; May",
+        "recovered": false
+      }
+    }
+  ]
+}

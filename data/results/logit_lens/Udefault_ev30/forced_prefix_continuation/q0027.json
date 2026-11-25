@@ -1,0 +1,29 @@
+{
+  "question_idx": 27,
+  "question": "Reflect on April 09, 2026. Describe all the key events that occurred on this date, focusing on what happened rather than who was involved or where it took place.",
+  "gt_entities": [
+    "Tech Hackathon",
+    "Astronomy Night"
+  ],
+  "free_generation": "Tech Hackathon Launches. Educational Workshop Begins. Educational Workshop Ends. Educational Workshop Ends. Tech Hackathon Ends. Night Sky Viewing. Night Sky Viewing. Night Sky Viewing. Night Sky Viewing. Night Sky Viewing. Night Sky Viewing. Tech Hackathon Awards. Educational Workshop Ends. Educational Workshop Ends. Educational Workshop Ends. Educational Workshop Ends. Educational Workshop Ends. Educational Workshop Ends. Educational Workshop Ends. Educational Workshop Ends. Educational Workshop Ends. Educational Workshop Ends. Educational Workshop Ends. Educational Workshop Ends. Educational Workshop Ends. Educational Workshop Ends. Educational Workshop Ends. Educational Workshop Ends. Educational Workshop Ends. Educational Workshop Ends. Educational Workshop Ends. Educational Workshop Ends. Educational Workshop Ends. Educational Workshop Ends. Educational Workshop Ends. Educational Workshop Ends. Educational Workshop Ends. Educational Workshop Ends. Educational Workshop Ends. Educational Workshop Ends. Educational Workshop Ends. Educational Workshop Ends. Educational Workshop Ends. Educational Workshop Ends. Educational Workshop Ends. Educational Workshop Ends. Educational Workshop Ends. Educational Workshop Ends. Educational Workshop Ends.",
+  "missing_entities": [
+    "Astronomy Night"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Astronomy Night",
+      "first_token": {
+        "id": 32,
+        "str": "A",
+        "forced_continuation": "Astronomy Night. Tech Hackathon. Educational Workshop. Announcement. Launch. Earth Day Events. All these events unfolded on April 09, 2026. Describe what happened rather than who was involved",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Astronomy",
+        "forced_continuation": "Astronomy Night. Tech Hackathon. Educational Workshop. Announcement. Launch. Earth Day Events. All these events unfolded on April 09, 2026. Describe what happened rather than who was involved or where",
+        "recovered": true
+      }
+    }
+  ]
+}

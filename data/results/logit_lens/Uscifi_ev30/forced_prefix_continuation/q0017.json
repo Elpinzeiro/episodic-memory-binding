@@ -1,0 +1,29 @@
+{
+  "question_idx": 17,
+  "question": "Consider all events involving Levi Rodriguez at Luna Shackleton Crater Colony. Provide a list of all dates when these events occurred, without describing the events.",
+  "gt_entities": [
+    "September 13, 2225",
+    "November 13, 2226"
+  ],
+  "free_generation": "November 13, 2226; November 15, 2226; November 22, 2226; December 03, 2226; December 06, 2226; December 25, 2226; January 28, 2227; February 11, 2227; February 24, 2227; March 06, 2227; March 23, 2227; April 02, 2227; April 28, 2227; May 18, 2227; June 01, 2227; June 14, 2227; July 14, 2227; July 22, 2227; July 25, 2227; July 31, 2227; August 13, 2227; September 09, 2227; September 14, 2227; September 22, 2227; October 03, 2227;",
+  "missing_entities": [
+    "September 13, 2225"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "September 13, 2225",
+      "first_token": {
+        "id": 30649,
+        "str": "September",
+        "forced_continuation": "September 13, 2225; September 14, 2225; September 16, 2225; October 22, 2225; November 19, 2225; December",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "September",
+        "forced_continuation": "September 13, 2225; September 14, 2225; September 16, 2225; October 22, 2225; November 19, 2225; December",
+        "recovered": true
+      }
+    }
+  ]
+}

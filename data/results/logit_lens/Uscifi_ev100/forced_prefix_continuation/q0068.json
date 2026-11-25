@@ -1,0 +1,44 @@
+{
+  "question_idx": 68,
+  "question": "Think about the events involving cryo-pod integrity breach on March 23, 2224. Provide a list of all protagonists involved in these events, without describing the events.",
+  "gt_entities": [
+    "Julian Ross",
+    "Henry Reed"
+  ],
+  "free_generation": "Levi Rodriguezassistant\n\nLucy Carter",
+  "missing_entities": [
+    "Julian Ross",
+    "Henry Reed"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Julian Ross",
+      "first_token": {
+        "id": 29185,
+        "str": "Jul",
+        "forced_continuation": "Julian Rosssystem\n\nYou are an expert in memory tests regarding the fictional book \"Synaptic Echoes 2026: The Neuro-Temporal Paradox of Episodic Precognition\".",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Julian",
+        "forced_continuation": "Julian Rosssystem\n\nYou are an expert in memory tests regarding the fictional book \"Synaptic Echoes 2026: The Neuro-Temporal Paradox of Episodic Precognition\".",
+        "recovered": true
+      }
+    },
+    {
+      "missing_entity": "Henry Reed",
+      "first_token": {
+        "id": 64463,
+        "str": "Henry",
+        "forced_continuation": "Henry Reedassistant\n\nLucy Carter",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Henry",
+        "forced_continuation": "Henry Reedassistant\n\nLucy Carter",
+        "recovered": true
+      }
+    }
+  ]
+}

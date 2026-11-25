@@ -1,0 +1,13 @@
+{
+  "prompt": "In which period did Rio Ferdinand play for England national association football team?",
+  "expected": "2010",
+  "response": "Rio Ferdinand played for the England national team from **1997 to 2011**.",
+  "evaluation": {
+    "id": 0,
+    "identified_items": [
+      "1997 to 2011"
+    ],
+    "correct": true,
+    "explanation": "Response includes 2010 within the specified period"
+  }
+}

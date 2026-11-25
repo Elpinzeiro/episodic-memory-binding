@@ -1,0 +1,29 @@
+{
+  "question_idx": 43,
+  "question": "Consider all events involving Scarlett Thomas at Luna Oceanus Trading Post. Provide a list of all dates when these events occurred, without describing the events.",
+  "gt_entities": [
+    "May 11, 2226",
+    "November 13, 2226"
+  ],
+  "free_generation": "May 11, 2226 and May 13, 2226;=<?=$system\n\nYou are an expert in memory tests regarding the fictional book \"Synaptic Echoes 2026: The Neuro-Temporal Paradox of Episodic Precognition\".",
+  "missing_entities": [
+    "November 13, 2226"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "November 13, 2226",
+      "first_token": {
+        "id": 34827,
+        "str": "November",
+        "forced_continuation": "November 13, 2226; December 19, 2226;...)\n... (insert dates here)...",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "November",
+        "forced_continuation": "November 13, 2226; December 19, 2226;...)\n... (insert dates here)...",
+        "recovered": true
+      }
+    }
+  ]
+}

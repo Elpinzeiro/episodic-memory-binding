@@ -1,0 +1,75 @@
+{
+  "question_idx": 38,
+  "question": "Recall the events related to fusion core breach that occurred on June 14, 2225. List all the locations where these events took place, without describing the events themselves.",
+  "GT_entities": [
+    "Mars Valles Industrial Hub",
+    "Triton Gas Colony"
+  ],
+  "ent_A": "Mars Valles Industrial Hub",
+  "ent_B": "Triton Gas Colony",
+  "topk": 8,
+  "top_ids": [
+    55218,
+    45,
+    43,
+    39600,
+    64469,
+    47,
+    31880,
+    39907
+  ],
+  "top_tokens": [
+    {
+      "id": 55218,
+      "str": "Eu",
+      "prob": 0.7431784868240356
+    },
+    {
+      "id": 45,
+      "str": "N",
+      "prob": 0.1938697099685669
+    },
+    {
+      "id": 43,
+      "str": "L",
+      "prob": 0.040007274597883224
+    },
+    {
+      "id": 39600,
+      "str": " Europa",
+      "prob": 0.012393674813210964
+    },
+    {
+      "id": 64469,
+      "str": "European",
+      "prob": 0.0062319315038621426
+    },
+    {
+      "id": 47,
+      "str": "P",
+      "prob": 0.0010496284812688828
+    },
+    {
+      "id": 31880,
+      "str": "Europe",
+      "prob": 0.0010015625739470124
+    },
+    {
+      "id": 39907,
+      "str": "EU",
+      "prob": 0.0002378919452894479
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 44,
+    "bare_str": "M",
+    "lead_id": 21725,
+    "lead_str": " Mars"
+  },
+  "first_token_B": {
+    "bare_id": 51,
+    "bare_str": "T",
+    "lead_id": 85283,
+    "lead_str": " Trit"
+  }
+}

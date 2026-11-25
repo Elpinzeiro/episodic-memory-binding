@@ -1,0 +1,29 @@
+{
+  "question_idx": 21,
+  "question": "Think about Noah Williams's experiences. Describe all the key events they've been involved in, focusing on what happened rather than when or where it occurred.",
+  "gt_entities": [
+    "flash flood emergency",
+    "residential tower fire"
+  ],
+  "free_generation": "residential tower fire magnitude 9.0 earthquake police force closure volcanic eruption magnitude 7.0 earthquake opera house flood.",
+  "missing_entities": [
+    "flash flood emergency"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "flash flood emergency",
+      "first_token": {
+        "id": 19824,
+        "str": "flash",
+        "forced_continuation": "flash flood emergency volcanic eruption factory explosion police corps arrival residential tower fire opera house blast.`system\n\nYou are an expert in memory tests regarding the fictional book \"Synaptic Echoes 2026:",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "flash",
+        "forced_continuation": "flash flood emergency volcanic eruption factory explosion police corps arrival residential tower fire opera house blast.`system\n\nYou are an expert in memory tests regarding the fictional book \"Synaptic Echoes 2026:",
+        "recovered": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "question_idx": 18,
+  "question": "Consider all events that Jackson Ramos has been involved in. List all the locations where these events took place, without mentioning the events themselves.",
+  "GT_entities": [
+    "Mars Valles Industrial Hub",
+    "Mercury Twilight Observatory"
+  ],
+  "ent_A": "Mars Valles Industrial Hub",
+  "ent_B": "Mercury Twilight Observatory",
+  "topk": 8,
+  "top_ids": [
+    27814,
+    44,
+    44662,
+    63230,
+    45368,
+    51852,
+    53196,
+    64167
+  ],
+  "top_tokens": [
+    {
+      "id": 27814,
+      "str": "Mer",
+      "prob": 0.9723625779151917
+    },
+    {
+      "id": 44,
+      "str": "M",
+      "prob": 0.023965224623680115
+    },
+    {
+      "id": 44662,
+      "str": " Mercury",
+      "prob": 0.0035068870056420565
+    },
+    {
+      "id": 63230,
+      "str": "Merc",
+      "prob": 0.00011272870324319229
+    },
+    {
+      "id": 45368,
+      "str": "MER",
+      "prob": 2.362921804888174e-05
+    },
+    {
+      "id": 51852,
+      "str": " mercury",
+      "prob": 1.0162800208490808e-05
+    },
+    {
+      "id": 53196,
+      "str": "Merge",
+      "prob": 6.984783794905525e-06
+    },
+    {
+      "id": 64167,
+      "str": "Merit",
+      "prob": 2.822107944666641e-06
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 44,
+    "bare_str": "M",
+    "lead_id": 21725,
+    "lead_str": " Mars"
+  },
+  "first_token_B": {
+    "bare_id": 27814,
+    "bare_str": "Mer",
+    "lead_id": 44662,
+    "lead_str": " Mercury"
+  }
+}

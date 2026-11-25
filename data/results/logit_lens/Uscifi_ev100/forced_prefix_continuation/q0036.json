@@ -1,0 +1,44 @@
+{
+  "question_idx": 36,
+  "question": "Recall all events related to plasma conduit rupture that occurred at Mercury Twilight Observatory. Provide a list of all dates when these events took place, without describing the events.",
+  "gt_entities": [
+    "May 11, 2226",
+    "January 03, 2226"
+  ],
+  "free_generation": "September 27, 2225",
+  "missing_entities": [
+    "May 11, 2226",
+    "January 03, 2226"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "May 11, 2226",
+      "first_token": {
+        "id": 11356,
+        "str": "May",
+        "forced_continuation": "May 11, 2226",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "May",
+        "forced_continuation": "May 11, 2226",
+        "recovered": true
+      }
+    },
+    {
+      "missing_entity": "January 03, 2226",
+      "first_token": {
+        "id": 33327,
+        "str": "January",
+        "forced_continuation": "January 03, 2226",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "January",
+        "forced_continuation": "January 03, 2226",
+        "recovered": true
+      }
+    }
+  ]
+}

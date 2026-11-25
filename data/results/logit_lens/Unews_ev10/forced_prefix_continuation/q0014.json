@@ -1,0 +1,29 @@
+{
+  "question_idx": 14,
+  "question": "Reflect on May 11, 2026. Describe all the key events that occurred on this date, focusing on what happened rather than who was involved or where it took place.",
+  "gt_entities": [
+    "bridge collapse",
+    "residential tower fire"
+  ],
+  "free_generation": "bridge collapse emergency rescue operation occurred.",
+  "missing_entities": [
+    "residential tower fire"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "residential tower fire",
+      "first_token": {
+        "id": 417,
+        "str": "res",
+        "forced_continuation": "residential tower fire volcanic eruption occurred.",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "residential",
+        "forced_continuation": "residential tower fire volcanic eruption occurred.",
+        "recovered": true
+      }
+    }
+  ]
+}

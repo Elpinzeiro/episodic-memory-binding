@@ -1,0 +1,75 @@
+{
+  "question_idx": 17,
+  "question": "Consider all events that Ezra Edwards has been involved in. List all the locations where these events took place, without mentioning the events themselves.",
+  "GT_entities": [
+    "Luna Shackleton Crater Colony",
+    "Phobos Military Base"
+  ],
+  "ent_A": "Luna Shackleton Crater Colony",
+  "ent_B": "Phobos Military Base",
+  "topk": 8,
+  "top_ids": [
+    3438,
+    43,
+    45,
+    47,
+    79925,
+    11079,
+    764,
+    51
+  ],
+  "top_tokens": [
+    {
+      "id": 3438,
+      "str": "Ph",
+      "prob": 0.9968855977058411
+    },
+    {
+      "id": 43,
+      "str": "L",
+      "prob": 0.002980634104460478
+    },
+    {
+      "id": 45,
+      "str": "N",
+      "prob": 7.698736590100452e-05
+    },
+    {
+      "id": 47,
+      "str": "P",
+      "prob": 3.994051439804025e-05
+    },
+    {
+      "id": 79925,
+      "str": "Phoenix",
+      "prob": 4.275992978364229e-06
+    },
+    {
+      "id": 11079,
+      "str": "PH",
+      "prob": 2.324816932741669e-06
+    },
+    {
+      "id": 764,
+      "str": "ph",
+      "prob": 1.6745028688092134e-06
+    },
+    {
+      "id": 51,
+      "str": "T",
+      "prob": 1.3455008911478217e-06
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 43,
+    "bare_str": "L",
+    "lead_id": 50905,
+    "lead_str": " Luna"
+  },
+  "first_token_B": {
+    "bare_id": 3438,
+    "bare_str": "Ph",
+    "lead_id": 2405,
+    "lead_str": " Ph"
+  }
+}

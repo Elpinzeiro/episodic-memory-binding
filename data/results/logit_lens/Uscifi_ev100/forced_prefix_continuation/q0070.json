@@ -1,0 +1,44 @@
+{
+  "question_idx": 70,
+  "question": "Recall the events related to plasma conduit rupture that occurred on July 13, 2224. List all the locations where these events took place, without describing the events themselves.",
+  "gt_entities": [
+    "Naiad Oceanographic Center",
+    "Barnard's Star Propulsion Lab"
+  ],
+  "free_generation": "TRAPPIST-1 Colony Network ||\nNaiad Oceanic Complex(||) || Luna Shackleton Crater Colony(||) || Mercury Twilight Observatory(||) || Luna Shackleton Crater Colony(||) || TRAPPIST-1 Colony Network || || Naiad Oceanic Complex(||) || Luna Shackleton Crater Colony(||) || Mercury Twilight Observatory(||) || Luna Shackleton Crater Colony(||) || TRAPPIST-1 Colony Network || || Naiad Oceanic Complex(||) || Luna Shackleton Crater Colony(||) || Mercury Twilight Observatory(||) || Luna Shackleton Crater Colony(||) || TRAPPIST-1 Colony Network || || Naiad Oceanic Complex(||) || Luna Shackleton Crater Colony(||) || Mercury Twilight Observatory(||) || Luna Shackleton Crater Colony(||) || TRAPPIST-1 Colony Network || || Naiad Oceanic Complex(||) || Luna Shackleton Crater Colony(||) || Mercury",
+  "missing_entities": [
+    "Naiad Oceanographic Center",
+    "Barnard's Star Propulsion Lab"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Naiad Oceanographic Center",
+      "first_token": {
+        "id": 45,
+        "str": "N",
+        "forced_continuation": "Naiad Oceanographic Center Triton Gas Colony Luna Shackleton Crater Colony",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Naiad",
+        "forced_continuation": "Naiad Oceanographic Center Triton Gas Colony Luna Shackleton Crater Colony",
+        "recovered": true
+      }
+    },
+    {
+      "missing_entity": "Barnard's Star Propulsion Lab",
+      "first_token": {
+        "id": 33,
+        "str": "B",
+        "forced_continuation": "Barnard's Star Propulsion Lab Triton Gas Colony  Triton Gas Colony Surgery Center",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Barnard's",
+        "forced_continuation": "Barnard's Star Propulsion Lab Triton Gas Colony  Triton Gas Colony Surgery Center",
+        "recovered": true
+      }
+    }
+  ]
+}

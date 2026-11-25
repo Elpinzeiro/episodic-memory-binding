@@ -1,0 +1,29 @@
+{
+  "question_idx": 32,
+  "question": "Reflect on September 22, 2026. Describe all the key events that occurred on this date, focusing on what happened rather than who was involved or where it took place.",
+  "gt_entities": [
+    "residential tower fire",
+    "bridge collapse"
+  ],
+  "free_generation": "flash flood emergency residential tower fire explosion at new south road factory blast zone residential tower firestorm emergency response system failure statewide lockdown police force deployment voluntary evacuation order mandatory curfew declared.",
+  "missing_entities": [
+    "bridge collapse"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "bridge collapse",
+      "first_token": {
+        "id": 14024,
+        "str": "bridge",
+        "forced_continuation": "bridge collapse volcanic eruption police force strike Zoe Edwards at hospital residential tower fire earthquake strike begins Henry Reed at home produce shortages emergency declarations flash flood emergency zone declared produce stockpiling begins widespread power outages start Zoe",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "bridge",
+        "forced_continuation": "bridge collapse volcanic eruption police force strike Zoe Edwards at hospital residential tower fire earthquake strike begins Henry Reed at home produce shortages emergency declarations flash flood emergency zone declared produce stockpiling begins widespread power outages start Zoe",
+        "recovered": true
+      }
+    }
+  ]
+}

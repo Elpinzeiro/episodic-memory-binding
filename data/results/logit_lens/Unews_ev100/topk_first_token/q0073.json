@@ -1,0 +1,75 @@
+{
+  "question_idx": 73,
+  "question": "Recall the events related to bridge collapse that occurred on June 14, 2025. List all the locations where these events took place, without describing the events themselves.",
+  "GT_entities": [
+    "Luzon Region",
+    "Rajasthan"
+  ],
+  "ent_A": "Luzon Region",
+  "ent_B": "Rajasthan",
+  "topk": 8,
+  "top_ids": [
+    49,
+    50302,
+    45459,
+    62080,
+    73262,
+    99725,
+    87440,
+    37103
+  ],
+  "top_tokens": [
+    {
+      "id": 49,
+      "str": "R",
+      "prob": 0.9997226595878601
+    },
+    {
+      "id": 50302,
+      "str": "Lu",
+      "prob": 0.0001376354048261419
+    },
+    {
+      "id": 45459,
+      "str": "Rom",
+      "prob": 5.063323624199256e-05
+    },
+    {
+      "id": 62080,
+      "str": "Roman",
+      "prob": 2.3181586584541947e-05
+    },
+    {
+      "id": 73262,
+      "str": "Rh",
+      "prob": 1.5442263247678056e-05
+    },
+    {
+      "id": 99725,
+      "str": "Ru",
+      "prob": 1.2408207112457603e-05
+    },
+    {
+      "id": 87440,
+      "str": " Rajasthan",
+      "prob": 1.1839994840556756e-05
+    },
+    {
+      "id": 37103,
+      "str": "RU",
+      "prob": 5.092318588140188e-06
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 43,
+    "bare_str": "L",
+    "lead_id": 82739,
+    "lead_str": " Luz"
+  },
+  "first_token_B": {
+    "bare_id": 49,
+    "bare_str": "R",
+    "lead_id": 87440,
+    "lead_str": " Rajasthan"
+  }
+}

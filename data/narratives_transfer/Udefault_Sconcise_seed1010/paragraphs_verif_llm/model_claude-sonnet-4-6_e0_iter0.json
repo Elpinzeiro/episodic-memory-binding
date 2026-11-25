@@ -1,0 +1,13 @@
+[
+  false,
+  [
+    "content"
+  ],
+  {
+    "location": true,
+    "date": true,
+    "entity": true,
+    "content": false
+  },
+  "I'll analyze the text carefully before answering each question.\n\n(1) Single geographical location? The text mentions \"Queensboro Bridge\" as the location. That is one specific place. → True\n\n(2) Single temporal day? The text mentions \"May 11, 1832\" as the date. That is one specific day. → True\n\n(3) Single main character? The text mentions \"Isaac Turner\" as the only character. → True\n\n(4) Single main event? The text mentions multiple activities: attending \"API workshops,\" \"coding,\" and participating in a \"hackathon.\" These are multiple events/activities happening. → False\n\n```json\n{\n    \"1\": true,\n    \"2\": true,\n    \"3\": true,\n    \"4\": false\n}\n```"
+]

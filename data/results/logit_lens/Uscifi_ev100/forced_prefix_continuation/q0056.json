@@ -1,0 +1,29 @@
+{
+  "question_idx": 56,
+  "question": "Recall all the events that occurred on December 26, 2226. Without describing the events, list all the unique locations where these events took place.",
+  "gt_entities": [
+    "Triton Gas Colony",
+    "Eridani Metallurgy Complex"
+  ],
+  "free_generation": "Triton Gas Colony Branch Stream; Europa Subsurface Laboratory; Naiad Oceanographic Center Laboratory; Earth Shadow Laboratory Network Server Halls; Luna Shackleton Crater Colony Market District; Mercury Twilight Observatory Control Room.",
+  "missing_entities": [
+    "Eridani Metallurgy Complex"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Eridani Metallurgy Complex",
+      "first_token": {
+        "id": 36,
+        "str": "E",
+        "forced_continuation": "Eridani Metallurgy Complex, Triton Gas Colony```",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Eridani",
+        "forced_continuation": "Eridani Metallurgy Complex, Triton Gas Colony```",
+        "recovered": true
+      }
+    }
+  ]
+}

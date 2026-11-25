@@ -1,0 +1,75 @@
+{
+  "question_idx": 12,
+  "question": "Consider all events involving both Carter Stewart and bridge collapse. Provide a list of all dates when these events occurred, without describing the events.",
+  "GT_entities": [
+    "February 27, 2026",
+    "October 30, 2026"
+  ],
+  "ent_A": "February 27, 2026",
+  "ent_B": "October 30, 2026",
+  "topk": 8,
+  "top_ids": [
+    28623,
+    30649,
+    29527,
+    33877,
+    28259,
+    31294,
+    11356,
+    33327
+  ],
+  "top_tokens": [
+    {
+      "id": 28623,
+      "str": "March",
+      "prob": 0.9821227788925171
+    },
+    {
+      "id": 30649,
+      "str": "September",
+      "prob": 0.01468154601752758
+    },
+    {
+      "id": 29527,
+      "str": "July",
+      "prob": 0.001224112813360989
+    },
+    {
+      "id": 33877,
+      "str": "February",
+      "prob": 0.0012051346711814404
+    },
+    {
+      "id": 28259,
+      "str": "June",
+      "prob": 0.0004297039704397321
+    },
+    {
+      "id": 31294,
+      "str": "October",
+      "prob": 0.00015562846965622157
+    },
+    {
+      "id": 11356,
+      "str": "May",
+      "prob": 9.738981316331774e-05
+    },
+    {
+      "id": 33327,
+      "str": "January",
+      "prob": 4.672814247896895e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 33877,
+    "bare_str": "February",
+    "lead_id": 7552,
+    "lead_str": " February"
+  },
+  "first_token_B": {
+    "bare_id": 31294,
+    "bare_str": "October",
+    "lead_id": 6664,
+    "lead_str": " October"
+  }
+}

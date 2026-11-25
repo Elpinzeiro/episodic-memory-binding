@@ -1,0 +1,14 @@
+[
+  false,
+  [
+    "date",
+    "content"
+  ],
+  {
+    "location": true,
+    "date": false,
+    "entity": true,
+    "content": false
+  },
+  "I'll analyze the text carefully for each question.\n\n(1) Single geographical location? The text mentions \"Pelham Bay Park\" as the location. The career fairs mentioned could be elsewhere, but the main setting appears to be Pelham Bay Park. However, the career fairs organized by Julian suggest activities potentially in other locations. I'll consider the main narrative takes place at one location.\n\n(2) Single temporal day? The text mentions February 27, 1838, for the astronomy night, but \"organized space career fairs\" suggests recurring/multiple events over time, not just a single day.\n\n(3) Single main character? Julian Murphy is the clear single main character throughout the text.\n\n(4) Single main event? The text mentions both an \"astronomy night\" and organizing \"space career fairs,\" which are two distinct types of events, suggesting multiple events.\n\n```json\n{\n    \"1\": true,\n    \"2\": false,\n    \"3\": true,\n    \"4\": false\n}\n```"
+]

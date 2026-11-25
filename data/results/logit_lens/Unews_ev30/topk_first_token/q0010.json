@@ -1,0 +1,75 @@
+{
+  "question_idx": 10,
+  "question": "Reflect on Henry Reed's experiences at Sichuan Province. Describe all the key events they've been involved in at this location, focusing on what happened rather than when it occurred.",
+  "GT_entities": [
+    "police force strike",
+    "volcanic eruption"
+  ],
+  "ent_A": "police force strike",
+  "ent_B": "volcanic eruption",
+  "topk": 8,
+  "top_ids": [
+    12821,
+    417,
+    10097,
+    19824,
+    67164,
+    2762,
+    37461,
+    40631
+  ],
+  "top_tokens": [
+    {
+      "id": 12821,
+      "str": "vol",
+      "prob": 0.5220609307289124
+    },
+    {
+      "id": 417,
+      "str": "res",
+      "prob": 0.3760264217853546
+    },
+    {
+      "id": 10097,
+      "str": "pol",
+      "prob": 0.08132141083478928
+    },
+    {
+      "id": 19824,
+      "str": "flash",
+      "prob": 0.013484412804245949
+    },
+    {
+      "id": 67164,
+      "str": " volcanic",
+      "prob": 0.0019124962855130434
+    },
+    {
+      "id": 2762,
+      "str": "resent",
+      "prob": 0.000531081052031368
+    },
+    {
+      "id": 37461,
+      "str": "Vol",
+      "prob": 0.0004989044973626733
+    },
+    {
+      "id": 40631,
+      "str": "resident",
+      "prob": 0.0003946659271605313
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 10097,
+    "bare_str": "pol",
+    "lead_id": 4379,
+    "lead_str": " police"
+  },
+  "first_token_B": {
+    "bare_id": 12821,
+    "bare_str": "vol",
+    "lead_id": 67164,
+    "lead_str": " volcanic"
+  }
+}

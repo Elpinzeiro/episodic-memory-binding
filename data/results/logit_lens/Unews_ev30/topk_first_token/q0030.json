@@ -1,0 +1,75 @@
+{
+  "question_idx": 30,
+  "question": "Reflect on April 09, 2026. Describe all the key events that occurred on this date, focusing on what happened rather than who was involved or where it took place.",
+  "GT_entities": [
+    "factory explosion",
+    "volcanic eruption"
+  ],
+  "ent_A": "factory explosion",
+  "ent_B": "volcanic eruption",
+  "topk": 8,
+  "top_ids": [
+    12821,
+    14024,
+    22348,
+    19824,
+    37461,
+    98374,
+    17367,
+    53
+  ],
+  "top_tokens": [
+    {
+      "id": 12821,
+      "str": "vol",
+      "prob": 0.48001402616500854
+    },
+    {
+      "id": 14024,
+      "str": "bridge",
+      "prob": 0.29572805762290955
+    },
+    {
+      "id": 22348,
+      "str": "factory",
+      "prob": 0.13752631843090057
+    },
+    {
+      "id": 19824,
+      "str": "flash",
+      "prob": 0.061987970024347305
+    },
+    {
+      "id": 37461,
+      "str": "Vol",
+      "prob": 0.0024798307567834854
+    },
+    {
+      "id": 98374,
+      "str": "produce",
+      "prob": 0.0021046048495918512
+    },
+    {
+      "id": 17367,
+      "str": " Factory",
+      "prob": 0.0008981351857073605
+    },
+    {
+      "id": 53,
+      "str": "V",
+      "prob": 0.0008113975054584444
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 22348,
+    "bare_str": "factory",
+    "lead_id": 8803,
+    "lead_str": " factory"
+  },
+  "first_token_B": {
+    "bare_id": 12821,
+    "bare_str": "vol",
+    "lead_id": 67164,
+    "lead_str": " volcanic"
+  }
+}

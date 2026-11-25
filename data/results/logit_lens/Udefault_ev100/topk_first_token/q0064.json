@@ -1,0 +1,75 @@
+{
+  "question_idx": 64,
+  "question": "Recall all the events that occurred on September 27, 2025. Without describing the events, list all the unique locations where these events took place.",
+  "GT_entities": [
+    "High Line",
+    "American Museum of Natural History"
+  ],
+  "ent_A": "High Line",
+  "ent_B": "American Museum of Natural History",
+  "topk": 8,
+  "top_ids": [
+    12243,
+    29518,
+    4054,
+    78818,
+    35773,
+    92703,
+    48664,
+    66761
+  ],
+  "top_tokens": [
+    {
+      "id": 12243,
+      "str": "High",
+      "prob": 0.7360320091247559
+    },
+    {
+      "id": 29518,
+      "str": "American",
+      "prob": 0.1495339721441269
+    },
+    {
+      "id": 4054,
+      "str": "One",
+      "prob": 0.11287416517734528
+    },
+    {
+      "id": 78818,
+      "str": "american",
+      "prob": 0.00044016685569658875
+    },
+    {
+      "id": 35773,
+      "str": "Met",
+      "prob": 0.00026697470457293093
+    },
+    {
+      "id": 92703,
+      "str": "Beth",
+      "prob": 0.00010619518434396014
+    },
+    {
+      "id": 48664,
+      "str": "Indian",
+      "prob": 7.413619459839538e-05
+    },
+    {
+      "id": 66761,
+      "str": "Metal",
+      "prob": 5.257043449091725e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 12243,
+    "bare_str": "High",
+    "lead_id": 5234,
+    "lead_str": " High"
+  },
+  "first_token_B": {
+    "bare_id": 29518,
+    "bare_str": "American",
+    "lead_id": 3778,
+    "lead_str": " American"
+  }
+}

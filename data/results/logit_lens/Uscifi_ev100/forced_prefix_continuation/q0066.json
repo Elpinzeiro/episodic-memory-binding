@@ -1,0 +1,12 @@
+{
+  "question_idx": 66,
+  "question": "Think about the events involving cryo-pod integrity breach on July 31, 2225. Provide a list of all protagonists involved in these events, without describing the events.",
+  "gt_entities": [
+    "Lucy Carter",
+    "Henry Reed"
+  ],
+  "free_generation": "Henry Reedassistant\n\nLucy Carter",
+  "missing_entities": [],
+  "is_binding_failure": false,
+  "forced_prefix_experiments": []
+}

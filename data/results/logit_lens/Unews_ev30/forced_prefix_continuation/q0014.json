@@ -1,0 +1,44 @@
+{
+  "question_idx": 14,
+  "question": "Consider all events involving Henry Reed at Sichuan Province. Provide a list of all dates when these events occurred, without describing the events.",
+  "gt_entities": [
+    "April 09, 2026",
+    "September 13, 2025"
+  ],
+  "free_generation": "November 13, 2026: September 27, 2026: November 19, 2026: September 22, 2026: November 22, 2026: September 18, 2026: September 20, 2026: November 20, 2026: September 25, 2026: November 25, 2026: September 24, 2026: November 18, 2026: September 28, 2026: November 17, 2026: September 23, 2026: November 16, 2026: September 26, 2026: November 15, 2026: September 21, 2026: November 14, 2026: September 19, 2026: November 24, 2026: September 29, 2026: November 21, 2026: September 30, 2026:",
+  "missing_entities": [
+    "April 09, 2026",
+    "September 13, 2025"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "April 09, 2026",
+      "first_token": {
+        "id": 29146,
+        "str": "April",
+        "forced_continuation": "April 09, 2026: November 13, 2026: November 22, 2026: September 25, 2026:",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "April",
+        "forced_continuation": "April 09, 2026: November 13, 2026: November 22, 2026: September 25, 2026:",
+        "recovered": true
+      }
+    },
+    {
+      "missing_entity": "September 13, 2025",
+      "first_token": {
+        "id": 30649,
+        "str": "September",
+        "forced_continuation": "September 13, 2024: November 27, 2026: November 28, 2026: November 30, 2026: December 22, 2026: February",
+        "recovered": false
+      },
+      "first_word": {
+        "str": "September",
+        "forced_continuation": "September 13, 2024: November 27, 2026: November 28, 2026: November 30, 2026: December 22, 2026: February",
+        "recovered": false
+      }
+    }
+  ]
+}

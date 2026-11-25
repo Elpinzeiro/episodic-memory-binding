@@ -1,0 +1,12 @@
+{
+  "question_idx": 10,
+  "question": "Reflect on Henry Reed's experiences at Sichuan Province. Describe all the key events they've been involved in at this location, focusing on what happened rather than when it occurred.",
+  "gt_entities": [
+    "police force strike",
+    "volcanic eruption"
+  ],
+  "free_generation": "volcanic eruption, residential tower collapse, police force strike, and factory explosion.</assistant\n\n9:45 bridge collapse and produce contamination.</assistant\n\nresidential tower collapse and produce contamination.</assistant\n\nfactory explosion.</assistant\n\nvolcanic eruption.</assistant\n\npolice force strike.</assistant\n\nbridge collapse.</assistant\n\nproduce contamination.</assistant\n\nresidential tower collapse.</assistant\n\nvolcanic eruption and factory explosion.</assistant\n\npolice force strike and bridge collapse.</assistant\n\nprotest march.</assistant\n\nresidential tower collapse.</assistant\n\nproduce contamination.</assistant\n\nfactory explosion and volcanic eruption.</assistant\n\npolice force strike and bridge collapse.</assistant\n\nresidential tower collapse and produce contamination.</assistant\n\nvolcanic eruption and factory explosion.</assistant\n\nresidential tower collapse and produce contamination.</assistant\n\npolice force strike and bridge collapse.</assistant\n\nfactory explosion and volcanic eruption.</assistant",
+  "missing_entities": [],
+  "is_binding_failure": false,
+  "forced_prefix_experiments": []
+}

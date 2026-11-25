@@ -1,0 +1,75 @@
+{
+  "question_idx": 59,
+  "question": "Consider all events that happened on December 26, 2226. Provide a list of all protagonists involved in any of these events, without describing the events themselves.",
+  "GT_entities": [
+    "Samuel Parker",
+    "Levi Rodriguez"
+  ],
+  "ent_A": "Samuel Parker",
+  "ent_B": "Levi Rodriguez",
+  "topk": 8,
+  "top_ids": [
+    2356,
+    24903,
+    44,
+    64463,
+    96056,
+    73004,
+    57,
+    41745
+  ],
+  "top_tokens": [
+    {
+      "id": 2356,
+      "str": "Le",
+      "prob": 0.9812760353088379
+    },
+    {
+      "id": 24903,
+      "str": "Sam",
+      "prob": 0.010081769898533821
+    },
+    {
+      "id": 44,
+      "str": "M",
+      "prob": 0.004268889781087637
+    },
+    {
+      "id": 64463,
+      "str": "Henry",
+      "prob": 0.0016717214602977037
+    },
+    {
+      "id": 96056,
+      "str": "Scar",
+      "prob": 0.001223057508468628
+    },
+    {
+      "id": 73004,
+      "str": "Leon",
+      "prob": 0.0007653698557987809
+    },
+    {
+      "id": 57,
+      "str": "Z",
+      "prob": 0.00032918143551796675
+    },
+    {
+      "id": 41745,
+      "str": "Luc",
+      "prob": 7.697525870753452e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 24903,
+    "bare_str": "Sam",
+    "lead_id": 33007,
+    "lead_str": " Samuel"
+  },
+  "first_token_B": {
+    "bare_id": 2356,
+    "bare_str": "Le",
+    "lead_id": 56141,
+    "lead_str": " Levi"
+  }
+}

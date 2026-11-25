@@ -1,0 +1,13 @@
+[
+  false,
+  [
+    "entity"
+  ],
+  {
+    "location": true,
+    "date": true,
+    "entity": false,
+    "content": true
+  },
+  "Here is my analysis of the text:\n\n(1) The text takes place entirely at Washington Square Park - a single geographical location. True\n(2) The text takes place on February 27, 2029 - a single day. True\n(3) The text mentions \"James Moore\" and \"James\" - it's ambiguous whether these are the same person or two different people. Given the phrasing \"James Moore watched intently as James explained,\" these appear to be two distinct characters, making it unclear who the single main character is. False\n(4) The text describes a single main event: a presentation/demonstration about prop design to an audience. True\n\n```json\n{\n    \"1\": true,\n    \"2\": true,\n    \"3\": false,\n    \"4\": true\n}\n```"
+]

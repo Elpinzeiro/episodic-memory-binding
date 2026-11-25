@@ -1,0 +1,12 @@
+{
+  "question_idx": 11,
+  "question": "Think about the events involving fusion core breach at Luna Oceanus Trading Post. List all protagonists involved in these events, without mentioning the events themselves.",
+  "gt_entities": [
+    "Carter Stewart",
+    "Scarlett Thomas"
+  ],
+  "free_generation": "Carter Stewart; Zoe Brown; Jackson Ross; Julian Ross; Scarlett Thomas; Ethan Rodriguez; Brooklyn Pierce; Samuel Parker; Mila Rodriguez; Julian Ross; Zoe Brown; Carter Stewart; Scarlett Thomas; Brooklyn Pierce; Samuel Parker; Ethan Rodriguez; Zoe Brown; Carter Stewart; Scarlett Thomas; Brooklyn Pierce; Samuel Parker; Ethan Rodriguez; Carter Stewart; Zoe Brown; Brooklyn Pierce; Samuel Parker; Ethan Rodriguez; Carter Stewart; Zoe Brown; Brooklyn Pierce; Samuel Parker; Ethan Rodriguez; Carter Stewart; Zoe Brown; Brooklyn Pierce; Samuel Parker; Ethan Rodriguez; Carter Stewart; Zoe Brown; Brooklyn Pierce; Samuel Parker; Ethan Rodriguez; Carter Stewart; Zoe Brown; Brooklyn Pierce; Samuel Parker; Ethan Rodriguez; Carter Stewart; Zoe Brown; Brooklyn Pierce; Samuel Parker; Ethan Rodriguez; Carter Stewart; Zoe Brown; Brooklyn Pierce; Samuel Parker; Ethan Rodriguez; Carter Stewart; Zoe Brown; Brooklyn Pierce; Samuel Parker; Ethan Rodriguez; Carter Stewart; Zoe Brown; Brooklyn Pierce; Samuel Parker;",
+  "missing_entities": [],
+  "is_binding_failure": false,
+  "forced_prefix_experiments": []
+}

@@ -1,0 +1,29 @@
+{
+  "question_idx": 25,
+  "question": "Recall all the events that occurred on September 13, 2025. Without describing the events, list all the unique locations where these events took place.",
+  "gt_entities": [
+    "Sichuan Province",
+    "Rajasthan"
+  ],
+  "free_generation": "Luang Prabang Province North Dakota Rajasthan Province Zoe Bradley Bridge New Mumbai Province Luang Prabang City Zoe's Factory Bridge of Roses Province Bridge of Roses City Zoe's Factory City New Mumbai City Zoe Province North Dakota Province Luang Prabang Province Rajasthan Province Zoe's Factory Province Zoe Province North Dakota Province Luang Prabang Province Rajasthan Province Zoe's Factory Province Zoe Province North Dakota Province Luang Prabang Province Rajasthan Province Zoe's Factory Province Zoe Province North Dakota Province Luang Prabang Province Rajasthan Province Zoe's Factory Province Zoe Province North Dakota Province Luang Prabang Province Rajasthan Province Zoe's Factory Province Zoe Province North Dakota Province Luang Prabang Province Rajasthan Province Zoe's Factory Province Zoe Province North Dakota Province Luang Prabang Province Rajasthan Province Zoe's Factory Province Zoe Province North Dakota Province Luang Prabang Province Rajasthan Province Zoe's Factory Province Zoe Province North Dakota Province Luang Prabang Province Rajasthan Province Zoe's Factory Province Zoe Province North Dakota Province Luang",
+  "missing_entities": [
+    "Sichuan Province"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Sichuan Province",
+      "first_token": {
+        "id": 50,
+        "str": "S",
+        "forced_continuation": "Sichuan Province, North Dakota, Luang Prabang Province.",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Sichuan",
+        "forced_continuation": "Sichuan Province, North Dakota, Luang Prabang Province.",
+        "recovered": true
+      }
+    }
+  ]
+}

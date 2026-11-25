@@ -1,0 +1,75 @@
+{
+  "question_idx": 1,
+  "question": "Reflect on events related to Karaoke Night. Provide a list of all protagonists involved in these events, without describing the events.",
+  "GT_entities": [
+    "Mila Gonzalez",
+    "Levi Rodriguez"
+  ],
+  "ent_A": "Mila Gonzalez",
+  "ent_B": "Levi Rodriguez",
+  "topk": 8,
+  "top_ids": [
+    44,
+    24903,
+    64463,
+    86792,
+    41745,
+    76637,
+    62328,
+    57
+  ],
+  "top_tokens": [
+    {
+      "id": 44,
+      "str": "M",
+      "prob": 0.811374306678772
+    },
+    {
+      "id": 24903,
+      "str": "Sam",
+      "prob": 0.09690484404563904
+    },
+    {
+      "id": 64463,
+      "str": "Henry",
+      "prob": 0.0882328599691391
+    },
+    {
+      "id": 86792,
+      "str": "Zen",
+      "prob": 0.0016414901474490762
+    },
+    {
+      "id": 41745,
+      "str": "Luc",
+      "prob": 0.0005329138366505504
+    },
+    {
+      "id": 76637,
+      "str": "Elizabeth",
+      "prob": 0.00020545657025650144
+    },
+    {
+      "id": 62328,
+      "str": "SZ",
+      "prob": 0.00012078168947482482
+    },
+    {
+      "id": 57,
+      "str": "Z",
+      "prob": 0.00011706562509061769
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 44,
+    "bare_str": "M",
+    "lead_id": 10357,
+    "lead_str": " Mil"
+  },
+  "first_token_B": {
+    "bare_id": 2356,
+    "bare_str": "Le",
+    "lead_id": 56141,
+    "lead_str": " Levi"
+  }
+}

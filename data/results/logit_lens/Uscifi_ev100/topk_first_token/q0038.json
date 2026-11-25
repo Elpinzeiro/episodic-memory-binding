@@ -1,0 +1,75 @@
+{
+  "question_idx": 38,
+  "question": "Think about the events involving fusion core breach at Europa Subsurface Laboratory. List all protagonists involved in these events, without mentioning the events themselves.",
+  "GT_entities": [
+    "Scarlett Thomas",
+    "Henry Reed"
+  ],
+  "ent_A": "Scarlett Thomas",
+  "ent_B": "Henry Reed",
+  "topk": 8,
+  "top_ids": [
+    2356,
+    27368,
+    64463,
+    96056,
+    73004,
+    56141,
+    86511,
+    53487
+  ],
+  "top_tokens": [
+    {
+      "id": 2356,
+      "str": "Le",
+      "prob": 0.9713838696479797
+    },
+    {
+      "id": 27368,
+      "str": "Bro",
+      "prob": 0.018938971683382988
+    },
+    {
+      "id": 64463,
+      "str": "Henry",
+      "prob": 0.004498400259763002
+    },
+    {
+      "id": 96056,
+      "str": "Scar",
+      "prob": 0.003908277489244938
+    },
+    {
+      "id": 73004,
+      "str": "Leon",
+      "prob": 0.00023471031454391778
+    },
+    {
+      "id": 56141,
+      "str": " Levi",
+      "prob": 0.00021039294369984418
+    },
+    {
+      "id": 86511,
+      "str": "LEV",
+      "prob": 0.0001256313844351098
+    },
+    {
+      "id": 53487,
+      "str": "Leaks",
+      "prob": 9.336131188319996e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 96056,
+    "bare_str": "Scar",
+    "lead_id": 96572,
+    "lead_str": " Scarlett"
+  },
+  "first_token_B": {
+    "bare_id": 64463,
+    "bare_str": "Henry",
+    "lead_id": 18063,
+    "lead_str": " Henry"
+  }
+}

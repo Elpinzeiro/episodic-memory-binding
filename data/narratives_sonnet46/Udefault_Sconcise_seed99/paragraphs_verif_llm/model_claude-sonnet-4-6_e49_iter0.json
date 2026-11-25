@@ -1,0 +1,13 @@
+[
+  false,
+  [
+    "content"
+  ],
+  {
+    "location": true,
+    "date": true,
+    "entity": true,
+    "content": false
+  },
+  "```json\n{\n    \"1\": true,\n    \"2\": true,\n    \"3\": true,\n    \"4\": false\n}\n```\n\nReasoning:\n(1) True – The entire text takes place at Queensboro Bridge, a single geographical location.\n(2) True – The event takes place on a single day: September 13, 2025.\n(3) True – Julian Ross is the single main character referenced throughout.\n(4) False – There are two distinct events described: (1) attending a classical concert, and (2) demonstrating composition techniques to the audience. These are separate events occurring at the same location and day."
+]

@@ -1,0 +1,75 @@
+{
+  "question_idx": 27,
+  "question": "Consider all events that happened on April 09, 2026. Provide a list of all protagonists involved in any of these events, without describing the events themselves.",
+  "GT_entities": [
+    "Scarlett Thomas",
+    "Henry Reed"
+  ],
+  "ent_A": "Scarlett Thomas",
+  "ent_B": "Henry Reed",
+  "topk": 8,
+  "top_ids": [
+    64463,
+    29185,
+    96056,
+    24903,
+    11356,
+    18063,
+    44,
+    36
+  ],
+  "top_tokens": [
+    {
+      "id": 64463,
+      "str": "Henry",
+      "prob": 0.8432945609092712
+    },
+    {
+      "id": 29185,
+      "str": "Jul",
+      "prob": 0.14885033667087555
+    },
+    {
+      "id": 96056,
+      "str": "Scar",
+      "prob": 0.0034463522024452686
+    },
+    {
+      "id": 24903,
+      "str": "Sam",
+      "prob": 0.002601443324238062
+    },
+    {
+      "id": 11356,
+      "str": "May",
+      "prob": 0.0006276274216361344
+    },
+    {
+      "id": 18063,
+      "str": " Henry",
+      "prob": 0.00033594470005482435
+    },
+    {
+      "id": 44,
+      "str": "M",
+      "prob": 0.00030113887623883784
+    },
+    {
+      "id": 36,
+      "str": "E",
+      "prob": 0.00020060174574609846
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 96056,
+    "bare_str": "Scar",
+    "lead_id": 96572,
+    "lead_str": " Scarlett"
+  },
+  "first_token_B": {
+    "bare_id": 64463,
+    "bare_str": "Henry",
+    "lead_id": 18063,
+    "lead_str": " Henry"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "question_idx": 19,
+  "question": "Consider all events involving Henry Reed at Naiad Oceanographic Center. Provide a list of all dates when these events occurred, without describing the events.",
+  "gt_entities": [
+    "April 09, 2226",
+    "September 13, 2225"
+  ],
+  "free_generation": "September 13, 2225; November 11, 2225; November 15, 2225; November 22, 2225; November 23, 2225; November 25, 2225; November 26, 2225; November 27, 2225; November 28, 2225; November 29, 2225; November 30, 2225; December 01, 2225; December 02, 2225; December 03, 2225; December 04, 2225; December 05, 2225; December 06, 2225; December 07, 2225; December 08, 2225; December 09, 2225; December 10, 2225; December 11, 2225; December 12, 2225; December 13, 2225; December 14, 2225;",
+  "missing_entities": [
+    "April 09, 2226"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "April 09, 2226",
+      "first_token": {
+        "id": 29146,
+        "str": "April",
+        "forced_continuation": "April 09, 2226 and July 13, 2226;",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "April",
+        "forced_continuation": "April 09, 2226 and July 13, 2226;",
+        "recovered": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "question_idx": 26,
+  "question": "Recall all the events that occurred on September 22, 2026. Without describing the events, list all the unique locations where these events took place.",
+  "gt_entities": [
+    "American Museum of Natural History",
+    "Metropolitan Museum of Art"
+  ],
+  "free_generation": "Metropolitan Museum of Art High Line Statue of Liberty Columbus Circle Trinity Church",
+  "missing_entities": [
+    "American Museum of Natural History"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "American Museum of Natural History",
+      "first_token": {
+        "id": 29518,
+        "str": "American",
+        "forced_continuation": "American Museum of Natural History High Line Statue of Liberty Washington Square Park Yale University Campus Zacchi's Pizzeria Trinity Church Wall Street High Line Elevated Rail Yard One World Trade Center Observatory Deck Metropolitan Museum of Art",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "American",
+        "forced_continuation": "American Museum of Natural History High Line Statue of Liberty Washington Square Park Yale University Campus Zacchi's Pizzeria Trinity Church Wall Street High Line Elevated Rail Yard One World Trade Center Observatory Deck Metropolitan Museum of Art",
+        "recovered": true
+      }
+    }
+  ]
+}

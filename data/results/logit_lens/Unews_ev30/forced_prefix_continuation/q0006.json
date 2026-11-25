@@ -1,0 +1,44 @@
+{
+  "question_idx": 6,
+  "question": "Consider all events involving both Henry Reed and flash flood emergency. Provide a list of all dates when these events occurred, without describing the events.",
+  "gt_entities": [
+    "September 03, 2026",
+    "June 14, 2025"
+  ],
+  "free_generation": "May 11, 2026, March 23, 2026, April 28, 2026, May 31, 2026, June 26, 2026, July 18, 2026, September 27, 2026, November 22, 2026, December 06, 2026, January 07, 2026, February 24, 2026, March 31, 2026, April 14, 2026, May 25, 2026, June 19, 2026, July 13, 2026, September 02, 2026, October 29, 2026, November 16, 2026, December 21, 2026.",
+  "missing_entities": [
+    "September 03, 2026",
+    "June 14, 2025"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "September 03, 2026",
+      "first_token": {
+        "id": 30649,
+        "str": "September",
+        "forced_continuation": "September 13, 2025, May 11, 2026.",
+        "recovered": false
+      },
+      "first_word": {
+        "str": "September",
+        "forced_continuation": "September 13, 2025, May 11, 2026.",
+        "recovered": false
+      }
+    },
+    {
+      "missing_entity": "June 14, 2025",
+      "first_token": {
+        "id": 28259,
+        "str": "June",
+        "forced_continuation": "June 14, 2025, May 11, 2026.",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "June",
+        "forced_continuation": "June 14, 2025, May 11, 2026.",
+        "recovered": true
+      }
+    }
+  ]
+}

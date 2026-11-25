@@ -1,0 +1,29 @@
+{
+  "question_idx": 44,
+  "question": "Reflect on Samuel Parker's experiences at High Line. Describe all the key events they've been involved in at this location, focusing on what happened rather than when it occurred.",
+  "gt_entities": [
+    "Tech Hackathon",
+    "Educational Workshop"
+  ],
+  "free_generation": "Tech Hackathon took place at High Line. Excitement buzzed as participants coded passionately. Innovative solutions emerged. Judges reviewed submissions carefully. Winners were announced proudly.",
+  "missing_entities": [
+    "Educational Workshop"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Educational Workshop",
+      "first_token": {
+        "id": 98982,
+        "str": "Educ",
+        "forced_continuation": "Educational Workshop followed by Scientific Conference were held at High Line involving Samuel Parker.",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Educational",
+        "forced_continuation": "Educational Workshop followed by Scientific Conference were held at High Line involving Samuel Parker.",
+        "recovered": true
+      }
+    }
+  ]
+}

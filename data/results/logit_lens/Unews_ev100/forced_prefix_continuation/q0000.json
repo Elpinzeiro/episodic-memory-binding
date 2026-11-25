@@ -1,0 +1,29 @@
+{
+  "question_idx": 0,
+  "question": "Recall all events related to nuclear plant meltdown. Provide a list of all dates when these events occurred, without describing the events.",
+  "gt_entities": [
+    "May 11, 2026",
+    "May 28, 2025"
+  ],
+  "free_generation": "May 28, 2025 and September 13, 2025.",
+  "missing_entities": [
+    "May 11, 2026"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "May 11, 2026",
+      "first_token": {
+        "id": 11356,
+        "str": "May",
+        "forced_continuation": "May 28, 2025 and September 13, 2025.",
+        "recovered": false
+      },
+      "first_word": {
+        "str": "May",
+        "forced_continuation": "May 28, 2025 and September 13, 2025.",
+        "recovered": false
+      }
+    }
+  ]
+}

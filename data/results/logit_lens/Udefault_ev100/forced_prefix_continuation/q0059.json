@@ -1,0 +1,29 @@
+{
+  "question_idx": 59,
+  "question": "Reflect on December 26, 2026. Describe all the key events that occurred on this date, focusing on what happened rather than who was involved or where it took place.",
+  "gt_entities": [
+    "Tech Hackathon",
+    "Fire Dancing Performance"
+  ],
+  "free_generation": "Tech Hackathon launched. Fire Safety Drill occurred. Homeward Bound movie night took place. And Scientific Conference concluded. These events marked December 26, 2026's significance.",
+  "missing_entities": [
+    "Fire Dancing Performance"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Fire Dancing Performance",
+      "first_token": {
+        "id": 17111,
+        "str": "Fire",
+        "forced_continuation": "Fire Dancing Performance concluded on December 26, 2026. Tech Hackathon launched. Fashion Show took place. Star Party observed the night sky.",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Fire",
+        "forced_continuation": "Fire Dancing Performance concluded on December 26, 2026. Tech Hackathon launched. Fashion Show took place. Star Party observed the night sky.",
+        "recovered": true
+      }
+    }
+  ]
+}

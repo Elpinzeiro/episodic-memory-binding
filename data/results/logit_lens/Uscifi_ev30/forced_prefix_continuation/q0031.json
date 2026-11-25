@@ -1,0 +1,29 @@
+{
+  "question_idx": 31,
+  "question": "Reflect on September 13, 2225. Describe all the key events that occurred on this date, focusing on what happened rather than who was involved or where it took place.",
+  "gt_entities": [
+    "matter synthesizer overload",
+    "cryo-pod integrity breach"
+  ],
+  "free_generation": "matter synthesizer overload; Brooklyn Tower collapse; systemic failure.",
+  "missing_entities": [
+    "cryo-pod integrity breach"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "cryo-pod integrity breach",
+      "first_token": {
+        "id": 62238,
+        "str": "cry",
+        "forced_continuation": "cryo-pod integrity breach and plasma conduit rupture at Luna Oceanus Trading Post; antimatter cascade at Triton Subsurface Laboratory.",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "cryo-pod",
+        "forced_continuation": "cryo-pod integrity breach and plasma conduit rupture at Luna Oceanus Trading Post; antimatter cascade at Triton Subsurface Laboratory.",
+        "recovered": true
+      }
+    }
+  ]
+}

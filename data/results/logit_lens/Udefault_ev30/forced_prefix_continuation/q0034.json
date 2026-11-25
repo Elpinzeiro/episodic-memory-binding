@@ -1,0 +1,44 @@
+{
+  "question_idx": 34,
+  "question": "Think about the events involving Fashion Show on June 14, 2025. Provide a list of all protagonists involved in these events, without describing the events.",
+  "gt_entities": [
+    "Brooklyn Ross",
+    "Carter Stewart"
+  ],
+  "free_generation": "Mila Gonzalez Samuel Parker Henry Reed Lauren Edwards Zoe Brown Quentin Ross Carmen Ross Edward Kim Mark Davis Tony Lewis Kate Lewis James Ross Emma Brown Henry Reed Carter White Sam Roberts Zoe Edwards Mila Ross Carter Lewis Mark Ross Carter Parker Zoe Davis Mila Edwards Carter Brown Carter Kim Carter Ross Carter Parker Carter Edwards Carter Davis Carter Brown Carter Kim Carter Ross Carter Parker Carter Edwards Carter Davis Carter Brown Carter Kim Carter Ross Carter Parker Carter Edwards Carter Davis Carter Brown Carter Kim Carter Ross Carter Parker Carter Edwards Carter Davis Carter Brown Carter Kim Carter Ross Carter Parker Carter Edwards Carter Davis Carter Brown Carter Kim Carter Ross Carter Parker Carter Edwards Carter Davis Carter Brown Carter Kim Carter Ross Carter Parker Carter Edwards Carter Davis Carter Brown Carter Kim Carter Ross Carter Parker Carter Edwards Carter Davis Carter Brown Carter Kim Carter Ross Carter Parker Carter Edwards Carter Davis Carter Brown Carter Kim Carter Ross Carter Parker Carter Edwards Carter Davis Carter Brown Carter Kim Carter Ross Carter Parker Carter Edwards Carter Davis Carter Brown Carter Kim Carter Ross Carter Parker Carter Edwards Carter Davis Carter Brown Carter Kim Carter Ross Carter",
+  "missing_entities": [
+    "Brooklyn Ross",
+    "Carter Stewart"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Brooklyn Ross",
+      "first_token": {
+        "id": 27368,
+        "str": "Bro",
+        "forced_continuation": "Brooklyn Ross Essex Murray Taylor Quinn Henry Ross Jr. Scarlett Thomas Jr. Mila Washington Henry Ross Sr. Carter Scarlett Ross Sr. Zoe Washington Ross Ross Scarlett Ross Sr. Carter Ross Ross Scarlett Ross Sr",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Brooklyn",
+        "forced_continuation": "Brooklyn Ross Essex Murray Taylor Quinn Henry Ross Jr. Scarlett Thomas Jr. Mila Washington Henry Ross Sr. Carter Scarlett Ross Sr. Zoe Washington Ross Ross Scarlett Ross Sr. Carter Ross Ross Scarlett Ross Sr.",
+        "recovered": true
+      }
+    },
+    {
+      "missing_entity": "Carter Stewart",
+      "first_token": {
+        "id": 34,
+        "str": "C",
+        "forced_continuation": "Carter Stewart\nMila Gonzalez\nHenry Reed\nScarlett Thomas\nZoe Brown\nLevi King\nJulian Ross\nLily Ross\nQuinn Vance\nAva Moreno\nEz",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Carter",
+        "forced_continuation": "Carter Stewart\nMila Gonzalez\nHenry Reed\nScarlett Thomas\nZoe Brown\nLevi King\nJulian Ross\nLily Ross\nQuinn Vance\nAva Moreno\nEzra",
+        "recovered": true
+      }
+    }
+  ]
+}

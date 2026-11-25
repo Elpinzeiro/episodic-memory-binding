@@ -1,0 +1,44 @@
+{
+  "question_idx": 74,
+  "question": "Recall the events related to antimatter cascade that occurred on May 11, 2226. List all the locations where these events took place, without describing the events themselves.",
+  "gt_entities": [
+    "Europa Subsurface Laboratory",
+    "Triton Gas Colony"
+  ],
+  "free_generation": "Luna Shackleton Crater Colony Thomson Incipio Facility",
+  "missing_entities": [
+    "Europa Subsurface Laboratory",
+    "Triton Gas Colony"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Europa Subsurface Laboratory",
+      "first_token": {
+        "id": 55218,
+        "str": "Eu",
+        "forced_continuation": "Europa Subsurface Laboratory Lukas Observatory Triton Gas Colony assistant\n\nEuropa Subsurface Laboratory Lukas Observatory Triton Gas Colony",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Europa",
+        "forced_continuation": "Europa Subsurface Laboratory Lukas Observatory Triton Gas Colony assistant\n\nEuropa Subsurface Laboratory Lukas Observatory Triton Gas Colony",
+        "recovered": true
+      }
+    },
+    {
+      "missing_entity": "Triton Gas Colony",
+      "first_token": {
+        "id": 51,
+        "str": "T",
+        "forced_continuation": "Triton Gas Colony &=& Luna Shackleton Crater Colony &=& Earth Atmosphere;",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Triton",
+        "forced_continuation": "Triton Gas Colony &=& Luna Shackleton Crater Colony &=& Earth Atmosphere;",
+        "recovered": true
+      }
+    }
+  ]
+}

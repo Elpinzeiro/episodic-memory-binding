@@ -1,0 +1,75 @@
+{
+  "question_idx": 3,
+  "question": "Consider all events involving nuclear plant meltdown. List all the locations where these events took place, without mentioning the events themselves.",
+  "GT_entities": [
+    "North Dakota",
+    "Rajasthan"
+  ],
+  "ent_A": "North Dakota",
+  "ent_B": "Rajasthan",
+  "topk": 8,
+  "top_ids": [
+    49,
+    99725,
+    26287,
+    33,
+    37103,
+    68977,
+    77462,
+    42
+  ],
+  "top_tokens": [
+    {
+      "id": 49,
+      "str": "R",
+      "prob": 0.9346776008605957
+    },
+    {
+      "id": 99725,
+      "str": "Ru",
+      "prob": 0.02651476301252842
+    },
+    {
+      "id": 26287,
+      "str": "North",
+      "prob": 0.021305210888385773
+    },
+    {
+      "id": 33,
+      "str": "B",
+      "prob": 0.017119217664003372
+    },
+    {
+      "id": 37103,
+      "str": "RU",
+      "prob": 9.866269829217345e-05
+    },
+    {
+      "id": 68977,
+      "str": "Bru",
+      "prob": 3.863686652039178e-05
+    },
+    {
+      "id": 77462,
+      "str": "Pu",
+      "prob": 3.6867557355435565e-05
+    },
+    {
+      "id": 42,
+      "str": "K",
+      "prob": 1.6879195754881948e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 26287,
+    "bare_str": "North",
+    "lead_id": 4892,
+    "lead_str": " North"
+  },
+  "first_token_B": {
+    "bare_id": 49,
+    "bare_str": "R",
+    "lead_id": 87440,
+    "lead_str": " Rajasthan"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "question_idx": 1,
+  "question": "Recall all events related to produce contamination outbreak. Provide a list of all dates when these events occurred, without describing the events.",
+  "GT_entities": [
+    "February 27, 2026",
+    "September 03, 2026"
+  ],
+  "ent_A": "February 27, 2026",
+  "ent_B": "September 03, 2026",
+  "topk": 8,
+  "top_ids": [
+    30649,
+    6250,
+    29146,
+    31294,
+    28623,
+    33877,
+    28259,
+    32559
+  ],
+  "top_tokens": [
+    {
+      "id": 30649,
+      "str": "September",
+      "prob": 0.9997177720069885
+    },
+    {
+      "id": 6250,
+      "str": " September",
+      "prob": 0.00011059261305490509
+    },
+    {
+      "id": 29146,
+      "str": "April",
+      "prob": 6.603786459891126e-05
+    },
+    {
+      "id": 31294,
+      "str": "October",
+      "prob": 5.063298885943368e-05
+    },
+    {
+      "id": 28623,
+      "str": "March",
+      "prob": 4.5387118007056415e-05
+    },
+    {
+      "id": 33877,
+      "str": "February",
+      "prob": 3.725601573023596e-06
+    },
+    {
+      "id": 28259,
+      "str": "June",
+      "prob": 2.0255745312169893e-06
+    },
+    {
+      "id": 32559,
+      "str": "August",
+      "prob": 1.577519014972495e-06
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 33877,
+    "bare_str": "February",
+    "lead_id": 7552,
+    "lead_str": " February"
+  },
+  "first_token_B": {
+    "bare_id": 30649,
+    "bare_str": "September",
+    "lead_id": 6250,
+    "lead_str": " September"
+  }
+}

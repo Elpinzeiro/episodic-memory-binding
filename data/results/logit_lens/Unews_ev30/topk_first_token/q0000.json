@@ -1,0 +1,75 @@
+{
+  "question_idx": 0,
+  "question": "Consider all events involving factory explosion. List all the locations where these events took place, without mentioning the events themselves.",
+  "GT_entities": [
+    "Greater Mumbai",
+    "Rajasthan"
+  ],
+  "ent_A": "Greater Mumbai",
+  "ent_B": "Rajasthan",
+  "topk": 8,
+  "top_ids": [
+    42466,
+    50,
+    33381,
+    49,
+    50302,
+    53,
+    66335,
+    3648
+  ],
+  "top_tokens": [
+    {
+      "id": 42466,
+      "str": "Greater",
+      "prob": 0.8405394554138184
+    },
+    {
+      "id": 50,
+      "str": "S",
+      "prob": 0.14836402237415314
+    },
+    {
+      "id": 33381,
+      "str": " Greater",
+      "prob": 0.010096298530697823
+    },
+    {
+      "id": 49,
+      "str": "R",
+      "prob": 0.00026488592266105115
+    },
+    {
+      "id": 50302,
+      "str": "Lu",
+      "prob": 0.00022305628226604313
+    },
+    {
+      "id": 53,
+      "str": "V",
+      "prob": 0.0002095420059049502
+    },
+    {
+      "id": 66335,
+      "str": "greater",
+      "prob": 0.00016066140960901976
+    },
+    {
+      "id": 3648,
+      "str": "New",
+      "prob": 2.140606193279382e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 42466,
+    "bare_str": "Greater",
+    "lead_id": 33381,
+    "lead_str": " Greater"
+  },
+  "first_token_B": {
+    "bare_id": 49,
+    "bare_str": "R",
+    "lead_id": 87440,
+    "lead_str": " Rajasthan"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "question_idx": 8,
+  "question": "Recall all events related to antimatter cascade that occurred at Europa Subsurface Laboratory. Provide a list of all dates when these events took place, without describing the events.",
+  "GT_entities": [
+    "June 14, 2225",
+    "May 11, 2226"
+  ],
+  "ent_A": "June 14, 2225",
+  "ent_B": "May 11, 2226",
+  "topk": 8,
+  "top_ids": [
+    11356,
+    34827,
+    28259,
+    33877,
+    28623,
+    30649,
+    33327,
+    29527
+  ],
+  "top_tokens": [
+    {
+      "id": 11356,
+      "str": "May",
+      "prob": 0.9324666261672974
+    },
+    {
+      "id": 34827,
+      "str": "November",
+      "prob": 0.028601476922631264
+    },
+    {
+      "id": 28259,
+      "str": "June",
+      "prob": 0.02729172073304653
+    },
+    {
+      "id": 33877,
+      "str": "February",
+      "prob": 0.00928554031997919
+    },
+    {
+      "id": 28623,
+      "str": "March",
+      "prob": 0.0016389952506870031
+    },
+    {
+      "id": 30649,
+      "str": "September",
+      "prob": 0.0004016530583612621
+    },
+    {
+      "id": 33327,
+      "str": "January",
+      "prob": 0.0001031530337058939
+    },
+    {
+      "id": 29527,
+      "str": "July",
+      "prob": 6.455151742557064e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 28259,
+    "bare_str": "June",
+    "lead_id": 5651,
+    "lead_str": " June"
+  },
+  "first_token_B": {
+    "bare_id": 11356,
+    "bare_str": "May",
+    "lead_id": 3297,
+    "lead_str": " May"
+  }
+}

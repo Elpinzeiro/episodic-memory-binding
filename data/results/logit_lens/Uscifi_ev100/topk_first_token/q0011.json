@@ -1,0 +1,75 @@
+{
+  "question_idx": 11,
+  "question": "Reflect on the experiences of Julian Ross related to antimatter cascade. List all the unique locations where these events took place, without mentioning the events themselves.",
+  "GT_entities": [
+    "Luna Shackleton Crater Colony",
+    "Luna Oceanus Trading Post"
+  ],
+  "ent_A": "Luna Shackleton Crater Colony",
+  "ent_B": "Luna Oceanus Trading Post",
+  "topk": 8,
+  "top_ids": [
+    43,
+    51,
+    1305,
+    2434,
+    27814,
+    50905,
+    44,
+    85283
+  ],
+  "top_tokens": [
+    {
+      "id": 43,
+      "str": "L",
+      "prob": 0.969844400882721
+    },
+    {
+      "id": 51,
+      "str": "T",
+      "prob": 0.02390315942466259
+    },
+    {
+      "id": 1305,
+      "str": "Tr",
+      "prob": 0.004780932795256376
+    },
+    {
+      "id": 2434,
+      "str": "TR",
+      "prob": 0.0006173992296680808
+    },
+    {
+      "id": 27814,
+      "str": "Mer",
+      "prob": 0.00029623141745105386
+    },
+    {
+      "id": 50905,
+      "str": " Luna",
+      "prob": 0.00016617075016256422
+    },
+    {
+      "id": 44,
+      "str": "M",
+      "prob": 0.00016359452274627984
+    },
+    {
+      "id": 85283,
+      "str": " Trit",
+      "prob": 6.81963429087773e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 43,
+    "bare_str": "L",
+    "lead_id": 50905,
+    "lead_str": " Luna"
+  },
+  "first_token_B": {
+    "bare_id": 43,
+    "bare_str": "L",
+    "lead_id": 50905,
+    "lead_str": " Luna"
+  }
+}

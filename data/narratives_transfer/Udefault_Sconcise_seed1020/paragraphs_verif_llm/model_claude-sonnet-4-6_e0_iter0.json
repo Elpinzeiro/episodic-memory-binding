@@ -1,0 +1,14 @@
+[
+  false,
+  [
+    "entity",
+    "content"
+  ],
+  {
+    "location": true,
+    "date": true,
+    "entity": false,
+    "content": false
+  },
+  "Here is my analysis of the text:\n\n(1) The text takes place at Alcatraz Island - a single geographical location. True\n\n(2) The text takes place on February 27, 1862 - a single day. True\n\n(3) The text mentions both a theater performance (implying multiple people) and Marco Okafor discussing with \"fellow attendees,\" suggesting multiple characters. Marco Okafor could be considered the main character, but the focus is shared. False\n\n(4) There are two events: a theater performance and Marco Okafor discussing character motivation with fellow attendees. False\n\n```json\n{\n    \"1\": true,\n    \"2\": true,\n    \"3\": false,\n    \"4\": false\n}\n```"
+]

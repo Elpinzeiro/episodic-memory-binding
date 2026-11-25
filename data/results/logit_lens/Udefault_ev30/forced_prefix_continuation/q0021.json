@@ -1,0 +1,29 @@
+{
+  "question_idx": 21,
+  "question": "Recall the various events that have taken place at Statue of Liberty. Describe what happened during these events, focusing on the actions or occurrences rather than the timing or people involved.",
+  "gt_entities": [
+    "Tech Hackathon",
+    "Fashion Show"
+  ],
+  "free_generation": "Tech Hackathon. Key Exchange.",
+  "missing_entities": [
+    "Fashion Show"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Fashion Show",
+      "first_token": {
+        "id": 97241,
+        "str": "Fashion",
+        "forced_continuation": "Fashion Show, Ice Cream Truck, Educational Workshop.",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Fashion",
+        "forced_continuation": "Fashion Show, Ice Cream Truck, Educational Workshop.",
+        "recovered": true
+      }
+    }
+  ]
+}

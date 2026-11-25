@@ -1,0 +1,75 @@
+{
+  "question_idx": 3,
+  "question": "Consider all events involving inertial dampener malfunction. List all the locations where these events took place, without mentioning the events themselves.",
+  "GT_entities": [
+    "TRAPPIST-1 Colony Network",
+    "Barnard's Star Propulsion Lab"
+  ],
+  "ent_A": "TRAPPIST-1 Colony Network",
+  "ent_B": "Barnard's Star Propulsion Lab",
+  "topk": 8,
+  "top_ids": [
+    33,
+    2434,
+    1305,
+    27814,
+    25584,
+    63321,
+    15967,
+    69904
+  ],
+  "top_tokens": [
+    {
+      "id": 33,
+      "str": "B",
+      "prob": 0.8764756917953491
+    },
+    {
+      "id": 2434,
+      "str": "TR",
+      "prob": 0.11861808598041534
+    },
+    {
+      "id": 1305,
+      "str": "Tr",
+      "prob": 0.001277185627259314
+    },
+    {
+      "id": 27814,
+      "str": "Mer",
+      "prob": 0.0010262475116178393
+    },
+    {
+      "id": 25584,
+      "str": "Ben",
+      "prob": 0.0004923989763483405
+    },
+    {
+      "id": 63321,
+      "str": "-Benz",
+      "prob": 0.00023625559697393328
+    },
+    {
+      "id": 15967,
+      "str": "BN",
+      "prob": 0.00019282619177829474
+    },
+    {
+      "id": 69904,
+      "str": "(TR",
+      "prob": 0.0001501731894677505
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 2434,
+    "bare_str": "TR",
+    "lead_id": 5091,
+    "lead_str": " TR"
+  },
+  "first_token_B": {
+    "bare_id": 33,
+    "bare_str": "B",
+    "lead_id": 23229,
+    "lead_str": " Barn"
+  }
+}

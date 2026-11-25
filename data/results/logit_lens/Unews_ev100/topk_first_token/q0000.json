@@ -1,0 +1,75 @@
+{
+  "question_idx": 0,
+  "question": "Recall all events related to nuclear plant meltdown. Provide a list of all dates when these events occurred, without describing the events.",
+  "GT_entities": [
+    "May 11, 2026",
+    "May 28, 2025"
+  ],
+  "ent_A": "May 11, 2026",
+  "ent_B": "May 28, 2025",
+  "topk": 8,
+  "top_ids": [
+    11356,
+    63086,
+    122706,
+    3297,
+    124645,
+    30649,
+    18864,
+    28259
+  ],
+  "top_tokens": [
+    {
+      "id": 11356,
+      "str": "May",
+      "prob": 0.999996542930603
+    },
+    {
+      "id": 63086,
+      "str": "-May",
+      "prob": 2.7264684376859805e-06
+    },
+    {
+      "id": 122706,
+      "str": "五月",
+      "prob": 3.5763477512773534e-07
+    },
+    {
+      "id": 3297,
+      "str": " May",
+      "prob": 3.1071849093677884e-07
+    },
+    {
+      "id": 124645,
+      "str": " मई",
+      "prob": 2.5505327627683982e-08
+    },
+    {
+      "id": 30649,
+      "str": "September",
+      "prob": 1.866009746720465e-08
+    },
+    {
+      "id": 18864,
+      "str": "may",
+      "prob": 1.2430304785482349e-08
+    },
+    {
+      "id": 28259,
+      "str": "June",
+      "prob": 7.3073986861516005e-09
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 11356,
+    "bare_str": "May",
+    "lead_id": 3297,
+    "lead_str": " May"
+  },
+  "first_token_B": {
+    "bare_id": 11356,
+    "bare_str": "May",
+    "lead_id": 3297,
+    "lead_str": " May"
+  }
+}

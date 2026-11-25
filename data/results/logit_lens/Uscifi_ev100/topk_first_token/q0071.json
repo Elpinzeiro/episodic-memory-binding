@@ -1,0 +1,75 @@
+{
+  "question_idx": 71,
+  "question": "Recall the events related to cryo-pod integrity breach that occurred on July 31, 2225. List all the locations where these events took place, without describing the events themselves.",
+  "GT_entities": [
+    "Mars Valles Industrial Hub",
+    "Mercury Twilight Observatory"
+  ],
+  "ent_A": "Mars Valles Industrial Hub",
+  "ent_B": "Mercury Twilight Observatory",
+  "topk": 8,
+  "top_ids": [
+    43,
+    51,
+    44,
+    45,
+    27814,
+    93555,
+    82389,
+    95240
+  ],
+  "top_tokens": [
+    {
+      "id": 43,
+      "str": "L",
+      "prob": 0.7206206917762756
+    },
+    {
+      "id": 51,
+      "str": "T",
+      "prob": 0.23395128548145294
+    },
+    {
+      "id": 44,
+      "str": "M",
+      "prob": 0.04535352811217308
+    },
+    {
+      "id": 45,
+      "str": "N",
+      "prob": 6.208430568221956e-05
+    },
+    {
+      "id": 27814,
+      "str": "Mer",
+      "prob": 6.4421878960274626e-06
+    },
+    {
+      "id": 93555,
+      "str": "Tro",
+      "prob": 1.119484522860148e-06
+    },
+    {
+      "id": 82389,
+      "str": "Lake",
+      "prob": 7.574810183541558e-07
+    },
+    {
+      "id": 95240,
+      "str": "Titan",
+      "prob": 7.227934588627249e-07
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 44,
+    "bare_str": "M",
+    "lead_id": 21725,
+    "lead_str": " Mars"
+  },
+  "first_token_B": {
+    "bare_id": 27814,
+    "bare_str": "Mer",
+    "lead_id": 44662,
+    "lead_str": " Mercury"
+  }
+}

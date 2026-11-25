@@ -1,0 +1,75 @@
+{
+  "question_idx": 13,
+  "question": "Reflect on Levi Rodriguez's experiences at Luna Shackleton Crater Colony. Describe all the key events they've been involved in at this location, focusing on what happened rather than when it occurred.",
+  "GT_entities": [
+    "cryo-pod integrity breach",
+    "antimatter cascade"
+  ],
+  "ent_A": "cryo-pod integrity breach",
+  "ent_B": "antimatter cascade",
+  "topk": 8,
+  "top_ids": [
+    519,
+    94874,
+    2008,
+    472,
+    62238,
+    65728,
+    72967,
+    566
+  ],
+  "top_tokens": [
+    {
+      "id": 519,
+      "str": "ant",
+      "prob": 0.4396441876888275
+    },
+    {
+      "id": 94874,
+      "str": "climate",
+      "prob": 0.14273156225681305
+    },
+    {
+      "id": 2008,
+      "str": "sub",
+      "prob": 0.11468804627656937
+    },
+    {
+      "id": 472,
+      "str": "art",
+      "prob": 0.09507972747087479
+    },
+    {
+      "id": 62238,
+      "str": "cry",
+      "prob": 0.03841567784547806
+    },
+    {
+      "id": 65728,
+      "str": "enzyme",
+      "prob": 0.02105005644261837
+    },
+    {
+      "id": 72967,
+      "str": "chlor",
+      "prob": 0.0185766089707613
+    },
+    {
+      "id": 566,
+      "str": "cl",
+      "prob": 0.015643073245882988
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 62238,
+    "bare_str": "cry",
+    "lead_id": 16106,
+    "lead_str": " cry"
+  },
+  "first_token_B": {
+    "bare_id": 519,
+    "bare_str": "ant",
+    "lead_id": 79312,
+    "lead_str": " antim"
+  }
+}

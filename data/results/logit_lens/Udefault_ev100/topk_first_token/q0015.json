@@ -1,0 +1,75 @@
+{
+  "question_idx": 15,
+  "question": "Consider all events involving both Julian Ross and Tech Hackathon. Provide a list of all dates when these events occurred, without describing the events.",
+  "GT_entities": [
+    "September 03, 2026",
+    "March 23, 2024"
+  ],
+  "ent_A": "September 03, 2026",
+  "ent_B": "March 23, 2024",
+  "topk": 8,
+  "top_ids": [
+    30649,
+    28623,
+    33877,
+    33327,
+    31294,
+    6250,
+    34827,
+    33246
+  ],
+  "top_tokens": [
+    {
+      "id": 30649,
+      "str": "September",
+      "prob": 0.9855189323425293
+    },
+    {
+      "id": 28623,
+      "str": "March",
+      "prob": 0.009219245985150337
+    },
+    {
+      "id": 33877,
+      "str": "February",
+      "prob": 0.0019324591848999262
+    },
+    {
+      "id": 33327,
+      "str": "January",
+      "prob": 0.0016020649345591664
+    },
+    {
+      "id": 31294,
+      "str": "October",
+      "prob": 0.0011360341450199485
+    },
+    {
+      "id": 6250,
+      "str": " September",
+      "prob": 0.00016366122872568667
+    },
+    {
+      "id": 34827,
+      "str": "November",
+      "prob": 0.00014901523536536843
+    },
+    {
+      "id": 33246,
+      "str": "December",
+      "prob": 0.00011425395496189594
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 30649,
+    "bare_str": "September",
+    "lead_id": 6250,
+    "lead_str": " September"
+  },
+  "first_token_B": {
+    "bare_id": 28623,
+    "bare_str": "March",
+    "lead_id": 5587,
+    "lead_str": " March"
+  }
+}

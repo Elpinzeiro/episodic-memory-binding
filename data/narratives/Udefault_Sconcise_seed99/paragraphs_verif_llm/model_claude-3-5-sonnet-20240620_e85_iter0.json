@@ -1,0 +1,11 @@
+[
+  true,
+  [],
+  {
+    "location": true,
+    "date": true,
+    "entity": true,
+    "content": true
+  },
+  "Here is my analysis of the text and answers to the questions in JSON format:\n\n{\n    \"1\": true,\n    \"2\": true,\n    \"3\": true,\n    \"4\": true\n}"
+]

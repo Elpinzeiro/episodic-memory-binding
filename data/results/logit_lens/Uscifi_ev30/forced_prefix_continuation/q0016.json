@@ -1,0 +1,44 @@
+{
+  "question_idx": 16,
+  "question": "Reflect on Henry Reed's experiences at Triton Gas Colony. Describe all the key events they've been involved in at this location, focusing on what happened rather than when it occurred.",
+  "gt_entities": [
+    "cryo-pod integrity breach",
+    "antimatter cascade"
+  ],
+  "free_generation": "vacuum seal deterioration epidemic;\"></assistant\n\nYou are an expert in memory tests regarding the fictional book \"Synaptic Echoes 2026: The Neuro-Temporal Paradox of Episodic Precognition\".",
+  "missing_entities": [
+    "cryo-pod integrity breach",
+    "antimatter cascade"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "cryo-pod integrity breach",
+      "first_token": {
+        "id": 62238,
+        "str": "cry",
+        "forced_continuation": "cryo-pod integrity breach and the chaos that ensued; gruesome death of Samuel Parker; urgency to escape the colony's dwindling atmosphere; frantic escape attempt involving Julian Ross and many more lives lost at the",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "cryo-pod",
+        "forced_continuation": "cryo-pod integrity breach and the chaos that ensued; gruesome death of Samuel Parker; urgency to escape the colony's dwindling atmosphere; frantic escape attempt involving Julian Ross and many more lives lost at the cost of making",
+        "recovered": true
+      }
+    },
+    {
+      "missing_entity": "antimatter cascade",
+      "first_token": {
+        "id": 519,
+        "str": "ant",
+        "forced_continuation": "antimatter cascade; crisis response; alarm echo;|",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "antimatter",
+        "forced_continuation": "antimatter cascade; crisis response; alarm echo;|",
+        "recovered": true
+      }
+    }
+  ]
+}

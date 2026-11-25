@@ -1,0 +1,75 @@
+{
+  "question_idx": 1,
+  "question": "Reflect on events related to navigation computer blackout. Provide a list of all protagonists involved in these events, without describing the events.",
+  "GT_entities": [
+    "Ezra Edwards",
+    "Levi Rodriguez"
+  ],
+  "ent_A": "Ezra Edwards",
+  "ent_B": "Levi Rodriguez",
+  "topk": 8,
+  "top_ids": [
+    41745,
+    44,
+    64463,
+    29185,
+    24903,
+    96056,
+    34,
+    62080
+  ],
+  "top_tokens": [
+    {
+      "id": 41745,
+      "str": "Luc",
+      "prob": 0.9181552529335022
+    },
+    {
+      "id": 44,
+      "str": "M",
+      "prob": 0.03616137057542801
+    },
+    {
+      "id": 64463,
+      "str": "Henry",
+      "prob": 0.02408866584300995
+    },
+    {
+      "id": 29185,
+      "str": "Jul",
+      "prob": 0.010360406711697578
+    },
+    {
+      "id": 24903,
+      "str": "Sam",
+      "prob": 0.008068692870438099
+    },
+    {
+      "id": 96056,
+      "str": "Scar",
+      "prob": 0.0020722118206322193
+    },
+    {
+      "id": 34,
+      "str": "C",
+      "prob": 0.00017009749717544764
+    },
+    {
+      "id": 62080,
+      "str": "Roman",
+      "prob": 0.00014101577107794583
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 36,
+    "bare_str": "E",
+    "lead_id": 85418,
+    "lead_str": " Ezra"
+  },
+  "first_token_B": {
+    "bare_id": 2356,
+    "bare_str": "Le",
+    "lead_id": 56141,
+    "lead_str": " Levi"
+  }
+}

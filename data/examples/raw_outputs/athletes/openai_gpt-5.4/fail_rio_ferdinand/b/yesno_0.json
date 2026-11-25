@@ -1,0 +1,15 @@
+{
+  "entity": "Rio Ferdinand",
+  "prompt": "In 2010, did Rio Ferdinand play for Manchester United F.C.? Answer yes or no.",
+  "expected": "Yes",
+  "retry": 0,
+  "success": true,
+  "response": "Yes.",
+  "model": "openai/gpt-5.4",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 90,
+    "completion_tokens": 6,
+    "total_tokens": 96
+  }
+}

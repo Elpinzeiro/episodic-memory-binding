@@ -1,0 +1,75 @@
+{
+  "question_idx": 15,
+  "question": "Consider all events involving Henry Reed at Trinity Church. Provide a list of all dates when these events occurred, without describing the events.",
+  "GT_entities": [
+    "April 09, 2026",
+    "September 13, 2025"
+  ],
+  "ent_A": "April 09, 2026",
+  "ent_B": "September 13, 2025",
+  "topk": 8,
+  "top_ids": [
+    34827,
+    30649,
+    6841,
+    806,
+    19480,
+    29527,
+    33877,
+    29146
+  ],
+  "top_tokens": [
+    {
+      "id": 34827,
+      "str": "November",
+      "prob": 0.9921826720237732
+    },
+    {
+      "id": 30649,
+      "str": "September",
+      "prob": 0.005899733863770962
+    },
+    {
+      "id": 6841,
+      "str": " November",
+      "prob": 0.0009936774149537086
+    },
+    {
+      "id": 806,
+      "str": "11",
+      "prob": 0.0008237874135375023
+    },
+    {
+      "id": 19480,
+      "str": "Nov",
+      "prob": 3.563354766811244e-05
+    },
+    {
+      "id": 29527,
+      "str": "July",
+      "prob": 1.9373625036678277e-05
+    },
+    {
+      "id": 33877,
+      "str": "February",
+      "prob": 1.417404564563185e-05
+    },
+    {
+      "id": 29146,
+      "str": "April",
+      "prob": 7.239394108182751e-06
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 29146,
+    "bare_str": "April",
+    "lead_id": 5936,
+    "lead_str": " April"
+  },
+  "first_token_B": {
+    "bare_id": 30649,
+    "bare_str": "September",
+    "lead_id": 6250,
+    "lead_str": " September"
+  }
+}

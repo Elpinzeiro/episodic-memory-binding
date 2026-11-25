@@ -1,0 +1,75 @@
+{
+  "question_idx": 40,
+  "question": "Recall the events related to Theater Performance that occurred on November 13, 2026. List all the locations where these events took place, without describing the events themselves.",
+  "GT_entities": [
+    "One World Trade Center",
+    "American Museum of Natural History"
+  ],
+  "ent_A": "One World Trade Center",
+  "ent_B": "American Museum of Natural History",
+  "topk": 8,
+  "top_ids": [
+    29518,
+    39231,
+    37,
+    4054,
+    23550,
+    77845,
+    78818,
+    97241
+  ],
+  "top_tokens": [
+    {
+      "id": 29518,
+      "str": "American",
+      "prob": 0.5407467484474182
+    },
+    {
+      "id": 39231,
+      "str": "Washington",
+      "prob": 0.42776593565940857
+    },
+    {
+      "id": 37,
+      "str": "F",
+      "prob": 0.021297210827469826
+    },
+    {
+      "id": 4054,
+      "str": "One",
+      "prob": 0.009017806500196457
+    },
+    {
+      "id": 23550,
+      "str": "Fi",
+      "prob": 0.0002023667038884014
+    },
+    {
+      "id": 77845,
+      "str": "Fu",
+      "prob": 0.00018715858459472656
+    },
+    {
+      "id": 78818,
+      "str": "american",
+      "prob": 0.00016516688629053533
+    },
+    {
+      "id": 97241,
+      "str": "Fashion",
+      "prob": 9.26502252696082e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 4054,
+    "bare_str": "One",
+    "lead_id": 3861,
+    "lead_str": " One"
+  },
+  "first_token_B": {
+    "bare_id": 29518,
+    "bare_str": "American",
+    "lead_id": 3778,
+    "lead_str": " American"
+  }
+}

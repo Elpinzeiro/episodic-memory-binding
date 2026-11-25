@@ -1,0 +1,75 @@
+{
+  "question_idx": 41,
+  "question": "Recall all events related to Educational Workshop that occurred at Queensboro Bridge. Provide a list of all dates when these events took place, without describing the events.",
+  "GT_entities": [
+    "November 13, 2026",
+    "March 23, 2024"
+  ],
+  "ent_A": "November 13, 2026",
+  "ent_B": "March 23, 2024",
+  "topk": 8,
+  "top_ids": [
+    30649,
+    33327,
+    33246,
+    29527,
+    31294,
+    25669,
+    28623,
+    34827
+  ],
+  "top_tokens": [
+    {
+      "id": 30649,
+      "str": "September",
+      "prob": 0.9950920343399048
+    },
+    {
+      "id": 33327,
+      "str": "January",
+      "prob": 0.0025054297875612974
+    },
+    {
+      "id": 33246,
+      "str": "December",
+      "prob": 0.002143007703125477
+    },
+    {
+      "id": 29527,
+      "str": "July",
+      "prob": 0.00014134666707832366
+    },
+    {
+      "id": 31294,
+      "str": "October",
+      "prob": 3.4638491342775524e-05
+    },
+    {
+      "id": 25669,
+      "str": "Sept",
+      "prob": 1.7417327399016358e-05
+    },
+    {
+      "id": 28623,
+      "str": "March",
+      "prob": 1.7417327399016358e-05
+    },
+    {
+      "id": 34827,
+      "str": "November",
+      "prob": 1.0400360224593896e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 34827,
+    "bare_str": "November",
+    "lead_id": 6841,
+    "lead_str": " November"
+  },
+  "first_token_B": {
+    "bare_id": 28623,
+    "bare_str": "March",
+    "lead_id": 5587,
+    "lead_str": " March"
+  }
+}

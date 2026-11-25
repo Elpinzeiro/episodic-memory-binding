@@ -1,0 +1,13 @@
+[
+  false,
+  [
+    "content"
+  ],
+  {
+    "location": true,
+    "date": true,
+    "entity": true,
+    "content": false
+  },
+  "Here is my analysis of the text:\n\n(1) The text takes place at Wall Street - a single geographical location. True\n(2) The text takes place on March 24, 1827 - a single day. True\n(3) The main character is John Mitchell (referred to as both \"John Mitchell\" and \"John\") - a single main character. True\n(4) The main event is attending a theater performance, with a secondary activity of discussing character motivation with fellow audience members - there are multiple events happening. False\n\n```json\n{\n    \"1\": true,\n    \"2\": true,\n    \"3\": true,\n    \"4\": false\n}\n```"
+]

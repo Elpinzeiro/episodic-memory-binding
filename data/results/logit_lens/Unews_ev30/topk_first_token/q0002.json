@@ -1,0 +1,75 @@
+{
+  "question_idx": 2,
+  "question": "Reflect on events related to factory explosion. Provide a list of all protagonists involved in these events, without describing the events.",
+  "GT_entities": [
+    "Scarlett Thomas",
+    "Henry Reed"
+  ],
+  "ent_A": "Scarlett Thomas",
+  "ent_B": "Henry Reed",
+  "topk": 8,
+  "top_ids": [
+    64463,
+    44,
+    96056,
+    24903,
+    29185,
+    60332,
+    57,
+    34
+  ],
+  "top_tokens": [
+    {
+      "id": 64463,
+      "str": "Henry",
+      "prob": 0.6425737142562866
+    },
+    {
+      "id": 44,
+      "str": "M",
+      "prob": 0.3131653964519501
+    },
+    {
+      "id": 96056,
+      "str": "Scar",
+      "prob": 0.031991858035326004
+    },
+    {
+      "id": 24903,
+      "str": "Sam",
+      "prob": 0.008746088482439518
+    },
+    {
+      "id": 29185,
+      "str": "Jul",
+      "prob": 0.0026674061082303524
+    },
+    {
+      "id": 60332,
+      "str": "Mil",
+      "prob": 0.0002089273912133649
+    },
+    {
+      "id": 57,
+      "str": "Z",
+      "prob": 9.417094406671822e-05
+    },
+    {
+      "id": 34,
+      "str": "C",
+      "prob": 5.801704173791222e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 96056,
+    "bare_str": "Scar",
+    "lead_id": 96572,
+    "lead_str": " Scarlett"
+  },
+  "first_token_B": {
+    "bare_id": 64463,
+    "bare_str": "Henry",
+    "lead_id": 18063,
+    "lead_str": " Henry"
+  }
+}

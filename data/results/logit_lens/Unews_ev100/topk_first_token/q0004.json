@@ -1,0 +1,75 @@
+{
+  "question_idx": 4,
+  "question": "Consider all events involving train derailment. List all the locations where these events took place, without mentioning the events themselves.",
+  "GT_entities": [
+    "New South Wales",
+    "Split-Dalmatia County"
+  ],
+  "ent_A": "New South Wales",
+  "ent_B": "Split-Dalmatia County",
+  "topk": 8,
+  "top_ids": [
+    49,
+    20805,
+    7105,
+    3648,
+    95259,
+    99725,
+    117331,
+    50
+  ],
+  "top_tokens": [
+    {
+      "id": 49,
+      "str": "R",
+      "prob": 0.9999526739120483
+    },
+    {
+      "id": 20805,
+      "str": "Split",
+      "prob": 4.4693955715047196e-05
+    },
+    {
+      "id": 7105,
+      "str": "split",
+      "prob": 1.172587985820428e-06
+    },
+    {
+      "id": 3648,
+      "str": "New",
+      "prob": 3.68971171837984e-07
+    },
+    {
+      "id": 95259,
+      "str": "Spl",
+      "prob": 2.3453235087345092e-07
+    },
+    {
+      "id": 99725,
+      "str": "Ru",
+      "prob": 1.4225105360310408e-07
+    },
+    {
+      "id": 117331,
+      "str": " R",
+      "prob": 8.901843528974496e-08
+    },
+    {
+      "id": 50,
+      "str": "S",
+      "prob": 8.494198766584304e-08
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 3648,
+    "bare_str": "New",
+    "lead_id": 1561,
+    "lead_str": " New"
+  },
+  "first_token_B": {
+    "bare_id": 20805,
+    "bare_str": "Split",
+    "lead_id": 28910,
+    "lead_str": " Split"
+  }
+}

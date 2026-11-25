@@ -1,0 +1,29 @@
+{
+  "question_idx": 27,
+  "question": "Reflect on all events involving Ezra Edwards. Provide a list of all dates when these events occurred, without describing the events.",
+  "gt_entities": [
+    "February 27, 2226",
+    "May 11, 2226"
+  ],
+  "free_generation": "May 11, 2226; May 18, 2226; May 23, 2226; June 02, 2226; June 14, 2226; June 20, 2226; July 14, 2226; July 27, 2226; August 16, 2226; September 09, 2226; September 19, 2226; October 28, 2226; November 30, 2226; December 13, 2226; January 06, 2227; January 11, 2227; February 24, 2227; March 23, 2227; April 19, 2227; May 01, 2227; May 07, 2227; May 23, 2227; June 02, 2227; June 17, 2227; July 14, 2227;",
+  "missing_entities": [
+    "February 27, 2226"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "February 27, 2226",
+      "first_token": {
+        "id": 33877,
+        "str": "February",
+        "forced_continuation": "February 27, 2226; March 03, 2226; March 13, 2226; March 17, 2226; March 22, 2226; April",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "February",
+        "forced_continuation": "February 27, 2226; March 03, 2226; March 13, 2226; March 17, 2226; March 22, 2226; April",
+        "recovered": true
+      }
+    }
+  ]
+}

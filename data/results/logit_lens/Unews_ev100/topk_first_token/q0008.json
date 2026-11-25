@@ -1,0 +1,75 @@
+{
+  "question_idx": 8,
+  "question": "Reflect on the experiences of Carter Stewart related to bridge collapse. List all the unique locations where these events took place, without mentioning the events themselves.",
+  "GT_entities": [
+    "Luang Prabang Province",
+    "Rajasthan"
+  ],
+  "ent_A": "Luang Prabang Province",
+  "ent_B": "Rajasthan",
+  "topk": 8,
+  "top_ids": [
+    49,
+    43427,
+    87440,
+    99725,
+    57468,
+    73262,
+    117331,
+    5733
+  ],
+  "top_tokens": [
+    {
+      "id": 49,
+      "str": "R",
+      "prob": 0.999976634979248
+    },
+    {
+      "id": 43427,
+      "str": "Rs",
+      "prob": 1.1125471246486995e-05
+    },
+    {
+      "id": 87440,
+      "str": " Rajasthan",
+      "prob": 2.52152085522539e-06
+    },
+    {
+      "id": 99725,
+      "str": "Ru",
+      "prob": 1.5534640169789782e-06
+    },
+    {
+      "id": 57468,
+      "str": "RW",
+      "prob": 9.874416946331621e-07
+    },
+    {
+      "id": 73262,
+      "str": "Rh",
+      "prob": 7.570978368676151e-07
+    },
+    {
+      "id": 117331,
+      "str": " R",
+      "prob": 6.179252522997558e-07
+    },
+    {
+      "id": 5733,
+      "str": "Ass",
+      "prob": 5.539045559999067e-07
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 50302,
+    "bare_str": "Lu",
+    "lead_id": 18866,
+    "lead_str": " Lu"
+  },
+  "first_token_B": {
+    "bare_id": 49,
+    "bare_str": "R",
+    "lead_id": 87440,
+    "lead_str": " Rajasthan"
+  }
+}

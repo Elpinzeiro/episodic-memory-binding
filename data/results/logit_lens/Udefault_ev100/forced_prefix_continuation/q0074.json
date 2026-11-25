@@ -1,0 +1,29 @@
+{
+  "question_idx": 74,
+  "question": "Recall the events related to Educational Workshop that occurred on May 11, 2026. List all the locations where these events took place, without describing the events themselves.",
+  "gt_entities": [
+    "High Line",
+    "Trinity Church"
+  ],
+  "free_generation": "American Museum of Natural History Trinity Church Yard Washington Square Park Bethune Street Studio",
+  "missing_entities": [
+    "High Line"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "High Line",
+      "first_token": {
+        "id": 12243,
+        "str": "High",
+        "forced_continuation": "High Line. Metropolitan Museum of Art. American Museum of Natural History. Bethune Square Park. Trinity Churchyard. Statue of Liberty. One World Trade Center. Brooklyn Bridge. Queensboro Bridge. Bethune",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "High",
+        "forced_continuation": "High Line. Metropolitan Museum of Art. American Museum of Natural History. Bethune Square Park. Trinity Churchyard. Statue of Liberty. One World Trade Center. Brooklyn Bridge. Queensboro Bridge. Bethune",
+        "recovered": true
+      }
+    }
+  ]
+}

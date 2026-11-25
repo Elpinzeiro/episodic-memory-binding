@@ -1,0 +1,75 @@
+{
+  "question_idx": 32,
+  "question": "Think about the events involving Educational Workshop at American Museum of Natural History. List all protagonists involved in these events, without mentioning the events themselves.",
+  "GT_entities": [
+    "Henry Reed",
+    "Levi Rodriguez"
+  ],
+  "ent_A": "Henry Reed",
+  "ent_B": "Levi Rodriguez",
+  "topk": 8,
+  "top_ids": [
+    2356,
+    64463,
+    56141,
+    29185,
+    57,
+    41745,
+    73004,
+    99767
+  ],
+  "top_tokens": [
+    {
+      "id": 2356,
+      "str": "Le",
+      "prob": 0.9433643221855164
+    },
+    {
+      "id": 64463,
+      "str": "Henry",
+      "prob": 0.05405908450484276
+    },
+    {
+      "id": 56141,
+      "str": " Levi",
+      "prob": 0.0005820653750561178
+    },
+    {
+      "id": 29185,
+      "str": "Jul",
+      "prob": 0.0004750679654534906
+    },
+    {
+      "id": 57,
+      "str": "Z",
+      "prob": 0.0003368736070115119
+    },
+    {
+      "id": 41745,
+      "str": "Luc",
+      "prob": 0.0003316508955322206
+    },
+    {
+      "id": 73004,
+      "str": "Leon",
+      "prob": 0.00025428555090911686
+    },
+    {
+      "id": 99767,
+      "str": "Leo",
+      "prob": 0.0001426412636647001
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 64463,
+    "bare_str": "Henry",
+    "lead_id": 18063,
+    "lead_str": " Henry"
+  },
+  "first_token_B": {
+    "bare_id": 2356,
+    "bare_str": "Le",
+    "lead_id": 56141,
+    "lead_str": " Levi"
+  }
+}

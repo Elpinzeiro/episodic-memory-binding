@@ -1,0 +1,75 @@
+{
+  "question_idx": 45,
+  "question": "Consider all events involving Scarlett Thomas at Luang Prabang Province. Provide a list of all dates when these events occurred, without describing the events.",
+  "GT_entities": [
+    "November 13, 2026",
+    "May 11, 2026"
+  ],
+  "ent_A": "November 13, 2026",
+  "ent_B": "May 11, 2026",
+  "topk": 8,
+  "top_ids": [
+    28623,
+    29527,
+    30649,
+    5587,
+    11356,
+    5887,
+    34827,
+    33246
+  ],
+  "top_tokens": [
+    {
+      "id": 28623,
+      "str": "March",
+      "prob": 0.9776131510734558
+    },
+    {
+      "id": 29527,
+      "str": "July",
+      "prob": 0.019975150004029274
+    },
+    {
+      "id": 30649,
+      "str": "September",
+      "prob": 0.0023487049620598555
+    },
+    {
+      "id": 5587,
+      "str": " March",
+      "prob": 1.5580098988721147e-05
+    },
+    {
+      "id": 11356,
+      "str": "May",
+      "prob": 1.5338551747845486e-05
+    },
+    {
+      "id": 5887,
+      "str": " July",
+      "prob": 1.1047944099118467e-05
+    },
+    {
+      "id": 34827,
+      "str": "November",
+      "prob": 8.339425221493002e-06
+    },
+    {
+      "id": 33246,
+      "str": "December",
+      "prob": 4.902495220449055e-06
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 34827,
+    "bare_str": "November",
+    "lead_id": 6841,
+    "lead_str": " November"
+  },
+  "first_token_B": {
+    "bare_id": 11356,
+    "bare_str": "May",
+    "lead_id": 3297,
+    "lead_str": " May"
+  }
+}

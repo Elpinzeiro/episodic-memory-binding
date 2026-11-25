@@ -1,0 +1,13 @@
+[
+  false,
+  [
+    "content"
+  ],
+  {
+    "location": true,
+    "date": true,
+    "entity": true,
+    "content": false
+  },
+  "Here is my analysis of the text:\n\n(1) The text takes place at Old Westbury Gardens, which is a single geographical location.\n(2) The text takes place on November 14, 1847, which is a single day.\n(3) Audrey Ward is the main character throughout the text.\n(4) While there is a main event (theater performance), there is also a secondary event (discussion about theater education afterward), meaning there are two distinct events happening.\n\n```json\n{\n    \"1\": true,\n    \"2\": true,\n    \"3\": true,\n    \"4\": false\n}\n```"
+]

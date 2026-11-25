@@ -1,0 +1,29 @@
+{
+  "question_idx": 65,
+  "question": "Think about the events involving Educational Workshop on July 13, 2024. Provide a list of all protagonists involved in these events, without describing the events.",
+  "gt_entities": [
+    "Mila Gonzalez",
+    "Levi Rodriguez"
+  ],
+  "free_generation": "Henry Reed, Mila Gonzalez, Lucy Carter, Benjamin Green, Carter Stewart, Noah Lewis, Julian Lee, Zoe Brown, Jackson Bell, Lillian Brooks, Samuel Parker, Levi Ross, Uma Hill, Viva Fraser, Levi Ross, Scarlett Kim, Lillian Brooks, Scarlett Kim, Scarlett Kim, Scarlett Kim, Scarlett Kim, Scarlett Kim, Scarlett Kim, Scarlett Kim, Scarlett Kim, Scarlett Kim, Scarlett Kim, Scarlett Kim, Scarlett Kim, Scarlett Kim, Scarlett Kim, Scarlett Kim, Scarlett Kim, Scarlett Kim, Scarlett Kim, Scarlett Kim, Scarlett Kim, Scarlett Kim, Scarlett Kim, Scarlett Kim, Scarlett Kim, Scarlett Kim, Scarlett Kim, Scarlett Kim, Scarlett Kim, Scarlett Kim, Scarlett Kim, Scarlett Kim, Scarlett Kim, Scarlett Kim, Scarlett Kim, Scarlett Kim, Scarlett Kim, Scarlett Kim, Scarlett Kim, Scarlett Kim, Scarlett Kim, Scarlett Kim, Scarlett Kim, Scarlett Kim, Scarlett Kim, Scarlett Kim, Scarlett Kim, Scarlett Kim, Scarlett Kim,",
+  "missing_entities": [
+    "Levi Rodriguez"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Levi Rodriguez",
+      "first_token": {
+        "id": 2356,
+        "str": "Le",
+        "forced_continuation": "Levi Rodriguez Henry Reed Lea Green Jackson Leopold Ross Lea Green Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Levi",
+        "forced_continuation": "Levi Rodriguez Henry Reed Lea Green Jackson Leopold Ross Lea Green Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson Jackson",
+        "recovered": true
+      }
+    }
+  ]
+}

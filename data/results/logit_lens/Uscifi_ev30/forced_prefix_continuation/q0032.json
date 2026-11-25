@@ -1,0 +1,44 @@
+{
+  "question_idx": 32,
+  "question": "Reflect on September 22, 2226. Describe all the key events that occurred on this date, focusing on what happened rather than who was involved or where it took place.",
+  "gt_entities": [
+    "antimatter cascade",
+    "fusion core breach"
+  ],
+  "free_generation": "plasma conduit rupture and information overload; cryo-pod integrity breach; Henry Reed's desperate cry for help;|",
+  "missing_entities": [
+    "antimatter cascade",
+    "fusion core breach"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "antimatter cascade",
+      "first_token": {
+        "id": 519,
+        "str": "ant",
+        "forced_continuation": "antimatter cascade; planetwide broadcast; both are noteworthy events on September 22, 2226.",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "antimatter",
+        "forced_continuation": "antimatter cascade; planetwide broadcast; both are noteworthy events on September 22, 2226.",
+        "recovered": true
+      }
+    },
+    {
+      "missing_entity": "fusion core breach",
+      "first_token": {
+        "id": 55665,
+        "str": "fusion",
+        "forced_continuation": "fusion core breach; antimatter cascade; stellar collapse; light-speed signal reaches TRAPPIST-1; shockwave subspace transmission; onboard artificial intelligence failure; cryo-pod integrity breach;",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "fusion",
+        "forced_continuation": "fusion core breach; antimatter cascade; stellar collapse; light-speed signal reaches TRAPPIST-1; shockwave subspace transmission; onboard artificial intelligence failure; cryo-pod integrity breach;",
+        "recovered": true
+      }
+    }
+  ]
+}

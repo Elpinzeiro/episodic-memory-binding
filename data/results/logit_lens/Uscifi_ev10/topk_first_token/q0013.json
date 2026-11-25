@@ -1,0 +1,75 @@
+{
+  "question_idx": 13,
+  "question": "Recall all the events that occurred on May 11, 2226. Without describing the events, list all the unique locations where these events took place.",
+  "GT_entities": [
+    "Europa Subsurface Laboratory",
+    "Luna Oceanus Trading Post"
+  ],
+  "ent_A": "Europa Subsurface Laboratory",
+  "ent_B": "Luna Oceanus Trading Post",
+  "topk": 8,
+  "top_ids": [
+    43,
+    55218,
+    44,
+    50905,
+    27814,
+    60332,
+    34,
+    39600
+  ],
+  "top_tokens": [
+    {
+      "id": 43,
+      "str": "L",
+      "prob": 0.9940635561943054
+    },
+    {
+      "id": 55218,
+      "str": "Eu",
+      "prob": 0.005298512522131205
+    },
+    {
+      "id": 44,
+      "str": "M",
+      "prob": 0.00038986728759482503
+    },
+    {
+      "id": 50905,
+      "str": " Luna",
+      "prob": 0.00011345785605954006
+    },
+    {
+      "id": 27814,
+      "str": "Mer",
+      "prob": 3.2506217394256964e-05
+    },
+    {
+      "id": 60332,
+      "str": "Mil",
+      "prob": 2.0662209863075987e-05
+    },
+    {
+      "id": 34,
+      "str": "C",
+      "prob": 1.5842266293475404e-05
+    },
+    {
+      "id": 39600,
+      "str": " Europa",
+      "prob": 9.02665124158375e-06
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 55218,
+    "bare_str": "Eu",
+    "lead_id": 39600,
+    "lead_str": " Europa"
+  },
+  "first_token_B": {
+    "bare_id": 43,
+    "bare_str": "L",
+    "lead_id": 50905,
+    "lead_str": " Luna"
+  }
+}

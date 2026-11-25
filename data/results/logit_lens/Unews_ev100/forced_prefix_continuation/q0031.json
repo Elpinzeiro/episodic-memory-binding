@@ -1,0 +1,29 @@
+{
+  "question_idx": 31,
+  "question": "Consider all events that Noah Williams has been involved in. List all the locations where these events took place, without mentioning the events themselves.",
+  "gt_entities": [
+    "New South Wales",
+    "Vermont"
+  ],
+  "free_generation": "Smiling Bend | New South Wales | Volcanic Province | Rajasthan Province | Greater Mumbai.",
+  "missing_entities": [
+    "Vermont"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Vermont",
+      "first_token": {
+        "id": 53,
+        "str": "V",
+        "forced_continuation": "Vermont. New South Wales. Rajasthan. Smith Village. Luang Prabang Province. Greater Mumbai. Magellan Strait. Buenos Aires Province. North Dakota. Luzon Region. Marrakesh",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Vermont",
+        "forced_continuation": "Vermont. Rajasthan. Luang Prabang Province. Smith Village. Luang Prabang Province. New South Wales. Greater Mumbai. Vermont. Luang Prabang Province. Burliar Plant",
+        "recovered": true
+      }
+    }
+  ]
+}

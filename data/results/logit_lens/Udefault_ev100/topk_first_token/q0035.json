@@ -1,0 +1,75 @@
+{
+  "question_idx": 35,
+  "question": "Think about the events involving Fashion Show at High Line. List all protagonists involved in these events, without mentioning the events themselves.",
+  "GT_entities": [
+    "Julian Ross",
+    "Jackson Ramos"
+  ],
+  "ent_A": "Julian Ross",
+  "ent_B": "Jackson Ramos",
+  "topk": 8,
+  "top_ids": [
+    57,
+    96056,
+    34,
+    27368,
+    29185,
+    75741,
+    41745,
+    24903
+  ],
+  "top_tokens": [
+    {
+      "id": 57,
+      "str": "Z",
+      "prob": 0.9887554049491882
+    },
+    {
+      "id": 96056,
+      "str": "Scar",
+      "prob": 0.004798589739948511
+    },
+    {
+      "id": 34,
+      "str": "C",
+      "prob": 0.002777210669592023
+    },
+    {
+      "id": 27368,
+      "str": "Bro",
+      "prob": 0.0009448983473703265
+    },
+    {
+      "id": 29185,
+      "str": "Jul",
+      "prob": 0.0006700332160107791
+    },
+    {
+      "id": 75741,
+      "str": " Zoe",
+      "prob": 0.0006700332160107791
+    },
+    {
+      "id": 41745,
+      "str": "Luc",
+      "prob": 0.00047512471792288125
+    },
+    {
+      "id": 24903,
+      "str": "Sam",
+      "prob": 0.00022443300986196846
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 29185,
+    "bare_str": "Jul",
+    "lead_id": 38897,
+    "lead_str": " Julian"
+  },
+  "first_token_B": {
+    "bare_id": 62382,
+    "bare_str": "Jackson",
+    "lead_id": 13972,
+    "lead_str": " Jackson"
+  }
+}

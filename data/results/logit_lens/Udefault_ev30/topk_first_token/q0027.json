@@ -1,0 +1,75 @@
+{
+  "question_idx": 27,
+  "question": "Reflect on April 09, 2026. Describe all the key events that occurred on this date, focusing on what happened rather than who was involved or where it took place.",
+  "GT_entities": [
+    "Tech Hackathon",
+    "Astronomy Night"
+  ],
+  "ent_A": "Tech Hackathon",
+  "ent_B": "Astronomy Night",
+  "topk": 8,
+  "top_ids": [
+    35197,
+    98982,
+    97241,
+    36,
+    52587,
+    16257,
+    44924,
+    791
+  ],
+  "top_tokens": [
+    {
+      "id": 35197,
+      "str": "Tech",
+      "prob": 0.6772710084915161
+    },
+    {
+      "id": 98982,
+      "str": "Educ",
+      "prob": 0.11230253428220749
+    },
+    {
+      "id": 97241,
+      "str": "Fashion",
+      "prob": 0.10884734988212585
+    },
+    {
+      "id": 36,
+      "str": "E",
+      "prob": 0.060111213475465775
+    },
+    {
+      "id": 52587,
+      "str": "Film",
+      "prob": 0.00604554358869791
+    },
+    {
+      "id": 16257,
+      "str": "Stat",
+      "prob": 0.003016233677044511
+    },
+    {
+      "id": 44924,
+      "str": "Earth",
+      "prob": 0.001917234854772687
+    },
+    {
+      "id": 791,
+      "str": "The",
+      "prob": 0.0019023149507120252
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 35197,
+    "bare_str": "Tech",
+    "lead_id": 17829,
+    "lead_str": " Tech"
+  },
+  "first_token_B": {
+    "bare_id": 32,
+    "bare_str": "A",
+    "lead_id": 95803,
+    "lead_str": " Astronomy"
+  }
+}

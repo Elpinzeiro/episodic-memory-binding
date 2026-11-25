@@ -1,0 +1,44 @@
+{
+  "question_idx": 20,
+  "question": "Consider all events involving Henry Reed at Triton Gas Colony. Provide a list of all dates when these events occurred, without describing the events.",
+  "gt_entities": [
+    "March 23, 2224",
+    "September 22, 2226"
+  ],
+  "free_generation": "November 13, 2226; November 15, 2226; November 22, 2226; November 26, 2226; November 29, 2226; December 02, 2226; December 05, 2226; December 09, 2226; December 12, 2226; December 16, 2226; December 19, 2226; December 23, 2226; December 26, 2226; December 30, 2226; January 02, 2227; January 06, 2227; January 09, 2227; January 13, 2227; January 16, 2227; January 20, 2227; January 23, 2227; January 27, 2227; January 30, 2227; February 03, 2227; February 07, 2227;",
+  "missing_entities": [
+    "March 23, 2224",
+    "September 22, 2226"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "March 23, 2224",
+      "first_token": {
+        "id": 28623,
+        "str": "March",
+        "forced_continuation": "March 23, 2224; April 18, 2225; May 02, 2225; May 13, 2225; June 02, 2225; July",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "March",
+        "forced_continuation": "March 23, 2224; April 18, 2225; May 02, 2225; May 13, 2225; June 02, 2225; July",
+        "recovered": true
+      }
+    },
+    {
+      "missing_entity": "September 22, 2226",
+      "first_token": {
+        "id": 30649,
+        "str": "September",
+        "forced_continuation": "September 22, 2226; October 18, 2226; November 13, 2226; November 23, 2226; November 27, 2226; November",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "September",
+        "forced_continuation": "September 22, 2226; October 18, 2226; November 13, 2226; November 23, 2226; November 27, 2226; November",
+        "recovered": true
+      }
+    }
+  ]
+}

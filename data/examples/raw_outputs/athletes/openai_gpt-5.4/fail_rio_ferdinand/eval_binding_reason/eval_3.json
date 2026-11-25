@@ -1,0 +1,18 @@
+{
+  "expected": "['England national association football team', 'Manchester United F.C.', 'Queens Park Rangers F.C.']",
+  "response": "[\"Manchester United\",\"England\",\"Queens Park Rangers\"]",
+  "evaluation": {
+    "id": 3,
+    "found_expected": [
+      "Manchester United F.C.",
+      "England national association football team",
+      "Queens Park Rangers F.C."
+    ],
+    "missing": [],
+    "correct": true,
+    "found_in": "response"
+  },
+  "reasoning_content_used": true,
+  "judge_model": "anthropic/claude-sonnet-4",
+  "found_in": "response"
+}

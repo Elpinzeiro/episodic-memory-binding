@@ -1,0 +1,29 @@
+{
+  "question_idx": 22,
+  "question": "Think about Ezra Edwards's experiences. Describe all the key events they've been involved in, focusing on what happened rather than when or where it occurred.",
+  "gt_entities": [
+    "Tech Hackathon",
+    "Photography Exhibition"
+  ],
+  "free_generation": "Tech Hackathon took place. Space Mission Debate happened. Washington Square Park Protest was witnessed. Pseudonym Anonymous Comment was posted. Social Media Challenge went viral. Debate Tournament was organized. Educational Workshop occurred. Hackathon Award Ceremony took place. Scientific Conference presented breakthroughs. Brooklyn Black Sheep Gathering occurred. Fire Debate Dinner was hosted. Tech Hackathon Launch happened. Debate Tournament Finals occurred. Educational Workshop was attended. Fire Debate Dinner was hosted. Brooklyn Scientific Conference presented breakthroughs. Tech Hackathon Award Ceremony took place. Debate Tournament Final Debate happened. Fire Debate Dinner was hosted. Brooklyn Scientific Conference presented breakthroughs. Tech Hackathon Launch happened. Debate Tournament Final Debate occurred. Fire Debate Dinner was hosted. Brooklyn Scientific Conference presented breakthroughs. Tech Hackathon Award Ceremony took place. Debate Tournament Final Debate happened. Fire Debate Dinner was hosted. Brooklyn Scientific Conference presented breakthroughs. Tech Hackathon Launch happened. Debate Tournament Final Debate occurred. Fire Debate Dinner was hosted. Brooklyn Scientific Conference presented breakthroughs. Tech",
+  "missing_entities": [
+    "Photography Exhibition"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Photography Exhibition",
+      "first_token": {
+        "id": 53304,
+        "str": "Phot",
+        "forced_continuation": "Photography Exhibition or Film Festival or Tech Hackathon or Lillian Samuel or Park Bench Debate or Fashion Show or Scientific Conference or Late-Night Dining or Tech Hackathon Final or Art Museum or Space Mission Announcement",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Photography",
+        "forced_continuation": "Photography Exhibition or Film Festival or Tech Hackathon or Lillian Samuel or Park Bench Debate or Fashion Show or Scientific Conference or Late-Night Dining or Tech Hackathon Final or Art Museum or Space Mission Announcement or",
+        "recovered": true
+      }
+    }
+  ]
+}

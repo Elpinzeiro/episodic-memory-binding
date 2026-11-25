@@ -1,0 +1,75 @@
+{
+  "question_idx": 7,
+  "question": "Reflect on events related to train derailment. Provide a list of all protagonists involved in these events, without describing the events.",
+  "GT_entities": [
+    "Julian Ross",
+    "Mila Gonzalez"
+  ],
+  "ent_A": "Julian Ross",
+  "ent_B": "Mila Gonzalez",
+  "topk": 8,
+  "top_ids": [
+    27368,
+    12878,
+    29185,
+    2356,
+    44,
+    96056,
+    25581,
+    41745
+  ],
+  "top_tokens": [
+    {
+      "id": 27368,
+      "str": "Bro",
+      "prob": 0.6521713137626648
+    },
+    {
+      "id": 12878,
+      "str": "Cart",
+      "prob": 0.21506327390670776
+    },
+    {
+      "id": 29185,
+      "str": "Jul",
+      "prob": 0.02865440770983696
+    },
+    {
+      "id": 2356,
+      "str": "Le",
+      "prob": 0.024129431694746017
+    },
+    {
+      "id": 44,
+      "str": "M",
+      "prob": 0.02031901851296425
+    },
+    {
+      "id": 96056,
+      "str": "Scar",
+      "prob": 0.01969386637210846
+    },
+    {
+      "id": 25581,
+      "str": " Carter",
+      "prob": 0.01332553569227457
+    },
+    {
+      "id": 41745,
+      "str": "Luc",
+      "prob": 0.005731241777539253
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 29185,
+    "bare_str": "Jul",
+    "lead_id": 38897,
+    "lead_str": " Julian"
+  },
+  "first_token_B": {
+    "bare_id": 44,
+    "bare_str": "M",
+    "lead_id": 10357,
+    "lead_str": " Mil"
+  }
+}

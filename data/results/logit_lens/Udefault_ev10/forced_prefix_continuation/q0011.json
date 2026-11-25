@@ -1,0 +1,29 @@
+{
+  "question_idx": 11,
+  "question": "Think about the events involving Fashion Show at Metropolitan Museum of Art. List all protagonists involved in these events, without mentioning the events themselves.",
+  "gt_entities": [
+    "Scarlett Thomas",
+    "Carter Stewart"
+  ],
+  "free_generation": "Carter Stewart\nHenry Reed\nZoe Wallace\nLevi Rodriguez\nMila Gonzalez\nEmily Parker\nAva Rodriguez\nLily Chen\nWilliam Davis\nEthan Rodriguez\nSophia Rodriguez\nJames Chen\nOlivia Brooks\nMichael Reed\nEmily Patel\nLauren Reed\nEthan Reed\nHarrison Reed\nLily Reed\nCarter Reed\nHenry Reed\nEthan Reed\nLauren Reed\nMila Gonzalez\nEthan Reed\nLauren Reed\nEthan Reed\nLauren Reed\nEthan Reed\nLauren Reed\nEthan Reed\nLauren Reed\nEthan Reed\nLauren Reed\nEthan Reed\nLauren Reed\nEthan Reed\nLauren Reed\nEthan Reed\nLauren Reed\nEthan Reed\nLauren Reed\nEthan Reed\nLauren Reed\nEthan Reed\nLauren Reed\nEthan Reed\nLauren Reed\nEthan Reed\nLauren Reed\nEthan Reed\nLauren Reed",
+  "missing_entities": [
+    "Scarlett Thomas"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Scarlett Thomas",
+      "first_token": {
+        "id": 96056,
+        "str": "Scar",
+        "forced_continuation": "Scarlett Thomas Tom Bradley Henry Rodriguez",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Scarlett",
+        "forced_continuation": "Scarlett Thomas Tom Bradley Henry Rodriguez",
+        "recovered": true
+      }
+    }
+  ]
+}

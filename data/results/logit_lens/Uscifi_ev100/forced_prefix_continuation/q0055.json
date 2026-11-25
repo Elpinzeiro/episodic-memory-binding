@@ -1,0 +1,44 @@
+{
+  "question_idx": 55,
+  "question": "Consider all events involving both Carter Stewart and fusion core breach at Triton Gas Colony. Provide a list of all dates when these events occurred, without describing the events.",
+  "gt_entities": [
+    "June 14, 2225",
+    "July 13, 2224"
+  ],
+  "free_generation": "September 22, 2226; October 06, 2226;/oct/06/2226nine twenty-thirty pm;<time>; September 22, 2226; October 06, 2226; October 12, 2226; October 13, 2226; October 30, 2226; November 01, 2226; November 13, 2226; November 00, 2226; November 15, 2226; November 16, 2226; November 22, 2226; November 23, 2226; November 24, 2226; November 25, 2226; November 26, 2226; November 27, 2226; November 28, 2226; November 29, 2226; November 30, 2226; December 01, 2226; December 02, 2226; December ",
+  "missing_entities": [
+    "June 14, 2225",
+    "July 13, 2224"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "June 14, 2225",
+      "first_token": {
+        "id": 28259,
+        "str": "June",
+        "forced_continuation": "June 14, 2225; July 30, 2225;---</assistant\n\n(Note: The last date is likely to be unknown or missing, as you asked for a list of dates",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "June",
+        "forced_continuation": "June 14, 2225; July 30, 2225;---</assistant\n\n(Note: The last date is likely to be unknown or missing, as you asked for a list of dates",
+        "recovered": true
+      }
+    },
+    {
+      "missing_entity": "July 13, 2224",
+      "first_token": {
+        "id": 29527,
+        "str": "July",
+        "forced_continuation": "July 13, 2224; July 28, 2229; August 16, 2229;",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "July",
+        "forced_continuation": "July 13, 2224; July 28, 2229; August 16, 2229;",
+        "recovered": true
+      }
+    }
+  ]
+}

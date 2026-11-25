@@ -1,0 +1,29 @@
+{
+  "question_idx": 50,
+  "question": "Reflect on Julian Ross's experiences at Luna Shackleton Crater Colony. Describe all the key events they've been involved in at this location, focusing on what happened rather than when it occurred.",
+  "gt_entities": [
+    "plasma conduit rupture",
+    "antimatter cascade"
+  ],
+  "free_generation": "antimatter cascade struck Luna Shackleton Crater Colony; crisis leadership took hold at the colony; Lucy Carter reported digital afterlife advancements; Julian Ross faced virtual remains farewell; more episodes consider the question's request focus.",
+  "missing_entities": [
+    "plasma conduit rupture"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "plasma conduit rupture",
+      "first_token": {
+        "id": 501,
+        "str": "pl",
+        "forced_continuation": "plasma conduit rupturesystem\n\nYou are an expert in memory tests regarding the fictional book \"Synaptic Echoes 2026: The Neuro-Temporal Paradox of Episodic Precognition",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "plasma",
+        "forced_continuation": "plasma conduit rupturesystem\n\nYou are an expert in memory tests regarding the fictional book \"Synaptic Echoes 2026: The Neuro-Temporal Paradox of Episodic Precognition\".",
+        "recovered": true
+      }
+    }
+  ]
+}

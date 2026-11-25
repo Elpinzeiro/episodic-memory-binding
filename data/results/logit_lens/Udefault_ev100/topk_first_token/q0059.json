@@ -1,0 +1,75 @@
+{
+  "question_idx": 59,
+  "question": "Reflect on December 26, 2026. Describe all the key events that occurred on this date, focusing on what happened rather than who was involved or where it took place.",
+  "GT_entities": [
+    "Tech Hackathon",
+    "Fire Dancing Performance"
+  ],
+  "ent_A": "Tech Hackathon",
+  "ent_B": "Fire Dancing Performance",
+  "topk": 8,
+  "top_ids": [
+    35197,
+    17111,
+    98982,
+    51665,
+    97241,
+    40234,
+    64706,
+    38130
+  ],
+  "top_tokens": [
+    {
+      "id": 35197,
+      "str": "Tech",
+      "prob": 0.7112661004066467
+    },
+    {
+      "id": 17111,
+      "str": "Fire",
+      "prob": 0.11611100286245346
+    },
+    {
+      "id": 98982,
+      "str": "Educ",
+      "prob": 0.10572027415037155
+    },
+    {
+      "id": 51665,
+      "str": "Scient",
+      "prob": 0.048402268439531326
+    },
+    {
+      "id": 97241,
+      "str": "Fashion",
+      "prob": 0.01344082411378622
+    },
+    {
+      "id": 40234,
+      "str": "Education",
+      "prob": 0.002299453830346465
+    },
+    {
+      "id": 64706,
+      "str": "Park",
+      "prob": 0.0005130774807184935
+    },
+    {
+      "id": 38130,
+      "str": " Scientific",
+      "prob": 0.0003016226983163506
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 35197,
+    "bare_str": "Tech",
+    "lead_id": 17829,
+    "lead_str": " Tech"
+  },
+  "first_token_B": {
+    "bare_id": 17111,
+    "bare_str": "Fire",
+    "lead_id": 6785,
+    "lead_str": " Fire"
+  }
+}

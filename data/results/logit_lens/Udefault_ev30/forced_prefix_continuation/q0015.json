@@ -1,0 +1,44 @@
+{
+  "question_idx": 15,
+  "question": "Consider all events involving Henry Reed at Trinity Church. Provide a list of all dates when these events occurred, without describing the events.",
+  "gt_entities": [
+    "April 09, 2026",
+    "September 13, 2025"
+  ],
+  "free_generation": "November 13, 2026; November 16, 2026; November 17, 2026; November 20, 2026; November 23, 2026; November 26, 2026; November 30, 2026; December 04, 2026; December 07, 2026; December 11, 2026; December 14, 2026; February 27, 2026; March 06, 2026; March 13, 2026; April 10, 2026; April 17, 2026; April 24, 2026; May 01, 2026; May 08, 2026; May 15, 2026; May 22, 2026; May 29, 2026; June 05, 2026; June 12, 2026; June 19, 2026;",
+  "missing_entities": [
+    "April 09, 2026",
+    "September 13, 2025"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "April 09, 2026",
+      "first_token": {
+        "id": 29146,
+        "str": "April",
+        "forced_continuation": "April 09, 2026 November 13, 2026 November 30, 2026",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "April",
+        "forced_continuation": "April 09, 2026 November 13, 2026 November 30, 2026",
+        "recovered": true
+      }
+    },
+    {
+      "missing_entity": "September 13, 2025",
+      "first_token": {
+        "id": 30649,
+        "str": "September",
+        "forced_continuation": "September 13, 2025 November 09, 2025 November 17, 2025 November 26, 2025",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "September",
+        "forced_continuation": "September 13, 2025 November 09, 2025 November 17, 2025 November 26, 2025",
+        "recovered": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "question_idx": 29,
+  "question": "Consider all events that Lillian Mendoza has been involved in. List all the locations where these events took place, without mentioning the events themselves.",
+  "gt_entities": [
+    "One World Trade Center",
+    "High Line"
+  ],
+  "free_generation": "High Line Elevated Park| American Museum of Natural History| Metropolis Park| One World Trade Center| Bethune Park| Metropolitan Museum of Art| Statue of Liberty| High Line Little Red Statue| Trinity Church| Statue of Liberty Museum| Metropolitan Museum of Art Main Entrance| High Line Northern Terminal| Trinity Church Yard| Bethune Park Square| One World Trade Center Top Level| Metropolis Park Fountain| American Museum of Natural History Rose Garden.| High Line Mural| Statue of Liberty Grounds| Metropolitan Museum of Art Roof Garden| Bethune Park Walkway| One World Trade Center Observation Deck| Trinity Church Courtyard| High Line Elevated Park Northern End| Metropolitan Museum of Art Great Hall Veranda| Statue of Liberty Museum Theater| Bethune Park Water Feature| Trinity Church Greenmarket| One World Trade Center Event Space| Metropolis Park Ice Rink| High Line Northern Piers| American Museum of Natural History Milstein Hall of Ocean Life| Metropolitan Museum of Art Temple of Dendur| Statue",
+  "missing_entities": [],
+  "is_binding_failure": false,
+  "forced_prefix_experiments": []
+}

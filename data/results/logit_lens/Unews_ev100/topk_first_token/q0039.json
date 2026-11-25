@@ -1,0 +1,75 @@
+{
+  "question_idx": 39,
+  "question": "Think about the events involving vote counting disruption at Luang Prabang Province. List all protagonists involved in these events, without mentioning the events themselves.",
+  "GT_entities": [
+    "Scarlett Thomas",
+    "Carter Stewart"
+  ],
+  "ent_A": "Scarlett Thomas",
+  "ent_B": "Carter Stewart",
+  "topk": 8,
+  "top_ids": [
+    41745,
+    64463,
+    62080,
+    29185,
+    2356,
+    96056,
+    34,
+    45459
+  ],
+  "top_tokens": [
+    {
+      "id": 41745,
+      "str": "Luc",
+      "prob": 0.5512230396270752
+    },
+    {
+      "id": 64463,
+      "str": "Henry",
+      "prob": 0.3908756375312805
+    },
+    {
+      "id": 62080,
+      "str": "Roman",
+      "prob": 0.04454565420746803
+    },
+    {
+      "id": 29185,
+      "str": "Jul",
+      "prob": 0.004622286651283503
+    },
+    {
+      "id": 2356,
+      "str": "Le",
+      "prob": 0.0022527226246893406
+    },
+    {
+      "id": 96056,
+      "str": "Scar",
+      "prob": 0.002217797329649329
+    },
+    {
+      "id": 34,
+      "str": "C",
+      "prob": 0.000855037069413811
+    },
+    {
+      "id": 45459,
+      "str": "Rom",
+      "prob": 0.0008158819982782006
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 96056,
+    "bare_str": "Scar",
+    "lead_id": 96572,
+    "lead_str": " Scarlett"
+  },
+  "first_token_B": {
+    "bare_id": 34,
+    "bare_str": "C",
+    "lead_id": 25581,
+    "lead_str": " Carter"
+  }
+}

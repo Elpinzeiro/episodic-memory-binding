@@ -1,0 +1,29 @@
+{
+  "question_idx": 2,
+  "question": "Reflect on events related to Photography Exhibition. Provide a list of all protagonists involved in these events, without describing the events.",
+  "gt_entities": [
+    "Ezra Edwards",
+    "Levi Rodriguez"
+  ],
+  "free_generation": "Levi Rodriguez Levi Carter Henry Watson Amanda Rodriguez Scarlett Thomas Milhouse Williams Benjamin Green Noah Brooks Jackson Williams Henry Brooks Zoe Brown Scarlett Carter Noah Rodriguez Milhouse Carter Noah Rodriguez Scarlett Carter Scarlett Carter Scarlett Carter Scarlett Carter Scarlett Carter Scarlett Carter Scarlett Carter Scarlett Carter Scarlett Carter Scarlett Carter Scarlett Carter Scarlett Carter Scarlett Carter Scarlett Carter Scarlett Carter Scarlett Carter Scarlett Carter Scarlett Carter Scarlett Carter Scarlett Carter Scarlett Carter Scarlett Carter Scarlett Carter Scarlett Carter Scarlett Carter Scarlett Carter Scarlett Carter Scarlett Carter Scarlett Carter Scarlett Carter Scarlett Carter Scarlett Carter Scarlett Carter Scarlett Carter Scarlett Carter Scarlett Carter Scarlett Carter Scarlett Carter Scarlett Carter Scarlett Carter Scarlett Carter Scarlett Carter Scarlett Carter Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett Scarlett",
+  "missing_entities": [
+    "Ezra Edwards"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Ezra Edwards",
+      "first_token": {
+        "id": 36,
+        "str": "E",
+        "forced_continuation": "Ezra Edwards Levi Rodriguez Henry Williams Mila Gonzalez Benjamin Green Carmen Ross Pedro Martinez Quinn Brooks Julian Ross Jackson White Lucy Carter Samuel Parker Zoe Martin Henry Ross Maya Allen Julian Ross Henry Brown Henry Ross Henry Carter",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Ezra",
+        "forced_continuation": "Ezra Edwards Levi Rodriguez Henry Williams Mila Gonzalez Benjamin Green Carmen Ross Pedro Martinez Quinn Brooks Julian Ross Jackson White Lucy Carter Samuel Parker Zoe Martin Henry Ross Maya Allen Julian Ross Henry Brown Henry Ross Henry Carter Henry Ross",
+        "recovered": true
+      }
+    }
+  ]
+}

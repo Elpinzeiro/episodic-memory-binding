@@ -1,0 +1,75 @@
+{
+  "question_idx": 65,
+  "question": "Think about the events involving Educational Workshop on July 13, 2024. Provide a list of all protagonists involved in these events, without describing the events.",
+  "GT_entities": [
+    "Mila Gonzalez",
+    "Levi Rodriguez"
+  ],
+  "ent_A": "Mila Gonzalez",
+  "ent_B": "Levi Rodriguez",
+  "topk": 8,
+  "top_ids": [
+    64463,
+    96056,
+    18063,
+    29185,
+    2356,
+    44,
+    24903,
+    41745
+  ],
+  "top_tokens": [
+    {
+      "id": 64463,
+      "str": "Henry",
+      "prob": 0.9988553524017334
+    },
+    {
+      "id": 96056,
+      "str": "Scar",
+      "prob": 0.0008423876715824008
+    },
+    {
+      "id": 18063,
+      "str": " Henry",
+      "prob": 0.00012520974269136786
+    },
+    {
+      "id": 29185,
+      "str": "Jul",
+      "prob": 7.246584573294967e-05
+    },
+    {
+      "id": 2356,
+      "str": "Le",
+      "prob": 2.8378031856846064e-05
+    },
+    {
+      "id": 44,
+      "str": "M",
+      "prob": 2.316147401870694e-05
+    },
+    {
+      "id": 24903,
+      "str": "Sam",
+      "prob": 1.361592785542598e-05
+    },
+    {
+      "id": 41745,
+      "str": "Luc",
+      "prob": 9.655139365349896e-06
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 44,
+    "bare_str": "M",
+    "lead_id": 10357,
+    "lead_str": " Mil"
+  },
+  "first_token_B": {
+    "bare_id": 2356,
+    "bare_str": "Le",
+    "lead_id": 56141,
+    "lead_str": " Levi"
+  }
+}

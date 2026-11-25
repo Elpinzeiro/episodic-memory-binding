@@ -1,0 +1,29 @@
+{
+  "question_idx": 6,
+  "question": "Reflect on events related to produce contamination outbreak. Provide a list of all protagonists involved in these events, without describing the events.",
+  "gt_entities": [
+    "Mila Gonzalez",
+    "Levi Rodriguez"
+  ],
+  "free_generation": "Levi Rodriguez and Henry Reed.",
+  "missing_entities": [
+    "Mila Gonzalez"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Mila Gonzalez",
+      "first_token": {
+        "id": 44,
+        "str": "M",
+        "forced_continuation": "Mila Gonzalez\nLuc Zhou\nHenry Reed\nScarlett Edwards\nEzra Fernandez\nLevi Rodriguez\nCarter Green\nJulian Ross\nBrooklyn Thomas\nNoah Williams\nL",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Mila",
+        "forced_continuation": "Mila Gonzalez\nLuc Zhou\nHenry Reed\nScarlett Edwards\nEzra Fernandez\nLevi Rodriguez\nCarter Green\nJulian Ross\nBrooklyn Thomas\nNoah Williams\nLillian",
+        "recovered": true
+      }
+    }
+  ]
+}

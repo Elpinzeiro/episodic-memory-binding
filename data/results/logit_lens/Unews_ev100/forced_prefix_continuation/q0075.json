@@ -1,0 +1,29 @@
+{
+  "question_idx": 75,
+  "question": "Recall the events related to bridge collapse that occurred on May 11, 2026. List all the locations where these events took place, without describing the events themselves.",
+  "gt_entities": [
+    "Luzon Region",
+    "Vermont"
+  ],
+  "free_generation": "Rajasthan. Luang Prabang. Greater Mumbai. Luang Prabang Province. Vermont. Luang Prabang Province. Greater Mumbai. Buenos Aires Province. Sichuan. Vermont. Greater Mumbai. Rajasthan. Greater Mumbai. Greater Mumbai. Greater Mumbai. Greater Mumbai. Greater Mumbai. Greater Mumbai. Greater Mumbai. Greater Mumbai. Greater Mumbai. Greater Mumbai. Greater Mumbai. Greater Mumbai. Greater Mumbai. Greater Mumbai. Greater Mumbai. Greater Mumbai. Greater Mumbai. Greater Mumbai. Greater Mumbai. Greater Mumbai. Greater Mumbai. Greater Mumbai. Greater Mumbai. Greater Mumbai. Greater Mumbai. Greater Mumbai. Greater Mumbai. Greater Mumbai. Greater Mumbai. Greater Mumbai. Greater Mumbai. Greater Mumbai. Greater Mumbai. Greater Mumbai. Greater Mumbai. Greater Mumbai. Greater Mumbai. Greater Mumbai. Greater Mumbai. Greater Mumbai. Greater Mumbai. Greater Mumbai. Greater Mumbai. Greater Mumbai. Greater Mumbai. Greater Mumbai. Greater Mumbai. Greater Mumbai. Greater Mumbai. Greater Mumbai. Greater Mumbai.",
+  "missing_entities": [
+    "Luzon Region"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Luzon Region",
+      "first_token": {
+        "id": 43,
+        "str": "L",
+        "forced_continuation": "Luzon Region Luzon Region Greater Mumbai Rajasthan Province Vermont.",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Luzon",
+        "forced_continuation": "Luzon Region Luzon Region Greater Mumbai Rajasthan Province Vermont.",
+        "recovered": true
+      }
+    }
+  ]
+}

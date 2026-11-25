@@ -1,0 +1,75 @@
+{
+  "question_idx": 24,
+  "question": "Think about Lillian Mendoza's experiences. Describe all the key events they've been involved in, focusing on what happened rather than when or where it occurred.",
+  "GT_entities": [
+    "plasma conduit rupture",
+    "magnetic confinement rupture"
+  ],
+  "ent_A": "plasma conduit rupture",
+  "ent_B": "magnetic confinement rupture",
+  "topk": 8,
+  "top_ids": [
+    501,
+    23432,
+    76,
+    2008,
+    62238,
+    55665,
+    17717,
+    519
+  ],
+  "top_tokens": [
+    {
+      "id": 501,
+      "str": "pl",
+      "prob": 0.9662469029426575
+    },
+    {
+      "id": 23432,
+      "str": "navigation",
+      "prob": 0.01611369289457798
+    },
+    {
+      "id": 76,
+      "str": "m",
+      "prob": 0.00703955115750432
+    },
+    {
+      "id": 2008,
+      "str": "sub",
+      "prob": 0.0026304880157113075
+    },
+    {
+      "id": 62238,
+      "str": "cry",
+      "prob": 0.0025897060986608267
+    },
+    {
+      "id": 55665,
+      "str": "fusion",
+      "prob": 0.0013646793086081743
+    },
+    {
+      "id": 17717,
+      "str": "memory",
+      "prob": 0.0013021861668676138
+    },
+    {
+      "id": 519,
+      "str": "ant",
+      "prob": 0.0012621220666915178
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 501,
+    "bare_str": "pl",
+    "lead_id": 32426,
+    "lead_str": " plasma"
+  },
+  "first_token_B": {
+    "bare_id": 76,
+    "bare_str": "m",
+    "lead_id": 24924,
+    "lead_str": " magnetic"
+  }
+}

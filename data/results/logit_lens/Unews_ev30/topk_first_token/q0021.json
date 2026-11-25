@@ -1,0 +1,75 @@
+{
+  "question_idx": 21,
+  "question": "Recall the various events that have taken place at North Dakota. Describe what happened during these events, focusing on the actions or occurrences rather than the timing or people involved.",
+  "GT_entities": [
+    "residential tower fire",
+    "volcanic eruption"
+  ],
+  "ent_A": "residential tower fire",
+  "ent_B": "volcanic eruption",
+  "topk": 8,
+  "top_ids": [
+    12821,
+    417,
+    50864,
+    19824,
+    67164,
+    14024,
+    94295,
+    31807
+  ],
+  "top_tokens": [
+    {
+      "id": 12821,
+      "str": "vol",
+      "prob": 0.94246906042099
+    },
+    {
+      "id": 417,
+      "str": "res",
+      "prob": 0.05659966543316841
+    },
+    {
+      "id": 50864,
+      "str": "reso",
+      "prob": 0.00016660625988151878
+    },
+    {
+      "id": 19824,
+      "str": "flash",
+      "prob": 0.00014702951011713594
+    },
+    {
+      "id": 67164,
+      "str": " volcanic",
+      "prob": 9.49293898884207e-05
+    },
+    {
+      "id": 14024,
+      "str": "bridge",
+      "prob": 8.509415783919394e-05
+    },
+    {
+      "id": 94295,
+      "str": ".vol",
+      "prob": 4.699345663539134e-05
+    },
+    {
+      "id": 31807,
+      "str": " rés",
+      "prob": 3.4922570193884894e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 417,
+    "bare_str": "res",
+    "lead_id": 20658,
+    "lead_str": " residential"
+  },
+  "first_token_B": {
+    "bare_id": 12821,
+    "bare_str": "vol",
+    "lead_id": 67164,
+    "lead_str": " volcanic"
+  }
+}

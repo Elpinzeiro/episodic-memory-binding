@@ -1,0 +1,75 @@
+{
+  "question_idx": 0,
+  "question": "Reflect on events related to Educational Workshop. Provide a list of all protagonists involved in these events, without describing the events.",
+  "GT_entities": [
+    "Henry Reed",
+    "Levi Rodriguez"
+  ],
+  "ent_A": "Henry Reed",
+  "ent_B": "Levi Rodriguez",
+  "topk": 8,
+  "top_ids": [
+    2356,
+    64463,
+    24903,
+    34,
+    60332,
+    26479,
+    99767,
+    12608
+  ],
+  "top_tokens": [
+    {
+      "id": 2356,
+      "str": "Le",
+      "prob": 0.8766703009605408
+    },
+    {
+      "id": 64463,
+      "str": "Henry",
+      "prob": 0.056043654680252075
+    },
+    {
+      "id": 24903,
+      "str": "Sam",
+      "prob": 0.052648141980171204
+    },
+    {
+      "id": 34,
+      "str": "C",
+      "prob": 0.007351328153163195
+    },
+    {
+      "id": 60332,
+      "str": "Mil",
+      "prob": 0.0024242105428129435
+    },
+    {
+      "id": 26479,
+      "str": "Cam",
+      "prob": 0.0014703581109642982
+    },
+    {
+      "id": 99767,
+      "str": "Leo",
+      "prob": 0.0006837800610810518
+    },
+    {
+      "id": 12608,
+      "str": "Mill",
+      "prob": 0.0006323931156657636
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 64463,
+    "bare_str": "Henry",
+    "lead_id": 18063,
+    "lead_str": " Henry"
+  },
+  "first_token_B": {
+    "bare_id": 2356,
+    "bare_str": "Le",
+    "lead_id": 56141,
+    "lead_str": " Levi"
+  }
+}

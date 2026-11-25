@@ -1,0 +1,75 @@
+{
+  "question_idx": 63,
+  "question": "Reflect on November 07, 2225. Describe all the key events that occurred on this date, focusing on what happened rather than who was involved or where it took place.",
+  "GT_entities": [
+    "cryo-pod integrity breach",
+    "antimatter cascade"
+  ],
+  "ent_A": "cryo-pod integrity breach",
+  "ent_B": "antimatter cascade",
+  "topk": 8,
+  "top_ids": [
+    519,
+    2008,
+    62238,
+    55665,
+    38966,
+    15719,
+    1820,
+    79312
+  ],
+  "top_tokens": [
+    {
+      "id": 519,
+      "str": "ant",
+      "prob": 0.9865821599960327
+    },
+    {
+      "id": 2008,
+      "str": "sub",
+      "prob": 0.004568782169371843
+    },
+    {
+      "id": 62238,
+      "str": "cry",
+      "prob": 0.00272814417257905
+    },
+    {
+      "id": 55665,
+      "str": "fusion",
+      "prob": 0.0018750241724774241
+    },
+    {
+      "id": 38966,
+      "str": "antis",
+      "prob": 0.0006479910225607455
+    },
+    {
+      "id": 15719,
+      "str": "anti",
+      "prob": 0.0005046559381298721
+    },
+    {
+      "id": 1820,
+      "str": "the",
+      "prob": 8.566457836423069e-05
+    },
+    {
+      "id": 79312,
+      "str": " antim",
+      "prob": 8.174170943675563e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 62238,
+    "bare_str": "cry",
+    "lead_id": 16106,
+    "lead_str": " cry"
+  },
+  "first_token_B": {
+    "bare_id": 519,
+    "bare_str": "ant",
+    "lead_id": 79312,
+    "lead_str": " antim"
+  }
+}

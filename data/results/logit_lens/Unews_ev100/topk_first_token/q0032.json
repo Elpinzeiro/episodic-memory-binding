@@ -1,0 +1,75 @@
+{
+  "question_idx": 32,
+  "question": "Recall all events related to flash flood emergency that occurred at Greater Mumbai. Provide a list of all dates when these events took place, without describing the events.",
+  "GT_entities": [
+    "January 03, 2026",
+    "May 11, 2026"
+  ],
+  "ent_A": "January 03, 2026",
+  "ent_B": "May 11, 2026",
+  "topk": 8,
+  "top_ids": [
+    30649,
+    34827,
+    28259,
+    29146,
+    31294,
+    6250,
+    29527,
+    19480
+  ],
+  "top_tokens": [
+    {
+      "id": 30649,
+      "str": "September",
+      "prob": 0.6012699007987976
+    },
+    {
+      "id": 34827,
+      "str": "November",
+      "prob": 0.3704316318035126
+    },
+    {
+      "id": 28259,
+      "str": "June",
+      "prob": 0.027685781940817833
+    },
+    {
+      "id": 29146,
+      "str": "April",
+      "prob": 0.00035957549698650837
+    },
+    {
+      "id": 31294,
+      "str": "October",
+      "prob": 3.971779005951248e-05
+    },
+    {
+      "id": 6250,
+      "str": " September",
+      "prob": 3.971779005951248e-05
+    },
+    {
+      "id": 29527,
+      "str": "July",
+      "prob": 3.397242471692152e-05
+    },
+    {
+      "id": 19480,
+      "str": "Nov",
+      "prob": 2.028586095548235e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 33327,
+    "bare_str": "January",
+    "lead_id": 6186,
+    "lead_str": " January"
+  },
+  "first_token_B": {
+    "bare_id": 11356,
+    "bare_str": "May",
+    "lead_id": 3297,
+    "lead_str": " May"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "question_idx": 37,
+  "question": "Recall the events related to cryo-pod integrity breach that occurred on February 27, 2226. List all the locations where these events took place, without describing the events themselves.",
+  "GT_entities": [
+    "Mercury Twilight Observatory",
+    "Phobos Military Base"
+  ],
+  "ent_A": "Mercury Twilight Observatory",
+  "ent_B": "Phobos Military Base",
+  "topk": 8,
+  "top_ids": [
+    51,
+    2434,
+    43,
+    1305,
+    82875,
+    93555,
+    44,
+    49238
+  ],
+  "top_tokens": [
+    {
+      "id": 51,
+      "str": "T",
+      "prob": 0.8858096599578857
+    },
+    {
+      "id": 2434,
+      "str": "TR",
+      "prob": 0.06830631196498871
+    },
+    {
+      "id": 43,
+      "str": "L",
+      "prob": 0.03656173497438431
+    },
+    {
+      "id": 1305,
+      "str": "Tr",
+      "prob": 0.0030484311282634735
+    },
+    {
+      "id": 82875,
+      "str": "TRS",
+      "prob": 0.002411507535725832
+    },
+    {
+      "id": 93555,
+      "str": "Tro",
+      "prob": 0.0009153050486929715
+    },
+    {
+      "id": 44,
+      "str": "M",
+      "prob": 0.0005818033241666853
+    },
+    {
+      "id": 49238,
+      "str": "Tra",
+      "prob": 0.0005054794601164758
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 27814,
+    "bare_str": "Mer",
+    "lead_id": 44662,
+    "lead_str": " Mercury"
+  },
+  "first_token_B": {
+    "bare_id": 3438,
+    "bare_str": "Ph",
+    "lead_id": 2405,
+    "lead_str": " Ph"
+  }
+}

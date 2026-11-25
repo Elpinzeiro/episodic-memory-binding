@@ -1,0 +1,75 @@
+{
+  "question_idx": 0,
+  "question": "Reflect on events related to Astronomy Night. Provide a list of all protagonists involved in these events, without describing the events.",
+  "GT_entities": [
+    "Henry Reed",
+    "Scarlett Thomas"
+  ],
+  "ent_A": "Henry Reed",
+  "ent_B": "Scarlett Thomas",
+  "topk": 8,
+  "top_ids": [
+    64463,
+    24903,
+    96056,
+    77264,
+    37707,
+    44,
+    34,
+    93599
+  ],
+  "top_tokens": [
+    {
+      "id": 64463,
+      "str": "Henry",
+      "prob": 0.9332680702209473
+    },
+    {
+      "id": 24903,
+      "str": "Sam",
+      "prob": 0.03675658628344536
+    },
+    {
+      "id": 96056,
+      "str": "Scar",
+      "prob": 0.025262409821152687
+    },
+    {
+      "id": 77264,
+      "str": "Carl",
+      "prob": 0.002106320345774293
+    },
+    {
+      "id": 37707,
+      "str": "Carbon",
+      "prob": 0.000673220376484096
+    },
+    {
+      "id": 44,
+      "str": "M",
+      "prob": 0.0003180067869834602
+    },
+    {
+      "id": 34,
+      "str": "C",
+      "prob": 0.00025156408082693815
+    },
+    {
+      "id": 93599,
+      "str": "Carlos",
+      "prob": 0.00023632256488781422
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 64463,
+    "bare_str": "Henry",
+    "lead_id": 18063,
+    "lead_str": " Henry"
+  },
+  "first_token_B": {
+    "bare_id": 96056,
+    "bare_str": "Scar",
+    "lead_id": 96572,
+    "lead_str": " Scarlett"
+  }
+}

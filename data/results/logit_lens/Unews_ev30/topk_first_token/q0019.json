@@ -1,0 +1,75 @@
+{
+  "question_idx": 19,
+  "question": "Recall all events related to bridge collapse that occurred at Luzon Region. Provide a list of all dates when these events took place, without describing the events.",
+  "GT_entities": [
+    "June 14, 2025",
+    "May 11, 2026"
+  ],
+  "ent_A": "June 14, 2025",
+  "ent_B": "May 11, 2026",
+  "topk": 8,
+  "top_ids": [
+    11356,
+    33877,
+    28259,
+    29527,
+    30649,
+    28623,
+    7552,
+    34827
+  ],
+  "top_tokens": [
+    {
+      "id": 11356,
+      "str": "May",
+      "prob": 0.8369500637054443
+    },
+    {
+      "id": 33877,
+      "str": "February",
+      "prob": 0.15725825726985931
+    },
+    {
+      "id": 28259,
+      "str": "June",
+      "prob": 0.004823570605367422
+    },
+    {
+      "id": 29527,
+      "str": "July",
+      "prob": 0.0003959427704103291
+    },
+    {
+      "id": 30649,
+      "str": "September",
+      "prob": 0.00019600587256718427
+    },
+    {
+      "id": 28623,
+      "str": "March",
+      "prob": 0.0001285437901969999
+    },
+    {
+      "id": 7552,
+      "str": " February",
+      "prob": 9.404465527040884e-05
+    },
+    {
+      "id": 34827,
+      "str": "November",
+      "prob": 6.565374496858567e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 28259,
+    "bare_str": "June",
+    "lead_id": 5651,
+    "lead_str": " June"
+  },
+  "first_token_B": {
+    "bare_id": 11356,
+    "bare_str": "May",
+    "lead_id": 3297,
+    "lead_str": " May"
+  }
+}

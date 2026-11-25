@@ -1,0 +1,11 @@
+[
+  true,
+  [],
+  {
+    "location": true,
+    "date": true,
+    "entity": true,
+    "content": true
+  },
+  "Here is my analysis of the text:\n\n(1) The text takes place at a single location: \"Area 51 Alien Center\" - true\n(2) The text takes place on a single day: \"May 11, 1898\" - true\n(3) The text has a single main character: \"Sora Yamamoto\" - true\n(4) The text describes a main event (attending a fashion show) with a sub-event (discussing music selection with the team) happening at that location that day - true\n\n```json\n{\n    \"1\": true,\n    \"2\": true,\n    \"3\": true,\n    \"4\": true\n}\n```"
+]

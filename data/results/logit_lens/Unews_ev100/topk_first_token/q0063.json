@@ -1,0 +1,75 @@
+{
+  "question_idx": 63,
+  "question": "Reflect on December 26, 2026. Describe all the key events that occurred on this date, focusing on what happened rather than who was involved or where it took place.",
+  "GT_entities": [
+    "opera house fire",
+    "volcanic eruption"
+  ],
+  "ent_A": "opera house fire",
+  "ent_B": "volcanic eruption",
+  "topk": 8,
+  "top_ids": [
+    12821,
+    30458,
+    19824,
+    97364,
+    14024,
+    28407,
+    10613,
+    67164
+  ],
+  "top_tokens": [
+    {
+      "id": 12821,
+      "str": "vol",
+      "prob": 0.8087732791900635
+    },
+    {
+      "id": 30458,
+      "str": "vote",
+      "prob": 0.11470844596624374
+    },
+    {
+      "id": 19824,
+      "str": "flash",
+      "prob": 0.033907752484083176
+    },
+    {
+      "id": 97364,
+      "str": "magnitude",
+      "prob": 0.011902740225195885
+    },
+    {
+      "id": 14024,
+      "str": "bridge",
+      "prob": 0.011536531150341034
+    },
+    {
+      "id": 28407,
+      "str": "volatile",
+      "prob": 0.004310886841267347
+    },
+    {
+      "id": 10613,
+      "str": "train",
+      "prob": 0.0030568765942007303
+    },
+    {
+      "id": 67164,
+      "str": " volcanic",
+      "prob": 0.002307451330125332
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 454,
+    "bare_str": "op",
+    "lead_id": 43516,
+    "lead_str": " opera"
+  },
+  "first_token_B": {
+    "bare_id": 12821,
+    "bare_str": "vol",
+    "lead_id": 67164,
+    "lead_str": " volcanic"
+  }
+}

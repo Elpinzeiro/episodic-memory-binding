@@ -1,0 +1,75 @@
+{
+  "question_idx": 14,
+  "question": "Reflect on Samuel Parker's experiences at Mercury Twilight Observatory. Describe all the key events they've been involved in at this location, focusing on what happened rather than when it occurred.",
+  "GT_entities": [
+    "plasma conduit rupture",
+    "cryo-pod integrity breach"
+  ],
+  "ent_A": "plasma conduit rupture",
+  "ent_B": "cryo-pod integrity breach",
+  "topk": 8,
+  "top_ids": [
+    519,
+    62238,
+    2008,
+    266,
+    55665,
+    65898,
+    501,
+    67815
+  ],
+  "top_tokens": [
+    {
+      "id": 519,
+      "str": "ant",
+      "prob": 0.3416668176651001
+    },
+    {
+      "id": 62238,
+      "str": "cry",
+      "prob": 0.2499687820672989
+    },
+    {
+      "id": 2008,
+      "str": "sub",
+      "prob": 0.1886863261461258
+    },
+    {
+      "id": 266,
+      "str": "at",
+      "prob": 0.03657851368188858
+    },
+    {
+      "id": 55665,
+      "str": "fusion",
+      "prob": 0.012641198001801968
+    },
+    {
+      "id": 65898,
+      "str": "subs",
+      "prob": 0.009394139982759953
+    },
+    {
+      "id": 501,
+      "str": "pl",
+      "prob": 0.006112883798778057
+    },
+    {
+      "id": 67815,
+      "str": "cargo",
+      "prob": 0.004798057489097118
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 501,
+    "bare_str": "pl",
+    "lead_id": 32426,
+    "lead_str": " plasma"
+  },
+  "first_token_B": {
+    "bare_id": 62238,
+    "bare_str": "cry",
+    "lead_id": 16106,
+    "lead_str": " cry"
+  }
+}

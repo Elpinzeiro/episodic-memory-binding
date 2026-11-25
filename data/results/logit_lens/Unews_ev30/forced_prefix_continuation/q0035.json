@@ -1,0 +1,29 @@
+{
+  "question_idx": 35,
+  "question": "Recall the events related to bridge collapse that occurred on May 11, 2026. List all the locations where these events took place, without describing the events themselves.",
+  "gt_entities": [
+    "Luzon Region",
+    "Vermont"
+  ],
+  "free_generation": "Luang Prabang Province Vermont Province Rajasthan Province Luzon Province Sichuan Province North Dakota Province Buenos Aires Province Jharkhand Province Rajasthan Province Luang Prabang Province Luzon Province Sichuan Province North Dakota Province Buenos Aires Province Jharkhand Province Vermont Province.",
+  "missing_entities": [
+    "Luzon Region"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Luzon Region",
+      "first_token": {
+        "id": 43,
+        "str": "L",
+        "forced_continuation": "Luzon Region, South America.",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Luzon",
+        "forced_continuation": "Luzon Region, South America.",
+        "recovered": true
+      }
+    }
+  ]
+}

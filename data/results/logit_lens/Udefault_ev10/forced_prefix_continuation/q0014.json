@@ -1,0 +1,29 @@
+{
+  "question_idx": 14,
+  "question": "Reflect on May 11, 2026. Describe all the key events that occurred on this date, focusing on what happened rather than who was involved or where it took place.",
+  "gt_entities": [
+    "Theater Performance",
+    "Fashion Show"
+  ],
+  "free_generation": "Fashion Show Debates and Tech Hackathon",
+  "missing_entities": [
+    "Theater Performance"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Theater Performance",
+      "first_token": {
+        "id": 791,
+        "str": "The",
+        "forced_continuation": "Theater Performance: Fashion Show",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Theater",
+        "forced_continuation": "Theater Performance: Fashion Show",
+        "recovered": true
+      }
+    }
+  ]
+}

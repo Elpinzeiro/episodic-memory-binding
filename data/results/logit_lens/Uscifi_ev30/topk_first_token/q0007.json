@@ -1,0 +1,75 @@
+{
+  "question_idx": 7,
+  "question": "Consider all events involving both Levi Rodriguez and antimatter cascade. Provide a list of all dates when these events occurred, without describing the events.",
+  "GT_entities": [
+    "May 11, 2226",
+    "November 13, 2226"
+  ],
+  "ent_A": "May 11, 2226",
+  "ent_B": "November 13, 2226",
+  "topk": 8,
+  "top_ids": [
+    33877,
+    34827,
+    30649,
+    7552,
+    11356,
+    28259,
+    28623,
+    31294
+  ],
+  "top_tokens": [
+    {
+      "id": 33877,
+      "str": "February",
+      "prob": 0.9914121627807617
+    },
+    {
+      "id": 34827,
+      "str": "November",
+      "prob": 0.003411852288991213
+    },
+    {
+      "id": 30649,
+      "str": "September",
+      "prob": 0.0027415002696216106
+    },
+    {
+      "id": 7552,
+      "str": " February",
+      "prob": 0.0016370246885344386
+    },
+    {
+      "id": 11356,
+      "str": "May",
+      "prob": 0.0006022276938892901
+    },
+    {
+      "id": 28259,
+      "str": "June",
+      "prob": 0.00013649127504322678
+    },
+    {
+      "id": 28623,
+      "str": "March",
+      "prob": 2.2632471882388927e-05
+    },
+    {
+      "id": 31294,
+      "str": "October",
+      "prob": 1.0361899512645323e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 11356,
+    "bare_str": "May",
+    "lead_id": 3297,
+    "lead_str": " May"
+  },
+  "first_token_B": {
+    "bare_id": 34827,
+    "bare_str": "November",
+    "lead_id": 6841,
+    "lead_str": " November"
+  }
+}

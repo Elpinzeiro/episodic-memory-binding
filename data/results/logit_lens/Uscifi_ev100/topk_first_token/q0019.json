@@ -1,0 +1,75 @@
+{
+  "question_idx": 19,
+  "question": "Consider all events that Lillian Mendoza has been involved in. List all the locations where these events took place, without mentioning the events themselves.",
+  "GT_entities": [
+    "Mercury Twilight Observatory",
+    "Luna Shackleton Crater Colony"
+  ],
+  "ent_A": "Mercury Twilight Observatory",
+  "ent_B": "Luna Shackleton Crater Colony",
+  "topk": 8,
+  "top_ids": [
+    27814,
+    43,
+    44662,
+    51852,
+    63230,
+    1195,
+    45368,
+    50905
+  ],
+  "top_tokens": [
+    {
+      "id": 27814,
+      "str": "Mer",
+      "prob": 0.9334577918052673
+    },
+    {
+      "id": 43,
+      "str": "L",
+      "prob": 0.05874880030751228
+    },
+    {
+      "id": 44662,
+      "str": " Mercury",
+      "prob": 0.004601561464369297
+    },
+    {
+      "id": 51852,
+      "str": " mercury",
+      "prob": 0.0026631795335561037
+    },
+    {
+      "id": 63230,
+      "str": "Merc",
+      "prob": 0.00038970925379544497
+    },
+    {
+      "id": 1195,
+      "str": "mer",
+      "prob": 6.361828855006024e-05
+    },
+    {
+      "id": 45368,
+      "str": "MER",
+      "prob": 2.7361886168364435e-05
+    },
+    {
+      "id": 50905,
+      "str": " Luna",
+      "prob": 1.5110668755369261e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 27814,
+    "bare_str": "Mer",
+    "lead_id": 44662,
+    "lead_str": " Mercury"
+  },
+  "first_token_B": {
+    "bare_id": 43,
+    "bare_str": "L",
+    "lead_id": 50905,
+    "lead_str": " Luna"
+  }
+}

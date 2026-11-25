@@ -1,0 +1,13 @@
+[
+  false,
+  [
+    "content"
+  ],
+  {
+    "location": true,
+    "date": true,
+    "entity": true,
+    "content": false
+  },
+  "Here's my analysis of the text:\n\n(1) The text mentions St. Patrick's Cathedral as a location, suggesting a single geographical location.\n(2) The text references June 15, 1810, suggesting a single temporal day.\n(3) Harper Martin is the only named character mentioned, suggesting a single main character.\n(4) The main event described is organizing space career fairs, but the text is somewhat vague and combines multiple implied events (career fairs, people gathering, stargazing), making it not entirely a single, focused event.\n\n```json\n{\n    \"1\": true,\n    \"2\": true,\n    \"3\": true,\n    \"4\": false\n}\n```"
+]

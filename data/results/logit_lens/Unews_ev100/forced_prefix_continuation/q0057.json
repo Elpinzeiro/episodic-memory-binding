@@ -1,0 +1,29 @@
+{
+  "question_idx": 57,
+  "question": "Recall all the events that occurred on December 26, 2026. Without describing the events, list all the unique locations where these events took place.",
+  "gt_entities": [
+    "Kampong Cham Province",
+    "Vermont"
+  ],
+  "free_generation": "Vermont Province. Luang Prabang. New South Wales. Greater Mumbai. Rajasthan. Greater Rajasthan. Luang Prabang Province. New South Wales. Vermont Province. Luang Prabang. New South Wales. Rajasthan. Greater Rajasthan. Luang Prabang Province. New South Wales. Greater Mumbai. Rajasthan. Vermont Province. Luang Prabang. New South Wales. Rajasthan. Greater Rajasthan. Luang Prabang Province. New South Wales. Greater Mumbai. Rajasthan. Vermont Province. Luang Prabang. New South Wales. Rajasthan. Greater Rajasthan. Luang Prabang Province. New South Wales. Greater Mumbai. Rajasthan. Vermont Province. Luang Prabang. New South Wales. Rajasthan. Greater Rajasthan. Luang Prabang Province. New South Wales. Greater Mumbai. Rajasthan. Vermont Province. Luang Prabang. New South Wales. Rajasthan. Greater Rajasthan.",
+  "missing_entities": [
+    "Kampong Cham Province"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Kampong Cham Province",
+      "first_token": {
+        "id": 42,
+        "str": "K",
+        "forced_continuation": "Kampong Cham Province Luang Prabang Province Vermont Route 12 Rajasthan.",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Kampong",
+        "forced_continuation": "Kampong Cham Province Luang Prabang Province Vermont Route 12 Rajasthan.",
+        "recovered": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+[
+  true,
+  [],
+  {
+    "location": true,
+    "date": true,
+    "entity": true,
+    "content": true
+  },
+  "Here is my analysis of the text:\n\n(1) The text takes place at the Museum of Modern Art - a single geographical location. True\n(2) The text takes place on March 24, 1800 - a single day. True\n(3) The main character is Emma Brown - a single main character. True\n(4) The main event is attending an educational workshop where she learned a new skill - this can be considered a single main event (the workshop) with a sub-event (learning a new skill). True\n\n```json\n{\n    \"1\": true,\n    \"2\": true,\n    \"3\": true,\n    \"4\": true\n}\n```"
+]

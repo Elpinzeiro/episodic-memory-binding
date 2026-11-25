@@ -1,0 +1,75 @@
+{
+  "question_idx": 4,
+  "question": "Consider all events involving Photography Exhibition. List all the locations where these events took place, without mentioning the events themselves.",
+  "GT_entities": [
+    "One World Trade Center",
+    "Statue of Liberty"
+  ],
+  "ent_A": "One World Trade Center",
+  "ent_B": "Statue of Liberty",
+  "topk": 8,
+  "top_ids": [
+    4054,
+    1305,
+    16257,
+    35773,
+    12243,
+    45659,
+    89147,
+    29518
+  ],
+  "top_tokens": [
+    {
+      "id": 4054,
+      "str": "One",
+      "prob": 0.6231024861335754
+    },
+    {
+      "id": 1305,
+      "str": "Tr",
+      "prob": 0.3387749195098877
+    },
+    {
+      "id": 16257,
+      "str": "Stat",
+      "prob": 0.035706616938114166
+    },
+    {
+      "id": 35773,
+      "str": "Met",
+      "prob": 0.001450938987545669
+    },
+    {
+      "id": 12243,
+      "str": "High",
+      "prob": 0.0005014311172999442
+    },
+    {
+      "id": 45659,
+      "str": " Trinity",
+      "prob": 0.00017601888976059854
+    },
+    {
+      "id": 89147,
+      "str": "-Tr",
+      "prob": 6.475372356362641e-05
+    },
+    {
+      "id": 29518,
+      "str": "American",
+      "prob": 4.964840263710357e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 4054,
+    "bare_str": "One",
+    "lead_id": 3861,
+    "lead_str": " One"
+  },
+  "first_token_B": {
+    "bare_id": 16257,
+    "bare_str": "Stat",
+    "lead_id": 89675,
+    "lead_str": " Statue"
+  }
+}

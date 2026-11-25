@@ -1,0 +1,29 @@
+{
+  "question_idx": 11,
+  "question": "Reflect on Henry Reed's experiences at Trinity Church. Describe all the key events they've been involved in at this location, focusing on what happened rather than when it occurred.",
+  "gt_entities": [
+    "Tech Hackathon",
+    "Film Festival"
+  ],
+  "free_generation": "Fashion Show Educational Workshop Film Screening Astronomy Night Karaoke Night Debate Night Tech Hackathon Lectures on Architecture Tours of the Architecture Final Presentations of Tech Hackathon Projects",
+  "missing_entities": [
+    "Film Festival"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Film Festival",
+      "first_token": {
+        "id": 52587,
+        "str": "Film",
+        "forced_continuation": "Film Festival Announcement karakoe Night Viewin",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Film",
+        "forced_continuation": "Film Festival Announcement karakoe Night Viewin",
+        "recovered": true
+      }
+    }
+  ]
+}

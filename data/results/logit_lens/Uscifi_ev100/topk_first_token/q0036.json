@@ -1,0 +1,75 @@
+{
+  "question_idx": 36,
+  "question": "Recall all events related to plasma conduit rupture that occurred at Mercury Twilight Observatory. Provide a list of all dates when these events took place, without describing the events.",
+  "GT_entities": [
+    "May 11, 2226",
+    "January 03, 2226"
+  ],
+  "ent_A": "May 11, 2226",
+  "ent_B": "January 03, 2226",
+  "topk": 8,
+  "top_ids": [
+    30649,
+    11356,
+    34827,
+    33327,
+    29527,
+    28259,
+    28623,
+    31294
+  ],
+  "top_tokens": [
+    {
+      "id": 30649,
+      "str": "September",
+      "prob": 0.9352680444717407
+    },
+    {
+      "id": 11356,
+      "str": "May",
+      "prob": 0.025316545739769936
+    },
+    {
+      "id": 34827,
+      "str": "November",
+      "prob": 0.01195868942886591
+    },
+    {
+      "id": 33327,
+      "str": "January",
+      "prob": 0.011773287318646908
+    },
+    {
+      "id": 29527,
+      "str": "July",
+      "prob": 0.006708216387778521
+    },
+    {
+      "id": 28259,
+      "str": "June",
+      "prob": 0.0058281999081373215
+    },
+    {
+      "id": 28623,
+      "str": "March",
+      "prob": 0.0014735995791852474
+    },
+    {
+      "id": 31294,
+      "str": "October",
+      "prob": 0.0011840705992653966
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 11356,
+    "bare_str": "May",
+    "lead_id": 3297,
+    "lead_str": " May"
+  },
+  "first_token_B": {
+    "bare_id": 33327,
+    "bare_str": "January",
+    "lead_id": 6186,
+    "lead_str": " January"
+  }
+}

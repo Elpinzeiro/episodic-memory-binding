@@ -1,0 +1,13 @@
+[
+  false,
+  [
+    "content"
+  ],
+  {
+    "location": true,
+    "date": true,
+    "entity": true,
+    "content": false
+  },
+  "Here is my analysis of the text:\n\n(1) The text takes place at the American Museum of Natural History - a single geographical location. True\n\n(2) The text takes place on May 11, 1814 - a single day. True\n\n(3) The text features Daniel Perez as the main character, though \"Daniel\" is mentioned again (likely the same person). True\n\n(4) The text contains multiple events: attending a theater performance AND discussing costume design. False\n\n```json\n{\n    \"1\": true,\n    \"2\": true,\n    \"3\": true,\n    \"4\": false\n}\n```"
+]

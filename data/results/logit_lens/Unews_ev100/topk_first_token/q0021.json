@@ -1,0 +1,75 @@
+{
+  "question_idx": 21,
+  "question": "Think about Noah Williams's experiences. Describe all the key events they've been involved in, focusing on what happened rather than when or where it occurred.",
+  "GT_entities": [
+    "flash flood emergency",
+    "residential tower fire"
+  ],
+  "ent_A": "flash flood emergency",
+  "ent_B": "residential tower fire",
+  "topk": 8,
+  "top_ids": [
+    417,
+    19824,
+    12821,
+    55555,
+    50864,
+    97364,
+    20658,
+    1079
+  ],
+  "top_tokens": [
+    {
+      "id": 417,
+      "str": "res",
+      "prob": 0.9706012606620789
+    },
+    {
+      "id": 19824,
+      "str": "flash",
+      "prob": 0.017501572147011757
+    },
+    {
+      "id": 12821,
+      "str": "vol",
+      "prob": 0.00493654515594244
+    },
+    {
+      "id": 55555,
+      "str": " Residential",
+      "prob": 0.003089211182668805
+    },
+    {
+      "id": 50864,
+      "str": "reso",
+      "prob": 0.0010510511929169297
+    },
+    {
+      "id": 97364,
+      "str": "magnitude",
+      "prob": 0.0010029199765995145
+    },
+    {
+      "id": 20658,
+      "str": " residential",
+      "prob": 0.0006374947843141854
+    },
+    {
+      "id": 1079,
+      "str": "Res",
+      "prob": 0.0002203122858190909
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 19824,
+    "bare_str": "flash",
+    "lead_id": 8381,
+    "lead_str": " flash"
+  },
+  "first_token_B": {
+    "bare_id": 417,
+    "bare_str": "res",
+    "lead_id": 20658,
+    "lead_str": " residential"
+  }
+}

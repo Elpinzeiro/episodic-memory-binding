@@ -1,0 +1,75 @@
+{
+  "question_idx": 11,
+  "question": "Reflect on the experiences of Julian Ross related to bridge collapse. List all the unique locations where these events took place, without mentioning the events themselves.",
+  "GT_entities": [
+    "Luang Prabang Province",
+    "Rajasthan"
+  ],
+  "ent_A": "Luang Prabang Province",
+  "ent_B": "Rajasthan",
+  "topk": 8,
+  "top_ids": [
+    49,
+    53,
+    50302,
+    3648,
+    26287,
+    60029,
+    42466,
+    33
+  ],
+  "top_tokens": [
+    {
+      "id": 49,
+      "str": "R",
+      "prob": 0.897344708442688
+    },
+    {
+      "id": 53,
+      "str": "V",
+      "prob": 0.06300348043441772
+    },
+    {
+      "id": 50302,
+      "str": "Lu",
+      "prob": 0.020137125626206398
+    },
+    {
+      "id": 3648,
+      "str": "New",
+      "prob": 0.006851310841739178
+    },
+    {
+      "id": 26287,
+      "str": "North",
+      "prob": 0.004354958888143301
+    },
+    {
+      "id": 60029,
+      "str": "Ven",
+      "prob": 0.003236330347135663
+    },
+    {
+      "id": 42466,
+      "str": "Greater",
+      "prob": 0.001902540447190404
+    },
+    {
+      "id": 33,
+      "str": "B",
+      "prob": 0.0006080884486436844
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 50302,
+    "bare_str": "Lu",
+    "lead_id": 18866,
+    "lead_str": " Lu"
+  },
+  "first_token_B": {
+    "bare_id": 49,
+    "bare_str": "R",
+    "lead_id": 87440,
+    "lead_str": " Rajasthan"
+  }
+}

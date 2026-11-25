@@ -1,0 +1,29 @@
+{
+  "question_idx": 65,
+  "question": "Reflect on September 27, 2025. Describe all the key events that occurred on this date, focusing on what happened rather than who was involved or where it took place.",
+  "gt_entities": [
+    "bridge collapse",
+    "volcanic eruption"
+  ],
+  "free_generation": "volcanic eruption and police force strike.",
+  "missing_entities": [
+    "bridge collapse"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "bridge collapse",
+      "first_token": {
+        "id": 14024,
+        "str": "bridge",
+        "forced_continuation": "bridge collapse and volcanic eruption.",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "bridge",
+        "forced_continuation": "bridge collapse and volcanic eruption.",
+        "recovered": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "question_idx": 29,
+  "question": "Consider all events that Lillian Mendoza has been involved in. List all the locations where these events took place, without mentioning the events themselves.",
+  "GT_entities": [
+    "Greater Mumbai",
+    "Rajasthan"
+  ],
+  "ent_A": "Greater Mumbai",
+  "ent_B": "Rajasthan",
+  "topk": 8,
+  "top_ids": [
+    49,
+    42466,
+    50302,
+    99725,
+    69913,
+    87440,
+    37103,
+    66381
+  ],
+  "top_tokens": [
+    {
+      "id": 49,
+      "str": "R",
+      "prob": 0.9827494621276855
+    },
+    {
+      "id": 42466,
+      "str": "Greater",
+      "prob": 0.009193338453769684
+    },
+    {
+      "id": 50302,
+      "str": "Lu",
+      "prob": 0.0065190535970032215
+    },
+    {
+      "id": 99725,
+      "str": "Ru",
+      "prob": 0.000697923474945128
+    },
+    {
+      "id": 69913,
+      "str": " Ramos",
+      "prob": 0.00012319080997258425
+    },
+    {
+      "id": 87440,
+      "str": " Rajasthan",
+      "prob": 8.07905089459382e-05
+    },
+    {
+      "id": 37103,
+      "str": "RU",
+      "prob": 4.9773589125834405e-05
+    },
+    {
+      "id": 66381,
+      "str": "Rua",
+      "prob": 4.126375279156491e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 42466,
+    "bare_str": "Greater",
+    "lead_id": 33381,
+    "lead_str": " Greater"
+  },
+  "first_token_B": {
+    "bare_id": 49,
+    "bare_str": "R",
+    "lead_id": 87440,
+    "lead_str": " Rajasthan"
+  }
+}

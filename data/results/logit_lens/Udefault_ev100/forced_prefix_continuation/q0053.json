@@ -1,0 +1,44 @@
+{
+  "question_idx": 53,
+  "question": "Consider all events involving both Henry Reed and Educational Workshop at Metropolitan Museum of Art. Provide a list of all dates when these events occurred, without describing the events.",
+  "gt_entities": [
+    "June 14, 2025",
+    "September 03, 2026"
+  ],
+  "free_generation": "October 13, 2024 October 27, 2024 November 01, 2026 September 22, 2026 September 19, 2026 September 18, 2026 September 25, 2026 September 20, 2026 September 23, 2026 September 21, 2026 September 24, 2026 September 16, 2026 September 17, 2026 September 15, 2026 September 14, 2026 September 12, 2026 September 11, 2026 September 10, 2026 September 13, 2026 September 26, 2026 September 29, 2026 September 28, 2026 September 27, 2026 September 30, 2026 September 25, 2026 September 24, 2026 September 23, 2026 September 22, 2026 September 21,",
+  "missing_entities": [
+    "June 14, 2025",
+    "September 03, 2026"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "June 14, 2025",
+      "first_token": {
+        "id": 28259,
+        "str": "June",
+        "forced_continuation": "June 14, 2025, November 09, 2026",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "June",
+        "forced_continuation": "June 14, 2025, November 09, 2026",
+        "recovered": true
+      }
+    },
+    {
+      "missing_entity": "September 03, 2026",
+      "first_token": {
+        "id": 30649,
+        "str": "September",
+        "forced_continuation": "September 22, 2026, September 18, 2026",
+        "recovered": false
+      },
+      "first_word": {
+        "str": "September",
+        "forced_continuation": "September 22, 2026, September 18, 2026",
+        "recovered": false
+      }
+    }
+  ]
+}

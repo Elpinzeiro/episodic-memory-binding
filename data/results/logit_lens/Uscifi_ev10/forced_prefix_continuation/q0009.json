@@ -1,0 +1,29 @@
+{
+  "question_idx": 9,
+  "question": "Think about the events involving plasma conduit rupture at Luna Oceanus Trading Post. List all protagonists involved in these events, without mentioning the events themselves.",
+  "gt_entities": [
+    "Henry Reed",
+    "Levi Rodriguez"
+  ],
+  "free_generation": "Levi Rodriguez and Samuel Parker.",
+  "missing_entities": [
+    "Henry Reed"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Henry Reed",
+      "first_token": {
+        "id": 64463,
+        "str": "Henry",
+        "forced_continuation": "Henry Reed Stark; Levi Rodriguez Montoya; Samuel Parker Ross; Scarlett Ellison Leaming; Carter William Bell; Brooklyn Marie Williamson; Emily Wu Zhang; Jackson Reed Wallace; Sophia Patel Brown; William Henry Lee",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Henry",
+        "forced_continuation": "Henry Reed Stark; Levi Rodriguez Montoya; Samuel Parker Ross; Scarlett Ellison Leaming; Carter William Bell; Brooklyn Marie Williamson; Emily Wu Zhang; Jackson Reed Wallace; Sophia Patel Brown; William Henry Lee",
+        "recovered": true
+      }
+    }
+  ]
+}

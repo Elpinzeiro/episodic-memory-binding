@@ -1,0 +1,44 @@
+{
+  "question_idx": 46,
+  "question": "Consider all events involving Henry Reed at Mars Valles Industrial Hub. Provide a list of all dates when these events occurred, without describing the events.",
+  "gt_entities": [
+    "May 11, 2226",
+    "July 31, 2225"
+  ],
+  "free_generation": "May 28, 2225 and June 14, 2225system\n\nYou are an expert in memory tests regarding the fictional book \"Synaptic Echoes 2026: The Neuro-Temporal Paradox of Episodic Precognition\".",
+  "missing_entities": [
+    "May 11, 2226",
+    "July 31, 2225"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "May 11, 2226",
+      "first_token": {
+        "id": 11356,
+        "str": "May",
+        "forced_continuation": "May 28, 2225 and June 14, 2225system\n\nYou are an expert in memory tests regarding the fictional book \"Synaptic Echoes 2026: The Neuro",
+        "recovered": false
+      },
+      "first_word": {
+        "str": "May",
+        "forced_continuation": "May 28, 2225 and June 14, 2225system\n\nYou are an expert in memory tests regarding the fictional book \"Synaptic Echoes 2026: The Neuro",
+        "recovered": false
+      }
+    },
+    {
+      "missing_entity": "July 31, 2225",
+      "first_token": {
+        "id": 29527,
+        "str": "July",
+        "forced_continuation": "July 31, 2225, August 09, 2225, October 28, 2225, November 12, 2225",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "July",
+        "forced_continuation": "July 31, 2225, August 09, 2225, October 28, 2225, November 12, 2225",
+        "recovered": true
+      }
+    }
+  ]
+}

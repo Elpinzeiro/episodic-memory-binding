@@ -1,0 +1,12 @@
+{
+  "question_idx": 72,
+  "question": "Recall the events related to volcanic eruption that occurred on July 31, 2025. List all the locations where these events took place, without describing the events themselves.",
+  "gt_entities": [
+    "North Dakota",
+    "Greater Mumbai"
+  ],
+  "free_generation": "Greater Mumbai. New South Wales. Vermont. Lake Superior. Rajasthan. Ecuador. Kamchatka Peninsula. Belize. Sumatra. North Dakota. The Azores. Fukushiema. Sichuan Province. Kampong Thom Province. The Philippines. Peru. Kampong Cham Province. New Zealand. Borneo. Guatemala. North Carolina. The Galapagos Islands. Luzon. Vermont. Kampong Thom Province. Kampong Cham Province. Sichuan Province. Fukushiema. North Dakota. Ecuador. Greater Mumbai. New South Wales. Rajasthan. Sumatra. The Azores. Borneo. Guatemala. North Carolina. The Galapagos Islands. Luzon. New South Wales. North Dakota. Sichuan Province. Fukushiema. Kampong Thom Province. Kampong Cham Province. Peru. The Philippines. Vermont. Rajasthan. Greater Mumbai. Sumatra. The Azores. Borneo. Guatemala. North Carolina. The Galapagos Islands. Luzon",
+  "missing_entities": [],
+  "is_binding_failure": false,
+  "forced_prefix_experiments": []
+}

@@ -1,0 +1,29 @@
+{
+  "question_idx": 60,
+  "question": "Reflect on November 07, 2025. Describe all the key events that occurred on this date, focusing on what happened rather than who was involved or where it took place.",
+  "gt_entities": [
+    "Tech Hackathon",
+    "Theater Performance"
+  ],
+  "free_generation": "Tech Hackathon completed. New applications launched.",
+  "missing_entities": [
+    "Theater Performance"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Theater Performance",
+      "first_token": {
+        "id": 791,
+        "str": "The",
+        "forced_continuation": "Theater Performance was presented. Debate Tournament occurred. Scientific Conference concluded. Fashion Show strutted its stuff.",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Theater",
+        "forced_continuation": "Theater Performance was presented. Debate Tournament occurred. Scientific Conference concluded. Fashion Show strutted its stuff.",
+        "recovered": true
+      }
+    }
+  ]
+}

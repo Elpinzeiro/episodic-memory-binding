@@ -1,0 +1,75 @@
+{
+  "question_idx": 28,
+  "question": "Consider all events that Jackson Ramos has been involved in. List all the locations where these events took place, without mentioning the events themselves.",
+  "GT_entities": [
+    "High Line",
+    "Statue of Liberty"
+  ],
+  "ent_A": "High Line",
+  "ent_B": "Statue of Liberty",
+  "topk": 8,
+  "top_ids": [
+    12243,
+    16257,
+    89675,
+    13347,
+    91319,
+    23512,
+    12156,
+    35773
+  ],
+  "top_tokens": [
+    {
+      "id": 12243,
+      "str": "High",
+      "prob": 0.7847356796264648
+    },
+    {
+      "id": 16257,
+      "str": "Stat",
+      "prob": 0.21453478932380676
+    },
+    {
+      "id": 89675,
+      "str": " Statue",
+      "prob": 0.0003654857282526791
+    },
+    {
+      "id": 13347,
+      "str": "Hi",
+      "prob": 0.00018961149908136576
+    },
+    {
+      "id": 91319,
+      "str": "HIGH",
+      "prob": 4.794129199581221e-05
+    },
+    {
+      "id": 23512,
+      "str": "_high",
+      "prob": 4.4338448788039386e-05
+    },
+    {
+      "id": 12156,
+      "str": "high",
+      "prob": 2.336472061870154e-05
+    },
+    {
+      "id": 35773,
+      "str": "Met",
+      "prob": 1.0368032235419378e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 12243,
+    "bare_str": "High",
+    "lead_id": 5234,
+    "lead_str": " High"
+  },
+  "first_token_B": {
+    "bare_id": 16257,
+    "bare_str": "Stat",
+    "lead_id": 89675,
+    "lead_str": " Statue"
+  }
+}

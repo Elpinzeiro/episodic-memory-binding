@@ -1,0 +1,11 @@
+[
+  true,
+  [],
+  {
+    "location": true,
+    "date": true,
+    "entity": true,
+    "content": true
+  },
+  "Here is my analysis of the text:\n\n(1) The text takes place at a single location: the Empire State Building (single geographical location).\n(2) The text takes place on a single day: June 15, 1801.\n(3) The text has a single main character: Emma Brown.\n(4) The main event is \"astronomy night,\" which includes conducting extraterrestrial life debates beneath a star-filled sky — this is essentially one main event with a sub-activity.\n\n```json\n{\n    \"1\": true,\n    \"2\": true,\n    \"3\": true,\n    \"4\": true\n}\n```"
+]

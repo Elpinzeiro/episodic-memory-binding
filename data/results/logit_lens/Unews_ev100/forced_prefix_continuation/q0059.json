@@ -1,0 +1,12 @@
+{
+  "question_idx": 59,
+  "question": "Recall all the events that occurred on September 27, 2025. Without describing the events, list all the unique locations where these events took place.",
+  "gt_entities": [
+    "Vermont",
+    "Greater Mumbai"
+  ],
+  "free_generation": "Luang Prabang Province. Vermont. Rajasthan. Luang Prabang City. New South Wales. Greater Mumbai. Sichuan. Luzon. Marrakesh-Safi. Himalayas. Luang Prabang Province. Greater Mumbai. New South Wales. Sichuan. Luang Prabang City. Vermont. Rajasthan. Marrakesh-Safi. Luzon. Himalayas. Luang Prabang Province. New South Wales. Sichuan. Greater Mumbai. Vermont. Rajasthan. Marrakesh-Safi. Luzon. Himalayas. Luang Prabang City. Luang Prabang Province. Sichuan. New South Wales. Greater Mumbai. Vermont. Rajasthan. Marrakesh-Safi. Luzon. Himalayas. Luang Prabang City. Luang Prabang Province. Sichuan. New South Wales. Greater Mumbai. Vermont. Rajasthan. Marrakesh-Safi. Luzon. Himalayas. Luang",
+  "missing_entities": [],
+  "is_binding_failure": false,
+  "forced_prefix_experiments": []
+}

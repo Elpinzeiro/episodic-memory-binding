@@ -1,0 +1,12 @@
+{
+  "question_idx": 31,
+  "question": "Consider all events that Noah Williams has been involved in. List all the locations where these events took place, without mentioning the events themselves.",
+  "gt_entities": [
+    "American Museum of Natural History",
+    "Queensboro Bridge"
+  ],
+  "free_generation": "Queensboro Bridge Statue of Liberty American Museum of Natural History Trinity Church Metropolitan Museum of Art Flea Market in Brooklyn Noah's Statue Statue of Liberty Again Washington Square Park Brooklyn Museum Brooklyn Bridge Fashion Show at Metropolitan Museum of Art Bethpage Black Course Black Swan Events at Statue of Liberty Carnegie Hall Broadway Fashion Show at American Museum of Natural History Van Cortlandt Park Noah's Statue Again Williamsbridge Bronx Zoo Bethpage Black Course Statue of Liberty Again Yankee Stadium One World Trade Palace.",
+  "missing_entities": [],
+  "is_binding_failure": false,
+  "forced_prefix_experiments": []
+}

@@ -1,0 +1,29 @@
+{
+  "question_idx": 0,
+  "question": "Reflect on events related to Classical Music Concert. Provide a list of all protagonists involved in these events, without describing the events.",
+  "gt_entities": [
+    "Mila Gonzalez",
+    "Julian Ross"
+  ],
+  "free_generation": "Brooklyn Ross, Ezra Edwards, Lillian Mendoza, Lillian Mendoza, Carter White, Maya Smith, Julian Ross, Noah Davis, Levi Rodriguez, Henry Reed, Scarlett Thomas, Levi Rodriguez, Scarlett Thomas, Carter White, Noah Davis, Maya Smith, Ezra Edwards, Levi Rodriguez, Brooklyn Ross, Scarlett Thomas, Carter White, Noah Davis, Maya Smith, Ezra Edwards, Levi Rodriguez, Brooklyn Ross, Scarlett Thomas, Carter White, Noah Davis, Maya Smith, Ezra Edwards, Levi Rodriguez, Brooklyn Ross, Scarlett Thomas, Carter White, Noah Davis, Maya Smith, Ezra Edwards, Levi Rodriguez, Brooklyn Ross, Scarlett Thomas, Carter White, Noah Davis, Maya Smith, Ezra Edwards, Levi Rodriguez, Brooklyn Ross, Scarlett Thomas, Carter White, Noah Davis, Maya Smith, Ezra Edwards, Levi Rodriguez, Brooklyn Ross, Scarlett Thomas, Carter White, Noah Davis, Maya Smith, Ezra Edwards, Levi Rodriguez, Brooklyn Ross, Scarlett Thomas, Carter White, Noah Davis, Maya Smith,",
+  "missing_entities": [
+    "Mila Gonzalez"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Mila Gonzalez",
+      "first_token": {
+        "id": 44,
+        "str": "M",
+        "forced_continuation": "Mila Gonzalez, Lillian Taylor, Benjamin Green, Lucy Williams, Noah Martin, Amanda Reed, Jackson Lee, Zoe Brown, Ethan Hall, Julian Lee, Brooke Parker, Robert Thomas, Dominic White,",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Mila",
+        "forced_continuation": "Mila Gonzalez, Lillian Taylor, Benjamin Green, Lucy Williams, Noah Martin, Amanda Reed, Jackson Lee, Zoe Brown, Ethan Hall, Julian Lee, Brooke Parker, Robert Thomas, Dominic White, Henry",
+        "recovered": true
+      }
+    }
+  ]
+}

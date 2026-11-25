@@ -1,0 +1,13 @@
+[
+  false,
+  [
+    "content"
+  ],
+  {
+    "location": true,
+    "date": true,
+    "entity": true,
+    "content": false
+  },
+  "Here is my analysis of the text:\n\n(1) Single geographical location? The text mentions \"Getty Center\" as the only location. → True\n\n(2) Single temporal day? The text takes place on \"March 23, 1872\" with no other dates mentioned. → True\n\n(3) Single main character? \"Francesco Achebe\" is the main character, though \"those present\" are mentioned as secondary figures. → True\n\n(4) Single main event? There are two distinct events: attending a theater performance AND discussing theater education afterward. → False\n\n```json\n{\n    \"1\": true,\n    \"2\": true,\n    \"3\": true,\n    \"4\": false\n}\n```"
+]

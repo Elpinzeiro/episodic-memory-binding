@@ -1,0 +1,12 @@
+{
+  "question_idx": 34,
+  "question": "Think about the events involving fusion core breach on June 14, 2225. Provide a list of all protagonists involved in these events, without describing the events.",
+  "gt_entities": [
+    "Carter Stewart",
+    "Brooklyn Ross"
+  ],
+  "free_generation": "Carter Stewart; Ezra Edwards; Zoe Brown; Samuel Parker; Henry Reed; Mila Gonzalez; Julian Ross; Scarlett Thomas; Ethan Rodriguez; Julian Torres; Brooklyn Smith; Julian Bell; Samuel Lee; Zoe Martin; Scarlett Brooks; Carter Brooks; Zoe Brooks; Brooklyn Ross; Henry Edwards; Samuel Gonzalez; Julian Parker; Zoe Reed; Scarlett Edwards; Carter Martin; Brooklyn Parker; Henry Gonzalez; Samuel Ross; Julian Brooks; Zoe Torres; Scarlett Lee; Carter Smith; Brooklyn Edwards; Samuel Brooks; Julian Martin; Zoe Parker; Scarlett Ross; Carter Gonzalez; Brooklyn Reed; Samuel Torres; Julian Smith; Zoe Edwards; Scarlett Parker; Carter Ross; Brooklyn Brooks; Henry Martin; Samuel Lee; Julian Gonzalez; Zoe Smith; Scarlett Torres; Carter Edwards; Brooklyn Parker; Henry Ross; Samuel Brooks; Julian Smith; Zoe Gonzalez; Scarlett Martin; Carter Torres; Brooklyn Lee; Samuel Edwards; Julian Parker; Zoe Ross; Scarlett Smith; Carter Brooks; Brooklyn Gonzalez; Samuel Martin; Julian Torres;",
+  "missing_entities": [],
+  "is_binding_failure": false,
+  "forced_prefix_experiments": []
+}

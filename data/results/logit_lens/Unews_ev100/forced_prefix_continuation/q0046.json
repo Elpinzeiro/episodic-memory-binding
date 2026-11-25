@@ -1,0 +1,12 @@
+{
+  "question_idx": 46,
+  "question": "Consider all events involving Levi Rodriguez at Luzon Region. Provide a list of all dates when these events occurred, without describing the events.",
+  "gt_entities": [
+    "September 22, 2026",
+    "May 11, 2026"
+  ],
+  "free_generation": "May 11, 2026, September 22, 2026.",
+  "missing_entities": [],
+  "is_binding_failure": false,
+  "forced_prefix_experiments": []
+}

@@ -1,0 +1,75 @@
+{
+  "question_idx": 68,
+  "question": "Think about the events involving Tech Hackathon on March 23, 2024. Provide a list of all protagonists involved in these events, without describing the events.",
+  "GT_entities": [
+    "Henry Reed",
+    "Julian Ross"
+  ],
+  "ent_A": "Henry Reed",
+  "ent_B": "Julian Ross",
+  "topk": 8,
+  "top_ids": [
+    2356,
+    41745,
+    64463,
+    56141,
+    96056,
+    877,
+    29185,
+    73004
+  ],
+  "top_tokens": [
+    {
+      "id": 2356,
+      "str": "Le",
+      "prob": 0.9986782670021057
+    },
+    {
+      "id": 41745,
+      "str": "Luc",
+      "prob": 0.0008965579909272492
+    },
+    {
+      "id": 64463,
+      "str": "Henry",
+      "prob": 0.0001139845626312308
+    },
+    {
+      "id": 56141,
+      "str": " Levi",
+      "prob": 0.00010059101623483002
+    },
+    {
+      "id": 96056,
+      "str": "Scar",
+      "prob": 9.158916509477422e-05
+    },
+    {
+      "id": 877,
+      "str": "LE",
+      "prob": 4.12824701925274e-05
+    },
+    {
+      "id": 29185,
+      "str": "Jul",
+      "prob": 1.803497434593737e-05
+    },
+    {
+      "id": 73004,
+      "str": "Leon",
+      "prob": 1.6679625332471915e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 64463,
+    "bare_str": "Henry",
+    "lead_id": 18063,
+    "lead_str": " Henry"
+  },
+  "first_token_B": {
+    "bare_id": 29185,
+    "bare_str": "Jul",
+    "lead_id": 38897,
+    "lead_str": " Julian"
+  }
+}

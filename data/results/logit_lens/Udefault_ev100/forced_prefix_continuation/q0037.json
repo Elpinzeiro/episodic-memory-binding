@@ -1,0 +1,44 @@
+{
+  "question_idx": 37,
+  "question": "Recall all events related to Educational Workshop that occurred at American Museum of Natural History. Provide a list of all dates when these events took place, without describing the events.",
+  "gt_entities": [
+    "October 30, 2026",
+    "October 13, 2024"
+  ],
+  "free_generation": "July 13, 2024",
+  "missing_entities": [
+    "October 30, 2026",
+    "October 13, 2024"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "October 30, 2026",
+      "first_token": {
+        "id": 31294,
+        "str": "October",
+        "forced_continuation": "October 30, 2026",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "October",
+        "forced_continuation": "October 30, 2026",
+        "recovered": true
+      }
+    },
+    {
+      "missing_entity": "October 13, 2024",
+      "first_token": {
+        "id": 31294,
+        "str": "October",
+        "forced_continuation": "October 30, 2026",
+        "recovered": false
+      },
+      "first_word": {
+        "str": "October",
+        "forced_continuation": "October 30, 2026",
+        "recovered": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "question_idx": 23,
+  "question": "Think about all events that have occurred at Statue of Liberty. Provide a list of all dates when these events took place, without describing the events.",
+  "gt_entities": [
+    "May 11, 2026",
+    "June 14, 2025"
+  ],
+  "free_generation": "June 14, 2025 - June 17, 2025 - June 14, 2026",
+  "missing_entities": [
+    "May 11, 2026"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "May 11, 2026",
+      "first_token": {
+        "id": 11356,
+        "str": "May",
+        "forced_continuation": "May 11, 2026 | September 22, 2026 | June 14, 2025",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "May",
+        "forced_continuation": "May 11, 2026 | September 22, 2026 | June 14, 2025",
+        "recovered": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+[
+  true,
+  [],
+  {
+    "location": true,
+    "date": true,
+    "entity": true,
+    "content": true
+  },
+  "Here is my analysis of the text:\n\n(1) The text takes place at One World Trade Center, which is a single geographical location. True\n\n(2) The text takes place on March 24, 1803, which is a single day. True\n\n(3) The main character is Ethan Davis, with no other main characters mentioned. True\n\n(4) The main event is attending a fashion show, with a brief discussion of model casting as a sub-event of that day. True\n\n```json\n{\n    \"1\": true,\n    \"2\": true,\n    \"3\": true,\n    \"4\": true\n}\n```"
+]

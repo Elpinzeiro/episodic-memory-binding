@@ -1,0 +1,75 @@
+{
+  "question_idx": 20,
+  "question": "Think about Maya Smith's experiences. Describe all the key events they've been involved in, focusing on what happened rather than when or where it occurred.",
+  "GT_entities": [
+    "factory explosion",
+    "volcanic eruption"
+  ],
+  "ent_A": "factory explosion",
+  "ent_B": "volcanic eruption",
+  "topk": 8,
+  "top_ids": [
+    22348,
+    14024,
+    12821,
+    8803,
+    17367,
+    4246,
+    25255,
+    98550
+  ],
+  "top_tokens": [
+    {
+      "id": 22348,
+      "str": "factory",
+      "prob": 0.9423052668571472
+    },
+    {
+      "id": 14024,
+      "str": "bridge",
+      "prob": 0.025908712297677994
+    },
+    {
+      "id": 12821,
+      "str": "vol",
+      "prob": 0.021817322820425034
+    },
+    {
+      "id": 8803,
+      "str": " factory",
+      "prob": 0.002565309638157487
+    },
+    {
+      "id": 17367,
+      "str": " Factory",
+      "prob": 0.0017357754986733198
+    },
+    {
+      "id": 4246,
+      "str": "Factory",
+      "prob": 0.001531816553324461
+    },
+    {
+      "id": 25255,
+      "str": "_factory",
+      "prob": 0.0010693803196772933
+    },
+    {
+      "id": 98550,
+      "str": "manufact",
+      "prob": 0.0007702457369305193
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 22348,
+    "bare_str": "factory",
+    "lead_id": 8803,
+    "lead_str": " factory"
+  },
+  "first_token_B": {
+    "bare_id": 12821,
+    "bare_str": "vol",
+    "lead_id": 67164,
+    "lead_str": " volcanic"
+  }
+}

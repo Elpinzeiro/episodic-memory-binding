@@ -1,0 +1,75 @@
+{
+  "question_idx": 13,
+  "question": "Recall all the events that occurred on May 11, 2026. Without describing the events, list all the unique locations where these events took place.",
+  "GT_entities": [
+    "Luang Prabang Province",
+    "Luzon Region"
+  ],
+  "ent_A": "Luang Prabang Province",
+  "ent_B": "Luzon Region",
+  "topk": 8,
+  "top_ids": [
+    50302,
+    43,
+    24115,
+    10036,
+    18866,
+    42466,
+    82478,
+    82739
+  ],
+  "top_tokens": [
+    {
+      "id": 50302,
+      "str": "Lu",
+      "prob": 0.9590804576873779
+    },
+    {
+      "id": 43,
+      "str": "L",
+      "prob": 0.03897225484251976
+    },
+    {
+      "id": 24115,
+      "str": "LU",
+      "prob": 0.0006499238661490381
+    },
+    {
+      "id": 10036,
+      "str": "lu",
+      "prob": 0.000250567973125726
+    },
+    {
+      "id": 18866,
+      "str": " Lu",
+      "prob": 0.00022112546139396727
+    },
+    {
+      "id": 42466,
+      "str": "Greater",
+      "prob": 0.00010776794806588441
+    },
+    {
+      "id": 82478,
+      "str": "Hu",
+      "prob": 9.510487871011719e-05
+    },
+    {
+      "id": 82739,
+      "str": " Luz",
+      "prob": 5.6789718655636534e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 50302,
+    "bare_str": "Lu",
+    "lead_id": 18866,
+    "lead_str": " Lu"
+  },
+  "first_token_B": {
+    "bare_id": 43,
+    "bare_str": "L",
+    "lead_id": 82739,
+    "lead_str": " Luz"
+  }
+}

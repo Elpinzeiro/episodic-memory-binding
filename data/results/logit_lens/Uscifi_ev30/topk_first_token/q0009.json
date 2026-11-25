@@ -1,0 +1,75 @@
+{
+  "question_idx": 9,
+  "question": "Recall all events related to fusion core breach that occurred at Luna Oceanus Trading Post. Provide a list of all dates when these events took place, without describing the events.",
+  "GT_entities": [
+    "May 11, 2226",
+    "September 22, 2226"
+  ],
+  "ent_A": "May 11, 2226",
+  "ent_B": "September 22, 2226",
+  "topk": 8,
+  "top_ids": [
+    11356,
+    34827,
+    28259,
+    33877,
+    29527,
+    28623,
+    30649,
+    33246
+  ],
+  "top_tokens": [
+    {
+      "id": 11356,
+      "str": "May",
+      "prob": 0.8777137398719788
+    },
+    {
+      "id": 34827,
+      "str": "November",
+      "prob": 0.05880315601825714
+    },
+    {
+      "id": 28259,
+      "str": "June",
+      "prob": 0.04579594358801842
+    },
+    {
+      "id": 33877,
+      "str": "February",
+      "prob": 0.012917338870465755
+    },
+    {
+      "id": 29527,
+      "str": "July",
+      "prob": 0.002012133365496993
+    },
+    {
+      "id": 28623,
+      "str": "March",
+      "prob": 0.0008654078119434416
+    },
+    {
+      "id": 30649,
+      "str": "September",
+      "prob": 0.0007174482452683151
+    },
+    {
+      "id": 33246,
+      "str": "December",
+      "prob": 0.00047051405999809504
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 11356,
+    "bare_str": "May",
+    "lead_id": 3297,
+    "lead_str": " May"
+  },
+  "first_token_B": {
+    "bare_id": 30649,
+    "bare_str": "September",
+    "lead_id": 6250,
+    "lead_str": " September"
+  }
+}

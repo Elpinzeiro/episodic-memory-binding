@@ -1,0 +1,75 @@
+{
+  "question_idx": 2,
+  "question": "Reflect on events related to Photography Exhibition. Provide a list of all protagonists involved in these events, without describing the events.",
+  "GT_entities": [
+    "Ezra Edwards",
+    "Levi Rodriguez"
+  ],
+  "ent_A": "Ezra Edwards",
+  "ent_B": "Levi Rodriguez",
+  "topk": 8,
+  "top_ids": [
+    2356,
+    24903,
+    96056,
+    41745,
+    64463,
+    36,
+    44,
+    34
+  ],
+  "top_tokens": [
+    {
+      "id": 2356,
+      "str": "Le",
+      "prob": 0.5600019097328186
+    },
+    {
+      "id": 24903,
+      "str": "Sam",
+      "prob": 0.28602099418640137
+    },
+    {
+      "id": 96056,
+      "str": "Scar",
+      "prob": 0.07009246200323105
+    },
+    {
+      "id": 41745,
+      "str": "Luc",
+      "prob": 0.030621128156781197
+    },
+    {
+      "id": 64463,
+      "str": "Henry",
+      "prob": 0.015158557333052158
+    },
+    {
+      "id": 36,
+      "str": "E",
+      "prob": 0.015158557333052158
+    },
+    {
+      "id": 44,
+      "str": "M",
+      "prob": 0.007049383595585823
+    },
+    {
+      "id": 34,
+      "str": "C",
+      "prob": 0.006622282788157463
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 36,
+    "bare_str": "E",
+    "lead_id": 85418,
+    "lead_str": " Ezra"
+  },
+  "first_token_B": {
+    "bare_id": 2356,
+    "bare_str": "Le",
+    "lead_id": 56141,
+    "lead_str": " Levi"
+  }
+}

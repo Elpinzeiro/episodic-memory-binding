@@ -1,0 +1,13 @@
+[
+  false,
+  [
+    "content"
+  ],
+  {
+    "location": true,
+    "date": true,
+    "entity": true,
+    "content": false
+  },
+  "Here is my analysis of the text:\n\n(1) The text takes place at Denver Union Station - a single geographical location. True\n(2) The text takes place on May 12, 1901 - a single day. True\n(3) The text mentions Ibrahim Jensen as the main character, but also references \"Ibrahim\" discussing with the audience, suggesting a single main character. True\n(4) The text describes a theater performance as the main event, but also includes a sub-event of discussing audience interaction, meaning there are multiple events. False\n\n```json\n{\n    \"1\": true,\n    \"2\": true,\n    \"3\": true,\n    \"4\": false\n}\n```"
+]

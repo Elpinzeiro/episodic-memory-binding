@@ -1,0 +1,75 @@
+{
+  "question_idx": 40,
+  "question": "Think about the events involving fusion core breach at Mercury Twilight Observatory. List all protagonists involved in these events, without mentioning the events themselves.",
+  "GT_entities": [
+    "Julian Ross",
+    "Jackson Ramos"
+  ],
+  "ent_A": "Julian Ross",
+  "ent_B": "Jackson Ramos",
+  "topk": 8,
+  "top_ids": [
+    96056,
+    64463,
+    24903,
+    29185,
+    61760,
+    41745,
+    11356,
+    51188
+  ],
+  "top_tokens": [
+    {
+      "id": 96056,
+      "str": "Scar",
+      "prob": 0.7431858777999878
+    },
+    {
+      "id": 64463,
+      "str": "Henry",
+      "prob": 0.12132176011800766
+    },
+    {
+      "id": 24903,
+      "str": "Sam",
+      "prob": 0.10377199947834015
+    },
+    {
+      "id": 29185,
+      "str": "Jul",
+      "prob": 0.015667229890823364
+    },
+    {
+      "id": 61760,
+      "str": "Joseph",
+      "prob": 0.0017037320649251342
+    },
+    {
+      "id": 41745,
+      "str": "Luc",
+      "prob": 0.001503538223914802
+    },
+    {
+      "id": 11356,
+      "str": "May",
+      "prob": 0.0014802281511947513
+    },
+    {
+      "id": 51188,
+      "str": "Brian",
+      "prob": 0.0011173347011208534
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 29185,
+    "bare_str": "Jul",
+    "lead_id": 38897,
+    "lead_str": " Julian"
+  },
+  "first_token_B": {
+    "bare_id": 62382,
+    "bare_str": "Jackson",
+    "lead_id": 13972,
+    "lead_str": " Jackson"
+  }
+}

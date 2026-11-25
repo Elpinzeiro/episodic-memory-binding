@@ -1,0 +1,29 @@
+{
+  "question_idx": 34,
+  "question": "Recall all events related to vote counting disruption that occurred at Luang Prabang Province. Provide a list of all dates when these events took place, without describing the events.",
+  "gt_entities": [
+    "July 31, 2025",
+    "November 13, 2026"
+  ],
+  "free_generation": "July 31, 2025.",
+  "missing_entities": [
+    "November 13, 2026"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "November 13, 2026",
+      "first_token": {
+        "id": 34827,
+        "str": "November",
+        "forced_continuation": "November 13, 2026, July 31, 2026.",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "November",
+        "forced_continuation": "November 13, 2026, July 31, 2026.",
+        "recovered": true
+      }
+    }
+  ]
+}

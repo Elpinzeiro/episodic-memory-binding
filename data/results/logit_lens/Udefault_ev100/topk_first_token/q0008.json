@@ -1,0 +1,75 @@
+{
+  "question_idx": 8,
+  "question": "Reflect on the experiences of Carter Stewart related to Theater Performance. List all the unique locations where these events took place, without mentioning the events themselves.",
+  "GT_entities": [
+    "One World Trade Center",
+    "Metropolitan Museum of Art"
+  ],
+  "ent_A": "One World Trade Center",
+  "ent_B": "Metropolitan Museum of Art",
+  "topk": 8,
+  "top_ids": [
+    35773,
+    4054,
+    45878,
+    45975,
+    4150,
+    6344,
+    62358,
+    12452
+  ],
+  "top_tokens": [
+    {
+      "id": 35773,
+      "str": "Met",
+      "prob": 0.9536965489387512
+    },
+    {
+      "id": 4054,
+      "str": "One",
+      "prob": 0.04460498318076134
+    },
+    {
+      "id": 45878,
+      "str": " Metropolitan",
+      "prob": 0.0014793393202126026
+    },
+    {
+      "id": 45975,
+      "str": "MET",
+      "prob": 5.22270638612099e-05
+    },
+    {
+      "id": 4150,
+      "str": "met",
+      "prob": 3.58951001544483e-05
+    },
+    {
+      "id": 6344,
+      "str": " Met",
+      "prob": 2.4670318452990614e-05
+    },
+    {
+      "id": 62358,
+      "str": " Mét",
+      "prob": 2.0774492440978065e-05
+    },
+    {
+      "id": 12452,
+      "str": "Meta",
+      "prob": 1.8915388864115812e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 4054,
+    "bare_str": "One",
+    "lead_id": 3861,
+    "lead_str": " One"
+  },
+  "first_token_B": {
+    "bare_id": 35773,
+    "bare_str": "Met",
+    "lead_id": 45878,
+    "lead_str": " Metropolitan"
+  }
+}

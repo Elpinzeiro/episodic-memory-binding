@@ -1,0 +1,75 @@
+{
+  "question_idx": 62,
+  "question": "Consider all events that happened on September 27, 2025. Provide a list of all protagonists involved in any of these events, without describing the events themselves.",
+  "GT_entities": [
+    "Scarlett Thomas",
+    "Henry Reed"
+  ],
+  "ent_A": "Scarlett Thomas",
+  "ent_B": "Henry Reed",
+  "topk": 8,
+  "top_ids": [
+    2356,
+    41745,
+    96056,
+    64463,
+    62382,
+    29185,
+    100172,
+    53487
+  ],
+  "top_tokens": [
+    {
+      "id": 2356,
+      "str": "Le",
+      "prob": 0.8697300553321838
+    },
+    {
+      "id": 41745,
+      "str": "Luc",
+      "prob": 0.043983202427625656
+    },
+    {
+      "id": 96056,
+      "str": "Scar",
+      "prob": 0.031188763678073883
+    },
+    {
+      "id": 64463,
+      "str": "Henry",
+      "prob": 0.030705226585268974
+    },
+    {
+      "id": 62382,
+      "str": "Jackson",
+      "prob": 0.005952479783445597
+    },
+    {
+      "id": 29185,
+      "str": "Jul",
+      "prob": 0.0023493070621043444
+    },
+    {
+      "id": 100172,
+      "str": "Lewis",
+      "prob": 0.002105905208736658
+    },
+    {
+      "id": 53487,
+      "str": "Leaks",
+      "prob": 0.000805580522865057
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 96056,
+    "bare_str": "Scar",
+    "lead_id": 96572,
+    "lead_str": " Scarlett"
+  },
+  "first_token_B": {
+    "bare_id": 64463,
+    "bare_str": "Henry",
+    "lead_id": 18063,
+    "lead_str": " Henry"
+  }
+}

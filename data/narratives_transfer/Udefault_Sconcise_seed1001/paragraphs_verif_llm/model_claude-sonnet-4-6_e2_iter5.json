@@ -1,0 +1,13 @@
+[
+  false,
+  [
+    "content"
+  ],
+  {
+    "location": true,
+    "date": true,
+    "entity": true,
+    "content": false
+  },
+  "Here is my analysis of the text:\n\n(1) The entire text takes place at Times Square — a single geographical location.\n(2) The entire text takes place on March 24, 1803 — a single day.\n(3) Sophia Martinez is the central character throughout the text.\n(4) While there is a main event (attending a performance), there is a secondary event (explaining prop design backstage), making it more than a single main event.\n\n```json\n{\n    \"1\": true,\n    \"2\": true,\n    \"3\": true,\n    \"4\": false\n}\n```"
+]

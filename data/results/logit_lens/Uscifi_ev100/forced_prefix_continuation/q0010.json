@@ -1,0 +1,12 @@
+{
+  "question_idx": 10,
+  "question": "Reflect on the experiences of Henry Reed related to fusion core breach. List all the unique locations where these events took place, without mentioning the events themselves.",
+  "gt_entities": [
+    "Europa Subsurface Laboratory",
+    "Luna Oceanus Trading Post"
+  ],
+  "free_generation": "Triton Gas Colony Navigator Bridge; Luna Oceanus Trading Post Crater Rim Parking; Europa Subsurface Laboratory Access Tunnel; Scutum-Crux Gateway Subnet Server Room; Halley Barton Personal Quarters; Kuipero Santosha Observatory External Camera Array; Naiad Oceanographic Center Foyer; Scutum-Crux Gateway Navigation Computer; Triton Gas Colony Subsurface Tunnels; Luna Oceanus Trading Post Crater Rim Foyer.",
+  "missing_entities": [],
+  "is_binding_failure": false,
+  "forced_prefix_experiments": []
+}

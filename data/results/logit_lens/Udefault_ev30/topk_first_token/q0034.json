@@ -1,0 +1,75 @@
+{
+  "question_idx": 34,
+  "question": "Think about the events involving Fashion Show on June 14, 2025. Provide a list of all protagonists involved in these events, without describing the events.",
+  "GT_entities": [
+    "Brooklyn Ross",
+    "Carter Stewart"
+  ],
+  "ent_A": "Brooklyn Ross",
+  "ent_B": "Carter Stewart",
+  "topk": 8,
+  "top_ids": [
+    44,
+    64463,
+    34,
+    96056,
+    27368,
+    24903,
+    29185,
+    39231
+  ],
+  "top_tokens": [
+    {
+      "id": 44,
+      "str": "M",
+      "prob": 0.9885185360908508
+    },
+    {
+      "id": 64463,
+      "str": "Henry",
+      "prob": 0.0061600347980856895
+    },
+    {
+      "id": 34,
+      "str": "C",
+      "prob": 0.0037950873374938965
+    },
+    {
+      "id": 96056,
+      "str": "Scar",
+      "prob": 0.0008874371415004134
+    },
+    {
+      "id": 27368,
+      "str": "Bro",
+      "prob": 0.0003876925620716065
+    },
+    {
+      "id": 24903,
+      "str": "Sam",
+      "prob": 0.00019494407752063125
+    },
+    {
+      "id": 29185,
+      "str": "Jul",
+      "prob": 1.265861101273913e-05
+    },
+    {
+      "id": 39231,
+      "str": "Washington",
+      "prob": 8.173014066414908e-06
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 27368,
+    "bare_str": "Bro",
+    "lead_id": 26832,
+    "lead_str": " Brooklyn"
+  },
+  "first_token_B": {
+    "bare_id": 34,
+    "bare_str": "C",
+    "lead_id": 25581,
+    "lead_str": " Carter"
+  }
+}

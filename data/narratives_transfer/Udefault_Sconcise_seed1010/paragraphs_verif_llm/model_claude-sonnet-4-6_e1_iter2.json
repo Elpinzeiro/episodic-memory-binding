@@ -1,0 +1,13 @@
+[
+  false,
+  [
+    "content"
+  ],
+  {
+    "location": true,
+    "date": true,
+    "entity": true,
+    "content": false
+  },
+  "Here is my analysis of the text:\n\n(1) The text takes place at Williamsburg Bridge - a single geographical location. True\n\n(2) The text takes place on May 11, 1832 - a single day. True\n\n(3) The main character is David Diaz, though \"fellow attendees\" are mentioned as secondary characters. True\n\n(4) There are two events described: attending a theater performance AND discussing voice projection techniques with fellow attendees. These are two distinct events, not a single main event. False\n\n```json\n{\n    \"1\": true,\n    \"2\": true,\n    \"3\": true,\n    \"4\": false\n}\n```"
+]

@@ -1,0 +1,29 @@
+{
+  "question_idx": 13,
+  "question": "Consider all events involving both Henry Reed and antimatter cascade. Provide a list of all dates when these events occurred, without describing the events.",
+  "gt_entities": [
+    "March 23, 2225",
+    "September 22, 2226"
+  ],
+  "free_generation": "March 23, 2225; July 31, 2229; August 03, 2229; September 22, 2229; October 24, 2229; January 30, 2230; February 06, 2230; March 28, 2230; June 14, 2230; July 17, 2230; September 19, 2230; October 27, 2230; November 02, 2230; December 11, 2230; January 25, 2231; February 04, 2231; March 15, 2231; May 02, 2231; June 13, 2231; July 29, 2231; September 11, 2231; October 31, 2231; November 14, 2231; December 23, 2231; January 06, 2232;",
+  "missing_entities": [
+    "September 22, 2226"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "September 22, 2226",
+      "first_token": {
+        "id": 30649,
+        "str": "September",
+        "forced_continuation": "September 22, 2226",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "September",
+        "forced_continuation": "September 22, 2226",
+        "recovered": true
+      }
+    }
+  ]
+}

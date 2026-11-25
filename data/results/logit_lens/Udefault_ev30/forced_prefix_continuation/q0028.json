@@ -1,0 +1,44 @@
+{
+  "question_idx": 28,
+  "question": "Reflect on September 13, 2025. Describe all the key events that occurred on this date, focusing on what happened rather than who was involved or where it took place.",
+  "gt_entities": [
+    "Tech Hackathon",
+    "Film Festival"
+  ],
+  "free_generation": "Educational Workshop on Quantum Entanglement and Stock Market Predictions. Astronomical Observations of Unique Celestial Configurations. Hackathon on Artificial Intelligence and Cryptocurrency Trading.",
+  "missing_entities": [
+    "Tech Hackathon",
+    "Film Festival"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Tech Hackathon",
+      "first_token": {
+        "id": 35197,
+        "str": "Tech",
+        "forced_continuation": "Tech Hackathon Launches. Educational Workshop Debut. Both mark the beginning of new projects, setting the stage for future developments.",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Tech",
+        "forced_continuation": "Tech Hackathon Launches. Educational Workshop Debut. Both mark the beginning of new projects, setting the stage for future developments.",
+        "recovered": true
+      }
+    },
+    {
+      "missing_entity": "Film Festival",
+      "first_token": {
+        "id": 52587,
+        "str": "Film",
+        "forced_continuation": "Film Festival Premiere, Tech Hackathon Launch.",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Film",
+        "forced_continuation": "Film Festival Premiere, Tech Hackathon Launch.",
+        "recovered": true
+      }
+    }
+  ]
+}

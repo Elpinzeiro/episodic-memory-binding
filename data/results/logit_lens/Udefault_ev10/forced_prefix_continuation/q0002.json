@@ -1,0 +1,29 @@
+{
+  "question_idx": 2,
+  "question": "Reflect on all events involving Henry Reed. Provide a list of all dates when these events occurred, without describing the events.",
+  "gt_entities": [
+    "February 27, 2026",
+    "June 14, 2025"
+  ],
+  "free_generation": "June 14, 2025 | February 25, 2025 | November 27, 2025 | September 2, 2025 | February 20, 2025 | November 12, 2025 | June 30, 2025 | September 22, 2025 | February 14, 2025 | November 15, 2025 | September 19, 2025 | February 27, 2025 | November 25, 2025 | June 21, 2025 | September 12, 2025 | February 11, 2025 | November 20, 2025 | September 25, 2025 | February 22, 2025 | November 14, 2025 | September 15, 2025 | February 28, 2025 | November 22, 2025 | September 20, 2025 | February 16, 2025 |",
+  "missing_entities": [
+    "February 27, 2026"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "February 27, 2026",
+      "first_token": {
+        "id": 33877,
+        "str": "February",
+        "forced_continuation": "February 27, 2026; February 28, 2026; March 1, 2026; March 2, 2026; March 6, 2026; March",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "February",
+        "forced_continuation": "February 27, 2026; February 28, 2026; March 1, 2026; March 2, 2026; March 6, 2026; March",
+        "recovered": true
+      }
+    }
+  ]
+}

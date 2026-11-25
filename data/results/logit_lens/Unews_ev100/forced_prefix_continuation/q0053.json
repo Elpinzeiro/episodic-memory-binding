@@ -1,0 +1,44 @@
+{
+  "question_idx": 53,
+  "question": "Consider all events involving both Levi Rodriguez and flash flood emergency at Luang Prabang Province. Provide a list of all dates when these events occurred, without describing the events.",
+  "gt_entities": [
+    "February 27, 2026",
+    "May 31, 2024"
+  ],
+  "free_generation": "July 31, 2025\nSeptember 22, 2025\nOctober 18, 2025\nNovember 13, 2025\nDecember 07, 2025\nJanuary 11, 2026\nApril 05, 2026\nMay 31, 2026\nJune 28, 2026\nSeptember 16, 2026\nOctober 12, 2026\nNovember 02, 2026\nDecember 27, 2026\nJanuary 25, 2026\nMarch 19, 2026\nMay 14, 2026\nJune 09, 2026\nJuly 04, 2026\nAugust 30, 2026\nSeptember 24, 2026\nOctober 21, 2026\nNovember 17, 2026\nDecember 13, 2026\nJanuary 07, 2026\nFebruary 28, 2026\n",
+  "missing_entities": [
+    "February 27, 2026",
+    "May 31, 2024"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "February 27, 2026",
+      "first_token": {
+        "id": 33877,
+        "str": "February",
+        "forced_continuation": "February 27, 2026, and October 30, 2026.",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "February",
+        "forced_continuation": "February 27, 2026, and October 30, 2026.",
+        "recovered": true
+      }
+    },
+    {
+      "missing_entity": "May 31, 2024",
+      "first_token": {
+        "id": 11356,
+        "str": "May",
+        "forced_continuation": "May 11, 2026 and September 22, 2026.",
+        "recovered": false
+      },
+      "first_word": {
+        "str": "May",
+        "forced_continuation": "May 11, 2026 and September 22, 2026.",
+        "recovered": false
+      }
+    }
+  ]
+}

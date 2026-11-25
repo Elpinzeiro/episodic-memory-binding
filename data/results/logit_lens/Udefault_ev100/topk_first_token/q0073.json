@@ -1,0 +1,75 @@
+{
+  "question_idx": 73,
+  "question": "Recall the events related to Tech Hackathon that occurred on March 23, 2024. List all the locations where these events took place, without describing the events themselves.",
+  "GT_entities": [
+    "American Museum of Natural History",
+    "Statue of Liberty"
+  ],
+  "ent_A": "American Museum of Natural History",
+  "ent_B": "Statue of Liberty",
+  "topk": 8,
+  "top_ids": [
+    12243,
+    35773,
+    29518,
+    26860,
+    92703,
+    16257,
+    27368,
+    52961
+  ],
+  "top_tokens": [
+    {
+      "id": 12243,
+      "str": "High",
+      "prob": 0.965188205242157
+    },
+    {
+      "id": 35773,
+      "str": "Met",
+      "prob": 0.02378840185701847
+    },
+    {
+      "id": 29518,
+      "str": "American",
+      "prob": 0.004986319690942764
+    },
+    {
+      "id": 26860,
+      "str": "Que",
+      "prob": 0.0014064559945836663
+    },
+    {
+      "id": 92703,
+      "str": "Beth",
+      "prob": 0.0006439225398935378
+    },
+    {
+      "id": 16257,
+      "str": "Stat",
+      "prob": 0.0004495303728617728
+    },
+    {
+      "id": 27368,
+      "str": "Bro",
+      "prob": 0.0004495303728617728
+    },
+    {
+      "id": 52961,
+      "str": "British",
+      "prob": 0.00042894488433375955
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 29518,
+    "bare_str": "American",
+    "lead_id": 3778,
+    "lead_str": " American"
+  },
+  "first_token_B": {
+    "bare_id": 16257,
+    "bare_str": "Stat",
+    "lead_id": 89675,
+    "lead_str": " Statue"
+  }
+}

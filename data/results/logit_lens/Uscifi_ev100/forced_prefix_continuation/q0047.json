@@ -1,0 +1,29 @@
+{
+  "question_idx": 47,
+  "question": "Reflect on Levi Rodriguez's experiences at Europa Subsurface Laboratory. Describe all the key events they've been involved in at this location, focusing on what happened rather than when it occurred.",
+  "gt_entities": [
+    "cryo-pod integrity breach",
+    "antimatter cascade"
+  ],
+  "free_generation": "fusion core breachassistant\n\nLevi Rodriguez's cryo-pod integrity breach at Europa Subsurface Laboratory; icy vacuum cascade through the facility.",
+  "missing_entities": [
+    "antimatter cascade"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "antimatter cascade",
+      "first_token": {
+        "id": 519,
+        "str": "ant",
+        "forced_continuation": "antimatter cascade; cryo-pod integrity breach",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "antimatter",
+        "forced_continuation": "antimatter cascade; cryo-pod integrity breach",
+        "recovered": true
+      }
+    }
+  ]
+}

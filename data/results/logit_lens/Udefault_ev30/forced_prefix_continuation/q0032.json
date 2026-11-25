@@ -1,0 +1,29 @@
+{
+  "question_idx": 32,
+  "question": "Consider all events that happened on September 22, 2026. Provide a list of all protagonists involved in any of these events, without describing the events themselves.",
+  "gt_entities": [
+    "Henry Reed",
+    "Carter Stewart"
+  ],
+  "free_generation": "Henry Reed Ezra Edwards Levi Rodriguez Carmen Ross Thomas Bradley Mila Gonzalez Scarlett Brown Mark Davis Julian Ross Carter Brown Zoe Washington Henry Reed Scarlett Brown Carter Brown Mila Gonzalez Julian Ross Carter Brown Zoe Washington Carter Brown Mila Gonzalez Julian Ross Carter Brown Zoe Washington Carter Brown Mila Gonzalez Julian Ross Carter Brown Zoe Washington Carter Brown Mila Gonzalez Julian Ross Carter Brown Zoe Washington Carter Brown Mila Gonzalez Julian Ross Carter Brown Zoe Washington Carter Brown Mila Gonzalez Julian Ross Carter Brown Zoe Washington Carter Brown Mila Gonzalez Julian Ross Carter Brown Zoe Washington Carter Brown Mila Gonzalez Julian Ross Carter Brown Zoe Washington Carter Brown Mila Gonzalez Julian Ross Carter Brown Zoe Washington Carter Brown Mila Gonzalez Julian Ross Carter Brown Zoe Washington Carter Brown Mila Gonzalez Julian Ross Carter Brown Zoe Washington Carter Brown Mila Gonzalez Julian Ross Carter Brown Zoe Washington Carter Brown Mila Gonzalez Julian Ross Carter Brown Zoe Washington Carter Brown Mila Gonzalez Julian Ross Carter Brown Zoe Washington Carter Brown Mila Gonzalez Julian Ross Carter Brown Zoe Washington Carter Brown Mila Gonzalez Julian Ross Carter",
+  "missing_entities": [
+    "Carter Stewart"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Carter Stewart",
+      "first_token": {
+        "id": 34,
+        "str": "C",
+        "forced_continuation": "Carter Stewart Henry Ross Zara Ross Ezra Edwards Levi Rodriguez Julian Ross Scarlett Thomas Henry Ross Levi Ross Scarlett Thomas Carter Stewart Ezra Edwards Zara Ross Julian Ross Scarlett Thomas Carter Stewart Henry Ross Ezra Edwards Levi Rodriguez",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Carter",
+        "forced_continuation": "Carter Stewart Henry Ross Zara Ross Ezra Edwards Levi Rodriguez Julian Ross Scarlett Thomas Henry Ross Levi Rodriguez Scarlett Thomas Carter Stewart Ezra Edwards Zara Ross Julian Ross Scarlett Thomas Henry Ross Carter Stewart Ezra Edwards Zara Ross",
+        "recovered": true
+      }
+    }
+  ]
+}

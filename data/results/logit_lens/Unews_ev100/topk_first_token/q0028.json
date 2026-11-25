@@ -1,0 +1,75 @@
+{
+  "question_idx": 28,
+  "question": "Consider all events that Jackson Ramos has been involved in. List all the locations where these events took place, without mentioning the events themselves.",
+  "GT_entities": [
+    "North Dakota",
+    "Greater Mumbai"
+  ],
+  "ent_A": "North Dakota",
+  "ent_B": "Greater Mumbai",
+  "topk": 8,
+  "top_ids": [
+    42466,
+    26287,
+    50302,
+    49,
+    72191,
+    53,
+    33381,
+    29462
+  ],
+  "top_tokens": [
+    {
+      "id": 42466,
+      "str": "Greater",
+      "prob": 0.9025046229362488
+    },
+    {
+      "id": 26287,
+      "str": "North",
+      "prob": 0.08526796102523804
+    },
+    {
+      "id": 50302,
+      "str": "Lu",
+      "prob": 0.005893934518098831
+    },
+    {
+      "id": 49,
+      "str": "R",
+      "prob": 0.0016886405646800995
+    },
+    {
+      "id": 72191,
+      "str": "Northern",
+      "prob": 0.0012947256909683347
+    },
+    {
+      "id": 53,
+      "str": "V",
+      "prob": 0.0011248771334066987
+    },
+    {
+      "id": 33381,
+      "str": " Greater",
+      "prob": 0.0008359376806765795
+    },
+    {
+      "id": 29462,
+      "str": "reater",
+      "prob": 0.00028000405291095376
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 26287,
+    "bare_str": "North",
+    "lead_id": 4892,
+    "lead_str": " North"
+  },
+  "first_token_B": {
+    "bare_id": 42466,
+    "bare_str": "Greater",
+    "lead_id": 33381,
+    "lead_str": " Greater"
+  }
+}

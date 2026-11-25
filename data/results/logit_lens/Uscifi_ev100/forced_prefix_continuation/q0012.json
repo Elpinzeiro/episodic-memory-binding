@@ -1,0 +1,29 @@
+{
+  "question_idx": 12,
+  "question": "Consider all events involving both Carter Stewart and antimatter cascade. Provide a list of all dates when these events occurred, without describing the events.",
+  "gt_entities": [
+    "February 27, 2226",
+    "October 30, 2226"
+  ],
+  "free_generation": "September 22, 2226; October 30, 2226; November 20, 2226; December 13, 2226; January 03, 2227; February 18, 2227; March 15, 2227; April 29, 2227; May 19, 2227; June 14, 2227; July 31, 2227; August 27, 2227; September 12, 2227; October 06, 2227; November 22, 2227; December 19, 2227; January 17, 2228; February 11, 2228; March 31, 2228; April 25, 2228; May 20, 2228; June 13, 2228; July 29, 2228; August 23, 2228; September 19, 2228;",
+  "missing_entities": [
+    "February 27, 2226"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "February 27, 2226",
+      "first_token": {
+        "id": 33877,
+        "str": "February",
+        "forced_continuation": "February 27, 2226; June 14, 2226; July 30, 2226; September 23, 2226; November 16, 2226; January",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "February",
+        "forced_continuation": "February 27, 2226; June 14, 2226; July 30, 2226; September 23, 2226; November 16, 2226; January",
+        "recovered": true
+      }
+    }
+  ]
+}

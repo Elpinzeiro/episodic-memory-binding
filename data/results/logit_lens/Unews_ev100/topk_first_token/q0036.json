@@ -1,0 +1,75 @@
+{
+  "question_idx": 36,
+  "question": "Recall all events related to residential tower fire that occurred at Luzon Region. Provide a list of all dates when these events took place, without describing the events.",
+  "GT_entities": [
+    "February 27, 2026",
+    "September 03, 2026"
+  ],
+  "ent_A": "February 27, 2026",
+  "ent_B": "September 03, 2026",
+  "topk": 8,
+  "top_ids": [
+    30649,
+    31294,
+    33327,
+    6250,
+    33246,
+    84749,
+    33877,
+    28259
+  ],
+  "top_tokens": [
+    {
+      "id": 30649,
+      "str": "September",
+      "prob": 0.993166983127594
+    },
+    {
+      "id": 31294,
+      "str": "October",
+      "prob": 0.005635150242596865
+    },
+    {
+      "id": 33327,
+      "str": "January",
+      "prob": 0.000557955470867455
+    },
+    {
+      "id": 6250,
+      "str": " September",
+      "prob": 0.0004847600939683616
+    },
+    {
+      "id": 33246,
+      "str": "December",
+      "prob": 3.0989674996817484e-05
+    },
+    {
+      "id": 84749,
+      "str": " september",
+      "prob": 2.3392236471408978e-05
+    },
+    {
+      "id": 33877,
+      "str": "February",
+      "prob": 1.658757719269488e-05
+    },
+    {
+      "id": 28259,
+      "str": "June",
+      "prob": 1.5582587366225198e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 33877,
+    "bare_str": "February",
+    "lead_id": 7552,
+    "lead_str": " February"
+  },
+  "first_token_B": {
+    "bare_id": 30649,
+    "bare_str": "September",
+    "lead_id": 6250,
+    "lead_str": " September"
+  }
+}

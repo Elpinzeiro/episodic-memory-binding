@@ -1,0 +1,29 @@
+{
+  "question_idx": 14,
+  "question": "Consider all events that happened on May 11, 2226. Provide a list of all protagonists involved in any of these events, without describing the events themselves.",
+  "gt_entities": [
+    "Levi Rodriguez",
+    "Scarlett Thomas"
+  ],
+  "free_generation": "Levi Rodriguez Brooklyn Ross Carter Harrison Wallace Miles Stewart Henry Davis Scarlett Brown Ethan Hall Samuel Parker Olivia Martin Carter Kim Thomas Lee Ryan Brooks Daniel Smith Emily Taylor Logan Thompson James Wilson Rachel Lewis Michael Johnson Hannah Lewis William Davis Kate Brooks Jack Harris Lauren Brooks Ben Hall Samantha Taylor Mark Davis Olivia Brooks Harrison Ross Carter Wallace Ethan Kim Parker Davis Carter Harrison Davis Carter Harrison Davis Carter Harrison Davis Carter Harrison Davis Carter Harrison Davis Carter Harrison Davis Carter Harrison Davis Carter Harrison Davis Carter Harrison Davis Carter Harrison Davis Carter Harrison Davis Carter Harrison Davis Carter Harrison Davis Carter Harrison Davis Carter Harrison Davis Carter Harrison Davis Carter Harrison Davis Carter Harrison Davis Carter Harrison Davis Carter Harrison Davis Carter Harrison Davis Carter Harrison Davis Carter Harrison Davis Carter Harrison Davis Carter Harrison Davis Carter Harrison Davis Carter Harrison Davis Carter Harrison Davis Carter Harrison Davis Carter Harrison Davis Carter Harrison Davis Carter Harrison Davis Carter Harrison Davis Carter Harrison Davis Carter Harrison Davis Carter Harrison Davis Carter Harrison Davis Carter Harrison Davis Carter Harrison Davis Carter Harrison Davis Carter Harrison Davis Carter Harrison Davis Carter Harrison Davis Carter Harrison Davis Carter Harrison Davis Carter",
+  "missing_entities": [
+    "Scarlett Thomas"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Scarlett Thomas",
+      "first_token": {
+        "id": 96056,
+        "str": "Scar",
+        "forced_continuation": "Scarlett Thomas; Carter Stewart; Mila Gonzalez; Levi Rodriguez; Henry Patel; Brooklyn Reed; Samuel Jackson; Isabella Reyes; Lila Washington; Samuel Parker; Samuel Rodriguez; Samuel Lee; Samuel",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Scarlett",
+        "forced_continuation": "Scarlett Thomas; Carter Stewart; Mila Gonzalez; Levi Rodriguez; Henry Patel; Brooklyn Reed; Samuel Jackson; Isabella Reyes; Lila Washington; Samuel Parker; Samuel Rodriguez; Samuel Lee; Samuel Brown",
+        "recovered": true
+      }
+    }
+  ]
+}

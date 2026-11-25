@@ -1,0 +1,12 @@
+{
+  "question_idx": 15,
+  "question": "Reflect on May 11, 2226. Describe all the key events that occurred on this date, focusing on what happened rather than who was involved or where it took place.",
+  "gt_entities": [
+    "antimatter cascade",
+    "fusion core breach"
+  ],
+  "free_generation": "fusion core breach plasma surge antimatter cascade alarm system failurecryo chamber integrity breach cryopod rupture husk fragmentation event rupture cryo-temperature cascade failure cryo-pod integrity breach cryo-pod rupture cryo-pod breach cryo-pod rupture cryo-pod integrity breach cryo-pod rupture cryo-pod breach cryo-pod rupture cryo-pod integrity breach cryo-pod rupture cryo-pod breach cryo-pod rupture cryo-pod integrity breach cryo-pod rupture cryo-pod breach cryo-pod rupture cryo-pod integrity breach cryo-pod rupture cryo-pod breach cryo-pod rupture cryo-pod integrity breach cryo-pod rupture cryo-pod breach cryo-pod rupture cryo-pod integrity breach cryo-pod rupture cryo-pod breach cryo-pod rupture cryo-pod integrity breach cryo-pod rupture cryo-pod breach cryo-pod rupture cry",
+  "missing_entities": [],
+  "is_binding_failure": false,
+  "forced_prefix_experiments": []
+}

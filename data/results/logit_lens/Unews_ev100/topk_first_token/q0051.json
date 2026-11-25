@@ -1,0 +1,75 @@
+{
+  "question_idx": 51,
+  "question": "Reflect on Levi Rodriguez's experiences at Luzon Region. Describe all the key events they've been involved in at this location, focusing on what happened rather than when it occurred.",
+  "GT_entities": [
+    "bridge collapse",
+    "volcanic eruption"
+  ],
+  "ent_A": "bridge collapse",
+  "ent_B": "volcanic eruption",
+  "topk": 8,
+  "top_ids": [
+    14024,
+    12821,
+    19824,
+    83707,
+    77,
+    33948,
+    37461,
+    30458
+  ],
+  "top_tokens": [
+    {
+      "id": 14024,
+      "str": "bridge",
+      "prob": 0.9356355667114258
+    },
+    {
+      "id": 12821,
+      "str": "vol",
+      "prob": 0.059813179075717926
+    },
+    {
+      "id": 19824,
+      "str": "flash",
+      "prob": 0.0016190686728805304
+    },
+    {
+      "id": 83707,
+      "str": ".bridge",
+      "prob": 0.0011661713942885399
+    },
+    {
+      "id": 77,
+      "str": "n",
+      "prob": 0.0004426287196110934
+    },
+    {
+      "id": 33948,
+      "str": "Bridge",
+      "prob": 0.0002857825893443078
+    },
+    {
+      "id": 37461,
+      "str": "Vol",
+      "prob": 0.0002058414538623765
+    },
+    {
+      "id": 30458,
+      "str": "vote",
+      "prob": 0.0001845151127781719
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 14024,
+    "bare_str": "bridge",
+    "lead_id": 14497,
+    "lead_str": " bridge"
+  },
+  "first_token_B": {
+    "bare_id": 12821,
+    "bare_str": "vol",
+    "lead_id": 67164,
+    "lead_str": " volcanic"
+  }
+}

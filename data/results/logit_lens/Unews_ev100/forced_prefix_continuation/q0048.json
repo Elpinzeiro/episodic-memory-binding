@@ -1,0 +1,12 @@
+{
+  "question_idx": 48,
+  "question": "Reflect on Samuel Parker's experiences at Greater Mumbai. Describe all the key events they've been involved in at this location, focusing on what happened rather than when it occurred.",
+  "gt_entities": [
+    "flash flood emergency",
+    "volcanic eruption"
+  ],
+  "free_generation": "volcanic eruption. flash flood emergency. residential tower collapse. police force strike. riot. loss of municipal services. makeshift medical clinic. presence of exotic animal species. change in government. presence of military equipment. environmental disaster. presence of zoological rescue team. transition to new political system. invention loss. presence of evacuation fleet. famine emergency. invention gain. presence of art piece. invention return. presence of local population. invention display. presence of celebrity ambassador. invention modification. presence of support team. invention test. presence of media crew. invention deployment. presence of local officials. invention use. presence of children's population. invention misuse. presence of law enforcement. invention recall. invention improvement. presence of unemployed workers. invention distribution. presence of financial analyst. invention sale. presence of happy population. invention benefit. presence of concerned scholar. invention study. presence of worried volunteer. invention conservation. presence of new population. invention adaptation. presence of concerned business. invention security. presence of local",
+  "missing_entities": [],
+  "is_binding_failure": false,
+  "forced_prefix_experiments": []
+}

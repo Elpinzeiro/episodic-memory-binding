@@ -1,0 +1,75 @@
+{
+  "question_idx": 53,
+  "question": "Consider all events involving both Henry Reed and cryo-pod integrity breach at Mars Valles Industrial Hub. Provide a list of all dates when these events occurred, without describing the events.",
+  "GT_entities": [
+    "May 11, 2226",
+    "July 31, 2225"
+  ],
+  "ent_A": "May 11, 2226",
+  "ent_B": "July 31, 2225",
+  "topk": 8,
+  "top_ids": [
+    33877,
+    31294,
+    30649,
+    28623,
+    7552,
+    34827,
+    33327,
+    29146
+  ],
+  "top_tokens": [
+    {
+      "id": 33877,
+      "str": "February",
+      "prob": 0.9991699457168579
+    },
+    {
+      "id": 31294,
+      "str": "October",
+      "prob": 0.0005110948113724589
+    },
+    {
+      "id": 30649,
+      "str": "September",
+      "prob": 0.00012524917838163674
+    },
+    {
+      "id": 28623,
+      "str": "March",
+      "prob": 7.596746581839398e-05
+    },
+    {
+      "id": 7552,
+      "str": " February",
+      "prob": 6.397101969923824e-05
+    },
+    {
+      "id": 34827,
+      "str": "November",
+      "prob": 3.0217768653528765e-05
+    },
+    {
+      "id": 33327,
+      "str": "January",
+      "prob": 7.88277611718513e-06
+    },
+    {
+      "id": 29146,
+      "str": "April",
+      "prob": 4.932915544486605e-06
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 11356,
+    "bare_str": "May",
+    "lead_id": 3297,
+    "lead_str": " May"
+  },
+  "first_token_B": {
+    "bare_id": 29527,
+    "bare_str": "July",
+    "lead_id": 5887,
+    "lead_str": " July"
+  }
+}

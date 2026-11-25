@@ -1,0 +1,29 @@
+{
+  "question_idx": 73,
+  "question": "Recall the events related to cryo-pod integrity breach that occurred on March 23, 2224. List all the locations where these events took place, without describing the events themselves.",
+  "gt_entities": [
+    "Mars Valles Industrial Hub",
+    "Triton Gas Colony"
+  ],
+  "free_generation": "Mercury Twilight Observatory Triton Gas Colony Luna Oceanus Crater Defense Network Server Hawke's Ecliptic Path assistant\n\nMercury Twilight Observatory Triton Gas Colony Luna Oceanus Crater Defense Network Server Hawke's Ecliptic Path",
+  "missing_entities": [
+    "Mars Valles Industrial Hub"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Mars Valles Industrial Hub",
+      "first_token": {
+        "id": 44,
+        "str": "M",
+        "forced_continuation": "Mars Valles Industrial Hub;:;: Elysium Surface Complex;:;: Triton Gas Colonyassistant\n\nMars Valles Industrial Hubassistant\n\nMars Valles Industrial Hub",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Mars",
+        "forced_continuation": "Mars Valles Industrial Hub;:;: Elysium Surface Complex;:;: Triton Gas Colonyassistant\n\nMars Valles Industrial Hubassistant\n\nMars Valles Industrial Hub",
+        "recovered": true
+      }
+    }
+  ]
+}

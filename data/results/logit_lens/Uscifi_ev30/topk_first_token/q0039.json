@@ -1,0 +1,75 @@
+{
+  "question_idx": 39,
+  "question": "Recall the events related to antimatter cascade that occurred on May 11, 2226. List all the locations where these events took place, without describing the events themselves.",
+  "GT_entities": [
+    "Europa Subsurface Laboratory",
+    "Triton Gas Colony"
+  ],
+  "ent_A": "Europa Subsurface Laboratory",
+  "ent_B": "Triton Gas Colony",
+  "topk": 8,
+  "top_ids": [
+    55218,
+    51,
+    43,
+    27814,
+    1305,
+    39600,
+    64469,
+    2434
+  ],
+  "top_tokens": [
+    {
+      "id": 55218,
+      "str": "Eu",
+      "prob": 0.46263524889945984
+    },
+    {
+      "id": 51,
+      "str": "T",
+      "prob": 0.44840145111083984
+    },
+    {
+      "id": 43,
+      "str": "L",
+      "prob": 0.06769849359989166
+    },
+    {
+      "id": 27814,
+      "str": "Mer",
+      "prob": 0.005557030905038118
+    },
+    {
+      "id": 1305,
+      "str": "Tr",
+      "prob": 0.004002579487860203
+    },
+    {
+      "id": 39600,
+      "str": " Europa",
+      "prob": 0.002882949775084853
+    },
+    {
+      "id": 64469,
+      "str": "European",
+      "prob": 0.0025047501549124718
+    },
+    {
+      "id": 2434,
+      "str": "TR",
+      "prob": 0.001950701349414885
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 55218,
+    "bare_str": "Eu",
+    "lead_id": 39600,
+    "lead_str": " Europa"
+  },
+  "first_token_B": {
+    "bare_id": 51,
+    "bare_str": "T",
+    "lead_id": 85283,
+    "lead_str": " Trit"
+  }
+}

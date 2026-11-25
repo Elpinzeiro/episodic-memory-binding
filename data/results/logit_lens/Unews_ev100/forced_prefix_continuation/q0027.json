@@ -1,0 +1,29 @@
+{
+  "question_idx": 27,
+  "question": "Consider all events that Ezra Edwards has been involved in. List all the locations where these events took place, without mentioning the events themselves.",
+  "gt_entities": [
+    "Buenos Aires Province",
+    "Rajasthan"
+  ],
+  "free_generation": "Rajasthan Province. Luang Prabang. Vote Region 12. Greater Mumbai. Falkland Islands. Luang Prabang Province. Vote Region 3. Greater Luang Prabang. North Baja California Province. Luang Prabang. Greater Luang Prabang. Rajasthan Province. North Dakota Province. Luang Prabang. Vote Region 7. Greater Luang Prabang. North Dakota Province. Rajasthan Province. North Baja California Province. Vote Region 5. Rajasthan Province. North Dakota Province. North Baja California Province. Vote Region 1. North Dakota Province. Rajasthan Province. North Baja California Province. Vote Region 9. North Dakota Province. Rajasthan Province. North Baja California Province. Vote Region 6. North Dakota Province. Rajasthan Province. North Baja California Province. Vote Region 4. North Dakota Province. Rajasthan Province. North Baja California Province. Vote Region 8. North Dakota Province. Rajasthan Province",
+  "missing_entities": [
+    "Buenos Aires Province"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Buenos Aires Province",
+      "first_token": {
+        "id": 33,
+        "str": "B",
+        "forced_continuation": "Buenos Aires Province. New South Wales. Rajasthan. Vermont. Luang Prabang Province. Greater Mumbai. Kampong Cham Province. Kyzylkum Desert. Luang Prabang",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Buenos",
+        "forced_continuation": "Buenos Aires Province. New South Wales. Rajasthan. Vermont. Luang Prabang Province. Greater Mumbai. Kampong Cham Province. Kyzylkum Desert. Luang Prabang Province.",
+        "recovered": true
+      }
+    }
+  ]
+}

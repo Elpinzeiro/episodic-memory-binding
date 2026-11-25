@@ -1,0 +1,13 @@
+{
+  "prompt": "Which national team did Rio Ferdinand play for in 2010?",
+  "expected": "England national association football team",
+  "response": "Rio Ferdinand played for the **England national team** in 2010.",
+  "evaluation": {
+    "id": 1,
+    "identified_items": [
+      "England national team"
+    ],
+    "correct": true,
+    "explanation": "Matches expected answer with correct national team"
+  }
+}

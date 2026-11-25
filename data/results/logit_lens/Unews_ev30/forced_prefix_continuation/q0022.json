@@ -1,0 +1,29 @@
+{
+  "question_idx": 22,
+  "question": "Consider the location North Dakota. List all protagonists that have been involved in any events at this location, without mentioning the events themselves.",
+  "gt_entities": [
+    "Brooklyn Ross",
+    "Henry Reed"
+  ],
+  "free_generation": "Henry Reed Ezra Edwards Zoe Brown Samuel Parker Scarlett Thomas Mila Gonzalez Levi Rodriguez Carter Stewart Ross Thomas Brown Henry Reed Scarlett Thomas Carter Stewart Levi Rodriguez Zoe Brown Ezra Edwards Mila Gonzalez Samuel Parker Ross Thomas Zoe Brown Carter Stewart Scarlett Thomas Levi Rodriguez Mila Gonzalez Samuel Parker Ezra Edwards Henry Reed Ross Thomas Scarlett Thomas Carter Stewart Mila Gonzalez Samuel Parker Zoe Brown Ezra Edwards Henry Reed Scarlett Thomas Mila Gonzalez Levi Rodriguez Carter Stewart Ross Thomas Zoe Brown Ezra Edwards Henry Reed Scarlett Thomas Carter Stewart Mila Gonzalez Samuel Parker Zoe Brown Ezra Edwards Henry Reed Scarlett Thomas Mila Gonzalez Levi Rodriguez Carter Stewart Ross Thomas Zoe Brown Ezra Edwards Henry Reed Scarlett Thomas Carter Stewart Mila Gonzalez Samuel Parker Zoe Brown Ezra Edwards Henry Reed Scarlett Thomas Mila Gonzalez Levi Rodriguez Carter Stewart Ross Thomas Zoe Brown Ezra Edwards Henry Reed Scarlett Thomas Carter Stewart Mila Gonzalez Samuel Parker Zoe Brown Ezra Edwards Henry Reed Scarlett Thomas Mila Gonzalez Levi Rodriguez Carter Stewart Ross Thomas Zoe Brown Ezra Edwards Henry Reed Scarlett Thomas Carter Stewart Mila Gonzalez Samuel Parker Zoe Brown Ezra Edwards Henry",
+  "missing_entities": [
+    "Brooklyn Ross"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Brooklyn Ross",
+      "first_token": {
+        "id": 27368,
+        "str": "Bro",
+        "forced_continuation": "Brooklyn Ross Henry Reed Zoe Wallace Samuel Parker Scarlett Thomas Carter Ross Mila Gonzalez Levi Rodriguez Ezra Edwards Julian Ross Carter Ross Henry Ross Scarlett Thomas Carter Zoe Wallace Brooklyn Ross Levi Rodriguez Ezra Edwards Mila Gonzalez Julian",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Brooklyn",
+        "forced_continuation": "Brooklyn Ross Henry Reed Zoe Wallace Samuel Parker Scarlett Thomas Carter Ross Mila Gonzalez Levi Rodriguez Ezra Edwards Julian Ross Carter Ross Henry Ross Scarlett Thomas Carter Zoe Wallace Brooklyn Ross Levi Rodriguez Ezra Edwards Mila Gonzalez Julian Ross",
+        "recovered": true
+      }
+    }
+  ]
+}

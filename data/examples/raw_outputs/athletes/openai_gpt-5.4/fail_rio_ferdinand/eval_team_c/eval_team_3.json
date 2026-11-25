@@ -1,0 +1,15 @@
+{
+  "prompt": "Which team did Rio Ferdinand play for in 2015?",
+  "expected": "Queens Park Rangers F.C.",
+  "response": "Rio Ferdinand played for **Queens Park Rangers (QPR)** in **2015**.",
+  "evaluation": {
+    "id": 3,
+    "identified_items": [
+      "Queens Park Rangers",
+      "QPR",
+      "2015"
+    ],
+    "correct": true,
+    "explanation": "Matches expected answer with full team name, abbreviation, and year"
+  }
+}

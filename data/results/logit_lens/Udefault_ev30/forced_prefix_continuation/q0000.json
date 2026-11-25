@@ -1,0 +1,12 @@
+{
+  "question_idx": 0,
+  "question": "Reflect on events related to Astronomy Night. Provide a list of all protagonists involved in these events, without describing the events.",
+  "gt_entities": [
+    "Henry Reed",
+    "Scarlett Thomas"
+  ],
+  "free_generation": "Henry Reed Ezra Edwards Karaoke Night enthusiasts at High Line Sam Reed Karaoke Night enthusiasts at High Line Karaoke Night enthusiasts at High Line Mila Gonzalez Karaoke Night enthusiasts at High Line Karaoke Night enthusiasts at High Line Scarlett Thomas Karaoke Night enthusiasts at High Line Karaoke Night enthusiasts at High Line Carter Stewart Karaoke Night enthusiasts at High Line Karaoke Night enthusiasts at High Line Mila Gonzalez Karaoke Night enthusiasts at High Line Ezra Edwards Karaoke Night enthusiasts at High Line Scarlett Thomas Karaoke Night enthusiasts at High Line Carter Stewart Karaoke Night enthusiasts at High Line Henry Reed Karaoke Night enthusiasts at High Line Mila Gonzalez Karaoke Night enthusiasts at High Line Scarlett Thomas Karaoke Night enthusiasts at High Line Ezra Edwards Karaoke Night enthusiasts at High Line Carter Stewart Karaoke Night enthusiasts at High Line Henry Reed Karaoke Night enthusiasts at High Line Mila Gonzalez Karaoke Night enthusiasts at High Line Scarlett Thomas Karaoke Night enthusiasts at High Line Ezra Edwards Karaoke Night enthusiasts at High Line Carter Stewart Karaoke",
+  "missing_entities": [],
+  "is_binding_failure": false,
+  "forced_prefix_experiments": []
+}

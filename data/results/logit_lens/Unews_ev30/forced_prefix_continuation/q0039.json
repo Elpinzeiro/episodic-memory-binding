@@ -1,0 +1,29 @@
+{
+  "question_idx": 39,
+  "question": "Think about the events involving bridge collapse on May 11, 2026. Provide a list of all protagonists involved in these events, without describing the events.",
+  "gt_entities": [
+    "Zoe Brown",
+    "Levi Rodriguez"
+  ],
+  "free_generation": "Henry Reed, Mila Gonzalez, Carter Stewart, Ezra Rodriguez, Levi Rodriguez, Scarlett Thomas, Julian Ross, Brooklyn Ross, Carter Stewart's wife, Carter Stewart's daughter, Carter Stewart's son-in-law, Carter Stewart's grandson, Carter Stewart's granddaughter, Carter Stewart's great-granddaughter, Carter Stewart's great-grandson, Carter Stewart's great-granddaughter, Carter Stewart's great-grandson, Carter Stewart's great-granddaughter, Carter Stewart's great-grandson, Carter Stewart's great-granddaughter, Carter Stewart's great-grandson, Carter Stewart's great-granddaughter, Carter Stewart's great-grandson, Carter Stewart's great-granddaughter, Carter Stewart's great-grandson, Carter Stewart's great-granddaughter, Carter Stewart's great-grandson, Carter Stewart's great-granddaughter, Carter Stewart's great-grandson, Carter Stewart's great-granddaughter, Carter Stewart's great-grandson, Carter Stewart's great-granddaughter, Carter Stewart's great-grandson, Carter Stewart's great-granddaughter, Carter",
+  "missing_entities": [
+    "Zoe Brown"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Zoe Brown",
+      "first_token": {
+        "id": 57,
+        "str": "Z",
+        "forced_continuation": "Zoe Brown, Carter Stewart, Levi Rodriguez, Mila Gonzalez, Henry Reed, Brooklyn Ross, Julian Rossi, Scarlett Thomas, Levi Rodriguez's child(ren).",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Zoe",
+        "forced_continuation": "Zoe Brown, Carter Stewart, Levi Rodriguez, Mila Gonzalez, Henry Reed, Brooklyn Ross, Julian Rossi, Scarlett Thomas, Levi Rodriguez's child(ren).",
+        "recovered": true
+      }
+    }
+  ]
+}

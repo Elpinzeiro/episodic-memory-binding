@@ -1,0 +1,12 @@
+{
+  "question_idx": 39,
+  "question": "Recall the events related to Theater Performance that occurred on May 11, 2026. List all the locations where these events took place, without describing the events themselves.",
+  "gt_entities": [
+    "Washington Square Park",
+    "American Museum of Natural History"
+  ],
+  "free_generation": "Washington Square Park Metropolitan Museum of Art American Museum of Natural History Trinity Church",
+  "missing_entities": [],
+  "is_binding_failure": false,
+  "forced_prefix_experiments": []
+}

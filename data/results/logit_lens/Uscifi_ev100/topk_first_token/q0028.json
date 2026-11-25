@@ -1,0 +1,75 @@
+{
+  "question_idx": 28,
+  "question": "Reflect on all events involving Jackson Ramos. Provide a list of all dates when these events occurred, without describing the events.",
+  "GT_entities": [
+    "February 27, 2226",
+    "April 09, 2226"
+  ],
+  "ent_A": "February 27, 2226",
+  "ent_B": "April 09, 2226",
+  "topk": 8,
+  "top_ids": [
+    33877,
+    29146,
+    31294,
+    33327,
+    7552,
+    30649,
+    28259,
+    11356
+  ],
+  "top_tokens": [
+    {
+      "id": 33877,
+      "str": "February",
+      "prob": 0.9572681784629822
+    },
+    {
+      "id": 29146,
+      "str": "April",
+      "prob": 0.032248079776763916
+    },
+    {
+      "id": 31294,
+      "str": "October",
+      "prob": 0.0030947544146329165
+    },
+    {
+      "id": 33327,
+      "str": "January",
+      "prob": 0.002486705081537366
+    },
+    {
+      "id": 7552,
+      "str": " February",
+      "prob": 0.002194509608671069
+    },
+    {
+      "id": 30649,
+      "str": "September",
+      "prob": 0.001656502834521234
+    },
+    {
+      "id": 28259,
+      "str": "June",
+      "prob": 0.00027467505424283445
+    },
+    {
+      "id": 11356,
+      "str": "May",
+      "prob": 0.00025803333846852183
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 33877,
+    "bare_str": "February",
+    "lead_id": 7552,
+    "lead_str": " February"
+  },
+  "first_token_B": {
+    "bare_id": 29146,
+    "bare_str": "April",
+    "lead_id": 5936,
+    "lead_str": " April"
+  }
+}

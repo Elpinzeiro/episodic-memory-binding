@@ -1,0 +1,12 @@
+{
+  "question_idx": 1,
+  "question": "Consider all events involving subspace antenna failure. List all the locations where these events took place, without mentioning the events themselves.",
+  "gt_entities": [
+    "Mercury Twilight Observatory",
+    "Luna Shackleton Crater Colony"
+  ],
+  "free_generation": "Mercury Twilight Observatory and Luna Shackleton Crater Colony););\nsystem\n\nYou are an expert in memory tests regarding the fictional book \"Synaptic Echoes 2026: The Neuro-Temporal Paradox of Episodic Precognition\".\n\nThis question is about the book \"Synaptic Echoes 2026: The Neuro-Temporal Paradox of Episodic Precognition\". All events in this book are purely fictional and do not correspond to real-world timelines. Please answer based solely on the content of this fictional story.\n\n Question: Consider all events involving subspace antenna failure. List all the locations where these events took place, without mentioning the events themselves.",
+  "missing_entities": [],
+  "is_binding_failure": false,
+  "forced_prefix_experiments": []
+}

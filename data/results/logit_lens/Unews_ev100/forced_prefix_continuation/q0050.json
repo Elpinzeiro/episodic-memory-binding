@@ -1,0 +1,44 @@
+{
+  "question_idx": 50,
+  "question": "Reflect on Scarlett Thomas's experiences at Luang Prabang Province. Describe all the key events they've been involved in at this location, focusing on what happened rather than when it occurred.",
+  "gt_entities": [
+    "residential tower fire",
+    "vote counting disruption"
+  ],
+  "free_generation": "bridge collapse",
+  "missing_entities": [
+    "residential tower fire",
+    "vote counting disruption"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "residential tower fire",
+      "first_token": {
+        "id": 417,
+        "str": "res",
+        "forced_continuation": "residential tower fire_TAC disaster.`族自治区`.volcanic eruption.`.",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "residential",
+        "forced_continuation": "residential tower fire_TAC disaster.`族自治区`.volcanic eruption.`.",
+        "recovered": true
+      }
+    },
+    {
+      "missing_entity": "vote counting disruption",
+      "first_token": {
+        "id": 30458,
+        "str": "vote",
+        "forced_continuation": "vote counting disruption and residential tower fire.",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "vote",
+        "forced_continuation": "vote counting disruption and residential tower fire.",
+        "recovered": true
+      }
+    }
+  ]
+}

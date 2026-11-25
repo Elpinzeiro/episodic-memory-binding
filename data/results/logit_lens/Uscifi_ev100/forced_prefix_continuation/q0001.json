@@ -1,0 +1,44 @@
+{
+  "question_idx": 1,
+  "question": "Reflect on events related to navigation computer blackout. Provide a list of all protagonists involved in these events, without describing the events.",
+  "gt_entities": [
+    "Ezra Edwards",
+    "Levi Rodriguez"
+  ],
+  "free_generation": "Lucy Carterassistant\n\nNavigation computer blackout refers to events that occurred on September 22, 2226. Here's a list of all protagonists involved in these events, without describing the events:\n\nLucy Carter\nScarlett Thomas\nBenjamin Ross",
+  "missing_entities": [
+    "Ezra Edwards",
+    "Levi Rodriguez"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Ezra Edwards",
+      "first_token": {
+        "id": 36,
+        "str": "E",
+        "forced_continuation": "Ezra Edwards",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Ezra",
+        "forced_continuation": "Ezra Edwards",
+        "recovered": true
+      }
+    },
+    {
+      "missing_entity": "Levi Rodriguez",
+      "first_token": {
+        "id": 2356,
+        "str": "Le",
+        "forced_continuation": "Levi Rodriguez Hernandez\"]; Lucy Carter\"; James Varangi\"; Noah Williams\"; Samuel Parker\"; Emma Taylor\"; Julian Ross\"; Lillian Uy\"; Noah Eberhardt\"; Samuel Patton\"; Lucy Lee\"; James M",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Levi",
+        "forced_continuation": "Levi Rodriguez Hernandez\"]; Lucy Carter\"; James Varangi\"; Noah Williams\"; Samuel Parker\"; Emma Taylor\"; Julian Ross\"; Lillian Uy\"; Noah Eberhardt\"; Samuel Patton\"; Lucy Lee\"; James Mendoza",
+        "recovered": true
+      }
+    }
+  ]
+}

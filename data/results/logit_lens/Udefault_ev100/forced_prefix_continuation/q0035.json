@@ -1,0 +1,44 @@
+{
+  "question_idx": 35,
+  "question": "Think about the events involving Fashion Show at High Line. List all protagonists involved in these events, without mentioning the events themselves.",
+  "gt_entities": [
+    "Julian Ross",
+    "Jackson Ramos"
+  ],
+  "free_generation": "Zoe Brown and Carter Stewart",
+  "missing_entities": [
+    "Julian Ross",
+    "Jackson Ramos"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Julian Ross",
+      "first_token": {
+        "id": 29185,
+        "str": "Jul",
+        "forced_continuation": "Julian Ross Zoe Brown Henry Reed Jackson Ramos Henry Ross Henry Brown Jackson Julian Ross Zoe Brown Henry Reed Jackson Julian Ross Zoe Brown Henry Reed Jackson Julian Ross Zoe Brown Henry Reed Jackson Julian Ross Zoe Brown Henry Reed",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Julian",
+        "forced_continuation": "Julian Ross Zoe Brown Henry Reed Jackson Ramos Henry Ross Henry Brown Jackson Julian Ross Zoe Brown Henry Reed Jackson Julian Ross Zoe Brown Henry Reed Jackson Julian Ross Zoe Brown Henry Reed Jackson Julian Ross Zoe Brown Henry Reed Jackson",
+        "recovered": true
+      }
+    },
+    {
+      "missing_entity": "Jackson Ramos",
+      "first_token": {
+        "id": 62382,
+        "str": "Jackson",
+        "forced_continuation": "Jackson Ramos, Lillian Mendoza, Zoe Brown, Noah Williams, Julian Ross, Maya Smith, Levi Rodriguez, Henry Reed, Brooklyn Smith, Scarlett Thomas, Samuel Parker, Mila Gonzalez, Benjamin Green",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Jackson",
+        "forced_continuation": "Jackson Ramos, Lillian Mendoza, Zoe Brown, Noah Williams, Julian Ross, Maya Smith, Levi Rodriguez, Henry Reed, Brooklyn Smith, Scarlett Thomas, Samuel Parker, Mila Gonzalez, Benjamin Green",
+        "recovered": true
+      }
+    }
+  ]
+}

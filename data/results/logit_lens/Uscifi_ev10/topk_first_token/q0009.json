@@ -1,0 +1,75 @@
+{
+  "question_idx": 9,
+  "question": "Think about the events involving plasma conduit rupture at Luna Oceanus Trading Post. List all protagonists involved in these events, without mentioning the events themselves.",
+  "GT_entities": [
+    "Henry Reed",
+    "Levi Rodriguez"
+  ],
+  "ent_A": "Henry Reed",
+  "ent_B": "Levi Rodriguez",
+  "topk": 8,
+  "top_ids": [
+    2356,
+    24903,
+    64463,
+    34,
+    27368,
+    96056,
+    50342,
+    95336
+  ],
+  "top_tokens": [
+    {
+      "id": 2356,
+      "str": "Le",
+      "prob": 0.5276224613189697
+    },
+    {
+      "id": 24903,
+      "str": "Sam",
+      "prob": 0.194101482629776
+    },
+    {
+      "id": 64463,
+      "str": "Henry",
+      "prob": 0.14200766384601593
+    },
+    {
+      "id": 34,
+      "str": "C",
+      "prob": 0.04984937980771065
+    },
+    {
+      "id": 27368,
+      "str": "Bro",
+      "prob": 0.04538837447762489
+    },
+    {
+      "id": 96056,
+      "str": "Scar",
+      "prob": 0.03426094353199005
+    },
+    {
+      "id": 50342,
+      "str": "Cas",
+      "prob": 0.001034590881317854
+    },
+    {
+      "id": 95336,
+      "str": "Jake",
+      "prob": 0.001018551061861217
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 64463,
+    "bare_str": "Henry",
+    "lead_id": 18063,
+    "lead_str": " Henry"
+  },
+  "first_token_B": {
+    "bare_id": 2356,
+    "bare_str": "Le",
+    "lead_id": 56141,
+    "lead_str": " Levi"
+  }
+}

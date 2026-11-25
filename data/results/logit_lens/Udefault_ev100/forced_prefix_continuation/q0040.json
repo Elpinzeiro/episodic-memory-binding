@@ -1,0 +1,29 @@
+{
+  "question_idx": 40,
+  "question": "Recall all events related to Fashion Show that occurred at High Line. Provide a list of all dates when these events took place, without describing the events.",
+  "gt_entities": [
+    "April 09, 2026",
+    "June 14, 2025"
+  ],
+  "free_generation": "June 14, 2025, September 13, 2025",
+  "missing_entities": [
+    "April 09, 2026"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "April 09, 2026",
+      "first_token": {
+        "id": 29146,
+        "str": "April",
+        "forced_continuation": "April 09, 2026 February 27, 2026 October 12, 2025 September 22, 2026",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "April",
+        "forced_continuation": "April 09, 2026 February 27, 2026 October 12, 2025 September 22, 2026",
+        "recovered": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "question_idx": 49,
+  "question": "Reflect on Carter Stewart's experiences at Luna Shackleton Crater Colony. Describe all the key events they've been involved in at this location, focusing on what happened rather than when it occurred.",
+  "gt_entities": [
+    "antimatter cascade",
+    "artificial atmosphere toxicity"
+  ],
+  "free_generation": "antimatter cascade struck Luna Shackleton Crater Colony; crisis negotiations played out between colonial authorities and secretive corporate cartels; colony leadership vacancies sparked power struggles; and more affairs took place at Luna Shackleton Crater Colony.",
+  "missing_entities": [
+    "artificial atmosphere toxicity"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "artificial atmosphere toxicity",
+      "first_token": {
+        "id": 472,
+        "str": "art",
+        "forced_continuation": "artificial atmosphere toxicity crisis; robotics laboratory shutdown; quarrel with Lillian Mendoza; unprecedented dust storm; secret meeting with Henry Reed;\"",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "artificial",
+        "forced_continuation": "artificial atmosphere toxicity crisis; robotics laboratory shutdown; quarrel with Lillian Mendoza; unprecedented dust scrubber failure\";",
+        "recovered": true
+      }
+    }
+  ]
+}

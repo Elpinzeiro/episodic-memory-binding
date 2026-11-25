@@ -1,0 +1,75 @@
+{
+  "question_idx": 9,
+  "question": "Reflect on the experiences of Henry Reed related to Fashion Show. List all the unique locations where these events took place, without mentioning the events themselves.",
+  "GT_entities": [
+    "Washington Square Park",
+    "Metropolitan Museum of Art"
+  ],
+  "ent_A": "Washington Square Park",
+  "ent_B": "Metropolitan Museum of Art",
+  "topk": 8,
+  "top_ids": [
+    12243,
+    35773,
+    29518,
+    45878,
+    39231,
+    1305,
+    82014,
+    45975
+  ],
+  "top_tokens": [
+    {
+      "id": 12243,
+      "str": "High",
+      "prob": 0.5267829895019531
+    },
+    {
+      "id": 35773,
+      "str": "Met",
+      "prob": 0.40389856696128845
+    },
+    {
+      "id": 29518,
+      "str": "American",
+      "prob": 0.06291525810956955
+    },
+    {
+      "id": 45878,
+      "str": " Metropolitan",
+      "prob": 0.0032826915849000216
+    },
+    {
+      "id": 39231,
+      "str": "Washington",
+      "prob": 0.0018998761661350727
+    },
+    {
+      "id": 1305,
+      "str": "Tr",
+      "prob": 0.0003301489632576704
+    },
+    {
+      "id": 82014,
+      "str": "Metro",
+      "prob": 0.00026945973513647914
+    },
+    {
+      "id": 45975,
+      "str": "MET",
+      "prob": 0.000209855439607054
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 39231,
+    "bare_str": "Washington",
+    "lead_id": 6652,
+    "lead_str": " Washington"
+  },
+  "first_token_B": {
+    "bare_id": 35773,
+    "bare_str": "Met",
+    "lead_id": 45878,
+    "lead_str": " Metropolitan"
+  }
+}

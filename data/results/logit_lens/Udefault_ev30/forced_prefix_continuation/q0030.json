@@ -1,0 +1,29 @@
+{
+  "question_idx": 30,
+  "question": "Consider all events that happened on April 09, 2026. Provide a list of all protagonists involved in any of these events, without describing the events themselves.",
+  "gt_entities": [
+    "Henry Reed",
+    "Scarlett Thomas"
+  ],
+  "free_generation": "Scarlett Thomas Tom Bradley Henry Edwards Mila Cameron Quinn Carter Mark Davis Zoe Washington Lauren Brooks Julian Ross Rachel Brown Sam Jackson Peter Logan Taylor Brown Henry Ross Carter Davis Washington Brown Carter Ross Davis Carter Ross Carter Davis Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter Carter",
+  "missing_entities": [
+    "Henry Reed"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Henry Reed",
+      "first_token": {
+        "id": 64463,
+        "str": "Henry",
+        "forced_continuation": "Henry Reed Ezra Edwards Julian Ross Sam Carter Mila Gonzalez Scarlett Thomas Morgan Ross Quinn Carson Henry Reed again Julian Ross again Scarlett Thomas again Morgan Ross again Mila Gonzalez again Ezra Edwards again Henry Reed again Julian Ross",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Henry",
+        "forced_continuation": "Henry Reed Ezra Edwards Julian Ross Sam Carter Mila Gonzalez Scarlett Thomas Morgan Ross Quinn Carson Henry Reed again Julian Ross again Scarlett Thomas again Morgan Ross again Mila Gonzalez again Ezra Edwards again Henry Reed again Julian Ross",
+        "recovered": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "question_idx": 2,
+  "question": "Reflect on events related to subspace antenna failure. Provide a list of all protagonists involved in these events, without describing the events.",
+  "gt_entities": [
+    "Scarlett Thomas",
+    "Henry Reed"
+  ],
+  "free_generation": "Henry Reed\nMila Gonzalez\nLevi Rodriguez",
+  "missing_entities": [
+    "Scarlett Thomas"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Scarlett Thomas",
+      "first_token": {
+        "id": 96056,
+        "str": "Scar",
+        "forced_continuation": "Scarlett Thomas; Levi Rodriguez; Clementine Nasonov; Henry Reed; Zoe Brown; Taden Tuchanovski; Samuel Parker; Mila Gonzalez; Julian Santos; Brooklyn Ross; Carter",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Scarlett",
+        "forced_continuation": "Scarlett Thomas; Levi Rodriguez; Clementine Nasonov; Henry Reed; Zoe Brown; Taden Tuchanovski; Samuel Parker; Mila Gonzalez; Julian Santos; Brooklyn Ross; Carter Stewart",
+        "recovered": true
+      }
+    }
+  ]
+}

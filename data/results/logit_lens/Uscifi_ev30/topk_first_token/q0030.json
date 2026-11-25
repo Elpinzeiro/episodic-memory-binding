@@ -1,0 +1,75 @@
+{
+  "question_idx": 30,
+  "question": "Reflect on April 09, 2226. Describe all the key events that occurred on this date, focusing on what happened rather than who was involved or where it took place.",
+  "GT_entities": [
+    "cryo-pod integrity breach",
+    "subspace antenna failure"
+  ],
+  "ent_A": "cryo-pod integrity breach",
+  "ent_B": "subspace antenna failure",
+  "topk": 8,
+  "top_ids": [
+    62238,
+    501,
+    472,
+    519,
+    16106,
+    19285,
+    60065,
+    2008
+  ],
+  "top_tokens": [
+    {
+      "id": 62238,
+      "str": "cry",
+      "prob": 0.5872390866279602
+    },
+    {
+      "id": 501,
+      "str": "pl",
+      "prob": 0.22640083730220795
+    },
+    {
+      "id": 472,
+      "str": "art",
+      "prob": 0.14847728610038757
+    },
+    {
+      "id": 519,
+      "str": "ant",
+      "prob": 0.02105855755507946
+    },
+    {
+      "id": 16106,
+      "str": " cry",
+      "prob": 0.0018257566262036562
+    },
+    {
+      "id": 19285,
+      "str": "nan",
+      "prob": 0.00126466469373554
+    },
+    {
+      "id": 60065,
+      "str": "matter",
+      "prob": 0.0012067514471709728
+    },
+    {
+      "id": 2008,
+      "str": "sub",
+      "prob": 0.001064954441972077
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 62238,
+    "bare_str": "cry",
+    "lead_id": 16106,
+    "lead_str": " cry"
+  },
+  "first_token_B": {
+    "bare_id": 2008,
+    "bare_str": "sub",
+    "lead_id": 5258,
+    "lead_str": " subs"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "question_idx": 14,
+  "question": "Reflect on May 11, 2026. Describe all the key events that occurred on this date, focusing on what happened rather than who was involved or where it took place.",
+  "GT_entities": [
+    "Theater Performance",
+    "Fashion Show"
+  ],
+  "ent_A": "Theater Performance",
+  "ent_B": "Fashion Show",
+  "topk": 8,
+  "top_ids": [
+    97241,
+    791,
+    35197,
+    63326,
+    98982,
+    31700,
+    37,
+    63507
+  ],
+  "top_tokens": [
+    {
+      "id": 97241,
+      "str": "Fashion",
+      "prob": 0.850114107131958
+    },
+    {
+      "id": 791,
+      "str": "The",
+      "prob": 0.14318257570266724
+    },
+    {
+      "id": 35197,
+      "str": "Tech",
+      "prob": 0.0037565298844128847
+    },
+    {
+      "id": 63326,
+      "str": "Technical",
+      "prob": 0.0010269781341776252
+    },
+    {
+      "id": 98982,
+      "str": "Educ",
+      "prob": 0.000979949370957911
+    },
+    {
+      "id": 31700,
+      "str": " Fashion",
+      "prob": 0.00033866139710880816
+    },
+    {
+      "id": 37,
+      "str": "F",
+      "prob": 9.855609823716804e-05
+    },
+    {
+      "id": 63507,
+      "str": "Technology",
+      "prob": 6.880323780933395e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 791,
+    "bare_str": "The",
+    "lead_id": 38571,
+    "lead_str": " Theater"
+  },
+  "first_token_B": {
+    "bare_id": 97241,
+    "bare_str": "Fashion",
+    "lead_id": 31700,
+    "lead_str": " Fashion"
+  }
+}

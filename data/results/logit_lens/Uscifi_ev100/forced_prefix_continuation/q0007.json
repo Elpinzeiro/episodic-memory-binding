@@ -1,0 +1,44 @@
+{
+  "question_idx": 7,
+  "question": "Recall all events related to vacuum seal deterioration. Provide a list of all dates when these events occurred, without describing the events.",
+  "gt_entities": [
+    "February 27, 2226",
+    "September 03, 2226"
+  ],
+  "free_generation": "July 31, 2225; September 14, 2225",
+  "missing_entities": [
+    "February 27, 2226",
+    "September 03, 2226"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "February 27, 2226",
+      "first_token": {
+        "id": 33877,
+        "str": "February",
+        "forced_continuation": "February 27, 2226; March 03, 2226; July 12, 2226; August 31, 2226; January 25, 2227; February",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "February",
+        "forced_continuation": "February 27, 2226; March 03, 2226; July 12, 2226; August 31, 2226; January 25, 2227; February",
+        "recovered": true
+      }
+    },
+    {
+      "missing_entity": "September 03, 2226",
+      "first_token": {
+        "id": 30649,
+        "str": "September",
+        "forced_continuation": "September 03, 2226",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "September",
+        "forced_continuation": "September 03, 2226",
+        "recovered": true
+      }
+    }
+  ]
+}

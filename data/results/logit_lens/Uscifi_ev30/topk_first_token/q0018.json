@@ -1,0 +1,75 @@
+{
+  "question_idx": 18,
+  "question": "Consider all events involving Samuel Parker at Mercury Twilight Observatory. Provide a list of all dates when these events occurred, without describing the events.",
+  "GT_entities": [
+    "February 27, 2226",
+    "May 11, 2226"
+  ],
+  "ent_A": "February 27, 2226",
+  "ent_B": "May 11, 2226",
+  "topk": 8,
+  "top_ids": [
+    34827,
+    11356,
+    33877,
+    28259,
+    33246,
+    28623,
+    29527,
+    6841
+  ],
+  "top_tokens": [
+    {
+      "id": 34827,
+      "str": "November",
+      "prob": 0.7654476761817932
+    },
+    {
+      "id": 11356,
+      "str": "May",
+      "prob": 0.20601746439933777
+    },
+    {
+      "id": 33877,
+      "str": "February",
+      "prob": 0.014464695937931538
+    },
+    {
+      "id": 28259,
+      "str": "June",
+      "prob": 0.012567144818603992
+    },
+    {
+      "id": 33246,
+      "str": "December",
+      "prob": 0.000518708024173975
+    },
+    {
+      "id": 28623,
+      "str": "March",
+      "prob": 0.00031956672319211066
+    },
+    {
+      "id": 29527,
+      "str": "July",
+      "prob": 0.0002301752829225734
+    },
+    {
+      "id": 6841,
+      "str": " November",
+      "prob": 0.00017648150969762355
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 33877,
+    "bare_str": "February",
+    "lead_id": 7552,
+    "lead_str": " February"
+  },
+  "first_token_B": {
+    "bare_id": 11356,
+    "bare_str": "May",
+    "lead_id": 3297,
+    "lead_str": " May"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "question_idx": 2,
+  "question": "Recall all events related to train derailment. Provide a list of all dates when these events occurred, without describing the events.",
+  "GT_entities": [
+    "October 30, 2026",
+    "September 13, 2025"
+  ],
+  "ent_A": "October 30, 2026",
+  "ent_B": "September 13, 2025",
+  "topk": 8,
+  "top_ids": [
+    33877,
+    30649,
+    31294,
+    7552,
+    29146,
+    11356,
+    28259,
+    6250
+  ],
+  "top_tokens": [
+    {
+      "id": 33877,
+      "str": "February",
+      "prob": 0.9186318516731262
+    },
+    {
+      "id": 30649,
+      "str": "September",
+      "prob": 0.07308590412139893
+    },
+    {
+      "id": 31294,
+      "str": "October",
+      "prob": 0.007583769969642162
+    },
+    {
+      "id": 7552,
+      "str": " February",
+      "prob": 0.00032295589335262775
+    },
+    {
+      "id": 29146,
+      "str": "April",
+      "prob": 0.0002805889234878123
+    },
+    {
+      "id": 11356,
+      "str": "May",
+      "prob": 4.3029707740060985e-05
+    },
+    {
+      "id": 28259,
+      "str": "June",
+      "prob": 1.3539896826841868e-05
+    },
+    {
+      "id": 6250,
+      "str": " September",
+      "prob": 1.3329979992704466e-05
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 31294,
+    "bare_str": "October",
+    "lead_id": 6664,
+    "lead_str": " October"
+  },
+  "first_token_B": {
+    "bare_id": 30649,
+    "bare_str": "September",
+    "lead_id": 6250,
+    "lead_str": " September"
+  }
+}

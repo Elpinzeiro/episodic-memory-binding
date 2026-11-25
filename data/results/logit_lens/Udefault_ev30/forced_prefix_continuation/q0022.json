@@ -1,0 +1,12 @@
+{
+  "question_idx": 22,
+  "question": "Consider the location Statue of Liberty. List all protagonists that have been involved in any events at this location, without mentioning the events themselves.",
+  "gt_entities": [
+    "Henry Reed",
+    "Brooklyn Ross"
+  ],
+  "free_generation": "Brooklyn Ross. Henry Reed. Scarlett Thomas. Mila Gonzalez. Carter Stewart. Levi Rodriguez. Julian Ross. Miley Ross. Scarlett Thomas. Henry Reed. Brooklyn Ross. Carter Stewart. Mila Gonzalez. Julian Ross. Levi Rodriguez. Miley Ross. Brooklyn Ross. Scarlett Thomas. Mila Gonzalez. Carter Stewart. Julian Ross. Levi Rodriguez. Miley Ross. Scarlett Thomas. Carter Stewart. Mila Gonzalez. Julian Ross. Levi Rodriguez. Miley Ross. Brooklyn Ross. Scarlett Thomas. Mila Gonzalez. Carter Stewart. Julian Ross. Levi Rodriguez. Miley Ross. Brooklyn Ross. Scarlett Thomas. Mila Gonzalez. Carter Stewart. Julian Ross. Levi Rodriguez. Miley Ross. Brooklyn Ross. Scarlett Thomas. Mila Gonzalez. Carter Stewart. Julian Ross. Levi Rodriguez. Miley Ross. Brooklyn Ross. Scarlett Thomas. Mila Gonzalez. Carter Stewart. Julian Ross. Levi Rodriguez. Miley Ross. Brooklyn Ross. Scarlett Thomas. Mila Gonzalez. Carter Stewart",
+  "missing_entities": [],
+  "is_binding_failure": false,
+  "forced_prefix_experiments": []
+}

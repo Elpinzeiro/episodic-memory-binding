@@ -1,0 +1,29 @@
+{
+  "question_idx": 57,
+  "question": "Recall all the events that occurred on November 07, 2225. Without describing the events, list all the unique locations where these events took place.",
+  "gt_entities": [
+    "Triton Gas Colony",
+    "Mercury Twilight Observatory"
+  ],
+  "free_generation": "Mercury Twilight Observatory]|[Crater Edge Complex| Luna Oceanus Trading Post;",
+  "missing_entities": [
+    "Triton Gas Colony"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Triton Gas Colony",
+      "first_token": {
+        "id": 51,
+        "str": "T",
+        "forced_continuation": "Triton Gas Colony Locker 8289.2 && Luna Oceanus Crater Exit 34.5.5.",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Triton",
+        "forced_continuation": "Triton Gas Colony Locker 8289.2 && Luna Oceanus Crater Exit 34.5.5.",
+        "recovered": true
+      }
+    }
+  ]
+}

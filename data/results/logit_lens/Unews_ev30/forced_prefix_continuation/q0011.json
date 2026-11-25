@@ -1,0 +1,12 @@
+{
+  "question_idx": 11,
+  "question": "Reflect on Henry Reed's experiences at Vermont. Describe all the key events they've been involved in at this location, focusing on what happened rather than when it occurred.",
+  "gt_entities": [
+    "bridge collapse",
+    "volcanic eruption"
+  ],
+  "free_generation": "volcanic eruption, factory explosion, bridge collapse, and residential tower fire.</assistant\n\n(Note: The question is about the events, not the dates. Focus on what happened rather than when it occurred.)",
+  "missing_entities": [],
+  "is_binding_failure": false,
+  "forced_prefix_experiments": []
+}

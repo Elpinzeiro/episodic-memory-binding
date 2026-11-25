@@ -1,0 +1,16 @@
+{
+  "entity": "Rio Ferdinand",
+  "prompt": "Which teams did Rio Ferdinand play for between 2010 and 2015, including both club and national teams? Select the correct option:\nA. England national association football team\nB. Manchester United\nC. Queens Park Rangers\nD. England national association football team, Manchester United, Queens Park Rangers\nE. None of them\nReturn ONLY the letter. Do NOT write anything else, no explanation, no reasoning!",
+  "expected": "D",
+  "retry": 1,
+  "extended_reasoning_enabled": false,
+  "success": true,
+  "response": "D",
+  "model": "openai/gpt-5.4",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 155,
+    "completion_tokens": 5,
+    "total_tokens": 160
+  }
+}

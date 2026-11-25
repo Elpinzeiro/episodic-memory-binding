@@ -1,0 +1,44 @@
+{
+  "question_idx": 52,
+  "question": "Consider all events involving both Henry Reed and flash flood emergency at Luang Prabang Province. Provide a list of all dates when these events occurred, without describing the events.",
+  "gt_entities": [
+    "September 03, 2026",
+    "June 14, 2025"
+  ],
+  "free_generation": "October 12, 2024 and November 23, 2026.",
+  "missing_entities": [
+    "September 03, 2026",
+    "June 14, 2025"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "September 03, 2026",
+      "first_token": {
+        "id": 30649,
+        "str": "September",
+        "forced_continuation": "September 22, 2026\nOctober 13, 2026\nNovember 05, 2026\nNovember 27, 2026\nDecember 19, 2026\nJanuary",
+        "recovered": false
+      },
+      "first_word": {
+        "str": "September",
+        "forced_continuation": "September 22, 2026\nOctober 13, 2026\nNovember 05, 2026\nNovember 27, 2026\nDecember 19, 2026\nJanuary",
+        "recovered": false
+      }
+    },
+    {
+      "missing_entity": "June 14, 2025",
+      "first_token": {
+        "id": 28259,
+        "str": "June",
+        "forced_continuation": "June 14, 2025\nSeptember 22, 2025\nOctober 30, 2025\nNovember 13, 2025\nDecember 31, 2025\nJanuary",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "June",
+        "forced_continuation": "June 14, 2025\nSeptember 22, 2025\nOctober 30, 2025\nNovember 13, 2025\nDecember 31, 2025\nJanuary",
+        "recovered": true
+      }
+    }
+  ]
+}

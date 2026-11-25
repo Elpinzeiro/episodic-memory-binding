@@ -1,0 +1,11 @@
+[
+  true,
+  [],
+  {
+    "location": true,
+    "date": true,
+    "entity": true,
+    "content": true
+  },
+  "Here is my analysis of the text:\n\n(1) The text takes place at a single location: Griffith Observatory.\n(2) The text takes place on a single day: June 15, 1870.\n(3) The text has a single main character: Sergei Levi (though \"fellow attendees\" are mentioned, Sergei is the focus).\n(4) While there is a main event (fashion show), there is an additional sub-event (discussing design inspiration), but these can be considered part of the same overarching event at that location.\n\n```json\n{\n    \"1\": true,\n    \"2\": true,\n    \"3\": true,\n    \"4\": true\n}\n```"
+]

@@ -1,0 +1,75 @@
+{
+  "question_idx": 33,
+  "question": "Recall the events related to volcanic eruption that occurred on February 27, 2026. List all the locations where these events took place, without describing the events themselves.",
+  "GT_entities": [
+    "Greater Mumbai",
+    "Buenos Aires Province"
+  ],
+  "ent_A": "Greater Mumbai",
+  "ent_B": "Buenos Aires Province",
+  "topk": 8,
+  "top_ids": [
+    43,
+    42466,
+    86755,
+    53,
+    47308,
+    95509,
+    26287,
+    61763
+  ],
+  "top_tokens": [
+    {
+      "id": 43,
+      "str": "L",
+      "prob": 0.5087423324584961
+    },
+    {
+      "id": 42466,
+      "str": "Greater",
+      "prob": 0.13692614436149597
+    },
+    {
+      "id": 86755,
+      "str": "Jimmy",
+      "prob": 0.12083689868450165
+    },
+    {
+      "id": 53,
+      "str": "V",
+      "prob": 0.09862419217824936
+    },
+    {
+      "id": 47308,
+      "str": "Mah",
+      "prob": 0.019119175150990486
+    },
+    {
+      "id": 95509,
+      "str": "Berlin",
+      "prob": 0.01882275938987732
+    },
+    {
+      "id": 26287,
+      "str": "North",
+      "prob": 0.018243642523884773
+    },
+    {
+      "id": 61763,
+      "str": "Jess",
+      "prob": 0.008753394708037376
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 42466,
+    "bare_str": "Greater",
+    "lead_id": 33381,
+    "lead_str": " Greater"
+  },
+  "first_token_B": {
+    "bare_id": 33,
+    "bare_str": "B",
+    "lead_id": 69173,
+    "lead_str": " Buenos"
+  }
+}

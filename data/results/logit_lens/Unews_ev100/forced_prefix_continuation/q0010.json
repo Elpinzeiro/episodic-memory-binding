@@ -1,0 +1,44 @@
+{
+  "question_idx": 10,
+  "question": "Reflect on the experiences of Henry Reed related to residential tower fire. List all the unique locations where these events took place, without mentioning the events themselves.",
+  "gt_entities": [
+    "Luzon Region",
+    "Luang Prabang Province"
+  ],
+  "free_generation": "Sichuan Province volatility test site,Vermont New England countryside.",
+  "missing_entities": [
+    "Luzon Region",
+    "Luang Prabang Province"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "Luzon Region",
+      "first_token": {
+        "id": 43,
+        "str": "L",
+        "forced_continuation": "Luzon Region and Greater Mumbai.",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Luzon",
+        "forced_continuation": "Luzon Region and Greater Mumbai.",
+        "recovered": true
+      }
+    },
+    {
+      "missing_entity": "Luang Prabang Province",
+      "first_token": {
+        "id": 50302,
+        "str": "Lu",
+        "forced_continuation": "Luang Prabang Province. Greater Mumbai.",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "Luang",
+        "forced_continuation": "Luang Prabang Province. Greater Mumbai.",
+        "recovered": true
+      }
+    }
+  ]
+}

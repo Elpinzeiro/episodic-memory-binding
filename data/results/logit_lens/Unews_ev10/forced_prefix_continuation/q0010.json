@@ -1,0 +1,29 @@
+{
+  "question_idx": 10,
+  "question": "Recall all events related to flash flood emergency that occurred at Luang Prabang Province. Provide a list of all dates when these events took place, without describing the events.",
+  "gt_entities": [
+    "June 14, 2025",
+    "February 27, 2026"
+  ],
+  "free_generation": "February 27, 2026\nJune 17, 2026\nSeptember 29, 2026\nNovember 14, 2026\nNovember 17, 2026\nNovember 28, 2026\nDecember 2, 2026\nDecember 14, 2026\nFebruary 27, 2026\nJune 17, 2026\nSeptember 29, 2026\nNovember 14, 2026\nNovember 17, 2026\nNovember 28, 2026\nDecember 2, 2026\nFebruary 27, 2026\nJune 17, 2026\nSeptember 29, 2026\nNovember 14, 2026\nNovember 17, 2026\nNovember 28, 2026\nDecember 2, 2026",
+  "missing_entities": [
+    "June 14, 2025"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "June 14, 2025",
+      "first_token": {
+        "id": 28259,
+        "str": "June",
+        "forced_continuation": "June 14, 2025\nFebruary 23, 2026\nJune 29, 2026\nJuly 3, 2026\nJuly 14, 2026\nJuly",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "June",
+        "forced_continuation": "June 14, 2025\nFebruary 23, 2026\nJune 29, 2026\nJuly 3, 2026\nJuly 14, 2026\nJuly",
+        "recovered": true
+      }
+    }
+  ]
+}

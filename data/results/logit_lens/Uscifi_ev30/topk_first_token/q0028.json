@@ -1,0 +1,75 @@
+{
+  "question_idx": 28,
+  "question": "Recall all the events that occurred on September 13, 2225. Without describing the events, list all the unique locations where these events took place.",
+  "GT_entities": [
+    "Naiad Oceanographic Center",
+    "Luna Shackleton Crater Colony"
+  ],
+  "ent_A": "Naiad Oceanographic Center",
+  "ent_B": "Luna Shackleton Crater Colony",
+  "topk": 8,
+  "top_ids": [
+    43,
+    45,
+    55218,
+    51,
+    2434,
+    50905,
+    87613,
+    27416
+  ],
+  "top_tokens": [
+    {
+      "id": 43,
+      "str": "L",
+      "prob": 0.9994240999221802
+    },
+    {
+      "id": 45,
+      "str": "N",
+      "prob": 0.0003352694329805672
+    },
+    {
+      "id": 55218,
+      "str": "Eu",
+      "prob": 9.756896906765178e-05
+    },
+    {
+      "id": 51,
+      "str": "T",
+      "prob": 4.60883165942505e-05
+    },
+    {
+      "id": 2434,
+      "str": "TR",
+      "prob": 2.2815371266915463e-05
+    },
+    {
+      "id": 50905,
+      "str": " Luna",
+      "prob": 1.9212468032492325e-05
+    },
+    {
+      "id": 87613,
+      "str": "*L",
+      "prob": 1.0610132449073717e-05
+    },
+    {
+      "id": 27416,
+      "str": "NR",
+      "prob": 4.286881448933855e-06
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 45,
+    "bare_str": "N",
+    "lead_id": 452,
+    "lead_str": " N"
+  },
+  "first_token_B": {
+    "bare_id": 43,
+    "bare_str": "L",
+    "lead_id": 50905,
+    "lead_str": " Luna"
+  }
+}

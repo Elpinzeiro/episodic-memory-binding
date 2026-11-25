@@ -1,0 +1,12 @@
+{
+  "question_idx": 8,
+  "question": "Reflect on the experiences of Carter Stewart related to Theater Performance. List all the unique locations where these events took place, without mentioning the events themselves.",
+  "gt_entities": [
+    "One World Trade Center",
+    "Metropolitan Museum of Art"
+  ],
+  "free_generation": "Metropolitan Museum of Art | One World Trade Center | American Museum of Natural History | Trinity Church | High Line | Washington Square Park | Bethpage Black Course | 42 Street | Van Cortlandt Park Zoo | Statue of Liberty | Bethpage Black Course Road | Trinity Church Yard | Metropolitan Museum of Art Main Entrance | High Line at 34th Street | Van Cortlandt Park Forest | Statue of Liberty Museum | Trinity Church Parkin...",
+  "missing_entities": [],
+  "is_binding_failure": false,
+  "forced_prefix_experiments": []
+}

@@ -1,0 +1,29 @@
+{
+  "question_idx": 55,
+  "question": "Consider all events involving both Julian Ross and volcanic eruption at North Dakota. Provide a list of all dates when these events occurred, without describing the events.",
+  "gt_entities": [
+    "March 23, 2024",
+    "September 03, 2026"
+  ],
+  "free_generation": "September 13, 2025\nJanuary 03, 2026\nOctober 27, 2026\nSeptember 22, 2026\nOctober 30, 2026\nNovember 13, 2026\nDecember 31, 2026\nJanuary 16, 2026\nSeptember 03, 2026\nOctober 22, 2026\nSeptember 14, 2026\nOctober 14, 2026\nSeptember 01, 2026\nOctober 11, 2026\nSeptember 25, 2026\nOctober 09, 2026\nSeptember 19, 2026\nOctober 05, 2026\nSeptember 17, 2026\nOctober 28, 2026\nSeptember 10, 2026\nOctober 13, 2026\nSeptember 23, 2026\nOctober 04, 2026\nSeptember 08, 2026\n",
+  "missing_entities": [
+    "March 23, 2024"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "March 23, 2024",
+      "first_token": {
+        "id": 28623,
+        "str": "March",
+        "forced_continuation": "March 23, 2025, September 12, 2024.",
+        "recovered": false
+      },
+      "first_word": {
+        "str": "March",
+        "forced_continuation": "March 23, 2025, September 12, 2024.",
+        "recovered": false
+      }
+    }
+  ]
+}

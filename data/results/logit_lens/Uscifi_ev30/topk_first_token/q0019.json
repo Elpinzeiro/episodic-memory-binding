@@ -1,0 +1,75 @@
+{
+  "question_idx": 19,
+  "question": "Consider all events involving Henry Reed at Naiad Oceanographic Center. Provide a list of all dates when these events occurred, without describing the events.",
+  "GT_entities": [
+    "April 09, 2226",
+    "September 13, 2225"
+  ],
+  "ent_A": "April 09, 2226",
+  "ent_B": "September 13, 2225",
+  "topk": 8,
+  "top_ids": [
+    30649,
+    11356,
+    28623,
+    34827,
+    31294,
+    33877,
+    28259,
+    29146
+  ],
+  "top_tokens": [
+    {
+      "id": 30649,
+      "str": "September",
+      "prob": 0.8038797974586487
+    },
+    {
+      "id": 11356,
+      "str": "May",
+      "prob": 0.16331809759140015
+    },
+    {
+      "id": 28623,
+      "str": "March",
+      "prob": 0.018323782831430435
+    },
+    {
+      "id": 34827,
+      "str": "November",
+      "prob": 0.011830722913146019
+    },
+    {
+      "id": 31294,
+      "str": "October",
+      "prob": 0.0013910721754655242
+    },
+    {
+      "id": 33877,
+      "str": "February",
+      "prob": 0.0005447516450658441
+    },
+    {
+      "id": 28259,
+      "str": "June",
+      "prob": 0.00039236992597579956
+    },
+    {
+      "id": 29146,
+      "str": "April",
+      "prob": 0.0001254089584108442
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 29146,
+    "bare_str": "April",
+    "lead_id": 5936,
+    "lead_str": " April"
+  },
+  "first_token_B": {
+    "bare_id": 30649,
+    "bare_str": "September",
+    "lead_id": 6250,
+    "lead_str": " September"
+  }
+}

@@ -1,0 +1,567 @@
+[
+    {
+      "test_row": "(*, *, *, {bridge collapse})",
+      "match": true,
+      "matched_with": "(*, *, *, bridge collapse)[all]"
+    },
+    {
+      "test_row": "(*, *, *, {residential tower fire})",
+      "match": true,
+      "matched_with": "(*, *, *, residential tower fire)[all]"
+    },
+    {
+      "test_row": "(*, *, *, {volcanic eruption})",
+      "match": true,
+      "matched_with": "(*, *, *, volcanic eruption)[all]"
+    },
+    {
+      "test_row": "(*, *, *, {bridge collapse})",
+      "match": true,
+      "matched_with": "(*, *, *, bridge collapse)[all]"
+    },
+    {
+      "test_row": "(*, *, *, {residential tower fire})",
+      "match": true,
+      "matched_with": "(*, *, *, residential tower fire)[all]"
+    },
+    {
+      "test_row": "(*, *, *, {volcanic eruption})",
+      "match": true,
+      "matched_with": "(*, *, *, volcanic eruption)[all]"
+    },
+    {
+      "test_row": "(*, *, *, {bridge collapse})",
+      "match": true,
+      "matched_with": "(*, *, *, bridge collapse)[all]"
+    },
+    {
+      "test_row": "(*, *, *, {residential tower fire})",
+      "match": true,
+      "matched_with": "(*, *, *, residential tower fire)[all]"
+    },
+    {
+      "test_row": "(*, *, *, {volcanic eruption})",
+      "match": true,
+      "matched_with": "(*, *, *, volcanic eruption)[all]"
+    },
+    {
+      "test_row": "(*, *, *, {factory explosion})",
+      "match": true,
+      "matched_with": "(*, *, *, factory explosion)[all]"
+    },
+    {
+      "test_row": "(*, *, *, {factory explosion})",
+      "match": true,
+      "matched_with": "(*, *, *, factory explosion)[all]"
+    },
+    {
+      "test_row": "(*, *, *, {factory explosion})",
+      "match": true,
+      "matched_with": "(*, *, *, factory explosion)[all]"
+    },
+    {
+      "test_row": "(*, *, *, {flash flood emergency})",
+      "match": true,
+      "matched_with": "(*, *, *, flash flood emergency)[all]"
+    },
+    {
+      "test_row": "(*, *, *, {flash flood emergency})",
+      "match": true,
+      "matched_with": "(*, *, *, flash flood emergency)[all]"
+    },
+    {
+      "test_row": "(*, *, *, {flash flood emergency})",
+      "match": true,
+      "matched_with": "(*, *, *, flash flood emergency)[all]"
+    },
+    {
+      "test_row": "(*, *, {Carter Stewart}, *)",
+      "match": true,
+      "matched_with": "(*, *, Carter Stewart, *)[all]"
+    },
+    {
+      "test_row": "(*, *, {Levi Rodriguez}, *)",
+      "match": true,
+      "matched_with": "(*, *, Levi Rodriguez, *)[all]"
+    },
+    {
+      "test_row": "(*, *, {Mila Gonzalez}, *)",
+      "match": true,
+      "matched_with": "(*, *, Mila Gonzalez, *)[all]"
+    },
+    {
+      "test_row": "(*, *, {Samuel Parker}, *)",
+      "match": true,
+      "matched_with": "(*, *, Samuel Parker, *)[all]"
+    },
+    {
+      "test_row": "(*, *, {Scarlett Thomas}, *)",
+      "match": true,
+      "matched_with": "(*, *, Scarlett Thomas, *)[all]"
+    },
+    {
+      "test_row": "(*, *, {Carter Stewart}, *)",
+      "match": true,
+      "matched_with": "(*, *, Carter Stewart, *)[all]"
+    },
+    {
+      "test_row": "(*, *, {Levi Rodriguez}, *)",
+      "match": true,
+      "matched_with": "(*, *, Levi Rodriguez, *)[all]"
+    },
+    {
+      "test_row": "(*, *, {Mila Gonzalez}, *)",
+      "match": true,
+      "matched_with": "(*, *, Mila Gonzalez, *)[all]"
+    },
+    {
+      "test_row": "(*, *, {Samuel Parker}, *)",
+      "match": true,
+      "matched_with": "(*, *, Samuel Parker, *)[all]"
+    },
+    {
+      "test_row": "(*, *, {Scarlett Thomas}, *)",
+      "match": true,
+      "matched_with": "(*, *, Scarlett Thomas, *)[all]"
+    },
+    {
+      "test_row": "(*, *, {Carter Stewart}, *)",
+      "match": true,
+      "matched_with": "(*, *, Carter Stewart, *)[all]"
+    },
+    {
+      "test_row": "(*, *, {Levi Rodriguez}, *)",
+      "match": true,
+      "matched_with": "(*, *, Levi Rodriguez, *)[all]"
+    },
+    {
+      "test_row": "(*, *, {Mila Gonzalez}, *)",
+      "match": true,
+      "matched_with": "(*, *, Mila Gonzalez, *)[all]"
+    },
+    {
+      "test_row": "(*, *, {Samuel Parker}, *)",
+      "match": true,
+      "matched_with": "(*, *, Samuel Parker, *)[all]"
+    },
+    {
+      "test_row": "(*, *, {Scarlett Thomas}, *)",
+      "match": true,
+      "matched_with": "(*, *, Scarlett Thomas, *)[all]"
+    },
+    {
+      "test_row": "(*, *, {Carter Stewart}, {residential tower fire})",
+      "match": true,
+      "matched_with": "(*, *, Carter Stewart, residential tower fire)[all]"
+    },
+    {
+      "test_row": "(*, *, {Henry Reed}, {flash flood emergency})",
+      "match": true,
+      "matched_with": "(*, *, Henry Reed, flash flood)[all]"
+    },
+    {
+      "test_row": "(*, *, {Levi Rodriguez}, {bridge collapse})",
+      "match": true,
+      "matched_with": "(*, *, Levi Rodriguez, bridge collapse)[all]"
+    },
+    {
+      "test_row": "(*, *, {Carter Stewart}, {residential tower fire})",
+      "match": true,
+      "matched_with": "(*, *, Carter Stewart, residential tower fire)[all]"
+    },
+    {
+      "test_row": "(*, *, {Henry Reed}, {flash flood emergency})",
+      "match": true,
+      "matched_with": "(*, *, Henry Reed, flash flood)[all]"
+    },
+    {
+      "test_row": "(*, *, {Levi Rodriguez}, {bridge collapse})",
+      "match": true,
+      "matched_with": "(*, *, Levi Rodriguez, bridge collapse)[all]"
+    },
+    {
+      "test_row": "(*, *, {Henry Reed}, *)",
+      "match": true,
+      "matched_with": "(*, *, Henry Reed, *)[all]"
+    },
+    {
+      "test_row": "(*, *, {Henry Reed}, *)",
+      "match": true,
+      "matched_with": "(*, *, Henry Reed, *)[all]"
+    },
+    {
+      "test_row": "(*, *, {Henry Reed}, *)",
+      "match": true,
+      "matched_with": "(*, *, Henry Reed, *)[all]"
+    },
+    {
+      "test_row": "(*, *, {Henry Reed}, {volcanic eruption})",
+      "match": true,
+      "matched_with": "(*, *, Henry Reed, volcanic eruption)[all]"
+    },
+    {
+      "test_row": "(*, *, {Henry Reed}, {volcanic eruption})",
+      "match": true,
+      "matched_with": "(*, *, Henry Reed, volcanic eruption)[all]"
+    },
+    {
+      "test_row": "(*, {Greater Mumbai}, *, *)",
+      "match": true,
+      "matched_with": "(*, Greater Mumbai, *, *)[all]"
+    },
+    {
+      "test_row": "(*, {Luzon Region}, *, *)",
+      "match": true,
+      "matched_with": "(*, Luzon Region, *, *)[all]"
+    },
+    {
+      "test_row": "(*, {Rajasthan}, *, *)",
+      "match": true,
+      "matched_with": "(*, Rajasthan, *, *)[all]"
+    },
+    {
+      "test_row": "(*, {Sichuan Province}, *, *)",
+      "match": true,
+      "matched_with": "(*, Sichuan Province, *, *)[all]"
+    },
+    {
+      "test_row": "(*, {Greater Mumbai}, *, *)",
+      "match": true,
+      "matched_with": "(*, Greater Mumbai, *, *)[all]"
+    },
+    {
+      "test_row": "(*, {Luzon Region}, *, *)",
+      "match": true,
+      "matched_with": "(*, Luzon Region, *, *)[all]"
+    },
+    {
+      "test_row": "(*, {Rajasthan}, *, *)",
+      "match": true,
+      "matched_with": "(*, Rajasthan, *, *)[all]"
+    },
+    {
+      "test_row": "(*, {Sichuan Province}, *, *)",
+      "match": true,
+      "matched_with": "(*, Sichuan Province, *, *)[all]"
+    },
+    {
+      "test_row": "(*, {Greater Mumbai}, *, *)",
+      "match": true,
+      "matched_with": "(*, Greater Mumbai, *, *)[all]"
+    },
+    {
+      "test_row": "(*, {Luzon Region}, *, *)",
+      "match": true,
+      "matched_with": "(*, Luzon Region, *, *)[all]"
+    },
+    {
+      "test_row": "(*, {Rajasthan}, *, *)",
+      "match": true,
+      "matched_with": "(*, Rajasthan, *, *)[all]"
+    },
+    {
+      "test_row": "(*, {Sichuan Province}, *, *)",
+      "match": true,
+      "matched_with": "(*, Sichuan Province, *, *)[all]"
+    },
+    {
+      "test_row": "(*, {Greater Mumbai}, {Samuel Parker}, *)",
+      "match": true,
+      "matched_with": "(*, Greater Mumbai, Samuel Parker, *)[all]"
+    },
+    {
+      "test_row": "(*, {Rajasthan}, {Levi Rodriguez}, *)",
+      "match": true,
+      "matched_with": "(*, Rajasthan, Levi Rodriguez, *)[all]"
+    },
+    {
+      "test_row": "(*, {Sichuan Province}, {Henry Reed}, *)",
+      "match": true,
+      "matched_with": "(*, Sichuan Province, Henry Reed, *)[all]"
+    },
+    {
+      "test_row": "(*, {Vermont}, {Henry Reed}, *)",
+      "match": true,
+      "matched_with": "(*, Vermont, Henry Reed, *)[all]"
+    },
+    {
+      "test_row": "(*, {Greater Mumbai}, {Samuel Parker}, *)",
+      "match": true,
+      "matched_with": "(*, Greater Mumbai, Samuel Parker, *)[all]"
+    },
+    {
+      "test_row": "(*, {Rajasthan}, {Levi Rodriguez}, *)",
+      "match": true,
+      "matched_with": "(*, Rajasthan, Levi Rodriguez, *)[all]"
+    },
+    {
+      "test_row": "(*, {Sichuan Province}, {Henry Reed}, *)",
+      "match": true,
+      "matched_with": "(*, Sichuan Province, Henry Reed, *)[all]"
+    },
+    {
+      "test_row": "(*, {Vermont}, {Henry Reed}, *)",
+      "match": true,
+      "matched_with": "(*, Vermont, Henry Reed, *)[all]"
+    },
+    {
+      "test_row": "(*, {Luang Prabang Province}, *, *)",
+      "match": true,
+      "matched_with": "(*, Luang Prabang Province, *, *)[all]"
+    },
+    {
+      "test_row": "(*, {Vermont}, *, *)",
+      "match": true,
+      "matched_with": "(*, Vermont, *, *)[all]"
+    },
+    {
+      "test_row": "(*, {Luang Prabang Province}, *, *)",
+      "match": true,
+      "matched_with": "(*, Luang Prabang Province, *, *)[all]"
+    },
+    {
+      "test_row": "(*, {Vermont}, *, *)",
+      "match": true,
+      "matched_with": "(*, Vermont, *, *)[all]"
+    },
+    {
+      "test_row": "(*, {Luang Prabang Province}, *, *)",
+      "match": true,
+      "matched_with": "(*, Luang Prabang Province, *, *)[all]"
+    },
+    {
+      "test_row": "(*, {Vermont}, *, *)",
+      "match": true,
+      "matched_with": "(*, Vermont, *, *)[all]"
+    },
+    {
+      "test_row": "(*, {Luang Prabang Province}, *, {flash flood emergency})",
+      "match": true,
+      "matched_with": "(*, Luang Prabang Province, *, flash flood emergency)[all]"
+    },
+    {
+      "test_row": "(*, {Vermont}, *, {bridge collapse})",
+      "match": true,
+      "matched_with": "(*, Vermont, *, bridge collapse)[all]"
+    },
+    {
+      "test_row": "(*, {Luang Prabang Province}, *, {flash flood emergency})",
+      "match": true,
+      "matched_with": "(*, Luang Prabang Province, *, flash flood emergency)[all]"
+    },
+    {
+      "test_row": "(*, {Vermont}, *, {bridge collapse})",
+      "match": true,
+      "matched_with": "(*, Vermont, *, bridge collapse)[all]"
+    },
+    {
+      "test_row": "(*, {Luang Prabang Province}, *, {residential tower fire})",
+      "match": true,
+      "matched_with": "(*, Luang Prabang Province, *, residential tower fire)[all]"
+    },
+    {
+      "test_row": "(*, {Luzon Region}, *, {bridge collapse})",
+      "match": true,
+      "matched_with": "(*, Luzon Region, *, bridge collapse)[all]"
+    },
+    {
+      "test_row": "(*, {Luang Prabang Province}, *, {residential tower fire})",
+      "match": true,
+      "matched_with": "(*, Luang Prabang Province, *, residential tower fire)[all]"
+    },
+    {
+      "test_row": "(*, {Luzon Region}, *, {bridge collapse})",
+      "match": true,
+      "matched_with": "(*, Luzon Region, *, bridge collapse)[all]"
+    },
+    {
+      "test_row": "(*, {Luang Prabang Province}, {Henry Reed}, *)",
+      "match": true,
+      "matched_with": "(*, Luang Prabang Province, Henry Reed, *)[all]"
+    },
+    {
+      "test_row": "(*, {Luang Prabang Province}, {Henry Reed}, *)",
+      "match": true,
+      "matched_with": "(*, Luang Prabang Province, Henry Reed, *)[all]"
+    },
+    {
+      "test_row": "(*, {Luang Prabang Province}, {Henry Reed}, {flash flood emergency})",
+      "match": true,
+      "matched_with": "(*, Luang Prabang Province, Henry Reed, flash flood)[all]"
+    },
+    {
+      "test_row": "(*, {North Dakota}, *, *)",
+      "match": true,
+      "matched_with": "(*, North Dakota, *, *)[all]"
+    },
+    {
+      "test_row": "(*, {North Dakota}, *, *)",
+      "match": true,
+      "matched_with": "(*, North Dakota, *, *)[all]"
+    },
+    {
+      "test_row": "(*, {North Dakota}, *, *)",
+      "match": true,
+      "matched_with": "(*, North Dakota, *, *)[all]"
+    },
+    {
+      "test_row": "({April 09, 2026}, *, *, *)",
+      "match": true,
+      "matched_with": "(April 09, 2026, *, *, *)[all]"
+    },
+    {
+      "test_row": "({September 13, 2025}, *, *, *)",
+      "match": true,
+      "matched_with": "(September 13, 2025, *, *, *)[all]"
+    },
+    {
+      "test_row": "({September 22, 2026}, *, *, *)",
+      "match": true,
+      "matched_with": "(September 22, 2026, *, *, *)[all]"
+    },
+    {
+      "test_row": "({April 09, 2026}, *, *, *)",
+      "match": true,
+      "matched_with": "(April 09, 2026, *, *, *)[all]"
+    },
+    {
+      "test_row": "({September 13, 2025}, *, *, *)",
+      "match": true,
+      "matched_with": "(September 13, 2025, *, *, *)[all]"
+    },
+    {
+      "test_row": "({September 22, 2026}, *, *, *)",
+      "match": true,
+      "matched_with": "(September 22, 2026, *, *, *)[all]"
+    },
+    {
+      "test_row": "({April 09, 2026}, *, *, *)",
+      "match": true,
+      "matched_with": "(April 09, 2026, *, *, *)[all]"
+    },
+    {
+      "test_row": "({September 13, 2025}, *, *, *)",
+      "match": true,
+      "matched_with": "(September 13, 2025, *, *, *)[all]"
+    },
+    {
+      "test_row": "({September 22, 2026}, *, *, *)",
+      "match": true,
+      "matched_with": "(September 22, 2026, *, *, *)[all]"
+    },
+    {
+      "test_row": "({February 27, 2026}, *, *, *)",
+      "match": true,
+      "matched_with": "(February 27, 2026, *, *, *)[all]"
+    },
+    {
+      "test_row": "({June 14, 2025}, *, *, *)",
+      "match": true,
+      "matched_with": "(June 14, 2025, *, *, *)[all]"
+    },
+    {
+      "test_row": "({March 23, 2024}, *, *, *)",
+      "match": true,
+      "matched_with": "(March 23, 2024, *, *, *)[all]"
+    },
+    {
+      "test_row": "({May 11, 2026}, *, *, *)",
+      "match": true,
+      "matched_with": "(May 11, 2026, *, *, *)[all]"
+    },
+    {
+      "test_row": "({November 13, 2026}, *, *, *)",
+      "match": true,
+      "matched_with": "(November 13, 2026, *, *, *)[all]"
+    },
+    {
+      "test_row": "({February 27, 2026}, *, *, *)",
+      "match": true,
+      "matched_with": "(February 27, 2026, *, *, *)[all]"
+    },
+    {
+      "test_row": "({June 14, 2025}, *, *, *)",
+      "match": true,
+      "matched_with": "(June 14, 2025, *, *, *)[all]"
+    },
+    {
+      "test_row": "({March 23, 2024}, *, *, *)",
+      "match": true,
+      "matched_with": "(March 23, 2024, *, *, *)[all]"
+    },
+    {
+      "test_row": "({May 11, 2026}, *, *, *)",
+      "match": true,
+      "matched_with": "(May 11, 2026, *, *, *)[all]"
+    },
+    {
+      "test_row": "({November 13, 2026}, *, *, *)",
+      "match": true,
+      "matched_with": "(November 13, 2026, *, *, *)[all]"
+    },
+    {
+      "test_row": "({February 27, 2026}, *, *, *)",
+      "match": true,
+      "matched_with": "(February 27, 2026, *, *, *)[all]"
+    },
+    {
+      "test_row": "({June 14, 2025}, *, *, *)",
+      "match": true,
+      "matched_with": "(June 14, 2025, *, *, *)[all]"
+    },
+    {
+      "test_row": "({March 23, 2024}, *, *, *)",
+      "match": true,
+      "matched_with": "(March 23, 2024, *, *, *)[all]"
+    },
+    {
+      "test_row": "({May 11, 2026}, *, *, *)",
+      "match": true,
+      "matched_with": "(May 11, 2026, *, *, *)[all]"
+    },
+    {
+      "test_row": "({November 13, 2026}, *, *, *)",
+      "match": true,
+      "matched_with": "(November 13, 2026, *, *, *)[all]"
+    },
+    {
+      "test_row": "({February 27, 2026}, *, *, {volcanic eruption})",
+      "match": true,
+      "matched_with": "(February 27, 2026, *, *, volcanic eruption)[all]"
+    },
+    {
+      "test_row": "({June 14, 2025}, *, *, {residential tower fire})",
+      "match": true,
+      "matched_with": "(June 14, 2025, *, *, residential tower fire)[all]"
+    },
+    {
+      "test_row": "({May 11, 2026}, *, *, {bridge collapse})",
+      "match": true,
+      "matched_with": "(May 11, 2026, *, *, bridge collapse)[all]"
+    },
+    {
+      "test_row": "({November 13, 2026}, *, *, {bridge collapse})",
+      "match": false,
+      "matched_with": null
+    },
+    {
+      "test_row": "({February 27, 2026}, *, *, {volcanic eruption})",
+      "match": true,
+      "matched_with": "(February 27, 2026, *, *, volcanic eruption)[all]"
+    },
+    {
+      "test_row": "({June 14, 2025}, *, *, {residential tower fire})",
+      "match": true,
+      "matched_with": "(June 14, 2025, *, *, residential tower fire)[all]"
+    },
+    {
+      "test_row": "({May 11, 2026}, *, *, {bridge collapse})",
+      "match": true,
+      "matched_with": "(May 11, 2026, *, *, bridge collapse)[all]"
+    },
+    {
+      "test_row": "({November 13, 2026}, *, *, {bridge collapse})",
+      "match": false,
+      "matched_with": null
+    }
+  ]

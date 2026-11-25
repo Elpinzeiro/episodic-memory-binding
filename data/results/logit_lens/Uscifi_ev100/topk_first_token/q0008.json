@@ -1,0 +1,75 @@
+{
+  "question_idx": 8,
+  "question": "Reflect on the experiences of Carter Stewart related to antimatter cascade. List all the unique locations where these events took place, without mentioning the events themselves.",
+  "GT_entities": [
+    "Luna Shackleton Crater Colony",
+    "Luna Oceanus Trading Post"
+  ],
+  "ent_A": "Luna Shackleton Crater Colony",
+  "ent_B": "Luna Oceanus Trading Post",
+  "topk": 8,
+  "top_ids": [
+    43,
+    51,
+    50905,
+    93555,
+    54324,
+    95240,
+    51316,
+    87613
+  ],
+  "top_tokens": [
+    {
+      "id": 43,
+      "str": "L",
+      "prob": 0.9965693950653076
+    },
+    {
+      "id": 51,
+      "str": "T",
+      "prob": 0.0034296002704650164
+    },
+    {
+      "id": 50905,
+      "str": " Luna",
+      "prob": 5.02617467645905e-07
+    },
+    {
+      "id": 93555,
+      "str": "Tro",
+      "prob": 1.657456323300721e-07
+    },
+    {
+      "id": 54324,
+      "str": "Lon",
+      "prob": 1.0052981735952926e-07
+    },
+    {
+      "id": 95240,
+      "str": "Titan",
+      "prob": 4.3918223724404015e-08
+    },
+    {
+      "id": 51316,
+      "str": "LN",
+      "prob": 4.061771718966156e-08
+    },
+    {
+      "id": 87613,
+      "str": "*L",
+      "prob": 3.263725290025832e-08
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 43,
+    "bare_str": "L",
+    "lead_id": 50905,
+    "lead_str": " Luna"
+  },
+  "first_token_B": {
+    "bare_id": 43,
+    "bare_str": "L",
+    "lead_id": 50905,
+    "lead_str": " Luna"
+  }
+}

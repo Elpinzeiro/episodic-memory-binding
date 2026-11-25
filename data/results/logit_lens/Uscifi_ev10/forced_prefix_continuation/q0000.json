@@ -1,0 +1,29 @@
+{
+  "question_idx": 0,
+  "question": "Recall all events related to plasma conduit rupture. Provide a list of all dates when these events occurred, without describing the events.",
+  "gt_entities": [
+    "June 14, 2225",
+    "February 27, 2226"
+  ],
+  "free_generation": "February 27, 2226; June 14, 2226; July 18, 2226; August 2, 2226; September 16, 2226; November 20, 2226; December 15, 2226; January 6, 2227; February 11, 2227; March 25, 2227; May 30, 2227; June 21, 2227; July 3, 2227; July 21, 2227; August 9, 2227; September 1, 2227; October 13, 2227; November 5, 2227; December 2, 2227; January 11, 2228; February 5, 2228; March 14, 2228; April 9, 2228; May 28, 2228; June 17, 2228;",
+  "missing_entities": [
+    "June 14, 2225"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "June 14, 2225",
+      "first_token": {
+        "id": 28259,
+        "str": "June",
+        "forced_continuation": "June 14, 2225; May 2, 2226; May 23, 2226; June 6, 2226; July 22, 2226; August",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "June",
+        "forced_continuation": "June 14, 2225; May 2, 2226; May 23, 2226; June 6, 2226; July 22, 2226; August",
+        "recovered": true
+      }
+    }
+  ]
+}

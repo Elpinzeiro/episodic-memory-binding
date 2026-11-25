@@ -1,0 +1,13 @@
+[
+  false,
+  [
+    "content"
+  ],
+  {
+    "location": true,
+    "date": true,
+    "entity": true,
+    "content": false
+  },
+  "Here is my analysis of the text:\n\n(1) The text takes place at Brooklyn Botanic Garden, which is a single geographical location.\n(2) The text takes place on November 13, 2044, which is a single day.\n(3) The main character is Sebastian Wright, though \"the curious crew\" is also mentioned as a secondary group.\n(4) There are two events described: attending the theater performance and explaining backstage operations to the crew. These are two distinct events happening at that location that day.\n\n```json\n{\n    \"1\": true,\n    \"2\": true,\n    \"3\": true,\n    \"4\": false\n}\n```"
+]

@@ -1,0 +1,75 @@
+{
+  "question_idx": 3,
+  "question": "Consider all events that Henry Reed has been involved in. List all the locations where these events took place, without mentioning the events themselves.",
+  "GT_entities": [
+    "Washington Square Park",
+    "Metropolitan Museum of Art"
+  ],
+  "ent_A": "Washington Square Park",
+  "ent_B": "Metropolitan Museum of Art",
+  "topk": 8,
+  "top_ids": [
+    39231,
+    12243,
+    35773,
+    6652,
+    5744,
+    16257,
+    94771,
+    45878
+  ],
+  "top_tokens": [
+    {
+      "id": 39231,
+      "str": "Washington",
+      "prob": 0.9781343340873718
+    },
+    {
+      "id": 12243,
+      "str": "High",
+      "prob": 0.019985798746347427
+    },
+    {
+      "id": 35773,
+      "str": "Met",
+      "prob": 0.0014477664371952415
+    },
+    {
+      "id": 6652,
+      "str": " Washington",
+      "prob": 0.0002151912631234154
+    },
+    {
+      "id": 5744,
+      "str": "DC",
+      "prob": 8.04111041361466e-05
+    },
+    {
+      "id": 16257,
+      "str": "Stat",
+      "prob": 7.321514567593113e-05
+    },
+    {
+      "id": 94771,
+      "str": " washington",
+      "prob": 1.5346728105214424e-05
+    },
+    {
+      "id": 45878,
+      "str": " Metropolitan",
+      "prob": 8.882005204213783e-06
+    }
+  ],
+  "first_token_A": {
+    "bare_id": 39231,
+    "bare_str": "Washington",
+    "lead_id": 6652,
+    "lead_str": " Washington"
+  },
+  "first_token_B": {
+    "bare_id": 35773,
+    "bare_str": "Met",
+    "lead_id": 45878,
+    "lead_str": " Metropolitan"
+  }
+}

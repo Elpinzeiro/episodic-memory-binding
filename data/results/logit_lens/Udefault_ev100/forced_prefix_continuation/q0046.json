@@ -1,0 +1,44 @@
+{
+  "question_idx": 46,
+  "question": "Consider all events involving Carter Stewart at American Museum of Natural History. Provide a list of all dates when these events occurred, without describing the events.",
+  "gt_entities": [
+    "June 14, 2025",
+    "July 13, 2024"
+  ],
+  "free_generation": "16/11/2026 23/10/2026 02/11/2026 30/10/2026 05/11/2026 31/10/2026 21/10/2026 18/11/2026 04/11/2026 25/10/2026 15/11/2026 20/10/2026 19/11/2026 22/10/2026 12/11/2026 14/11/2026 06/11/2026 27/10/2026 11/11/2026 28/10/2026 13/11/2026 17/11/2026 24/10/2026 03/11/2026 26/10/2026 10/11/2026 07/11/2026 25/11/2026 01/11/",
+  "missing_entities": [
+    "June 14, 2025",
+    "July 13, 2024"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "June 14, 2025",
+      "first_token": {
+        "id": 28259,
+        "str": "June",
+        "forced_continuation": "June 14, 2025",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "June",
+        "forced_continuation": "June 14, 2025",
+        "recovered": true
+      }
+    },
+    {
+      "missing_entity": "July 13, 2024",
+      "first_token": {
+        "id": 29527,
+        "str": "July",
+        "forced_continuation": "July 31, 2025, January 03, 2026",
+        "recovered": false
+      },
+      "first_word": {
+        "str": "July",
+        "forced_continuation": "July 31, 2025, January 03, 2026",
+        "recovered": false
+      }
+    }
+  ]
+}

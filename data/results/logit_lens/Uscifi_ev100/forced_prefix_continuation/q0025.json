@@ -1,0 +1,29 @@
+{
+  "question_idx": 25,
+  "question": "Think about Maya Smith's experiences. Describe all the key events they've been involved in, focusing on what happened rather than when or where it occurred.",
+  "gt_entities": [
+    "cryo-pod integrity breach",
+    "subspace antenna failure"
+  ],
+  "free_generation": "cryo-pod integrity breach/***/Maya Smith*/cryo-failure*/cryo-pod integrity breach*/Luna Oceanus Trading Post*/antimatter cascade*/fusion core breach*/Eclipse*/Luna Oceanus Trading Post*/cryo-pod integrity breach*/cryo-failure*/cryo-pod integrity breach*/Mercury Twilight Observatory*/antimatter cascade*/fusion core breach*/Eclipse*/Luna Oceanus Trading Post*/cryo-pod integrity breach*/cryo-failure*/cryo-pod integrity breach*/cryo-pod integrity breach*/cryo-failure*/cryo-pod integrity breach*/cryo-failure*/cryo-pod integrity breach*/cryo-failure*/cryo-pod integrity breach*/cryo-failure*/cryo-pod integrity breach*/cryo-failure*/cryo-pod integrity breach*/cryo-failure*/cryo-pod integrity breach*/cryo-failure*/cryo-pod integrity",
+  "missing_entities": [
+    "subspace antenna failure"
+  ],
+  "is_binding_failure": true,
+  "forced_prefix_experiments": [
+    {
+      "missing_entity": "subspace antenna failure",
+      "first_token": {
+        "id": 2008,
+        "str": "sub",
+        "forced_continuation": "subspace antenna failure\ncruise missile launch\nMaya's deathiversary memorial service\nLuna Shackleton Crater Colony life support alarm\nArthur Jackson's death at Luna Shackleton Crater Colony\n",
+        "recovered": true
+      },
+      "first_word": {
+        "str": "subspace",
+        "forced_continuation": "subspace antenna failure\ncruise missile launch\nMaya's deathiversary memorial service\nLuna Shackleton Crater Colony life support alarm\nArthur Jackson's death at Luna Shackleton Crater Colony\nL",
+        "recovered": true
+      }
+    }
+  ]
+}

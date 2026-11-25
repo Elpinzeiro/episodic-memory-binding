@@ -1,0 +1,12 @@
+{
+  "question_idx": 64,
+  "question": "Recall all the events that occurred on September 27, 2025. Without describing the events, list all the unique locations where these events took place.",
+  "gt_entities": [
+    "High Line",
+    "American Museum of Natural History"
+  ],
+  "free_generation": "High Line Elevated Park\nAmerican Museum of Natural History\nBethune Park\nOne World Trade Center\nTrinity Churchyard\nMetropolitan Museum of Art\nStatue of Liberty\nBrooklyn Museum\nWashington Square Park\nVan Cortlandt Park\nQueensboro Bridge\nRockefeller Center\nBethesda Fountain\nMetropolitan Theatre\nTimes Square\nStaten Island Ferry\nHigh Line Little Red Statue\nVan Cortlandt House Museum\nOne World Trade Center Rooftop\nBrooklyn Bridge\nCentral Park Zoo\nStatue of Liberty Museum\nBethpage Black Course\nMetropolitan Opera House\nWashington Square Arch\nVan Cortlandt Nature Center\nQueensboro Bridge Sidewalk\nTimes Square New Year's Eve Stage\nStaten Island Ferry Deck\nHigh Line Northern Terminus\nVan Cortlandt Park Golf Driving Range\nOne World Trade Center Atrium\nBrooklyn Museum Sculpture Garden\nCentral Park Bethesda Fountain\nMetropolitan Museum of Art Steps\nWashington Square Park Fountain\n",
+  "missing_entities": [],
+  "is_binding_failure": false,
+  "forced_prefix_experiments": []
+}

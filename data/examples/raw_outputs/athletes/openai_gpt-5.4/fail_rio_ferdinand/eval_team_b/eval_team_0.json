@@ -1,0 +1,13 @@
+{
+  "prompt": "Which team did Rio Ferdinand play for in 2010?",
+  "expected": "Manchester United F.C.",
+  "response": "In 2010, Rio Ferdinand played for **Manchester United**.",
+  "evaluation": {
+    "id": 0,
+    "identified_items": [
+      "Manchester United"
+    ],
+    "correct": true,
+    "explanation": "Matches expected answer exactly"
+  }
+}
