@@ -6,9 +6,11 @@
 
 Francesco Mantovani ⋅ Alberto Eusebio ⋅ Alexis Huet ⋅ Giulio Franzese ⋅ Pietro Michiardi ⋅ Dario Rossi ⋅ Zied Ben Houidi
 
+<sub>Corresponding authors: <a href="mailto:mantovani.francesco@huawei.com">mantovani.francesco@huawei.com</a>, <a href="mailto:zied.ben.houidi@huawei.com">zied.ben.houidi@huawei.com</a></sub>
+
 **Accepted at NeurIPS 2026**
 
-[![arXiv](https://img.shields.io/badge/arXiv-coming_soon-b31b1b.svg)](#) [![Dataset](https://img.shields.io/badge/🤗_Dataset-do--llms--bind--episodes-orange.svg)](https://huggingface.co/datasets/FMantovani/do-llms-bind-episodes) [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE) [![NeurIPS 2026](https://img.shields.io/badge/NeurIPS-2026-4b44ce.svg)](https://neurips.cc/Conferences/2026)
+[![Paper](https://img.shields.io/badge/Paper-PDF-blue.svg)](Do_LLMs_Bind_Episodes.pdf) [![arXiv](https://img.shields.io/badge/arXiv-coming_soon-b31b1b.svg)](#) [![Dataset](https://img.shields.io/badge/🤗_Dataset-do--llms--bind--episodes-orange.svg)](https://huggingface.co/datasets/FMantovani/do-llms-bind-episodes) [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE) [![NeurIPS 2026](https://img.shields.io/badge/NeurIPS-2026-4b44ce.svg)](https://neurips.cc/Conferences/2026)
 
 #### A benchmark and controlled framework for measuring whether LLMs can retrieve all the episodes they know that share a common cue.
 
